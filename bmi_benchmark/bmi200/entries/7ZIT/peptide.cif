@@ -1,0 +1,158 @@
+data_7ZIT
+_entry.id 7ZIT
+
+_cell.entry_id 7ZIT
+_cell.length_a 72.18
+_cell.length_b 83.517
+_cell.length_c 111.356
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+
+_symmetry.entry_id 7ZIT
+_symmetry.space_group_name_H-M 'P 21 21 21'
+_symmetry.Int_Tables_number 19
+
+loop_
+_entity.id
+_entity.type
+D polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+D polypeptide(L) D ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ARG .
+ASN .
+GLY .
+PRO .
+SEP .
+SER .
+THR .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+D D
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.pdbx_ptnr1_label_alt_id
+_struct_conn.ptnr1_auth_asym_id
+_struct_conn.ptnr1_auth_seq_id
+_struct_conn.pdbx_ptnr1_PDB_ins_code
+_struct_conn.ptnr1_symmetry
+_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_ptnr2_label_alt_id
+_struct_conn.ptnr2_auth_asym_id
+_struct_conn.ptnr2_auth_seq_id
+_struct_conn.pdbx_ptnr2_PDB_ins_code
+_struct_conn.ptnr2_symmetry
+_struct_conn.details
+_struct_conn.pdbx_dist_value
+covale3 covale D ASN 3 C ? D 196 ? 1_555 D SEP 4 N ? D 197 ? 1_555 ? 1.3319
+covale4 covale D SEP 4 C ? D 197 ? 1_555 D THR 5 N ? D 198 ? 1_555 ? 1.3336
+
+loop_
+_struct_conn_type.id
+covale
+
+loop_
+_atom_type.symbol
+C
+N
+O
+P
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . SER D D 1 ? 16.47201 -10.678 -2.27388 1 42.2945 ? 194 D 1
+ATOM 2 C CA . SER D D 1 ? 17.04883 -9.389 -1.91053 1 40.7654 ? 194 D 1
+ATOM 3 C C . SER D D 1 ? 17.55143 -9.38448 -0.46325 1 36.2833 ? 194 D 1
+ATOM 4 O O . SER D D 1 ? 16.93294 -9.99276 0.41165 1 33.6146 ? 194 D 1
+ATOM 5 C CB . SER D D 1 ? 16.01785 -8.27809 -2.11547 1 43.0052 ? 194 D 1
+ATOM 6 O OG . SER D D 1 ? 16.17881 -7.25455 -1.1531 1 50.406 ? 194 D 1
+ATOM 7 N N . ARG D D 2 ? 18.66851 -8.69923 -0.2171 1 30.8774 ? 195 D 1
+ATOM 8 C CA . ARG D D 2 ? 19.25942 -8.68282 1.11475 1 30.301 ? 195 D 1
+ATOM 9 C C . ARG D D 2 ? 18.29731 -8.05535 2.12438 1 31.3327 ? 195 D 1
+ATOM 10 O O . ARG D D 2 ? 17.36869 -7.32195 1.77517 1 30.38 ? 195 D 1
+ATOM 11 C CB . ARG D D 2 ? 20.59694 -7.93899 1.10205 1 26.2242 ? 195 D 1
+ATOM 12 C CG . ARG D D 2 ? 20.51269 -6.46849 1.4777 1 27.8955 ? 195 D 1
+ATOM 13 C CD . ARG D D 2 ? 19.81582 -5.62201 0.40385 1 28.5666 ? 195 D 1
+ATOM 14 N NE . ARG D D 2 ? 19.89019 -4.20391 0.74504 1 30.0826 ? 195 D 1
+ATOM 15 C CZ . ARG D D 2 ? 19.08939 -3.60201 1.61669 1 28.406 ? 195 D 1
+ATOM 16 N NH1 . ARG D D 2 ? 18.09739 -4.24928 2.20619 1 27.527 ? 195 D 1
+ATOM 17 N NH2 . ARG D D 2 ? 19.27124 -2.31286 1.88331 1 28.9272 ? 195 D 1
+ATOM 18 N N . ASN D D 3 ? 18.51275 -8.37288 3.39403 1 27.5165 ? 196 D 1
+ATOM 19 C CA . ASN D D 3 ? 17.62651 -7.86618 4.43497 1 25.1793 ? 196 D 1
+ATOM 20 C C . ASN D D 3 ? 18.34394 -6.91644 5.39231 1 25.2688 ? 196 D 1
+ATOM 21 O O . ASN D D 3 ? 19.47617 -7.17506 5.79711 1 25.4004 ? 196 D 1
+ATOM 22 C CB . ASN D D 3 ? 17.02718 -9.03727 5.21937 1 29.1193 ? 196 D 1
+ATOM 23 C CG . ASN D D 3 ? 15.87001 -9.69428 4.4856 1 32.317 ? 196 D 1
+ATOM 24 O OD1 . ASN D D 3 ? 16.07521 -10.61802 3.71118 1 34.6594 ? 196 D 1
+ATOM 25 N ND2 . ASN D D 3 ? 14.64648 -9.21035 4.72211 1 34.7252 ? 196 D 1
+HETATM 26 N N . SEP D D 4 ? 17.66885 -5.83039 5.76466 1 22.8843 ? 197 D 1
+HETATM 27 C CA . SEP D D 4 ? 18.07356 -5.0233 6.91155 1 22.8448 ? 197 D 1
+HETATM 28 C CB . SEP D D 4 ? 18.18823 -3.54154 6.55144 1 22.7659 ? 197 D 1
+HETATM 29 O OG . SEP D D 4 ? 17.00511 -3.14973 5.89671 1 23.6107 ? 197 D 1
+HETATM 30 C C . SEP D D 4 ? 17.03043 -5.23474 8.0099 1 23.7581 ? 197 D 1
+HETATM 31 O O . SEP D D 4 ? 16.05101 -5.96816 7.80519 1 24.5714 ? 197 D 1
+HETATM 32 P P . SEP D D 4 ? 17.03378 -1.62011 5.39014 1 23.3949 ? 197 D 1
+HETATM 33 O O1P . SEP D D 4 ? 17.99837 -1.45508 4.13274 1 21.7947 ? 197 D 1
+HETATM 34 O O2P . SEP D D 4 ? 15.50556 -1.38115 4.95758 1 24.4529 ? 197 D 1
+HETATM 35 O O3P . SEP D D 4 ? 17.42319 -0.63781 6.58412 1 24.2661 ? 197 D 1
+ATOM 36 N N . THR D D 5 ? 17.21904 -4.6139 9.17506 1 23.7686 ? 198 D 1
+ATOM 37 C CA . THR D D 5 ? 16.30735 -4.91796 10.27394 1 23.9818 ? 198 D 1
+ATOM 38 C C . THR D D 5 ? 14.93705 -4.35128 9.95957 1 29.9983 ? 198 D 1
+ATOM 39 O O . THR D D 5 ? 14.81654 -3.27719 9.36825 1 29.1166 ? 198 D 1
+ATOM 40 C CB . THR D D 5 ? 16.76169 -4.35296 11.62622 1 27.9191 ? 198 D 1
+ATOM 41 O OG1 . THR D D 5 ? 16.90005 -2.92107 11.53723 1 24.8451 ? 198 D 1
+ATOM 42 C CG2 . THR D D 5 ? 18.0909 -4.9886 12.03698 1 22.0132 ? 198 D 1
+ATOM 43 N N . PRO D D 6 ? 13.89734 -5.08381 10.33193 1 29.2851 ? 199 D 1
+ATOM 44 C CA . PRO D D 6 ? 12.54327 -4.56062 10.15654 1 34.6568 ? 199 D 1
+ATOM 45 C C . PRO D D 6 ? 12.25833 -3.49224 11.20279 1 35.9648 ? 199 D 1
+ATOM 46 O O . PRO D D 6 ? 12.8686 -3.4477 12.2743 1 38.7231 ? 199 D 1
+ATOM 47 C CB . PRO D D 6 ? 11.65792 -5.80119 10.3403 1 36.2912 ? 199 D 1
+ATOM 48 C CG . PRO D D 6 ? 12.43329 -6.64597 11.2933 1 35.2911 ? 199 D 1
+ATOM 49 C CD . PRO D D 6 ? 13.89076 -6.45437 10.87025 1 29.7773 ? 199 D 1
+ATOM 50 N N . GLY D D 7 ? 11.3459 -2.59614 10.85057 1 38.373 ? 200 D 1
+ATOM 51 C CA . GLY D D 7 ? 10.89284 -1.55363 11.75404 1 37.4045 ? 200 D 1
+ATOM 52 C C . GLY D D 7 ? 11.96079 -0.84727 12.56497 1 38.881 ? 200 D 1
+ATOM 53 O O . GLY D D 7 ? 11.68365 -0.41937 13.69234 1 37.5914 ? 200 D 1
+
+_struct.title '7ZIT: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'

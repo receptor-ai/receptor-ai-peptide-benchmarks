@@ -1,0 +1,113 @@
+data_6FNZ_FB
+_entry.id '6FNZ_FB'
+
+_cell.entry_id '6FNZ_FB'
+_cell.length_a 98.45
+_cell.length_b 98.45
+_cell.length_c 114.81
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+
+_symmetry.entry_id '6FNZ_FB'
+_symmetry.space_group_name_H-M 'P 43 21 2'
+_symmetry.Int_Tables_number 96
+
+loop_
+_entity.id
+_entity.type
+S polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+S polypeptide(L) S ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+GLU .
+GLY .
+PRO .
+SER .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+Sxp S
+
+
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . PRO Sxp S 1 ? -41.6584719 -43.7087651 -26.960193 0.5 103.8 ? 0 S 1
+ATOM 2 C CA . PRO Sxp S 1 ? -41.8122769 -44.6472576 -28.0736286 0.5 101.86 ? 0 S 1
+ATOM 3 C C . PRO Sxp S 1 ? -42.5993575 -45.892591 -27.6844358 0.5 101.07 ? 0 S 1
+ATOM 4 O O . PRO Sxp S 1 ? -42.2784227 -46.9802595 -28.1692916 0.5 101.63 ? 0 S 1
+ATOM 5 C CB . PRO Sxp S 1 ? -40.3620607 -45.0302392 -28.422776 0.5 103.51 ? 0 S 1
+ATOM 6 C CG . PRO Sxp S 1 ? -39.4787498 -44.1638704 -27.5608925 0.5 109.14 ? 0 S 1
+ATOM 7 C CD . PRO Sxp S 1 ? -40.3071057 -43.7797091 -26.3856033 0.5 106.53 ? 0 S 1
+ATOM 8 N N . GLU Sxp S 2 ? -43.5962497 -45.743518 -26.8133094 0.5 102.44 ? 1 S 1
+ATOM 9 C CA . GLU Sxp S 2 ? -44.3905129 -46.8923012 -26.4010412 0.5 99.35 ? 1 S 1
+ATOM 10 C C . GLU Sxp S 2 ? -45.0035153 -47.5840181 -27.6151222 0.5 101.96 ? 1 S 1
+ATOM 11 O O . GLU Sxp S 2 ? -45.3640439 -46.9390014 -28.6024872 0.5 103.76 ? 1 S 1
+ATOM 12 C CB . GLU Sxp S 2 ? -45.484297 -46.4576069 -25.4235125 0.5 95.67 ? 1 S 1
+ATOM 13 C CG . GLU Sxp S 2 ? -46.3414361 -47.6058833 -24.9029282 0.5 91.58 ? 1 S 1
+ATOM 14 C CD . GLU Sxp S 2 ? -46.9662238 -47.3210165 -23.5504368 0.5 90.78 ? 1 S 1
+ATOM 15 O OE1 . GLU Sxp S 2 ? -47.0850883 -46.1366514 -23.1774173 0.5 92.63 ? 1 S 1
+ATOM 16 O OE2 . GLU Sxp S 2 ? -47.3346488 -48.2875972 -22.8538007 0.5 88.82 ? 1 S 1
+ATOM 17 N N . SER Sxp S 3 ? -45.0942552 -48.9101613 -27.5492704 0.5 105.4 ? 2 S 1
+ATOM 18 C CA . SER Sxp S 3 ? -45.6725669 -49.6881586 -28.6321064 0.5 114.02 ? 2 S 1
+ATOM 19 C C . SER Sxp S 3 ? -46.52191 -50.8117099 -28.0528544 0.5 116.73 ? 2 S 1
+ATOM 20 O O . SER Sxp S 3 ? -46.2492696 -51.3174456 -26.9606541 0.5 111.25 ? 2 S 1
+ATOM 21 C CB . SER Sxp S 3 ? -44.5879405 -50.2469681 -29.5639344 0.5 118.89 ? 2 S 1
+ATOM 22 O OG . SER Sxp S 3 ? -43.6271804 -50.9991568 -28.8466088 0.5 114.94 ? 2 S 1
+ATOM 23 N N . SER Sxp S 4 ? -47.561314 -51.1878302 -28.8020951 0.5 120.07 ? 3 S 1
+ATOM 24 C CA . SER Sxp S 4 ? -48.5552946 -52.2002339 -28.4491951 0.5 118.4 ? 3 S 1
+ATOM 25 C C . SER Sxp S 4 ? -49.5615414 -52.2831164 -29.5890227 0.5 119.94 ? 3 S 1
+ATOM 26 O O . SER Sxp S 4 ? -49.6648569 -51.3571545 -30.3981399 0.5 129.72 ? 3 S 1
+ATOM 27 C CB . SER Sxp S 4 ? -49.2795837 -51.8624212 -27.1420161 0.5 120.6 ? 3 S 1
+ATOM 28 O OG . SER Sxp S 4 ? -50.0141067 -50.6537967 -27.2695814 0.5 112.21 ? 3 S 1
+ATOM 29 N N . GLU Sxp S 5 ? -50.2994313 -53.3961231 -29.6413727 0.5 115.36 ? 4 S 1
+ATOM 30 C CA . GLU Sxp S 5 ? -51.4977185 -53.5347751 -30.4772329 0.5 112.1 ? 4 S 1
+ATOM 31 C C . GLU Sxp S 5 ? -52.0460424 -54.9497045 -30.3481678 0.5 110.95 ? 4 S 1
+ATOM 32 O O . GLU Sxp S 5 ? -51.3343344 -55.8761851 -29.9502689 0.5 111.24 ? 4 S 1
+ATOM 33 C CB . GLU Sxp S 5 ? -51.2363045 -53.2355629 -31.9567368 0.5 107.74 ? 4 S 1
+ATOM 34 C CG . GLU Sxp S 5 ? -52.3593676 -52.4658811 -32.6346574 0.5 102.29 ? 4 S 1
+ATOM 35 C CD . GLU Sxp S 5 ? -51.9656553 -51.9790264 -34.0168141 0.5 98.68 ? 4 S 1
+ATOM 36 O OE1 . GLU Sxp S 5 ? -51.0844876 -52.6036425 -34.6370012 0.5 97.28 ? 4 S 1
+ATOM 37 O OE2 . GLU Sxp S 5 ? -52.5230577 -50.966265 -34.4836652 0.5 96.91 ? 4 S 1
+ATOM 38 N N . GLY Sxp S 6 ? -53.3199865 -55.0993787 -30.7080359 0.5 113.77 ? 5 S 1
+ATOM 39 C CA . GLY Sxp S 6 ? -53.9730489 -56.3962324 -30.7629544 0.5 115.8 ? 5 S 1
+ATOM 40 C C . GLY Sxp S 6 ? -54.2305181 -57.0706241 -29.4293643 0.5 114.97 ? 5 S 1
+ATOM 41 O O . GLY Sxp S 6 ? -54.9531022 -58.0649289 -29.3604931 0.5 117.27 ? 5 S 1
+ATOM 42 O OXT . GLY Sxp S 6 ? -53.722194 -56.6521745 -28.3917413 0.5 111 ? 5 S 1

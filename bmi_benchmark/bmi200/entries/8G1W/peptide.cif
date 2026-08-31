@@ -1,0 +1,163 @@
+data_8G1W
+_entry.id 8G1W
+
+_cell.entry_id 8G1W
+_cell.length_a 75.259
+_cell.length_b 80.248
+_cell.length_c 40.361
+_cell.angle_alpha 90
+_cell.angle_beta 95.45
+_cell.angle_gamma 90
+
+_symmetry.entry_id 8G1W
+_symmetry.space_group_name_H-M 'C 1 2 1'
+_symmetry.Int_Tables_number 5
+
+loop_
+_entity.id
+_entity.type
+L polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+L polypeptide(L) L ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ACE .
+DTR .
+KCM .
+NLE .
+TYR .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+C L
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.pdbx_ptnr1_label_alt_id
+_struct_conn.ptnr1_auth_asym_id
+_struct_conn.ptnr1_auth_seq_id
+_struct_conn.pdbx_ptnr1_PDB_ins_code
+_struct_conn.ptnr1_symmetry
+_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_ptnr2_label_alt_id
+_struct_conn.ptnr2_auth_asym_id
+_struct_conn.ptnr2_auth_seq_id
+_struct_conn.pdbx_ptnr2_PDB_ins_code
+_struct_conn.ptnr2_symmetry
+_struct_conn.details
+_struct_conn.pdbx_dist_value
+covale7 covale C ACE 1 C ? L 1 ? 1_555 C TYR 2 N ? L 2 ? 1_555 ? 1.4431
+covale8 covale C TYR 2 C ? L 2 ? 1_555 C DTR 3 N ? L 3 ? 1_555 ? 1.4398
+covale9 covale C TYR 2 OH ? L 2 ? 1_555 C NLE 4 CE ? L 4 ? 1_555 ? 1.4099
+covale10 covale C DTR 3 C ? L 3 ? 1_555 C NLE 4 N ? L 4 ? 1_555 ? 1.4390
+covale11 covale C NLE 4 C ? L 4 ? 1_555 C KCM 5 N30 ? L 5 ? 1_555 ? 1.4329
+
+loop_
+_struct_conn_type.id
+covale
+
+loop_
+_atom_type.symbol
+C
+N
+O
+S
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+HETATM 1 C C . ACE C L 1 ? 26.407 9.893 -1.708 1 25.16 ? 1 L 1
+HETATM 2 O O . ACE C L 1 ? 26.316 8.802 -2.185 1 25.51 ? 1 L 1
+HETATM 3 C CH3 . ACE C L 1 ? 26.662 11.133 -2.555 1 26.08 ? 1 L 1
+ATOM 4 N N . TYR C L 2 ? 26.287 10.079 -0.282 1 24.64 ? 2 L 1
+ATOM 5 C CA . TYR C L 2 ? 26.03 8.943 0.57 1 23.79 ? 2 L 1
+ATOM 6 C C . TYR C L 2 ? 25.391 9.539 1.827 1 22.18 ? 2 L 1
+ATOM 7 O O . TYR C L 2 ? 25.928 10.42 2.418 1 22.75 ? 2 L 1
+ATOM 8 C CB . TYR C L 2 ? 27.294 8.194 0.955 1 25.33 ? 2 L 1
+ATOM 9 C CG . TYR C L 2 ? 26.987 6.729 1.25 1 25.89 ? 2 L 1
+ATOM 10 C CD1 . TYR C L 2 ? 26.543 6.353 2.507 1 26.76 ? 2 L 1
+ATOM 11 C CD2 . TYR C L 2 ? 27.146 5.764 0.274 1 26.92 ? 2 L 1
+ATOM 12 C CE1 . TYR C L 2 ? 26.256 5.023 2.79 1 26.69 ? 2 L 1
+ATOM 13 C CE2 . TYR C L 2 ? 26.865 4.435 0.55 1 26.74 ? 2 L 1
+ATOM 14 C CZ . TYR C L 2 ? 26.412 4.066 1.804 1 26.85 ? 2 L 1
+ATOM 15 O OH . TYR C L 2 ? 26.138 2.719 2.04 1 27.84 ? 2 L 1
+HETATM 16 N N . DTR C L 3 ? 24.123 9.072 2.324 1 21.58 ? 3 L 1
+HETATM 17 C CA . DTR C L 3 ? 23.324 8.04 1.732 1 21.27 ? 3 L 1
+HETATM 18 C CB . DTR C L 3 ? 22.173 8.612 0.912 1 22.26 ? 3 L 1
+HETATM 19 C CG . DTR C L 3 ? 22.565 9.418 -0.327 1 22.25 ? 3 L 1
+HETATM 20 C CD1 . DTR C L 3 ? 22.757 8.91 -1.596 1 22.95 ? 3 L 1
+HETATM 21 N NE1 . DTR C L 3 ? 23.073 9.909 -2.413 1 23.51 ? 3 L 1
+HETATM 22 C CE2 . DTR C L 3 ? 23.091 11.089 -1.729 1 23.15 ? 3 L 1
+HETATM 23 C CZ2 . DTR C L 3 ? 23.359 12.418 -2.141 1 23.84 ? 3 L 1
+HETATM 24 C CH2 . DTR C L 3 ? 23.306 13.443 -1.21 1 23.74 ? 3 L 1
+HETATM 25 C CZ3 . DTR C L 3 ? 22.981 13.168 0.123 1 24.03 ? 3 L 1
+HETATM 26 C CE3 . DTR C L 3 ? 22.716 11.866 0.53 1 23.26 ? 3 L 1
+HETATM 27 C CD2 . DTR C L 3 ? 22.765 10.816 -0.409 1 22.29 ? 3 L 1
+HETATM 28 C C . DTR C L 3 ? 22.653 7.283 2.874 1 20.16 ? 3 L 1
+HETATM 29 O O . DTR C L 3 ? 22.424 7.759 3.96 1 20.15 ? 3 L 1
+HETATM 30 N N . NLE C L 4 ? 22.253 5.945 2.527 1 20.82 ? 4 L 1
+HETATM 31 C CA . NLE C L 4 ? 21.573 5.124 3.496 1 20.21 ? 4 L 1
+HETATM 32 C C . NLE C L 4 ? 22.384 4.992 4.774 1 19.57 ? 4 L 1
+HETATM 33 O O . NLE C L 4 ? 23.575 5.022 4.851 1 20.16 ? 4 L 1
+HETATM 34 C CB . NLE C L 4 ? 21.313 3.741 2.896 1 21.85 ? 4 L 1
+HETATM 35 C CG . NLE C L 4 ? 22.462 2.723 3.026 1 23.44 ? 4 L 1
+HETATM 36 C CD . NLE C L 4 ? 23.71 3.06 2.189 1 25.51 ? 4 L 1
+HETATM 37 C CE . NLE C L 4 ? 24.98 2.431 2.791 1 27.26 ? 4 L 1
+HETATM 38 C C31 . KCM C L 5 ? 22.196 4.637 7.252 1 17.87 ? 5 L 1
+HETATM 39 C C33 . KCM C L 5 ? 21.693 5.727 8.194 1 18.42 ? 5 L 1
+HETATM 40 C C34 . KCM C L 5 ? 22.384 7.04 7.843 1 17.74 ? 5 L 1
+HETATM 41 C C35 . KCM C L 5 ? 21.893 8.153 8.76 1 17.71 ? 5 L 1
+HETATM 42 C C37 . KCM C L 5 ? 22.449 10.522 9.197 1 17.42 ? 5 L 1
+HETATM 43 C C40 . KCM C L 5 ? 21.847 3.271 7.761 1 18.8 ? 5 L 1
+HETATM 44 C C42 . KCM C L 5 ? 22.405 2.11 6.958 1 20.4 ? 5 L 1
+HETATM 45 C C44 . KCM C L 5 ? 22.382 0.209 5.719 1 20.68 ? 5 L 1
+HETATM 46 C C45 . KCM C L 5 ? 21.807 -0.876 5.019 1 22.79 ? 5 L 1
+HETATM 47 C C46 . KCM C L 5 ? 22.646 -1.809 4.443 1 23.45 ? 5 L 1
+HETATM 48 C C47 . KCM C L 5 ? 24.032 -1.667 4.534 1 24.31 ? 5 L 1
+HETATM 49 C C48 . KCM C L 5 ? 24.595 -0.594 5.233 1 23.43 ? 5 L 1
+HETATM 50 C C49 . KCM C L 5 ? 23.758 0.36 5.832 1 21.64 ? 5 L 1
+HETATM 51 N N30 . KCM C L 5 ? 21.576 4.796 5.941 1 18.78 ? 5 L 1
+HETATM 52 N N36 . KCM C L 5 ? 22.648 9.336 8.449 1 17.58 ? 5 L 1
+HETATM 53 N N38 . KCM C L 5 ? 21.625 10.571 10.144 1 17 ? 5 L 1
+HETATM 54 N N39 . KCM C L 5 ? 23.247 11.642 8.824 1 17.78 ? 5 L 1
+HETATM 55 N N43 . KCM C L 5 ? 21.588 1.224 6.356 1 20.34 ? 5 L 1
+HETATM 56 O O41 . KCM C L 5 ? 22.435 3.067 9.002 1 19.17 ? 5 L 1
+HETATM 57 S S50 . KCM C L 5 ? 24.028 1.736 6.75 1 22.29 ? 5 L 1
+
+_struct.title '8G1W: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'

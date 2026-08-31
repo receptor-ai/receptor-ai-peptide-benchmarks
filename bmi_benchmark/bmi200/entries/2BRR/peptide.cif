@@ -1,0 +1,172 @@
+data_2BRR
+_entry.id 2BRR
+
+_cell.entry_id 2BRR
+_cell.length_a 53.666
+_cell.length_b 63.833
+_cell.length_c 124.701
+_cell.angle_alpha 90
+_cell.angle_beta 86.58
+_cell.angle_gamma 90
+
+_symmetry.entry_id 2BRR
+_symmetry.space_group_name_H-M 'P 1 21 1'
+_symmetry.Int_Tables_number 4
+
+loop_
+_entity.id
+_entity.type
+P polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+P polypeptide(L) P ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ALA .
+ASN .
+HIS .
+LYS .
+NH2 .
+THR .
+VAL .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+C P
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.pdbx_ptnr1_label_alt_id
+_struct_conn.ptnr1_auth_asym_id
+_struct_conn.ptnr1_auth_seq_id
+_struct_conn.pdbx_ptnr1_PDB_ins_code
+_struct_conn.ptnr1_symmetry
+_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_ptnr2_label_alt_id
+_struct_conn.ptnr2_auth_asym_id
+_struct_conn.ptnr2_auth_seq_id
+_struct_conn.pdbx_ptnr2_PDB_ins_code
+_struct_conn.ptnr2_symmetry
+_struct_conn.details
+_struct_conn.pdbx_dist_value
+covale1 covale C HIS 12 C ? P 11 ? 1_555 C NH2 13 N ? P 12 ? 1_555 ? 1.2348
+
+loop_
+_struct_conn_type.id
+covale
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . VAL C P 4 ? 69.784 22.709 154.903 1 25.42 ? 3 P 1
+ATOM 2 C CA . VAL C P 4 ? 68.721 22.324 153.903 1 24.48 ? 3 P 1
+ATOM 3 C C . VAL C P 4 ? 68.031 21.025 154.341 1 23.96 ? 3 P 1
+ATOM 4 O O . VAL C P 4 ? 67.675 20.172 153.51 1 23.63 ? 3 P 1
+ATOM 5 C CB . VAL C P 4 ? 69.284 22.189 152.459 1 25.45 ? 3 P 1
+ATOM 6 C CG1 . VAL C P 4 ? 69.536 23.577 151.805 1 24.59 ? 3 P 1
+ATOM 7 C CG2 . VAL C P 4 ? 70.547 21.345 152.432 1 26.11 ? 3 P 1
+ATOM 8 N N . VAL C P 5 ? 67.883 20.853 155.655 1 22.08 ? 4 P 1
+ATOM 9 C CA . VAL C P 5 ? 67.208 19.663 156.196 1 21.06 ? 4 P 1
+ATOM 10 C C . VAL C P 5 ? 66.134 20.091 157.213 1 21.24 ? 4 P 1
+ATOM 11 O O . VAL C P 5 ? 66.409 20.872 158.116 1 21.88 ? 4 P 1
+ATOM 12 C CB . VAL C P 5 ? 68.228 18.61 156.781 1 21.32 ? 4 P 1
+ATOM 13 C CG1 . VAL C P 5 ? 67.506 17.379 157.339 1 18.79 ? 4 P 1
+ATOM 14 C CG2 . VAL C P 5 ? 69.264 18.189 155.719 1 19.91 ? 4 P 1
+ATOM 15 N N . ASN C P 6 ? 64.893 19.647 157.01 1 21.4 ? 5 P 1
+ATOM 16 C CA . ASN C P 6 ? 63.811 19.964 157.943 1 21.18 ? 5 P 1
+ATOM 17 C C . ASN C P 6 ? 63.241 18.651 158.423 1 20.5 ? 5 P 1
+ATOM 18 O O . ASN C P 6 ? 62.728 17.864 157.632 1 19.9 ? 5 P 1
+ATOM 19 C CB . ASN C P 6 ? 62.713 20.859 157.302 1 21.87 ? 5 P 1
+ATOM 20 C CG . ASN C P 6 ? 61.552 21.188 158.289 1 23.23 ? 5 P 1
+ATOM 21 O OD1 . ASN C P 6 ? 61.012 20.302 158.959 1 23.08 ? 5 P 1
+ATOM 22 N ND2 . ASN C P 6 ? 61.185 22.465 158.372 1 23.09 ? 5 P 1
+ATOM 23 N N . ASN C P 7 ? 63.356 18.412 159.725 1 20.06 ? 6 P 1
+ATOM 24 C CA . ASN C P 7 ? 62.812 17.208 160.323 1 19.69 ? 6 P 1
+ATOM 25 C C . ASN C P 7 ? 63.157 15.971 159.487 1 19.71 ? 6 P 1
+ATOM 26 O O . ASN C P 7 ? 62.305 15.138 159.189 1 18.92 ? 6 P 1
+ATOM 27 C CB . ASN C P 7 ? 61.322 17.377 160.62 1 18.97 ? 6 P 1
+ATOM 28 C CG . ASN C P 7 ? 61.069 18.196 161.898 1 19.18 ? 6 P 1
+ATOM 29 O OD1 . ASN C P 7 ? 60.959 17.636 162.975 1 16.04 ? 6 P 1
+ATOM 30 N ND2 . ASN C P 7 ? 60.978 19.519 161.769 1 17.71 ? 6 P 1
+ATOM 31 N N . LYS C P 8 ? 64.445 15.893 159.129 1 19.95 ? 7 P 1
+ATOM 32 C CA . LYS C P 8 ? 65.074 14.769 158.397 1 20.22 ? 7 P 1
+ATOM 33 C C . LYS C P 8 ? 64.796 14.726 156.891 1 20.59 ? 7 P 1
+ATOM 34 O O . LYS C P 8 ? 65.315 13.857 156.175 1 20.42 ? 7 P 1
+ATOM 35 C CB . LYS C P 8 ? 64.714 13.421 159.018 1 20.51 ? 7 P 1
+ATOM 36 C CG . LYS C P 8 ? 65.15 13.251 160.481 1 19.46 ? 7 P 1
+ATOM 37 C CD . LYS C P 8 ? 64.826 11.836 160.89 1 19.31 ? 7 P 1
+ATOM 38 C CE . LYS C P 8 ? 65.085 11.55 162.359 1 18.45 ? 7 P 1
+ATOM 39 N NZ . LYS C P 8 ? 64.289 12.435 163.247 1 18.15 ? 7 P 1
+ATOM 40 N N . VAL C P 9 ? 63.955 15.633 156.411 1 21.08 ? 8 P 1
+ATOM 41 C CA . VAL C P 9 ? 63.657 15.695 154.994 1 21.03 ? 8 P 1
+ATOM 42 C C . VAL C P 9 ? 64.697 16.633 154.376 1 21.9 ? 8 P 1
+ATOM 43 O O . VAL C P 9 ? 64.745 17.822 154.7 1 22.14 ? 8 P 1
+ATOM 44 C CB . VAL C P 9 ? 62.214 16.178 154.723 1 21.13 ? 8 P 1
+ATOM 45 C CG1 . VAL C P 9 ? 61.878 16.091 153.215 1 21.39 ? 8 P 1
+ATOM 46 C CG2 . VAL C P 9 ? 61.196 15.376 155.539 1 21.2 ? 8 P 1
+ATOM 47 N N . ALA C P 10 ? 65.546 16.073 153.514 1 22.01 ? 9 P 1
+ATOM 48 C CA . ALA C P 10 ? 66.633 16.82 152.88 1 21.72 ? 9 P 1
+ATOM 49 C C . ALA C P 10 ? 66.219 17.338 151.515 1 21.59 ? 9 P 1
+ATOM 50 O O . ALA C P 10 ? 65.35 16.756 150.853 1 21.81 ? 9 P 1
+ATOM 51 C CB . ALA C P 10 ? 67.859 15.943 152.743 1 21.29 ? 9 P 1
+ATOM 52 N N . THR C P 11 ? 66.859 18.427 151.094 1 21.16 ? 10 P 1
+ATOM 53 C CA . THR C P 11 ? 66.622 19.001 149.777 1 20.82 ? 10 P 1
+ATOM 54 C C . THR C P 11 ? 66.816 17.946 148.682 1 19.89 ? 10 P 1
+ATOM 55 O O . THR C P 11 ? 67.641 17.025 148.814 1 18.77 ? 10 P 1
+ATOM 56 C CB . THR C P 11 ? 67.528 20.239 149.534 1 21.36 ? 10 P 1
+ATOM 57 O OG1 . THR C P 11 ? 67.169 20.881 148.314 1 22.44 ? 10 P 1
+ATOM 58 C CG2 . THR C P 11 ? 69.013 19.858 149.498 1 21.47 ? 10 P 1
+ATOM 59 N N . HIS C P 12 ? 66.032 18.094 147.614 1 18.5 ? 11 P 1
+ATOM 60 C CA . HIS C P 12 ? 66.144 17.269 146.419 1 18.1 ? 11 P 1
+ATOM 61 C C . HIS C P 12 ? 66.891 17.974 145.304 1 17.92 ? 11 P 1
+ATOM 62 O O . HIS C P 12 ? 67.012 17.452 144.199 1 18.02 ? 11 P 1
+ATOM 63 C CB . HIS C P 12 ? 64.736 16.861 145.963 1 17.54 ? 11 P 1
+ATOM 64 C CG . HIS C P 12 ? 64.129 15.779 146.795 1 18.88 ? 11 P 1
+ATOM 65 N ND1 . HIS C P 12 ? 63.181 14.902 146.306 1 19.84 ? 11 P 1
+ATOM 66 C CD2 . HIS C P 12 ? 64.352 15.414 148.08 1 18.53 ? 11 P 1
+ATOM 67 C CE1 . HIS C P 12 ? 62.831 14.06 147.265 1 18.6 ? 11 P 1
+ATOM 68 N NE2 . HIS C P 12 ? 63.523 14.354 148.35 1 20.43 ? 11 P 1
+HETATM 69 N N . NH2 C P 13 ? 67.409 19.084 145.46 1 18.13 ? 12 P 1
+
+_struct.title '2BRR: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'

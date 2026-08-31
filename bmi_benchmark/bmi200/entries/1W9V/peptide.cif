@@ -1,0 +1,152 @@
+data_1W9V
+_entry.id 1W9V
+
+_cell.entry_id 1W9V
+_cell.length_a 117.704
+_cell.length_b 117.704
+_cell.length_c 99.783
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+
+_symmetry.entry_id 1W9V
+_symmetry.space_group_name_H-M 'P 41'
+_symmetry.Int_Tables_number 76
+
+loop_
+_entity.id
+_entity.type
+C polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+C polypeptide(L) C ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+DAL .
+IAS .
+MEA .
+VR0 .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+C C
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.pdbx_ptnr1_label_alt_id
+_struct_conn.ptnr1_auth_asym_id
+_struct_conn.ptnr1_auth_seq_id
+_struct_conn.pdbx_ptnr1_PDB_ins_code
+_struct_conn.ptnr1_symmetry
+_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_ptnr2_label_alt_id
+_struct_conn.ptnr2_auth_asym_id
+_struct_conn.ptnr2_auth_seq_id
+_struct_conn.pdbx_ptnr2_PDB_ins_code
+_struct_conn.ptnr2_symmetry
+_struct_conn.details
+_struct_conn.pdbx_dist_value
+covale1 covale C VR0 1 C ? C 1434 ? 1_555 C MEA 2 N ? C 1435 ? 1_555 ? 1.3323
+covale2 covale C VR0 1 N ? C 1434 ? 1_555 C DAL 5 C ? C 1438 ? 1_555 ? 1.3306
+covale3 covale C MEA 2 C ? C 1435 ? 1_555 C IAS 3 N ? C 1436 ? 1_555 ? 1.3325
+covale4 covale C IAS 3 CG ? C 1436 ? 1_555 C IAS 4 N ? C 1437 ? 1_555 ? 1.3306
+covale5 covale C IAS 4 CG ? C 1437 ? 1_555 C DAL 5 N ? C 1438 ? 1_555 ? 1.3307
+
+loop_
+_struct_conn_type.id
+covale
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+HETATM 1 C C1 . VR0 C C 1 ? 89.43 66.896 -2.231 1 21.26 ? 1434 C 1
+HETATM 2 N NH2 . VR0 C C 1 ? 92.428 70.655 -3.776 1 14.16 ? 1434 C 1
+HETATM 3 O O1 . VR0 C C 1 ? 91.305 68.827 -2.497 1 18.18 ? 1434 C 1
+HETATM 4 O O . VR0 C C 1 ? 96.73 73.85 -8.419 1 25.56 ? 1434 C 1
+HETATM 5 C CG . VR0 C C 1 ? 92.805 72.243 -7.204 1 20.98 ? 1434 C 1
+HETATM 6 C CD . VR0 C C 1 ? 92.192 72.496 -5.825 1 21.33 ? 1434 C 1
+HETATM 7 C CB . VR0 C C 1 ? 93.926 73.243 -7.494 1 24.78 ? 1434 C 1
+HETATM 8 N NH3 . VR0 C C 1 ? 89.431 67.887 -3.316 1 19.38 ? 1434 C 1
+HETATM 9 N NE . VR0 C C 1 ? 91.194 71.451 -5.553 1 19.7 ? 1434 C 1
+HETATM 10 N NH1 . VR0 C C 1 ? 90.407 69.668 -4.353 1 17.61 ? 1434 C 1
+HETATM 11 N N . VR0 C C 1 ? 95.076 71.666 -8.988 1 22.32 ? 1434 C 1
+HETATM 12 C CZ . VR0 C C 1 ? 91.341 70.599 -4.542 1 19.14 ? 1434 C 1
+HETATM 13 C C6 . VR0 C C 1 ? 90.427 68.769 -3.358 1 20.66 ? 1434 C 1
+HETATM 14 C C . VR0 C C 1 ? 95.691 74.022 -9.057 1 24.46 ? 1434 C 1
+HETATM 15 C CA . VR0 C C 1 ? 94.537 73.03 -8.881 1 24.89 ? 1434 C 1
+HETATM 16 C C1 . MEA C C 2 ? 96.673 75.935 -10.027 1 29.3 ? 1435 C 1
+HETATM 17 N N . MEA C C 2 ? 95.525 75.019 -9.925 1 26.89 ? 1435 C 1
+HETATM 18 C CA . MEA C C 2 ? 94.292 75.189 -10.712 1 25.98 ? 1435 C 1
+HETATM 19 C C . MEA C C 2 ? 94.646 75.292 -12.199 1 27.45 ? 1435 C 1
+HETATM 20 O O . MEA C C 2 ? 94.394 76.312 -12.84 1 26.65 ? 1435 C 1
+HETATM 21 C CB . MEA C C 2 ? 93.556 76.461 -10.281 1 23.4 ? 1435 C 1
+HETATM 22 C CG . MEA C C 2 ? 93.142 76.434 -8.807 1 25.32 ? 1435 C 1
+HETATM 23 C CD1 . MEA C C 2 ? 93.976 76.988 -7.84 1 22.96 ? 1435 C 1
+HETATM 24 C CE1 . MEA C C 2 ? 93.582 77.002 -6.505 1 23.86 ? 1435 C 1
+HETATM 25 C CZ . MEA C C 2 ? 92.354 76.461 -6.137 1 23.59 ? 1435 C 1
+HETATM 26 C CE2 . MEA C C 2 ? 91.52 75.905 -7.103 1 27.24 ? 1435 C 1
+HETATM 27 C CD2 . MEA C C 2 ? 91.914 75.892 -8.438 1 24.05 ? 1435 C 1
+HETATM 28 N N . IAS C C 3 ? 95.231 74.215 -12.722 1 26.35 ? 1436 C 1
+HETATM 29 C CA . IAS C C 3 ? 95.653 74.148 -14.13 1 26.72 ? 1436 C 1
+HETATM 30 C C . IAS C C 3 ? 94.442 74.099 -15.064 1 28.35 ? 1436 C 1
+HETATM 31 O O . IAS C C 3 ? 94.552 74.465 -16.233 1 29.63 ? 1436 C 1
+HETATM 32 C CB . IAS C C 3 ? 96.525 72.912 -14.367 1 25.01 ? 1436 C 1
+HETATM 33 C CG . IAS C C 3 ? 97.787 72.939 -13.501 1 26.28 ? 1436 C 1
+HETATM 34 O OD1 . IAS C C 3 ? 98.229 74.001 -13.063 1 26.12 ? 1436 C 1
+HETATM 35 O OXT . IAS C C 3 ? 93.351 73.697 -14.659 1 27.95 ? 1436 C 1
+HETATM 36 N N . IAS C C 4 ? 98.353 71.752 -13.298 1 24.56 ? 1437 C 1
+HETATM 37 C CA . IAS C C 4 ? 99.56 71.582 -12.473 1 26.48 ? 1437 C 1
+HETATM 38 C C . IAS C C 4 ? 100.824 71.58 -13.337 1 28.2 ? 1437 C 1
+HETATM 39 O O . IAS C C 4 ? 101.928 71.695 -12.809 1 28.61 ? 1437 C 1
+HETATM 40 C CB . IAS C C 4 ? 99.46 70.276 -11.682 1 25.02 ? 1437 C 1
+HETATM 41 C CG . IAS C C 4 ? 98.314 70.388 -10.674 1 25.53 ? 1437 C 1
+HETATM 42 O OD1 . IAS C C 4 ? 98.431 71.096 -9.675 1 27.12 ? 1437 C 1
+HETATM 43 O OXT . IAS C C 4 ? 100.745 71.471 -14.559 1 26.12 ? 1437 C 1
+HETATM 44 N N . DAL C C 5 ? 97.215 69.699 -10.971 1 25.02 ? 1438 C 1
+HETATM 45 C CA . DAL C C 5 ? 96.024 69.733 -10.107 1 24.98 ? 1438 C 1
+HETATM 46 C CB . DAL C C 5 ? 94.98 68.736 -10.614 1 23.43 ? 1438 C 1
+HETATM 47 C C . DAL C C 5 ? 95.453 71.152 -10.156 1 23.44 ? 1438 C 1
+HETATM 48 O O . DAL C C 5 ? 95.394 71.762 -11.223 1 19.95 ? 1438 C 1
+
+_struct.title '1W9V: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'

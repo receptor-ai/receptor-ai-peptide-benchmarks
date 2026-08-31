@@ -1,0 +1,171 @@
+data_4X34_C
+_entry.id '4X34_C'
+
+_cell.entry_id '4X34_C'
+_cell.length_a 58.891
+_cell.length_b 110.939
+_cell.length_c 96.915
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+
+_symmetry.entry_id '4X34_C'
+_symmetry.space_group_name_H-M 'C 2 2 21'
+_symmetry.Int_Tables_number 20
+
+loop_
+_entity.id
+_entity.type
+P polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+P polypeptide(L) P ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ALY .
+ARG .
+HIS .
+LEU .
+LYS .
+MET .
+MLY .
+PHE .
+SER .
+THR .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+Pxp P
+
+
+
+loop_
+_atom_type.symbol
+C
+N
+O
+S
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . THR Pxp P 1 ? 5.845 8.732 43.507 1 49.88 ? 377 P 1
+ATOM 2 C CA . THR Pxp P 1 ? 6.794 8.025 42.646 1 49.37 ? 377 P 1
+ATOM 3 C C . THR Pxp P 1 ? 6.199 7.712 41.272 1 41.04 ? 377 P 1
+ATOM 4 O O . THR Pxp P 1 ? 5.255 6.925 41.149 1 42.8 ? 377 P 1
+ATOM 5 C CB . THR Pxp P 1 ? 7.317 6.727 43.312 1 52.9 ? 377 P 1
+ATOM 6 O OG1 . THR Pxp P 1 ? 7.484 5.705 42.319 1 54.22 ? 377 P 1
+ATOM 7 C CG2 . THR Pxp P 1 ? 6.347 6.238 44.374 1 49.04 ? 377 P 1
+ATOM 8 N N . SER Pxp P 2 ? 6.755 8.337 40.24 1 36.07 ? 378 P 1
+ATOM 9 C CA . SER Pxp P 2 ? 6.198 8.204 38.899 1 29.35 ? 378 P 1
+ATOM 10 C C . SER Pxp P 2 ? 6.941 7.186 38.032 1 36.21 ? 378 P 1
+ATOM 11 O O . SER Pxp P 2 ? 8.149 6.978 38.17 1 33.91 ? 378 P 1
+ATOM 12 C CB . SER Pxp P 2 ? 6.18 9.557 38.205 1 32.88 ? 378 P 1
+ATOM 13 O OG . SER Pxp P 2 ? 7.496 10.025 38.006 1 46.27 ? 378 P 1
+ATOM 14 N N . ARG Pxp P 3 ? 6.201 6.552 37.132 1 26.4 ? 379 P 1
+ATOM 15 C CA . ARG Pxp P 3 ? 6.763 5.572 36.22 1 21.18 ? 379 P 1
+ATOM 16 C C . ARG Pxp P 3 ? 6.326 5.887 34.785 1 23.33 ? 379 P 1
+ATOM 17 O O . ARG Pxp P 3 ? 5.269 6.484 34.559 1 19.73 ? 379 P 1
+ATOM 18 C CB . ARG Pxp P 3 ? 6.293 4.168 36.605 1 24.33 ? 379 P 1
+ATOM 19 C CG . ARG Pxp P 3 ? 6.738 3.693 37.99 1 28.87 ? 379 P 1
+ATOM 20 C CD . ARG Pxp P 3 ? 6.227 2.283 38.268 1 36.4 ? 379 P 1
+ATOM 21 N NE . ARG Pxp P 3 ? 4.936 2.279 38.957 1 35.04 ? 379 P 1
+ATOM 22 C CZ . ARG Pxp P 3 ? 4.073 1.266 38.924 1 43.39 ? 379 P 1
+ATOM 23 N NH1 . ARG Pxp P 3 ? 4.353 0.177 38.219 1 45.39 ? 379 P 1
+ATOM 24 N NH2 . ARG Pxp P 3 ? 2.922 1.346 39.581 1 41.33 ? 379 P 1
+ATOM 25 N N . HIS Pxp P 4 ? 7.129 5.481 33.812 1 20.78 ? 380 P 1
+ATOM 26 C CA . HIS Pxp P 4 ? 6.765 5.737 32.423 1 20.43 ? 380 P 1
+ATOM 27 C C . HIS Pxp P 4 ? 5.56 4.91 32.023 1 17.1 ? 380 P 1
+ATOM 28 O O . HIS Pxp P 4 ? 5.459 3.737 32.377 1 19.08 ? 380 P 1
+ATOM 29 C CB . HIS Pxp P 4 ? 7.923 5.434 31.474 1 17.72 ? 380 P 1
+ATOM 30 C CG . HIS Pxp P 4 ? 7.79 6.129 30.162 1 15.87 ? 380 P 1
+ATOM 31 N ND1 . HIS Pxp P 4 ? 6.94 5.685 29.171 1 15.97 ? 380 P 1
+ATOM 32 C CD2 . HIS Pxp P 4 ? 8.357 7.265 29.693 1 19.2 ? 380 P 1
+ATOM 33 C CE1 . HIS Pxp P 4 ? 6.991 6.518 28.147 1 17 ? 380 P 1
+ATOM 34 N NE2 . HIS Pxp P 4 ? 7.85 7.482 28.434 1 17.9 ? 380 P 1
+HETATM 35 O OH . ALY Pxp P 5 ? 2.815 6.237 24.158 1 36.68 ? 381 P 1
+HETATM 36 C CH . ALY Pxp P 5 ? 2.134 5.376 24.722 1 40.77 ? 381 P 1
+HETATM 37 C CH3 . ALY Pxp P 5 ? 1.953 4.016 24.083 1 36.07 ? 381 P 1
+HETATM 38 N NZ . ALY Pxp P 5 ? 1.502 5.63 25.987 1 36.97 ? 381 P 1
+HETATM 39 C CE . ALY Pxp P 5 ? 1.655 6.921 26.621 1 42.51 ? 381 P 1
+HETATM 40 C CD . ALY Pxp P 5 ? 1.628 6.957 28.124 1 34.01 ? 381 P 1
+HETATM 41 C CG . ALY Pxp P 5 ? 2.732 6.184 28.835 1 25.55 ? 381 P 1
+HETATM 42 C CB . ALY Pxp P 5 ? 2.441 5.751 30.245 1 24.1 ? 381 P 1
+HETATM 43 C CA . ALY Pxp P 5 ? 3.439 4.851 30.918 1 17.73 ? 381 P 1
+HETATM 44 N N . ALY Pxp P 5 ? 4.648 5.518 31.268 1 17.28 ? 381 P 1
+HETATM 45 C C . ALY Pxp P 5 ? 3.689 3.609 30.105 1 16.38 ? 381 P 1
+HETATM 46 O O . ALY Pxp P 5 ? 2.852 2.678 30.146 1 15.51 ? 381 P 1
+HETATM 47 N N . MLY Pxp P 6 ? 4.815 3.5 29.403 1 17.96 ? 382 P 1
+HETATM 48 C CA . MLY Pxp P 6 ? 5.027 2.29 28.621 1 14.84 ? 382 P 1
+HETATM 49 C CB . MLY Pxp P 6 ? 6.142 2.407 27.575 1 15.2 ? 382 P 1
+HETATM 50 C CG . MLY Pxp P 6 ? 6.174 3.711 26.765 1 24.3 ? 382 P 1
+HETATM 51 C CD . MLY Pxp P 6 ? 5.661 3.861 25.363 1 36.71 ? 382 P 1
+HETATM 52 C CE . MLY Pxp P 6 ? 6.594 3.578 24.197 1 22.58 ? 382 P 1
+HETATM 53 N NZ . MLY Pxp P 6 ? 7.315 4.62 23.459 1 19.74 ? 382 P 1
+HETATM 54 C CH1 . MLY Pxp P 6 ? 6.661 4.925 22.19 1 20.01 ? 382 P 1
+HETATM 55 C CH2 . MLY Pxp P 6 ? 8.573 4.001 23.161 1 16.23 ? 382 P 1
+HETATM 56 C C . MLY Pxp P 6 ? 5.223 1.11 29.518 1 15.54 ? 382 P 1
+HETATM 57 O O . MLY Pxp P 6 ? 5.081 -0.027 29.08 1 18.18 ? 382 P 1
+ATOM 58 N N . LEU Pxp P 7 ? 5.52 1.347 30.789 1 15.72 ? 383 P 1
+ATOM 59 C CA . LEU Pxp P 7 ? 5.573 0.228 31.741 1 18.63 ? 383 P 1
+ATOM 60 C C . LEU Pxp P 7 ? 4.206 -0.403 31.984 1 24.22 ? 383 P 1
+ATOM 61 O O . LEU Pxp P 7 ? 4.13 -1.538 32.467 1 23.92 ? 383 P 1
+ATOM 62 C CB . LEU Pxp P 7 ? 6.205 0.645 33.07 1 18.87 ? 383 P 1
+ATOM 63 C CG . LEU Pxp P 7 ? 7.712 0.905 33.008 1 19 ? 383 P 1
+ATOM 64 C CD1 . LEU Pxp P 7 ? 8.238 1.397 34.345 1 25.19 ? 383 P 1
+ATOM 65 C CD2 . LEU Pxp P 7 ? 8.44 -0.36 32.57 1 26.83 ? 383 P 1
+ATOM 66 N N . MET Pxp P 8 ? 3.137 0.315 31.634 1 18.7 ? 384 P 1
+ATOM 67 C CA . MET Pxp P 8 ? 1.773 -0.202 31.789 1 21.45 ? 384 P 1
+ATOM 68 C C . MET Pxp P 8 ? 1.485 -1.396 30.873 1 26.99 ? 384 P 1
+ATOM 69 O O . MET Pxp P 8 ? 0.533 -2.145 31.104 1 27.36 ? 384 P 1
+ATOM 70 C CB . MET Pxp P 8 ? 0.731 0.91 31.545 1 22.96 ? 384 P 1
+ATOM 71 C CG . MET Pxp P 8 ? 0.777 2.068 32.546 1 23.76 ? 384 P 1
+ATOM 72 S SD . MET Pxp P 8 ? -0.091 3.574 31.995 1 36.32 ? 384 P 1
+ATOM 73 C CE . MET Pxp P 8 ? -1.775 3.001 31.905 1 27.02 ? 384 P 1
+ATOM 74 N N . PHE Pxp P 9 ? 2.311 -1.586 29.845 1 18.28 ? 385 P 1
+ATOM 75 C CA . PHE Pxp P 9 ? 2.114 -2.679 28.883 1 26.82 ? 385 P 1
+ATOM 76 C C . PHE Pxp P 9 ? 2.963 -3.915 29.184 1 33.86 ? 385 P 1
+ATOM 77 O O . PHE Pxp P 9 ? 2.939 -4.892 28.432 1 43.18 ? 385 P 1
+ATOM 78 C CB . PHE Pxp P 9 ? 2.386 -2.201 27.452 1 25.75 ? 385 P 1
+ATOM 79 C CG . PHE Pxp P 9 ? 1.509 -1.071 27.017 1 19.63 ? 385 P 1
+ATOM 80 C CD1 . PHE Pxp P 9 ? 0.33 -1.319 26.328 1 25 ? 385 P 1
+ATOM 81 C CD2 . PHE Pxp P 9 ? 1.87 0.247 27.278 1 19.48 ? 385 P 1
+ATOM 82 C CE1 . PHE Pxp P 9 ? -0.48 -0.27 25.922 1 23.57 ? 385 P 1
+ATOM 83 C CE2 . PHE Pxp P 9 ? 1.057 1.301 26.886 1 26.82 ? 385 P 1
+ATOM 84 C CZ . PHE Pxp P 9 ? -0.116 1.042 26.205 1 22.88 ? 385 P 1
+ATOM 85 N N . LYS Pxp P 10 ? 3.714 -3.862 30.276 1 35.55 ? 386 P 1
+ATOM 86 C CA . LYS Pxp P 10 ? 4.548 -4.985 30.683 1 41.35 ? 386 P 1
+ATOM 87 C C . LYS Pxp P 10 ? 3.909 -5.743 31.84 1 44.34 ? 386 P 1
+ATOM 88 O O . LYS Pxp P 10 ? 2.961 -6.507 31.634 1 49.25 ? 386 P 1
+ATOM 89 C CB . LYS Pxp P 10 ? 5.955 -4.506 31.047 1 38.52 ? 386 P 1
+ATOM 90 C CG . LYS Pxp P 10 ? 6.795 -4.13 29.831 1 38.53 ? 386 P 1
+ATOM 91 C CD . LYS Pxp P 10 ? 8.17 -3.61 30.233 1 41.91 ? 386 P 1
+ATOM 92 C CE . LYS Pxp P 10 ? 8.943 -4.625 31.059 1 49.96 ? 386 P 1
+ATOM 93 N NZ . LYS Pxp P 10 ? 9.869 -3.959 32.023 1 43.65 ? 386 P 1

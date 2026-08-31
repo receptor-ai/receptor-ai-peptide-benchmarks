@@ -1,0 +1,114 @@
+data_7MX1_C
+_entry.id '7MX1_C'
+
+_cell.entry_id '7MX1_C'
+_cell.length_a 57.713
+_cell.length_b 64.958
+_cell.length_c 71.674
+_cell.angle_alpha 90
+_cell.angle_beta 101.62
+_cell.angle_gamma 90
+
+_symmetry.entry_id '7MX1_C'
+_symmetry.space_group_name_H-M 'P 1 21 1'
+_symmetry.Int_Tables_number 4
+
+loop_
+_entity.id
+_entity.type
+Q polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+Q polypeptide(L) Q ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ACE .
+ALA .
+LEU .
+PRO .
+SER .
+TPO .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+Qxp Q
+
+
+
+loop_
+_atom_type.symbol
+C
+N
+O
+P
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+HETATM 1 C C . ACE Qxp Q 1 ? 113.9633 -13.8430714 77.8072906 1 73.1 ? 0 Q 1
+HETATM 2 O O . ACE Qxp Q 1 ? 114.745129 -13.9211843 76.8691561 1 66.64 ? 0 Q 1
+HETATM 3 C CH3 . ACE Qxp Q 1 ? 113.572633 -15.0794289 78.5794284 1 72.97 ? 0 Q 1
+ATOM 4 N N . PRO Qxp Q 2 ? 113.84562 -12.6453717 78.3883333 1 69.52 ? 1 Q 1
+ATOM 5 C CA . PRO Qxp Q 2 ? 114.279508 -11.6163905 77.428331 1 49.1 ? 1 Q 1
+ATOM 6 C C . PRO Qxp Q 2 ? 115.751795 -11.1968111 77.5798402 1 33.52 ? 1 Q 1
+ATOM 7 O O . PRO Qxp Q 2 ? 116.23945 -11.0908854 78.6999305 1 38.34 ? 1 Q 1
+ATOM 8 C CB . PRO Qxp Q 2 ? 113.362623 -10.4275772 77.7509735 1 57.14 ? 1 Q 1
+ATOM 9 C CG . PRO Qxp Q 2 ? 112.272824 -10.96775 78.6433257 1 57.48 ? 1 Q 1
+ATOM 10 C CD . PRO Qxp Q 2 ? 112.846497 -12.1418975 79.3449099 1 56.27 ? 1 Q 1
+ATOM 11 N N . LEU Qxp Q 3 ? 116.434764 -10.9652404 76.4569141 1 26.36 ? 2 Q 1
+ATOM 12 C CA . LEU Qxp Q 3 ? 117.825705 -10.5317119 76.4089205 1 36.15 ? 2 Q 1
+ATOM 13 C C . LEU Qxp Q 3 ? 117.943861 -9.09434521 75.9129515 1 23.9 ? 2 Q 1
+ATOM 14 O O . LEU Qxp Q 3 ? 117.115178 -8.61275573 75.1356396 1 26.29 ? 2 Q 1
+ATOM 15 C CB . LEU Qxp Q 3 ? 118.634783 -11.4878656 75.5245617 1 61.71 ? 2 Q 1
+ATOM 16 C CG . LEU Qxp Q 3 ? 118.780312 -12.8771861 76.148548 1 91.07 ? 2 Q 1
+ATOM 17 C CD1 . LEU Qxp Q 3 ? 119.437325 -13.8878369 75.2534051 1 108.13 ? 2 Q 1
+ATOM 18 C CD2 . LEU Qxp Q 3 ? 119.655625 -12.7248856 77.4039686 1 98.79 ? 2 Q 1
+ATOM 19 N N . ALA Qxp Q 4 ? 118.996665 -8.41871403 76.3621735 1 25.13 ? 3 Q 1
+ATOM 20 C CA . ALA Qxp Q 4 ? 119.230274 -7.02905291 76.0120968 1 25.47 ? 3 Q 1
+ATOM 21 C C . ALA Qxp Q 4 ? 120.634369 -6.81012299 75.4766943 1 21.21 ? 3 Q 1
+ATOM 22 O O . ALA Qxp Q 4 ? 121.559144 -7.5783255 75.7450325 1 23.99 ? 3 Q 1
+ATOM 23 C CB . ALA Qxp Q 4 ? 119.013126 -6.10050683 77.2206078 1 31.99 ? 3 Q 1
+ATOM 24 N N . SER Qxp Q 5 ? 120.768738 -5.74563022 74.7007786 1 21.86 ? 4 Q 1
+ATOM 25 C CA . SER Qxp Q 5 ? 122.07195 -5.28091213 74.2680254 1 21.48 ? 4 Q 1
+ATOM 26 C C . SER Qxp Q 5 ? 122.721117 -4.67241008 75.5126217 1 21.13 ? 4 Q 1
+ATOM 27 O O . SER Qxp Q 5 ? 122.118845 -4.61914786 76.5775282 1 24.56 ? 4 Q 1
+ATOM 28 C CB . SER Qxp Q 5 ? 121.945319 -4.27785155 73.1400955 1 21.4 ? 4 Q 1
+ATOM 29 O OG . SER Qxp Q 5 ? 121.211028 -3.14723377 73.5582707 1 21.79 ? 4 Q 1
+HETATM 30 N N . TPO Qxp Q 6 ? 123.941434 -4.19591466 75.3699971 1 20.99 ? 5 Q 1
+HETATM 31 C CA . TPO Qxp Q 6 ? 124.68262 -3.72330205 76.5315831 1 23.55 ? 5 Q 1
+HETATM 32 C CB . TPO Qxp Q 6 ? 126.032988 -3.194429 76.0861234 1 21.67 ? 5 Q 1
+HETATM 33 C CG2 . TPO Qxp Q 6 ? 126.861167 -2.71641644 77.2531925 1 26.6 ? 5 Q 1
+HETATM 34 O OG1 . TPO Qxp Q 6 ? 126.711735 -4.3221302 75.5251779 1 20.99 ? 5 Q 1
+HETATM 35 P P . TPO Qxp Q 6 ? 126.959023 -4.17960146 73.9331681 1 20.54 ? 5 Q 1
+HETATM 36 O O1P . TPO Qxp Q 6 ? 127.726025 -5.50525508 73.4953968 1 21.24 ? 5 Q 1
+HETATM 37 O O2P . TPO Qxp Q 6 ? 127.734193 -2.95842888 73.627198 1 20.15 ? 5 Q 1
+HETATM 38 O O3P . TPO Qxp Q 6 ? 125.530388 -4.14236451 73.2029375 1 21.36 ? 5 Q 1
+HETATM 39 C C . TPO Qxp Q 6 ? 123.933954 -2.66973585 77.3408881 1 17.7 ? 5 Q 1
+HETATM 40 O O . TPO Qxp Q 6 ? 123.426377 -1.66458212 76.8292865 1 19.9 ? 5 Q 1

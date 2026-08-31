@@ -1,0 +1,132 @@
+data_7VHE
+_entry.id 7VHE
+
+_cell.entry_id 7VHE
+_cell.length_a 146.093
+_cell.length_b 146.093
+_cell.length_c 60.792
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 120
+
+_symmetry.entry_id 7VHE
+_symmetry.space_group_name_H-M 'P 61'
+_symmetry.Int_Tables_number 169
+
+loop_
+_entity.id
+_entity.type
+G polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+G polypeptide(L) G ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ALA .
+ARG .
+NH2 .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+G G
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.pdbx_ptnr1_label_alt_id
+_struct_conn.ptnr1_auth_asym_id
+_struct_conn.ptnr1_auth_seq_id
+_struct_conn.pdbx_ptnr1_PDB_ins_code
+_struct_conn.ptnr1_symmetry
+_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_ptnr2_label_alt_id
+_struct_conn.ptnr2_auth_asym_id
+_struct_conn.ptnr2_auth_seq_id
+_struct_conn.pdbx_ptnr2_PDB_ins_code
+_struct_conn.ptnr2_symmetry
+_struct_conn.details
+_struct_conn.pdbx_dist_value
+covale1 covale G ALA 4 C ? G 10 ? 1_555 G NH2 5 N ? G 11 ? 1_555 ? 1.3271
+
+loop_
+_struct_conn_type.id
+covale
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . ARG G G 1 ? 11.383 65.252 8.568 1 32.51 ? 7 G 1
+ATOM 2 C CA . ARG G G 1 ? 10.729 64.027 8.135 1 24.65 ? 7 G 1
+ATOM 3 C C . ARG G G 1 ? 9.209 64.237 8.058 1 20.54 ? 7 G 1
+ATOM 4 O O . ARG G G 1 ? 8.743 65.337 7.737 1 20.55 ? 7 G 1
+ATOM 5 C CB . ARG G G 1 ? 11.07 62.883 9.084 1 31.77 ? 7 G 1
+ATOM 6 N N . ARG G G 2 ? 8.437 63.198 8.358 1 18.97 ? 8 G 1
+ATOM 7 C CA . ARG G G 2 ? 6.988 63.309 8.237 1 21.05 ? 8 G 1
+ATOM 8 C C . ARG G G 2 ? 6.437 64.309 9.262 1 15.34 ? 8 G 1
+ATOM 9 O O . ARG G G 2 ? 6.769 64.254 10.451 1 15.86 ? 8 G 1
+ATOM 10 C CB . ARG G G 2 ? 6.343 61.93 8.39 1 18.6 ? 8 G 1
+ATOM 11 C CG . ARG G G 2 ? 4.819 61.979 8.582 1 18.16 ? 8 G 1
+ATOM 12 C CD . ARG G G 2 ? 4.133 62.557 7.344 1 11.83 ? 8 G 1
+ATOM 13 N NE . ARG G G 2 ? 2.988 61.741 6.978 1 18.64 ? 8 G 1
+ATOM 14 C CZ . ARG G G 2 ? 1.844 61.731 7.647 1 17.97 ? 8 G 1
+ATOM 15 N NH1 . ARG G G 2 ? 1.605 62.597 8.621 1 14.56 ? 8 G 1
+ATOM 16 N NH2 . ARG G G 2 ? 0.923 60.818 7.342 1 15.03 ? 8 G 1
+ATOM 17 N N . ARG G G 3 ? 5.629 65.253 8.792 1 14.85 ? 9 G 1
+ATOM 18 C CA . ARG G G 3 ? 5.032 66.237 9.68 1 14.72 ? 9 G 1
+ATOM 19 C C . ARG G G 3 ? 3.684 65.74 10.207 1 15.66 ? 9 G 1
+ATOM 20 O O . ARG G G 3 ? 2.986 65.036 9.499 1 13.14 ? 9 G 1
+ATOM 21 C CB . ARG G G 3 ? 4.852 67.561 8.946 1 15.35 ? 9 G 1
+ATOM 22 C CG . ARG G G 3 ? 6.154 68.146 8.413 1 18.33 ? 9 G 1
+ATOM 23 C CD . ARG G G 3 ? 5.884 69.098 7.25 1 19.74 ? 9 G 1
+ATOM 24 N NE . ARG G G 3 ? 5.301 70.36 7.694 1 22.11 ? 9 G 1
+ATOM 25 C CZ . ARG G G 3 ? 4.722 71.248 6.893 1 18.86 ? 9 G 1
+ATOM 26 N NH1 . ARG G G 3 ? 4.64 71.057 5.587 1 20.08 ? 9 G 1
+ATOM 27 N NH2 . ARG G G 3 ? 4.226 72.363 7.413 1 21.83 ? 9 G 1
+ATOM 28 N N . ALA G G 4 ? 3.333 66.105 11.442 1 16.68 ? 10 G 1
+ATOM 29 C CA . ALA G G 4 ? 2.015 65.74 12.011 1 19.92 ? 10 G 1
+ATOM 30 C C . ALA G G 4 ? 0.99 66.874 11.835 1 17.71 ? 10 G 1
+ATOM 31 O O . ALA G G 4 ? -0.215 66.624 11.797 1 12.28 ? 10 G 1
+ATOM 32 C CB . ALA G G 4 ? 2.126 65.38 13.509 1 14.28 ? 10 G 1
+HETATM 33 N N . NH2 G G 5 ? 1.492 68.099 11.742 1 15.84 ? 11 G 1
+
+_struct.title '7VHE: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'

@@ -1,0 +1,149 @@
+data_5CS2_BB
+_entry.id '5CS2_BB'
+
+_cell.entry_id '5CS2_BB'
+_cell.length_a 45.953
+_cell.length_b 45.953
+_cell.length_c 138.44
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 120
+
+_symmetry.entry_id '5CS2_BB'
+_symmetry.space_group_name_H-M 'P 32 2 1'
+_symmetry.Int_Tables_number 154
+
+loop_
+_entity.id
+_entity.type
+Q polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+Q polypeptide(L) Q ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+54C .
+ALA .
+MLE .
+VAL .
+WLU .
+WPA .
+WVL .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+Qxp Q
+
+
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+HETATM 1 C CA . 54C Qxp Q 1 ? 23.889 -29.201 2.549 0.25 27.51 ? 1 Q 1
+HETATM 2 C CB . 54C Qxp Q 1 ? 23.775 -28.356 3.841 0.25 28.42 ? 1 Q 1
+HETATM 3 C CG . 54C Qxp Q 1 ? 22.754 -28.838 4.843 0.25 30.03 ? 1 Q 1
+HETATM 4 N N . 54C Qxp Q 1 ? 24.851 -28.518 1.684 0.25 25.34 ? 1 Q 1
+HETATM 5 C C . 54C Qxp Q 1 ? 22.548 -29.482 1.9 0.25 27.94 ? 1 Q 1
+HETATM 6 O O . 54C Qxp Q 1 ? 22.061 -28.51 1.367 0.25 24.92 ? 1 Q 1
+HETATM 7 C CD1 . 54C Qxp Q 1 ? 22.988 -29.54 5.953 0.25 31.12 ? 1 Q 1
+HETATM 8 N NE2 . 54C Qxp Q 1 ? 21.889 -29.684 6.66 0.25 33.37 ? 1 Q 1
+HETATM 9 C C1 . 54C Qxp Q 1 ? 21.84 -30.467 7.913 0.25 37.48 ? 1 Q 1
+HETATM 10 C C2 . 54C Qxp Q 1 ? 23.261 -30.893 8.393 0.25 38.25 ? 1 Q 1
+HETATM 11 C C3 . 54C Qxp Q 1 ? 20.872 -31.668 7.729 0.25 37.18 ? 1 Q 1
+HETATM 12 C CE2 . 54C Qxp Q 1 ? 20.867 -28.998 6.088 0.25 32.2 ? 1 Q 1
+HETATM 13 C CD2 . 54C Qxp Q 1 ? 21.31 -28.415 4.908 0.25 31.12 ? 1 Q 1
+HETATM 14 C CE3 . 54C Qxp Q 1 ? 20.516 -27.601 4.103 0.25 30.52 ? 1 Q 1
+HETATM 15 C CZ3 . 54C Qxp Q 1 ? 19.177 -27.448 4.49 0.25 30.77 ? 1 Q 1
+HETATM 16 C C70 . 54C Qxp Q 1 ? 18.693 -28.062 5.652 0.25 30.91 ? 1 Q 1
+HETATM 17 C CH2 . 54C Qxp Q 1 ? 19.525 -28.846 6.462 0.25 31.46 ? 1 Q 1
+HETATM 18 O OB . 54C Qxp Q 1 ? 25.078 -28.192 4.423 0.25 28.54 ? 1 Q 1
+HETATM 19 C C4 . 54C Qxp Q 1 ? 21.346 -29.512 9.04 0.25 40.27 ? 1 Q 1
+HETATM 20 C C5 . 54C Qxp Q 1 ? 22.378 -28.382 9.451 0.25 40.55 ? 1 Q 1
+HETATM 21 O O6 . 54C Qxp Q 1 ? 22.019 -29.469 10.268 0.25 41.56 ? 1 Q 1
+HETATM 22 N N . WLU Qxp Q 2 ? 21.93 -30.701 1.872 0.25 32.27 ? 2 Q 1
+HETATM 23 C CN . WLU Qxp Q 2 ? 20.621 -30.814 1.217 0.25 33.34 ? 2 Q 1
+HETATM 24 C CA . WLU Qxp Q 2 ? 22.498 -31.887 2.546 0.25 35.87 ? 2 Q 1
+HETATM 25 C CB . WLU Qxp Q 2 ? 21.695 -32.468 3.757 0.25 37.74 ? 2 Q 1
+HETATM 26 C CG . WLU Qxp Q 2 ? 22.134 -33.867 4.304 0.25 37.83 ? 2 Q 1
+HETATM 27 C CG1 . WLU Qxp Q 2 ? 21.001 -34.493 5.175 0.25 39.08 ? 2 Q 1
+HETATM 28 O O4 . WLU Qxp Q 2 ? 21.506 -35.653 5.866 0.25 39.79 ? 2 Q 1
+HETATM 29 C CG2 . WLU Qxp Q 2 ? 23.433 -33.792 5.16 0.25 36.97 ? 2 Q 1
+HETATM 30 C C . WLU Qxp Q 2 ? 22.677 -32.953 1.487 0.25 37.11 ? 2 Q 1
+HETATM 31 O O . WLU Qxp Q 2 ? 21.918 -33.906 1.502 0.25 37.83 ? 2 Q 1
+ATOM 32 N N . ALA Qxp Q 3 ? 23.654 -32.855 0.557 0.25 38 ? 3 Q 1
+ATOM 33 C CA . ALA Qxp Q 3 ? 23.747 -33.925 -0.44 0.25 36.78 ? 3 Q 1
+ATOM 34 C C . ALA Qxp Q 3 ? 25.177 -34.237 -0.831 0.25 37.05 ? 3 Q 1
+ATOM 35 O O . ALA Qxp Q 3 ? 25.365 -35.301 -1.398 0.25 38.01 ? 3 Q 1
+ATOM 36 C CB . ALA Qxp Q 3 ? 22.948 -33.544 -1.714 0.25 34.99 ? 3 Q 1
+HETATM 37 N N . WPA Qxp Q 4 ? 26.145 -33.318 -0.552 0.25 36.46 ? 4 Q 1
+HETATM 38 C CA . WPA Qxp Q 4 ? 27.566 -33.496 -0.895 0.25 35.82 ? 4 Q 1
+HETATM 39 C C . WPA Qxp Q 4 ? 28.417 -32.662 0.042 0.25 34.55 ? 4 Q 1
+HETATM 40 C CB . WPA Qxp Q 4 ? 27.924 -33.099 -2.359 0.25 37.38 ? 4 Q 1
+HETATM 41 O OB . WPA Qxp Q 4 ? 27.729 -31.677 -2.506 0.25 37.48 ? 4 Q 1
+HETATM 42 C CB1 . WPA Qxp Q 4 ? 28.644 -31.076 -3.441 0.25 38.28 ? 4 Q 1
+HETATM 43 C CG . WPA Qxp Q 4 ? 27.127 -33.868 -3.417 0.25 38.84 ? 4 Q 1
+HETATM 44 C CD1 . WPA Qxp Q 4 ? 25.906 -33.36 -3.883 0.25 40.18 ? 4 Q 1
+HETATM 45 C CE1 . WPA Qxp Q 4 ? 25.18 -34.044 -4.862 0.25 40.62 ? 4 Q 1
+HETATM 46 C CZ . WPA Qxp Q 4 ? 25.678 -35.242 -5.376 0.25 41.16 ? 4 Q 1
+HETATM 47 C CE2 . WPA Qxp Q 4 ? 26.901 -35.747 -4.92 0.25 40.92 ? 4 Q 1
+HETATM 48 C CD2 . WPA Qxp Q 4 ? 27.628 -35.061 -3.945 0.25 39.05 ? 4 Q 1
+HETATM 49 O O . WPA Qxp Q 4 ? 27.87 -31.933 0.856 0.25 34.17 ? 4 Q 1
+ATOM 50 N N . VAL Qxp Q 5 ? 29.764 -32.736 -0.089 0.25 34.67 ? 5 Q 1
+ATOM 51 C CA . VAL Qxp Q 5 ? 30.675 -31.936 0.74 0.25 34.15 ? 5 Q 1
+ATOM 52 C C . VAL Qxp Q 5 ? 31.095 -30.755 -0.124 0.25 33.82 ? 5 Q 1
+ATOM 53 O O . VAL Qxp Q 5 ? 31.699 -31.075 -1.13 0.25 33.08 ? 5 Q 1
+ATOM 54 C CB . VAL Qxp Q 5 ? 31.892 -32.738 1.308 0.25 33.86 ? 5 Q 1
+ATOM 55 C CG1 . VAL Qxp Q 5 ? 32.876 -31.816 2.086 0.25 33.5 ? 5 Q 1
+ATOM 56 C CG2 . VAL Qxp Q 5 ? 31.447 -33.917 2.224 0.25 35.41 ? 5 Q 1
+HETATM 57 N N . MLE Qxp Q 6 ? 30.751 -29.462 0.155 0.25 33.79 ? 6 Q 1
+HETATM 58 C CN . MLE Qxp Q 6 ? 31.155 -28.385 -0.753 0.25 33.98 ? 6 Q 1
+HETATM 59 C CA . MLE Qxp Q 6 ? 29.992 -29.112 1.37 0.25 35.31 ? 6 Q 1
+HETATM 60 C CB . MLE Qxp Q 6 ? 30.62 -28.513 2.674 0.25 35.52 ? 6 Q 1
+HETATM 61 C CG . MLE Qxp Q 6 ? 29.696 -28.502 3.93 0.25 35.22 ? 6 Q 1
+HETATM 62 C CD1 . MLE Qxp Q 6 ? 29.358 -29.955 4.364 0.25 34.46 ? 6 Q 1
+HETATM 63 C CD2 . MLE Qxp Q 6 ? 30.306 -27.726 5.121 0.25 33.71 ? 6 Q 1
+HETATM 64 C C . MLE Qxp Q 6 ? 28.77 -28.291 0.977 0.25 35.9 ? 6 Q 1
+HETATM 65 O O . MLE Qxp Q 6 ? 28.731 -27.092 1.217 0.25 37.18 ? 6 Q 1
+HETATM 66 C C . WVL Qxp Q 7 ? 25.472 -29.096 0.634 0.25 27.46 ? 7 Q 1
+HETATM 67 C CA . WVL Qxp Q 7 ? 26.529 -28.289 -0.087 0.25 29.5 ? 7 Q 1
+HETATM 68 O O . WVL Qxp Q 7 ? 25.293 -30.258 0.291 0.25 28.8 ? 7 Q 1
+HETATM 69 C CB . WVL Qxp Q 7 ? 26.322 -28.318 -1.629 0.25 28 ? 7 Q 1
+HETATM 70 C CG2 . WVL Qxp Q 7 ? 27.443 -27.519 -2.351 0.25 27.07 ? 7 Q 1
+HETATM 71 C CG1 . WVL Qxp Q 7 ? 25 -27.708 -2.055 0.25 29.86 ? 7 Q 1
+HETATM 72 C CD . WVL Qxp Q 7 ? 23.948 -28.412 -2.5 0.25 31.53 ? 7 Q 1
+HETATM 73 C CE1 . WVL Qxp Q 7 ? 23.978 -29.924 -2.581 0.25 32.61 ? 7 Q 1
+HETATM 74 C CE2 . WVL Qxp Q 7 ? 22.662 -27.74 -2.933 0.25 32.28 ? 7 Q 1
+HETATM 75 N N . WVL Qxp Q 7 ? 27.774 -28.939 0.333 0.25 33.67 ? 7 Q 1

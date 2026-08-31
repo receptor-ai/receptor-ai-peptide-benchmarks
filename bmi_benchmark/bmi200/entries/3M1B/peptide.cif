@@ -1,0 +1,207 @@
+data_3M1B
+_entry.id 3M1B
+
+_cell.entry_id 3M1B
+_cell.length_a 68.05
+_cell.length_b 158.431
+_cell.length_c 82.539
+_cell.angle_alpha 90
+_cell.angle_beta 90.11
+_cell.angle_gamma 90
+
+_symmetry.entry_id 3M1B
+_symmetry.space_group_name_H-M 'P 1 21 1'
+_symmetry.Int_Tables_number 4
+
+loop_
+_entity.id
+_entity.type
+J polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+J polypeptide(L) J ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+CYS .
+GLY .
+HIS .
+LE1 .
+MLE .
+PHE .
+PRO .
+SAR .
+THR .
+TYR .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+J J
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.pdbx_ptnr1_label_alt_id
+_struct_conn.ptnr1_auth_asym_id
+_struct_conn.ptnr1_auth_seq_id
+_struct_conn.pdbx_ptnr1_PDB_ins_code
+_struct_conn.ptnr1_symmetry
+_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_ptnr2_label_alt_id
+_struct_conn.ptnr2_auth_asym_id
+_struct_conn.ptnr2_auth_seq_id
+_struct_conn.pdbx_ptnr2_PDB_ins_code
+_struct_conn.ptnr2_symmetry
+_struct_conn.details
+_struct_conn.pdbx_dist_value
+disulf14 disulf J LE1 4 SG ? J 103 ? 1_555 J CYS 14 SG ? J 113 ? 1_555 ? 2.0419
+covale5 covale J PHE 3 C ? J 102 ? 1_555 J LE1 4 N ? J 103 ? 1_555 ? 1.3349
+covale6 covale J LE1 4 C ? J 103 ? 1_555 J THR 5 N ? J 104 ? 1_555 ? 1.3337
+covale7 covale J GLY 9 C ? J 108 ? 1_555 J SAR 10 N ? J 109 ? 1_555 ? 1.3364
+covale8 covale J SAR 10 C ? J 109 ? 1_555 J MLE 11 N ? J 110 ? 1_555 ? 1.3322
+covale9 covale J MLE 11 C ? J 110 ? 1_555 J TYR 12 N ? J 111 ? 1_555 ? 1.3342
+
+loop_
+_struct_conn_type.id
+covale
+disulf
+
+loop_
+_atom_type.symbol
+C
+N
+O
+S
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . PHE J J 3 ? 44.001 -26.328 49.484 1 108.96 ? 102 J 1
+ATOM 2 C CA . PHE J J 3 ? 42.847 -26.925 50.158 1 109.08 ? 102 J 1
+ATOM 3 C C . PHE J J 3 ? 41.531 -26.704 49.413 1 108.93 ? 102 J 1
+ATOM 4 O O . PHE J J 3 ? 41.032 -25.555 49.372 1 109.23 ? 102 J 1
+ATOM 5 C CB . PHE J J 3 ? 42.746 -26.417 51.606 1 109.07 ? 102 J 1
+ATOM 6 C CG . PHE J J 3 ? 43.349 -27.351 52.611 1 109.06 ? 102 J 1
+ATOM 7 C CD1 . PHE J J 3 ? 42.54 -28.05 53.496 1 109.14 ? 102 J 1
+ATOM 8 C CD2 . PHE J J 3 ? 44.727 -27.56 52.652 1 109.39 ? 102 J 1
+ATOM 9 C CE1 . PHE J J 3 ? 43.096 -28.932 54.42 1 109.65 ? 102 J 1
+ATOM 10 C CE2 . PHE J J 3 ? 45.294 -28.44 53.57 1 109.22 ? 102 J 1
+ATOM 11 C CZ . PHE J J 3 ? 44.478 -29.125 54.455 1 109.5 ? 102 J 1
+HETATM 12 O O . LE1 J J 4 ? 37.865 -27.164 50.357 1 108.74 ? 103 J 1
+HETATM 13 C C . LE1 J J 4 ? 37.758 -26.773 49.198 1 108.55 ? 103 J 1
+HETATM 14 C CA . LE1 J J 4 ? 38.967 -26.26 48.431 1 109.53 ? 103 J 1
+HETATM 15 N N . LE1 J J 4 ? 40.221 -26.666 49.159 1 108.95 ? 103 J 1
+HETATM 16 C CB . LE1 J J 4 ? 38.983 -26.663 46.943 1 109.71 ? 103 J 1
+HETATM 17 C C9 . LE1 J J 4 ? 39.767 -25.659 46.09 1 109.64 ? 103 J 1
+HETATM 18 C C8 . LE1 J J 4 ? 37.566 -26.709 46.361 1 109.44 ? 103 J 1
+HETATM 19 S SG . LE1 J J 4 ? 39.711 -28.279 46.675 1 112.2 ? 103 J 1
+ATOM 20 N N . THR J J 5 ? 36.995 -25.711 49.46 1 106.96 ? 104 J 1
+ATOM 21 C CA . THR J J 5 ? 35.648 -25.503 49.984 1 106.43 ? 104 J 1
+ATOM 22 C C . THR J J 5 ? 34.786 -26.682 49.585 1 105.96 ? 104 J 1
+ATOM 23 O O . THR J J 5 ? 34.757 -27.066 48.417 1 106.03 ? 104 J 1
+ATOM 24 C CB . THR J J 5 ? 34.998 -24.206 49.437 1 106.7 ? 104 J 1
+ATOM 25 O OG1 . THR J J 5 ? 35.917 -23.115 49.557 1 106.79 ? 104 J 1
+ATOM 26 C CG2 . THR J J 5 ? 33.713 -23.874 50.201 1 106.55 ? 104 J 1
+ATOM 27 N N . GLY J J 6 ? 34.095 -27.259 50.559 1 105.39 ? 105 J 1
+ATOM 28 C CA . GLY J J 6 ? 33.154 -28.327 50.279 1 104.79 ? 105 J 1
+ATOM 29 C C . GLY J J 6 ? 31.907 -27.753 49.65 1 104.55 ? 105 J 1
+ATOM 30 O O . GLY J J 6 ? 31.606 -26.571 49.815 1 104.61 ? 105 J 1
+ATOM 31 N N . HIS J J 7 ? 31.188 -28.585 48.911 1 104.2 ? 106 J 1
+ATOM 32 C CA . HIS J J 7 ? 29.932 -28.166 48.34 1 103.7 ? 106 J 1
+ATOM 33 C C . HIS J J 7 ? 28.894 -28 49.452 1 104.41 ? 106 J 1
+ATOM 34 O O . HIS J J 7 ? 28.075 -27.077 49.414 1 104.57 ? 106 J 1
+ATOM 35 C CB . HIS J J 7 ? 29.469 -29.165 47.293 1 102.76 ? 106 J 1
+ATOM 36 C CG . HIS J J 7 ? 28.04 -28.996 46.914 1 101.49 ? 106 J 1
+ATOM 37 N ND1 . HIS J J 7 ? 27.645 -28.261 45.819 1 100.79 ? 106 J 1
+ATOM 38 C CD2 . HIS J J 7 ? 26.904 -29.435 47.505 1 100.74 ? 106 J 1
+ATOM 39 C CE1 . HIS J J 7 ? 26.326 -28.27 45.742 1 100.96 ? 106 J 1
+ATOM 40 N NE2 . HIS J J 7 ? 25.852 -28.976 46.754 1 100.46 ? 106 J 1
+ATOM 41 N N . PHE J J 8 ? 28.935 -28.891 50.441 1 105.22 ? 107 J 1
+ATOM 42 C CA . PHE J J 8 ? 28.066 -28.772 51.614 1 106.01 ? 107 J 1
+ATOM 43 C C . PHE J J 8 ? 28.827 -28.251 52.844 1 106.18 ? 107 J 1
+ATOM 44 O O . PHE J J 8 ? 28.62 -28.717 53.974 1 105.89 ? 107 J 1
+ATOM 45 C CB . PHE J J 8 ? 27.378 -30.106 51.912 1 106.3 ? 107 J 1
+ATOM 46 C CG . PHE J J 8 ? 26.318 -30.485 50.911 1 106.7 ? 107 J 1
+ATOM 47 C CD1 . PHE J J 8 ? 25.166 -29.717 50.768 1 107.36 ? 107 J 1
+ATOM 48 C CD2 . PHE J J 8 ? 26.461 -31.63 50.128 1 107.14 ? 107 J 1
+ATOM 49 C CE1 . PHE J J 8 ? 24.172 -30.075 49.843 1 108.18 ? 107 J 1
+ATOM 50 C CE2 . PHE J J 8 ? 25.479 -31.999 49.201 1 107.28 ? 107 J 1
+ATOM 51 C CZ . PHE J J 8 ? 24.33 -31.222 49.057 1 107.49 ? 107 J 1
+ATOM 52 N N . GLY J J 9 ? 29.693 -27.267 52.607 1 106.37 ? 108 J 1
+ATOM 53 C CA . GLY J J 9 ? 30.602 -26.764 53.628 1 107.24 ? 108 J 1
+ATOM 54 C C . GLY J J 9 ? 31.855 -27.621 53.734 1 108.16 ? 108 J 1
+ATOM 55 O O . GLY J J 9 ? 31.919 -28.699 53.135 1 108.51 ? 108 J 1
+HETATM 56 N N . SAR J J 10 ? 32.855 -27.163 54.493 1 108.61 ? 109 J 1
+HETATM 57 C CA . SAR J J 10 ? 34.003 -28.018 54.801 1 108.97 ? 109 J 1
+HETATM 58 C C . SAR J J 10 ? 35.24 -27.671 53.995 1 109.53 ? 109 J 1
+HETATM 59 O O . SAR J J 10 ? 35.157 -26.906 53.025 1 109.52 ? 109 J 1
+HETATM 60 C CN . SAR J J 10 ? 32.893 -25.826 55.067 1 108.62 ? 109 J 1
+HETATM 61 N N . MLE J J 11 ? 36.392 -28.211 54.39 1 109.88 ? 110 J 1
+HETATM 62 C CN . MLE J J 11 ? 36.53 -28.874 55.684 1 109.81 ? 110 J 1
+HETATM 63 C CA . MLE J J 11 ? 37.568 -28.107 53.509 1 110.26 ? 110 J 1
+HETATM 64 C CB . MLE J J 11 ? 38.629 -27.153 54.061 1 110.66 ? 110 J 1
+HETATM 65 C CG . MLE J J 11 ? 38.047 -25.759 54.29 1 110.68 ? 110 J 1
+HETATM 66 C CD1 . MLE J J 11 ? 38.882 -24.993 55.312 1 110.83 ? 110 J 1
+HETATM 67 C CD2 . MLE J J 11 ? 37.885 -24.996 52.979 1 110.57 ? 110 J 1
+HETATM 68 C C . MLE J J 11 ? 38.194 -29.401 53.061 1 110.38 ? 110 J 1
+HETATM 69 O O . MLE J J 11 ? 38.355 -30.338 53.857 1 110.36 ? 110 J 1
+ATOM 70 N N . TYR J J 12 ? 38.562 -29.434 51.779 1 110.41 ? 111 J 1
+ATOM 71 C CA . TYR J J 12 ? 39.022 -30.646 51.097 1 110.33 ? 111 J 1
+ATOM 72 C C . TYR J J 12 ? 40.278 -30.372 50.269 1 110.28 ? 111 J 1
+ATOM 73 O O . TYR J J 12 ? 40.257 -29.537 49.37 1 110.34 ? 111 J 1
+ATOM 74 C CB . TYR J J 12 ? 37.904 -31.2 50.199 1 110.13 ? 111 J 1
+ATOM 75 C CG . TYR J J 12 ? 36.634 -31.558 50.948 1 109.87 ? 111 J 1
+ATOM 76 C CD1 . TYR J J 12 ? 36.47 -32.821 51.513 1 109.98 ? 111 J 1
+ATOM 77 C CD2 . TYR J J 12 ? 35.607 -30.63 51.108 1 109.92 ? 111 J 1
+ATOM 78 C CE1 . TYR J J 12 ? 35.311 -33.157 52.215 1 110.06 ? 111 J 1
+ATOM 79 C CE2 . TYR J J 12 ? 34.439 -30.957 51.804 1 110.27 ? 111 J 1
+ATOM 80 C CZ . TYR J J 12 ? 34.298 -32.225 52.353 1 110.26 ? 111 J 1
+ATOM 81 O OH . TYR J J 12 ? 33.152 -32.561 53.043 1 110.08 ? 111 J 1
+ATOM 82 N N . PRO J J 13 ? 41.376 -31.085 50.558 1 110.44 ? 112 J 1
+ATOM 83 C CA . PRO J J 13 ? 42.65 -30.781 49.896 1 110.8 ? 112 J 1
+ATOM 84 C C . PRO J J 13 ? 42.613 -31.054 48.389 1 111.3 ? 112 J 1
+ATOM 85 O O . PRO J J 13 ? 41.863 -31.924 47.932 1 111.46 ? 112 J 1
+ATOM 86 C CB . PRO J J 13 ? 43.635 -31.72 50.587 1 110.81 ? 112 J 1
+ATOM 87 C CG . PRO J J 13 ? 42.78 -32.855 51.095 1 110.59 ? 112 J 1
+ATOM 88 C CD . PRO J J 13 ? 41.487 -32.22 51.49 1 110.32 ? 112 J 1
+ATOM 89 N N . CYS J J 14 ? 43.416 -30.303 47.634 1 111.79 ? 113 J 1
+ATOM 90 C CA . CYS J J 14 ? 43.453 -30.382 46.164 1 112.13 ? 113 J 1
+ATOM 91 C C . CYS J J 14 ? 44.633 -29.598 45.595 1 112.06 ? 113 J 1
+ATOM 92 O O . CYS J J 14 ? 45.764 -29.723 46.065 1 112.21 ? 113 J 1
+ATOM 93 C CB . CYS J J 14 ? 42.157 -29.842 45.552 1 112.15 ? 113 J 1
+ATOM 94 S SG . CYS J J 14 ? 41.684 -28.193 46.156 1 113.25 ? 113 J 1
+
+_struct.title '3M1B: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'

@@ -1,0 +1,177 @@
+data_8DS7
+_entry.id 8DS7
+
+_cell.entry_id 8DS7
+_cell.length_a 37.01
+_cell.length_b 88.49
+_cell.length_c 128.7
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+
+_symmetry.entry_id 8DS7
+_symmetry.space_group_name_H-M 'P 2 21 21'
+_symmetry.Int_Tables_number 18
+
+loop_
+_entity.id
+_entity.type
+M polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+M polypeptide(L) M ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ALA .
+ASN .
+CYS .
+GLU .
+GLY .
+HIS .
+ILE .
+LEU .
+VAL .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+C M
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.pdbx_ptnr1_label_alt_id
+_struct_conn.ptnr1_auth_asym_id
+_struct_conn.ptnr1_auth_seq_id
+_struct_conn.pdbx_ptnr1_PDB_ins_code
+_struct_conn.ptnr1_symmetry
+_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_ptnr2_label_alt_id
+_struct_conn.ptnr2_auth_asym_id
+_struct_conn.ptnr2_auth_seq_id
+_struct_conn.pdbx_ptnr2_PDB_ins_code
+_struct_conn.ptnr2_symmetry
+_struct_conn.details
+_struct_conn.pdbx_dist_value
+disulf7 disulf C CYS 2 SG ? M 2 ? 1_555 C CYS 10 SG ? M 10 ? 1_555 ? 2.0274
+
+loop_
+_struct_conn_type.id
+disulf
+
+loop_
+_atom_type.symbol
+C
+N
+O
+S
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . ALA C M 1 ? 33.07789 98.45863 140.54558 1 33.7676 ? 1 M 1
+ATOM 2 C CA . ALA C M 1 ? 32.5634 97.16607 140.01126 1 38.9813 ? 1 M 1
+ATOM 3 C C . ALA C M 1 ? 31.72328 97.39773 138.75756 1 32.56 ? 1 M 1
+ATOM 4 O O . ALA C M 1 ? 31.31179 98.52091 138.46138 1 26.4592 ? 1 M 1
+ATOM 5 C CB . ALA C M 1 ? 31.74837 96.43445 141.07354 1 38.7095 ? 1 M 1
+ATOM 6 N N . CYS C M 2 ? 31.47646 96.31824 138.02294 1 27.9117 ? 2 M 1
+ATOM 7 C CA . CYS C M 2 ? 30.7132 96.40882 136.78698 1 20.3004 ? 2 M 1
+ATOM 8 C C . CYS C M 2 ? 29.29341 96.88487 137.06463 1 18.1628 ? 2 M 1
+ATOM 9 O O . CYS C M 2 ? 28.61641 96.37566 137.96276 1 19.3559 ? 2 M 1
+ATOM 10 C CB . CYS C M 2 ? 30.70549 95.04727 136.09691 1 23.4126 ? 2 M 1
+ATOM 11 S SG . CYS C M 2 ? 29.6809 94.96344 134.63182 1 28.9424 ? 2 M 1
+ATOM 12 N N . ASN C M 3 ? 28.84814 97.87717 136.29134 1 17.0804 ? 3 M 1
+ATOM 13 C CA . ASN C M 3 ? 27.50653 98.44565 136.42475 1 14.426 ? 3 M 1
+ATOM 14 C C . ASN C M 3 ? 26.55355 97.58847 135.59985 1 14.5849 ? 3 M 1
+ATOM 15 O O . ASN C M 3 ? 26.41798 97.77386 134.38823 1 14.7414 ? 3 M 1
+ATOM 16 C CB . ASN C M 3 ? 27.49684 99.90364 135.97765 1 17.6417 ? 3 M 1
+ATOM 17 C CG . ASN C M 3 ? 26.23565 100.63998 136.39733 1 17.3038 ? 3 M 1
+ATOM 18 O OD1 . ASN C M 3 ? 25.16578 100.04632 136.51566 1 11.1712 ? 3 M 1
+ATOM 19 N ND2 . ASN C M 3 ? 26.35892 101.94511 136.61986 1 13.502 ? 3 M 1
+ATOM 20 N N . LEU C M 4 ? 25.88673 96.64145 136.26827 1 14.9805 ? 4 M 1
+ATOM 21 C CA . LEU C M 4 ? 25.04823 95.67898 135.56003 1 17.5358 ? 4 M 1
+ATOM 22 C C . LEU C M 4 ? 23.90422 96.36924 134.82842 1 14.432 ? 4 M 1
+ATOM 23 O O . LEU C M 4 ? 23.57206 96.00145 133.69499 1 15.2199 ? 4 M 1
+ATOM 24 C CB . LEU C M 4 ? 24.50266 94.64293 136.5437 1 17.1736 ? 4 M 1
+ATOM 25 C CG . LEU C M 4 ? 23.65766 93.51116 135.95639 1 19.079 ? 4 M 1
+ATOM 26 C CD1 . LEU C M 4 ? 24.48282 92.66832 134.99255 1 21.1211 ? 4 M 1
+ATOM 27 C CD2 . LEU C M 4 ? 23.07129 92.63975 137.06256 1 20.3959 ? 4 M 1
+ATOM 28 N N . ILE C M 5 ? 23.29173 97.37486 135.45891 1 12.8437 ? 5 M 1
+ATOM 29 C CA . ILE C M 5 ? 22.12959 98.02684 134.8632 1 19.0425 ? 5 M 1
+ATOM 30 C C . ILE C M 5 ? 22.51337 98.73453 133.57084 1 14.9171 ? 5 M 1
+ATOM 31 O O . ILE C M 5 ? 21.73629 98.76347 132.60807 1 15.7 ? 5 M 1
+ATOM 32 C CB . ILE C M 5 ? 21.48525 99.00118 135.8691 1 12.1178 ? 5 M 1
+ATOM 33 C CG1 . ILE C M 5 ? 20.846 98.22762 137.02305 1 13.0285 ? 5 M 1
+ATOM 34 C CG2 . ILE C M 5 ? 20.46674 99.89087 135.16545 1 17.261 ? 5 M 1
+ATOM 35 C CD1 . ILE C M 5 ? 20.27791 99.10894 138.11747 1 15.2073 ? 5 M 1
+ATOM 36 N N . VAL C M 6 ? 23.70781 99.32559 133.52484 1 12.3005 ? 6 M 1
+ATOM 37 C CA . VAL C M 6 ? 24.11493 100.03599 132.31767 1 14.0011 ? 6 M 1
+ATOM 38 C C . VAL C M 6 ? 24.67379 99.06773 131.28263 1 16.1856 ? 6 M 1
+ATOM 39 O O . VAL C M 6 ? 24.35505 99.1627 130.09266 1 15.8592 ? 6 M 1
+ATOM 40 C CB . VAL C M 6 ? 25.13589 101.13731 132.66062 1 17.8577 ? 6 M 1
+ATOM 41 C CG1 . VAL C M 6 ? 25.69578 101.75322 131.37891 1 18.6957 ? 6 M 1
+ATOM 42 C CG2 . VAL C M 6 ? 24.50908 102.21123 133.54659 1 14.3088 ? 6 M 1
+ATOM 43 N N . GLU C M 7 ? 25.51212 98.12342 131.71592 1 15.6559 ? 7 M 1
+ATOM 44 C CA . GLU C M 7 ? 26.20871 97.25426 130.77434 1 18.0151 ? 7 M 1
+ATOM 45 C C . GLU C M 7 ? 25.33942 96.09466 130.30516 1 19.0794 ? 7 M 1
+ATOM 46 O O . GLU C M 7 ? 25.56693 95.55664 129.21621 1 21.2556 ? 7 M 1
+ATOM 47 C CB . GLU C M 7 ? 27.48514 96.70433 131.4122 1 22.143 ? 7 M 1
+ATOM 48 C CG . GLU C M 7 ? 28.52499 97.75284 131.76736 1 18.8069 ? 7 M 1
+ATOM 49 C CD . GLU C M 7 ? 28.91507 98.61657 130.58725 1 19.859 ? 7 M 1
+ATOM 50 O OE1 . GLU C M 7 ? 29.1613 98.06386 129.49298 1 23.7866 ? 7 M 1
+ATOM 51 O OE2 . GLU C M 7 ? 28.97934 99.85321 130.75393 1 21.57 ? 7 M 1
+ATOM 52 N N . GLY C M 8 ? 24.35809 95.68666 131.10981 1 18.0146 ? 8 M 1
+ATOM 53 C CA . GLY C M 8 ? 23.53453 94.5421 130.80129 1 21.7073 ? 8 M 1
+ATOM 54 C C . GLY C M 8 ? 24.19339 93.19995 131.02744 1 22.0054 ? 8 M 1
+ATOM 55 O O . GLY C M 8 ? 23.48686 92.19064 131.13694 1 25.5227 ? 8 M 1
+ATOM 56 N N . HIS C M 9 ? 25.52188 93.15168 131.09128 1 25.3533 ? 9 M 1
+ATOM 57 C CA . HIS C M 9 ? 26.24224 91.92402 131.38529 1 27.8642 ? 9 M 1
+ATOM 58 C C . HIS C M 9 ? 27.51958 92.27639 132.13377 1 28.6473 ? 9 M 1
+ATOM 59 O O . HIS C M 9 ? 28.12909 93.32134 131.88928 1 31.9068 ? 9 M 1
+ATOM 60 C CB . HIS C M 9 ? 26.5828 91.1373 130.11451 1 28.0949 ? 9 M 1
+ATOM 61 C CG . HIS C M 9 ? 26.94194 89.70837 130.37535 1 45.7302 ? 9 M 1
+ATOM 62 N ND1 . HIS C M 9 ? 28.17263 89.17808 130.05405 1 48.8884 ? 9 M 1
+ATOM 63 C CD2 . HIS C M 9 ? 26.23334 88.70113 130.93604 1 44.9847 ? 9 M 1
+ATOM 64 C CE1 . HIS C M 9 ? 28.20617 87.90548 130.40621 1 48.4827 ? 9 M 1
+ATOM 65 N NE2 . HIS C M 9 ? 27.04106 87.5907 130.94193 1 50.0152 ? 9 M 1
+ATOM 66 N N . CYS C M 10 ? 27.91708 91.39576 133.05001 1 26.2299 ? 10 M 1
+ATOM 67 C CA . CYS C M 10 ? 29.14008 91.59001 133.82143 1 29.6132 ? 10 M 1
+ATOM 68 C C . CYS C M 10 ? 29.91987 90.28517 133.92649 1 29.392 ? 10 M 1
+ATOM 69 O O . CYS C M 10 ? 30.33843 89.7192 132.91617 1 42.6045 ? 10 M 1
+ATOM 70 C CB . CYS C M 10 ? 28.82351 92.12338 135.21752 1 31.5303 ? 10 M 1
+ATOM 71 S SG . CYS C M 10 ? 28.13611 93.79141 135.22356 1 28.8562 ? 10 M 1
+
+_struct.title '8DS7: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'

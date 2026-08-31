@@ -1,0 +1,193 @@
+data_4MNV
+_entry.id 4MNV
+
+_cell.entry_id 4MNV
+_cell.length_a 52.31
+_cell.length_b 54.06
+_cell.length_c 79.67
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+
+_symmetry.entry_id 4MNV
+_symmetry.space_group_name_H-M 'P 21 21 21'
+_symmetry.Int_Tables_number 19
+
+loop_
+_entity.id
+_entity.type
+B polymer
+ZBR! non-polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+B polypeptide(L) B ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ALA .
+ARG .
+CYS .
+GLN .
+MET .
+SER .
+THR .
+ZBR .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+B B
+G ZBR!
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.pdbx_ptnr1_label_alt_id
+_struct_conn.ptnr1_auth_asym_id
+_struct_conn.ptnr1_auth_seq_id
+_struct_conn.pdbx_ptnr1_PDB_ins_code
+_struct_conn.ptnr1_symmetry
+_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_ptnr2_label_alt_id
+_struct_conn.ptnr2_auth_asym_id
+_struct_conn.ptnr2_auth_seq_id
+_struct_conn.pdbx_ptnr2_PDB_ins_code
+_struct_conn.ptnr2_symmetry
+_struct_conn.details
+_struct_conn.pdbx_dist_value
+covale2 covale B CYS 2 SG ? B 2 ? 1_555 G ZBR . C7 ? B 101 ? 1_555 ? 1.8367
+covale3 covale B CYS 7 SG ? B 7 ? 1_555 G ZBR . C9 ? B 101 ? 1_555 ? 1.8041
+
+loop_
+_struct_conn_type.id
+covale
+
+loop_
+_atom_type.symbol
+C
+N
+O
+S
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . THR B B 1 ? 28.322 25.706 -5.653 1 45.86 ? 1 B 1
+ATOM 2 C CA . THR B B 1 ? 29.596 24.962 -5.433 1 46.39 ? 1 B 1
+ATOM 3 C C . THR B B 1 ? 29.668 23.741 -6.343 1 46.35 ? 1 B 1
+ATOM 4 O O . THR B B 1 ? 28.936 22.769 -6.147 1 51.36 ? 1 B 1
+ATOM 5 C CB . THR B B 1 ? 29.74 24.473 -3.973 1 44.82 ? 1 B 1
+ATOM 6 O OG1 . THR B B 1 ? 29.55 25.57 -3.076 1 42.24 ? 1 B 1
+ATOM 7 C CG2 . THR B B 1 ? 31.127 23.857 -3.738 1 43.67 ? 1 B 1
+ATOM 8 N N . CYS B B 2 ? 30.549 23.806 -7.335 1 44.77 ? 2 B 1
+ATOM 9 C CA . CYS B B 2 ? 30.861 22.655 -8.167 1 40.13 ? 2 B 1
+ATOM 10 C C . CYS B B 2 ? 31.849 21.777 -7.412 1 40.44 ? 2 B 1
+ATOM 11 O O . CYS B B 2 ? 32.874 22.262 -6.911 1 39.9 ? 2 B 1
+ATOM 12 C CB . CYS B B 2 ? 31.451 23.102 -9.51 1 39.87 ? 2 B 1
+ATOM 13 S SG . CYS B B 2 ? 31.703 21.756 -10.703 1 37.53 ? 2 B 1
+ATOM 14 N N . ARG B B 3 ? 31.517 20.492 -7.297 1 37.43 ? 3 B 1
+ATOM 15 C CA . ARG B B 3 ? 32.444 19.494 -6.783 1 36.53 ? 3 B 1
+ATOM 16 C C . ARG B B 3 ? 32.606 18.398 -7.817 1 31.85 ? 3 B 1
+ATOM 17 O O . ARG B B 3 ? 31.67 18.048 -8.523 1 30.5 ? 3 B 1
+ATOM 18 C CB . ARG B B 3 ? 31.942 18.885 -5.474 1 38.58 ? 3 B 1
+ATOM 19 C CG . ARG B B 3 ? 31.982 19.835 -4.296 1 41.98 ? 3 B 1
+ATOM 20 C CD . ARG B B 3 ? 31.481 19.156 -3.026 1 44.13 ? 3 B 1
+ATOM 21 N NE . ARG B B 3 ? 30.614 20.052 -2.265 1 46.06 ? 3 B 1
+ATOM 22 C CZ . ARG B B 3 ? 29.31 20.223 -2.479 1 47.67 ? 3 B 1
+ATOM 23 N NH1 . ARG B B 3 ? 28.671 19.553 -3.432 1 47.92 ? 3 B 1
+ATOM 24 N NH2 . ARG B B 3 ? 28.635 21.08 -1.726 1 48.94 ? 3 B 1
+ATOM 25 N N . GLN B B 4 ? 33.802 17.846 -7.896 1 29.53 ? 4 B 1
+ATOM 26 C CA . GLN B B 4 ? 34.069 16.796 -8.87 1 28.82 ? 4 B 1
+ATOM 27 C C . GLN B B 4 ? 33.156 15.562 -8.693 1 27.78 ? 4 B 1
+ATOM 28 O O . GLN B B 4 ? 32.865 14.856 -9.662 1 24.76 ? 4 B 1
+ATOM 29 C CB . GLN B B 4 ? 35.537 16.408 -8.816 1 29.09 ? 4 B 1
+ATOM 30 C CG . GLN B B 4 ? 35.931 15.44 -9.908 1 29.87 ? 4 B 1
+ATOM 31 C CD . GLN B B 4 ? 37.422 15.364 -10.088 1 30.91 ? 4 B 1
+ATOM 32 O OE1 . GLN B B 4 ? 38.187 15.98 -9.336 1 32.66 ? 4 B 1
+ATOM 33 N NE2 . GLN B B 4 ? 37.851 14.606 -11.088 1 32.72 ? 4 B 1
+ATOM 34 N N . SER B B 5 ? 32.694 15.313 -7.471 1 27.15 ? 5 B 1
+ATOM 35 C CA . SER B B 5 ? 31.781 14.188 -7.208 1 28.27 ? 5 B 1
+ATOM 36 C C . SER B B 5 ? 30.472 14.263 -8.008 1 27.96 ? 5 B 1
+ATOM 37 O O . SER B B 5 ? 29.839 13.24 -8.253 1 26.01 ? 5 B 1
+ATOM 38 C CB . SER B B 5 ? 31.486 14.032 -5.715 1 28.48 ? 5 B 1
+ATOM 39 O OG . SER B B 5 ? 30.999 15.239 -5.135 1 30.23 ? 5 B 1
+ATOM 40 N N . MET B B 6 ? 30.083 15.463 -8.434 1 29.17 ? 6 B 1
+ATOM 41 C CA . MET B B 6 ? 28.964 15.617 -9.378 1 30.71 ? 6 B 1
+ATOM 42 C C . MET B B 6 ? 29.23 14.852 -10.684 1 29.5 ? 6 B 1
+ATOM 43 O O . MET B B 6 ? 28.3 14.336 -11.301 1 30.24 ? 6 B 1
+ATOM 44 C CB . MET B B 6 ? 28.712 17.103 -9.695 1 33.71 ? 6 B 1
+ATOM 45 C CG . MET B B 6 ? 28.27 17.945 -8.498 1 36.74 ? 6 B 1
+ATOM 46 S SD . MET B B 6 ? 28.136 19.712 -8.873 1 40.79 ? 6 B 1
+ATOM 47 C CE . MET B B 6 ? 26.473 19.769 -9.537 1 43.61 ? 6 B 1
+ATOM 48 N N . CYS B B 7 ? 30.498 14.79 -11.085 1 26.56 ? 7 B 1
+ATOM 49 C CA . CYS B B 7 ? 30.93 14.1 -12.306 1 28.13 ? 7 B 1
+ATOM 50 C C . CYS B B 7 ? 31.305 12.622 -12.071 1 25.13 ? 7 B 1
+ATOM 51 O O . CYS B B 7 ? 31.17 11.793 -12.963 1 24.61 ? 7 B 1
+ATOM 52 C CB . CYS B B 7 ? 32.106 14.86 -12.941 1 31.65 ? 7 B 1
+ATOM 53 S SG . CYS B B 7 ? 31.636 16.348 -13.894 1 36.78 ? 7 B 1
+ATOM 54 N N . THR B B 8 ? 31.759 12.273 -10.872 1 22.08 ? 8 B 1
+ATOM 55 C CA . THR B B 8 ? 32.092 10.874 -10.602 1 19.99 ? 8 B 1
+ATOM 56 C C . THR B B 8 ? 30.851 10.001 -10.39 1 18.96 ? 8 B 1
+ATOM 57 O O . THR B B 8 ? 30.91 8.796 -10.552 1 18.47 ? 8 B 1
+ATOM 58 C CB . THR B B 8 ? 32.972 10.717 -9.37 1 19.77 ? 8 B 1
+ATOM 59 O OG1 . THR B B 8 ? 32.276 11.227 -8.241 1 18.87 ? 8 B 1
+ATOM 60 C CG2 . THR B B 8 ? 34.298 11.459 -9.546 1 20.67 ? 8 B 1
+ATOM 61 N N . ALA B B 9 ? 29.742 10.622 -10.02 1 19.18 ? 9 B 1
+ATOM 62 C CA . ALA B B 9 ? 28.509 9.902 -9.792 1 19.08 ? 9 B 1
+ATOM 63 C C . ALA B B 9 ? 28.143 9.12 -11.044 1 18.76 ? 9 B 1
+ATOM 64 O O . ALA B B 9 ? 28.147 9.674 -12.138 1 20.83 ? 9 B 1
+ATOM 65 C CB . ALA B B 9 ? 27.392 10.867 -9.458 1 19.44 ? 9 B 1
+ATOM 66 N N . ARG B B 10 ? 27.824 7.845 -10.871 1 18.72 ? 10 B 1
+ATOM 67 C CA . ARG B B 10 ? 27.459 6.985 -11.994 1 18.72 ? 10 B 1
+ATOM 68 C C . ARG B B 10 ? 25.988 6.613 -11.966 1 18.78 ? 10 B 1
+ATOM 69 O O . ARG B B 10 ? 25.309 6.598 -12.993 1 20.01 ? 10 B 1
+ATOM 70 C CB . ARG B B 10 ? 28.319 5.749 -11.991 1 18.61 ? 10 B 1
+ATOM 71 C CG . ARG B B 10 ? 29.713 6.046 -12.505 1 18.55 ? 10 B 1
+ATOM 72 C CD . ARG B B 10 ? 30.525 4.793 -12.49 1 18.84 ? 10 B 1
+ATOM 73 N NE . ARG B B 10 ? 31.875 4.982 -13.01 1 19.11 ? 10 B 1
+ATOM 74 C CZ . ARG B B 10 ? 32.733 3.985 -13.184 1 19.2 ? 10 B 1
+ATOM 75 N NH1 . ARG B B 10 ? 32.373 2.746 -12.86 1 19.63 ? 10 B 1
+ATOM 76 N NH2 . ARG B B 10 ? 33.955 4.224 -13.652 1 19.75 ? 10 B 1
+HETATM 77 C C1 . ZBR G ZBR! . ? 33.746 20.136 -11.117 1 37.32 ? 101 B 1
+HETATM 78 C C2 . ZBR G ZBR! . ? 35.041 19.689 -11.416 1 37.88 ? 101 B 1
+HETATM 79 C C3 . ZBR G ZBR! . ? 35.206 18.511 -12.174 1 38.68 ? 101 B 1
+HETATM 80 C C4 . ZBR G ZBR! . ? 34.09 17.788 -12.626 1 37.25 ? 101 B 1
+HETATM 81 C C5 . ZBR G ZBR! . ? 32.803 18.262 -12.32 1 37.47 ? 101 B 1
+HETATM 82 C C6 . ZBR G ZBR! . ? 32.661 19.407 -11.572 1 36.53 ? 101 B 1
+HETATM 83 C C7 . ZBR G ZBR! . ? 33.451 21.291 -10.384 1 36.66 ? 101 B 1
+HETATM 84 C C8 . ZBR G ZBR! . ? 36.5 18.071 -12.475 1 45.09 ? 101 B 1
+HETATM 85 C C9 . ZBR G ZBR! . ? 31.583 17.663 -12.66 1 37.82 ? 101 B 1
+
+_struct.title '4MNV: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'

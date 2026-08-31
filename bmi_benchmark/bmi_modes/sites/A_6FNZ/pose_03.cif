@@ -1,0 +1,113 @@
+data_6FNZ_FA
+_entry.id '6FNZ_FA'
+
+_cell.entry_id '6FNZ_FA'
+_cell.length_a 98.45
+_cell.length_b 98.45
+_cell.length_c 114.81
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+
+_symmetry.entry_id '6FNZ_FA'
+_symmetry.space_group_name_H-M 'P 43 21 2'
+_symmetry.Int_Tables_number 96
+
+loop_
+_entity.id
+_entity.type
+R polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+R polypeptide(L) R ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+GLU .
+GLY .
+PRO .
+SER .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+Rxp R
+
+
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . PRO Rxp R 1 ? -54.4211144 -58.2042428 -30.2354529 0.5 117.83 ? 0 R 1
+ATOM 2 C CA . PRO Rxp R 1 ? -54.2895678 -56.9049524 -29.5672919 0.5 115.05 ? 0 R 1
+ATOM 3 C C . PRO Rxp R 1 ? -53.0325444 -56.1486001 -29.9795569 0.5 111.88 ? 0 R 1
+ATOM 4 O O . PRO Rxp R 1 ? -51.9253497 -56.5625615 -29.6361392 0.5 112.44 ? 0 R 1
+ATOM 5 C CB . PRO Rxp R 1 ? -54.2278413 -57.2787905 -28.0850963 0.5 112.51 ? 0 R 1
+ATOM 6 C CG . PRO Rxp R 1 ? -53.7008872 -58.6715338 -28.0653151 0.5 114.91 ? 0 R 1
+ATOM 7 C CD . PRO Rxp R 1 ? -54.2369863 -59.329118 -29.3014606 0.5 118.51 ? 0 R 1
+ATOM 8 N N . GLU Rxp R 2 ? -53.2028965 -55.0505229 -30.708254 0.5 112.85 ? 1 R 1
+ATOM 9 C CA . GLU Rxp R 2 ? -52.0581789 -54.2308384 -31.0734293 0.5 111.25 ? 1 R 1
+ATOM 10 C C . GLU Rxp R 2 ? -51.351736 -53.7205963 -29.8188913 0.5 112.61 ? 1 R 1
+ATOM 11 O O . GLU Rxp R 2 ? -51.9692189 -53.5236421 -28.7676954 0.5 113.52 ? 1 R 1
+ATOM 12 C CB . GLU Rxp R 2 ? -52.5096513 -53.06694 -31.9561945 0.5 107.12 ? 1 R 1
+ATOM 13 C CG . GLU Rxp R 2 ? -51.3895225 -52.4380131 -32.7693306 0.5 102.41 ? 1 R 1
+ATOM 14 C CD . GLU Rxp R 2 ? -51.895693 -51.7413545 -34.0142893 0.5 99.39 ? 1 R 1
+ATOM 15 O OE1 . GLU Rxp R 2 ? -51.0971632 -51.5130016 -34.9438881 0.5 98.05 ? 1 R 1
+ATOM 16 O OE2 . GLU Rxp R 2 ? -53.0984378 -51.426345 -34.0658171 0.5 101.61 ? 1 R 1
+ATOM 17 N N . SER Rxp R 3 ? -50.0362014 -53.5278626 -29.9286839 0.5 115.47 ? 2 R 1
+ATOM 18 C CA . SER Rxp R 3 ? -49.2421505 -53.0693262 -28.7938639 0.5 118.42 ? 2 R 1
+ATOM 19 C C . SER Rxp R 3 ? -47.9971756 -52.3595576 -29.3053196 0.5 119.05 ? 2 R 1
+ATOM 20 O O . SER Rxp R 3 ? -47.3396152 -52.8528781 -30.2262013 0.5 116.97 ? 2 R 1
+ATOM 21 C CB . SER Rxp R 3 ? -48.8643052 -54.2417702 -27.8813158 0.5 120.98 ? 2 R 1
+ATOM 22 O OG . SER Rxp R 3 ? -50.0138715 -54.785169 -27.2527992 0.5 119.44 ? 2 R 1
+ATOM 23 N N . SER Rxp R 4 ? -47.6776805 -51.2148272 -28.6980566 0.5 119.92 ? 3 R 1
+ATOM 24 C CA . SER Rxp R 4 ? -46.590575 -50.3395197 -29.1287218 0.5 118.07 ? 3 R 1
+ATOM 25 C C . SER Rxp R 4 ? -46.451993 -49.2088148 -28.1196159 0.5 118.62 ? 3 R 1
+ATOM 26 O O . SER Rxp R 4 ? -47.4112334 -48.8690428 -27.4207748 0.5 128.09 ? 3 R 1
+ATOM 27 C CB . SER Rxp R 4 ? -46.8529947 -49.7717584 -30.5277908 0.5 124.12 ? 3 R 1
+ATOM 28 O OG . SER Rxp R 4 ? -48.1509635 -49.1974166 -30.6062097 0.5 123.52 ? 3 R 1
+ATOM 29 N N . GLU Rxp R 5 ? -45.2563907 -48.61672 -28.0631198 0.5 106.48 ? 4 R 1
+ATOM 30 C CA . GLU Rxp R 5 ? -45.024158 -47.4548368 -27.206193 0.5 100.02 ? 4 R 1
+ATOM 31 C C . GLU Rxp R 5 ? -43.6034525 -46.9466907 -27.4204129 0.5 101.23 ? 4 R 1
+ATOM 32 O O . GLU Rxp R 5 ? -42.7735029 -47.6037757 -28.0563311 0.5 99.52 ? 4 R 1
+ATOM 33 C CB . GLU Rxp R 5 ? -45.2423188 -47.7727049 -25.7263471 0.5 96.3 ? 4 R 1
+ATOM 34 C CG . GLU Rxp R 5 ? -45.8758721 -46.6416872 -24.9418141 0.5 93.1 ? 4 R 1
+ATOM 35 C CD . GLU Rxp R 5 ? -46.4942032 -47.1174468 -23.6401139 0.5 92.46 ? 4 R 1
+ATOM 36 O OE1 . GLU Rxp R 5 ? -46.2659224 -48.2840279 -23.2640788 0.5 88.01 ? 4 R 1
+ATOM 37 O OE2 . GLU Rxp R 5 ? -47.2158552 -46.3274114 -22.9952042 0.5 92.43 ? 4 R 1
+ATOM 38 N N . GLY Rxp R 6 ? -43.3397718 -45.758676 -26.8755536 0.5 101.63 ? 5 R 1
+ATOM 39 C CA . GLY Rxp R 6 ? -41.9977747 -45.2072258 -26.8024275 0.5 104.23 ? 5 R 1
+ATOM 40 C C . GLY Rxp R 6 ? -41.3341885 -44.8284713 -28.1103722 0.5 104.63 ? 5 R 1
+ATOM 41 O O . GLY Rxp R 6 ? -40.105191 -44.8546038 -28.2088106 0.5 105.52 ? 5 R 1
+ATOM 42 O OXT . GLY Rxp R 6 ? -41.9928105 -44.4947596 -29.0923002 0.5 102.78 ? 5 R 1
