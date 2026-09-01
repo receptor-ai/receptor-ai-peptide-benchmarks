@@ -94,3 +94,11 @@ This project computes every count and table in the per-dataset READMEs directly 
 The `MANIFEST.csv` and `poses.csv` tables and the coordinates are the only sources. The BMI-MODES
 coordinates round-trip: the separations, the mode counts, and the per-pose chemistry checks re-derive
 from the files alone.
+
+## How to cite
+
+If you use BMI-200 or BMI-MODES, please cite this benchmark. Machine-readable
+metadata is in [`CITATION.cff`](CITATION.cff). Plain text:
+
+> Receptor.AI, Inc. (2026). BMI-200 and BMI-MODES: peptide–protein binding-mode
+> identification benchmarks (Version 1.0.0). https://github.com/receptor-ai/peptide-benchmarks
