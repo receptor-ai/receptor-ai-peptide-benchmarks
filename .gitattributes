@@ -1,0 +1,5 @@
+# Preserve committed (LF) line endings on every platform so the SHA-256
+# checksums in bmi_benchmark/SHA256SUMS verify identically on Windows, macOS,
+# and Linux. Without this, a Windows checkout with core.autocrlf=true rewrites
+# text files to CRLF and `sha256sum -c SHA256SUMS` fails on every file.
+* -text
