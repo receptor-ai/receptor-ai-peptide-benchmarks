@@ -1,3 +1,3 @@
 # Peptide Platform Benchmarks
 
-Public benchmark datasets and results for Receptor.AI's peptide platform.
+Public benchmark datasets for Receptor.AI's peptide platform.
