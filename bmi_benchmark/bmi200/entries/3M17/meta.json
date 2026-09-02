@@ -461,7 +461,6 @@
  "provenance": {
   "coordinates": {
    "bytes": 299271,
-   "path": "raw/3M17.cif.gz",
    "status": "cached",
    "url": "https://files.rcsb.org/download/3M17.cif.gz"
   },
@@ -499,13 +498,6 @@
      "C"
     ]
    },
-   "complex.pdb": {
-    "bytes": 167346,
-    "file": "complex.pdb",
-    "losses": [],
-    "lossy": false,
-    "written": true
-   },
    "peptide.cif": {
     "bytes": 9663,
     "file": "peptide.cif",
@@ -527,7 +519,6 @@
   },
   "validation_report": {
    "bytes": 62505,
-   "path": "raw/validation/3m17_validation.xml.gz",
    "status": "ok"
   }
  },

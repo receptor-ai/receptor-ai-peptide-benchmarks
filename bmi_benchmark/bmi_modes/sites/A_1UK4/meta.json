@@ -48,12 +48,12 @@
  "poses_elsewhere": "E (no overlap (closest 22.8 A))",
  "possible_lattice_contact": "False",
  "provenance": {
-  "frame_receptor_from": "entries/1UK4/receptor.cif",
+  "frame_receptor_from": "PDB 1UK4 receptor, used as the common reference frame (shipped as receptor.cif)",
   "per_pose_receptors": "receptor_NN.cif pairs with pose_NN.cif; each is that pose's own assembly copy in the reference frame",
   "poses": [
    {
     "atoms": 39,
-    "from": "raw/1UK4.cif.gz subchain D",
+    "from": "PDB 1UK4 subchain D",
     "label": "D/-",
     "pose": 1,
     "receptor_chains": "B",
@@ -63,7 +63,7 @@
    },
    {
     "atoms": 39,
-    "from": "raw/1UK4.cif.gz subchain C",
+    "from": "PDB 1UK4 subchain C",
     "label": "C/-",
     "pose": 2,
     "receptor_chains": "A,B",

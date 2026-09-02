@@ -204,7 +204,6 @@
  "provenance": {
   "coordinates": {
    "bytes": 236325,
-   "path": "raw/6KDQ.cif.gz",
    "status": "ok",
    "url": "https://files.rcsb.org/download/6KDQ.cif.gz"
   },
@@ -239,43 +238,6 @@
     "role": "strict primary",
     "written_by": "bin/strict_reclean.py corpus-strict-hetero-1.0"
    },
-   "complex.pdb": {
-    "bytes": 151875,
-    "file": "complex.pdb",
-    "losses": [],
-    "lossy": false,
-    "written": true,
-    "written_by": "bin/strict_reclean.py corpus-strict-hetero-1.0"
-   },
-   "complex_cofactors.cif": {
-    "bytes": 131537,
-    "file": "complex_cofactors.cif",
-    "n_chains": 2,
-    "n_struct_conn": 1,
-    "role": "strict complex + curated biological cofactors",
-    "written_by": "bin/strict_reclean.py corpus-strict-hetero-1.0"
-   },
-   "complex_permissive.cif": {
-    "bytes": 131476,
-    "file": "complex_permissive.cif",
-    "n_chains": 2,
-    "n_struct_conn": 1,
-    "note": "this record was written for the pre-correction complex.cif and describes the file now named complex_permissive.cif; see strict_clean and SPEC.md section 14",
-    "subchains_kept": [
-     "D",
-     "B"
-    ],
-    "superseded_utc": "2026-08-03T16:51:20Z"
-   },
-   "complex_permissive.pdb": {
-    "bytes": 153981,
-    "file": "complex_permissive.pdb",
-    "losses": [],
-    "lossy": false,
-    "note": "this record was written for the pre-correction complex.pdb and describes the file now named complex_permissive.pdb; see strict_clean and SPEC.md section 14",
-    "superseded_utc": "2026-08-03T16:51:20Z",
-    "written": true
-   },
    "peptide.cif": {
     "bytes": 5928,
     "file": "peptide.cif",
@@ -285,8 +247,6 @@
      "D"
     ]
    },
-   "provenance_relabelled_note": "2026-08-03: the harvest's records for complex.cif / complex.pdb / receptor.cif described the permissive files; they were moved to complex_permissive.cif / .pdb and receptor_permissive.cif with a superseded_utc stamp, and the strict files' own numbers written under the current names.  Nothing was discarded.",
-   "provenance_relabelled_utc": "2026-08-03T16:53:51Z",
    "receptor.cif": {
     "bytes": 124567,
     "file": "receptor.cif",
@@ -294,22 +254,10 @@
     "n_struct_conn": 0,
     "role": "strict receptor + ions",
     "written_by": "bin/strict_reclean.py corpus-strict-hetero-1.0"
-   },
-   "receptor_permissive.cif": {
-    "bytes": 126503,
-    "file": "receptor_permissive.cif",
-    "n_chains": 1,
-    "n_struct_conn": 0,
-    "note": "this record was written for the pre-correction receptor.cif and describes the file now named receptor_permissive.cif; see strict_clean and SPEC.md section 14",
-    "subchains_kept": [
-     "B"
-    ],
-    "superseded_utc": "2026-08-03T16:51:20Z"
    }
   },
   "validation_report": {
    "bytes": 31075,
-   "path": "raw/validation/6kdq_validation.xml.gz",
    "status": "ok"
   }
  },
@@ -832,21 +780,6 @@
     "n_struct_conn": 1,
     "role": "strict primary"
    },
-   "complex.pdb": {
-    "bytes": 151875,
-    "losses": [],
-    "lossy": false,
-    "written": true
-   },
-   "complex_cofactors.cif": {
-    "bytes": 131537,
-    "n_chains": 2,
-    "n_struct_conn": 1,
-    "role": "strict complex + curated biological cofactors"
-   },
-   "complex_permissive.cif": {
-    "role": "the pre-correction complex.cif, renamed, nothing removed"
-   },
    "peptide.cif": {
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
@@ -860,7 +793,6 @@
   "n_hetero_instances_after": 0,
   "n_hetero_instances_before": 1,
   "n_risky_removals": 1,
-  "notice": "2026-08-03: SPEC.md v1.0 section 7 rule 5 kept crystallisation additives that sat within 5.0 A of the peptide and merely flagged them.  That rule was a SPEC DEFECT, not a pipeline bug - corpus_build.py implemented it exactly as written.  A glycerol, PEG, sulfate or acetate packed against the peptide is a crystallisation artefact; in solution that space is water, so keeping it means docking into a pocket partly filled by something that was never biologically there, and lets the additive be scored as part of the receptor.  complex.cif is now strict; the previous file is complex_permissive.cif and nothing was deleted.  See SPEC.md section 14.",
   "peptide_integral_components": [],
   "policy_version": "corpus-strict-hetero-1.0",
   "polymer_atom_counts_unchanged": true,
@@ -878,7 +810,6 @@
     "seqid": 301,
     "strict_reason": "removed_as_cofactor",
     "subchain": "F",
-    "variant_retaining_it": "complex_cofactors.cif;complex_permissive.cif",
     "was_in_site": true
    }
   ],
@@ -898,12 +829,9 @@
     "seqid": 301,
     "strict_reason": "removed_as_cofactor",
     "subchain": "F",
-    "variant_retaining_it": "complex_cofactors.cif;complex_permissive.cif",
     "was_in_site": true
    }
   ],
-  "rule": "keep the retained protein chains and the retained peptide unchanged; of the non-polymers keep only (a) components covalently connected to the peptide (struct_conn covale/disulf, or a distance-inferred bond at 1.25 x sum of covalent radii, propagated across a whole branched entity), (b) metals and monatomic ions - one heavy atom whose element is in METALS or is a halide, (c) terminal caps ACE/NH2/FOR/NME/ACY that are covalently attached to a retained polymer; remove every other organic non-polymer including crystallisation additives, buffers, polyatomic oxyanions (SO4, PO4, NO3, SCN, VO4), NH4, UNX/UNL placeholders, glycans, lipids, ligands and curated cofactors; curated cofactors are additionally written to complex_cofactors.cif",
-  "supersedes": "corpus-spec-1.0 section 7 rule 5 (in-site crystallisation additives were kept and flagged)",
   "utc": "2026-08-03T16:51:20Z"
  }
 }

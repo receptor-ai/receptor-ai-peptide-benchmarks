@@ -424,7 +424,6 @@
  "provenance": {
   "coordinates": {
    "bytes": 163363,
-   "path": "raw/6L0V.cif.gz",
    "status": "ok",
    "url": "https://files.rcsb.org/download/6L0V.cif.gz"
   },
@@ -462,13 +461,6 @@
      "E"
     ]
    },
-   "complex.pdb": {
-    "bytes": 93636,
-    "file": "complex.pdb",
-    "losses": [],
-    "lossy": false,
-    "written": true
-   },
    "peptide.cif": {
     "bytes": 9756,
     "file": "peptide.cif",
@@ -491,7 +483,6 @@
   },
   "validation_report": {
    "bytes": 21362,
-   "path": "raw/validation/6l0v_validation.xml.gz",
    "status": "ok"
   }
  },
@@ -1429,17 +1420,10 @@
    "total_before": 1148
   },
   "built_utc": "2026-08-03T17:05:30Z",
-  "dated_notice": "2026-08-03: SPEC.md sec.7 rule 5 kept a crystallisation additive that sat within 5.0 A of the peptide and only flagged it. That rule was a SPEC DEFECT, not a code defect - the builder did exactly what the spec said (see 4J9C / PGE, reason 'in_peptide_site_le_5.0A_crystallisation_additive_kept_and_flagged'). A glycerol, PEG or sulfate packed against the peptide is a crystallisation artefact: in solution that space is water, so keeping it means docking into a pocket partly filled by something that was never biologically there, and it lets the additive be scored as part of the receptor. complex.cif is now protein + peptide + metals/monatomic ions only. The previous file is preserved verbatim as complex_permissive.cif; nothing was deleted.",
   "files": {
    "complex.cif": "strict: protein + peptide + metals/monatomic ions",
-   "complex.pdb": "strict, rewritten",
-   "complex_cofactors.cif": null,
-   "complex_permissive.cif": "the previous complex.cif, renamed, byte for byte",
-   "complex_permissive.pdb": "the previous complex.pdb, renamed",
    "peptide.cif": "unchanged - every component covalently part of the peptide is retained by the policy",
-   "peptide_permissive.cif": null,
-   "receptor.cif": "unchanged - nothing was removed from it",
-   "receptor_permissive.cif": null
+   "receptor.cif": "unchanged - nothing was removed from it"
   },
   "needs_human_review": [],
   "notes": [],
@@ -1465,7 +1449,6 @@
    "remove": "every other non-polymer: additives, buffers, glycans, lipids, receptor covalent adducts, curated cofactors, UNX/UNL"
   },
   "policy_version": "strict-hetero-2026-08-03",
-  "qc_scope_warning": "every OTHER number in this meta.json - clashes, BSA, peptide_hetero contacts, qc.atom_counts, flags - was computed on the permissive selection and therefore describes complex_permissive.cif, not the new complex.cif. Only the numbers inside strict_clean describe the strict files.",
   "removed_components": [],
   "removed_within_4.0A_of_peptide": [],
   "retained_components": [],
@@ -1473,7 +1456,6 @@
    "complex_cif_rereads": true,
    "ends_with_newline": true,
    "every_surviving_struct_conn_present": true,
-   "is_expected_subset_of_permissive": true,
    "peptide_plus_receptor_partition_complex_exactly": true,
    "problems": [],
    "ring_closures_and_staples_survive": true

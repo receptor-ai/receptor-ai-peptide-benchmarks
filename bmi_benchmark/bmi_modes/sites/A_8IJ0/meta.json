@@ -47,12 +47,12 @@
  "pose_specs": "D/-;C/-",
  "possible_lattice_contact": "False",
  "provenance": {
-  "frame_receptor_from": "entries/8IJ0/receptor.cif",
+  "frame_receptor_from": "PDB 8IJ0 receptor, used as the common reference frame (shipped as receptor.cif)",
   "per_pose_receptors": "receptor_NN.cif pairs with pose_NN.cif; each is that pose's own assembly copy in the reference frame",
   "poses": [
    {
     "atoms": 89,
-    "from": "raw/8IJ0.cif.gz subchain D",
+    "from": "PDB 8IJ0 subchain D",
     "label": "D/-",
     "pose": 1,
     "receptor_chains": "A,B,D",
@@ -62,7 +62,7 @@
    },
    {
     "atoms": 89,
-    "from": "raw/8IJ0.cif.gz subchain C",
+    "from": "PDB 8IJ0 subchain C",
     "label": "C/-",
     "pose": 2,
     "receptor_chains": "A,B,C",

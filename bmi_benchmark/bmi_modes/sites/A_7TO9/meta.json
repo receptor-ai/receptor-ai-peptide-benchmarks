@@ -47,12 +47,12 @@
  "pose_specs": "C/A;C/B",
  "possible_lattice_contact": "False",
  "provenance": {
-  "frame_receptor_from": "entries/7TO9/receptor.cif",
+  "frame_receptor_from": "PDB 7TO9 receptor, used as the common reference frame (shipped as receptor.cif)",
   "per_pose_receptors": "receptor_NN.cif pairs with pose_NN.cif; each is that pose's own assembly copy in the reference frame",
   "poses": [
    {
     "atoms": 105,
-    "from": "raw/7TO9.cif.gz subchain C altloc A",
+    "from": "PDB 7TO9 subchain C altloc A",
     "label": "C/A",
     "pose": 1,
     "receptor_chains": "A,B",
@@ -62,7 +62,7 @@
    },
    {
     "atoms": 105,
-    "from": "raw/7TO9.cif.gz subchain C altloc B",
+    "from": "PDB 7TO9 subchain C altloc B",
     "label": "C/B",
     "pose": 2,
     "receptor_chains": "A,B",

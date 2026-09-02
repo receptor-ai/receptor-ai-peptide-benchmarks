@@ -47,12 +47,12 @@
  "pose_specs": "C/-;D/-",
  "possible_lattice_contact": "False",
  "provenance": {
-  "frame_receptor_from": "entries/7VFL/receptor.cif",
+  "frame_receptor_from": "PDB 7VFL receptor, used as the common reference frame (shipped as receptor.cif)",
   "per_pose_receptors": "receptor_NN.cif pairs with pose_NN.cif; each is that pose's own assembly copy in the reference frame",
   "poses": [
    {
     "atoms": 57,
-    "from": "raw/7VFL.cif.gz subchain C",
+    "from": "PDB 7VFL subchain C",
     "label": "C/-",
     "pose": 1,
     "receptor_chains": "A,D",
@@ -62,7 +62,7 @@
    },
    {
     "atoms": 42,
-    "from": "raw/7VFL.cif.gz subchain D",
+    "from": "PDB 7VFL subchain D",
     "label": "D/-",
     "pose": 2,
     "receptor_chains": "C,G",

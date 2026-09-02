@@ -47,12 +47,12 @@
  "pose_specs": "F/-;E/-;G/-",
  "possible_lattice_contact": "False",
  "provenance": {
-  "frame_receptor_from": "entries/5MTW/receptor.cif",
+  "frame_receptor_from": "PDB 5MTW receptor, used as the common reference frame (shipped as receptor.cif)",
   "per_pose_receptors": "receptor_NN.cif pairs with pose_NN.cif; each is that pose's own assembly copy in the reference frame",
   "poses": [
    {
     "atoms": 108,
-    "from": "raw/5MTW.cif.gz subchain F",
+    "from": "PDB 5MTW subchain F",
     "label": "F/-",
     "pose": 1,
     "receptor_chains": "C,D,B",
@@ -62,7 +62,7 @@
    },
    {
     "atoms": 108,
-    "from": "raw/5MTW.cif.gz subchain E",
+    "from": "PDB 5MTW subchain E",
     "label": "E/-",
     "pose": 2,
     "receptor_chains": "C,A,B",
@@ -72,7 +72,7 @@
    },
    {
     "atoms": 102,
-    "from": "raw/5MTW.cif.gz subchain G",
+    "from": "PDB 5MTW subchain G",
     "label": "G/-",
     "pose": 3,
     "receptor_chains": "C,D,A",

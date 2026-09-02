@@ -116,7 +116,6 @@
  "provenance": {
   "coordinates": {
    "bytes": 53947,
-   "path": "raw/2QOS.cif.gz",
    "status": "ok",
    "url": "https://files.rcsb.org/download/2QOS.cif.gz"
   },
@@ -153,32 +152,6 @@
      "B"
     ]
    },
-   "complex.pdb": {
-    "bytes": 116883,
-    "file": "complex.pdb",
-    "losses": [],
-    "lossy": false,
-    "written": true
-   },
-   "complex_permissive.cif": {
-    "bytes": 99004,
-    "file": "complex_permissive.cif",
-    "n_chains": 2,
-    "n_struct_conn": 1,
-    "note": "pre-strict-clean permissive build, renamed not rebuilt; see strict_clean",
-    "subchains_kept": [
-     "B",
-     "A"
-    ]
-   },
-   "complex_permissive.pdb": {
-    "bytes": 117045,
-    "file": "complex_permissive.pdb",
-    "losses": [],
-    "lossy": false,
-    "note": "pre-strict-clean permissive build, renamed not rebuilt; see strict_clean",
-    "written": true
-   },
    "peptide.cif": {
     "bytes": 7534,
     "file": "peptide.cif",
@@ -196,21 +169,10 @@
     "subchains_kept": [
      "A"
     ]
-   },
-   "receptor_permissive.cif": {
-    "bytes": 92384,
-    "file": "receptor_permissive.cif",
-    "n_chains": 1,
-    "n_struct_conn": 1,
-    "note": "pre-strict-clean permissive build, renamed not rebuilt; see strict_clean",
-    "subchains_kept": [
-     "A"
-    ]
    }
   },
   "validation_report": {
    "bytes": 12736,
-   "path": "raw/validation/2qos_validation.xml.gz",
    "status": "ok"
   }
  },
@@ -224,7 +186,6 @@
   },
   "atom_counts": {
    "hetero_heavy": 0,
-   "note_strict_clean": "2026-08-03: these counts are those of the PERMISSIVE build, now complex_permissive.cif. The strict primary complex.cif counts are in strict_clean.atom_counts. Every other qc.* number was measured on the permissive selection and is not recomputed here: removing a non-polymer cannot change peptide geometry or completeness, but it does change qc.clashes.peptide_hetero and qc.atom_counts.hetero_heavy, which are therefore stale for the strict file by exactly the removed components listed in strict_clean.removed_components.",
    "peptide_heavy": 97,
    "receptor_heavy": 1340,
    "total_heavy": 1437
@@ -905,26 +866,14 @@
    "total_heavy_after": 1437,
    "total_heavy_before": 1437
   },
-  "complex_pdb": {
-   "bytes": 116883,
-   "file": "complex.pdb",
-   "losses": [],
-   "lossy": false,
-   "written": true
-  },
   "files": {
    "complex.cif": "strict",
-   "complex_cofactors.cif": "not applicable",
-   "complex_permissive.cif": "pre-correction, renamed not rebuilt",
-   "complex_permissive.pdb": "pre-correction",
    "peptide.cif": "unchanged",
-   "receptor.cif": "strict (rewritten so that peptide.cif + receptor.cif still partition complex.cif)",
-   "receptor_permissive.cif": "pre-correction, renamed not rebuilt"
+   "receptor.cif": "strict (rewritten so that peptide.cif + receptor.cif still partition complex.cif)"
   },
   "ion_rule": "monatomic stays, polyatomic goes: CL/NA/K/ZN/CA/MG/... kept, SO4/PO4/NO3/NH4 removed. A monatomic ion is also never a covalent bridge, so it cannot make a component it coordinates peptide-integral - SPEC sec.7 rule 4, coordination is not a covalent bond",
   "n_struct_conn_after": 1,
   "n_struct_conn_before": 1,
-  "notice": "2026-08-03: SPEC.md sec.7 rule 5 (keep a crystallisation additive that sits within 5.0 A of the peptide, flagged) is a SPEC DEFECT, not a code bug. A glycerol/PEG/sulfate packed against the peptide is a crystallisation artefact; in solution that space is water. Keeping it docks into a pocket partly filled by something never biologically there and lets the additive be scored as receptor. Strict policy corpus-strict-hetero-1.0 supersedes it: complex.cif now holds retained protein chains + peptide + metals and monatomic ions only. The pre-correction coordinates are preserved unchanged as complex_permissive.cif / receptor_permissive.cif / complex_permissive.pdb.",
   "peptide_integral_components": [],
   "policy": "corpus-strict-hetero-1.0",
   "policy_version": "corpus-strict-hetero-1.0",
@@ -932,7 +881,6 @@
   "removed_components": [],
   "retained_components": [],
   "risky_removals": [],
-  "rule": "complex.cif = retained protein chains + peptide + metals and monatomic ions only. Kept: any component in peptide.cif (the peptide's own covalent structure - caps, staples, thioethers, linkers, glycopeptide glycans), any component sharing a label_asym_id with such a component (a branched entity is one molecule per SPEC sec.7, so an O-glycan's GAL/SIA go with the A2G that is bonded to the peptide), anything reachable from the peptide by a transitive chain of covalent bonds - _struct_conn covale/disulf or an unannotated bond at BOND_INFER_SCALE 1.25 x sum of covalent radii - which is what keeps a lipid tail bonded to a moiety that is itself bonded to the peptide, a MONATOMIC ion (exactly one heavy atom, element a metal per corpus_chem.METALS or a halide F/CL/BR/I; UNX/UNL denied), and a terminal cap covalently bonded to a retained receptor chain. Removed: every other non-polymer - crystallisation additives including the polyatomic anions SO4, PO4, NO3, SCN, ACT, glycans, lipids, UNX placeholders and curated biological cofactors. Curated cofactors are additionally written to complex_cofactors.cif so the decision stays reversible per entry.",
   "verification": {
    "checks_failed": [],
    "ok": true

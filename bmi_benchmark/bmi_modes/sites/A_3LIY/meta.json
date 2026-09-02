@@ -47,12 +47,12 @@
  "pose_specs": "C/-;F/A;F/B;I/A;I/B",
  "possible_lattice_contact": "False",
  "provenance": {
-  "frame_receptor_from": "entries/3LIY/receptor.cif",
+  "frame_receptor_from": "PDB 3LIY receptor, used as the common reference frame (shipped as receptor.cif)",
   "per_pose_receptors": "receptor_NN.cif pairs with pose_NN.cif; each is that pose's own assembly copy in the reference frame",
   "poses": [
    {
     "atoms": 72,
-    "from": "raw/3LIY.cif.gz subchain C",
+    "from": "PDB 3LIY subchain C",
     "label": "C/-",
     "pose": 1,
     "receptor_chains": "A,B",
@@ -62,7 +62,7 @@
    },
    {
     "atoms": 64,
-    "from": "raw/3LIY.cif.gz subchain F altloc A",
+    "from": "PDB 3LIY subchain F altloc A",
     "label": "F/A",
     "pose": 2,
     "receptor_chains": "C,D",
@@ -72,7 +72,7 @@
    },
    {
     "atoms": 64,
-    "from": "raw/3LIY.cif.gz subchain F altloc B",
+    "from": "PDB 3LIY subchain F altloc B",
     "label": "F/B",
     "pose": 3,
     "receptor_chains": "C,D",
@@ -82,7 +82,7 @@
    },
    {
     "atoms": 64,
-    "from": "raw/3LIY.cif.gz subchain I altloc A",
+    "from": "PDB 3LIY subchain I altloc A",
     "label": "I/A",
     "pose": 4,
     "receptor_chains": "E,F",
@@ -92,7 +92,7 @@
    },
    {
     "atoms": 64,
-    "from": "raw/3LIY.cif.gz subchain I altloc B",
+    "from": "PDB 3LIY subchain I altloc B",
     "label": "I/B",
     "pose": 5,
     "receptor_chains": "E,F",

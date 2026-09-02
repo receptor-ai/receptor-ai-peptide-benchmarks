@@ -47,12 +47,12 @@
  "pose_specs": "E/-;F/-;G/A;G/B",
  "possible_lattice_contact": "False",
  "provenance": {
-  "frame_receptor_from": "entries/5N8E/receptor.cif",
+  "frame_receptor_from": "PDB 5N8E receptor, used as the common reference frame (shipped as receptor.cif)",
   "per_pose_receptors": "receptor_NN.cif pairs with pose_NN.cif; each is that pose's own assembly copy in the reference frame",
   "poses": [
    {
     "atoms": 85,
-    "from": "raw/5N8E.cif.gz subchain E",
+    "from": "PDB 5N8E subchain E",
     "label": "E/-",
     "pose": 1,
     "receptor_chains": "B,D",
@@ -62,7 +62,7 @@
    },
    {
     "atoms": 74,
-    "from": "raw/5N8E.cif.gz subchain F",
+    "from": "PDB 5N8E subchain F",
     "label": "F/-",
     "pose": 2,
     "receptor_chains": "A,C",
@@ -72,7 +72,7 @@
    },
    {
     "atoms": 74,
-    "from": "raw/5N8E.cif.gz subchain G altloc A",
+    "from": "PDB 5N8E subchain G altloc A",
     "label": "G/A",
     "pose": 3,
     "receptor_chains": "A,B,C",
@@ -82,7 +82,7 @@
    },
    {
     "atoms": 74,
-    "from": "raw/5N8E.cif.gz subchain G altloc B",
+    "from": "PDB 5N8E subchain G altloc B",
     "label": "G/B",
     "pose": 4,
     "receptor_chains": "A,B,C",

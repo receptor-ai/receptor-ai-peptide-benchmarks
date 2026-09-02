@@ -47,12 +47,12 @@
  "pose_specs": "E/-;F/-",
  "possible_lattice_contact": "False",
  "provenance": {
-  "frame_receptor_from": "entries/3UA7/receptor.cif",
+  "frame_receptor_from": "PDB 3UA7 receptor, used as the common reference frame (shipped as receptor.cif)",
   "per_pose_receptors": "receptor_NN.cif pairs with pose_NN.cif; each is that pose's own assembly copy in the reference frame",
   "poses": [
    {
     "atoms": 62,
-    "from": "raw/3UA7.cif.gz subchain E",
+    "from": "PDB 3UA7 subchain E",
     "label": "E/-",
     "pose": 1,
     "receptor_chains": "A",
@@ -62,7 +62,7 @@
    },
    {
     "atoms": 59,
-    "from": "raw/3UA7.cif.gz subchain F",
+    "from": "PDB 3UA7 subchain F",
     "label": "F/-",
     "pose": 2,
     "receptor_chains": "D",

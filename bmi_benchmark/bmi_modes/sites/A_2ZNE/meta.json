@@ -47,12 +47,12 @@
  "pose_specs": "C/-;D/-",
  "possible_lattice_contact": "False",
  "provenance": {
-  "frame_receptor_from": "entries/2ZNE/receptor.cif",
+  "frame_receptor_from": "PDB 2ZNE receptor, used as the common reference frame (shipped as receptor.cif)",
   "per_pose_receptors": "receptor_NN.cif pairs with pose_NN.cif; each is that pose's own assembly copy in the reference frame",
   "poses": [
    {
     "atoms": 117,
-    "from": "raw/2ZNE.cif.gz subchain C",
+    "from": "PDB 2ZNE subchain C",
     "label": "C/-",
     "pose": 1,
     "receptor_chains": "A,B",
@@ -62,7 +62,7 @@
    },
    {
     "atoms": 95,
-    "from": "raw/2ZNE.cif.gz subchain D",
+    "from": "PDB 2ZNE subchain D",
     "label": "D/-",
     "pose": 2,
     "receptor_chains": "B",

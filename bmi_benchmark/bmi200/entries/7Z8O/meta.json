@@ -234,7 +234,6 @@
  "provenance": {
   "coordinates": {
    "bytes": 123263,
-   "path": "raw/7Z8O.cif.gz",
    "status": "ok",
    "url": "https://files.rcsb.org/download/7Z8O.cif.gz"
   },
@@ -271,13 +270,6 @@
      "A"
     ]
    },
-   "complex.pdb": {
-    "bytes": 136809,
-    "file": "complex.pdb",
-    "losses": [],
-    "lossy": false,
-    "written": true
-   },
    "peptide.cif": {
     "bytes": 9688,
     "file": "peptide.cif",
@@ -299,7 +291,6 @@
   },
   "validation_report": {
    "bytes": 17217,
-   "path": "raw/validation/7z8o_validation.xml.gz",
    "status": "ok"
   }
  },
@@ -1141,15 +1132,6 @@
     "n_struct_conn": 13,
     "role": "strict primary"
    },
-   "complex.pdb": {
-    "bytes": 135756,
-    "losses": [],
-    "lossy": false,
-    "written": true
-   },
-   "complex_permissive.cif": {
-    "role": "the pre-correction complex.cif, renamed, nothing removed"
-   },
    "peptide.cif": {
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
@@ -1163,7 +1145,6 @@
   "n_hetero_instances_after": 1,
   "n_hetero_instances_before": 3,
   "n_risky_removals": 2,
-  "notice": "2026-08-03: SPEC.md v1.0 section 7 rule 5 kept crystallisation additives that sat within 5.0 A of the peptide and merely flagged them.  That rule was a SPEC DEFECT, not a pipeline bug - corpus_build.py implemented it exactly as written.  A glycerol, PEG, sulfate or acetate packed against the peptide is a crystallisation artefact; in solution that space is water, so keeping it means docking into a pocket partly filled by something that was never biologically there, and lets the additive be scored as part of the receptor.  complex.cif is now strict; the previous file is complex_permissive.cif and nothing was deleted.  See SPEC.md section 14.",
   "peptide_integral_components": [
    {
     "branched_entity": false,
@@ -1195,7 +1176,6 @@
     "seqid": 301,
     "strict_reason": "removed_as_additive",
     "subchain": "D",
-    "variant_retaining_it": "complex_permissive.cif",
     "was_in_site": true
    },
    {
@@ -1211,7 +1191,6 @@
     "seqid": 302,
     "strict_reason": "removed_as_additive",
     "subchain": "E",
-    "variant_retaining_it": "complex_permissive.cif",
     "was_in_site": true
    }
   ],
@@ -1245,7 +1224,6 @@
     "seqid": 301,
     "strict_reason": "removed_as_additive",
     "subchain": "D",
-    "variant_retaining_it": "complex_permissive.cif",
     "was_in_site": true
    },
    {
@@ -1261,12 +1239,9 @@
     "seqid": 302,
     "strict_reason": "removed_as_additive",
     "subchain": "E",
-    "variant_retaining_it": "complex_permissive.cif",
     "was_in_site": true
    }
   ],
-  "rule": "keep the retained protein chains and the retained peptide unchanged; of the non-polymers keep only (a) components covalently connected to the peptide (struct_conn covale/disulf, or a distance-inferred bond at 1.25 x sum of covalent radii, propagated across a whole branched entity), (b) metals and monatomic ions - one heavy atom whose element is in METALS or is a halide, (c) terminal caps ACE/NH2/FOR/NME/ACY that are covalently attached to a retained polymer; remove every other organic non-polymer including crystallisation additives, buffers, polyatomic oxyanions (SO4, PO4, NO3, SCN, VO4), NH4, UNX/UNL placeholders, glycans, lipids, ligands and curated cofactors; curated cofactors are additionally written to complex_cofactors.cif",
-  "supersedes": "corpus-spec-1.0 section 7 rule 5 (in-site crystallisation additives were kept and flagged)",
   "utc": "2026-08-03T16:47:22Z"
  }
 }

@@ -47,12 +47,12 @@
  "pose_specs": "B/A;B/B",
  "possible_lattice_contact": "False",
  "provenance": {
-  "frame_receptor_from": "entries/4EQJ/receptor.cif",
+  "frame_receptor_from": "PDB 4EQJ receptor, used as the common reference frame (shipped as receptor.cif)",
   "per_pose_receptors": "receptor_NN.cif pairs with pose_NN.cif; each is that pose's own assembly copy in the reference frame",
   "poses": [
    {
     "atoms": 47,
-    "from": "raw/4EQJ.cif.gz subchain B altloc A",
+    "from": "PDB 4EQJ subchain B altloc A",
     "label": "B/A",
     "pose": 1,
     "receptor_chains": "A",
@@ -62,7 +62,7 @@
    },
    {
     "atoms": 47,
-    "from": "raw/4EQJ.cif.gz subchain B altloc B",
+    "from": "PDB 4EQJ subchain B altloc B",
     "label": "B/B",
     "pose": 2,
     "receptor_chains": "A",

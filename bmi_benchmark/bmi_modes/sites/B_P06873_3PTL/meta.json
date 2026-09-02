@@ -47,12 +47,12 @@
  "pose_specs": "3PTL;3OSZ",
  "possible_lattice_contact": "False",
  "provenance": {
-  "frame_receptor_from": "entries/3PTL/receptor.cif",
+  "frame_receptor_from": "PDB 3PTL receptor, used as the common reference frame (shipped as receptor.cif)",
   "per_pose_receptors": "receptor_NN.cif pairs with pose_NN.cif; each is that pose's own assembly copy in the reference frame",
   "poses": [
    {
     "atoms": 71,
-    "from": "entries/3PTL/peptide.cif",
+    "from": "PDB 3PTL peptide",
     "label": "3PTL",
     "pose": 1,
     "receptor_chains": "A",
@@ -62,7 +62,7 @@
    },
    {
     "atoms": 71,
-    "from": "entries/3OSZ/peptide.cif",
+    "from": "PDB 3OSZ peptide",
     "label": "3OSZ",
     "pose": 2,
     "receptor_chains": "A",

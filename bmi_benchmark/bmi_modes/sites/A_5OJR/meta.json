@@ -47,12 +47,12 @@
  "pose_specs": "E/-;F/-",
  "possible_lattice_contact": "False",
  "provenance": {
-  "frame_receptor_from": "entries/5OJR/receptor.cif",
+  "frame_receptor_from": "PDB 5OJR receptor, used as the common reference frame (shipped as receptor.cif)",
   "per_pose_receptors": "receptor_NN.cif pairs with pose_NN.cif; each is that pose's own assembly copy in the reference frame",
   "poses": [
    {
     "atoms": 129,
-    "from": "raw/5OJR.cif.gz subchain E",
+    "from": "PDB 5OJR subchain E",
     "label": "E/-",
     "pose": 1,
     "receptor_chains": "A,B",
@@ -62,7 +62,7 @@
    },
    {
     "atoms": 123,
-    "from": "raw/5OJR.cif.gz subchain F",
+    "from": "PDB 5OJR subchain F",
     "label": "F/-",
     "pose": 2,
     "receptor_chains": "B",
