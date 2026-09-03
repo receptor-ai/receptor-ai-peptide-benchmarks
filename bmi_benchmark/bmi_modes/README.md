@@ -12,6 +12,7 @@ entries (`5OJR`, `7MX1`, `8IJ0`).
 ```
 bmi_modes/
   README.md              this file
+  DATA_DICTIONARY.md     definition of every column in the four tables
   MANIFEST.csv           one row per site (31)
   poses.csv              one row per pose (73)
   ss_per_pose.csv        per-pose secondary structure (73)
@@ -132,6 +133,9 @@ Per site, `sites/<site_id>/` contains, for each pose _NN_:
 > you compare a shared entry across the two datasets.
 
 ## 6. Files, columns, and usage
+
+**Every column in all four tables is defined in [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md).** This
+section lists only the columns most people start with.
 
 Load the CSV files with `keep_default_na=False, na_values=['']`. Selected columns:
 

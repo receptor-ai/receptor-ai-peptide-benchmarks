@@ -6,6 +6,7 @@ modified or unmodified. Every complex is metal-free.
 ```
 bmi200/
   README.md            this file
+  DATA_DICTIONARY.md   definition of every column in the tables below
   MANIFEST.csv         one row per entry, all metadata
   topology_audit.csv   ring topology measured from coordinates, one row per entry
   entries/<PDB_ID>/    complex.cif, peptide.cif, receptor.cif, meta.json
@@ -115,6 +116,9 @@ or nascent structure, read the per-residue string `pep_ss_string_bound` rather t
 
 ## 6. Files and key columns
 
+**Every column in `MANIFEST.csv` and `topology_audit.csv` is defined in
+[`DATA_DICTIONARY.md`](DATA_DICTIONARY.md).** This section lists only the columns most people start with.
+
 Load `MANIFEST.csv` with `keep_default_na=False, na_values=['']`. This keeps the element `NA` (sodium)
 from becoming null. Selected columns:
 
@@ -126,7 +130,7 @@ from becoming null. Selected columns:
 | `n_res_observed`, `peptide_seq_raw`, `peptide_ncaa`, `peptide_caps` | peptide identity |
 | `has_noncanonical_component`, `noncanonical_components` | chemistry |
 | `resolution_A`, `receptor_class`, `receptor_uniprot`, `receptor_seqid30_cluster` | context |
-| `metal_free`, `has_monatomic_halide`, `metal_species` | ion content |
+| `metal_free`, `has_monatomic_halide` | ion content |
 | `ss_category_bound`, `ss_category_intrinsic` | secondary structure (isolated = intrinsic) |
 | `pep_ss_string_bound`, `pep_ss_string_intrinsic` | per-residue SS strings |
 | `cross_dockable`, `scoreable_core`, `cluster_rank` | usable-subset flags |
