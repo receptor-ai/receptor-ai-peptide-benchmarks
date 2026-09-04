@@ -1,0 +1,21 @@
+{
+  "case_id": "2ESL_entity2",
+  "pdb_id": "2ESL",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P45877",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.9,
+  "peptide_chain_id": "I",
+  "n_peptide_chain_copies": 6,
+  "peptide_length": 11,
+  "peptide_sequence": "ALLVTAGLVLA",
+  "n_protein_atoms": 1389,
+  "n_peptide_atoms": 85,
+  "dist_min_pocket": 2.79,
+  "dist_max_pocket": 76.521,
+  "peptide_contact_fraction": 0.722,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

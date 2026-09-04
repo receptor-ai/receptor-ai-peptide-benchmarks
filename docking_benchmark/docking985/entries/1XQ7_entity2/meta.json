@@ -1,0 +1,21 @@
+{
+  "case_id": "1XQ7_entity2",
+  "pdb_id": "1XQ7",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q4DPB9",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.07,
+  "peptide_chain_id": "D",
+  "n_peptide_chain_copies": 3,
+  "peptide_length": 11,
+  "peptide_sequence": "ALLVTAGLVLA",
+  "n_protein_atoms": 1272,
+  "n_peptide_atoms": 85,
+  "dist_min_pocket": 2.449,
+  "dist_max_pocket": 82.953,
+  "peptide_contact_fraction": 0.559,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

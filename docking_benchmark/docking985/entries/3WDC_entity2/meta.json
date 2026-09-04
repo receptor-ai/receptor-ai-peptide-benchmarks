@@ -1,0 +1,21 @@
+{
+  "case_id": "3WDC_entity2",
+  "pdb_id": "3WDC",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P9WPC9",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.18,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 7,
+  "peptide_sequence": "WLAFVLV",
+  "n_protein_atoms": 1143,
+  "n_peptide_atoms": 75,
+  "dist_min_pocket": 1.743,
+  "dist_max_pocket": 45.238,
+  "peptide_contact_fraction": 0.774,
+  "n_vdw_violations": 1,
+  "vdw_violations_per_peptide_atom": 0.0119
+}

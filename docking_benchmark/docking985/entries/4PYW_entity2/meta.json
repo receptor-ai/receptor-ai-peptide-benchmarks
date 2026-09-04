@@ -1,0 +1,21 @@
+{
+  "case_id": "4PYW_entity2",
+  "pdb_id": "4PYW",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "P01009",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.91,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 6,
+  "peptide_sequence": "XTTAIX",
+  "n_protein_atoms": 2886,
+  "n_peptide_atoms": 31,
+  "dist_min_pocket": 2.339,
+  "dist_max_pocket": 62.113,
+  "peptide_contact_fraction": 1.0,
+  "n_vdw_violations": 1,
+  "vdw_violations_per_peptide_atom": 0.0161
+}

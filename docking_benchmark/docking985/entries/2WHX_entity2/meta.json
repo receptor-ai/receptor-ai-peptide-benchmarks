@@ -1,0 +1,21 @@
+{
+  "case_id": "2WHX_entity2",
+  "pdb_id": "2WHX",
+  "peptide_entity_id": "2",
+  "benchmarks": "PPDbench",
+  "uniprot_ids": "Q2YHF0",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.2,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 14,
+  "peptide_sequence": "ADLSLEKAANVQWD",
+  "n_protein_atoms": 4664,
+  "n_peptide_atoms": 109,
+  "dist_min_pocket": 2.7,
+  "dist_max_pocket": 92.65,
+  "peptide_contact_fraction": 0.89,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

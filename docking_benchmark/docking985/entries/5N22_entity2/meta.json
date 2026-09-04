@@ -1,0 +1,21 @@
+{
+  "case_id": "5N22_entity2",
+  "pdb_id": "5N22",
+  "peptide_entity_id": "2",
+  "benchmarks": "PepSet",
+  "uniprot_ids": "A8QZK6",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.99,
+  "peptide_chain_id": "E",
+  "n_peptide_chain_copies": 4,
+  "peptide_length": 10,
+  "peptide_sequence": "RRVIGAKKDQYFL",
+  "n_protein_atoms": 1344,
+  "n_peptide_atoms": 127,
+  "dist_min_pocket": 2.415,
+  "dist_max_pocket": 86.378,
+  "peptide_contact_fraction": 0.978,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

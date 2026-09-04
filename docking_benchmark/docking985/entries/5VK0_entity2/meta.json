@@ -1,0 +1,21 @@
+{
+  "case_id": "5VK0_entity2",
+  "pdb_id": "5VK0",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q00987",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.8,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 12,
+  "peptide_length": 14,
+  "peptide_sequence": "XTSFAEYWKLLSCX",
+  "n_protein_atoms": 706,
+  "n_peptide_atoms": 107,
+  "dist_min_pocket": 2.194,
+  "dist_max_pocket": 118.911,
+  "peptide_contact_fraction": 0.687,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

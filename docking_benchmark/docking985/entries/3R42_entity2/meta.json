@@ -1,0 +1,21 @@
+{
+  "case_id": "3R42_entity2",
+  "pdb_id": "3R42",
+  "peptide_entity_id": "2",
+  "benchmarks": "PepSet",
+  "uniprot_ids": "P25604",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.866,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 8,
+  "peptide_sequence": "QVPSDPYNY",
+  "n_protein_atoms": 1232,
+  "n_peptide_atoms": 64,
+  "dist_min_pocket": 2.637,
+  "dist_max_pocket": 62.061,
+  "peptide_contact_fraction": 0.688,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

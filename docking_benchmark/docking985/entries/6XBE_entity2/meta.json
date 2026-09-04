@@ -1,0 +1,21 @@
+{
+  "case_id": "6XBE_entity2",
+  "pdb_id": "6XBE",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "E9NWK5",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.8,
+  "peptide_chain_id": "F",
+  "n_peptide_chain_copies": 4,
+  "peptide_length": 8,
+  "peptide_sequence": "RRLCPVPE",
+  "n_protein_atoms": 1705,
+  "n_peptide_atoms": 60,
+  "dist_min_pocket": 2.653,
+  "dist_max_pocket": 102.764,
+  "peptide_contact_fraction": 0.64,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

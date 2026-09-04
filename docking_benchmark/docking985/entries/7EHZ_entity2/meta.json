@@ -1,0 +1,21 @@
+{
+  "case_id": "7EHZ_entity2",
+  "pdb_id": "7EHZ",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P40261",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.5,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 9,
+  "peptide_sequence": "GFPYRPXFC",
+  "n_protein_atoms": 1861,
+  "n_peptide_atoms": 84,
+  "dist_min_pocket": 2.581,
+  "dist_max_pocket": 39.977,
+  "peptide_contact_fraction": 0.8,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

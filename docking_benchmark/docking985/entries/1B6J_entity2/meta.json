@@ -1,0 +1,21 @@
+{
+  "case_id": "1B6J_entity2",
+  "pdb_id": "1B6J",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P03369",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.85,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 6,
+  "peptide_sequence": "NXPIVX",
+  "n_protein_atoms": 1516,
+  "n_peptide_atoms": 49,
+  "dist_min_pocket": 2.625,
+  "dist_max_pocket": 34.831,
+  "peptide_contact_fraction": 1.0,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "5WXQ_entity2",
+  "pdb_id": "5WXQ",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P00749",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.79,
+  "peptide_chain_id": "P",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 12,
+  "peptide_sequence": "GACSWRGLENHAAC",
+  "n_protein_atoms": 1934,
+  "n_peptide_atoms": 101,
+  "dist_min_pocket": 2.66,
+  "dist_max_pocket": 45.366,
+  "peptide_contact_fraction": 0.726,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

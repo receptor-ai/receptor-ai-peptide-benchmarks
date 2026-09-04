@@ -1,0 +1,21 @@
+{
+  "case_id": "7ROV_entity2",
+  "pdb_id": "7ROV",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P01116",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.32,
+  "peptide_chain_id": "E",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 14,
+  "peptide_sequence": "AXPLYISYDPVCRA",
+  "n_protein_atoms": 1375,
+  "n_peptide_atoms": 105,
+  "dist_min_pocket": 2.563,
+  "dist_max_pocket": 80.296,
+  "peptide_contact_fraction": 0.57,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

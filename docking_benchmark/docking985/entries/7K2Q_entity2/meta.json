@@ -1,0 +1,21 @@
+{
+  "case_id": "7K2Q_entity2",
+  "pdb_id": "7K2Q",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q14145",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.37,
+  "peptide_chain_id": "P",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 7,
+  "peptide_sequence": "XDPETGE",
+  "n_protein_atoms": 4383,
+  "n_peptide_atoms": 52,
+  "dist_min_pocket": 2.547,
+  "dist_max_pocket": 71.842,
+  "peptide_contact_fraction": 0.821,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

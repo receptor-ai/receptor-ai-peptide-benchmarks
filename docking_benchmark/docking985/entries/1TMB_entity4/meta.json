@@ -1,0 +1,21 @@
+{
+  "case_id": "1TMB_entity4",
+  "pdb_id": "1TMB",
+  "peptide_entity_id": "4",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P00734",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.3,
+  "peptide_chain_id": "T",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 5,
+  "peptide_sequence": "XFXAP",
+  "n_protein_atoms": 2370,
+  "n_peptide_atoms": 53,
+  "dist_min_pocket": 1.757,
+  "dist_max_pocket": 48.326,
+  "peptide_contact_fraction": 0.898,
+  "n_vdw_violations": 2,
+  "vdw_violations_per_peptide_atom": 0.0339
+}

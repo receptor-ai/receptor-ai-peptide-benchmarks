@@ -1,0 +1,21 @@
+{
+  "case_id": "6C0Y_entity2",
+  "pdb_id": "6C0Y",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "A0A3F2YLX1",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.66,
+  "peptide_chain_id": "O",
+  "n_peptide_chain_copies": 8,
+  "peptide_length": 19,
+  "peptide_sequence": "CKQACAFGPFXFVCDGNXK",
+  "n_protein_atoms": 846,
+  "n_peptide_atoms": 140,
+  "dist_min_pocket": 2.599,
+  "dist_max_pocket": 98.709,
+  "peptide_contact_fraction": 0.679,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

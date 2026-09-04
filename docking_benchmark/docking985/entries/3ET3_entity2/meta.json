@@ -1,0 +1,21 @@
+{
+  "case_id": "3ET3_entity2",
+  "pdb_id": "3ET3",
+  "peptide_entity_id": "2",
+  "benchmarks": "PepSet",
+  "uniprot_ids": "P37231",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.95,
+  "peptide_chain_id": "P",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 16,
+  "peptide_sequence": "HSSLTERHKILHRLLQ",
+  "n_protein_atoms": 2111,
+  "n_peptide_atoms": 139,
+  "dist_min_pocket": 2.887,
+  "dist_max_pocket": 62.028,
+  "peptide_contact_fraction": 0.513,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

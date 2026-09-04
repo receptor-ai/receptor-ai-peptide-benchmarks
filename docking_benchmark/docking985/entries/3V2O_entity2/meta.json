@@ -1,0 +1,21 @@
+{
+  "case_id": "3V2O_entity2",
+  "pdb_id": "3V2O",
+  "peptide_entity_id": "2",
+  "benchmarks": "PepSet",
+  "uniprot_ids": "Q9H9E1",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.89,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 11,
+  "peptide_sequence": "HYRKTGSLLPTLPKLPSLS",
+  "n_protein_atoms": 1207,
+  "n_peptide_atoms": 79,
+  "dist_min_pocket": 2.564,
+  "dist_max_pocket": 55.385,
+  "peptide_contact_fraction": 0.848,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

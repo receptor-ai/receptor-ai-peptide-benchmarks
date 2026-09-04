@@ -1,0 +1,21 @@
+{
+  "case_id": "3D32_entity2",
+  "pdb_id": "3D32",
+  "peptide_entity_id": "2",
+  "benchmarks": "PPDbench",
+  "uniprot_ids": "O95166",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.3,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 13,
+  "peptide_sequence": "DATYTWEHLAWPX",
+  "n_protein_atoms": 990,
+  "n_peptide_atoms": 107,
+  "dist_min_pocket": 2.423,
+  "dist_max_pocket": 64.125,
+  "peptide_contact_fraction": 0.813,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

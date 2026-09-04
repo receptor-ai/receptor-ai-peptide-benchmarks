@@ -1,0 +1,21 @@
+{
+  "case_id": "3L0E_entity2",
+  "pdb_id": "3L0E",
+  "peptide_entity_id": "2",
+  "benchmarks": "PPDbench",
+  "uniprot_ids": "P55055",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.3,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 12,
+  "peptide_sequence": "KENALLRYLLDK",
+  "n_protein_atoms": 1994,
+  "n_peptide_atoms": 98,
+  "dist_min_pocket": 2.421,
+  "dist_max_pocket": 54.605,
+  "peptide_contact_fraction": 0.714,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

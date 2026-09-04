@@ -1,0 +1,21 @@
+{
+  "case_id": "3NIK_entity2",
+  "pdb_id": "3NIK",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "P19812",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.85,
+  "peptide_chain_id": "X",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 4,
+  "peptide_sequence": "REAA",
+  "n_protein_atoms": 2554,
+  "n_peptide_atoms": 31,
+  "dist_min_pocket": 2.635,
+  "dist_max_pocket": 49.453,
+  "peptide_contact_fraction": 0.974,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}
