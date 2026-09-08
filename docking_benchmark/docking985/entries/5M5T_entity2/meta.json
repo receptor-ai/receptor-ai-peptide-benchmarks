@@ -1,0 +1,21 @@
+{
+  "case_id": "5M5T_entity2",
+  "pdb_id": "5M5T",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "P49951",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.7,
+  "peptide_chain_id": "E",
+  "n_peptide_chain_copies": 6,
+  "peptide_length": 7,
+  "peptide_sequence": "ETLLDLDFLE",
+  "n_protein_atoms": 2811,
+  "n_peptide_atoms": 56,
+  "dist_min_pocket": 2.727,
+  "dist_max_pocket": 109.055,
+  "peptide_contact_fraction": 0.817,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

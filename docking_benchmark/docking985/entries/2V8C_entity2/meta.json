@@ -1,0 +1,21 @@
+{
+  "case_id": "2V8C_entity2",
+  "pdb_id": "2V8C",
+  "peptide_entity_id": "2",
+  "benchmarks": "PepSet",
+  "uniprot_ids": "Q9JJV2",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.98,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 13,
+  "peptide_sequence": "GPPPPPGPPPPPGPPPPPGL",
+  "n_protein_atoms": 1042,
+  "n_peptide_atoms": 82,
+  "dist_min_pocket": 2.618,
+  "dist_max_pocket": 45.17,
+  "peptide_contact_fraction": 0.756,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

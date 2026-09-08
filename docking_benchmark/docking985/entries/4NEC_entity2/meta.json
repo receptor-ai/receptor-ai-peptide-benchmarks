@@ -1,0 +1,21 @@
+{
+  "case_id": "4NEC_entity2",
+  "pdb_id": "4NEC",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q0X0A7",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.5,
+  "peptide_chain_id": "E",
+  "n_peptide_chain_copies": 4,
+  "peptide_length": 10,
+  "peptide_sequence": "SAXVSAXV",
+  "n_protein_atoms": 1829,
+  "n_peptide_atoms": 77,
+  "dist_min_pocket": 2.73,
+  "dist_max_pocket": 121.648,
+  "peptide_contact_fraction": 0.757,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "1HC9_entity3",
+  "pdb_id": "1HC9",
+  "peptide_entity_id": "3",
+  "benchmarks": "PPDbench",
+  "uniprot_ids": "P60616",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.8,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 13,
+  "peptide_sequence": "WRYYESSLLPYPD",
+  "n_protein_atoms": 553,
+  "n_peptide_atoms": 121,
+  "dist_min_pocket": 2.49,
+  "dist_max_pocket": 66.482,
+  "peptide_contact_fraction": 0.654,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

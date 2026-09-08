@@ -1,0 +1,21 @@
+{
+  "case_id": "6PTV_entity2",
+  "pdb_id": "6PTV",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "A0A0H3AWV3",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.85,
+  "peptide_chain_id": "X",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 11,
+  "peptide_sequence": "XVPTLPLVPXG",
+  "n_protein_atoms": 2951,
+  "n_peptide_atoms": 79,
+  "dist_min_pocket": 2.711,
+  "dist_max_pocket": 127.732,
+  "peptide_contact_fraction": 0.721,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

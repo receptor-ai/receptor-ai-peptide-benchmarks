@@ -1,0 +1,21 @@
+{
+  "case_id": "4Z0U_entity2",
+  "pdb_id": "4Z0U",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "A7ZHV1",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.0,
+  "peptide_chain_id": "D",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 4,
+  "peptide_sequence": "WMDFDDDIPF",
+  "n_protein_atoms": 1238,
+  "n_peptide_atoms": 35,
+  "dist_min_pocket": 2.545,
+  "dist_max_pocket": 80.677,
+  "peptide_contact_fraction": 0.957,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

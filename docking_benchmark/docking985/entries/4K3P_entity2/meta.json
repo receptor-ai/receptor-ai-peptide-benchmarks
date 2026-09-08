@@ -1,0 +1,21 @@
+{
+  "case_id": "4K3P_entity2",
+  "pdb_id": "4K3P",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "P0A988",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.15,
+  "peptide_chain_id": "E",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 6,
+  "peptide_sequence": "XQLALF",
+  "n_protein_atoms": 5562,
+  "n_peptide_atoms": 45,
+  "dist_min_pocket": 2.815,
+  "dist_max_pocket": 83.163,
+  "peptide_contact_fraction": 0.894,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

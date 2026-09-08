@@ -1,0 +1,21 @@
+{
+  "case_id": "4HTP_entity2",
+  "pdb_id": "4HTP",
+  "peptide_entity_id": "2",
+  "benchmarks": "PPDbench",
+  "uniprot_ids": "P49917",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.2502,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 10,
+  "peptide_sequence": "DVPQWEVFFKR",
+  "n_protein_atoms": 1787,
+  "n_peptide_atoms": 85,
+  "dist_min_pocket": 2.652,
+  "dist_max_pocket": 73.661,
+  "peptide_contact_fraction": 0.584,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

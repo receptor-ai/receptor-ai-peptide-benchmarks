@@ -1,0 +1,21 @@
+{
+  "case_id": "2NPH_entity2",
+  "pdb_id": "2NPH",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021;Vina_47",
+  "uniprot_ids": "P04585",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.65,
+  "peptide_chain_id": "S",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 4,
+  "peptide_sequence": "AETF",
+  "n_protein_atoms": 1555,
+  "n_peptide_atoms": 33,
+  "dist_min_pocket": 2.464,
+  "dist_max_pocket": 40.043,
+  "peptide_contact_fraction": 1.0,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "1MF4_entity2",
+  "pdb_id": "1MF4",
+  "peptide_entity_id": "2",
+  "benchmarks": "PepSet;Vina_47",
+  "uniprot_ids": "P60045",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.9,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 5,
+  "peptide_sequence": "VAFRS",
+  "n_protein_atoms": 911,
+  "n_peptide_atoms": 41,
+  "dist_min_pocket": 2.31,
+  "dist_max_pocket": 38.816,
+  "peptide_contact_fraction": 0.929,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

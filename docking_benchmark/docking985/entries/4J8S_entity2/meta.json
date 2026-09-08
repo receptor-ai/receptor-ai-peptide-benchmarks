@@ -1,0 +1,21 @@
+{
+  "case_id": "4J8S_entity2",
+  "pdb_id": "4J8S",
+  "peptide_entity_id": "2",
+  "benchmarks": "LEADS-PEP;PPDbench",
+  "uniprot_ids": "A5YKK6",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.55,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 12,
+  "peptide_sequence": "APRRLPIFNRISVSE",
+  "n_protein_atoms": 1518,
+  "n_peptide_atoms": 102,
+  "dist_min_pocket": 2.765,
+  "dist_max_pocket": 51.19,
+  "peptide_contact_fraction": 0.719,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

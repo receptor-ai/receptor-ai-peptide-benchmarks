@@ -1,0 +1,21 @@
+{
+  "case_id": "3AVF_entity2",
+  "pdb_id": "3AVF",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P12497",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.7,
+  "peptide_chain_id": "D",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 8,
+  "peptide_sequence": "DLKIDNLD",
+  "n_protein_atoms": 1168,
+  "n_peptide_atoms": 65,
+  "dist_min_pocket": 2.508,
+  "dist_max_pocket": 53.977,
+  "peptide_contact_fraction": 0.624,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "2QL9_entity3",
+  "pdb_id": "2QL9",
+  "peptide_entity_id": "3",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "P55210",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.14,
+  "peptide_chain_id": "E",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 5,
+  "peptide_sequence": "XDQMX",
+  "n_protein_atoms": 1100,
+  "n_peptide_atoms": 36,
+  "dist_min_pocket": 1.769,
+  "dist_max_pocket": 64.244,
+  "peptide_contact_fraction": 1.0,
+  "n_vdw_violations": 2,
+  "vdw_violations_per_peptide_atom": 0.0263
+}

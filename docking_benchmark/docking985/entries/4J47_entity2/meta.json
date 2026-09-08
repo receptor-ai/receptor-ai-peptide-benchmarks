@@ -1,0 +1,21 @@
+{
+  "case_id": "4J47_entity2",
+  "pdb_id": "4J47",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "P98170",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.35,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 4,
+  "peptide_sequence": "SVPI",
+  "n_protein_atoms": 1302,
+  "n_peptide_atoms": 29,
+  "dist_min_pocket": 2.64,
+  "dist_max_pocket": 46.085,
+  "peptide_contact_fraction": 0.889,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

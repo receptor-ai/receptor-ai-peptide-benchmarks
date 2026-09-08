@@ -1,0 +1,21 @@
+{
+  "case_id": "4N5T_entity2",
+  "pdb_id": "4N5T",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q7ZUW7",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.7,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 15,
+  "peptide_sequence": "XLTFXEYWAQXLSAA",
+  "n_protein_atoms": 724,
+  "n_peptide_atoms": 125,
+  "dist_min_pocket": 2.75,
+  "dist_max_pocket": 42.078,
+  "peptide_contact_fraction": 0.503,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "5DJ0_entity3",
+  "pdb_id": "5DJ0",
+  "peptide_entity_id": "3",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P01857",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.28,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 13,
+  "peptide_sequence": "DCAWHLGELVWCT",
+  "n_protein_atoms": 3510,
+  "n_peptide_atoms": 107,
+  "dist_min_pocket": 2.466,
+  "dist_max_pocket": 75.971,
+  "peptide_contact_fraction": 0.722,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

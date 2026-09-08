@@ -1,0 +1,21 @@
+{
+  "case_id": "5AJN_entity2",
+  "pdb_id": "5AJN",
+  "peptide_entity_id": "2",
+  "benchmarks": "PepSet",
+  "uniprot_ids": "Q10471",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.67,
+  "peptide_chain_id": "P",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 16,
+  "peptide_sequence": "GTTPSPVPTTSTCSAA",
+  "n_protein_atoms": 3982,
+  "n_peptide_atoms": 97,
+  "dist_min_pocket": 2.705,
+  "dist_max_pocket": 64.843,
+  "peptide_contact_fraction": 0.764,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "3ODL_entity2",
+  "pdb_id": "3ODL",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P62937",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.31,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 10,
+  "peptide_length": 11,
+  "peptide_sequence": "ALLVXAGLVLA",
+  "n_protein_atoms": 1266,
+  "n_peptide_atoms": 86,
+  "dist_min_pocket": 2.656,
+  "dist_max_pocket": 92.631,
+  "peptide_contact_fraction": 0.856,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

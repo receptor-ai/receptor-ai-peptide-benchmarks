@@ -1,0 +1,21 @@
+{
+  "case_id": "5ONP_entity2",
+  "pdb_id": "5ONP",
+  "peptide_entity_id": "2",
+  "benchmarks": "PepSet",
+  "uniprot_ids": "P43133",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.34,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 5,
+  "peptide_sequence": "GAIIG",
+  "n_protein_atoms": 2435,
+  "n_peptide_atoms": 29,
+  "dist_min_pocket": 2.673,
+  "dist_max_pocket": 45.632,
+  "peptide_contact_fraction": 1.0,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

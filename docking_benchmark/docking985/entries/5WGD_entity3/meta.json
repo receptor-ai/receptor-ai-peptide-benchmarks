@@ -1,0 +1,21 @@
+{
+  "case_id": "5WGD_entity3",
+  "pdb_id": "5WGD",
+  "peptide_entity_id": "3",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P03372",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.8,
+  "peptide_chain_id": "F",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 12,
+  "peptide_sequence": "XAILHKLLQDSX",
+  "n_protein_atoms": 3715,
+  "n_peptide_atoms": 81,
+  "dist_min_pocket": 2.118,
+  "dist_max_pocket": 65.353,
+  "peptide_contact_fraction": 0.581,
+  "n_vdw_violations": 1,
+  "vdw_violations_per_peptide_atom": 0.0116
+}

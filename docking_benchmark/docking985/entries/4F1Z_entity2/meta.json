@@ -1,0 +1,21 @@
+{
+  "case_id": "4F1Z_entity2",
+  "pdb_id": "4F1Z",
+  "peptide_entity_id": "2",
+  "benchmarks": "PPDbench",
+  "uniprot_ids": "Q6GDH2",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.3,
+  "peptide_chain_id": "Q",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 14,
+  "peptide_sequence": "YGGGSSGGGSSGGG",
+  "n_protein_atoms": 2512,
+  "n_peptide_atoms": 72,
+  "dist_min_pocket": 2.661,
+  "dist_max_pocket": 71.722,
+  "peptide_contact_fraction": 0.905,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

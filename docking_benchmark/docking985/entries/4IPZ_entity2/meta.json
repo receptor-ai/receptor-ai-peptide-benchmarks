@@ -1,0 +1,21 @@
+{
+  "case_id": "4IPZ_entity2",
+  "pdb_id": "4IPZ",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P62937",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.67,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 11,
+  "peptide_sequence": "ALLVTAXLVLA",
+  "n_protein_atoms": 1249,
+  "n_peptide_atoms": 95,
+  "dist_min_pocket": 2.839,
+  "dist_max_pocket": 41.701,
+  "peptide_contact_fraction": 0.545,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

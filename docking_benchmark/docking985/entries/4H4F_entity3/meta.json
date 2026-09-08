@@ -1,0 +1,21 @@
+{
+  "case_id": "4H4F_entity3",
+  "pdb_id": "4H4F",
+  "peptide_entity_id": "3",
+  "benchmarks": "PPDbench",
+  "uniprot_ids": "Q99895",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.9,
+  "peptide_chain_id": "Q",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 10,
+  "peptide_sequence": "CGVPSFPPNL",
+  "n_protein_atoms": 2397,
+  "n_peptide_atoms": 72,
+  "dist_min_pocket": 2.073,
+  "dist_max_pocket": 60.425,
+  "peptide_contact_fraction": 0.861,
+  "n_vdw_violations": 1,
+  "vdw_violations_per_peptide_atom": 0.0127
+}

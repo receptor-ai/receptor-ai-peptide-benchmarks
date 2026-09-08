@@ -1,0 +1,21 @@
+{
+  "case_id": "4GW5_entity3",
+  "pdb_id": "4GW5",
+  "peptide_entity_id": "3",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.2,
+  "peptide_chain_id": "E",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 12,
+  "peptide_sequence": "CQYNLSSRALKC",
+  "n_protein_atoms": 1634,
+  "n_peptide_atoms": 94,
+  "dist_min_pocket": 2.775,
+  "dist_max_pocket": 82.74,
+  "peptide_contact_fraction": 0.745,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

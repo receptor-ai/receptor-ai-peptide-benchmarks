@@ -1,0 +1,21 @@
+{
+  "case_id": "5JR2_entity2",
+  "pdb_id": "5JR2",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P54764",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.75,
+  "peptide_chain_id": "E",
+  "n_peptide_chain_copies": 4,
+  "peptide_length": 13,
+  "peptide_sequence": "XPYCVYRXSWSCX",
+  "n_protein_atoms": 1439,
+  "n_peptide_atoms": 98,
+  "dist_min_pocket": 2.279,
+  "dist_max_pocket": 104.145,
+  "peptide_contact_fraction": 0.769,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

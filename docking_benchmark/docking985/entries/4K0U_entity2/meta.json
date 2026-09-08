@@ -1,0 +1,21 @@
+{
+  "case_id": "4K0U_entity2",
+  "pdb_id": "4K0U",
+  "peptide_entity_id": "2",
+  "benchmarks": "PPDbench",
+  "uniprot_ids": "Q01567",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.15,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 15,
+  "peptide_sequence": "RTFRQVQSSISDFYD",
+  "n_protein_atoms": 732,
+  "n_peptide_atoms": 130,
+  "dist_min_pocket": 2.711,
+  "dist_max_pocket": 39.489,
+  "peptide_contact_fraction": 0.565,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

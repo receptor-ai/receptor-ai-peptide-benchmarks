@@ -1,0 +1,21 @@
+{
+  "case_id": "7N0W_entity2",
+  "pdb_id": "7N0W",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P58154",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.46,
+  "peptide_chain_id": "G",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 14,
+  "peptide_sequence": "SCCARNPACRHNHPCV",
+  "n_protein_atoms": 8118,
+  "n_peptide_atoms": 106,
+  "dist_min_pocket": 2.588,
+  "dist_max_pocket": 82.02,
+  "peptide_contact_fraction": 0.889,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

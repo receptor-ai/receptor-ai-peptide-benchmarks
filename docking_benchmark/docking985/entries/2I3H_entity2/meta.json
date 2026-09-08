@@ -1,0 +1,21 @@
+{
+  "case_id": "2I3H_entity2",
+  "pdb_id": "2I3H",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "Q96CA5",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.62,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 4,
+  "peptide_sequence": "AVPW",
+  "n_protein_atoms": 729,
+  "n_peptide_atoms": 34,
+  "dist_min_pocket": 2.657,
+  "dist_max_pocket": 63.895,
+  "peptide_contact_fraction": 0.961,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

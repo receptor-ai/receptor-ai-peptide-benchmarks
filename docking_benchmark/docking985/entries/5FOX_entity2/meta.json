@@ -1,0 +1,21 @@
+{
+  "case_id": "5FOX_entity2",
+  "pdb_id": "5FOX",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "O74036",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.3,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 6,
+  "peptide_sequence": "XFHAAX",
+  "n_protein_atoms": 1727,
+  "n_peptide_atoms": 35,
+  "dist_min_pocket": 2.796,
+  "dist_max_pocket": 48.835,
+  "peptide_contact_fraction": 0.82,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "5CO5_entity2",
+  "pdb_id": "5CO5",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q8WSF8",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.1,
+  "peptide_chain_id": "F",
+  "n_peptide_chain_copies": 5,
+  "peptide_length": 17,
+  "peptide_sequence": "GCCSHPACAGNNQHICX",
+  "n_protein_atoms": 1654,
+  "n_peptide_atoms": 109,
+  "dist_min_pocket": 2.439,
+  "dist_max_pocket": 81.74,
+  "peptide_contact_fraction": 0.681,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

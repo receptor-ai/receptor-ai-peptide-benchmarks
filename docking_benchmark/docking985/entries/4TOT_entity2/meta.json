@@ -1,0 +1,21 @@
+{
+  "case_id": "4TOT_entity2",
+  "pdb_id": "4TOT",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P29117",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.39,
+  "peptide_chain_id": "E",
+  "n_peptide_chain_copies": 4,
+  "peptide_length": 11,
+  "peptide_sequence": "ALLVTAAXVLA",
+  "n_protein_atoms": 1238,
+  "n_peptide_atoms": 95,
+  "dist_min_pocket": 2.771,
+  "dist_max_pocket": 102.309,
+  "peptide_contact_fraction": 0.594,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

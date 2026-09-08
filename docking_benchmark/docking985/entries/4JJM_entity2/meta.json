@@ -1,0 +1,21 @@
+{
+  "case_id": "4JJM_entity2",
+  "pdb_id": "4JJM",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "D0ELH5",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.09,
+  "peptide_chain_id": "E",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 11,
+  "peptide_sequence": "ALLVTAGLVLA",
+  "n_protein_atoms": 1248,
+  "n_peptide_atoms": 85,
+  "dist_min_pocket": 2.634,
+  "dist_max_pocket": 51.635,
+  "peptide_contact_fraction": 0.625,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "6XIF_entity3",
+  "pdb_id": "6XIF",
+  "peptide_entity_id": "3",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q8NBP7",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.774,
+  "peptide_chain_id": "I",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 9,
+  "peptide_sequence": "XAAXXXTYX",
+  "n_protein_atoms": 2769,
+  "n_peptide_atoms": 94,
+  "dist_min_pocket": 2.685,
+  "dist_max_pocket": 69.512,
+  "peptide_contact_fraction": 0.837,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}
