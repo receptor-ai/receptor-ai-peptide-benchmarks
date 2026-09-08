@@ -1,0 +1,157 @@
+data_4CHB
+_entry.id 4CHB
+
+_cell.entry_id 4CHB
+_cell.length_a 117.7
+_cell.length_b 117.7
+_cell.length_c 106.65
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+
+_symmetry.entry_id 4CHB
+_symmetry.space_group_name_H-M 'P 43 21 2'
+_symmetry.Int_Tables_number 96
+
+loop_
+_entity.id
+_entity.type
+C polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+C polypeptide(L) C ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ALA .
+ASP .
+GLN .
+GLU .
+HIS .
+PRO .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+C C
+
+
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . GLU C C 1 ? -27.222 -46.748 -7.396 1 37.33 ? 557 C 1
+ATOM 2 C CA . GLU C C 1 ? -27.135 -46.226 -8.756 1 36.81 ? 557 C 1
+ATOM 3 C C . GLU C C 1 ? -26.062 -46.968 -9.552 1 31.15 ? 557 C 1
+ATOM 4 O O . GLU C C 1 ? -25.151 -47.562 -8.97 1 32.37 ? 557 C 1
+ATOM 5 C CB . GLU C C 1 ? -26.854 -44.719 -8.741 1 37.72 ? 557 C 1
+ATOM 6 C CG . GLU C C 1 ? -25.57 -44.324 -8.039 1 37.69 ? 557 C 1
+ATOM 7 C CD . GLU C C 1 ? -25.46 -42.824 -7.839 1 38.82 ? 557 C 1
+ATOM 8 O OE1 . GLU C C 1 ? -26.474 -42.196 -7.463 1 42.5 ? 557 C 1
+ATOM 9 O OE2 . GLU C C 1 ? -24.361 -42.272 -8.067 1 29.08 ? 557 C 1
+ATOM 10 N N . PRO C C 2 ? -26.178 -46.948 -10.889 1 24.55 ? 558 C 1
+ATOM 11 C CA . PRO C C 2 ? -25.233 -47.651 -11.761 1 20.44 ? 558 C 1
+ATOM 12 C C . PRO C C 2 ? -23.811 -47.164 -11.544 1 15.4 ? 558 C 1
+ATOM 13 O O . PRO C C 2 ? -23.573 -45.952 -11.509 1 15.05 ? 558 C 1
+ATOM 14 C CB . PRO C C 2 ? -25.719 -47.299 -13.17 1 26.42 ? 558 C 1
+ATOM 15 C CG . PRO C C 2 ? -27.146 -46.874 -12.997 1 29.81 ? 558 C 1
+ATOM 16 C CD . PRO C C 2 ? -27.199 -46.214 -11.658 1 31.96 ? 558 C 1
+ATOM 17 N N . GLU C C 3 ? -22.88 -48.101 -11.41 1 13.7 ? 559 C 1
+ATOM 18 C CA . GLU C C 3 ? -21.492 -47.76 -11.147 1 13.45 ? 559 C 1
+ATOM 19 C C . GLU C C 3 ? -20.779 -47.311 -12.415 1 13.06 ? 559 C 1
+ATOM 20 O O . GLU C C 3 ? -19.701 -46.731 -12.344 1 11.8 ? 559 C 1
+ATOM 21 C CB . GLU C C 3 ? -20.749 -48.951 -10.54 1 19.44 ? 559 C 1
+ATOM 22 C CG . GLU C C 3 ? -20.456 -50.051 -11.552 1 32.84 ? 559 C 1
+ATOM 23 C CD . GLU C C 3 ? -19.721 -51.236 -10.95 1 47.87 ? 559 C 1
+ATOM 24 O OE1 . GLU C C 3 ? -18.787 -51.02 -10.146 1 47.12 ? 559 C 1
+ATOM 25 O OE2 . GLU C C 3 ? -20.081 -52.386 -11.286 1 55.72 ? 559 C 1
+ATOM 26 N N . GLU C C 4 ? -21.364 -47.592 -13.574 1 11.27 ? 560 C 1
+ATOM 27 C CA . GLU C C 4 ? -20.709 -47.218 -14.823 1 10.38 ? 560 C 1
+ATOM 28 C C . GLU C C 4 ? -20.778 -45.721 -15.072 1 9.55 ? 560 C 1
+ATOM 29 O O . GLU C C 4 ? -21.698 -45.051 -14.615 1 12.27 ? 560 C 1
+ATOM 30 C CB . GLU C C 4 ? -21.332 -47.983 -15.988 1 16.08 ? 560 C 1
+ATOM 31 C CG . GLU C C 4 ? -21.157 -49.493 -15.846 1 25.44 ? 560 C 1
+ATOM 32 C CD . GLU C C 4 ? -22.116 -50.289 -16.698 1 45.1 ? 560 C 1
+ATOM 33 O OE1 . GLU C C 4 ? -22.741 -49.704 -17.605 1 55.11 ? 560 C 1
+ATOM 34 O OE2 . GLU C C 4 ? -22.249 -51.506 -16.453 1 51.7 ? 560 C 1
+ATOM 35 N N . PRO C C 5 ? -19.79 -45.186 -15.807 1 5.53 ? 561 C 1
+ATOM 36 C CA . PRO C C 5 ? -19.898 -43.789 -16.263 1 7.26 ? 561 C 1
+ATOM 37 C C . PRO C C 5 ? -21.175 -43.588 -17.065 1 8.04 ? 561 C 1
+ATOM 38 O O . PRO C C 5 ? -21.721 -44.541 -17.624 1 8.26 ? 561 C 1
+ATOM 39 C CB . PRO C C 5 ? -18.674 -43.605 -17.161 1 13.02 ? 561 C 1
+ATOM 40 C CG . PRO C C 5 ? -17.724 -44.687 -16.739 1 16.36 ? 561 C 1
+ATOM 41 C CD . PRO C C 5 ? -18.571 -45.851 -16.299 1 9.59 ? 561 C 1
+ATOM 42 N N . GLU C C 6 ? -21.644 -42.348 -17.12 1 8.48 ? 562 C 1
+ATOM 43 C CA . GLU C C 6 ? -22.901 -42.043 -17.797 1 6.8 ? 562 C 1
+ATOM 44 C C . GLU C C 6 ? -22.919 -42.528 -19.245 1 8.8 ? 562 C 1
+ATOM 45 O O . GLU C C 6 ? -23.915 -43.096 -19.724 1 8.85 ? 562 C 1
+ATOM 46 C CB . GLU C C 6 ? -23.154 -40.536 -17.736 1 6.95 ? 562 C 1
+ATOM 47 C CG . GLU C C 6 ? -24.52 -40.139 -18.237 1 9.13 ? 562 C 1
+ATOM 48 C CD . GLU C C 6 ? -24.725 -38.644 -18.257 1 8.7 ? 562 C 1
+ATOM 49 O OE1 . GLU C C 6 ? -23.773 -37.918 -18.644 1 9.89 ? 562 C 1
+ATOM 50 O OE2 . GLU C C 6 ? -25.838 -38.193 -17.876 1 11.22 ? 562 C 1
+ATOM 51 N N . ALA C C 7 ? -21.811 -42.322 -19.945 1 7.75 ? 563 C 1
+ATOM 52 C CA . ALA C C 7 ? -21.734 -42.715 -21.351 1 8.94 ? 563 C 1
+ATOM 53 C C . ALA C C 7 ? -21.939 -44.218 -21.542 1 10.2 ? 563 C 1
+ATOM 54 O O . ALA C C 7 ? -22.327 -44.661 -22.634 1 14.78 ? 563 C 1
+ATOM 55 C CB . ALA C C 7 ? -20.386 -42.293 -21.943 1 11.93 ? 563 C 1
+ATOM 56 N N . ASP C C 8 ? -21.679 -44.994 -20.488 1 9.04 ? 564 C 1
+ATOM 57 C CA . ASP C C 8 ? -21.778 -46.449 -20.552 1 8.53 ? 564 C 1
+ATOM 58 C C . ASP C C 8 ? -23.073 -47.009 -19.965 1 13.79 ? 564 C 1
+ATOM 59 O O . ASP C C 8 ? -23.26 -48.23 -19.933 1 14.18 ? 564 C 1
+ATOM 60 C CB . ASP C C 8 ? -20.605 -47.11 -19.82 1 8.27 ? 564 C 1
+ATOM 61 C CG . ASP C C 8 ? -19.278 -46.903 -20.521 1 14.85 ? 564 C 1
+ATOM 62 O OD1 . ASP C C 8 ? -19.27 -46.682 -21.758 1 13.9 ? 564 C 1
+ATOM 63 O OD2 . ASP C C 8 ? -18.24 -46.984 -19.82 1 17.9 ? 564 C 1
+ATOM 64 N N . GLN C C 9 ? -23.961 -46.137 -19.498 1 11.74 ? 565 C 1
+ATOM 65 C CA . GLN C C 9 ? -25.201 -46.615 -18.888 1 13.88 ? 565 C 1
+ATOM 66 C C . GLN C C 9 ? -26.271 -46.826 -19.932 1 15.38 ? 565 C 1
+ATOM 67 O O . GLN C C 9 ? -26.431 -46.01 -20.834 1 16.91 ? 565 C 1
+ATOM 68 C CB . GLN C C 9 ? -25.686 -45.634 -17.826 1 12.62 ? 565 C 1
+ATOM 69 C CG . GLN C C 9 ? -24.753 -45.567 -16.641 1 12.26 ? 565 C 1
+ATOM 70 C CD . GLN C C 9 ? -25.203 -44.575 -15.594 1 15.62 ? 565 C 1
+ATOM 71 O OE1 . GLN C C 9 ? -26.346 -44.103 -15.612 1 21.44 ? 565 C 1
+ATOM 72 N NE2 . GLN C C 9 ? -24.313 -44.26 -14.664 1 11.97 ? 565 C 1
+ATOM 73 N N . HIS C C 10 ? -27.002 -47.93 -19.803 1 19.99 ? 566 C 1
+ATOM 74 C CA . HIS C C 10 ? -28.062 -48.256 -20.749 1 30.78 ? 566 C 1
+ATOM 75 C C . HIS C C 10 ? -29.278 -48.841 -20.038 1 36.2 ? 566 C 1
+ATOM 76 O O . HIS C C 10 ? -30.412 -48.446 -20.311 1 40.59 ? 566 C 1
+ATOM 77 C CB . HIS C C 10 ? -27.55 -49.229 -21.81 1 33.46 ? 566 C 1
+ATOM 78 C CG . HIS C C 10 ? -26.307 -48.765 -22.501 1 33.08 ? 566 C 1
+ATOM 79 N ND1 . HIS C C 10 ? -26.308 -47.742 -23.426 1 33.17 ? 566 C 1
+ATOM 80 C CD2 . HIS C C 10 ? -25.021 -49.177 -22.399 1 30.43 ? 566 C 1
+ATOM 81 C CE1 . HIS C C 10 ? -25.078 -47.545 -23.863 1 32.73 ? 566 C 1
+ATOM 82 N NE2 . HIS C C 10 ? -24.277 -48.402 -23.255 1 30.03 ? 566 C 1
+
+_struct.title '4CHB: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'

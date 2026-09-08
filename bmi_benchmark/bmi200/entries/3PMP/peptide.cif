@@ -1,0 +1,198 @@
+data_3PMP
+_entry.id 3PMP
+
+_cell.entry_id 3PMP
+_cell.length_a 104.028
+_cell.length_b 104.028
+_cell.length_c 61.305
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+
+_symmetry.entry_id 3PMP
+_symmetry.space_group_name_H-M 'P 4 21 2'
+_symmetry.Int_Tables_number 90
+
+loop_
+_entity.id
+_entity.type
+D polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+D polypeptide(L) D ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ABA .
+ALA .
+BMT .
+DAL .
+MLE .
+MVA .
+SAR .
+VAL .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+D D
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.pdbx_ptnr1_label_alt_id
+_struct_conn.ptnr1_auth_asym_id
+_struct_conn.ptnr1_auth_seq_id
+_struct_conn.pdbx_ptnr1_PDB_ins_code
+_struct_conn.ptnr1_symmetry
+_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_ptnr2_label_alt_id
+_struct_conn.ptnr2_auth_asym_id
+_struct_conn.ptnr2_auth_seq_id
+_struct_conn.pdbx_ptnr2_PDB_ins_code
+_struct_conn.ptnr2_symmetry
+_struct_conn.details
+_struct_conn.pdbx_dist_value
+covale11 covale D DAL 1 C ? D 1 ? 1_555 D MLE 2 N ? D 2 ? 1_555 ? 1.2215
+covale12 covale D DAL 1 N ? D 1 ? 1_555 D ALA 11 C ? D 11 ? 1_555 ? 1.3406
+covale13 covale D MLE 2 C ? D 2 ? 1_555 D MLE 3 N ? D 3 ? 1_555 ? 1.2460
+covale14 covale D MLE 3 C ? D 3 ? 1_555 D MVA 4 N ? D 4 ? 1_555 ? 1.3318
+covale15 covale D BMT 5 C ? D 5 ? 1_555 D ABA 6 N ? D 6 ? 1_555 ? 1.3703
+covale16 covale D ABA 6 C ? D 6 ? 1_555 D SAR 7 N ? D 7 ? 1_555 ? 1.3652
+covale17 covale D SAR 7 C ? D 7 ? 1_555 D MLE 8 N ? D 8 ? 1_555 ? 1.3960
+covale18 covale D MLE 8 C ? D 8 ? 1_555 D VAL 9 N ? D 9 ? 1_555 ? 1.3544
+covale19 covale D VAL 9 C ? D 9 ? 1_555 D MLE 10 N ? D 10 ? 1_555 ? 1.3453
+covale20 covale D MLE 10 C ? D 10 ? 1_555 D ALA 11 N ? D 11 ? 1_555 ? 1.3595
+
+loop_
+_struct_conn_type.id
+covale
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+HETATM 1 N N . DAL D D 1 ? 30.412 -10.704 -17.515 1 15.8 ? 1 D 1
+HETATM 2 C CA . DAL D D 1 ? 30.958 -10.643 -16.233 1 13.01 ? 1 D 1
+HETATM 3 C CB . DAL D D 1 ? 30.753 -11.965 -15.516 1 16.42 ? 1 D 1
+HETATM 4 C C . DAL D D 1 ? 30.443 -9.425 -15.599 1 14.97 ? 1 D 1
+HETATM 5 O O . DAL D D 1 ? 29.216 -9.303 -15.602 1 14.69 ? 1 D 1
+HETATM 6 N N . MLE D D 2 ? 30.97 -8.565 -14.91 1 16.08 ? 2 D 1
+HETATM 7 C CN . MLE D D 2 ? 32.381 -8.613 -14.787 1 15.99 ? 2 D 1
+HETATM 8 C CA . MLE D D 2 ? 30.44 -7.408 -14.259 1 17.14 ? 2 D 1
+HETATM 9 C CB . MLE D D 2 ? 30.533 -7.523 -12.761 1 14.34 ? 2 D 1
+HETATM 10 C CG . MLE D D 2 ? 29.622 -8.53 -12.084 1 16.11 ? 2 D 1
+HETATM 11 C CD1 . MLE D D 2 ? 28.144 -8.302 -12.354 1 28.98 ? 2 D 1
+HETATM 12 C CD2 . MLE D D 2 ? 29.922 -8.746 -10.618 1 14.86 ? 2 D 1
+HETATM 13 C C . MLE D D 2 ? 31.118 -6.115 -14.735 1 12.42 ? 2 D 1
+HETATM 14 O O . MLE D D 2 ? 31.925 -5.53 -14.038 1 11.57 ? 2 D 1
+HETATM 15 N N . MLE D D 3 ? 30.996 -5.627 -15.875 1 12.18 ? 3 D 1
+HETATM 16 C CN . MLE D D 3 ? 30.044 -6.351 -16.757 1 14.44 ? 3 D 1
+HETATM 17 C CA . MLE D D 3 ? 31.578 -4.604 -16.613 1 13.07 ? 3 D 1
+HETATM 18 C CB . MLE D D 3 ? 32.326 -4.864 -17.916 1 12.09 ? 3 D 1
+HETATM 19 C CG . MLE D D 3 ? 33.43 -5.914 -17.713 1 13.8 ? 3 D 1
+HETATM 20 C CD1 . MLE D D 3 ? 34.674 -5.26 -17.086 1 16.91 ? 3 D 1
+HETATM 21 C CD2 . MLE D D 3 ? 33.742 -6.444 -19.115 1 16.88 ? 3 D 1
+HETATM 22 C C . MLE D D 3 ? 30.828 -3.36 -16.535 1 12.68 ? 3 D 1
+HETATM 23 O O . MLE D D 3 ? 29.587 -3.407 -16.492 1 11.72 ? 3 D 1
+HETATM 24 N N . MVA D D 4 ? 31.059 -2.057 -16.685 1 12.38 ? 4 D 1
+HETATM 25 C CN . MVA D D 4 ? 32.524 -1.908 -16.647 1 11.69 ? 4 D 1
+HETATM 26 C CA . MVA D D 4 ? 30.474 -0.82 -16.903 1 10.77 ? 4 D 1
+HETATM 27 C CB . MVA D D 4 ? 30.463 0.138 -15.775 1 11.93 ? 4 D 1
+HETATM 28 C CG1 . MVA D D 4 ? 29.267 1.099 -16.012 1 12.64 ? 4 D 1
+HETATM 29 C CG2 . MVA D D 4 ? 30.338 -0.597 -14.427 1 12.22 ? 4 D 1
+HETATM 30 C C . MVA D D 4 ? 30.864 -0.326 -18.173 1 10.01 ? 4 D 1
+HETATM 31 O O . MVA D D 4 ? 31.585 0.692 -18.182 1 10.79 ? 4 D 1
+HETATM 32 N N . BMT D D 5 ? 30.751 -0.722 -19.408 1 10.6 ? 5 D 1
+HETATM 33 C CN . BMT D D 5 ? 29.759 -1.82 -19.507 1 11.29 ? 5 D 1
+HETATM 34 C CA . BMT D D 5 ? 31.008 -0.233 -20.687 1 11.55 ? 5 D 1
+HETATM 35 C C . BMT D D 5 ? 29.969 0.654 -21.192 1 12.3 ? 5 D 1
+HETATM 36 O O . BMT D D 5 ? 28.834 0.664 -20.721 1 12.48 ? 5 D 1
+HETATM 37 C CB . BMT D D 5 ? 31.603 -1.091 -21.785 1 10.24 ? 5 D 1
+HETATM 38 O OG1 . BMT D D 5 ? 30.526 -1.827 -22.332 1 11.99 ? 5 D 1
+HETATM 39 C CG2 . BMT D D 5 ? 32.688 -2.022 -21.174 1 12.67 ? 5 D 1
+HETATM 40 C CD1 . BMT D D 5 ? 33.774 -1.198 -20.429 1 13.29 ? 5 D 1
+HETATM 41 C CD2 . BMT D D 5 ? 33.373 -2.837 -22.326 1 13.9 ? 5 D 1
+HETATM 42 C CE . BMT D D 5 ? 34.116 -2.165 -23.241 1 15.06 ? 5 D 1
+HETATM 43 C CZ . BMT D D 5 ? 33.779 -2.36 -24.696 1 15.06 ? 5 D 1
+HETATM 44 C CH . BMT D D 5 ? 34.442 -1.426 -25.701 1 17.38 ? 5 D 1
+HETATM 45 N N . ABA D D 6 ? 30.075 1.628 -22.15 1 14.52 ? 6 D 1
+HETATM 46 C CA . ABA D D 6 ? 29.409 2.63 -22.857 1 11.01 ? 6 D 1
+HETATM 47 C C . ABA D D 6 ? 29.238 1.897 -24.147 1 11 ? 6 D 1
+HETATM 48 O O . ABA D D 6 ? 29.861 2.371 -25.125 1 11.8 ? 6 D 1
+HETATM 49 C CB . ABA D D 6 ? 30.166 3.922 -22.917 1 11.21 ? 6 D 1
+HETATM 50 C CG . ABA D D 6 ? 30.239 4.502 -21.503 1 12.8 ? 6 D 1
+HETATM 51 N N . SAR D D 7 ? 28.319 1.034 -24.671 1 13.4 ? 7 D 1
+HETATM 52 C CA . SAR D D 7 ? 27.706 0.595 -25.878 1 14.21 ? 7 D 1
+HETATM 53 C C . SAR D D 7 ? 28.273 -0.751 -26.041 1 12.54 ? 7 D 1
+HETATM 54 O O . SAR D D 7 ? 27.295 -1.557 -26.022 1 12.08 ? 7 D 1
+HETATM 55 C CN . SAR D D 7 ? 27.434 0.519 -23.603 1 15.52 ? 7 D 1
+HETATM 56 N N . MLE D D 8 ? 29.366 -1.59 -26.265 1 11.76 ? 8 D 1
+HETATM 57 C CN . MLE D D 8 ? 30.578 -0.754 -26.03 1 14.11 ? 8 D 1
+HETATM 58 C CA . MLE D D 8 ? 29.713 -2.967 -26.471 1 12.89 ? 8 D 1
+HETATM 59 C CB . MLE D D 8 ? 30.861 -3.362 -27.353 1 14.2 ? 8 D 1
+HETATM 60 C CG . MLE D D 8 ? 30.667 -4.868 -27.623 1 14.11 ? 8 D 1
+HETATM 61 C CD1 . MLE D D 8 ? 32.005 -5.349 -28.237 1 14.48 ? 8 D 1
+HETATM 62 C CD2 . MLE D D 8 ? 29.452 -5.216 -28.508 1 14.23 ? 8 D 1
+HETATM 63 C C . MLE D D 8 ? 29.571 -3.563 -25.124 1 12.16 ? 8 D 1
+HETATM 64 O O . MLE D D 8 ? 30.61 -3.642 -24.411 1 12.36 ? 8 D 1
+ATOM 65 N N . VAL D D 9 ? 28.484 -4.08 -24.503 1 11.59 ? 9 D 1
+ATOM 66 C CA . VAL D D 9 ? 28.203 -4.541 -23.181 1 11.69 ? 9 D 1
+ATOM 67 C C . VAL D D 9 ? 28.926 -5.794 -23.079 1 15.09 ? 9 D 1
+ATOM 68 O O . VAL D D 9 ? 28.555 -6.679 -23.868 1 15.73 ? 9 D 1
+ATOM 69 C CB . VAL D D 9 ? 26.783 -4.551 -22.707 1 14.27 ? 9 D 1
+ATOM 70 C CG1 . VAL D D 9 ? 26.892 -5.152 -21.282 1 15.48 ? 9 D 1
+ATOM 71 C CG2 . VAL D D 9 ? 26.295 -3.095 -22.692 1 12.1 ? 9 D 1
+HETATM 72 N N . MLE D D 10 ? 29.937 -6.383 -22.415 1 13.47 ? 10 D 1
+HETATM 73 C CN . MLE D D 10 ? 30.428 -5.404 -21.395 1 15.1 ? 10 D 1
+HETATM 74 C CA . MLE D D 10 ? 30.645 -7.592 -22.298 1 13.59 ? 10 D 1
+HETATM 75 C CB . MLE D D 10 ? 32.163 -7.549 -22.452 1 14.57 ? 10 D 1
+HETATM 76 C CG . MLE D D 10 ? 32.513 -6.833 -23.758 1 15.96 ? 10 D 1
+HETATM 77 C CD1 . MLE D D 10 ? 34.038 -6.686 -23.768 1 21.49 ? 10 D 1
+HETATM 78 C CD2 . MLE D D 10 ? 32.114 -7.653 -25.014 1 16.33 ? 10 D 1
+HETATM 79 C C . MLE D D 10 ? 30.111 -8.443 -21.258 1 15.08 ? 10 D 1
+HETATM 80 O O . MLE D D 10 ? 29.54 -7.926 -20.274 1 14.79 ? 10 D 1
+ATOM 81 N N . ALA D D 11 ? 30.301 -9.769 -21.026 1 15.81 ? 11 D 1
+ATOM 82 C CA . ALA D D 11 ? 29.934 -10.698 -20.054 1 14.34 ? 11 D 1
+ATOM 83 C C . ALA D D 11 ? 30.617 -10.37 -18.797 1 15.68 ? 11 D 1
+ATOM 84 O O . ALA D D 11 ? 31.723 -9.773 -18.818 1 12.83 ? 11 D 1
+ATOM 85 C CB . ALA D D 11 ? 30.261 -12.096 -20.54 1 15.02 ? 11 D 1
+
+_struct.title '3PMP: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'

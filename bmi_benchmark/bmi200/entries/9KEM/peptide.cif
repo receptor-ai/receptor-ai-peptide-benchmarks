@@ -1,0 +1,192 @@
+data_9KEM
+_entry.id 9KEM
+
+_cell.entry_id 9KEM
+_cell.length_a 57.968
+_cell.length_b 79.592
+_cell.length_c 65.141
+_cell.angle_alpha 90
+_cell.angle_beta 92.784
+_cell.angle_gamma 90
+
+_symmetry.entry_id 9KEM
+_symmetry.space_group_name_H-M 'P 1 21 1'
+_symmetry.Int_Tables_number 4
+
+loop_
+_entity.id
+_entity.type
+E polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+E polypeptide(L) E ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ALA .
+ALY .
+ARG .
+GLN .
+GLY .
+SER .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+E E
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.pdbx_ptnr1_label_alt_id
+_struct_conn.ptnr1_auth_asym_id
+_struct_conn.ptnr1_auth_seq_id
+_struct_conn.pdbx_ptnr1_PDB_ins_code
+_struct_conn.ptnr1_symmetry
+_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_ptnr2_label_alt_id
+_struct_conn.ptnr2_auth_asym_id
+_struct_conn.ptnr2_auth_seq_id
+_struct_conn.pdbx_ptnr2_PDB_ins_code
+_struct_conn.ptnr2_symmetry
+_struct_conn.details
+_struct_conn.pdbx_dist_value
+covale1 covale E GLY 4 C ? E 4 ? 1_555 E ALY 5 N ? E 5 ? 1_555 ? 1.3287
+covale2 covale E ALY 5 C ? E 5 ? 1_555 E GLN 6 N ? E 6 ? 1_555 ? 1.3356
+covale3 covale E GLY 8 C ? E 8 ? 1_555 E ALY 9 N ? E 9 ? 1_555 ? 1.3348
+covale4 covale E ALY 9 C ? E 9 ? 1_555 E ALA 10 N ? E 10 ? 1_555 ? 1.3346
+
+loop_
+_struct_conn_type.id
+covale
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . SER E E 1 ? 36.84253 -30.4798 -5.09356 1 49.9154 ? 1 E 1
+ATOM 2 C CA . SER E E 1 ? 37.05114 -31.72005 -5.83197 1 47.9458 ? 1 E 1
+ATOM 3 C C . SER E E 1 ? 35.92461 -31.90619 -6.84412 1 51.2222 ? 1 E 1
+ATOM 4 O O . SER E E 1 ? 35.73613 -32.99081 -7.3959 1 46.3942 ? 1 E 1
+ATOM 5 C CB . SER E E 1 ? 37.12385 -32.91801 -4.8819 1 45.1999 ? 1 E 1
+ATOM 6 O OG . SER E E 1 ? 35.91169 -33.08686 -4.15658 1 52.2708 ? 1 E 1
+ATOM 7 N N . GLY E E 2 ? 35.18728 -30.82328 -7.08665 1 47.4664 ? 2 E 1
+ATOM 8 C CA . GLY E E 2 ? 34.00522 -30.8823 -7.92069 1 45.3391 ? 2 E 1
+ATOM 9 C C . GLY E E 2 ? 32.79265 -30.47079 -7.11426 1 45.3616 ? 2 E 1
+ATOM 10 O O . GLY E E 2 ? 32.49227 -31.09476 -6.08999 1 45.2446 ? 2 E 1
+ATOM 11 N N . ARG E E 3 ? 32.10861 -29.40279 -7.54199 1 39.2566 ? 3 E 1
+ATOM 12 C CA . ARG E E 3 ? 30.92555 -28.94116 -6.8203 1 39.7643 ? 3 E 1
+ATOM 13 C C . ARG E E 3 ? 29.68616 -29.75603 -7.1716 1 40.7896 ? 3 E 1
+ATOM 14 O O . ARG E E 3 ? 28.88212 -30.09304 -6.28618 1 34.7619 ? 3 E 1
+ATOM 15 C CB . ARG E E 3 ? 30.68768 -27.46305 -7.11057 1 38.3203 ? 3 E 1
+ATOM 16 C CG . ARG E E 3 ? 31.60758 -26.56504 -6.30224 1 37.0632 ? 3 E 1
+ATOM 17 C CD . ARG E E 3 ? 31.19868 -25.11964 -6.36092 1 35.3863 ? 3 E 1
+ATOM 18 N NE . ARG E E 3 ? 32.07441 -24.30693 -5.53428 1 30.6542 ? 3 E 1
+ATOM 19 C CZ . ARG E E 3 ? 31.84279 -23.03074 -5.23923 1 32.6896 ? 3 E 1
+ATOM 20 N NH1 . ARG E E 3 ? 30.75392 -22.42835 -5.68949 1 26.8708 ? 3 E 1
+ATOM 21 N NH2 . ARG E E 3 ? 32.69157 -22.36958 -4.46609 1 31.0575 ? 3 E 1
+ATOM 22 N N . GLY E E 4 ? 29.51233 -30.07826 -8.44956 1 37.1648 ? 4 E 1
+ATOM 23 C CA . GLY E E 4 ? 28.32561 -30.79456 -8.89173 1 38.3984 ? 4 E 1
+ATOM 24 C C . GLY E E 4 ? 27.12121 -29.91543 -9.18419 1 33.4925 ? 4 E 1
+ATOM 25 O O . GLY E E 4 ? 27.16397 -28.69209 -9.01843 1 34.1093 ? 4 E 1
+HETATM 26 O OH . ALY E E 5 ? 26.71558 -29.86474 -17.55557 1 32.4201 ? 5 E 1
+HETATM 27 C CH . ALY E E 5 ? 25.55036 -29.46834 -17.45894 1 31.947 ? 5 E 1
+HETATM 28 C CH3 . ALY E E 5 ? 24.66223 -29.45794 -18.67702 1 30.3213 ? 5 E 1
+HETATM 29 N NZ . ALY E E 5 ? 25.01835 -29.0143 -16.25223 1 35.3144 ? 5 E 1
+HETATM 30 C CE . ALY E E 5 ? 25.65414 -28.93734 -14.95144 1 32.6268 ? 5 E 1
+HETATM 31 C CD . ALY E E 5 ? 24.73993 -29.53255 -13.84289 1 28.0683 ? 5 E 1
+HETATM 32 C CG . ALY E E 5 ? 25.38223 -29.66079 -12.47055 1 31.3086 ? 5 E 1
+HETATM 33 C CB . ALY E E 5 ? 24.4123 -30.2334 -11.42709 1 28.879 ? 5 E 1
+HETATM 34 C CA . ALY E E 5 ? 24.84988 -29.83017 -10.00679 1 26.3149 ? 5 E 1
+HETATM 35 N N . ALY E E 5 ? 26.03209 -30.54852 -9.60669 1 26.2079 ? 5 E 1
+HETATM 36 C C . ALY E E 5 ? 23.66738 -30.03278 -9.03228 1 27.776 ? 5 E 1
+HETATM 37 O O . ALY E E 5 ? 22.48609 -29.81362 -9.32755 1 24.6218 ? 5 E 1
+ATOM 38 N N . GLN E E 6 ? 23.98166 -30.46675 -7.80892 1 23.533 ? 6 E 1
+ATOM 39 C CA . GLN E E 6 ? 22.90263 -30.68114 -6.81585 1 25.0076 ? 6 E 1
+ATOM 40 C C . GLN E E 6 ? 23.09375 -29.94336 -5.48499 1 27.7349 ? 6 E 1
+ATOM 41 O O . GLN E E 6 ? 22.67362 -30.43539 -4.41603 1 27.6782 ? 6 E 1
+ATOM 42 C CB . GLN E E 6 ? 22.73694 -32.18736 -6.54576 1 30.1143 ? 6 E 1
+ATOM 43 C CG . GLN E E 6 ? 22.23069 -32.96418 -7.77114 1 29.6821 ? 6 E 1
+ATOM 44 C CD . GLN E E 6 ? 21.68884 -34.3466 -7.38748 1 36.4755 ? 6 E 1
+ATOM 45 O OE1 . GLN E E 6 ? 22.45399 -35.23188 -7.0205 1 33.8624 ? 6 E 1
+ATOM 46 N NE2 . GLN E E 6 ? 20.37056 -34.51836 -7.45105 1 33.861 ? 6 E 1
+ATOM 47 N N . GLY E E 7 ? 23.70862 -28.75725 -5.54325 1 25.3399 ? 7 E 1
+ATOM 48 C CA . GLY E E 7 ? 23.9034 -27.9651 -4.33773 1 29.0503 ? 7 E 1
+ATOM 49 C C . GLY E E 7 ? 24.78813 -28.59801 -3.28584 1 31.829 ? 7 E 1
+ATOM 50 O O . GLY E E 7 ? 24.66168 -28.26001 -2.0952 1 32.2069 ? 7 E 1
+ATOM 51 N N . GLY E E 8 ? 25.66674 -29.52483 -3.67465 1 25.5868 ? 8 E 1
+ATOM 52 C CA . GLY E E 8 ? 26.54387 -30.18662 -2.71044 1 29.2679 ? 8 E 1
+ATOM 53 C C . GLY E E 8 ? 25.96255 -31.41548 -2.01228 1 30.2569 ? 8 E 1
+ATOM 54 O O . GLY E E 8 ? 26.62843 -32.03041 -1.16728 1 29.4028 ? 8 E 1
+HETATM 55 O OH . ALY E E 9 ? 20.97546 -29.48017 2.78463 1 27.3856 ? 9 E 1
+HETATM 56 C CH . ALY E E 9 ? 21.20504 -28.64629 1.87462 1 26.836 ? 9 E 1
+HETATM 57 C CH3 . ALY E E 9 ? 21.52532 -27.19015 2.1911 1 22.7486 ? 9 E 1
+HETATM 58 N NZ . ALY E E 9 ? 21.19106 -29.02146 0.54942 1 24.7887 ? 9 E 1
+HETATM 59 C CE . ALY E E 9 ? 20.91549 -30.37373 0.09255 1 27.4917 ? 9 E 1
+HETATM 60 C CD . ALY E E 9 ? 21.93152 -30.93814 -0.92209 1 23.879 ? 9 E 1
+HETATM 61 C CG . ALY E E 9 ? 21.72883 -32.44975 -1.08989 1 27.7446 ? 9 E 1
+HETATM 62 C CB . ALY E E 9 ? 22.57255 -33.05584 -2.18768 1 25.6423 ? 9 E 1
+HETATM 63 C CA . ALY E E 9 ? 24.086 -32.973 -1.86851 1 28.7626 ? 9 E 1
+HETATM 64 N N . ALY E E 9 ? 24.72479 -31.77208 -2.36224 1 26.6344 ? 9 E 1
+HETATM 65 C C . ALY E E 9 ? 24.75188 -34.21772 -2.45896 1 34.2045 ? 9 E 1
+HETATM 66 O O . ALY E E 9 ? 25.16542 -34.26574 -3.60592 1 31.4469 ? 9 E 1
+ATOM 67 N N . ALA E E 10 ? 24.86794 -35.25946 -1.63278 1 34.7425 ? 10 E 1
+ATOM 68 C CA . ALA E E 10 ? 25.50107 -36.51498 -2.061 1 41.0459 ? 10 E 1
+ATOM 69 C C . ALA E E 10 ? 24.71799 -37.22636 -3.17444 1 39.415 ? 10 E 1
+ATOM 70 O O . ALA E E 10 ? 23.49977 -37.06749 -3.30298 1 39.9466 ? 10 E 1
+ATOM 71 C CB . ALA E E 10 ? 25.6721 -37.45859 -0.86305 1 39.3095 ? 10 E 1
+ATOM 72 N N . ARG E E 11 ? 25.42619 -38.03063 -3.96486 1 41.5457 ? 11 E 1
+ATOM 73 C CA . ARG E E 11 ? 24.77507 -38.8743 -4.95829 1 43.4337 ? 11 E 1
+ATOM 74 C C . ARG E E 11 ? 23.62661 -39.66518 -4.33237 1 46.7724 ? 11 E 1
+ATOM 75 O O . ARG E E 11 ? 23.7402 -40.18109 -3.21438 1 45.1593 ? 11 E 1
+ATOM 76 C CB . ARG E E 11 ? 25.79965 -39.81928 -5.57498 1 46.3661 ? 11 E 1
+ATOM 77 C CG . ARG E E 11 ? 25.59709 -40.09296 -7.04177 1 50.6818 ? 11 E 1
+ATOM 78 C CD . ARG E E 11 ? 26.77675 -40.90435 -7.60421 1 47.078 ? 11 E 1
+ATOM 79 N NE . ARG E E 11 ? 27.75987 -40.07571 -8.30837 1 54.3435 ? 11 E 1
+ATOM 80 C CZ . ARG E E 11 ? 29.00513 -39.84635 -7.88732 1 55.0544 ? 11 E 1
+ATOM 81 N NH1 . ARG E E 11 ? 29.4367 -40.36784 -6.74096 1 56.9784 ? 11 E 1
+ATOM 82 N NH2 . ARG E E 11 ? 29.82139 -39.08137 -8.60626 1 50.1534 ? 11 E 1
+ATOM 83 N N . ALA E E 12 ? 22.50777 -39.73321 -5.05614 1 41.2066 ? 12 E 1
+ATOM 84 C CA . ALA E E 12 ? 21.28044 -40.36582 -4.57156 1 52.2452 ? 12 E 1
+ATOM 85 C C . ALA E E 12 ? 21.49743 -41.8192 -4.15155 1 55.9591 ? 12 E 1
+ATOM 86 O O . ALA E E 12 ? 21.74698 -42.67787 -4.99594 1 59.8038 ? 12 E 1
+ATOM 87 C CB . ALA E E 12 ? 20.19309 -40.29111 -5.64839 1 49.861 ? 12 E 1
+
+_struct.title '9KEM: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'

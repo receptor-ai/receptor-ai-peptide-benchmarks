@@ -1,0 +1,112 @@
+data_1UK4_D
+_entry.id '1UK4_D'
+
+_cell.entry_id '1UK4_D'
+_cell.length_a 52.633
+_cell.length_b 97.735
+_cell.length_c 67.931
+_cell.angle_alpha 90
+_cell.angle_beta 102.79
+_cell.angle_gamma 90
+
+_symmetry.entry_id '1UK4_D'
+_symmetry.space_group_name_H-M 'P 1 21 1'
+_symmetry.Int_Tables_number 4
+
+loop_
+_entity.id
+_entity.type
+P polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+P polypeptide(L) P ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+0QE .
+ASN .
+GLN .
+LEU .
+SER .
+THR .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+Pxp P
+
+
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . ASN Pxp P 1 ? 51.907 -37.732 36.774 1 97.76 ? 1 P 1
+ATOM 2 C CA . ASN Pxp P 1 ? 51.528 -37.109 38.076 1 98.36 ? 1 P 1
+ATOM 3 C C . ASN Pxp P 1 ? 51.766 -35.603 37.968 1 97.8 ? 1 P 1
+ATOM 4 O O . ASN Pxp P 1 ? 52.84 -35.118 38.332 1 98.97 ? 1 P 1
+ATOM 5 C CB . ASN Pxp P 1 ? 52.395 -37.66 39.218 1 99.11 ? 1 P 1
+ATOM 6 C CG . ASN Pxp P 1 ? 52.798 -39.116 39.017 1 99.91 ? 1 P 1
+ATOM 7 O OD1 . ASN Pxp P 1 ? 53.585 -39.661 39.793 1 96.19 ? 1 P 1
+ATOM 8 N ND2 . ASN Pxp P 1 ? 52.263 -39.75 37.978 1 102.59 ? 1 P 1
+ATOM 9 N N . SER Pxp P 2 ? 50.772 -34.872 37.464 1 95.21 ? 2 P 1
+ATOM 10 C CA . SER Pxp P 2 ? 50.884 -33.423 37.3 1 92.99 ? 2 P 1
+ATOM 11 C C . SER Pxp P 2 ? 51.652 -32.723 38.424 1 92.1 ? 2 P 1
+ATOM 12 O O . SER Pxp P 2 ? 51.309 -32.852 39.598 1 92.35 ? 2 P 1
+ATOM 13 C CB . SER Pxp P 2 ? 49.49 -32.811 37.137 1 89.78 ? 2 P 1
+ATOM 14 O OG . SER Pxp P 2 ? 48.555 -33.413 38.012 1 88.43 ? 2 P 1
+ATOM 15 N N . THR Pxp P 3 ? 52.699 -31.987 38.048 1 90.47 ? 3 P 1
+ATOM 16 C CA . THR Pxp P 3 ? 53.534 -31.27 39.01 1 86.95 ? 3 P 1
+ATOM 17 C C . THR Pxp P 3 ? 53.33 -29.754 38.946 1 84.86 ? 3 P 1
+ATOM 18 O O . THR Pxp P 3 ? 53.13 -29.192 37.872 1 82.75 ? 3 P 1
+ATOM 19 C CB . THR Pxp P 3 ? 55.028 -31.572 38.776 1 86.73 ? 3 P 1
+ATOM 20 O OG1 . THR Pxp P 3 ? 55.239 -32.988 38.797 1 84.58 ? 3 P 1
+ATOM 21 C CG2 . THR Pxp P 3 ? 55.876 -30.929 39.864 1 87.39 ? 3 P 1
+ATOM 22 N N . LEU Pxp P 4 ? 53.403 -29.098 40.102 1 83.05 ? 4 P 1
+ATOM 23 C CA . LEU Pxp P 4 ? 53.212 -27.651 40.189 1 82.32 ? 4 P 1
+ATOM 24 C C . LEU Pxp P 4 ? 54.482 -26.899 40.591 1 81.51 ? 4 P 1
+ATOM 25 O O . LEU Pxp P 4 ? 55.58 -27.459 40.568 1 80.89 ? 4 P 1
+ATOM 26 C CB . LEU Pxp P 4 ? 52.092 -27.344 41.187 1 80.21 ? 4 P 1
+ATOM 27 C CG . LEU Pxp P 4 ? 50.756 -28.022 40.869 1 80 ? 4 P 1
+ATOM 28 C CD1 . LEU Pxp P 4 ? 50.294 -28.802 42.076 1 77.42 ? 4 P 1
+ATOM 29 C CD2 . LEU Pxp P 4 ? 49.718 -26.987 40.465 1 76.29 ? 4 P 1
+ATOM 30 N N . GLN Pxp P 5 ? 54.288 -25.663 40.972 1 81.23 ? 5 P 1
+ATOM 31 C CA . GLN Pxp P 5 ? 55.257 -24.644 41.387 1 79.89 ? 5 P 1
+ATOM 32 C C . GLN Pxp P 5 ? 56.2 -24.262 40.254 1 80.1 ? 5 P 1
+ATOM 33 O O . GLN Pxp P 5 ? 57.023 -23.435 40.235 1 81.36 ? 5 P 1
+ATOM 34 C CB . GLN Pxp P 5 ? 56.085 -25.128 42.58 1 79.18 ? 5 P 1
+ATOM 35 C CG . GLN Pxp P 5 ? 55.289 -25.429 43.838 1 75.21 ? 5 P 1
+ATOM 36 C CD . GLN Pxp P 5 ? 56.158 -26.012 44.933 1 74.14 ? 5 P 1
+ATOM 37 O OE1 . GLN Pxp P 5 ? 57.263 -26.493 44.675 1 69.26 ? 5 P 1
+ATOM 38 N NE2 . GLN Pxp P 5 ? 55.658 -25.99 46.16 1 80.82 ? 5 P 1
+HETATM 39 C C1 . 0QE Pxp P 6 ? 54.925 -24.335 38.758 1 76.36 ? 6 P 1

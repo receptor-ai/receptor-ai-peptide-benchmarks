@@ -1,0 +1,2655 @@
+{
+ "built_utc": "2026-08-03T15:19:27Z",
+ "decisions": {
+  "altloc": {
+   "n_atoms_dropped": 518,
+   "n_residues_with_altloc": 131,
+   "rule": "one altloc per residue: highest mean occupancy over the residue's atoms, ties broken by first letter; retained atoms written with a blank altloc and their original occupancy"
+  },
+  "hetero": {
+   "components": [],
+   "n_dropped": 0,
+   "n_kept": 0,
+   "n_waters_dropped": 2080,
+   "peptide_covalent_moieties": [],
+   "rule": "drop water always; keep any component with a heavy atom within 5.0 A of the retained peptide (flagged additive_in_peptide_site when it is on the crystallisation additive list); keep components covalently or metal-bonded to a retained polymer per _struct_conn; keep curated cofactors within 6.0 A of a retained receptor chain; keep metal ions with >=2 protein donor atoms within 3.0 A; drop everything else and record it"
+  },
+  "hydrogens": {
+   "deposited_had_hydrogens": false,
+   "n_removed": 0,
+   "rule": "all H/D deleted from every output file"
+  },
+  "model": {
+   "extra_models_kept_as_peptide_only": [],
+   "n_models_deposited": 1,
+   "rule": "keep deposited model 1 only"
+  },
+  "peptide_copy": {
+   "chosen_auth_chain": "C",
+   "chosen_subchain": "C",
+   "copies": [
+    {
+     "auth_chain": "C",
+     "mean_b": 15.11,
+     "mean_occupancy": 1.0,
+     "min_occupancy": 1.0,
+     "n_heavy_atoms": 47,
+     "n_missing_backbone_atoms": 0,
+     "n_protein_contact_pairs_asu": 261,
+     "n_protein_contact_pairs_sym": 0,
+     "n_residues_modelled": 5,
+     "n_residues_seqres": 5,
+     "subchain": "C"
+    },
+    {
+     "auth_chain": "E",
+     "mean_b": 21.72,
+     "mean_occupancy": 1.0,
+     "min_occupancy": 1.0,
+     "n_heavy_atoms": 47,
+     "n_missing_backbone_atoms": 0,
+     "n_protein_contact_pairs_asu": 226,
+     "n_protein_contact_pairs_sym": 0,
+     "n_residues_modelled": 5,
+     "n_residues_seqres": 5,
+     "subchain": "E"
+    },
+    {
+     "auth_chain": "F",
+     "mean_b": 17.23,
+     "mean_occupancy": 1.0,
+     "min_occupancy": 1.0,
+     "n_heavy_atoms": 47,
+     "n_missing_backbone_atoms": 0,
+     "n_protein_contact_pairs_asu": 224,
+     "n_protein_contact_pairs_sym": 0,
+     "n_residues_modelled": 5,
+     "n_residues_seqres": 5,
+     "subchain": "F"
+    },
+    {
+     "auth_chain": "H",
+     "mean_b": 22.19,
+     "mean_occupancy": 1.0,
+     "min_occupancy": 1.0,
+     "n_heavy_atoms": 47,
+     "n_missing_backbone_atoms": 0,
+     "n_protein_contact_pairs_asu": 202,
+     "n_protein_contact_pairs_sym": 0,
+     "n_residues_modelled": 5,
+     "n_residues_seqres": 5,
+     "subchain": "H"
+    },
+    {
+     "auth_chain": "J",
+     "mean_b": 19.56,
+     "mean_occupancy": 1.0,
+     "min_occupancy": 1.0,
+     "n_heavy_atoms": 47,
+     "n_missing_backbone_atoms": 0,
+     "n_protein_contact_pairs_asu": 217,
+     "n_protein_contact_pairs_sym": 0,
+     "n_residues_modelled": 5,
+     "n_residues_seqres": 5,
+     "subchain": "J"
+    },
+    {
+     "auth_chain": "L",
+     "mean_b": 25.36,
+     "mean_occupancy": 1.0,
+     "min_occupancy": 1.0,
+     "n_heavy_atoms": 47,
+     "n_missing_backbone_atoms": 0,
+     "n_protein_contact_pairs_asu": 215,
+     "n_protein_contact_pairs_sym": 0,
+     "n_residues_modelled": 5,
+     "n_residues_seqres": 5,
+     "subchain": "L"
+    },
+    {
+     "auth_chain": "N",
+     "mean_b": 27.67,
+     "mean_occupancy": 1.0,
+     "min_occupancy": 1.0,
+     "n_heavy_atoms": 47,
+     "n_missing_backbone_atoms": 0,
+     "n_protein_contact_pairs_asu": 203,
+     "n_protein_contact_pairs_sym": 0,
+     "n_residues_modelled": 5,
+     "n_residues_seqres": 5,
+     "subchain": "N"
+    },
+    {
+     "auth_chain": "P",
+     "mean_b": 29.84,
+     "mean_occupancy": 1.0,
+     "min_occupancy": 1.0,
+     "n_heavy_atoms": 47,
+     "n_missing_backbone_atoms": 0,
+     "n_protein_contact_pairs_asu": 216,
+     "n_protein_contact_pairs_sym": 0,
+     "n_residues_modelled": 5,
+     "n_residues_seqres": 5,
+     "subchain": "P"
+    },
+    {
+     "auth_chain": "R",
+     "mean_b": 17.72,
+     "mean_occupancy": 1.0,
+     "min_occupancy": 1.0,
+     "n_heavy_atoms": 47,
+     "n_missing_backbone_atoms": 0,
+     "n_protein_contact_pairs_asu": 258,
+     "n_protein_contact_pairs_sym": 0,
+     "n_residues_modelled": 5,
+     "n_residues_seqres": 5,
+     "subchain": "R"
+    },
+    {
+     "auth_chain": "T",
+     "mean_b": 20.61,
+     "mean_occupancy": 0.9362,
+     "min_occupancy": 0.5,
+     "n_heavy_atoms": 47,
+     "n_missing_backbone_atoms": 0,
+     "n_protein_contact_pairs_asu": 232,
+     "n_protein_contact_pairs_sym": 0,
+     "n_residues_modelled": 5,
+     "n_residues_seqres": 5,
+     "subchain": "T"
+    },
+    {
+     "auth_chain": "V",
+     "mean_b": 26.9,
+     "mean_occupancy": 1.0,
+     "min_occupancy": 1.0,
+     "n_heavy_atoms": 47,
+     "n_missing_backbone_atoms": 0,
+     "n_protein_contact_pairs_asu": 214,
+     "n_protein_contact_pairs_sym": 0,
+     "n_residues_modelled": 5,
+     "n_residues_seqres": 5,
+     "subchain": "V"
+    },
+    {
+     "auth_chain": "X",
+     "mean_b": 20.23,
+     "mean_occupancy": 1.0,
+     "min_occupancy": 1.0,
+     "n_heavy_atoms": 47,
+     "n_missing_backbone_atoms": 0,
+     "n_protein_contact_pairs_asu": 219,
+     "n_protein_contact_pairs_sym": 0,
+     "n_residues_modelled": 5,
+     "n_residues_seqres": 5,
+     "subchain": "W"
+    }
+   ],
+   "decided_at_step": "lowest_mean_b",
+   "n_copies_in_asu": 12,
+   "per_copy_protein_contacts": {
+    "C": {
+     "A": {
+      "min_dist_asu": 2.664,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 16,
+      "n_pairs_asu": 185,
+      "n_pairs_symmetry": 0
+     },
+     "B": {
+      "min_dist_asu": 3.295,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 1,
+      "n_pairs_asu": 36,
+      "n_pairs_symmetry": 0
+     },
+     "D": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "G": {
+      "min_dist_asu": 3.674,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 1,
+      "n_pairs_asu": 5,
+      "n_pairs_symmetry": 0
+     },
+     "I": {
+      "min_dist_asu": 3.438,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 4,
+      "n_pairs_asu": 35,
+      "n_pairs_symmetry": 0
+     },
+     "K": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "M": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "O": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "Q": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "S": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "U": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "X": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     }
+    },
+    "E": {
+     "A": {
+      "min_dist_asu": 3.605,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 1,
+      "n_pairs_asu": 29,
+      "n_pairs_symmetry": 0
+     },
+     "B": {
+      "min_dist_asu": 2.701,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 17,
+      "n_pairs_asu": 197,
+      "n_pairs_symmetry": 0
+     },
+     "D": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "G": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "I": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "K": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "M": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "O": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "Q": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "S": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "U": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "X": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     }
+    },
+    "F": {
+     "A": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "B": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "D": {
+      "min_dist_asu": 2.728,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 18,
+      "n_pairs_asu": 189,
+      "n_pairs_symmetry": 0
+     },
+     "G": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "I": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "K": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "M": {
+      "min_dist_asu": 3.36,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 1,
+      "n_pairs_asu": 35,
+      "n_pairs_symmetry": 0
+     },
+     "O": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "Q": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "S": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "U": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "X": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     }
+    },
+    "H": {
+     "A": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "B": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "D": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "G": {
+      "min_dist_asu": 2.741,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 15,
+      "n_pairs_asu": 175,
+      "n_pairs_symmetry": 0
+     },
+     "I": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "K": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "M": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "O": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "Q": {
+      "min_dist_asu": 3.57,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 1,
+      "n_pairs_asu": 27,
+      "n_pairs_symmetry": 0
+     },
+     "S": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "U": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "X": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     }
+    },
+    "J": {
+     "A": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "B": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "D": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "G": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "I": {
+      "min_dist_asu": 2.731,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 18,
+      "n_pairs_asu": 186,
+      "n_pairs_symmetry": 0
+     },
+     "K": {
+      "min_dist_asu": 3.624,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 1,
+      "n_pairs_asu": 31,
+      "n_pairs_symmetry": 0
+     },
+     "M": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "O": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "Q": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "S": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "U": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "X": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     }
+    },
+    "L": {
+     "A": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "B": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "D": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "G": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "I": {
+      "min_dist_asu": 3.592,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 1,
+      "n_pairs_asu": 31,
+      "n_pairs_symmetry": 0
+     },
+     "K": {
+      "min_dist_asu": 2.716,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 16,
+      "n_pairs_asu": 184,
+      "n_pairs_symmetry": 0
+     },
+     "M": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "O": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "Q": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "S": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "U": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "X": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     }
+    },
+    "N": {
+     "A": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "B": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "D": {
+      "min_dist_asu": 3.529,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 1,
+      "n_pairs_asu": 31,
+      "n_pairs_symmetry": 0
+     },
+     "G": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "I": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "K": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "M": {
+      "min_dist_asu": 2.657,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 16,
+      "n_pairs_asu": 172,
+      "n_pairs_symmetry": 0
+     },
+     "O": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "Q": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "S": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "U": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "X": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     }
+    },
+    "P": {
+     "A": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "B": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "D": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "G": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "I": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "K": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "M": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "O": {
+      "min_dist_asu": 2.684,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 17,
+      "n_pairs_asu": 181,
+      "n_pairs_symmetry": 0
+     },
+     "Q": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "S": {
+      "min_dist_asu": 3.517,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 1,
+      "n_pairs_asu": 35,
+      "n_pairs_symmetry": 0
+     },
+     "U": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "X": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     }
+    },
+    "R": {
+     "A": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "B": {
+      "min_dist_asu": 3.482,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 1,
+      "n_pairs_asu": 5,
+      "n_pairs_symmetry": 0
+     },
+     "D": {
+      "min_dist_asu": 3.506,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 4,
+      "n_pairs_asu": 38,
+      "n_pairs_symmetry": 0
+     },
+     "G": {
+      "min_dist_asu": 3.605,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 1,
+      "n_pairs_asu": 32,
+      "n_pairs_symmetry": 0
+     },
+     "I": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "K": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "M": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "O": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "Q": {
+      "min_dist_asu": 2.654,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 18,
+      "n_pairs_asu": 183,
+      "n_pairs_symmetry": 0
+     },
+     "S": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "U": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "X": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     }
+    },
+    "T": {
+     "A": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "B": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "D": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "G": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "I": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "K": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "M": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "O": {
+      "min_dist_asu": 3.493,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 1,
+      "n_pairs_asu": 32,
+      "n_pairs_symmetry": 0
+     },
+     "Q": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "S": {
+      "min_dist_asu": 2.689,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 18,
+      "n_pairs_asu": 200,
+      "n_pairs_symmetry": 0
+     },
+     "U": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "X": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     }
+    },
+    "V": {
+     "A": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "B": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "D": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "G": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "I": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "K": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "M": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "O": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "Q": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "S": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "U": {
+      "min_dist_asu": 2.75,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 17,
+      "n_pairs_asu": 177,
+      "n_pairs_symmetry": 0
+     },
+     "X": {
+      "min_dist_asu": 3.235,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 1,
+      "n_pairs_asu": 37,
+      "n_pairs_symmetry": 0
+     }
+    },
+    "W": {
+     "A": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "B": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "D": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "G": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "I": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "K": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "M": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "O": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "Q": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "S": {
+      "min_dist_asu": null,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 0,
+      "n_pairs_asu": 0,
+      "n_pairs_symmetry": 0
+     },
+     "U": {
+      "min_dist_asu": 3.602,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 1,
+      "n_pairs_asu": 28,
+      "n_pairs_symmetry": 0
+     },
+     "X": {
+      "min_dist_asu": 2.717,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 18,
+      "n_pairs_asu": 191,
+      "n_pairs_symmetry": 0
+     }
+    }
+   },
+   "rule": "(0) must contact a protein chain in the deposited asymmetric unit; then (1) most modelled residues, (2) most modelled heavy atoms, (3) highest mean occupancy, (4) lowest mean B, (5) lowest label_asym_id"
+  },
+  "receptor_chains": {
+   "chains": [
+    {
+     "auth_chain": "A",
+     "bsa_A2": 866.7,
+     "entity_id": "1",
+     "kept": true,
+     "min_dist_A": 2.664,
+     "n_contact_residues": 16,
+     "n_pairs_asu": 185,
+     "n_pairs_symmetry": 0,
+     "n_residues": 122,
+     "reason": "primary_interface_largest_bsa",
+     "subchain": "A"
+    },
+    {
+     "auth_chain": "B",
+     "bsa_A2": 211.2,
+     "entity_id": "1",
+     "kept": true,
+     "min_dist_A": 3.295,
+     "n_contact_residues": 1,
+     "n_pairs_asu": 36,
+     "n_pairs_symmetry": 0,
+     "n_residues": 123,
+     "reason": "secondary_interface_bsa_211_pairs_36",
+     "subchain": "B"
+    },
+    {
+     "auth_chain": "D",
+     "bsa_A2": null,
+     "entity_id": "1",
+     "kept": false,
+     "min_dist_A": null,
+     "n_contact_residues": 0,
+     "n_pairs_asu": 0,
+     "n_pairs_symmetry": 0,
+     "n_residues": 122,
+     "reason": "no_contact_with_retained_peptide",
+     "subchain": "D"
+    },
+    {
+     "auth_chain": "G",
+     "bsa_A2": 76.2,
+     "entity_id": "1",
+     "kept": true,
+     "min_dist_A": 3.674,
+     "n_contact_residues": 1,
+     "n_pairs_asu": 5,
+     "n_pairs_symmetry": 0,
+     "n_residues": 121,
+     "reason": "secondary_interface_bsa_76_pairs_5",
+     "subchain": "G"
+    },
+    {
+     "auth_chain": "I",
+     "bsa_A2": 267.0,
+     "entity_id": "1",
+     "kept": true,
+     "min_dist_A": 3.438,
+     "n_contact_residues": 4,
+     "n_pairs_asu": 35,
+     "n_pairs_symmetry": 0,
+     "n_residues": 120,
+     "reason": "secondary_interface_bsa_267_pairs_35",
+     "subchain": "I"
+    },
+    {
+     "auth_chain": "K",
+     "bsa_A2": null,
+     "entity_id": "1",
+     "kept": false,
+     "min_dist_A": null,
+     "n_contact_residues": 0,
+     "n_pairs_asu": 0,
+     "n_pairs_symmetry": 0,
+     "n_residues": 120,
+     "reason": "no_contact_with_retained_peptide",
+     "subchain": "K"
+    },
+    {
+     "auth_chain": "M",
+     "bsa_A2": null,
+     "entity_id": "1",
+     "kept": false,
+     "min_dist_A": null,
+     "n_contact_residues": 0,
+     "n_pairs_asu": 0,
+     "n_pairs_symmetry": 0,
+     "n_residues": 120,
+     "reason": "no_contact_with_retained_peptide",
+     "subchain": "M"
+    },
+    {
+     "auth_chain": "O",
+     "bsa_A2": null,
+     "entity_id": "1",
+     "kept": false,
+     "min_dist_A": null,
+     "n_contact_residues": 0,
+     "n_pairs_asu": 0,
+     "n_pairs_symmetry": 0,
+     "n_residues": 120,
+     "reason": "no_contact_with_retained_peptide",
+     "subchain": "O"
+    },
+    {
+     "auth_chain": "Q",
+     "bsa_A2": null,
+     "entity_id": "1",
+     "kept": false,
+     "min_dist_A": null,
+     "n_contact_residues": 0,
+     "n_pairs_asu": 0,
+     "n_pairs_symmetry": 0,
+     "n_residues": 120,
+     "reason": "no_contact_with_retained_peptide",
+     "subchain": "Q"
+    },
+    {
+     "auth_chain": "S",
+     "bsa_A2": null,
+     "entity_id": "1",
+     "kept": false,
+     "min_dist_A": null,
+     "n_contact_residues": 0,
+     "n_pairs_asu": 0,
+     "n_pairs_symmetry": 0,
+     "n_residues": 121,
+     "reason": "no_contact_with_retained_peptide",
+     "subchain": "S"
+    },
+    {
+     "auth_chain": "U",
+     "bsa_A2": null,
+     "entity_id": "1",
+     "kept": false,
+     "min_dist_A": null,
+     "n_contact_residues": 0,
+     "n_pairs_asu": 0,
+     "n_pairs_symmetry": 0,
+     "n_residues": 122,
+     "reason": "no_contact_with_retained_peptide",
+     "subchain": "U"
+    },
+    {
+     "auth_chain": "Y",
+     "bsa_A2": null,
+     "entity_id": "1",
+     "kept": false,
+     "min_dist_A": null,
+     "n_contact_residues": 0,
+     "n_pairs_asu": 0,
+     "n_pairs_symmetry": 0,
+     "n_residues": 120,
+     "reason": "no_contact_with_retained_peptide",
+     "subchain": "X"
+    }
+   ],
+   "contact_cutoff_A": 4.5,
+   "n_kept": 4,
+   "nucleic_contacts": [],
+   "rcsb_interface_crosscheck": {
+    "agrees": false,
+    "annotated_but_not_kept": [],
+    "annotated_partners_of_peptide": {
+     "A": 439.90188781651887,
+     "B": 110.84580633988719
+    },
+    "available": true,
+    "kept_but_not_annotated": [
+     "G",
+     "I"
+    ],
+    "kept_by_distance": [
+     "A",
+     "B",
+     "G",
+     "I"
+    ],
+    "n_interfaces_in_annotation": 42
+   },
+   "rule": "keep every protein chain with >=1 heavy-atom pair within 4.5 A of the retained peptide; the largest-BSA chain is always kept, further chains are kept when BSA >= 40 A^2 or contact pairs >= 5; non-contacting protein chains are dropped and recorded"
+  }
+ },
+ "flags": [
+  "multi_chain_receptor_4",
+  "unannotated_covalent_link_N-C"
+ ],
+ "frozen_row": {
+  "cell": "linear_modified",
+  "is_cyclic": "0",
+  "n_models": "1",
+  "peptide_caps": "-",
+  "peptide_entity": "5N99_2",
+  "peptide_len_seqres": "5",
+  "peptide_n_chains": "12",
+  "peptide_ncaa": "DPR",
+  "peptide_seq_raw": "NQ(DPR)WQ",
+  "receptor_desc": "Streptavidin",
+  "receptor_uniprot": "P22629",
+  "resolution_A": "1.5",
+  "space_group": "P 21 21 21",
+  "topology_labels": "adjacent_residue_nonstandard_link"
+ },
+ "not_computed": {},
+ "pdb_id": "5N99",
+ "provenance": {
+  "coordinates": {
+   "bytes": 648288,
+   "status": "ok",
+   "url": "https://files.rcsb.org/download/5N99.cif.gz"
+  },
+  "deposited": {
+   "cell": [
+    67.744,
+    115.315,
+    210.369,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "has_anisotropic_u": true,
+   "n_models": 1,
+   "n_struct_conn": 24,
+   "resolution_A_from_cif": 1.5,
+   "spacegroup": "P 21 21 21"
+  },
+  "entity_poly_seq_entities": [
+   "1",
+   "2"
+  ],
+  "entry_metadata": {
+   "status": "ok"
+  },
+  "outputs": {
+   "complex.cif": {
+    "bytes": 251549,
+    "file": "complex.cif",
+    "n_chains": 5,
+    "n_struct_conn": 2,
+    "subchains_kept": [
+     "C",
+     "A",
+     "B",
+     "G",
+     "I"
+    ]
+   },
+   "peptide.cif": {
+    "bytes": 5003,
+    "file": "peptide.cif",
+    "n_chains": 1,
+    "n_struct_conn": 2,
+    "subchains_kept": [
+     "C"
+    ]
+   },
+   "receptor.cif": {
+    "bytes": 247533,
+    "file": "receptor.cif",
+    "n_chains": 4,
+    "n_struct_conn": 0,
+    "subchains_kept": [
+     "A",
+     "B",
+     "G",
+     "I"
+    ]
+   }
+  },
+  "validation_report": {
+   "bytes": 96202,
+   "status": "ok"
+  }
+ },
+ "qc": {
+  "altloc": {
+   "branch_rmsd": null,
+   "n_peptide_residues_with_altloc": 0,
+   "n_receptor_or_other_residues_with_altloc": 131,
+   "peptide_backbone_altloc_present": false,
+   "peptide_residues": []
+  },
+  "atom_counts": {
+   "hetero_heavy": 0,
+   "peptide_heavy": 47,
+   "receptor_heavy": 3626,
+   "total_heavy": 3673
+  },
+  "bfactors": {
+   "b_factor_type_from_validation": "FULL",
+   "note": "the ratio is the primary figure: absolute B scales with resolution and refinement protocol, the ratio does not",
+   "peptide_max_b": 34.95,
+   "peptide_mean_b": 15.11,
+   "peptide_median_b": 14.14,
+   "peptide_over_receptor_b_ratio": 0.771,
+   "receptor_mean_b": 19.59
+  },
+  "clashes": {
+   "all_at_graph_distance_4": 2,
+   "all_between_residues": 2,
+   "all_excluding_graph_distance_4": 0,
+   "all_per_1000_retained_atoms": 0.54,
+   "all_retained_atoms": 2,
+   "all_retained_atoms_hbond_excluded": 2,
+   "all_same_residue": 0,
+   "convention": "van der Waals overlap greater than 0.4 A between non-bonded heavy atoms (MolProbity convention and MolProbity radii). Pairs at bond-graph distance 1, 2 or 3 are excluded - 1-4 exclusion is mandatory without hydrogens because the para pair of every aromatic ring sits at 2.70-2.78 A. The bond graph is CCD bonds + polymer C(i)-N(i+1) + _struct_conn + distance-inferred links, so a macrocycle closure or a staple never registers as a clash. Metals are excluded entirely. Hydrogens are absent, so these counts are NOT on the same scale as the deposited clashscore.",
+   "intra_peptide": 1,
+   "intra_peptide_between_residues": 1,
+   "intra_peptide_excluding_graph_distance_4": 0,
+   "intra_peptide_hbond_excluded": 1,
+   "intra_peptide_per_1000_peptide_atoms": 21.28,
+   "intra_peptide_same_residue": 0,
+   "peptide_hetero": 0,
+   "peptide_hetero_hbond_excluded": 0,
+   "peptide_receptor": 0,
+   "peptide_receptor_excluding_graph_distance_4": 0,
+   "peptide_receptor_hbond_excluded": 0,
+   "peptide_receptor_nucleophile_like": 0,
+   "peptide_receptor_per_1000_peptide_atoms": 0.0,
+   "vdw_radii": {
+    "AS": 1.85,
+    "B": 1.8,
+    "BR": 1.85,
+    "C": 1.75,
+    "CL": 1.75,
+    "F": 1.3,
+    "I": 1.98,
+    "N": 1.55,
+    "O": 1.4,
+    "P": 1.8,
+    "S": 1.8,
+    "SE": 1.9,
+    "SI": 2.1
+   },
+   "worst_overlap_A": 0.424,
+   "worst_pairs": [
+    {
+     "atom1": "C/ASN1/C",
+     "atom2": "C/GLN5/O",
+     "dist": 2.726,
+     "graph_distance_4": true,
+     "group_i": 0,
+     "group_j": 0,
+     "i": 2,
+     "j": 41,
+     "nucleophile_like_short_contact": false,
+     "overlap": 0.424,
+     "potential_hbond": false,
+     "same_residue": false
+    },
+    {
+     "atom1": "G/ALA86/O",
+     "atom2": "G/HIS87/C",
+     "dist": 2.741,
+     "graph_distance_4": true,
+     "group_i": 1,
+     "group_j": 1,
+     "i": 2407,
+     "j": 2411,
+     "nucleophile_like_short_contact": false,
+     "overlap": 0.409,
+     "potential_hbond": false,
+     "same_residue": false
+    }
+   ]
+  },
+  "completeness": {
+   "components_without_ccd": [],
+   "effective_length": 5,
+   "n_missing_backbone_atoms": 0,
+   "n_missing_sidechain_atoms": 0,
+   "n_residues_observed": 5,
+   "n_residues_seqres": 5,
+   "n_residues_unmodelled": 0,
+   "n_sidechain_atoms_expected": 27,
+   "residues_with_missing_atoms": [],
+   "sidechain_completeness": 1.0,
+   "unmodelled_label_seq_ids": []
+  },
+  "copy_rmsd": {
+   "allheavy_superposed_max_A": 0.808,
+   "backbone_superposed_max_A": 0.066,
+   "backbone_superposed_mean_A": 0.043,
+   "backbone_superposed_min_A": 0.023,
+   "copies_collapse_to_one_conformation_at_1.0A": true,
+   "n_copies": 12,
+   "note": "superposed = Kabsch on the common atoms; in_place = no superposition",
+   "pairs": [
+    {
+     "allheavy_rmsd_in_place_A": 26.08,
+     "allheavy_rmsd_superposed_A": 0.602,
+     "backbone_rmsd_in_place_A": 26.072,
+     "backbone_rmsd_superposed_A": 0.045,
+     "copy_i": "C",
+     "copy_j": "E",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 37.771,
+     "allheavy_rmsd_superposed_A": 0.06,
+     "backbone_rmsd_in_place_A": 35.719,
+     "backbone_rmsd_superposed_A": 0.026,
+     "copy_i": "C",
+     "copy_j": "F",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 28.759,
+     "allheavy_rmsd_superposed_A": 0.537,
+     "backbone_rmsd_in_place_A": 29.467,
+     "backbone_rmsd_superposed_A": 0.045,
+     "copy_i": "C",
+     "copy_j": "H",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 39.019,
+     "allheavy_rmsd_superposed_A": 0.466,
+     "backbone_rmsd_in_place_A": 38.647,
+     "backbone_rmsd_superposed_A": 0.042,
+     "copy_i": "C",
+     "copy_j": "J",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 48.392,
+     "allheavy_rmsd_superposed_A": 0.514,
+     "backbone_rmsd_in_place_A": 48.291,
+     "backbone_rmsd_superposed_A": 0.053,
+     "copy_i": "C",
+     "copy_j": "L",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 34.802,
+     "allheavy_rmsd_superposed_A": 0.516,
+     "backbone_rmsd_in_place_A": 32.863,
+     "backbone_rmsd_superposed_A": 0.059,
+     "copy_i": "C",
+     "copy_j": "N",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 85.984,
+     "allheavy_rmsd_superposed_A": 0.446,
+     "backbone_rmsd_in_place_A": 86.045,
+     "backbone_rmsd_superposed_A": 0.048,
+     "copy_i": "C",
+     "copy_j": "P",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 23.262,
+     "allheavy_rmsd_superposed_A": 0.426,
+     "backbone_rmsd_in_place_A": 21.928,
+     "backbone_rmsd_superposed_A": 0.034,
+     "copy_i": "C",
+     "copy_j": "R",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 63.398,
+     "allheavy_rmsd_superposed_A": 0.798,
+     "backbone_rmsd_in_place_A": 63.275,
+     "backbone_rmsd_superposed_A": 0.045,
+     "copy_i": "C",
+     "copy_j": "T",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 63.364,
+     "allheavy_rmsd_superposed_A": 0.127,
+     "backbone_rmsd_in_place_A": 63.11,
+     "backbone_rmsd_superposed_A": 0.049,
+     "copy_i": "C",
+     "copy_j": "V",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 79.52,
+     "allheavy_rmsd_superposed_A": 0.51,
+     "backbone_rmsd_in_place_A": 79.027,
+     "backbone_rmsd_superposed_A": 0.031,
+     "copy_i": "C",
+     "copy_j": "W",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 34.704,
+     "allheavy_rmsd_superposed_A": 0.616,
+     "backbone_rmsd_in_place_A": 32.761,
+     "backbone_rmsd_superposed_A": 0.041,
+     "copy_i": "E",
+     "copy_j": "F",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 19.559,
+     "allheavy_rmsd_superposed_A": 0.479,
+     "backbone_rmsd_in_place_A": 19.882,
+     "backbone_rmsd_superposed_A": 0.037,
+     "copy_i": "E",
+     "copy_j": "H",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 48.463,
+     "allheavy_rmsd_superposed_A": 0.482,
+     "backbone_rmsd_in_place_A": 48.438,
+     "backbone_rmsd_superposed_A": 0.032,
+     "copy_i": "E",
+     "copy_j": "J",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 51.282,
+     "allheavy_rmsd_superposed_A": 0.48,
+     "backbone_rmsd_in_place_A": 51.422,
+     "backbone_rmsd_superposed_A": 0.038,
+     "copy_i": "E",
+     "copy_j": "L",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 37.511,
+     "allheavy_rmsd_superposed_A": 0.482,
+     "backbone_rmsd_in_place_A": 35.449,
+     "backbone_rmsd_superposed_A": 0.049,
+     "copy_i": "E",
+     "copy_j": "N",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 67.95,
+     "allheavy_rmsd_superposed_A": 0.49,
+     "backbone_rmsd_in_place_A": 68.115,
+     "backbone_rmsd_superposed_A": 0.039,
+     "copy_i": "E",
+     "copy_j": "P",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 29.027,
+     "allheavy_rmsd_superposed_A": 0.517,
+     "backbone_rmsd_in_place_A": 29.705,
+     "backbone_rmsd_superposed_A": 0.046,
+     "copy_i": "E",
+     "copy_j": "R",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 50.569,
+     "allheavy_rmsd_superposed_A": 0.564,
+     "backbone_rmsd_in_place_A": 50.609,
+     "backbone_rmsd_superposed_A": 0.049,
+     "copy_i": "E",
+     "copy_j": "T",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 42.673,
+     "allheavy_rmsd_superposed_A": 0.597,
+     "backbone_rmsd_in_place_A": 41.971,
+     "backbone_rmsd_superposed_A": 0.045,
+     "copy_i": "E",
+     "copy_j": "V",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 63.351,
+     "allheavy_rmsd_superposed_A": 0.18,
+     "backbone_rmsd_in_place_A": 63.084,
+     "backbone_rmsd_superposed_A": 0.045,
+     "copy_i": "E",
+     "copy_j": "W",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 48.301,
+     "allheavy_rmsd_superposed_A": 0.549,
+     "backbone_rmsd_in_place_A": 48.182,
+     "backbone_rmsd_superposed_A": 0.039,
+     "copy_i": "F",
+     "copy_j": "H",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 72.541,
+     "allheavy_rmsd_superposed_A": 0.474,
+     "backbone_rmsd_in_place_A": 70.379,
+     "backbone_rmsd_superposed_A": 0.036,
+     "copy_i": "F",
+     "copy_j": "J",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 72.028,
+     "allheavy_rmsd_superposed_A": 0.524,
+     "backbone_rmsd_in_place_A": 69.929,
+     "backbone_rmsd_superposed_A": 0.044,
+     "copy_i": "F",
+     "copy_j": "L",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 26.024,
+     "allheavy_rmsd_superposed_A": 0.525,
+     "backbone_rmsd_in_place_A": 25.984,
+     "backbone_rmsd_superposed_A": 0.054,
+     "copy_i": "F",
+     "copy_j": "N",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 83.315,
+     "allheavy_rmsd_superposed_A": 0.449,
+     "backbone_rmsd_in_place_A": 81.882,
+     "backbone_rmsd_superposed_A": 0.043,
+     "copy_i": "F",
+     "copy_j": "P",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 38.94,
+     "allheavy_rmsd_superposed_A": 0.43,
+     "backbone_rmsd_in_place_A": 38.613,
+     "backbone_rmsd_superposed_A": 0.031,
+     "copy_i": "F",
+     "copy_j": "R",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 67.095,
+     "allheavy_rmsd_superposed_A": 0.808,
+     "backbone_rmsd_in_place_A": 65.078,
+     "backbone_rmsd_superposed_A": 0.041,
+     "copy_i": "F",
+     "copy_j": "T",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 50.449,
+     "allheavy_rmsd_superposed_A": 0.128,
+     "backbone_rmsd_in_place_A": 50.249,
+     "backbone_rmsd_superposed_A": 0.045,
+     "copy_i": "F",
+     "copy_j": "V",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 63.013,
+     "allheavy_rmsd_superposed_A": 0.526,
+     "backbone_rmsd_in_place_A": 62.756,
+     "backbone_rmsd_superposed_A": 0.03,
+     "copy_i": "F",
+     "copy_j": "W",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 34.783,
+     "allheavy_rmsd_superposed_A": 0.167,
+     "backbone_rmsd_in_place_A": 32.841,
+     "backbone_rmsd_superposed_A": 0.034,
+     "copy_i": "H",
+     "copy_j": "J",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 37.549,
+     "allheavy_rmsd_superposed_A": 0.113,
+     "backbone_rmsd_in_place_A": 35.483,
+     "backbone_rmsd_superposed_A": 0.031,
+     "copy_i": "H",
+     "copy_j": "L",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 51.217,
+     "allheavy_rmsd_superposed_A": 0.106,
+     "backbone_rmsd_in_place_A": 51.302,
+     "backbone_rmsd_superposed_A": 0.044,
+     "copy_i": "H",
+     "copy_j": "N",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 64.348,
+     "allheavy_rmsd_superposed_A": 0.201,
+     "backbone_rmsd_in_place_A": 63.41,
+     "backbone_rmsd_superposed_A": 0.042,
+     "copy_i": "H",
+     "copy_j": "P",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 26.134,
+     "allheavy_rmsd_superposed_A": 0.231,
+     "backbone_rmsd_in_place_A": 25.997,
+     "backbone_rmsd_superposed_A": 0.036,
+     "copy_i": "H",
+     "copy_j": "R",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 44.28,
+     "allheavy_rmsd_superposed_A": 0.601,
+     "backbone_rmsd_in_place_A": 43.073,
+     "backbone_rmsd_superposed_A": 0.062,
+     "copy_i": "H",
+     "copy_j": "T",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 47.03,
+     "allheavy_rmsd_superposed_A": 0.54,
+     "backbone_rmsd_in_place_A": 46.65,
+     "backbone_rmsd_superposed_A": 0.052,
+     "copy_i": "H",
+     "copy_j": "V",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 66.22,
+     "allheavy_rmsd_superposed_A": 0.488,
+     "backbone_rmsd_in_place_A": 65.803,
+     "backbone_rmsd_superposed_A": 0.041,
+     "copy_i": "H",
+     "copy_j": "W",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 25.997,
+     "allheavy_rmsd_superposed_A": 0.144,
+     "backbone_rmsd_in_place_A": 25.995,
+     "backbone_rmsd_superposed_A": 0.037,
+     "copy_i": "J",
+     "copy_j": "L",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 72.24,
+     "allheavy_rmsd_superposed_A": 0.113,
+     "backbone_rmsd_in_place_A": 70.148,
+     "backbone_rmsd_superposed_A": 0.037,
+     "copy_i": "J",
+     "copy_j": "N",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 83.112,
+     "allheavy_rmsd_superposed_A": 0.196,
+     "backbone_rmsd_in_place_A": 83.443,
+     "backbone_rmsd_superposed_A": 0.035,
+     "copy_i": "J",
+     "copy_j": "P",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 37.599,
+     "allheavy_rmsd_superposed_A": 0.218,
+     "backbone_rmsd_in_place_A": 35.498,
+     "backbone_rmsd_superposed_A": 0.031,
+     "copy_i": "J",
+     "copy_j": "R",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 59.741,
+     "allheavy_rmsd_superposed_A": 0.654,
+     "backbone_rmsd_in_place_A": 59.795,
+     "backbone_rmsd_superposed_A": 0.047,
+     "copy_i": "J",
+     "copy_j": "T",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 76.874,
+     "allheavy_rmsd_superposed_A": 0.467,
+     "backbone_rmsd_in_place_A": 75.744,
+     "backbone_rmsd_superposed_A": 0.042,
+     "copy_i": "J",
+     "copy_j": "V",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 90.492,
+     "allheavy_rmsd_superposed_A": 0.479,
+     "backbone_rmsd_in_place_A": 89.487,
+     "backbone_rmsd_superposed_A": 0.033,
+     "copy_i": "J",
+     "copy_j": "W",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 79.63,
+     "allheavy_rmsd_superposed_A": 0.1,
+     "backbone_rmsd_in_place_A": 78.429,
+     "backbone_rmsd_superposed_A": 0.032,
+     "copy_i": "L",
+     "copy_j": "N",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 64.698,
+     "allheavy_rmsd_superposed_A": 0.166,
+     "backbone_rmsd_in_place_A": 64.195,
+     "backbone_rmsd_superposed_A": 0.035,
+     "copy_i": "L",
+     "copy_j": "P",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 34.782,
+     "allheavy_rmsd_superposed_A": 0.237,
+     "backbone_rmsd_in_place_A": 32.878,
+     "backbone_rmsd_superposed_A": 0.048,
+     "copy_i": "L",
+     "copy_j": "R",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 41.29,
+     "allheavy_rmsd_superposed_A": 0.598,
+     "backbone_rmsd_in_place_A": 39.872,
+     "backbone_rmsd_superposed_A": 0.063,
+     "copy_i": "L",
+     "copy_j": "T",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 65.37,
+     "allheavy_rmsd_superposed_A": 0.508,
+     "backbone_rmsd_in_place_A": 63.662,
+     "backbone_rmsd_superposed_A": 0.044,
+     "copy_i": "L",
+     "copy_j": "V",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 73.637,
+     "allheavy_rmsd_superposed_A": 0.492,
+     "backbone_rmsd_in_place_A": 71.55,
+     "backbone_rmsd_superposed_A": 0.052,
+     "copy_i": "L",
+     "copy_j": "W",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 100.385,
+     "allheavy_rmsd_superposed_A": 0.184,
+     "backbone_rmsd_in_place_A": 99.382,
+     "backbone_rmsd_superposed_A": 0.03,
+     "copy_i": "N",
+     "copy_j": "P",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 48.272,
+     "allheavy_rmsd_superposed_A": 0.214,
+     "backbone_rmsd_in_place_A": 48.123,
+     "backbone_rmsd_superposed_A": 0.048,
+     "copy_i": "N",
+     "copy_j": "R",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 83.253,
+     "allheavy_rmsd_superposed_A": 0.635,
+     "backbone_rmsd_in_place_A": 81.912,
+     "backbone_rmsd_superposed_A": 0.066,
+     "copy_i": "N",
+     "copy_j": "T",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 67.573,
+     "allheavy_rmsd_superposed_A": 0.517,
+     "backbone_rmsd_in_place_A": 67.625,
+     "backbone_rmsd_superposed_A": 0.042,
+     "copy_i": "N",
+     "copy_j": "V",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 85.411,
+     "allheavy_rmsd_superposed_A": 0.487,
+     "backbone_rmsd_in_place_A": 85.37,
+     "backbone_rmsd_superposed_A": 0.051,
+     "copy_i": "N",
+     "copy_j": "W",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 70.065,
+     "allheavy_rmsd_superposed_A": 0.147,
+     "backbone_rmsd_in_place_A": 70.408,
+     "backbone_rmsd_superposed_A": 0.045,
+     "copy_i": "P",
+     "copy_j": "R",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 26.237,
+     "allheavy_rmsd_superposed_A": 0.617,
+     "backbone_rmsd_in_place_A": 26.322,
+     "backbone_rmsd_superposed_A": 0.05,
+     "copy_i": "P",
+     "copy_j": "T",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 37.544,
+     "allheavy_rmsd_superposed_A": 0.446,
+     "backbone_rmsd_in_place_A": 35.539,
+     "backbone_rmsd_superposed_A": 0.025,
+     "copy_i": "P",
+     "copy_j": "V",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 34.756,
+     "allheavy_rmsd_superposed_A": 0.476,
+     "backbone_rmsd_in_place_A": 32.832,
+     "backbone_rmsd_superposed_A": 0.046,
+     "copy_i": "P",
+     "copy_j": "W",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 46.619,
+     "allheavy_rmsd_superposed_A": 0.677,
+     "backbone_rmsd_in_place_A": 45.947,
+     "backbone_rmsd_superposed_A": 0.058,
+     "copy_i": "R",
+     "copy_j": "T",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 52.026,
+     "allheavy_rmsd_superposed_A": 0.46,
+     "backbone_rmsd_in_place_A": 52.695,
+     "backbone_rmsd_superposed_A": 0.053,
+     "copy_i": "R",
+     "copy_j": "V",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 63.434,
+     "allheavy_rmsd_superposed_A": 0.471,
+     "backbone_rmsd_in_place_A": 63.89,
+     "backbone_rmsd_superposed_A": 0.023,
+     "copy_i": "R",
+     "copy_j": "W",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 34.558,
+     "allheavy_rmsd_superposed_A": 0.767,
+     "backbone_rmsd_in_place_A": 32.779,
+     "backbone_rmsd_superposed_A": 0.04,
+     "copy_i": "T",
+     "copy_j": "V",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 37.571,
+     "allheavy_rmsd_superposed_A": 0.642,
+     "backbone_rmsd_in_place_A": 35.561,
+     "backbone_rmsd_superposed_A": 0.052,
+     "copy_i": "T",
+     "copy_j": "W",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    },
+    {
+     "allheavy_rmsd_in_place_A": 26.096,
+     "allheavy_rmsd_superposed_A": 0.529,
+     "backbone_rmsd_in_place_A": 26.101,
+     "backbone_rmsd_superposed_A": 0.053,
+     "copy_i": "V",
+     "copy_j": "W",
+     "n_backbone_atoms": 15,
+     "n_common_atoms": 47
+    }
+   ]
+  },
+  "deposited_validation": {
+   "available": true,
+   "deposited_clashes": {
+    "n_atom_records": 107,
+    "n_heavy_heavy_pairs_entry": 0,
+    "n_heavy_heavy_pairs_in_retained_selection": 0,
+    "n_heavy_heavy_pairs_involving_peptide": 0,
+    "n_pairs_with_a_hydrogen": 53,
+    "note": "reconstructed by pairing the per-atom <clash> records of the wwPDB report by their cid and discarding any pair with a hydrogen; this is the only apples-to-apples comparison with our heavy-atom-only count, because clashscore itself counts riding hydrogens added by reduce"
+   },
+   "entry": {
+    "B_factor_type": "FULL",
+    "DCC_R": "0.1675",
+    "DCC_Rfree": "0.1911",
+    "DataCompleteness": "99.64",
+    "EDS_resolution": "1.50",
+    "PDB-R": "0.1671",
+    "PDB-Rfree": "0.1917",
+    "PDB-resolution": "1.50",
+    "RestypesNotcheckedForBondAngleGeometry": "DPR",
+    "absolute-percentile-clashscore": "84.1",
+    "angles_rmsz": "0.96",
+    "attemptedValidationSteps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,percentiles,writexml",
+    "bonds_rmsz": "0.74",
+    "clashscore": "2.32",
+    "num-H-reduce": "11335",
+    "percent-RSRZ-outliers": "5.27",
+    "percent-rama-outliers": "0.00",
+    "percent-rota-outliers": "0.27"
+   },
+   "peptide_per_residue": [
+    {
+     "altcode": "",
+     "auth_chain": "C",
+     "avgoccu": 1.0,
+     "comp": "ASN",
+     "ent": "2",
+     "icode": "",
+     "label_seq": "1",
+     "natoms_eds": "8",
+     "owab": 12.66,
+     "phi": null,
+     "psi": null,
+     "rama": null,
+     "resnum": "1",
+     "rota": "m-40",
+     "rscc": 0.975,
+     "rsr": 0.047,
+     "rsrz": -0.625,
+     "said": "C"
+    },
+    {
+     "altcode": "",
+     "auth_chain": "C",
+     "avgoccu": 1.0,
+     "comp": "GLN",
+     "ent": "2",
+     "icode": "",
+     "label_seq": "2",
+     "natoms_eds": "9",
+     "owab": 20.55,
+     "phi": -117.0,
+     "psi": 150.8,
+     "rama": "Favored",
+     "resnum": "2",
+     "rota": "mt0",
+     "rscc": 0.955,
+     "rsr": 0.088,
+     "rsrz": 0.174,
+     "said": "C"
+    },
+    {
+     "altcode": "",
+     "auth_chain": "C",
+     "avgoccu": 1.0,
+     "comp": "DPR",
+     "ent": "2",
+     "icode": "",
+     "label_seq": "3",
+     "natoms_eds": "7",
+     "owab": 15.23,
+     "phi": null,
+     "psi": null,
+     "rama": null,
+     "resnum": "3",
+     "rota": null,
+     "rscc": 0.978,
+     "rsr": 0.051,
+     "rsrz": null,
+     "said": "C"
+    },
+    {
+     "altcode": "",
+     "auth_chain": "C",
+     "avgoccu": 1.0,
+     "comp": "TRP",
+     "ent": "2",
+     "icode": "",
+     "label_seq": "4",
+     "natoms_eds": "14",
+     "owab": 13.88,
+     "phi": -83.2,
+     "psi": 0.1,
+     "rama": "Favored",
+     "resnum": "4",
+     "rota": "m-10",
+     "rscc": 0.984,
+     "rsr": 0.038,
+     "rsrz": -0.73,
+     "said": "C"
+    },
+    {
+     "altcode": "",
+     "auth_chain": "C",
+     "avgoccu": 1.0,
+     "comp": "GLN",
+     "ent": "2",
+     "icode": "",
+     "label_seq": "5",
+     "natoms_eds": "9",
+     "owab": 13.69,
+     "phi": null,
+     "psi": null,
+     "rama": null,
+     "resnum": "5",
+     "rota": "mt0",
+     "rscc": 0.983,
+     "rsr": 0.039,
+     "rsrz": -1.045,
+     "said": "C"
+    }
+   ],
+   "peptide_rscc": {
+    "mean": 0.975,
+    "min": 0.955,
+    "n_below_0.6": 0,
+    "n_below_0.8": 0,
+    "n_residues_in_report": 5,
+    "n_residues_with_rscc": 5,
+    "note": "RSCC is the direct answer to whether the peptide is in the density and it is available for non-standard components"
+   },
+   "peptide_rsrz": {
+    "max": 0.174,
+    "mean": -0.556,
+    "n_above_2": 0,
+    "n_residues_with_rsrz": 4,
+    "note": "RSRZ is reported only for components with a reference distribution, i.e. essentially only standard residues; for a modified peptide most residues have none, which is why RSCC and not RSRZ is the primary density figure here"
+   },
+   "receptor_rscc_mean": 0.9605
+  },
+  "geometry": {
+   "bond_length_outliers": [],
+   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this corpus there is no other source",
+   "ccd_chirality_disagreements": [],
+   "chirality_counts": {
+    "D": 1,
+    "L": 4
+   },
+   "inferred_links": [
+    {
+     "atom1": [
+      "C",
+      1,
+      "",
+      "ASN",
+      "N"
+     ],
+     "atom2": [
+      "C",
+      5,
+      "",
+      "GLN",
+      "C"
+     ],
+     "distance_A": 1.351,
+     "groups": [
+      0,
+      0
+     ],
+     "limit_A": 1.837,
+     "nominal_bond_A": 1.47,
+     "note": "bond inferred by distance, absent from _struct_conn",
+     "suspicious_long_bond": false
+    }
+   ],
+   "n_bonds_checked": 45,
+   "n_cis_amides": 0,
+   "n_d_residues": 1,
+   "n_l_residues": 4,
+   "n_twisted_amides": 0,
+   "omega": [
+    {
+     "bonded": true,
+     "c_n_distance_A": 1.325,
+     "call": "trans",
+     "from": 1,
+     "kind": "adjacent",
+     "omega_deg": 166.3,
+     "to": 2
+    },
+    {
+     "bonded": true,
+     "c_n_distance_A": 1.34,
+     "call": "trans",
+     "from": 2,
+     "kind": "adjacent",
+     "omega_deg": 177.1,
+     "to": 3
+    },
+    {
+     "bonded": true,
+     "c_n_distance_A": 1.352,
+     "call": "trans",
+     "from": 3,
+     "kind": "adjacent",
+     "omega_deg": -180.0,
+     "to": 4
+    },
+    {
+     "bonded": true,
+     "c_n_distance_A": 1.338,
+     "call": "trans",
+     "from": 4,
+     "kind": "adjacent",
+     "omega_deg": 176.2,
+     "to": 5
+    }
+   ],
+   "omega_pattern": "tttt",
+   "peptide_receptor_covalent_links": [],
+   "per_residue": [
+    {
+     "ca_chirality": "L",
+     "ccd_ca_neighbours": [
+      "C",
+      "CB",
+      "N"
+     ],
+     "ccd_type_chirality": "L",
+     "comp": "ASN",
+     "improper_deg": -34.28,
+     "seqid": 1
+    },
+    {
+     "ca_chirality": "L",
+     "ccd_ca_neighbours": [
+      "C",
+      "CB",
+      "N"
+     ],
+     "ccd_type_chirality": "L",
+     "comp": "GLN",
+     "improper_deg": -35.68,
+     "seqid": 2
+    },
+    {
+     "ca_chirality": "D",
+     "ccd_ca_neighbours": [
+      "C",
+      "CB",
+      "N"
+     ],
+     "ccd_type_chirality": "D",
+     "comp": "DPR",
+     "improper_deg": 37.16,
+     "seqid": 3
+    },
+    {
+     "ca_chirality": "L",
+     "ccd_ca_neighbours": [
+      "C",
+      "CB",
+      "N"
+     ],
+     "ccd_type_chirality": "L",
+     "comp": "TRP",
+     "improper_deg": -33.17,
+     "seqid": 4
+    },
+    {
+     "ca_chirality": "L",
+     "ccd_ca_neighbours": [
+      "C",
+      "CB",
+      "N"
+     ],
+     "ccd_type_chirality": "L",
+     "comp": "GLN",
+     "improper_deg": -34.66,
+     "seqid": 5
+    }
+   ],
+   "ring_closure": [],
+   "worst_bond_deviation_A": -0.053
+  },
+  "interface": {
+   "bsa_peptide_side_A2": 702.0,
+   "bsa_receptor_side_A2": 537.0,
+   "bsa_total_A2": 1239.0,
+   "contact_cutoff_A": 4.5,
+   "n_heavy_atom_contact_pairs": 261,
+   "n_peptide_contact_residues": 5,
+   "n_peptide_residues": 5,
+   "n_receptor_contact_residues": 22,
+   "peptide_buried_fraction": 0.822,
+   "possible_lattice_contact": false,
+   "sasa_peptide_alone_A2": 854.0,
+   "sasa_peptide_in_complex_A2": 152.0,
+   "sasa_points": 480
+  },
+  "occupancy": {
+   "note": "occupancies are those of the retained altloc; an atom below 1.0 here is either a partial-occupancy atom or the retained branch of an alternate conformation",
+   "peptide_mean_occupancy": 1.0,
+   "peptide_min_occupancy": 1.0,
+   "peptide_n_atoms": 47,
+   "peptide_n_atoms_below_1.0": 0
+  }
+ },
+ "spec_version": "corpus-spec-1.0",
+ "status": {
+  "reason": null,
+  "stage": "ok"
+ },
+ "strict_clean": {
+  "atom_counts": {
+   "non_polymer_after": 0,
+   "non_polymer_before": 0,
+   "peptide_polymer_after": 47,
+   "peptide_polymer_before": 47,
+   "polymer_counts_identical": true,
+   "receptor_polymer_after": 3626,
+   "receptor_polymer_before": 3626,
+   "total_after": 3673,
+   "total_before": 3673
+  },
+  "built_utc": "2026-08-03T17:05:27Z",
+  "files": {
+   "complex.cif": "strict: protein + peptide + metals/monatomic ions",
+   "peptide.cif": "unchanged - every component covalently part of the peptide is retained by the policy",
+   "receptor.cif": "unchanged - nothing was removed from it"
+  },
+  "needs_human_review": [],
+  "notes": [],
+  "outputs": {
+   "complex.cif": {
+    "bytes": 251586,
+    "n_struct_conn": 2
+   },
+   "peptide.cif": {
+    "bytes": 5003,
+    "n_struct_conn": 2
+   },
+   "receptor.cif": {
+    "bytes": 247533,
+    "n_struct_conn": 0
+   }
+  },
+  "policy": {
+   "ambiguous_set_ruling": "CL/NA/K are monatomic ions and stay. SO4/PO4 are polyatomic additives and go. NH4 goes: only one heavy atom is modelled but the CCD lists 5 atoms, so the species is polyatomic, and the test is on the species not on what happens to be modelled. UNX goes: one atom, but element X is neither metal nor halide.",
+   "keep_K1_peptide_integral": "any component sharing a label_asym_id with a residue of decisions.hetero.peptide_covalent_moieties (whole branched entity), EXCEPT a corpus_chem.CRYO_BUFFER component whose only link to the peptide is distance-inferred rather than in _struct_conn",
+   "keep_K2_monatomic_ion": "the CCD lists exactly one atom and its element is a metal (corpus_chem.METALS) or a halide F/CL/BR/I",
+   "keep_K3_polymer_cap": "ACE/NH2/FOR/NME/ACY/NHE within 1.25 x sum-of-covalent-radii of a retained peptide or receptor polymer atom",
+   "remove": "every other non-polymer: additives, buffers, glycans, lipids, receptor covalent adducts, curated cofactors, UNX/UNL"
+  },
+  "policy_version": "strict-hetero-2026-08-03",
+  "removed_components": [],
+  "removed_within_4.0A_of_peptide": [],
+  "retained_components": [],
+  "verification": {
+   "complex_cif_rereads": true,
+   "ends_with_newline": true,
+   "every_surviving_struct_conn_present": true,
+   "peptide_plus_receptor_partition_complex_exactly": true,
+   "problems": [],
+   "ring_closures_and_staples_survive": true
+  }
+ }
+}

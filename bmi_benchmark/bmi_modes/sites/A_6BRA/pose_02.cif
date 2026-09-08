@@ -1,0 +1,134 @@
+data_6BRA_CB
+_entry.id '6BRA_CB'
+
+_cell.entry_id '6BRA_CB'
+_cell.length_a 58.033
+_cell.length_b 85.767
+_cell.length_c 46.13
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+
+_symmetry.entry_id '6BRA_CB'
+_symmetry.space_group_name_H-M 'P 21 21 2'
+_symmetry.Int_Tables_number 18
+
+loop_
+_entity.id
+_entity.type
+Q polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+Q polypeptide(L) Q ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+GLU .
+GLY .
+ILE .
+LEU .
+PHE .
+SER .
+THR .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+Qxp Q
+
+
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . SER Qxp Q 1 ? 7.988 14.047 16.711 0.4 20.22 ? 1 Q 1
+ATOM 2 C CA . SER Qxp Q 1 ? 8.513 14.91 17.763 0.4 16.03 ? 1 Q 1
+ATOM 3 C C . SER Qxp Q 1 ? 9.68 15.748 17.252 0.4 13.3 ? 1 Q 1
+ATOM 4 O O . SER Qxp Q 1 ? 10.759 15.225 16.976 0.4 13.09 ? 1 Q 1
+ATOM 5 C CB . SER Qxp Q 1 ? 8.944 14.079 18.97 0.4 19.42 ? 1 Q 1
+ATOM 6 O OG . SER Qxp Q 1 ? 8.206 14.456 20.119 0.4 22.54 ? 1 Q 1
+ATOM 7 N N . GLY Qxp Q 2 ? 9.45 17.053 17.118 0.4 10.54 ? 2 Q 1
+ATOM 8 C CA . GLY Qxp Q 2 ? 10.455 17.942 16.572 0.4 12.26 ? 2 Q 1
+ATOM 9 C C . GLY Qxp Q 2 ? 11.07 18.863 17.606 0.4 8.61 ? 2 Q 1
+ATOM 10 O O . GLY Qxp Q 2 ? 10.364 19.636 18.265 0.4 9.98 ? 2 Q 1
+ATOM 11 N N . ILE Qxp Q 3 ? 12.39 18.785 17.75 0.4 9.24 ? 3 Q 1
+ATOM 12 C CA . ILE Qxp Q 3 ? 13.141 19.555 18.742 0.4 7.95 ? 3 Q 1
+ATOM 13 C C . ILE Qxp Q 3 ? 14.164 20.378 17.969 0.4 7.92 ? 3 Q 1
+ATOM 14 O O . ILE Qxp Q 3 ? 15.31 19.958 17.781 0.4 8.75 ? 3 Q 1
+ATOM 15 C CB . ILE Qxp Q 3 ? 13.817 18.657 19.78 0.4 10.9 ? 3 Q 1
+ATOM 16 C CG1 . ILE Qxp Q 3 ? 12.836 17.611 20.313 0.4 11.32 ? 3 Q 1
+ATOM 17 C CG2 . ILE Qxp Q 3 ? 14.387 19.495 20.903 0.4 9.5 ? 3 Q 1
+ATOM 18 C CD1 . ILE Qxp Q 3 ? 11.658 18.202 21.042 0.4 11.21 ? 3 Q 1
+ATOM 19 N N . PHE Qxp Q 4 ? 13.764 21.564 17.524 0.4 8.33 ? 4 Q 1
+ATOM 20 C CA . PHE Qxp Q 4 ? 14.546 22.337 16.554 0.4 7.95 ? 4 Q 1
+ATOM 21 C C . PHE Qxp Q 4 ? 15.441 23.386 17.21 0.4 8.02 ? 4 Q 1
+ATOM 22 O O . PHE Qxp Q 4 ? 15.486 24.563 16.838 0.4 9.12 ? 4 Q 1
+ATOM 23 C CB . PHE Qxp Q 4 ? 13.64 22.914 15.475 0.4 8.41 ? 4 Q 1
+ATOM 24 C CG . PHE Qxp Q 4 ? 12.844 21.858 14.762 0.4 8.9 ? 4 Q 1
+ATOM 25 C CD1 . PHE Qxp Q 4 ? 13.489 20.851 14.063 0.4 11.61 ? 4 Q 1
+ATOM 26 C CD2 . PHE Qxp Q 4 ? 11.461 21.837 14.829 0.4 9.65 ? 4 Q 1
+ATOM 27 C CE1 . PHE Qxp Q 4 ? 12.771 19.858 13.42 0.4 11.41 ? 4 Q 1
+ATOM 28 C CE2 . PHE Qxp Q 4 ? 10.737 20.843 14.186 0.4 12.51 ? 4 Q 1
+ATOM 29 C CZ . PHE Qxp Q 4 ? 11.395 19.854 13.482 0.4 13.33 ? 4 Q 1
+ATOM 30 N N . LEU Qxp Q 5 ? 16.177 22.921 18.217 0.4 9.37 ? 5 Q 1
+ATOM 31 C CA . LEU Qxp Q 5 ? 17.346 23.64 18.695 0.4 7.96 ? 5 Q 1
+ATOM 32 C C . LEU Qxp Q 5 ? 18.276 23.935 17.525 0.4 8.57 ? 5 Q 1
+ATOM 33 O O . LEU Qxp Q 5 ? 18.462 23.101 16.637 0.4 9.02 ? 5 Q 1
+ATOM 34 C CB . LEU Qxp Q 5 ? 18.083 22.757 19.707 0.4 8.19 ? 5 Q 1
+ATOM 35 C CG . LEU Qxp Q 5 ? 19.477 23.224 20.129 0.4 11.53 ? 5 Q 1
+ATOM 36 C CD1 . LEU Qxp Q 5 ? 19.365 24.442 21.021 0.4 10.63 ? 5 Q 1
+ATOM 37 C CD2 . LEU Qxp Q 5 ? 20.249 22.101 20.821 0.4 12.93 ? 5 Q 1
+ATOM 38 N N . GLU Qxp Q 6 ? 18.857 25.134 17.519 0.4 9.43 ? 6 Q 1
+ATOM 39 C CA . GLU Qxp Q 6 ? 19.84 25.487 16.499 0.4 7.51 ? 6 Q 1
+ATOM 40 C C . GLU Qxp Q 6 ? 20.856 26.451 17.091 0.4 8.17 ? 6 Q 1
+ATOM 41 O O . GLU Qxp Q 6 ? 20.476 27.429 17.747 0.4 9.15 ? 6 Q 1
+ATOM 42 C CB . GLU Qxp Q 6 ? 19.162 26.097 15.264 0.4 7.79 ? 6 Q 1
+ATOM 43 C CG . GLU Qxp Q 6 ? 20.101 26.393 14.098 0.4 9.39 ? 6 Q 1
+ATOM 44 C CD . GLU Qxp Q 6 ? 20.817 27.721 14.25 0.4 8.25 ? 6 Q 1
+ATOM 45 O OE1 . GLU Qxp Q 6 ? 21.868 27.904 13.598 0.4 9.73 ? 6 Q 1
+ATOM 46 O OE2 . GLU Qxp Q 6 ? 20.327 28.571 15.026 0.4 8.53 ? 6 Q 1
+ATOM 47 N N . THR Qxp Q 7 ? 22.14 26.178 16.833 0.4 8.82 ? 7 Q 1
+ATOM 48 C CA . THR Qxp Q 7 ? 23.243 26.886 17.467 0.4 10.67 ? 7 Q 1
+ATOM 49 C C . THR Qxp Q 7 ? 24.366 27.148 16.469 0.4 8.91 ? 7 Q 1
+ATOM 50 O O . THR Qxp Q 7 ? 24.622 26.353 15.551 0.4 9.06 ? 7 Q 1
+ATOM 51 C CB . THR Qxp Q 7 ? 23.833 26.072 18.632 0.4 11.02 ? 7 Q 1
+ATOM 52 O OG1 . THR Qxp Q 7 ? 24.331 24.822 18.138 0.4 12.78 ? 7 Q 1
+ATOM 53 C CG2 . THR Qxp Q 7 ? 22.786 25.806 19.705 0.4 13.53 ? 7 Q 1
+ATOM 54 N N . SER Qxp Q 8 ? 25.059 28.261 16.689 0.4 11.84 ? 8 Q 1
+ATOM 55 C CA . SER Qxp Q 8 ? 26.268 28.59 15.952 0.4 11.59 ? 8 Q 1
+ATOM 56 C C . SER Qxp Q 8 ? 27.192 29.418 16.835 0.4 16.03 ? 8 Q 1
+ATOM 57 O O . SER Qxp Q 8 ? 26.795 29.858 17.915 0.4 15.83 ? 8 Q 1
+ATOM 58 C CB . SER Qxp Q 8 ? 25.921 29.358 14.68 0.4 17.55 ? 8 Q 1
+ATOM 59 O OG . SER Qxp Q 8 ? 25.393 30.634 14.993 0.4 13 ? 8 Q 1
+ATOM 60 O OXT . SER Qxp Q 8 ? 28.354 29.656 16.504 0.4 20.47 ? 8 Q 1

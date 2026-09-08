@@ -1,0 +1,147 @@
+data_2VR3
+_entry.id 2VR3
+
+_cell.entry_id 2VR3
+_cell.length_a 35.427
+_cell.length_b 61.836
+_cell.length_c 81.777
+_cell.angle_alpha 85.44
+_cell.angle_beta 81.84
+_cell.angle_gamma 82.45
+
+_symmetry.entry_id 2VR3
+_symmetry.space_group_name_H-M 'P 1'
+_symmetry.Int_Tables_number 1
+
+loop_
+_entity.id
+_entity.type
+D polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+D polypeptide(L) D ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ALA .
+GLN .
+GLY .
+HIS .
+LEU .
+LYS .
+VAL .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+D D
+
+
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . GLN D D 1 ? 26.313 54.233 -25.506 1 45.61 ? 399 D 1
+ATOM 2 C CA . GLN D D 1 ? 26.447 55.717 -25.489 1 54.84 ? 399 D 1
+ATOM 3 C C . GLN D D 1 ? 27.513 56.19 -24.496 1 53.51 ? 399 D 1
+ATOM 4 O O . GLN D D 1 ? 28.669 56.42 -24.858 1 40.36 ? 399 D 1
+ATOM 5 N N . HIS D D 2 ? 27.117 56.36 -23.243 1 47.06 ? 400 D 1
+ATOM 6 C CA . HIS D D 2 ? 28.064 56.769 -22.208 1 38.01 ? 400 D 1
+ATOM 7 C C . HIS D D 2 ? 27.798 55.922 -20.986 1 54.84 ? 400 D 1
+ATOM 8 O O . HIS D D 2 ? 26.678 55.501 -20.774 1 35.88 ? 400 D 1
+ATOM 9 N N . HIS D D 3 ? 28.831 55.607 -20.218 1 27.02 ? 401 D 1
+ATOM 10 C CA . HIS D D 3 ? 28.61 55.033 -18.883 1 19.21 ? 401 D 1
+ATOM 11 C C . HIS D D 3 ? 29.21 56.021 -17.848 1 25.42 ? 401 D 1
+ATOM 12 O O . HIS D D 3 ? 29.874 57.003 -18.228 1 29.58 ? 401 D 1
+ATOM 13 C CB . HIS D D 3 ? 29.202 53.623 -18.787 1 33.58 ? 401 D 1
+ATOM 14 C CG . HIS D D 3 ? 28.622 52.783 -17.687 1 49.19 ? 401 D 1
+ATOM 15 N N . LEU D D 4 ? 28.992 55.763 -16.558 1 22.38 ? 402 D 1
+ATOM 16 C CA . LEU D D 4 ? 29.43 56.673 -15.491 1 37.83 ? 402 D 1
+ATOM 17 C C . LEU D D 4 ? 30.041 55.916 -14.31 1 38.48 ? 402 D 1
+ATOM 18 O O . LEU D D 4 ? 29.448 54.994 -13.783 1 32.4 ? 402 D 1
+ATOM 19 C CB . LEU D D 4 ? 28.237 57.523 -15.004 1 21.83 ? 402 D 1
+ATOM 20 C CG . LEU D D 4 ? 28.408 58.372 -13.734 1 22.03 ? 402 D 1
+ATOM 21 C CD1 . LEU D D 4 ? 29.215 59.66 -14.062 1 20.13 ? 402 D 1
+ATOM 22 C CD2 . LEU D D 4 ? 27.053 58.714 -13.162 1 31.26 ? 402 D 1
+ATOM 23 N N . GLY D D 5 ? 31.237 56.299 -13.894 1 26.16 ? 403 D 1
+ATOM 24 C CA . GLY D D 5 ? 31.792 55.779 -12.642 1 28.25 ? 403 D 1
+ATOM 25 C C . GLY D D 5 ? 32.009 56.917 -11.663 1 20.86 ? 403 D 1
+ATOM 26 O O . GLY D D 5 ? 31.64 58.059 -11.959 1 26.96 ? 403 D 1
+ATOM 27 N N . GLY D D 6 ? 32.575 56.626 -10.488 1 13.98 ? 404 D 1
+ATOM 28 C CA . GLY D D 6 ? 32.797 57.689 -9.499 1 27.2 ? 404 D 1
+ATOM 29 C C . GLY D D 6 ? 33.647 57.324 -8.292 1 23.84 ? 404 D 1
+ATOM 30 O O . GLY D D 6 ? 33.617 56.184 -7.828 1 24.79 ? 404 D 1
+ATOM 31 N N . ALA D D 7 ? 34.455 58.281 -7.822 1 19.14 ? 405 D 1
+ATOM 32 C CA . ALA D D 7 ? 35.064 58.191 -6.498 1 17.32 ? 405 D 1
+ATOM 33 C C . ALA D D 7 ? 34.464 59.181 -5.507 1 32.07 ? 405 D 1
+ATOM 34 O O . ALA D D 7 ? 33.939 60.24 -5.897 1 23.03 ? 405 D 1
+ATOM 35 C CB . ALA D D 7 ? 36.593 58.365 -6.552 1 22.91 ? 405 D 1
+ATOM 36 N N . LYS D D 8 ? 34.539 58.809 -4.224 1 25.72 ? 406 D 1
+ATOM 37 C CA . LYS D D 8 ? 34.313 59.714 -3.103 1 20.56 ? 406 D 1
+ATOM 38 C C . LYS D D 8 ? 35.477 59.599 -2.109 1 29.8 ? 406 D 1
+ATOM 39 O O . LYS D D 8 ? 35.971 58.509 -1.829 1 35.69 ? 406 D 1
+ATOM 40 C CB . LYS D D 8 ? 32.971 59.456 -2.389 1 32.02 ? 406 D 1
+ATOM 41 N N . GLN D D 9 ? 35.917 60.731 -1.577 1 20.8 ? 407 D 1
+ATOM 42 C CA . GLN D D 9 ? 37.067 60.727 -0.664 1 24.23 ? 407 D 1
+ATOM 43 C C . GLN D D 9 ? 36.854 61.514 0.603 1 11.88 ? 407 D 1
+ATOM 44 O O . GLN D D 9 ? 36.382 62.651 0.554 1 25.5 ? 407 D 1
+ATOM 45 C CB . GLN D D 9 ? 38.302 61.249 -1.399 1 22.93 ? 407 D 1
+ATOM 46 C CG . GLN D D 9 ? 38.809 60.283 -2.518 1 17.23 ? 407 D 1
+ATOM 47 C CD . GLN D D 9 ? 39.806 60.95 -3.408 1 26.95 ? 407 D 1
+ATOM 48 O OE1 . GLN D D 9 ? 41.013 60.931 -3.153 1 22.75 ? 407 D 1
+ATOM 49 N NE2 . GLN D D 9 ? 39.318 61.612 -4.403 1 22.29 ? 407 D 1
+ATOM 50 N N . ALA D D 10 ? 37.297 60.957 1.743 1 14.8 ? 408 D 1
+ATOM 51 C CA . ALA D D 10 ? 37.153 61.61 3.041 1 12.15 ? 408 D 1
+ATOM 52 C C . ALA D D 10 ? 38.368 62.498 3.366 1 18.71 ? 408 D 1
+ATOM 53 O O . ALA D D 10 ? 39.458 62.222 2.944 1 20.87 ? 408 D 1
+ATOM 54 C CB . ALA D D 10 ? 36.985 60.603 4.126 1 24.21 ? 408 D 1
+ATOM 55 N N . GLY D D 11 ? 38.176 63.534 4.162 1 27.82 ? 409 D 1
+ATOM 56 C CA . GLY D D 11 ? 39.31 64.354 4.516 1 19.83 ? 409 D 1
+ATOM 57 C C . GLY D D 11 ? 38.99 65.118 5.737 1 30.91 ? 409 D 1
+ATOM 58 O O . GLY D D 11 ? 37.874 65.058 6.239 1 12.45 ? 409 D 1
+ATOM 59 N N . ALA D D 12 ? 39.959 65.845 6.248 1 14.11 ? 410 D 1
+ATOM 60 C CA . ALA D D 12 ? 39.671 66.571 7.44 1 19.64 ? 410 D 1
+ATOM 61 C C . ALA D D 12 ? 38.822 67.787 7.146 1 17.42 ? 410 D 1
+ATOM 62 O O . ALA D D 12 ? 38.859 68.332 6.044 1 29.15 ? 410 D 1
+ATOM 63 C CB . ALA D D 12 ? 40.951 66.917 8.229 1 22.57 ? 410 D 1
+ATOM 64 N N . VAL D D 13 ? 38.062 68.223 8.142 1 35.76 ? 411 D 1
+ATOM 65 C CA . VAL D D 13 ? 37.336 69.485 8.037 1 26.94 ? 411 D 1
+ATOM 66 C C . VAL D D 13 ? 38.304 70.667 7.947 1 51.17 ? 411 D 1
+ATOM 67 O O . VAL D D 13 ? 38.265 71.449 6.987 1 36.34 ? 411 D 1
+ATOM 68 C CB . VAL D D 13 ? 36.328 69.655 9.191 1 35.81 ? 411 D 1
+ATOM 69 C CG1 . VAL D D 13 ? 35.921 71.105 9.337 1 39.82 ? 411 D 1
+ATOM 70 C CG2 . VAL D D 13 ? 35.1 68.746 8.948 1 23.99 ? 411 D 1
+ATOM 71 O OXT . VAL D D 13 ? 39.165 70.857 8.808 1 28.61 ? 411 D 1
+
+_struct.title '2VR3: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'

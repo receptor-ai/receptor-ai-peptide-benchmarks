@@ -1,0 +1,164 @@
+data_7EID
+_entry.id 7EID
+
+_cell.entry_id 7EID
+_cell.length_a 42.963
+_cell.length_b 44.913
+_cell.length_c 58.797
+_cell.angle_alpha 84.86
+_cell.angle_beta 86.09
+_cell.angle_gamma 66.33
+
+_symmetry.entry_id 7EID
+_symmetry.space_group_name_H-M 'P 1'
+_symmetry.Int_Tables_number 1
+
+loop_
+_entity.id
+_entity.type
+C polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+C polypeptide(L) C ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ALY .
+GLY .
+LEU .
+LYS .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+C C
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.pdbx_ptnr1_label_alt_id
+_struct_conn.ptnr1_auth_asym_id
+_struct_conn.ptnr1_auth_seq_id
+_struct_conn.pdbx_ptnr1_PDB_ins_code
+_struct_conn.ptnr1_symmetry
+_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_ptnr2_label_alt_id
+_struct_conn.ptnr2_auth_asym_id
+_struct_conn.ptnr2_auth_seq_id
+_struct_conn.pdbx_ptnr2_PDB_ins_code
+_struct_conn.ptnr2_symmetry
+_struct_conn.details
+_struct_conn.pdbx_dist_value
+covale1 covale C GLY 3 C ? C 7 ? 1_555 C ALY 4 N ? C 8 ? 1_555 ? 1.3408
+covale2 covale C ALY 4 C ? C 8 ? 1_555 C GLY 5 N ? C 9 ? 1_555 ? 1.3400
+covale3 covale C GLY 7 C ? C 11 ? 1_555 C ALY 8 N ? C 12 ? 1_555 ? 1.3371
+covale4 covale C ALY 8 C ? C 12 ? 1_555 C GLY 9 N ? C 13 ? 1_555 ? 1.3413
+
+loop_
+_struct_conn_type.id
+covale
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . LYS C C 1 ? -13.902 17.825 4.75 1 33.34 ? 5 C 1
+ATOM 2 C CA . LYS C C 1 ? -13.735 18.012 6.224 1 32.94 ? 5 C 1
+ATOM 3 C C . LYS C C 1 ? -14.585 16.983 6.969 1 32.66 ? 5 C 1
+ATOM 4 O O . LYS C C 1 ? -15.62 16.538 6.469 1 30.11 ? 5 C 1
+ATOM 5 C CB . LYS C C 1 ? -14.094 19.445 6.63 1 32.93 ? 5 C 1
+ATOM 6 N N . GLY C C 2 ? -14.124 16.614 8.171 1 32.39 ? 6 C 1
+ATOM 7 C CA . GLY C C 2 ? -14.782 15.609 8.992 1 32.24 ? 6 C 1
+ATOM 8 C C . GLY C C 2 ? -14.741 14.231 8.333 1 32.71 ? 6 C 1
+ATOM 9 O O . GLY C C 2 ? -15.724 13.491 8.37 1 31.14 ? 6 C 1
+ATOM 10 N N . GLY C C 3 ? -13.589 13.91 7.728 1 32.33 ? 7 C 1
+ATOM 11 C CA . GLY C C 3 ? -13.389 12.658 7.016 1 31.52 ? 7 C 1
+ATOM 12 C C . GLY C C 3 ? -13.036 11.507 7.957 1 31.47 ? 7 C 1
+ATOM 13 O O . GLY C C 3 ? -13.386 10.359 7.685 1 33.17 ? 7 C 1
+HETATM 14 O OH . ALY C C 4 ? -6.198 9.674 13.804 1 24.39 ? 8 C 1
+HETATM 15 C CH . ALY C C 4 ? -5.634 10.693 13.403 1 24.31 ? 8 C 1
+HETATM 16 C CH3 . ALY C C 4 ? -4.386 11.209 14.043 1 23.71 ? 8 C 1
+HETATM 17 N NZ . ALY C C 4 ? -6.086 11.386 12.354 1 24.55 ? 8 C 1
+HETATM 18 C CE . ALY C C 4 ? -7.132 10.897 11.461 1 25.98 ? 8 C 1
+HETATM 19 C CD . ALY C C 4 ? -8.361 11.786 11.454 1 26.47 ? 8 C 1
+HETATM 20 C CG . ALY C C 4 ? -9.382 11.356 10.424 1 27.31 ? 8 C 1
+HETATM 21 C CB . ALY C C 4 ? -10.813 11.454 10.932 1 27.61 ? 8 C 1
+HETATM 22 C CA . ALY C C 4 ? -11.88 10.84 10.02 1 27.64 ? 8 C 1
+HETATM 23 N N . ALY C C 4 ? -12.347 11.83 9.061 1 29.52 ? 8 C 1
+HETATM 24 C C . ALY C C 4 ? -13.056 10.313 10.84 1 26.87 ? 8 C 1
+HETATM 25 O O . ALY C C 4 ? -13.786 11.092 11.451 1 26.04 ? 8 C 1
+ATOM 26 N N . GLY C C 5 ? -13.218 8.983 10.858 1 25.18 ? 9 C 1
+ATOM 27 C CA . GLY C C 5 ? -14.342 8.356 11.536 1 25.75 ? 9 C 1
+ATOM 28 C C . GLY C C 5 ? -14.026 6.955 12.061 1 26.36 ? 9 C 1
+ATOM 29 O O . GLY C C 5 ? -13.104 6.297 11.58 1 26.46 ? 9 C 1
+ATOM 30 N N . LEU C C 6 ? -14.82 6.514 13.045 1 26.59 ? 10 C 1
+ATOM 31 C CA . LEU C C 6 ? -14.701 5.196 13.657 1 28.01 ? 10 C 1
+ATOM 32 C C . LEU C C 6 ? -15.836 4.3 13.162 1 28.5 ? 10 C 1
+ATOM 33 O O . LEU C C 6 ? -16.89 4.792 12.763 1 27.8 ? 10 C 1
+ATOM 34 C CB . LEU C C 6 ? -14.746 5.34 15.183 1 28.22 ? 10 C 1
+ATOM 35 C CG . LEU C C 6 ? -13.47 5.86 15.846 1 29.47 ? 10 C 1
+ATOM 36 C CD1 . LEU C C 6 ? -13.766 6.45 17.22 1 28.5 ? 10 C 1
+ATOM 37 C CD2 . LEU C C 6 ? -12.426 4.757 15.955 1 29.05 ? 10 C 1
+ATOM 38 N N . GLY C C 7 ? -15.607 2.98 13.204 1 29.45 ? 11 C 1
+ATOM 39 C CA . GLY C C 7 ? -16.554 2.001 12.688 1 31.17 ? 11 C 1
+ATOM 40 C C . GLY C C 7 ? -16.37 1.79 11.187 1 32.68 ? 11 C 1
+ATOM 41 O O . GLY C C 7 ? -15.763 2.618 10.514 1 31.49 ? 11 C 1
+HETATM 42 O OH . ALY C C 8 ? -15.348 -1.074 4.23 1 60.01 ? 12 C 1
+HETATM 43 C CH . ALY C C 8 ? -14.779 -2.161 4.131 1 59.05 ? 12 C 1
+HETATM 44 C CH3 . ALY C C 8 ? -13.608 -2.355 3.221 1 56.27 ? 12 C 1
+HETATM 45 N NZ . ALY C C 8 ? -15.172 -3.232 4.832 1 57.46 ? 12 C 1
+HETATM 46 C CE . ALY C C 8 ? -16.322 -3.235 5.731 1 54.43 ? 12 C 1
+HETATM 47 C CD . ALY C C 8 ? -16.006 -2.68 7.11 1 50.43 ? 12 C 1
+HETATM 48 C CG . ALY C C 8 ? -16.793 -1.428 7.438 1 45.14 ? 12 C 1
+HETATM 49 C CB . ALY C C 8 ? -16.836 -1.083 8.922 1 41.62 ? 12 C 1
+HETATM 50 C CA . ALY C C 8 ? -16.808 0.416 9.238 1 39.08 ? 12 C 1
+HETATM 51 N N . ALY C C 8 ? -16.886 0.671 10.668 1 35.66 ? 12 C 1
+HETATM 52 C C . ALY C C 8 ? -17.927 1.181 8.533 1 40.38 ? 12 C 1
+HETATM 53 O O . ALY C C 8 ? -17.66 1.966 7.622 1 38.79 ? 12 C 1
+ATOM 54 N N . GLY C C 9 ? -19.17 0.946 8.979 1 40.25 ? 13 C 1
+ATOM 55 C CA . GLY C C 9 ? -20.361 1.487 8.342 1 41.54 ? 13 C 1
+ATOM 56 C C . GLY C C 9 ? -20.499 0.993 6.904 1 43.23 ? 13 C 1
+ATOM 57 O O . GLY C C 9 ? -19.958 -0.053 6.552 1 44.01 ? 13 C 1
+ATOM 58 N N . GLY C C 10 ? -21.227 1.764 6.086 1 44.7 ? 14 C 1
+ATOM 59 C CA . GLY C C 10 ? -21.345 1.515 4.656 1 45.89 ? 14 C 1
+ATOM 60 C C . GLY C C 10 ? -22.325 0.397 4.333 1 46.78 ? 14 C 1
+ATOM 61 O O . GLY C C 10 ? -23.249 0.186 5.145 1 48.46 ? 14 C 1
+
+_struct.title '7EID: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'

@@ -1,0 +1,190 @@
+data_2ZNE_C
+_entry.id '2ZNE_C'
+
+_cell.entry_id '2ZNE_C'
+_cell.length_a 47.449
+_cell.length_b 88.509
+_cell.length_c 211.556
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+
+_symmetry.entry_id '2ZNE_C'
+_symmetry.space_group_name_H-M 'C 2 2 21'
+_symmetry.Int_Tables_number 20
+
+loop_
+_entity.id
+_entity.type
+P polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+P polypeptide(L) P ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+GLN .
+GLY .
+PRO .
+SER .
+THR .
+TYR .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+Pxp P
+
+
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . GLY Pxp P 2 ? 27.625 -23.816 -19.618 1 43.92 ? 2 P 1
+ATOM 2 C CA . GLY Pxp P 2 ? 26.226 -24.373 -19.781 1 42.86 ? 2 P 1
+ATOM 3 C C . GLY Pxp P 2 ? 25.386 -23.342 -20.517 1 41.94 ? 2 P 1
+ATOM 4 O O . GLY Pxp P 2 ? 25.952 -22.419 -21.108 1 42.54 ? 2 P 1
+ATOM 5 N N . PRO Pxp P 3 ? 24.04 -23.445 -20.441 1 40.73 ? 3 P 1
+ATOM 6 C CA . PRO Pxp P 3 ? 23.162 -22.504 -21.184 1 39.6 ? 3 P 1
+ATOM 7 C C . PRO Pxp P 3 ? 23.328 -21.042 -20.73 1 38.23 ? 3 P 1
+ATOM 8 O O . PRO Pxp P 3 ? 23.756 -20.804 -19.607 1 38.14 ? 3 P 1
+ATOM 9 C CB . PRO Pxp P 3 ? 21.735 -22.977 -20.839 1 39.8 ? 3 P 1
+ATOM 10 C CG . PRO Pxp P 3 ? 21.869 -24.238 -20.056 1 40.02 ? 3 P 1
+ATOM 11 C CD . PRO Pxp P 3 ? 23.287 -24.409 -19.619 1 40.43 ? 3 P 1
+ATOM 12 N N . PRO Pxp P 4 ? 22.945 -20.059 -21.576 1 37.03 ? 4 P 1
+ATOM 13 C CA . PRO Pxp P 4 ? 22.969 -18.656 -21.117 1 35.67 ? 4 P 1
+ATOM 14 C C . PRO Pxp P 4 ? 21.735 -18.28 -20.261 1 35.31 ? 4 P 1
+ATOM 15 O O . PRO Pxp P 4 ? 21.348 -17.123 -20.198 1 34.68 ? 4 P 1
+ATOM 16 C CB . PRO Pxp P 4 ? 22.984 -17.873 -22.43 1 36.11 ? 4 P 1
+ATOM 17 C CG . PRO Pxp P 4 ? 22.21 -18.742 -23.379 1 35.76 ? 4 P 1
+ATOM 18 C CD . PRO Pxp P 4 ? 22.447 -20.177 -22.96 1 36.21 ? 4 P 1
+ATOM 19 N N . TYR Pxp P 5 ? 21.122 -19.266 -19.608 1 35.94 ? 5 P 1
+ATOM 20 C CA . TYR Pxp P 5 ? 19.951 -19.042 -18.761 1 36.05 ? 5 P 1
+ATOM 21 C C . TYR Pxp P 5 ? 20 -19.98 -17.557 1 36.82 ? 5 P 1
+ATOM 22 O O . TYR Pxp P 5 ? 20.559 -21.072 -17.657 1 37.44 ? 5 P 1
+ATOM 23 C CB . TYR Pxp P 5 ? 18.642 -19.258 -19.55 1 35.47 ? 5 P 1
+ATOM 24 C CG . TYR Pxp P 5 ? 18.59 -20.551 -20.336 1 35.04 ? 5 P 1
+ATOM 25 C CD1 . TYR Pxp P 5 ? 18.828 -20.566 -21.724 1 33.53 ? 5 P 1
+ATOM 26 C CD2 . TYR Pxp P 5 ? 18.278 -21.759 -19.707 1 34.08 ? 5 P 1
+ATOM 27 C CE1 . TYR Pxp P 5 ? 18.783 -21.764 -22.456 1 33.35 ? 5 P 1
+ATOM 28 C CE2 . TYR Pxp P 5 ? 18.227 -22.958 -20.422 1 34.67 ? 5 P 1
+ATOM 29 C CZ . TYR Pxp P 5 ? 18.487 -22.962 -21.794 1 35.53 ? 5 P 1
+ATOM 30 O OH . TYR Pxp P 5 ? 18.416 -24.17 -22.482 1 34.99 ? 5 P 1
+ATOM 31 N N . PRO Pxp P 6 ? 19.39 -19.579 -16.419 1 37.55 ? 6 P 1
+ATOM 32 C CA . PRO Pxp P 6 ? 19.397 -20.441 -15.241 1 37.9 ? 6 P 1
+ATOM 33 C C . PRO Pxp P 6 ? 18.908 -21.845 -15.553 1 38.57 ? 6 P 1
+ATOM 34 O O . PRO Pxp P 6 ? 17.928 -22.019 -16.301 1 38.09 ? 6 P 1
+ATOM 35 C CB . PRO Pxp P 6 ? 18.384 -19.765 -14.309 1 37.61 ? 6 P 1
+ATOM 36 C CG . PRO Pxp P 6 ? 18.365 -18.382 -14.711 1 37.62 ? 6 P 1
+ATOM 37 C CD . PRO Pxp P 6 ? 18.688 -18.309 -16.158 1 36.9 ? 6 P 1
+ATOM 38 N N . THR Pxp P 7 ? 19.569 -22.832 -14.958 1 39.43 ? 7 P 1
+ATOM 39 C CA . THR Pxp P 7 ? 19.095 -24.213 -15.02 1 40.97 ? 7 P 1
+ATOM 40 C C . THR Pxp P 7 ? 18.983 -24.849 -13.606 1 41.16 ? 7 P 1
+ATOM 41 O O . THR Pxp P 7 ? 19.241 -26.056 -13.4 1 41.43 ? 7 P 1
+ATOM 42 C CB . THR Pxp P 7 ? 19.921 -25.05 -16.047 1 41.46 ? 7 P 1
+ATOM 43 O OG1 . THR Pxp P 7 ? 19.616 -26.445 -15.889 1 43.93 ? 7 P 1
+ATOM 44 C CG2 . THR Pxp P 7 ? 21.423 -24.816 -15.878 1 41.17 ? 7 P 1
+ATOM 45 N N . TYR Pxp P 8 ? 18.525 -24.012 -12.664 1 40.95 ? 8 P 1
+ATOM 46 C CA . TYR Pxp P 8 ? 18.554 -24.24 -11.225 1 40.38 ? 8 P 1
+ATOM 47 C C . TYR Pxp P 8 ? 18.331 -22.867 -10.582 1 40.9 ? 8 P 1
+ATOM 48 O O . TYR Pxp P 8 ? 18.396 -21.852 -11.299 1 41.39 ? 8 P 1
+ATOM 49 C CB . TYR Pxp P 8 ? 20.013 -24.542 -10.813 1 39.54 ? 8 P 1
+ATOM 50 C CG . TYR Pxp P 8 ? 20.891 -23.333 -11.108 1 38.38 ? 8 P 1
+ATOM 51 C CD1 . TYR Pxp P 8 ? 21.613 -23.24 -12.31 1 38.15 ? 8 P 1
+ATOM 52 C CD2 . TYR Pxp P 8 ? 20.922 -22.239 -10.239 1 36.46 ? 8 P 1
+ATOM 53 C CE1 . TYR Pxp P 8 ? 22.367 -22.115 -12.608 1 37.08 ? 8 P 1
+ATOM 54 C CE2 . TYR Pxp P 8 ? 21.651 -21.109 -10.538 1 38.02 ? 8 P 1
+ATOM 55 C CZ . TYR Pxp P 8 ? 22.371 -21.053 -11.72 1 38.5 ? 8 P 1
+ATOM 56 O OH . TYR Pxp P 8 ? 23.108 -19.925 -12.002 1 42.74 ? 8 P 1
+ATOM 57 N N . PRO Pxp P 9 ? 17.886 -22.803 -9.303 1 40.54 ? 9 P 1
+ATOM 58 C CA . PRO Pxp P 9 ? 16.802 -21.978 -8.822 1 39.83 ? 9 P 1
+ATOM 59 C C . PRO Pxp P 9 ? 17.628 -20.711 -8.508 1 39.06 ? 9 P 1
+ATOM 60 O O . PRO Pxp P 9 ? 18.155 -20.554 -7.398 1 39.25 ? 9 P 1
+ATOM 61 C CB . PRO Pxp P 9 ? 16.347 -22.673 -7.526 1 39.7 ? 9 P 1
+ATOM 62 C CG . PRO Pxp P 9 ? 16.905 -24.04 -7.614 1 40.6 ? 9 P 1
+ATOM 63 C CD . PRO Pxp P 9 ? 18.236 -23.815 -8.298 1 40.65 ? 9 P 1
+ATOM 64 N N . GLY Pxp P 10 ? 17.829 -19.867 -9.519 1 38.4 ? 10 P 1
+ATOM 65 C CA . GLY Pxp P 10 ? 18.68 -18.68 -9.391 1 37 ? 10 P 1
+ATOM 66 C C . GLY Pxp P 10 ? 17.936 -17.396 -9.076 1 36.44 ? 10 P 1
+ATOM 67 O O . GLY Pxp P 10 ? 18.557 -16.347 -8.906 1 36.22 ? 10 P 1
+ATOM 68 N N . TYR Pxp P 11 ? 16.608 -17.48 -9.02 1 35.43 ? 11 P 1
+ATOM 69 C CA . TYR Pxp P 11 ? 15.719 -16.359 -8.675 1 35.36 ? 11 P 1
+ATOM 70 C C . TYR Pxp P 11 ? 14.418 -16.987 -8.115 1 35.18 ? 11 P 1
+ATOM 71 O O . TYR Pxp P 11 ? 14.157 -18.156 -8.367 1 35.25 ? 11 P 1
+ATOM 72 C CB . TYR Pxp P 11 ? 15.413 -15.492 -9.927 1 35.08 ? 11 P 1
+ATOM 73 C CG . TYR Pxp P 11 ? 14.781 -16.308 -11.053 1 34.36 ? 11 P 1
+ATOM 74 C CD1 . TYR Pxp P 11 ? 15.568 -16.844 -12.076 1 34.12 ? 11 P 1
+ATOM 75 C CD2 . TYR Pxp P 11 ? 13.401 -16.593 -11.057 1 32.6 ? 11 P 1
+ATOM 76 C CE1 . TYR Pxp P 11 ? 14.993 -17.634 -13.096 1 33.23 ? 11 P 1
+ATOM 77 C CE2 . TYR Pxp P 11 ? 12.819 -17.385 -12.053 1 32.79 ? 11 P 1
+ATOM 78 C CZ . TYR Pxp P 11 ? 13.63 -17.904 -13.076 1 33.99 ? 11 P 1
+ATOM 79 O OH . TYR Pxp P 11 ? 13.082 -18.689 -14.069 1 34.46 ? 11 P 1
+ATOM 80 N N . PRO Pxp P 12 ? 13.599 -16.219 -7.367 1 36.03 ? 12 P 1
+ATOM 81 C CA . PRO Pxp P 12 ? 12.246 -16.699 -6.96 1 36.79 ? 12 P 1
+ATOM 82 C C . PRO Pxp P 12 ? 11.215 -16.762 -8.127 1 38.1 ? 12 P 1
+ATOM 83 O O . PRO Pxp P 12 ? 11.271 -15.925 -9.025 1 38.93 ? 12 P 1
+ATOM 84 C CB . PRO Pxp P 12 ? 11.786 -15.635 -5.943 1 36.66 ? 12 P 1
+ATOM 85 C CG . PRO Pxp P 12 ? 12.944 -14.685 -5.753 1 35.43 ? 12 P 1
+ATOM 86 C CD . PRO Pxp P 12 ? 13.893 -14.86 -6.861 1 35.61 ? 12 P 1
+ATOM 87 N N . GLY Pxp P 13 ? 10.304 -17.728 -8.198 1 38.84 ? 13 P 1
+ATOM 88 C CA . GLY Pxp P 13 ? 10.404 -19.055 -7.702 1 40.04 ? 13 P 1
+ATOM 89 C C . GLY Pxp P 13 ? 10.529 -19.778 -9.044 1 41.74 ? 13 P 1
+ATOM 90 O O . GLY Pxp P 13 ? 9.538 -20.045 -9.744 1 41.12 ? 13 P 1
+ATOM 91 N N . TYR Pxp P 14 ? 11.785 -19.998 -9.423 1 42.79 ? 14 P 1
+ATOM 92 C CA . TYR Pxp P 14 ? 12.2 -20.814 -10.544 1 44.02 ? 14 P 1
+ATOM 93 C C . TYR Pxp P 14 ? 11.412 -22.13 -10.661 1 45.8 ? 14 P 1
+ATOM 94 O O . TYR Pxp P 14 ? 11.119 -22.573 -11.776 1 45.61 ? 14 P 1
+ATOM 95 C CB . TYR Pxp P 14 ? 13.708 -21.069 -10.41 1 43.43 ? 14 P 1
+ATOM 96 C CG . TYR Pxp P 14 ? 14.272 -22.018 -11.424 1 42.03 ? 14 P 1
+ATOM 97 C CD1 . TYR Pxp P 14 ? 14.759 -21.555 -12.655 1 39.46 ? 14 P 1
+ATOM 98 C CD2 . TYR Pxp P 14 ? 14.317 -23.391 -11.156 1 40.01 ? 14 P 1
+ATOM 99 C CE1 . TYR Pxp P 14 ? 15.278 -22.446 -13.593 1 39.68 ? 14 P 1
+ATOM 100 C CE2 . TYR Pxp P 14 ? 14.818 -24.278 -12.078 1 40.15 ? 14 P 1
+ATOM 101 C CZ . TYR Pxp P 14 ? 15.297 -23.805 -13.292 1 39.88 ? 14 P 1
+ATOM 102 O OH . TYR Pxp P 14 ? 15.801 -24.712 -14.181 1 41.61 ? 14 P 1
+ATOM 103 N N . SER Pxp P 15 ? 11.063 -22.738 -9.524 1 47.54 ? 15 P 1
+ATOM 104 C CA . SER Pxp P 15 ? 10.242 -23.967 -9.514 1 50.25 ? 15 P 1
+ATOM 105 C C . SER Pxp P 15 ? 8.755 -23.7 -9.153 1 51.62 ? 15 P 1
+ATOM 106 O O . SER Pxp P 15 ? 8.22 -24.28 -8.184 1 51.98 ? 15 P 1
+ATOM 107 C CB . SER Pxp P 15 ? 10.845 -25.01 -8.554 1 50.19 ? 15 P 1
+ATOM 108 O OG . SER Pxp P 15 ? 12.25 -25.088 -8.693 1 51.16 ? 15 P 1
+ATOM 109 N N . GLN Pxp P 16 ? 8.104 -22.829 -9.936 1 52.69 ? 16 P 1
+ATOM 110 C CA . GLN Pxp P 16 ? 6.741 -22.348 -9.662 1 53.51 ? 16 P 1
+ATOM 111 C C . GLN Pxp P 16 ? 6.122 -21.694 -10.899 1 53.96 ? 16 P 1
+ATOM 112 O O . GLN Pxp P 16 ? 6.433 -22.066 -12.037 1 54.56 ? 16 P 1
+ATOM 113 C CB . GLN Pxp P 16 ? 6.747 -21.346 -8.497 1 53.62 ? 16 P 1
+ATOM 114 C CG . GLN Pxp P 16 ? 5.397 -21.088 -7.876 1 54.33 ? 16 P 1
+ATOM 115 C CD . GLN Pxp P 16 ? 4.921 -22.231 -6.999 1 56.16 ? 16 P 1
+ATOM 116 O OE1 . GLN Pxp P 16 ? 5.366 -22.383 -5.859 1 55.7 ? 16 P 1
+ATOM 117 N NE2 . GLN Pxp P 16 ? 3.999 -23.035 -7.523 1 57.16 ? 16 P 1

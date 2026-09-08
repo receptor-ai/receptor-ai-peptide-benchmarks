@@ -1,0 +1,149 @@
+data_5CS2_BA
+_entry.id '5CS2_BA'
+
+_cell.entry_id '5CS2_BA'
+_cell.length_a 45.953
+_cell.length_b 45.953
+_cell.length_c 138.44
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 120
+
+_symmetry.entry_id '5CS2_BA'
+_symmetry.space_group_name_H-M 'P 32 2 1'
+_symmetry.Int_Tables_number 154
+
+loop_
+_entity.id
+_entity.type
+P polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+P polypeptide(L) P ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+54C .
+ALA .
+MLE .
+VAL .
+WLU .
+WPA .
+WVL .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+Pxp P
+
+
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+HETATM 1 C CA . 54C Pxp P 1 ? 31.696 -33.709 -2.549 0.25 27.51 ? 1 P 1
+HETATM 2 C CB . 54C Pxp P 1 ? 32.485 -33.385 -3.841 0.25 28.42 ? 1 P 1
+HETATM 3 C CG . 54C Pxp P 1 ? 32.578 -34.51 -4.843 0.25 30.03 ? 1 P 1
+HETATM 4 N N . 54C Pxp P 1 ? 31.807 -32.534 -1.684 0.25 25.34 ? 1 P 1
+HETATM 5 C C . 54C Pxp P 1 ? 32.123 -35.01 -1.9 0.25 27.94 ? 1 P 1
+HETATM 6 O O . 54C Pxp P 1 ? 33.209 -34.946 -1.367 0.25 24.92 ? 1 P 1
+HETATM 7 C CD1 . 54C Pxp P 1 ? 31.853 -34.658 -5.953 0.25 31.12 ? 1 P 1
+HETATM 8 N NE2 . 54C Pxp P 1 ? 32.278 -35.682 -6.66 0.25 33.37 ? 1 P 1
+HETATM 9 C C1 . 54C Pxp P 1 ? 31.624 -36.116 -7.913 0.25 37.48 ? 1 P 1
+HETATM 10 C C2 . 54C Pxp P 1 ? 30.545 -35.098 -8.393 0.25 38.25 ? 1 P 1
+HETATM 11 C C3 . 54C Pxp P 1 ? 31.068 -37.555 -7.729 0.25 37.18 ? 1 P 1
+HETATM 12 C CE2 . 54C Pxp P 1 ? 33.383 -36.224 -6.088 0.25 32.2 ? 1 P 1
+HETATM 13 C CD2 . 54C Pxp P 1 ? 33.666 -35.549 -4.908 0.25 31.12 ? 1 P 1
+HETATM 14 C CE3 . 54C Pxp P 1 ? 34.768 -35.83 -4.103 0.25 30.52 ? 1 P 1
+HETATM 15 C CZ3 . 54C Pxp P 1 ? 35.57 -36.913 -4.49 0.25 30.77 ? 1 P 1
+HETATM 16 C C70 . 54C Pxp P 1 ? 35.281 -37.639 -5.652 0.25 30.91 ? 1 P 1
+HETATM 17 C CH2 . 54C Pxp P 1 ? 34.186 -37.31 -6.462 0.25 31.46 ? 1 P 1
+HETATM 18 O OB . 54C Pxp P 1 ? 31.975 -32.174 -4.423 0.25 28.54 ? 1 P 1
+HETATM 19 C C4 . 54C Pxp P 1 ? 32.698 -36.066 -9.04 0.25 40.27 ? 1 P 1
+HETATM 20 C C5 . 54C Pxp P 1 ? 33.161 -34.608 -9.451 0.25 40.55 ? 1 P 1
+HETATM 21 O O6 . 54C Pxp P 1 ? 32.399 -35.462 -10.268 0.25 41.56 ? 1 P 1
+HETATM 22 N N . WLU Pxp P 2 ? 31.377 -36.155 -1.872 0.25 32.27 ? 2 P 1
+HETATM 23 C CN . WLU Pxp P 2 ? 31.933 -37.345 -1.217 0.25 33.34 ? 2 P 1
+HETATM 24 C CA . WLU Pxp P 2 ? 30.066 -36.256 -2.546 0.25 35.87 ? 2 P 1
+HETATM 25 C CB . WLU Pxp P 2 ? 29.964 -37.242 -3.757 0.25 37.74 ? 2 P 1
+HETATM 26 C CG . WLU Pxp P 2 ? 28.533 -37.561 -4.304 0.25 37.83 ? 2 P 1
+HETATM 27 C CG1 . WLU Pxp P 2 ? 28.557 -38.856 -5.175 0.25 39.08 ? 2 P 1
+HETATM 28 O O4 . WLU Pxp P 2 ? 27.3 -38.998 -5.866 0.25 39.79 ? 2 P 1
+HETATM 29 C CG2 . WLU Pxp P 2 ? 27.948 -36.399 -5.16 0.25 36.97 ? 2 P 1
+HETATM 30 C C . WLU Pxp P 2 ? 29.053 -36.634 -1.487 0.25 37.11 ? 2 P 1
+HETATM 31 O O . WLU Pxp P 2 ? 28.607 -37.768 -1.502 0.25 37.83 ? 2 P 1
+ATOM 32 N N . ALA Pxp P 3 ? 28.649 -35.739 -0.557 0.25 38 ? 3 P 1
+ATOM 33 C CA . ALA Pxp P 3 ? 27.676 -36.193 0.44 0.25 36.78 ? 3 P 1
+ATOM 34 C C . ALA Pxp P 3 ? 26.691 -35.111 0.831 0.25 37.05 ? 3 P 1
+ATOM 35 O O . ALA Pxp P 3 ? 25.675 -35.48 1.398 0.25 38.01 ? 3 P 1
+ATOM 36 C CB . ALA Pxp P 3 ? 28.406 -36.695 1.714 0.25 34.99 ? 3 P 1
+HETATM 37 N N . WPA Pxp P 4 ? 27.003 -33.813 0.552 0.25 36.46 ? 4 P 1
+HETATM 38 C CA . WPA Pxp P 4 ? 26.138 -32.672 0.895 0.25 35.82 ? 4 P 1
+HETATM 39 C C . WPA Pxp P 4 ? 26.435 -31.517 -0.042 0.25 34.55 ? 4 P 1
+HETATM 40 C CB . WPA Pxp P 4 ? 26.303 -32.163 2.359 0.25 37.38 ? 4 P 1
+HETATM 41 O OB . WPA Pxp P 4 ? 27.632 -31.621 2.506 0.25 37.48 ? 4 P 1
+HETATM 42 C CB1 . WPA Pxp P 4 ? 27.695 -30.528 3.441 0.25 38.28 ? 4 P 1
+HETATM 43 C CG . WPA Pxp P 4 ? 26.036 -33.238 3.417 0.25 38.84 ? 4 P 1
+HETATM 44 C CD1 . WPA Pxp P 4 ? 27.086 -34.041 3.883 0.25 40.18 ? 4 P 1
+HETATM 45 C CE1 . WPA Pxp P 4 ? 26.857 -35.012 4.862 0.25 40.62 ? 4 P 1
+HETATM 46 C CZ . WPA Pxp P 4 ? 25.57 -35.18 5.376 0.25 41.16 ? 4 P 1
+HETATM 47 C CE2 . WPA Pxp P 4 ? 24.521 -34.373 4.92 0.25 40.92 ? 4 P 1
+HETATM 48 C CD2 . WPA Pxp P 4 ? 24.752 -33.4 3.945 0.25 39.05 ? 4 P 1
+HETATM 49 O O . WPA Pxp P 4 ? 27.34 -31.627 -0.856 0.25 34.17 ? 4 P 1
+ATOM 50 N N . VAL Pxp P 5 ? 25.697 -30.388 0.089 0.25 34.67 ? 5 P 1
+ATOM 51 C CA . VAL Pxp P 5 ? 25.935 -29.199 -0.74 0.25 34.15 ? 5 P 1
+ATOM 52 C C . VAL Pxp P 5 ? 26.748 -28.245 0.124 0.25 33.82 ? 5 P 1
+ATOM 53 O O . VAL Pxp P 5 ? 26.168 -27.882 1.13 0.25 33.08 ? 5 P 1
+ATOM 54 C CB . VAL Pxp P 5 ? 24.631 -28.546 -1.308 0.25 33.86 ? 5 P 1
+ATOM 55 C CG1 . VAL Pxp P 5 ? 24.938 -27.233 -2.086 0.25 33.5 ? 5 P 1
+ATOM 56 C CG2 . VAL Pxp P 5 ? 23.833 -29.521 -2.224 0.25 35.41 ? 5 P 1
+HETATM 57 N N . MLE Pxp P 6 ? 28.039 -27.896 -0.155 0.25 33.79 ? 6 P 1
+HETATM 58 C CN . MLE Pxp P 6 ? 28.77 -27.008 0.753 0.25 33.98 ? 6 P 1
+HETATM 59 C CA . MLE Pxp P 6 ? 28.722 -28.379 -1.37 0.25 35.31 ? 6 P 1
+HETATM 60 C CB . MLE Pxp P 6 ? 28.926 -27.535 -2.674 0.25 35.52 ? 6 P 1
+HETATM 61 C CG . MLE Pxp P 6 ? 29.398 -28.33 -3.93 0.25 35.22 ? 6 P 1
+HETATM 62 C CD1 . MLE Pxp P 6 ? 28.309 -29.349 -4.364 0.25 34.46 ? 6 P 1
+HETATM 63 C CD2 . MLE Pxp P 6 ? 29.765 -27.414 -5.121 0.25 33.71 ? 6 P 1
+HETATM 64 C C . MLE Pxp P 6 ? 30.044 -29.026 -0.977 0.25 35.9 ? 6 P 1
+HETATM 65 O O . MLE Pxp P 6 ? 31.102 -28.461 -1.217 0.25 37.18 ? 6 P 1
+HETATM 66 C C . WVL Pxp P 7 ? 30.996 -32.285 -0.634 0.25 27.46 ? 7 P 1
+HETATM 67 C CA . WVL Pxp P 7 ? 31.166 -30.966 0.087 0.25 29.5 ? 7 P 1
+HETATM 68 O O . WVL Pxp P 7 ? 30.079 -33.021 -0.291 0.25 28.8 ? 7 P 1
+HETATM 69 C CB . WVL Pxp P 7 ? 31.244 -31.16 1.629 0.25 28 ? 7 P 1
+HETATM 70 C CG2 . WVL Pxp P 7 ? 31.376 -29.789 2.351 0.25 27.07 ? 7 P 1
+HETATM 71 C CG1 . WVL Pxp P 7 ? 32.434 -32 2.055 0.25 29.86 ? 7 P 1
+HETATM 72 C CD . WVL Pxp P 7 ? 32.35 -33.263 2.5 0.25 31.53 ? 7 P 1
+HETATM 73 C CE1 . WVL Pxp P 7 ? 31.026 -33.993 2.581 0.25 32.61 ? 7 P 1
+HETATM 74 C CE2 . WVL Pxp P 7 ? 33.575 -34.041 2.933 0.25 32.28 ? 7 P 1
+HETATM 75 N N . WVL Pxp P 7 ? 29.981 -30.213 -0.333 0.25 33.67 ? 7 P 1

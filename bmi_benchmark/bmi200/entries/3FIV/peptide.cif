@@ -1,0 +1,169 @@
+data_3FIV
+_entry.id 3FIV
+
+_cell.entry_id 3FIV
+_cell.length_a 50.89
+_cell.length_b 50.89
+_cell.length_c 74.53
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 120
+
+_symmetry.entry_id 3FIV
+_symmetry.space_group_name_H-M 'P 31'
+_symmetry.Int_Tables_number 144
+
+loop_
+_entity.id
+_entity.type
+J polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+J polypeptide(L) J ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ACE .
+ALA .
+ALN .
+GLU .
+LEU .
+NH2 .
+VAL .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+D J
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.pdbx_ptnr1_label_alt_id
+_struct_conn.ptnr1_auth_asym_id
+_struct_conn.ptnr1_auth_seq_id
+_struct_conn.pdbx_ptnr1_PDB_ins_code
+_struct_conn.ptnr1_symmetry
+_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_ptnr2_label_alt_id
+_struct_conn.ptnr2_auth_asym_id
+_struct_conn.ptnr2_auth_seq_id
+_struct_conn.pdbx_ptnr2_PDB_ins_code
+_struct_conn.ptnr2_symmetry
+_struct_conn.details
+_struct_conn.pdbx_dist_value
+covale9 covale D ACE 1 C ? J 201 ? 1_555 D ALN 2 N ? J 202 ? 1_555 ? 1.3233
+covale10 covale D ALN 2 C ? J 202 ? 1_555 D VAL 3 N ? J 203 ? 1_555 ? 1.3295
+covale11 covale D GLU 6 C ? J 206 ? 1_555 D ALN 7 N ? J 207 ? 1_555 ? 1.3240
+covale12 covale D ALN 7 C ? J 207 ? 1_555 D NH2 8 N ? J 208 ? 1_555 ? 1.3264
+
+loop_
+_struct_conn_type.id
+covale
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+HETATM 1 C C . ACE D J 1 ? 23.969 -5.09 17.273 0.5 9.18 ? 201 J 1
+HETATM 2 O O . ACE D J 1 ? 25.048 -5.04 17.839 0.5 13.38 ? 201 J 1
+HETATM 3 C CH3 . ACE D J 1 ? 23.638 -6.225 16.319 0.5 6.78 ? 201 J 1
+HETATM 4 N N . ALN D J 2 ? 23.044 -4.158 17.437 0.5 8.85 ? 202 J 1
+HETATM 5 C CA . ALN D J 2 ? 23.259 -3.033 18.33 0.5 12.09 ? 202 J 1
+HETATM 6 C C . ALN D J 2 ? 22.777 -3.462 19.699 0.5 9.65 ? 202 J 1
+HETATM 7 O O . ALN D J 2 ? 21.811 -4.205 19.8 0.5 10.43 ? 202 J 1
+HETATM 8 C CB . ALN D J 2 ? 22.54 -1.77 17.787 0.5 12.33 ? 202 J 1
+HETATM 9 C CG1 . ALN D J 2 ? 23.132 -1.271 16.471 0.5 22.7 ? 202 J 1
+HETATM 10 C CD1 . ALN D J 2 ? 24.202 -1.958 15.914 0.5 19.17 ? 202 J 1
+HETATM 11 C CE1 . ALN D J 2 ? 24.759 -1.579 14.721 0.5 25.9 ? 202 J 1
+HETATM 12 C CD2 . ALN D J 2 ? 22.623 -0.16 15.775 0.5 26.41 ? 202 J 1
+HETATM 13 C CE2 . ALN D J 2 ? 23.2 0.237 14.531 0.5 27.91 ? 202 J 1
+HETATM 14 C CZ1 . ALN D J 2 ? 24.273 -0.486 14.013 0.5 27.96 ? 202 J 1
+HETATM 15 C CG2 . ALN D J 2 ? 21.541 0.565 16.284 0.5 34.91 ? 202 J 1
+HETATM 16 C CD3 . ALN D J 2 ? 21.049 1.659 15.561 0.5 36.48 ? 202 J 1
+HETATM 17 C CE3 . ALN D J 2 ? 21.617 2.032 14.356 0.5 31.79 ? 202 J 1
+HETATM 18 C CZ2 . ALN D J 2 ? 22.683 1.338 13.834 0.5 27.83 ? 202 J 1
+ATOM 19 N N . VAL D J 3 ? 23.54 -3.118 20.732 0.5 12.69 ? 203 J 1
+ATOM 20 C CA . VAL D J 3 ? 23.193 -3.465 22.108 0.5 11.75 ? 203 J 1
+ATOM 21 C C . VAL D J 3 ? 23.478 -2.191 22.906 0.5 15.1 ? 203 J 1
+ATOM 22 O O . VAL D J 3 ? 24.295 -2.156 23.819 0.5 9.93 ? 203 J 1
+ATOM 23 C CB . VAL D J 3 ? 24.002 -4.695 22.609 0.5 15.47 ? 203 J 1
+ATOM 24 C CG1 . VAL D J 3 ? 23.427 -5.99 22.01 0.5 5.26 ? 203 J 1
+ATOM 25 C CG2 . VAL D J 3 ? 25.469 -4.578 22.195 0.5 21.76 ? 203 J 1
+ATOM 26 N N . LEU D J 4 ? 22.707 -1.165 22.569 0.5 11.31 ? 204 J 1
+ATOM 27 C CA . LEU D J 4 ? 22.828 0.176 23.103 0.5 13.73 ? 204 J 1
+ATOM 28 C C . LEU D J 4 ? 22.336 0.499 24.527 0.5 14.66 ? 204 J 1
+ATOM 29 O O . LEU D J 4 ? 21.693 1.522 24.769 0.5 16.2 ? 204 J 1
+ATOM 30 C CB . LEU D J 4 ? 22.275 1.16 22.048 0.5 7.38 ? 204 J 1
+ATOM 31 C CG . LEU D J 4 ? 22.988 0.986 20.693 0.5 8.9 ? 204 J 1
+ATOM 32 C CD1 . LEU D J 4 ? 22.42 1.863 19.568 0.5 4.14 ? 204 J 1
+ATOM 33 C CD2 . LEU D J 4 ? 24.469 1.297 20.868 0.5 10.31 ? 204 J 1
+ATOM 34 N N . ALA D J 5 A 22.709 -0.336 25.485 0.5 16.53 ? 205 J 1
+ATOM 35 C CA . ALA D J 5 A 22.341 -0.087 26.874 0.5 13.39 ? 205 J 1
+ATOM 36 C C . ALA D J 5 A 23.229 1.066 27.328 0.5 11.16 ? 205 J 1
+ATOM 37 O O . ALA D J 5 A 24.327 1.244 26.819 0.5 11.76 ? 205 J 1
+ATOM 38 C CB . ALA D J 5 A 22.604 -1.316 27.723 0.5 8.14 ? 205 J 1
+ATOM 39 N N . GLU D J 6 ? 22.744 1.848 28.278 0.5 15.63 ? 206 J 1
+ATOM 40 C CA . GLU D J 6 ? 23.468 2.985 28.799 0.5 14.33 ? 206 J 1
+ATOM 41 C C . GLU D J 6 ? 23.098 3.067 30.271 0.5 15.3 ? 206 J 1
+ATOM 42 O O . GLU D J 6 ? 21.92 3.053 30.641 0.5 13.96 ? 206 J 1
+ATOM 43 C CB . GLU D J 6 ? 23.053 4.258 28.045 0.5 17.61 ? 206 J 1
+ATOM 44 C CG . GLU D J 6 ? 23.786 5.545 28.432 0.5 20.89 ? 206 J 1
+ATOM 45 C CD . GLU D J 6 ? 23.321 6.13 29.76 0.5 29.84 ? 206 J 1
+ATOM 46 O OE1 . GLU D J 6 ? 22.137 5.956 30.123 0.5 27.45 ? 206 J 1
+ATOM 47 O OE2 . GLU D J 6 ? 24.141 6.765 30.451 0.5 35.4 ? 206 J 1
+HETATM 48 N N . ALN D J 7 ? 24.124 3.147 31.104 0.5 14.14 ? 207 J 1
+HETATM 49 C CA . ALN D J 7 ? 23.954 3.215 32.534 0.5 15.34 ? 207 J 1
+HETATM 50 C C . ALN D J 7 ? 24.667 4.469 33.012 0.5 16.09 ? 207 J 1
+HETATM 51 O O . ALN D J 7 ? 25.851 4.617 32.674 0.5 18.78 ? 207 J 1
+HETATM 52 C CB . ALN D J 7 ? 24.511 1.911 33.147 0.5 20.05 ? 207 J 1
+HETATM 53 C CG1 . ALN D J 7 ? 23.638 0.704 32.864 0.5 17.29 ? 207 J 1
+HETATM 54 C CD1 . ALN D J 7 ? 22.326 0.73 33.294 0.5 20.71 ? 207 J 1
+HETATM 55 C CE1 . ALN D J 7 ? 21.462 -0.297 33.026 0.5 27.79 ? 207 J 1
+HETATM 56 C CD2 . ALN D J 7 ? 24.082 -0.417 32.131 0.5 19.73 ? 207 J 1
+HETATM 57 C CE2 . ALN D J 7 ? 23.188 -1.487 31.849 0.5 16.06 ? 207 J 1
+HETATM 58 C CZ1 . ALN D J 7 ? 21.874 -1.413 32.307 0.5 30.73 ? 207 J 1
+HETATM 59 C CG2 . ALN D J 7 ? 25.398 -0.492 31.662 0.5 19.48 ? 207 J 1
+HETATM 60 C CD3 . ALN D J 7 ? 25.802 -1.615 30.931 0.5 22.39 ? 207 J 1
+HETATM 61 C CE3 . ALN D J 7 ? 24.928 -2.652 30.664 0.5 19.33 ? 207 J 1
+HETATM 62 C CZ2 . ALN D J 7 ? 23.624 -2.599 31.118 0.5 21.85 ? 207 J 1
+HETATM 63 N N . NH2 D J 8 ? 24.003 5.419 33.657 0.5 12.64 ? 208 J 1
+
+_struct.title '3FIV: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
