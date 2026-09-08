@@ -101,4 +101,4 @@ If you use BMI-200 or BMI-MODES, please cite this benchmark. Machine-readable
 metadata is in [`CITATION.cff`](CITATION.cff). Plain text:
 
 > Receptor.AI, Inc. (2026). BMI-200 and BMI-MODES: peptide–protein binding-mode
-> identification benchmarks (Version 1.0.0). https://github.com/receptor-ai/peptide-benchmarks
+> identification benchmarks (Version 1.0.0). https://github.com/receptor-ai/receptor-ai-peptide-benchmarks

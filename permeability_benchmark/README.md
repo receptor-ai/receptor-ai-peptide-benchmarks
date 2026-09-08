@@ -159,7 +159,7 @@ in [`CITATION.cff`](CITATION.cff). Plain text:
 
 > Receptor.AI, Inc. (2026). Peptide passive-permeability benchmark on
 > CycPeptMPDB (Version 1.0.0).
-> https://github.com/receptor-ai/peptide-benchmarks
+> https://github.com/receptor-ai/receptor-ai-peptide-benchmarks
 
 ## Warnings
 
