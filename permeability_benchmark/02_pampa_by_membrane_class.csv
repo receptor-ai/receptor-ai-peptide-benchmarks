@@ -1,0 +1,7 @@
+merged_membrane_class,n_total,pooled_pearson_r,pooled_signed_r2
+lecithin/dodecane (1-2.5%),5691,+0.318,+0.101
+Chugai biomimetic (10% lecithin + 0.5% cholesterol + bile acid),878,-0.022,-0.001
+DOPC + hexadecane trilayer (BD/Corning Gentest),57,+0.708,+0.502
+undocumented (CycPeptMPDB N.D.),38,+0.405,+0.164
+pure hexadecane,26,+0.553,+0.306
+custom PC (Avanti 1.67% L-alpha-PC),10,+0.437,+0.191
