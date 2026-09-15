@@ -1371,5 +1371,35 @@
    }
   ],
   "utc": "2026-08-03T16:51:19Z"
+ },
+ "incomplete_residues": [
+  {
+   "chain": "D",
+   "seqid": 101,
+   "residue": "RIP",
+   "heavy_present": 8,
+   "heavy_expected": 9,
+   "missing_atoms": [
+    "O3"
+   ],
+   "kind": "sidechain_truncated"
+  }
+ ],
+ "fixed_geometry": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf"
+  ],
+  "n_rebuilt": 1,
+  "rebuilt_atoms": [
+   {
+    "comp": "RIP",
+    "seqid": 101,
+    "atom": "O3",
+    "element": "O"
+   }
+  ],
+  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+  "forcefield": "GAFF2 (antechamber gasteiger charges)"
  }
 }

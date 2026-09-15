@@ -81,5 +81,175 @@
  "site_id": "A_4EQJ",
  "site_type": "one_deposition",
  "tier": "1_same_molecule",
- "uniprot": "P03369"
+ "uniprot": "P03369",
+ "incomplete_residues__pose_01": [
+  {
+   "chain": "P",
+   "seqid": 3,
+   "residue": "GLU",
+   "heavy_present": 5,
+   "heavy_expected": 9,
+   "missing_atoms": [
+    "CD",
+    "CG",
+    "OE1",
+    "OE2"
+   ],
+   "kind": "sidechain_truncated"
+  },
+  {
+   "chain": "P",
+   "seqid": 8,
+   "residue": "ASP",
+   "heavy_present": 6,
+   "heavy_expected": 8,
+   "missing_atoms": [
+    "CG",
+    "OD1"
+   ],
+   "kind": "sidechain_truncated"
+  }
+ ],
+ "incomplete_residues__pose_02": [
+  {
+   "chain": "Q",
+   "seqid": 3,
+   "residue": "GLU",
+   "heavy_present": 5,
+   "heavy_expected": 9,
+   "missing_atoms": [
+    "CD",
+    "CG",
+    "OE1",
+    "OE2"
+   ],
+   "kind": "sidechain_truncated"
+  },
+  {
+   "chain": "Q",
+   "seqid": 8,
+   "residue": "ASP",
+   "heavy_present": 6,
+   "heavy_expected": 8,
+   "missing_atoms": [
+    "CG",
+    "OD1"
+   ],
+   "kind": "sidechain_truncated"
+  }
+ ],
+ "covalent_junctions__pose_01": [
+  {
+   "chain": "P",
+   "seqid": 8,
+   "residue": "ASP",
+   "atom": "OD2",
+   "bonded_to": "TYR.OH",
+   "distance_A": 1.42
+  }
+ ],
+ "fixed_geometry__pose_01": {
+  "files": [
+   "pose_01_fixed.cif",
+   "pose_01_fixed.sdf"
+  ],
+  "n_rebuilt": 6,
+  "rebuilt_atoms": [
+   {
+    "comp": "GLU",
+    "seqid": 3,
+    "atom": "CD",
+    "element": "C"
+   },
+   {
+    "comp": "GLU",
+    "seqid": 3,
+    "atom": "CG",
+    "element": "C"
+   },
+   {
+    "comp": "GLU",
+    "seqid": 3,
+    "atom": "OE1",
+    "element": "O"
+   },
+   {
+    "comp": "GLU",
+    "seqid": 3,
+    "atom": "OE2",
+    "element": "O"
+   },
+   {
+    "comp": "ASP",
+    "seqid": 8,
+    "atom": "CG",
+    "element": "C"
+   },
+   {
+    "comp": "ASP",
+    "seqid": 8,
+    "atom": "OD1",
+    "element": "O"
+   }
+  ],
+  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+  "forcefield": "GAFF2 (antechamber gasteiger charges)"
+ },
+ "covalent_junctions__pose_02": [
+  {
+   "chain": "Q",
+   "seqid": 8,
+   "residue": "ASP",
+   "atom": "OD2",
+   "bonded_to": "TYR.OH",
+   "distance_A": 0.5
+  }
+ ],
+ "fixed_geometry__pose_02": {
+  "files": [
+   "pose_02_fixed.cif",
+   "pose_02_fixed.sdf"
+  ],
+  "n_rebuilt": 6,
+  "rebuilt_atoms": [
+   {
+    "comp": "GLU",
+    "seqid": 3,
+    "atom": "CD",
+    "element": "C"
+   },
+   {
+    "comp": "GLU",
+    "seqid": 3,
+    "atom": "CG",
+    "element": "C"
+   },
+   {
+    "comp": "GLU",
+    "seqid": 3,
+    "atom": "OE1",
+    "element": "O"
+   },
+   {
+    "comp": "GLU",
+    "seqid": 3,
+    "atom": "OE2",
+    "element": "O"
+   },
+   {
+    "comp": "ASP",
+    "seqid": 8,
+    "atom": "CG",
+    "element": "C"
+   },
+   {
+    "comp": "ASP",
+    "seqid": 8,
+    "atom": "OD1",
+    "element": "O"
+   }
+  ],
+  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+  "forcefield": "GAFF2 (antechamber gasteiger charges)"
+ }
 }

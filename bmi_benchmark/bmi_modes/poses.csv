@@ -51,8 +51,6 @@ A_8Q7K,2,D/-,8Q7K,PDB 8Q7K subchain D,2,6.21,Q,80,9,1.0,-,-,EDO,receptor_02.cif,
 A_5MTW,1,F/-,5MTW,PDB 5MTW subchain F,1,0.0,P,108,12,0.98,-,-,DMS,receptor_01.cif,"C,D,B",413,0.0,0.0,
 A_5MTW,2,E/-,5MTW,PDB 5MTW subchain E,1,0.73,Q,108,12,0.97,-,-,DMS,receptor_02.cif,"C,A,B",415,0.43,0.46,27.0
 A_5MTW,3,G/-,5MTW,PDB 5MTW subchain G,2,5.74,R,102,12,0.92,-,-,-,receptor_03.cif,"C,D,A",412,1.14,1.96,16.0
-A_2WP2,1,D/-,2WP2,PDB 2WP2 subchain D,1,0.0,P,73,12,1.0,-,-,-,receptor_01.cif,B,110,0.0,0.0,
-A_2WP2,2,C/-,2WP2,PDB 2WP2 subchain C,2,5.53,Q,58,10,1.0,-,-,-,receptor_02.cif,A,114,0.27,0.28,14.0
 A_5UN8,1,G/-,5UN8,PDB 5UN8 subchain G,1,0.0,P,67,9,1.0,NAG,NAG,-,receptor_01.cif,"A,C,G",854,0.0,0.0,
 A_5UN8,2,E/-,5UN8,PDB 5UN8 subchain E,2,4.22,Q,56,7,1.0,NAG,NAG,-,receptor_02.cif,"A,C,E",854,0.83,0.73,11.0
 A_5UN8,3,F/-,5UN8,PDB 5UN8 subchain F,2,5.33,R,63,8,1.0,NAG,NAG,-,receptor_03.cif,"B,D,F",856,0.8,0.79,10.0

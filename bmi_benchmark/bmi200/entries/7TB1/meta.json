@@ -1021,5 +1021,23 @@
   "risky_removal_cut_A": 4.0,
   "risky_removals": [],
   "utc": "2026-08-03T16:47:21Z"
- }
+ },
+ "covalent_junctions": [
+  {
+   "chain": "D",
+   "seqid": 2,
+   "residue": "CYS",
+   "atom": "SG",
+   "bonded_to": "I1J.S5",
+   "distance_A": 0.67
+  },
+  {
+   "chain": "D",
+   "seqid": 7,
+   "residue": "CYS",
+   "atom": "SG",
+   "bonded_to": "I1J.S6",
+   "distance_A": 0.32
+  }
+ ]
 }

@@ -1052,5 +1052,15 @@
    "problems": [],
    "ring_closures_and_staples_survive": true
   }
- }
+ },
+ "covalent_junctions": [
+  {
+   "chain": "F",
+   "seqid": 1,
+   "residue": "AMV",
+   "atom": "OXT",
+   "bonded_to": "ALA.N",
+   "distance_A": 0.06
+  }
+ ]
 }

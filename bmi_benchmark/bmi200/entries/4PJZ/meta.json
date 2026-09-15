@@ -1095,5 +1095,15 @@
    "problems": [],
    "ring_closures_and_staples_survive": true
   }
- }
+ },
+ "covalent_junctions": [
+  {
+   "chain": "B",
+   "seqid": 3,
+   "residue": "3FG",
+   "atom": "OXT",
+   "bonded_to": "GHP.N",
+   "distance_A": 0.03
+  }
+ ]
 }

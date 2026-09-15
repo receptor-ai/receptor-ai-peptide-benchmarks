@@ -1225,5 +1225,191 @@
    "problems": [],
    "ring_closures_and_staples_survive": true
   }
+ },
+ "incomplete_residues": [
+  {
+   "chain": "D",
+   "seqid": 399,
+   "residue": "GLN",
+   "heavy_present": 4,
+   "heavy_expected": 9,
+   "missing_atoms": [
+    "CB",
+    "CD",
+    "CG",
+    "NE2",
+    "OE1"
+   ],
+   "kind": "sidechain_truncated"
+  },
+  {
+   "chain": "D",
+   "seqid": 400,
+   "residue": "HIS",
+   "heavy_present": 4,
+   "heavy_expected": 10,
+   "missing_atoms": [
+    "CB",
+    "CD2",
+    "CE1",
+    "CG",
+    "ND1",
+    "NE2"
+   ],
+   "kind": "sidechain_truncated"
+  },
+  {
+   "chain": "D",
+   "seqid": 401,
+   "residue": "HIS",
+   "heavy_present": 6,
+   "heavy_expected": 10,
+   "missing_atoms": [
+    "CD2",
+    "CE1",
+    "ND1",
+    "NE2"
+   ],
+   "kind": "sidechain_truncated"
+  },
+  {
+   "chain": "D",
+   "seqid": 406,
+   "residue": "LYS",
+   "heavy_present": 5,
+   "heavy_expected": 9,
+   "missing_atoms": [
+    "CD",
+    "CE",
+    "CG",
+    "NZ"
+   ],
+   "kind": "sidechain_truncated"
+  }
+ ],
+ "fixed_geometry": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf"
+  ],
+  "n_rebuilt": 19,
+  "rebuilt_atoms": [
+   {
+    "comp": "GLN",
+    "seqid": 399,
+    "atom": "CB",
+    "element": "C"
+   },
+   {
+    "comp": "GLN",
+    "seqid": 399,
+    "atom": "CD",
+    "element": "C"
+   },
+   {
+    "comp": "GLN",
+    "seqid": 399,
+    "atom": "CG",
+    "element": "C"
+   },
+   {
+    "comp": "GLN",
+    "seqid": 399,
+    "atom": "NE2",
+    "element": "N"
+   },
+   {
+    "comp": "GLN",
+    "seqid": 399,
+    "atom": "OE1",
+    "element": "O"
+   },
+   {
+    "comp": "HIS",
+    "seqid": 400,
+    "atom": "CB",
+    "element": "C"
+   },
+   {
+    "comp": "HIS",
+    "seqid": 400,
+    "atom": "CD2",
+    "element": "C"
+   },
+   {
+    "comp": "HIS",
+    "seqid": 400,
+    "atom": "CE1",
+    "element": "C"
+   },
+   {
+    "comp": "HIS",
+    "seqid": 400,
+    "atom": "CG",
+    "element": "C"
+   },
+   {
+    "comp": "HIS",
+    "seqid": 400,
+    "atom": "ND1",
+    "element": "N"
+   },
+   {
+    "comp": "HIS",
+    "seqid": 400,
+    "atom": "NE2",
+    "element": "N"
+   },
+   {
+    "comp": "HIS",
+    "seqid": 401,
+    "atom": "CD2",
+    "element": "C"
+   },
+   {
+    "comp": "HIS",
+    "seqid": 401,
+    "atom": "CE1",
+    "element": "C"
+   },
+   {
+    "comp": "HIS",
+    "seqid": 401,
+    "atom": "ND1",
+    "element": "N"
+   },
+   {
+    "comp": "HIS",
+    "seqid": 401,
+    "atom": "NE2",
+    "element": "N"
+   },
+   {
+    "comp": "LYS",
+    "seqid": 406,
+    "atom": "CD",
+    "element": "C"
+   },
+   {
+    "comp": "LYS",
+    "seqid": 406,
+    "atom": "CE",
+    "element": "C"
+   },
+   {
+    "comp": "LYS",
+    "seqid": 406,
+    "atom": "CG",
+    "element": "C"
+   },
+   {
+    "comp": "LYS",
+    "seqid": 406,
+    "atom": "NZ",
+    "element": "N"
+   }
+  ],
+  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+  "forcefield": "GAFF2 (antechamber gasteiger charges)"
  }
 }

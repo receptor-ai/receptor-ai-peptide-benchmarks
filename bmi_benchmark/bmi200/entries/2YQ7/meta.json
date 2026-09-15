@@ -1260,5 +1260,15 @@
    "checks_failed": [],
    "ok": true
   }
- }
+ },
+ "covalent_junctions": [
+  {
+   "chain": "B",
+   "seqid": 154,
+   "residue": "GLU",
+   "atom": "OE2",
+   "bonded_to": "LYS.NZ",
+   "distance_A": 0.22
+  }
+ ]
 }

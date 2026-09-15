@@ -1114,5 +1114,23 @@
    "problems": [],
    "ring_closures_and_staples_survive": true
   }
- }
+ },
+ "covalent_junctions": [
+  {
+   "chain": "B",
+   "seqid": 4,
+   "residue": "GLU",
+   "atom": "OE2",
+   "bonded_to": "M9E.N4",
+   "distance_A": 0.25
+  },
+  {
+   "chain": "B",
+   "seqid": 11,
+   "residue": "GLU",
+   "atom": "OE2",
+   "bonded_to": "M9E.N3",
+   "distance_A": 0.35
+  }
+ ]
 }

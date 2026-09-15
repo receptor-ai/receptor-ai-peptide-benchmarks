@@ -18,15 +18,15 @@ does not copy these annotations from the PDB deposition.
 
 | Property | BMI-200 | BMI-MODES |
 |---|---|---|
-| Type | Diversity dataset. 202 distinct peptide–protein complexes. | Mode-discrimination dataset. 31 pockets. Each pocket holds 2 or more experimentally supported poses of one peptide. |
+| Type | Diversity dataset. 202 distinct peptide–protein complexes. | Mode-discrimination dataset. 30 pockets. Each pocket holds 2 or more experimentally supported poses of one peptide. |
 | Unit | One entry is one pocket with one pose. | One site is one pocket with 2 to 5 poses. |
 | Selection rule | Distinct peptide sequences, spread over topology, size, and structure. | One peptide sequence, placed two or more ways in one pocket. |
-| Cases | 202 entries | 31 sites |
-| Poses | 202. One per entry. | 73 |
-| Distinct receptors (UniProt) | 126 | 28 |
-| Distinct peptide sequences | 202 | 31 |
+| Cases | 202 entries | 30 sites |
+| Poses | 202. One per entry. | 71 |
+| Distinct receptors (UniProt) | 126 | 27 |
+| Distinct peptide sequences | 202 | 30 |
 | Resolution (Å) | 0.85–3.10. Median 1.78. | 1.10–2.50. Median 1.80. |
-| Cyclic / linear (measured) | 102 / 100 | 1 / 30 |
+| Cyclic / linear (measured) | 102 / 100 | 1 / 29 |
 
 The two datasets use opposite selection rules. BMI-200 requires a distinct peptide sequence in every
 entry. BMI-MODES requires the same peptide sequence in two or more poses at one site. The two datasets
@@ -62,6 +62,23 @@ every structure the same way:
 
 The coordinates are in mmCIF format. For every entry, `peptide.cif` plus `receptor.cif` equals
 `complex.cif`, atom for atom.
+
+**Connectivity.** Each `peptide.cif`/`pose_XX.cif` carries a `_chem_comp_bond` block (intra-residue
+bonds from the RCSB CCD) and a `_struct_conn` block (inter-residue links, assigned from geometry and
+valence-checked). A companion `.sdf` beside each holds the same heavy atoms with CCD bond orders and
+crystal stereochemistry, for RDKit/OpenBabel. Verified bond-for-bond against an independent BMI-200
+assignment.
+
+**Completeness.** `meta.json` distinguishes two cases of a residue missing heavy atoms:
+
+- `incomplete_residues` — genuine crystallographic disorder (27 structures; mostly Lys/Arg/Glu/Asp/Ser
+  tips). Each has a companion `peptide_fixed.cif`/`.sdf` (`pose_XX_fixed.*` in BMI-MODES): the missing
+  atoms are rebuilt from the CCD and relaxed by a restrained GAFF2 minimisation with every crystal atom
+  and the receptor frozen, so the crystallographic pose is unchanged. `meta.json.fixed_geometry` lists
+  the rebuilt atoms.
+- `covalent_junctions` — 11 structures where a carboxylate O, terminal OXT, or Cys-S looks missing but
+  is a covalent-bond position (ester, isopeptide lactam, backbone amide, or thioether staple); the
+  residue is fully modelled.
 
 **Topology.** This project classifies each peptide as cyclic or linear from the ring topology of its
 coordinates, not from the deposited annotation. The deposited annotation disagrees with the coordinates

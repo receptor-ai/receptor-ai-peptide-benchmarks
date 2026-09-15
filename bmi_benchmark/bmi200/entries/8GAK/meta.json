@@ -1396,5 +1396,104 @@
    "checks_failed": [],
    "ok": true
   }
+ },
+ "incomplete_residues": [
+  {
+   "chain": "B",
+   "seqid": 3,
+   "residue": "SER",
+   "heavy_present": 5,
+   "heavy_expected": 6,
+   "missing_atoms": [
+    "OG"
+   ],
+   "kind": "sidechain_truncated"
+  },
+  {
+   "chain": "B",
+   "seqid": 4,
+   "residue": "LYS",
+   "heavy_present": 5,
+   "heavy_expected": 9,
+   "missing_atoms": [
+    "CD",
+    "CE",
+    "CG",
+    "NZ"
+   ],
+   "kind": "sidechain_truncated"
+  },
+  {
+   "chain": "B",
+   "seqid": 14,
+   "residue": "LYS",
+   "heavy_present": 6,
+   "heavy_expected": 9,
+   "missing_atoms": [
+    "CD",
+    "CE",
+    "NZ"
+   ],
+   "kind": "sidechain_truncated"
+  }
+ ],
+ "fixed_geometry": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf"
+  ],
+  "n_rebuilt": 8,
+  "rebuilt_atoms": [
+   {
+    "comp": "SER",
+    "seqid": 3,
+    "atom": "OG",
+    "element": "O"
+   },
+   {
+    "comp": "LYS",
+    "seqid": 4,
+    "atom": "CD",
+    "element": "C"
+   },
+   {
+    "comp": "LYS",
+    "seqid": 4,
+    "atom": "CE",
+    "element": "C"
+   },
+   {
+    "comp": "LYS",
+    "seqid": 4,
+    "atom": "CG",
+    "element": "C"
+   },
+   {
+    "comp": "LYS",
+    "seqid": 4,
+    "atom": "NZ",
+    "element": "N"
+   },
+   {
+    "comp": "LYS",
+    "seqid": 14,
+    "atom": "CD",
+    "element": "C"
+   },
+   {
+    "comp": "LYS",
+    "seqid": 14,
+    "atom": "CE",
+    "element": "C"
+   },
+   {
+    "comp": "LYS",
+    "seqid": 14,
+    "atom": "NZ",
+    "element": "N"
+   }
+  ],
+  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+  "forcefield": "GAFF2 (antechamber gasteiger charges)"
  }
 }

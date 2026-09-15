@@ -1272,5 +1272,33 @@
    "checks_failed": [],
    "ok": true
   }
- }
+ },
+ "incomplete_residues": [
+  {
+   "chain": "B",
+   "seqid": 101,
+   "residue": "JFF",
+   "heavy_present": 16,
+   "heavy_expected": 32,
+   "missing_atoms": [
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "CL1",
+    "N1",
+    "N2",
+    "N3",
+    "O1",
+    "O2",
+    "O3",
+    "O4",
+    "S1"
+   ],
+   "kind": "sidechain_truncated"
+  }
+ ]
 }

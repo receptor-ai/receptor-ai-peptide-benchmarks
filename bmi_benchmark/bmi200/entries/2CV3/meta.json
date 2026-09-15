@@ -1042,5 +1042,31 @@
    "checks_failed": [],
    "ok": true
   }
- }
+ },
+ "covalent_junctions": [
+  {
+   "chain": "B",
+   "seqid": 263,
+   "residue": "ASP",
+   "atom": "OD2",
+   "bonded_to": "THR.OG1",
+   "distance_A": 0.09
+  },
+  {
+   "chain": "B",
+   "seqid": 265,
+   "residue": "ASP",
+   "atom": "OD2",
+   "bonded_to": "SER.OG",
+   "distance_A": 0.04
+  },
+  {
+   "chain": "B",
+   "seqid": 266,
+   "residue": "ASP",
+   "atom": "OD2",
+   "bonded_to": "LYS.NZ",
+   "distance_A": 0.16
+  }
+ ]
 }

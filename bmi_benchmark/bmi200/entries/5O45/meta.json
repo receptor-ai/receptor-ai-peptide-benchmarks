@@ -1090,5 +1090,15 @@
   "risky_removal_cut_A": 4.0,
   "risky_removals": [],
   "utc": "2026-08-03T16:47:11Z"
- }
+ },
+ "covalent_junctions": [
+  {
+   "chain": "B",
+   "seqid": 13,
+   "residue": "CCS",
+   "atom": "OZ2",
+   "bonded_to": "PHE.N",
+   "distance_A": 0.08
+  }
+ ]
 }

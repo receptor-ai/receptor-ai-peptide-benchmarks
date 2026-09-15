@@ -81,5 +81,70 @@
  "site_id": "A_2AOF",
  "site_type": "one_deposition",
  "tier": "1_same_molecule",
- "uniprot": "P04587"
+ "uniprot": "P04587",
+ "incomplete_residues__pose_02": [
+  {
+   "chain": "Q",
+   "seqid": 309,
+   "residue": "ARG",
+   "heavy_present": 5,
+   "heavy_expected": 11,
+   "missing_atoms": [
+    "CD",
+    "CG",
+    "CZ",
+    "NE",
+    "NH1",
+    "NH2"
+   ],
+   "kind": "sidechain_truncated"
+  }
+ ],
+ "fixed_geometry__pose_02": {
+  "files": [
+   "pose_02_fixed.cif",
+   "pose_02_fixed.sdf"
+  ],
+  "n_rebuilt": 6,
+  "rebuilt_atoms": [
+   {
+    "comp": "ARG",
+    "seqid": 309,
+    "atom": "CD",
+    "element": "C"
+   },
+   {
+    "comp": "ARG",
+    "seqid": 309,
+    "atom": "CG",
+    "element": "C"
+   },
+   {
+    "comp": "ARG",
+    "seqid": 309,
+    "atom": "CZ",
+    "element": "C"
+   },
+   {
+    "comp": "ARG",
+    "seqid": 309,
+    "atom": "NE",
+    "element": "N"
+   },
+   {
+    "comp": "ARG",
+    "seqid": 309,
+    "atom": "NH1",
+    "element": "N"
+   },
+   {
+    "comp": "ARG",
+    "seqid": 309,
+    "atom": "NH2",
+    "element": "N"
+   }
+  ],
+  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+  "forcefield": "GAFF2 (antechamber gasteiger charges)"
+ }
 }

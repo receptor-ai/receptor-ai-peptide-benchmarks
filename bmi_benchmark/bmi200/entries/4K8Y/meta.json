@@ -1000,5 +1000,49 @@
   "risky_removal_cut_A": 4.0,
   "risky_removals": [],
   "utc": "2026-08-03T16:47:05Z"
+ },
+ "incomplete_residues": [
+  {
+   "chain": "B",
+   "seqid": 14,
+   "residue": "ASP",
+   "heavy_present": 5,
+   "heavy_expected": 8,
+   "missing_atoms": [
+    "CG",
+    "OD1",
+    "OD2"
+   ],
+   "kind": "sidechain_truncated"
+  }
+ ],
+ "fixed_geometry": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf"
+  ],
+  "n_rebuilt": 3,
+  "rebuilt_atoms": [
+   {
+    "comp": "ASP",
+    "seqid": 14,
+    "atom": "CG",
+    "element": "C"
+   },
+   {
+    "comp": "ASP",
+    "seqid": 14,
+    "atom": "OD1",
+    "element": "O"
+   },
+   {
+    "comp": "ASP",
+    "seqid": 14,
+    "atom": "OD2",
+    "element": "O"
+   }
+  ],
+  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+  "forcefield": "GAFF2 (antechamber gasteiger charges)"
  }
 }

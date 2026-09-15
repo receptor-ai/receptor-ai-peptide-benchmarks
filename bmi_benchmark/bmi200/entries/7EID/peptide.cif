@@ -25,8 +25,6 @@ _entity_poly.pdbx_strand_id
 _entity_poly.pdbx_seq_one_letter_code
 C polypeptide(L) C ?
 
-
-
 loop_
 _chem_comp.id
 _chem_comp.type
@@ -47,26 +45,20 @@ _struct_conn.ptnr1_label_asym_id
 _struct_conn.ptnr1_label_comp_id
 _struct_conn.ptnr1_label_seq_id
 _struct_conn.ptnr1_label_atom_id
-_struct_conn.pdbx_ptnr1_label_alt_id
-_struct_conn.ptnr1_auth_asym_id
-_struct_conn.ptnr1_auth_seq_id
-_struct_conn.pdbx_ptnr1_PDB_ins_code
-_struct_conn.ptnr1_symmetry
 _struct_conn.ptnr2_label_asym_id
 _struct_conn.ptnr2_label_comp_id
 _struct_conn.ptnr2_label_seq_id
 _struct_conn.ptnr2_label_atom_id
-_struct_conn.pdbx_ptnr2_label_alt_id
-_struct_conn.ptnr2_auth_asym_id
-_struct_conn.ptnr2_auth_seq_id
-_struct_conn.pdbx_ptnr2_PDB_ins_code
-_struct_conn.ptnr2_symmetry
-_struct_conn.details
 _struct_conn.pdbx_dist_value
-covale1 covale C GLY 3 C ? C 7 ? 1_555 C ALY 4 N ? C 8 ? 1_555 ? 1.3408
-covale2 covale C ALY 4 C ? C 8 ? 1_555 C GLY 5 N ? C 9 ? 1_555 ? 1.3400
-covale3 covale C GLY 7 C ? C 11 ? 1_555 C ALY 8 N ? C 12 ? 1_555 ? 1.3371
-covale4 covale C ALY 8 C ? C 12 ? 1_555 C GLY 9 N ? C 13 ? 1_555 ? 1.3413
+covale1 covale C GLY 11 C C ALY 12 N 1.337
+covale2 covale C GLY 9 C C LEU 10 N 1.339
+covale3 covale C LYS 5 C C GLY 6 N 1.339
+covale4 covale C GLY 13 C C GLY 14 N 1.339
+covale5 covale C ALY 8 C C GLY 9 N 1.340
+covale6 covale C GLY 6 C C GLY 7 N 1.340
+covale7 covale C LEU 10 C C GLY 11 N 1.340
+covale8 covale C GLY 7 C C ALY 8 N 1.341
+covale9 covale C ALY 12 C C GLY 13 N 1.341
 
 loop_
 _struct_conn_type.id
@@ -77,7 +69,6 @@ _atom_type.symbol
 C
 N
 O
-
 
 loop_
 _atom_site.group_PDB
@@ -162,3 +153,93 @@ ATOM 60 C C . GLY C C 10 ? -22.325 0.397 4.333 1 46.78 ? 14 C 1
 ATOM 61 O O . GLY C C 10 ? -23.249 0.186 5.145 1 48.46 ? 14 C 1
 
 _struct.title '7EID: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+ALY OH CH DOUB N 1
+ALY CH CH3 SING N 2
+ALY CH NZ SING N 3
+ALY CH3 HH31 SING N 4
+ALY CH3 HH32 SING N 5
+ALY CH3 HH33 SING N 6
+ALY NZ CE SING N 7
+ALY NZ HZ SING N 8
+ALY CE CD SING N 9
+ALY CE HE3 SING N 10
+ALY CE HE2 SING N 11
+ALY CD CG SING N 12
+ALY CD HD3 SING N 13
+ALY CD HD2 SING N 14
+ALY CG CB SING N 15
+ALY CG HG3 SING N 16
+ALY CG HG2 SING N 17
+ALY CB CA SING N 18
+ALY CB HB3 SING N 19
+ALY CB HB2 SING N 20
+ALY CA N SING N 21
+ALY CA C SING N 22
+ALY CA HA SING N 23
+ALY N H SING N 24
+ALY N H2 SING N 25
+ALY C O DOUB N 26
+ALY C OXT SING N 27
+ALY OXT HXT SING N 28
+GLY N CA SING N 29
+GLY N H SING N 30
+GLY N H2 SING N 31
+GLY CA C SING N 32
+GLY CA HA2 SING N 33
+GLY CA HA3 SING N 34
+GLY C O DOUB N 35
+GLY C OXT SING N 36
+GLY OXT HXT SING N 37
+LEU N CA SING N 38
+LEU N H SING N 39
+LEU N H2 SING N 40
+LEU CA C SING N 41
+LEU CA CB SING N 42
+LEU CA HA SING N 43
+LEU C O DOUB N 44
+LEU C OXT SING N 45
+LEU CB CG SING N 46
+LEU CB HB2 SING N 47
+LEU CB HB3 SING N 48
+LEU CG CD1 SING N 49
+LEU CG CD2 SING N 50
+LEU CG HG SING N 51
+LEU CD1 HD11 SING N 52
+LEU CD1 HD12 SING N 53
+LEU CD1 HD13 SING N 54
+LEU CD2 HD21 SING N 55
+LEU CD2 HD22 SING N 56
+LEU CD2 HD23 SING N 57
+LEU OXT HXT SING N 58
+LYS N CA SING N 59
+LYS N H SING N 60
+LYS N H2 SING N 61
+LYS CA C SING N 62
+LYS CA CB SING N 63
+LYS CA HA SING N 64
+LYS C O DOUB N 65
+LYS C OXT SING N 66
+LYS CB CG SING N 67
+LYS CB HB2 SING N 68
+LYS CB HB3 SING N 69
+LYS CG CD SING N 70
+LYS CG HG2 SING N 71
+LYS CG HG3 SING N 72
+LYS CD CE SING N 73
+LYS CD HD2 SING N 74
+LYS CD HD3 SING N 75
+LYS CE NZ SING N 76
+LYS CE HE2 SING N 77
+LYS CE HE3 SING N 78
+LYS NZ HZ1 SING N 79
+LYS NZ HZ2 SING N 80
+LYS NZ HZ3 SING N 81
+LYS OXT HXT SING N 82

@@ -1,0 +1,262 @@
+data_4EQJ_BB
+_entry.id '4EQJ_BB'
+
+_cell.entry_id '4EQJ_BB'
+_cell.length_a 50.994
+_cell.length_b 59.286
+_cell.length_c 62.13
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+
+_symmetry.entry_id '4EQJ_BB'
+_symmetry.space_group_name_H-M 'P 21 21 21'
+_symmetry.Int_Tables_number 19
+
+loop_
+_entity.id
+_entity.type
+Q polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+Q polypeptide(L) Q ?
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ASP .
+GLU .
+PHE .
+THR .
+TYR .
+VAL .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+Qxp Q
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . GLU Qxp Q 2 ? 7.837 -8.625 18.8 0.5 45.64 ? 3 Q 1
+ATOM 2 C CA . GLU Qxp Q 2 ? 6.948 -7.827 17.877 0.5 43.02 ? 3 Q 1
+ATOM 3 C C . GLU Qxp Q 2 ? 7.361 -6.355 17.767 0.5 40.36 ? 3 Q 1
+ATOM 4 O O . GLU Qxp Q 2 ? 7.472 -5.67 18.783 0.5 44.39 ? 3 Q 1
+ATOM 5 C CB . GLU Qxp Q 2 ? 5.471 -7.911 18.317 0.5 46.32 ? 3 Q 1
+ATOM 6 C CD . GLU Qxp Q 2 ? 3.81935269 -9.89244421 18.9291012 1 43.95 ? 3 Q 1
+ATOM 7 C CG . GLU Qxp Q 2 ? 4.94045463 -9.3598565 18.019322 1 43.95 ? 3 Q 1
+ATOM 8 O OE1 . GLU Qxp Q 2 ? 2.67414205 -9.48433002 18.9107938 1 43.95 ? 3 Q 1
+ATOM 9 O OE2 . GLU Qxp Q 2 ? 4.11308687 -11.083991 19.4989931 1 43.95 ? 3 Q 1
+ATOM 10 N N . THR Qxp Q 3 ? 7.533 -5.873 16.536 0.5 43.17 ? 4 Q 1
+ATOM 11 C CA . THR Qxp Q 3 ? 7.831 -4.461 16.287 0.5 44.36 ? 4 Q 1
+ATOM 12 C C . THR Qxp Q 3 ? 6.806 -3.829 15.344 0.5 50.7 ? 4 Q 1
+ATOM 13 O O . THR Qxp Q 3 ? 6.872 -3.966 14.122 0.5 42.92 ? 4 Q 1
+ATOM 14 C CB . THR Qxp Q 3 ? 9.289 -4.237 15.835 0.5 53.38 ? 4 Q 1
+ATOM 15 O OG1 . THR Qxp Q 3 ? 9.394 -4.272 14.404 0.5 66.95 ? 4 Q 1
+ATOM 16 C CG2 . THR Qxp Q 3 ? 10.193 -5.312 16.445 0.5 54.65 ? 4 Q 1
+ATOM 17 N N . PHE Qxp Q 4 ? 5.804 -3.188 15.945 0.5 55.55 ? 5 Q 1
+ATOM 18 C CA . PHE Qxp Q 4 ? 4.712 -2.595 15.174 0.5 55.76 ? 5 Q 1
+ATOM 19 C C . PHE Qxp Q 4 ? 5.007 -1.135 14.842 0.5 57.32 ? 5 Q 1
+ATOM 20 O O . PHE Qxp Q 4 ? 4.371 -0.227 15.381 0.5 57.3 ? 5 Q 1
+ATOM 21 C CB . PHE Qxp Q 4 ? 3.371 -2.74 15.914 0.5 55.93 ? 5 Q 1
+ATOM 22 C CG . PHE Qxp Q 4 ? 3.045 -4.156 16.265 0.5 47.69 ? 5 Q 1
+ATOM 23 C CD1 . PHE Qxp Q 4 ? 2.668 -5.043 15.284 0.5 49.86 ? 5 Q 1
+ATOM 24 C CD2 . PHE Qxp Q 4 ? 3.234 -4.617 17.544 0.5 50.29 ? 5 Q 1
+ATOM 25 C CE1 . PHE Qxp Q 4 ? 2.432 -6.367 15.582 0.5 53.64 ? 5 Q 1
+ATOM 26 C CE2 . PHE Qxp Q 4 ? 3.012 -5.937 17.859 0.5 55.52 ? 5 Q 1
+ATOM 27 C CZ . PHE Qxp Q 4 ? 2.615 -6.821 16.872 0.5 54.1 ? 5 Q 1
+ATOM 28 N N . TYR Qxp Q 5 ? 5.972 -0.898 13.96 0.5 54.49 ? 6 Q 1
+ATOM 29 C CA . TYR Qxp Q 5 ? 6.032 0.411 13.311 0.5 63.25 ? 6 Q 1
+ATOM 30 C C . TYR Qxp Q 5 ? 4.952 0.475 12.214 0.5 66.33 ? 6 Q 1
+ATOM 31 O O . TYR Qxp Q 5 ? 4.731 -0.514 11.51 0.5 62.89 ? 6 Q 1
+ATOM 32 C CB . TYR Qxp Q 5 ? 7.398 0.694 12.697 0.5 60.85 ? 6 Q 1
+ATOM 33 C CG . TYR Qxp Q 5 ? 7.281 1.662 11.539 0.5 69.15 ? 6 Q 1
+ATOM 34 C CD1 . TYR Qxp Q 5 ? 7.125 3.027 11.759 0.5 72.19 ? 6 Q 1
+ATOM 35 C CD2 . TYR Qxp Q 5 ? 7.216 1.201 10.222 0.5 76.75 ? 6 Q 1
+ATOM 36 C CE1 . TYR Qxp Q 5 ? 6.974 3.914 10.699 0.5 78.7 ? 6 Q 1
+ATOM 37 C CE2 . TYR Qxp Q 5 ? 7.066 2.079 9.155 0.5 74.36 ? 6 Q 1
+ATOM 38 C CZ . TYR Qxp Q 5 ? 6.944 3.434 9.396 0.5 77.01 ? 6 Q 1
+ATOM 39 O OH . TYR Qxp Q 5 ? 6.791 4.312 8.338 0.5 78.77 ? 6 Q 1
+ATOM 40 N N . VAL Qxp Q 6 ? 4.281 1.622 12.074 0.5 60.86 ? 7 Q 1
+ATOM 41 C CA . VAL Qxp Q 6 ? 3.349 1.844 10.944 0.5 62.5 ? 7 Q 1
+ATOM 42 C C . VAL Qxp Q 6 ? 3.215 3.286 10.448 0.5 62.44 ? 7 Q 1
+ATOM 43 O O . VAL Qxp Q 6 ? 3.316 4.248 11.212 0.5 46.28 ? 7 Q 1
+ATOM 44 C CB . VAL Qxp Q 6 ? 1.921 1.329 11.227 0.5 61.16 ? 7 Q 1
+ATOM 45 C CG1 . VAL Qxp Q 6 ? 1.631 1.287 12.716 0.5 61.48 ? 7 Q 1
+ATOM 46 C CG2 . VAL Qxp Q 6 ? 0.898 2.185 10.475 0.5 62.93 ? 7 Q 1
+ATOM 47 N N . ASP Qxp Q 7 ? 2.947 3.413 9.156 0.5 68.96 ? 8 Q 1
+ATOM 48 C CA . ASP Qxp Q 7 ? 2.885 4.717 8.525 0.5 70.4 ? 8 Q 1
+ATOM 49 C C . ASP Qxp Q 7 ? 1.965 4.692 7.307 0.5 68.12 ? 8 Q 1
+ATOM 50 O O . ASP Qxp Q 7 ? 1.373 5.719 6.945 0.5 73.3 ? 8 Q 1
+ATOM 51 C CB . ASP Qxp Q 7 ? 4.293 5.161 8.122 0.5 78.34 ? 8 Q 1
+ATOM 52 C CG . ASP Qxp Q 7 ? 5.55432269 5.03295085 8.81607423 1 71.82 ? 8 Q 1
+ATOM 53 O OD1 . ASP Qxp Q 7 ? 5.27477709 5.57061979 9.87887757 1 71.82 ? 8 Q 1
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+ASP N CA SING N 1
+ASP N H SING N 2
+ASP N H2 SING N 3
+ASP CA C SING N 4
+ASP CA CB SING N 5
+ASP CA HA SING N 6
+ASP C O DOUB N 7
+ASP C OXT SING N 8
+ASP CB CG SING N 9
+ASP CB HB2 SING N 10
+ASP CB HB3 SING N 11
+ASP CG OD1 DOUB N 12
+ASP CG OD2 SING N 13
+ASP OD2 HD2 SING N 14
+ASP OXT HXT SING N 15
+GLU N CA SING N 16
+GLU N H SING N 17
+GLU N H2 SING N 18
+GLU CA C SING N 19
+GLU CA CB SING N 20
+GLU CA HA SING N 21
+GLU C O DOUB N 22
+GLU C OXT SING N 23
+GLU CB CG SING N 24
+GLU CB HB2 SING N 25
+GLU CB HB3 SING N 26
+GLU CG CD SING N 27
+GLU CG HG2 SING N 28
+GLU CG HG3 SING N 29
+GLU CD OE1 DOUB N 30
+GLU CD OE2 SING N 31
+GLU OE2 HE2 SING N 32
+GLU OXT HXT SING N 33
+PHE N CA SING N 34
+PHE N H SING N 35
+PHE N H2 SING N 36
+PHE CA C SING N 37
+PHE CA CB SING N 38
+PHE CA HA SING N 39
+PHE C O DOUB N 40
+PHE C OXT SING N 41
+PHE CB CG SING N 42
+PHE CB HB2 SING N 43
+PHE CB HB3 SING N 44
+PHE CG CD1 DOUB Y 45
+PHE CG CD2 SING Y 46
+PHE CD1 CE1 SING Y 47
+PHE CD1 HD1 SING N 48
+PHE CD2 CE2 DOUB Y 49
+PHE CD2 HD2 SING N 50
+PHE CE1 CZ DOUB Y 51
+PHE CE1 HE1 SING N 52
+PHE CE2 CZ SING Y 53
+PHE CE2 HE2 SING N 54
+PHE CZ HZ SING N 55
+PHE OXT HXT SING N 56
+THR N CA SING N 57
+THR N H SING N 58
+THR N H2 SING N 59
+THR CA C SING N 60
+THR CA CB SING N 61
+THR CA HA SING N 62
+THR C O DOUB N 63
+THR C OXT SING N 64
+THR CB OG1 SING N 65
+THR CB CG2 SING N 66
+THR CB HB SING N 67
+THR OG1 HG1 SING N 68
+THR CG2 HG21 SING N 69
+THR CG2 HG22 SING N 70
+THR CG2 HG23 SING N 71
+THR OXT HXT SING N 72
+TYR N CA SING N 73
+TYR N H SING N 74
+TYR N H2 SING N 75
+TYR CA C SING N 76
+TYR CA CB SING N 77
+TYR CA HA SING N 78
+TYR C O DOUB N 79
+TYR C OXT SING N 80
+TYR CB CG SING N 81
+TYR CB HB2 SING N 82
+TYR CB HB3 SING N 83
+TYR CG CD1 DOUB Y 84
+TYR CG CD2 SING Y 85
+TYR CD1 CE1 SING Y 86
+TYR CD1 HD1 SING N 87
+TYR CD2 CE2 DOUB Y 88
+TYR CD2 HD2 SING N 89
+TYR CE1 CZ DOUB Y 90
+TYR CE1 HE1 SING N 91
+TYR CE2 CZ SING Y 92
+TYR CE2 HE2 SING N 93
+TYR CZ OH SING N 94
+TYR OH HH SING N 95
+TYR OXT HXT SING N 96
+VAL N CA SING N 97
+VAL N H SING N 98
+VAL N H2 SING N 99
+VAL CA C SING N 100
+VAL CA CB SING N 101
+VAL CA HA SING N 102
+VAL C O DOUB N 103
+VAL C OXT SING N 104
+VAL CB CG1 SING N 105
+VAL CB CG2 SING N 106
+VAL CB HB SING N 107
+VAL CG1 HG11 SING N 108
+VAL CG1 HG12 SING N 109
+VAL CG1 HG13 SING N 110
+VAL CG2 HG21 SING N 111
+VAL CG2 HG22 SING N 112
+VAL CG2 HG23 SING N 113
+VAL OXT HXT SING N 114
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_dist_value
+covale1 covale Q VAL 7 C Q ASP 8 N 1.326
+covale2 covale Q PHE 5 C Q TYR 6 N 1.329
+covale3 covale Q THR 4 C Q PHE 5 N 1.333
+covale4 covale Q GLU 3 C Q THR 4 N 1.333
+covale5 covale Q TYR 6 C Q VAL 7 N 1.336
+covale6 covale Q TYR 6 OH Q ASP 8 CG 1.509

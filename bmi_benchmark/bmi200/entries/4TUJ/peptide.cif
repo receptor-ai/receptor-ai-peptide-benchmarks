@@ -25,8 +25,6 @@ _entity_poly.pdbx_strand_id
 _entity_poly.pdbx_seq_one_letter_code
 E polypeptide(L) E ?
 
-
-
 loop_
 _chem_comp.id
 _chem_comp.type
@@ -51,23 +49,25 @@ _struct_conn.ptnr1_label_asym_id
 _struct_conn.ptnr1_label_comp_id
 _struct_conn.ptnr1_label_seq_id
 _struct_conn.ptnr1_label_atom_id
-_struct_conn.pdbx_ptnr1_label_alt_id
-_struct_conn.ptnr1_auth_asym_id
-_struct_conn.ptnr1_auth_seq_id
-_struct_conn.pdbx_ptnr1_PDB_ins_code
-_struct_conn.ptnr1_symmetry
 _struct_conn.ptnr2_label_asym_id
 _struct_conn.ptnr2_label_comp_id
 _struct_conn.ptnr2_label_seq_id
 _struct_conn.ptnr2_label_atom_id
-_struct_conn.pdbx_ptnr2_label_alt_id
-_struct_conn.ptnr2_auth_asym_id
-_struct_conn.ptnr2_auth_seq_id
-_struct_conn.pdbx_ptnr2_PDB_ins_code
-_struct_conn.ptnr2_symmetry
-_struct_conn.details
 _struct_conn.pdbx_dist_value
-disulf5 disulf C CYS 2 SG ? E 2 ? 1_555 C CYS 11 SG ? E 11 ? 1_555 ? 2.0615
+covale1 covale E CYS 11 C E TRP 12 N 1.319
+covale2 covale E GLU 7 C E PRO 8 N 1.323
+covale3 covale E PRO 4 C E ASN 5 N 1.329
+covale4 covale E ARG 10 C E CYS 11 N 1.330
+covale5 covale E CYS 2 C E ASN 3 N 1.330
+covale6 covale E ALA 13 C E ALA 14 N 1.331
+covale7 covale E ARG 1 C E CYS 2 N 1.332
+covale8 covale E PRO 9 C E ARG 10 N 1.333
+covale9 covale E ASN 3 C E PRO 4 N 1.334
+covale10 covale E ASN 5 C E MET 6 N 1.335
+covale11 covale E TRP 12 C E ALA 13 N 1.335
+covale12 covale E MET 6 C E GLU 7 N 1.336
+covale13 covale E PRO 8 C E PRO 9 N 1.351
+covale14 covale E CYS 2 SG E CYS 11 SG 2.061
 
 loop_
 _struct_conn_type.id
@@ -79,7 +79,6 @@ C
 N
 O
 S
-
 
 loop_
 _atom_site.group_PDB
@@ -202,3 +201,160 @@ ATOM 98 O O . ALA C E 14 ? 37.048 -2.541 -39.106 1 68.15 ? 14 E 1
 ATOM 99 C CB . ALA C E 14 ? 36.321 -2.419 -42.096 1 55.41 ? 14 E 1
 
 _struct.title '4TUJ: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+ALA N CA SING N 1
+ALA N H SING N 2
+ALA N H2 SING N 3
+ALA CA C SING N 4
+ALA CA CB SING N 5
+ALA CA HA SING N 6
+ALA C O DOUB N 7
+ALA C OXT SING N 8
+ALA CB HB1 SING N 9
+ALA CB HB2 SING N 10
+ALA CB HB3 SING N 11
+ALA OXT HXT SING N 12
+ARG N CA SING N 13
+ARG N H SING N 14
+ARG N H2 SING N 15
+ARG CA C SING N 16
+ARG CA CB SING N 17
+ARG CA HA SING N 18
+ARG C O DOUB N 19
+ARG C OXT SING N 20
+ARG CB CG SING N 21
+ARG CB HB2 SING N 22
+ARG CB HB3 SING N 23
+ARG CG CD SING N 24
+ARG CG HG2 SING N 25
+ARG CG HG3 SING N 26
+ARG CD NE SING N 27
+ARG CD HD2 SING N 28
+ARG CD HD3 SING N 29
+ARG NE CZ SING N 30
+ARG NE HE SING N 31
+ARG CZ NH1 SING N 32
+ARG CZ NH2 DOUB N 33
+ARG NH1 HH11 SING N 34
+ARG NH1 HH12 SING N 35
+ARG NH2 HH21 SING N 36
+ARG NH2 HH22 SING N 37
+ARG OXT HXT SING N 38
+ASN N CA SING N 39
+ASN N H SING N 40
+ASN N H2 SING N 41
+ASN CA C SING N 42
+ASN CA CB SING N 43
+ASN CA HA SING N 44
+ASN C O DOUB N 45
+ASN C OXT SING N 46
+ASN CB CG SING N 47
+ASN CB HB2 SING N 48
+ASN CB HB3 SING N 49
+ASN CG OD1 DOUB N 50
+ASN CG ND2 SING N 51
+ASN ND2 HD21 SING N 52
+ASN ND2 HD22 SING N 53
+ASN OXT HXT SING N 54
+CYS N CA SING N 55
+CYS N H SING N 56
+CYS N H2 SING N 57
+CYS CA C SING N 58
+CYS CA CB SING N 59
+CYS CA HA SING N 60
+CYS C O DOUB N 61
+CYS C OXT SING N 62
+CYS CB SG SING N 63
+CYS CB HB2 SING N 64
+CYS CB HB3 SING N 65
+CYS SG HG SING N 66
+CYS OXT HXT SING N 67
+GLU N CA SING N 68
+GLU N H SING N 69
+GLU N H2 SING N 70
+GLU CA C SING N 71
+GLU CA CB SING N 72
+GLU CA HA SING N 73
+GLU C O DOUB N 74
+GLU C OXT SING N 75
+GLU CB CG SING N 76
+GLU CB HB2 SING N 77
+GLU CB HB3 SING N 78
+GLU CG CD SING N 79
+GLU CG HG2 SING N 80
+GLU CG HG3 SING N 81
+GLU CD OE1 DOUB N 82
+GLU CD OE2 SING N 83
+GLU OE2 HE2 SING N 84
+GLU OXT HXT SING N 85
+MET N CA SING N 86
+MET N H SING N 87
+MET N H2 SING N 88
+MET CA C SING N 89
+MET CA CB SING N 90
+MET CA HA SING N 91
+MET C O DOUB N 92
+MET C OXT SING N 93
+MET CB CG SING N 94
+MET CB HB2 SING N 95
+MET CB HB3 SING N 96
+MET CG SD SING N 97
+MET CG HG2 SING N 98
+MET CG HG3 SING N 99
+MET SD CE SING N 100
+MET CE HE1 SING N 101
+MET CE HE2 SING N 102
+MET CE HE3 SING N 103
+MET OXT HXT SING N 104
+PRO N CA SING N 105
+PRO N CD SING N 106
+PRO N H SING N 107
+PRO CA C SING N 108
+PRO CA CB SING N 109
+PRO CA HA SING N 110
+PRO C O DOUB N 111
+PRO C OXT SING N 112
+PRO CB CG SING N 113
+PRO CB HB2 SING N 114
+PRO CB HB3 SING N 115
+PRO CG CD SING N 116
+PRO CG HG2 SING N 117
+PRO CG HG3 SING N 118
+PRO CD HD2 SING N 119
+PRO CD HD3 SING N 120
+PRO OXT HXT SING N 121
+TRP N CA SING N 122
+TRP N H SING N 123
+TRP N H2 SING N 124
+TRP CA C SING N 125
+TRP CA CB SING N 126
+TRP CA HA SING N 127
+TRP C O DOUB N 128
+TRP C OXT SING N 129
+TRP CB CG SING N 130
+TRP CB HB2 SING N 131
+TRP CB HB3 SING N 132
+TRP CG CD1 DOUB Y 133
+TRP CG CD2 SING Y 134
+TRP CD1 NE1 SING Y 135
+TRP CD1 HD1 SING N 136
+TRP CD2 CE2 DOUB Y 137
+TRP CD2 CE3 SING Y 138
+TRP NE1 CE2 SING Y 139
+TRP NE1 HE1 SING N 140
+TRP CE2 CZ2 SING Y 141
+TRP CE3 CZ3 DOUB Y 142
+TRP CE3 HE3 SING N 143
+TRP CZ2 CH2 DOUB Y 144
+TRP CZ2 HZ2 SING N 145
+TRP CZ3 CH2 SING Y 146
+TRP CZ3 HZ3 SING N 147
+TRP CH2 HH2 SING N 148
+TRP OXT HXT SING N 149

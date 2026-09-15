@@ -2,10 +2,10 @@
 
 This file explains every column in the BMI-MODES tables. Four tables ship:
 
-- `MANIFEST.csv` — one row per **site** (31 rows).
-- `poses.csv` — one row per **pose** (73 rows).
-- `ss_per_pose.csv` — one row per pose (73 rows): secondary structure of that pose.
-- `pose_attribution.csv` — one row per **pose pair** (59 rows): the pairwise comparison behind the mode call.
+- `MANIFEST.csv` — one row per **site** (30 rows).
+- `poses.csv` — one row per **pose** (71 rows).
+- `ss_per_pose.csv` — one row per pose (71 rows): secondary structure of that pose.
+- `pose_attribution.csv` — one row per **pose pair** (58 rows): the pairwise comparison behind the mode call.
 
 Load every table with `keep_default_na=False, na_values=['']`.
 

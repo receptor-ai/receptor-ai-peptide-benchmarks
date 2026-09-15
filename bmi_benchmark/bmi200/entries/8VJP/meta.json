@@ -1254,5 +1254,15 @@
   "risky_removal_cut_A": 4.0,
   "risky_removals": [],
   "utc": "2026-08-03T16:51:30Z"
- }
+ },
+ "covalent_junctions": [
+  {
+   "chain": "B",
+   "seqid": 1,
+   "residue": "ACY",
+   "atom": "OXT",
+   "bonded_to": "ALA.N",
+   "distance_A": 0.17
+  }
+ ]
 }

@@ -1546,5 +1546,42 @@
    }
   ],
   "utc": "2026-08-03T16:47:08Z"
+ },
+ "incomplete_residues": [
+  {
+   "chain": "B",
+   "seqid": 337,
+   "residue": "VAL",
+   "heavy_present": 5,
+   "heavy_expected": 7,
+   "missing_atoms": [
+    "CG1",
+    "CG2"
+   ],
+   "kind": "sidechain_truncated"
+  }
+ ],
+ "fixed_geometry": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf"
+  ],
+  "n_rebuilt": 2,
+  "rebuilt_atoms": [
+   {
+    "comp": "VAL",
+    "seqid": 337,
+    "atom": "CG1",
+    "element": "C"
+   },
+   {
+    "comp": "VAL",
+    "seqid": 337,
+    "atom": "CG2",
+    "element": "C"
+   }
+  ],
+  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+  "forcefield": "GAFF2 (antechamber gasteiger charges)"
  }
 }

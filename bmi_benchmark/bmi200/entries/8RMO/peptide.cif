@@ -25,8 +25,6 @@ _entity_poly.pdbx_strand_id
 _entity_poly.pdbx_seq_one_letter_code
 F polypeptide(L) F ?
 
-
-
 loop_
 _chem_comp.id
 _chem_comp.type
@@ -39,14 +37,11 @@ _struct_asym.id
 _struct_asym.entity_id
 A F
 
-
-
 loop_
 _atom_type.symbol
 C
 N
 O
-
 
 loop_
 _atom_site.group_PDB
@@ -123,3 +118,92 @@ ATOM 52 O OD1 . ASP A F 6 ? 38.115 40.832 -16.219 0.5 21.839 ? 6 F 1
 ATOM 53 O OD2 . ASP A F 6 ? 37.349 40.849 -14.155 0.5 19.837 ? 6 F 1
 
 _struct.title '8RMO: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+ASP N CA SING N 1
+ASP N H SING N 2
+ASP N H2 SING N 3
+ASP CA C SING N 4
+ASP CA CB SING N 5
+ASP CA HA SING N 6
+ASP C O DOUB N 7
+ASP C OXT SING N 8
+ASP CB CG SING N 9
+ASP CB HB2 SING N 10
+ASP CB HB3 SING N 11
+ASP CG OD1 DOUB N 12
+ASP CG OD2 SING N 13
+ASP OD2 HD2 SING N 14
+ASP OXT HXT SING N 15
+LYS N CA SING N 16
+LYS N H SING N 17
+LYS N H2 SING N 18
+LYS CA C SING N 19
+LYS CA CB SING N 20
+LYS CA HA SING N 21
+LYS C O DOUB N 22
+LYS C OXT SING N 23
+LYS CB CG SING N 24
+LYS CB HB2 SING N 25
+LYS CB HB3 SING N 26
+LYS CG CD SING N 27
+LYS CG HG2 SING N 28
+LYS CG HG3 SING N 29
+LYS CD CE SING N 30
+LYS CD HD2 SING N 31
+LYS CD HD3 SING N 32
+LYS CE NZ SING N 33
+LYS CE HE2 SING N 34
+LYS CE HE3 SING N 35
+LYS NZ HZ1 SING N 36
+LYS NZ HZ2 SING N 37
+LYS NZ HZ3 SING N 38
+LYS OXT HXT SING N 39
+TYR N CA SING N 40
+TYR N H SING N 41
+TYR N H2 SING N 42
+TYR CA C SING N 43
+TYR CA CB SING N 44
+TYR CA HA SING N 45
+TYR C O DOUB N 46
+TYR C OXT SING N 47
+TYR CB CG SING N 48
+TYR CB HB2 SING N 49
+TYR CB HB3 SING N 50
+TYR CG CD1 DOUB Y 51
+TYR CG CD2 SING Y 52
+TYR CD1 CE1 SING Y 53
+TYR CD1 HD1 SING N 54
+TYR CD2 CE2 DOUB Y 55
+TYR CD2 HD2 SING N 56
+TYR CE1 CZ DOUB Y 57
+TYR CE1 HE1 SING N 58
+TYR CE2 CZ SING Y 59
+TYR CE2 HE2 SING N 60
+TYR CZ OH SING N 61
+TYR OH HH SING N 62
+TYR OXT HXT SING N 63
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_dist_value
+covale1 covale F ASP 1 C F TYR 2 N 1.336
+covale2 covale F TYR 2 C F LYS 3 N 1.339
+covale3 covale F LYS 3 C F ASP 4 N 1.339
+covale4 covale F ASP 4 C F ASP 5 N 1.341
+covale5 covale F ASP 5 C F ASP 6 N 1.342

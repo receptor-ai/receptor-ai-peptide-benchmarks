@@ -81,5 +81,114 @@
  "site_id": "A_6GQN",
  "site_type": "one_deposition",
  "tier": "1_same_molecule",
- "uniprot": "Q8DR57"
+ "uniprot": "Q8DR57",
+ "incomplete_residues__pose_01": [
+  {
+   "chain": "P",
+   "seqid": 27,
+   "residue": "THR",
+   "heavy_present": 4,
+   "heavy_expected": 7,
+   "missing_atoms": [
+    "CB",
+    "CG2",
+    "OG1"
+   ],
+   "kind": "sidechain_truncated"
+  }
+ ],
+ "incomplete_residues__pose_02": [
+  {
+   "chain": "Q",
+   "seqid": 30,
+   "residue": "ARG",
+   "heavy_present": 5,
+   "heavy_expected": 11,
+   "missing_atoms": [
+    "CD",
+    "CG",
+    "CZ",
+    "NE",
+    "NH1",
+    "NH2"
+   ],
+   "kind": "sidechain_truncated"
+  }
+ ],
+ "fixed_geometry__pose_01": {
+  "files": [
+   "pose_01_fixed.cif",
+   "pose_01_fixed.sdf"
+  ],
+  "n_rebuilt": 3,
+  "rebuilt_atoms": [
+   {
+    "comp": "THR",
+    "seqid": 27,
+    "atom": "CB",
+    "element": "C"
+   },
+   {
+    "comp": "THR",
+    "seqid": 27,
+    "atom": "CG2",
+    "element": "C"
+   },
+   {
+    "comp": "THR",
+    "seqid": 27,
+    "atom": "OG1",
+    "element": "O"
+   }
+  ],
+  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+  "forcefield": "GAFF2 (antechamber gasteiger charges)"
+ },
+ "fixed_geometry__pose_02": {
+  "files": [
+   "pose_02_fixed.cif",
+   "pose_02_fixed.sdf"
+  ],
+  "n_rebuilt": 6,
+  "rebuilt_atoms": [
+   {
+    "comp": "ARG",
+    "seqid": 30,
+    "atom": "CD",
+    "element": "C"
+   },
+   {
+    "comp": "ARG",
+    "seqid": 30,
+    "atom": "CG",
+    "element": "C"
+   },
+   {
+    "comp": "ARG",
+    "seqid": 30,
+    "atom": "CZ",
+    "element": "C"
+   },
+   {
+    "comp": "ARG",
+    "seqid": 30,
+    "atom": "NE",
+    "element": "N"
+   },
+   {
+    "comp": "ARG",
+    "seqid": 30,
+    "atom": "NH1",
+    "element": "N"
+   },
+   {
+    "comp": "ARG",
+    "seqid": 30,
+    "atom": "NH2",
+    "element": "N"
+   }
+  ],
+  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+  "forcefield": "GAFF2 (antechamber gasteiger charges)"
+ }
 }

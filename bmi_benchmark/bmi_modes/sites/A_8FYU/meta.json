@@ -81,5 +81,65 @@
  "site_id": "A_8FYU",
  "site_type": "one_deposition",
  "tier": "1_same_molecule",
- "uniprot": "Q9UNE7"
+ "uniprot": "Q9UNE7",
+ "incomplete_residues__pose_01": [
+  {
+   "chain": "P",
+   "seqid": 633,
+   "residue": "SER",
+   "heavy_present": 5,
+   "heavy_expected": 6,
+   "missing_atoms": [
+    "OG"
+   ],
+   "kind": "sidechain_truncated"
+  }
+ ],
+ "incomplete_residues__pose_02": [
+  {
+   "chain": "Q",
+   "seqid": 633,
+   "residue": "SER",
+   "heavy_present": 5,
+   "heavy_expected": 6,
+   "missing_atoms": [
+    "OG"
+   ],
+   "kind": "sidechain_truncated"
+  }
+ ],
+ "fixed_geometry__pose_01": {
+  "files": [
+   "pose_01_fixed.cif",
+   "pose_01_fixed.sdf"
+  ],
+  "n_rebuilt": 1,
+  "rebuilt_atoms": [
+   {
+    "comp": "SER",
+    "seqid": 633,
+    "atom": "OG",
+    "element": "O"
+   }
+  ],
+  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+  "forcefield": "GAFF2 (antechamber gasteiger charges)"
+ },
+ "fixed_geometry__pose_02": {
+  "files": [
+   "pose_02_fixed.cif",
+   "pose_02_fixed.sdf"
+  ],
+  "n_rebuilt": 1,
+  "rebuilt_atoms": [
+   {
+    "comp": "SER",
+    "seqid": 633,
+    "atom": "OG",
+    "element": "O"
+   }
+  ],
+  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+  "forcefield": "GAFF2 (antechamber gasteiger charges)"
+ }
 }

@@ -1582,5 +1582,15 @@
    "problems": [],
    "ring_closures_and_staples_survive": true
   }
- }
+ },
+ "covalent_junctions": [
+  {
+   "chain": "B",
+   "seqid": 10,
+   "residue": "GLU",
+   "atom": "OE1",
+   "bonded_to": "LYS.NZ",
+   "distance_A": 0.5
+  }
+ ]
 }

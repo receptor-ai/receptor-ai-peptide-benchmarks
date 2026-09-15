@@ -1,0 +1,176 @@
+data_7VHE
+_entry.id 7VHE
+
+_cell.entry_id 7VHE
+_cell.length_a 146.093
+_cell.length_b 146.093
+_cell.length_c 60.792
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 120
+
+_symmetry.entry_id 7VHE
+_symmetry.space_group_name_H-M 'P 61'
+_symmetry.Int_Tables_number 169
+
+loop_
+_entity.id
+_entity.type
+G polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+G polypeptide(L) G ?
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ALA .
+ARG .
+NH2 .
+
+_struct.entry_id 7VHE
+_struct.title '7VHE: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+G G
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_dist_value
+covale1 covale G ALA 10 C G NH2 11 N 1.327
+covale2 covale G ARG 8 C G ARG 9 N 1.328
+covale3 covale G ARG 7 C G ARG 8 N 1.329
+covale4 covale G ARG 9 C G ALA 10 N 1.335
+
+loop_
+_struct_conn_type.id
+covale
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . ARG G G 1 ? 11.383 65.252 8.568 1 32.51 ? 7 G 1
+ATOM 2 C CA . ARG G G 1 ? 10.729 64.027 8.135 1 24.65 ? 7 G 1
+ATOM 3 C C . ARG G G 1 ? 9.209 64.237 8.058 1 20.54 ? 7 G 1
+ATOM 4 O O . ARG G G 1 ? 8.743 65.337 7.737 1 20.55 ? 7 G 1
+ATOM 5 C CB . ARG G G 1 ? 11.07 62.883 9.084 1 31.77 ? 7 G 1
+ATOM 6 C CD . ARG G G 1 ? 9.88694493 61.6532512 11.0545472 1 26 ? 7 G 1
+ATOM 7 C CG . ARG G G 1 ? 10.4365705 63.0029372 10.4883521 1 26 ? 7 G 1
+ATOM 8 C CZ . ARG G G 1 ? 11.2255449 59.9670822 12.4073245 1 26 ? 7 G 1
+ATOM 9 N NE . ARG G G 1 ? 10.9499046 60.6476377 11.2754337 1 26 ? 7 G 1
+ATOM 10 N NH1 . ARG G G 1 ? 12.4849513 59.5890788 12.6690072 1 26 ? 7 G 1
+ATOM 11 N NH2 . ARG G G 1 ? 10.2672133 59.6757653 13.2976903 1 26 ? 7 G 1
+ATOM 12 N N . ARG G G 2 ? 8.437 63.198 8.358 1 18.97 ? 8 G 1
+ATOM 13 C CA . ARG G G 2 ? 6.988 63.309 8.237 1 21.05 ? 8 G 1
+ATOM 14 C C . ARG G G 2 ? 6.437 64.309 9.262 1 15.34 ? 8 G 1
+ATOM 15 O O . ARG G G 2 ? 6.769 64.254 10.451 1 15.86 ? 8 G 1
+ATOM 16 C CB . ARG G G 2 ? 6.343 61.93 8.39 1 18.6 ? 8 G 1
+ATOM 17 C CG . ARG G G 2 ? 4.819 61.979 8.582 1 18.16 ? 8 G 1
+ATOM 18 C CD . ARG G G 2 ? 4.133 62.557 7.344 1 11.83 ? 8 G 1
+ATOM 19 N NE . ARG G G 2 ? 2.988 61.741 6.978 1 18.64 ? 8 G 1
+ATOM 20 C CZ . ARG G G 2 ? 1.844 61.731 7.647 1 17.97 ? 8 G 1
+ATOM 21 N NH1 . ARG G G 2 ? 1.605 62.597 8.621 1 14.56 ? 8 G 1
+ATOM 22 N NH2 . ARG G G 2 ? 0.923 60.818 7.342 1 15.03 ? 8 G 1
+ATOM 23 N N . ARG G G 3 ? 5.629 65.253 8.792 1 14.85 ? 9 G 1
+ATOM 24 C CA . ARG G G 3 ? 5.032 66.237 9.68 1 14.72 ? 9 G 1
+ATOM 25 C C . ARG G G 3 ? 3.684 65.74 10.207 1 15.66 ? 9 G 1
+ATOM 26 O O . ARG G G 3 ? 2.986 65.036 9.499 1 13.14 ? 9 G 1
+ATOM 27 C CB . ARG G G 3 ? 4.852 67.561 8.946 1 15.35 ? 9 G 1
+ATOM 28 C CG . ARG G G 3 ? 6.154 68.146 8.413 1 18.33 ? 9 G 1
+ATOM 29 C CD . ARG G G 3 ? 5.884 69.098 7.25 1 19.74 ? 9 G 1
+ATOM 30 N NE . ARG G G 3 ? 5.301 70.36 7.694 1 22.11 ? 9 G 1
+ATOM 31 C CZ . ARG G G 3 ? 4.722 71.248 6.893 1 18.86 ? 9 G 1
+ATOM 32 N NH1 . ARG G G 3 ? 4.64 71.057 5.587 1 20.08 ? 9 G 1
+ATOM 33 N NH2 . ARG G G 3 ? 4.226 72.363 7.413 1 21.83 ? 9 G 1
+ATOM 34 N N . ALA G G 4 ? 3.333 66.105 11.442 1 16.68 ? 10 G 1
+ATOM 35 C CA . ALA G G 4 ? 2.015 65.74 12.011 1 19.92 ? 10 G 1
+ATOM 36 C C . ALA G G 4 ? 0.99 66.874 11.835 1 17.71 ? 10 G 1
+ATOM 37 O O . ALA G G 4 ? -0.215 66.624 11.797 1 12.28 ? 10 G 1
+ATOM 38 C CB . ALA G G 4 ? 2.126 65.38 13.509 1 14.28 ? 10 G 1
+HETATM 39 N N . NH2 G G 5 ? 1.492 68.099 11.742 1 15.84 ? 11 G 1
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+ALA N CA SING N 1
+ALA N H SING N 2
+ALA N H2 SING N 3
+ALA CA C SING N 4
+ALA CA CB SING N 5
+ALA CA HA SING N 6
+ALA C O DOUB N 7
+ALA C OXT SING N 8
+ALA CB HB1 SING N 9
+ALA CB HB2 SING N 10
+ALA CB HB3 SING N 11
+ALA OXT HXT SING N 12
+ARG N CA SING N 13
+ARG N H SING N 14
+ARG N H2 SING N 15
+ARG CA C SING N 16
+ARG CA CB SING N 17
+ARG CA HA SING N 18
+ARG C O DOUB N 19
+ARG C OXT SING N 20
+ARG CB CG SING N 21
+ARG CB HB2 SING N 22
+ARG CB HB3 SING N 23
+ARG CG CD SING N 24
+ARG CG HG2 SING N 25
+ARG CG HG3 SING N 26
+ARG CD NE SING N 27
+ARG CD HD2 SING N 28
+ARG CD HD3 SING N 29
+ARG NE CZ SING N 30
+ARG NE HE SING N 31
+ARG CZ NH1 SING N 32
+ARG CZ NH2 DOUB N 33
+ARG NH1 HH11 SING N 34
+ARG NH1 HH12 SING N 35
+ARG NH2 HH21 SING N 36
+ARG NH2 HH22 SING N 37
+ARG OXT HXT SING N 38
+NH2 N HN1 SING N 39
+NH2 N HN2 SING N 40

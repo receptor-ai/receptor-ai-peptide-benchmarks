@@ -25,8 +25,6 @@ _entity_poly.pdbx_strand_id
 _entity_poly.pdbx_seq_one_letter_code
 S polypeptide(L) S ?
 
-
-
 loop_
 _chem_comp.id
 _chem_comp.type
@@ -40,14 +38,11 @@ _struct_asym.id
 _struct_asym.entity_id
 Sxp S
 
-
-
 loop_
 _atom_type.symbol
 C
 N
 O
-
 
 loop_
 _atom_site.group_PDB
@@ -111,3 +106,86 @@ ATOM 39 C CA . GLY Sxp S 6 ? -53.9730489 -56.3962324 -30.7629544 0.5 115.8 ? 5 S
 ATOM 40 C C . GLY Sxp S 6 ? -54.2305181 -57.0706241 -29.4293643 0.5 114.97 ? 5 S 1
 ATOM 41 O O . GLY Sxp S 6 ? -54.9531022 -58.0649289 -29.3604931 0.5 117.27 ? 5 S 1
 ATOM 42 O OXT . GLY Sxp S 6 ? -53.722194 -56.6521745 -28.3917413 0.5 111 ? 5 S 1
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+GLU N CA SING N 1
+GLU N H SING N 2
+GLU N H2 SING N 3
+GLU CA C SING N 4
+GLU CA CB SING N 5
+GLU CA HA SING N 6
+GLU C O DOUB N 7
+GLU C OXT SING N 8
+GLU CB CG SING N 9
+GLU CB HB2 SING N 10
+GLU CB HB3 SING N 11
+GLU CG CD SING N 12
+GLU CG HG2 SING N 13
+GLU CG HG3 SING N 14
+GLU CD OE1 DOUB N 15
+GLU CD OE2 SING N 16
+GLU OE2 HE2 SING N 17
+GLU OXT HXT SING N 18
+GLY N CA SING N 19
+GLY N H SING N 20
+GLY N H2 SING N 21
+GLY CA C SING N 22
+GLY CA HA2 SING N 23
+GLY CA HA3 SING N 24
+GLY C O DOUB N 25
+GLY C OXT SING N 26
+GLY OXT HXT SING N 27
+PRO N CA SING N 28
+PRO N CD SING N 29
+PRO N H SING N 30
+PRO CA C SING N 31
+PRO CA CB SING N 32
+PRO CA HA SING N 33
+PRO C O DOUB N 34
+PRO C OXT SING N 35
+PRO CB CG SING N 36
+PRO CB HB2 SING N 37
+PRO CB HB3 SING N 38
+PRO CG CD SING N 39
+PRO CG HG2 SING N 40
+PRO CG HG3 SING N 41
+PRO CD HD2 SING N 42
+PRO CD HD3 SING N 43
+PRO OXT HXT SING N 44
+SER N CA SING N 45
+SER N H SING N 46
+SER N H2 SING N 47
+SER CA C SING N 48
+SER CA CB SING N 49
+SER CA HA SING N 50
+SER C O DOUB N 51
+SER C OXT SING N 52
+SER CB OG SING N 53
+SER CB HB2 SING N 54
+SER CB HB3 SING N 55
+SER OG HG SING N 56
+SER OXT HXT SING N 57
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_dist_value
+covale1 covale S GLU 1 C S SER 2 N 1.331
+covale2 covale S GLU 4 C S GLY 5 N 1.332
+covale3 covale S PRO 0 C S GLU 1 N 1.332
+covale4 covale S SER 2 C S SER 3 N 1.335
+covale5 covale S SER 3 C S GLU 4 N 1.336

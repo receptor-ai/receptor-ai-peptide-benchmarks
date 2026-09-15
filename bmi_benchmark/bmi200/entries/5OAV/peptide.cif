@@ -25,8 +25,6 @@ _entity_poly.pdbx_strand_id
 _entity_poly.pdbx_seq_one_letter_code
 D polypeptide(L) D ?
 
-
-
 loop_
 _chem_comp.id
 _chem_comp.type
@@ -49,23 +47,22 @@ _struct_conn.ptnr1_label_asym_id
 _struct_conn.ptnr1_label_comp_id
 _struct_conn.ptnr1_label_seq_id
 _struct_conn.ptnr1_label_atom_id
-_struct_conn.pdbx_ptnr1_label_alt_id
-_struct_conn.ptnr1_auth_asym_id
-_struct_conn.ptnr1_auth_seq_id
-_struct_conn.pdbx_ptnr1_PDB_ins_code
-_struct_conn.ptnr1_symmetry
 _struct_conn.ptnr2_label_asym_id
 _struct_conn.ptnr2_label_comp_id
 _struct_conn.ptnr2_label_seq_id
 _struct_conn.ptnr2_label_atom_id
-_struct_conn.pdbx_ptnr2_label_alt_id
-_struct_conn.ptnr2_auth_asym_id
-_struct_conn.ptnr2_auth_seq_id
-_struct_conn.pdbx_ptnr2_PDB_ins_code
-_struct_conn.ptnr2_symmetry
-_struct_conn.details
 _struct_conn.pdbx_dist_value
-covale2 covale D ACE 1 C ? D 0 ? 1_555 D ALA 2 N ? D 1 ? 1_555 ? 1.3272
+covale1 covale D PRO 3 C D LEU 4 N 1.324
+covale2 covale D ARG 7 C D ASN 8 N 1.325
+covale3 covale D PRO 10 C D ARG 11 N 1.326
+covale4 covale D ACE 0 C D ALA 1 N 1.327
+covale5 covale D LEU 4 C D PRO 5 N 1.328
+covale6 covale D PRO 5 C D PRO 6 N 1.329
+covale7 covale D ASN 8 C D ARG 9 N 1.329
+covale8 covale D PRO 2 C D PRO 3 N 1.330
+covale9 covale D PRO 6 C D ARG 7 N 1.331
+covale10 covale D ARG 9 C D PRO 10 N 1.331
+covale11 covale D ALA 1 C D PRO 2 N 1.332
 
 loop_
 _struct_conn_type.id
@@ -76,7 +73,6 @@ _atom_type.symbol
 C
 N
 O
-
 
 loop_
 _atom_site.group_PDB
@@ -192,3 +188,109 @@ ATOM 91 N NH1 . ARG D D 12 ? 45.249 -13.402 62.993 1 20.17 ? 11 D 1
 ATOM 92 N NH2 . ARG D D 12 ? 44.14 -13.291 60.982 1 22.5 ? 11 D 1
 
 _struct.title '5OAV: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+ACE C O DOUB N 1
+ACE C CH3 SING N 2
+ACE C H SING N 3
+ACE CH3 H1 SING N 4
+ACE CH3 H2 SING N 5
+ACE CH3 H3 SING N 6
+ALA N CA SING N 7
+ALA N H SING N 8
+ALA N H2 SING N 9
+ALA CA C SING N 10
+ALA CA CB SING N 11
+ALA CA HA SING N 12
+ALA C O DOUB N 13
+ALA C OXT SING N 14
+ALA CB HB1 SING N 15
+ALA CB HB2 SING N 16
+ALA CB HB3 SING N 17
+ALA OXT HXT SING N 18
+ARG N CA SING N 19
+ARG N H SING N 20
+ARG N H2 SING N 21
+ARG CA C SING N 22
+ARG CA CB SING N 23
+ARG CA HA SING N 24
+ARG C O DOUB N 25
+ARG C OXT SING N 26
+ARG CB CG SING N 27
+ARG CB HB2 SING N 28
+ARG CB HB3 SING N 29
+ARG CG CD SING N 30
+ARG CG HG2 SING N 31
+ARG CG HG3 SING N 32
+ARG CD NE SING N 33
+ARG CD HD2 SING N 34
+ARG CD HD3 SING N 35
+ARG NE CZ SING N 36
+ARG NE HE SING N 37
+ARG CZ NH1 SING N 38
+ARG CZ NH2 DOUB N 39
+ARG NH1 HH11 SING N 40
+ARG NH1 HH12 SING N 41
+ARG NH2 HH21 SING N 42
+ARG NH2 HH22 SING N 43
+ARG OXT HXT SING N 44
+ASN N CA SING N 45
+ASN N H SING N 46
+ASN N H2 SING N 47
+ASN CA C SING N 48
+ASN CA CB SING N 49
+ASN CA HA SING N 50
+ASN C O DOUB N 51
+ASN C OXT SING N 52
+ASN CB CG SING N 53
+ASN CB HB2 SING N 54
+ASN CB HB3 SING N 55
+ASN CG OD1 DOUB N 56
+ASN CG ND2 SING N 57
+ASN ND2 HD21 SING N 58
+ASN ND2 HD22 SING N 59
+ASN OXT HXT SING N 60
+LEU N CA SING N 61
+LEU N H SING N 62
+LEU N H2 SING N 63
+LEU CA C SING N 64
+LEU CA CB SING N 65
+LEU CA HA SING N 66
+LEU C O DOUB N 67
+LEU C OXT SING N 68
+LEU CB CG SING N 69
+LEU CB HB2 SING N 70
+LEU CB HB3 SING N 71
+LEU CG CD1 SING N 72
+LEU CG CD2 SING N 73
+LEU CG HG SING N 74
+LEU CD1 HD11 SING N 75
+LEU CD1 HD12 SING N 76
+LEU CD1 HD13 SING N 77
+LEU CD2 HD21 SING N 78
+LEU CD2 HD22 SING N 79
+LEU CD2 HD23 SING N 80
+LEU OXT HXT SING N 81
+PRO N CA SING N 82
+PRO N CD SING N 83
+PRO N H SING N 84
+PRO CA C SING N 85
+PRO CA CB SING N 86
+PRO CA HA SING N 87
+PRO C O DOUB N 88
+PRO C OXT SING N 89
+PRO CB CG SING N 90
+PRO CB HB2 SING N 91
+PRO CB HB3 SING N 92
+PRO CG CD SING N 93
+PRO CG HG2 SING N 94
+PRO CG HG3 SING N 95
+PRO CD HD2 SING N 96
+PRO CD HD3 SING N 97
+PRO OXT HXT SING N 98

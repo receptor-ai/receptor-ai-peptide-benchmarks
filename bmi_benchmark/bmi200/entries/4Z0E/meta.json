@@ -986,5 +986,73 @@
    "problems": [],
    "ring_closures_and_staples_survive": true
   }
+ },
+ "incomplete_residues": [
+  {
+   "chain": "C",
+   "seqid": 7,
+   "residue": "SER",
+   "heavy_present": 5,
+   "heavy_expected": 6,
+   "missing_atoms": [
+    "OG"
+   ],
+   "kind": "sidechain_truncated"
+  },
+  {
+   "chain": "C",
+   "seqid": 11,
+   "residue": "GLN",
+   "heavy_present": 5,
+   "heavy_expected": 9,
+   "missing_atoms": [
+    "CD",
+    "CG",
+    "NE2",
+    "OE1"
+   ],
+   "kind": "sidechain_truncated"
+  }
+ ],
+ "fixed_geometry": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf"
+  ],
+  "n_rebuilt": 5,
+  "rebuilt_atoms": [
+   {
+    "comp": "SER",
+    "seqid": 7,
+    "atom": "OG",
+    "element": "O"
+   },
+   {
+    "comp": "GLN",
+    "seqid": 11,
+    "atom": "CD",
+    "element": "C"
+   },
+   {
+    "comp": "GLN",
+    "seqid": 11,
+    "atom": "CG",
+    "element": "C"
+   },
+   {
+    "comp": "GLN",
+    "seqid": 11,
+    "atom": "NE2",
+    "element": "N"
+   },
+   {
+    "comp": "GLN",
+    "seqid": 11,
+    "atom": "OE1",
+    "element": "O"
+   }
+  ],
+  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+  "forcefield": "GAFF2 (antechamber gasteiger charges)"
  }
 }

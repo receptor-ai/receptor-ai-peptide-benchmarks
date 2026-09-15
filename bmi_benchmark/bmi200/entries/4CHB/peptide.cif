@@ -25,8 +25,6 @@ _entity_poly.pdbx_strand_id
 _entity_poly.pdbx_seq_one_letter_code
 C polypeptide(L) C ?
 
-
-
 loop_
 _chem_comp.id
 _chem_comp.type
@@ -42,14 +40,11 @@ _struct_asym.id
 _struct_asym.entity_id
 C C
 
-
-
 loop_
 _atom_type.symbol
 C
 N
 O
-
 
 loop_
 _atom_site.group_PDB
@@ -155,3 +150,135 @@ ATOM 81 C CE1 . HIS C C 10 ? -25.078 -47.545 -23.863 1 32.73 ? 566 C 1
 ATOM 82 N NE2 . HIS C C 10 ? -24.277 -48.402 -23.255 1 30.03 ? 566 C 1
 
 _struct.title '4CHB: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+ALA N CA SING N 1
+ALA N H SING N 2
+ALA N H2 SING N 3
+ALA CA C SING N 4
+ALA CA CB SING N 5
+ALA CA HA SING N 6
+ALA C O DOUB N 7
+ALA C OXT SING N 8
+ALA CB HB1 SING N 9
+ALA CB HB2 SING N 10
+ALA CB HB3 SING N 11
+ALA OXT HXT SING N 12
+ASP N CA SING N 13
+ASP N H SING N 14
+ASP N H2 SING N 15
+ASP CA C SING N 16
+ASP CA CB SING N 17
+ASP CA HA SING N 18
+ASP C O DOUB N 19
+ASP C OXT SING N 20
+ASP CB CG SING N 21
+ASP CB HB2 SING N 22
+ASP CB HB3 SING N 23
+ASP CG OD1 DOUB N 24
+ASP CG OD2 SING N 25
+ASP OD2 HD2 SING N 26
+ASP OXT HXT SING N 27
+GLN N CA SING N 28
+GLN N H SING N 29
+GLN N H2 SING N 30
+GLN CA C SING N 31
+GLN CA CB SING N 32
+GLN CA HA SING N 33
+GLN C O DOUB N 34
+GLN C OXT SING N 35
+GLN CB CG SING N 36
+GLN CB HB2 SING N 37
+GLN CB HB3 SING N 38
+GLN CG CD SING N 39
+GLN CG HG2 SING N 40
+GLN CG HG3 SING N 41
+GLN CD OE1 DOUB N 42
+GLN CD NE2 SING N 43
+GLN NE2 HE21 SING N 44
+GLN NE2 HE22 SING N 45
+GLN OXT HXT SING N 46
+GLU N CA SING N 47
+GLU N H SING N 48
+GLU N H2 SING N 49
+GLU CA C SING N 50
+GLU CA CB SING N 51
+GLU CA HA SING N 52
+GLU C O DOUB N 53
+GLU C OXT SING N 54
+GLU CB CG SING N 55
+GLU CB HB2 SING N 56
+GLU CB HB3 SING N 57
+GLU CG CD SING N 58
+GLU CG HG2 SING N 59
+GLU CG HG3 SING N 60
+GLU CD OE1 DOUB N 61
+GLU CD OE2 SING N 62
+GLU OE2 HE2 SING N 63
+GLU OXT HXT SING N 64
+HIS N CA SING N 65
+HIS N H SING N 66
+HIS N H2 SING N 67
+HIS CA C SING N 68
+HIS CA CB SING N 69
+HIS CA HA SING N 70
+HIS C O DOUB N 71
+HIS C OXT SING N 72
+HIS CB CG SING N 73
+HIS CB HB2 SING N 74
+HIS CB HB3 SING N 75
+HIS CG ND1 SING Y 76
+HIS CG CD2 DOUB Y 77
+HIS ND1 CE1 DOUB Y 78
+HIS ND1 HD1 SING N 79
+HIS CD2 NE2 SING Y 80
+HIS CD2 HD2 SING N 81
+HIS CE1 NE2 SING Y 82
+HIS CE1 HE1 SING N 83
+HIS NE2 HE2 SING N 84
+HIS OXT HXT SING N 85
+PRO N CA SING N 86
+PRO N CD SING N 87
+PRO N H SING N 88
+PRO CA C SING N 89
+PRO CA CB SING N 90
+PRO CA HA SING N 91
+PRO C O DOUB N 92
+PRO C OXT SING N 93
+PRO CB CG SING N 94
+PRO CB HB2 SING N 95
+PRO CB HB3 SING N 96
+PRO CG CD SING N 97
+PRO CG HG2 SING N 98
+PRO CG HG3 SING N 99
+PRO CD HD2 SING N 100
+PRO CD HD3 SING N 101
+PRO OXT HXT SING N 102
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_dist_value
+covale1 covale C GLU 562 C C ALA 563 N 1.327
+covale2 covale C PRO 561 C C GLU 562 N 1.327
+covale3 covale C PRO 558 C C GLU 559 N 1.328
+covale4 covale C GLU 559 C C GLU 560 N 1.328
+covale5 covale C ASP 564 C C GLN 565 N 1.329
+covale6 covale C GLN 565 C C HIS 566 N 1.330
+covale7 covale C ALA 563 C C ASP 564 N 1.334
+covale8 covale C GLU 557 C C PRO 558 N 1.342
+covale9 covale C GLU 560 C C PRO 561 N 1.343

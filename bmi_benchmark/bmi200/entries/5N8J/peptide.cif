@@ -25,8 +25,6 @@ _entity_poly.pdbx_strand_id
 _entity_poly.pdbx_seq_one_letter_code
 P polypeptide(D) P ?
 
-
-
 loop_
 _chem_comp.id
 _chem_comp.type
@@ -51,30 +49,19 @@ _struct_conn.ptnr1_label_asym_id
 _struct_conn.ptnr1_label_comp_id
 _struct_conn.ptnr1_label_seq_id
 _struct_conn.ptnr1_label_atom_id
-_struct_conn.pdbx_ptnr1_label_alt_id
-_struct_conn.ptnr1_auth_asym_id
-_struct_conn.ptnr1_auth_seq_id
-_struct_conn.pdbx_ptnr1_PDB_ins_code
-_struct_conn.ptnr1_symmetry
 _struct_conn.ptnr2_label_asym_id
 _struct_conn.ptnr2_label_comp_id
 _struct_conn.ptnr2_label_seq_id
 _struct_conn.ptnr2_label_atom_id
-_struct_conn.pdbx_ptnr2_label_alt_id
-_struct_conn.ptnr2_auth_asym_id
-_struct_conn.ptnr2_auth_seq_id
-_struct_conn.pdbx_ptnr2_PDB_ins_code
-_struct_conn.ptnr2_symmetry
-_struct_conn.details
 _struct_conn.pdbx_dist_value
-covale1 covale E GLY 3 C ? P 1 ? 1_555 E DLE 4 N ? P 2 ? 1_555 ? 1.3284
-covale2 covale E DLE 4 C ? P 2 ? 1_555 E DAL 5 N ? P 3 ? 1_555 ? 1.3368
-covale3 covale E DAL 5 C ? P 3 ? 1_555 E DSG 6 N ? P 4 ? 1_555 ? 1.3204
-covale4 covale E DSG 6 C ? P 4 ? 1_555 E DVA 7 N ? P 5 ? 1_555 ? 1.3325
-covale5 covale E DVA 7 C ? P 5 ? 1_555 E DAS 8 N ? P 6 ? 1_555 ? 1.3302
-covale6 covale E DAS 8 C ? P 6 ? 1_555 E DGL 9 N ? P 7 ? 1_555 ? 1.3359
-covale7 covale E DGL 9 C ? P 7 ? 1_555 E DSN 10 N ? P 8 ? 1_555 ? 1.3421
-covale8 covale E DSN 10 C ? P 8 ? 1_555 E DSN 11 N ? P 9 ? 1_555 ? 1.3422
+covale1 covale P DAL 3 C P DSG 4 N 1.320
+covale2 covale P GLY 1 C P DLE 2 N 1.328
+covale3 covale P DVA 5 C P DAS 6 N 1.330
+covale4 covale P DSG 4 C P DVA 5 N 1.332
+covale5 covale P DAS 6 C P DGL 7 N 1.336
+covale6 covale P DLE 2 C P DAL 3 N 1.337
+covale7 covale P DGL 7 C P DSN 8 N 1.342
+covale8 covale P DSN 8 C P DSN 9 N 1.342
 
 loop_
 _struct_conn_type.id
@@ -85,7 +72,6 @@ _atom_type.symbol
 C
 N
 O
-
 
 loop_
 _atom_site.group_PDB
@@ -170,3 +156,133 @@ HETATM 60 C CB . DSN E P 11 ? 21.433 37.053 16.412 1 20.85 ? 9 P 1
 HETATM 61 O OG . DSN E P 11 ? 20.566 36.919 15.286 1 23.04 ? 9 P 1
 
 _struct.title '5N8J: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+DAL N CA SING N 1
+DAL N H SING N 2
+DAL N H2 SING N 3
+DAL CA CB SING N 4
+DAL CA C SING N 5
+DAL CA HA SING N 6
+DAL CB HB1 SING N 7
+DAL CB HB2 SING N 8
+DAL CB HB3 SING N 9
+DAL C O DOUB N 10
+DAL C OXT SING N 11
+DAL OXT HXT SING N 12
+DAS N CA SING N 13
+DAS N H SING N 14
+DAS N H2 SING N 15
+DAS CA C SING N 16
+DAS CA CB SING N 17
+DAS CA HA SING N 18
+DAS C O DOUB N 19
+DAS C OXT SING N 20
+DAS CB CG SING N 21
+DAS CB HB2 SING N 22
+DAS CB HB3 SING N 23
+DAS CG OD1 DOUB N 24
+DAS CG OD2 SING N 25
+DAS OD2 HD2 SING N 26
+DAS OXT HXT SING N 27
+DGL N CA SING N 28
+DGL N H SING N 29
+DGL N H2 SING N 30
+DGL CA C SING N 31
+DGL CA CB SING N 32
+DGL CA HA SING N 33
+DGL C O DOUB N 34
+DGL C OXT SING N 35
+DGL CB CG SING N 36
+DGL CB HB2 SING N 37
+DGL CB HB3 SING N 38
+DGL CG CD SING N 39
+DGL CG HG2 SING N 40
+DGL CG HG3 SING N 41
+DGL CD OE1 DOUB N 42
+DGL CD OE2 SING N 43
+DGL OE2 HE2 SING N 44
+DGL OXT HXT SING N 45
+DLE N CA SING N 46
+DLE N H SING N 47
+DLE N H2 SING N 48
+DLE CA CB SING N 49
+DLE CA C SING N 50
+DLE CA HA SING N 51
+DLE CB CG SING N 52
+DLE CB HB2 SING N 53
+DLE CB HB3 SING N 54
+DLE CG CD1 SING N 55
+DLE CG CD2 SING N 56
+DLE CG HG SING N 57
+DLE CD1 HD11 SING N 58
+DLE CD1 HD12 SING N 59
+DLE CD1 HD13 SING N 60
+DLE CD2 HD21 SING N 61
+DLE CD2 HD22 SING N 62
+DLE CD2 HD23 SING N 63
+DLE C O DOUB N 64
+DLE C OXT SING N 65
+DLE OXT HXT SING N 66
+DSG N CA SING N 67
+DSG N H SING N 68
+DSG N H2 SING N 69
+DSG CA C SING N 70
+DSG CA CB SING N 71
+DSG CA HA SING N 72
+DSG C O DOUB N 73
+DSG C OXT SING N 74
+DSG CB CG SING N 75
+DSG CB HB2 SING N 76
+DSG CB HB3 SING N 77
+DSG CG OD1 DOUB N 78
+DSG CG ND2 SING N 79
+DSG ND2 HD21 SING N 80
+DSG ND2 HD22 SING N 81
+DSG OXT HXT SING N 82
+DSN N CA SING N 83
+DSN N H SING N 84
+DSN N H2 SING N 85
+DSN CA C SING N 86
+DSN CA CB SING N 87
+DSN CA HA SING N 88
+DSN C O DOUB N 89
+DSN C OXT SING N 90
+DSN OXT HXT SING N 91
+DSN CB OG SING N 92
+DSN CB HB2 SING N 93
+DSN CB HB3 SING N 94
+DSN OG HG SING N 95
+DVA N CA SING N 96
+DVA N H SING N 97
+DVA N H2 SING N 98
+DVA CA CB SING N 99
+DVA CA C SING N 100
+DVA CA HA SING N 101
+DVA CB CG1 SING N 102
+DVA CB CG2 SING N 103
+DVA CB HB SING N 104
+DVA CG1 HG11 SING N 105
+DVA CG1 HG12 SING N 106
+DVA CG1 HG13 SING N 107
+DVA CG2 HG21 SING N 108
+DVA CG2 HG22 SING N 109
+DVA CG2 HG23 SING N 110
+DVA C O DOUB N 111
+DVA C OXT SING N 112
+DVA OXT HXT SING N 113
+GLY N CA SING N 114
+GLY N H SING N 115
+GLY N H2 SING N 116
+GLY CA C SING N 117
+GLY CA HA2 SING N 118
+GLY CA HA3 SING N 119
+GLY C O DOUB N 120
+GLY C OXT SING N 121
+GLY OXT HXT SING N 122

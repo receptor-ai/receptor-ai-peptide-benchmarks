@@ -1449,5 +1449,15 @@
   "risky_removal_cut_A": 4.0,
   "risky_removals": [],
   "utc": "2026-08-03T16:47:18Z"
- }
+ },
+ "covalent_junctions": [
+  {
+   "chain": "P",
+   "seqid": 10,
+   "residue": "GLU",
+   "atom": "OE2",
+   "bonded_to": "LYS.NZ",
+   "distance_A": 0.05
+  }
+ ]
 }

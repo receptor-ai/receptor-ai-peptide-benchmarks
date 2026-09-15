@@ -961,5 +961,108 @@
    "problems": [],
    "ring_closures_and_staples_survive": true
   }
+ },
+ "incomplete_residues": [
+  {
+   "chain": "B",
+   "seqid": 3500,
+   "residue": "ARG",
+   "heavy_present": 5,
+   "heavy_expected": 11,
+   "missing_atoms": [
+    "CD",
+    "CG",
+    "CZ",
+    "NE",
+    "NH1",
+    "NH2"
+   ],
+   "kind": "sidechain_truncated"
+  },
+  {
+   "chain": "B",
+   "seqid": 3507,
+   "residue": "GLU",
+   "heavy_present": 5,
+   "heavy_expected": 9,
+   "missing_atoms": [
+    "CD",
+    "CG",
+    "OE1",
+    "OE2"
+   ],
+   "kind": "sidechain_truncated"
+  }
+ ],
+ "fixed_geometry": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf"
+  ],
+  "n_rebuilt": 10,
+  "rebuilt_atoms": [
+   {
+    "comp": "ARG",
+    "seqid": 3500,
+    "atom": "CD",
+    "element": "C"
+   },
+   {
+    "comp": "ARG",
+    "seqid": 3500,
+    "atom": "CG",
+    "element": "C"
+   },
+   {
+    "comp": "ARG",
+    "seqid": 3500,
+    "atom": "CZ",
+    "element": "C"
+   },
+   {
+    "comp": "ARG",
+    "seqid": 3500,
+    "atom": "NE",
+    "element": "N"
+   },
+   {
+    "comp": "ARG",
+    "seqid": 3500,
+    "atom": "NH1",
+    "element": "N"
+   },
+   {
+    "comp": "ARG",
+    "seqid": 3500,
+    "atom": "NH2",
+    "element": "N"
+   },
+   {
+    "comp": "GLU",
+    "seqid": 3507,
+    "atom": "CD",
+    "element": "C"
+   },
+   {
+    "comp": "GLU",
+    "seqid": 3507,
+    "atom": "CG",
+    "element": "C"
+   },
+   {
+    "comp": "GLU",
+    "seqid": 3507,
+    "atom": "OE1",
+    "element": "O"
+   },
+   {
+    "comp": "GLU",
+    "seqid": 3507,
+    "atom": "OE2",
+    "element": "O"
+   }
+  ],
+  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+  "forcefield": "GAFF2 (antechamber gasteiger charges)"
  }
 }

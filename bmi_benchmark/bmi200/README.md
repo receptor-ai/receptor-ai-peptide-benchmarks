@@ -9,11 +9,16 @@ bmi200/
   DATA_DICTIONARY.md   definition of every column in the tables below
   MANIFEST.csv         one row per entry, all metadata
   topology_audit.csv   ring topology measured from coordinates, one row per entry
-  entries/<PDB_ID>/    complex.cif, peptide.cif, receptor.cif, meta.json
+  entries/<PDB_ID>/    complex.cif, peptide.cif, peptide.sdf, receptor.cif, meta.json
+                       (+ peptide_fixed.cif/.sdf where a side chain was disordered)
 ```
 
-Every entry directory is self-contained. For every entry, `peptide.cif` plus `receptor.cif` equals
-`complex.cif`, atom for atom. Load the coordinates with **gemmi**; `complex.cif` is the primary file.
+Every entry directory is self-contained: `peptide.cif` plus `receptor.cif` equals `complex.cif`, atom
+for atom. Load coordinates with **gemmi**; `complex.cif` is the primary file. `peptide.cif` carries
+explicit bonds (`_chem_comp_bond` from the RCSB CCD + `_struct_conn`), and `peptide.sdf` is the same
+peptide in an explicit-bond format for RDKit/OpenBabel. Where a side chain was disordered, a rebuilt
+full-geometry `peptide_fixed.cif`/`.sdf` sits beside it. See the top-level README (Connectivity,
+Completeness).
 
 ## 1. Composition
 

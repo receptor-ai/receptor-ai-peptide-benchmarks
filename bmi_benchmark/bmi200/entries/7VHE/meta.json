@@ -916,5 +916,70 @@
    "problems": [],
    "ring_closures_and_staples_survive": true
   }
+ },
+ "incomplete_residues": [
+  {
+   "chain": "G",
+   "seqid": 7,
+   "residue": "ARG",
+   "heavy_present": 5,
+   "heavy_expected": 11,
+   "missing_atoms": [
+    "CD",
+    "CG",
+    "CZ",
+    "NE",
+    "NH1",
+    "NH2"
+   ],
+   "kind": "sidechain_truncated"
+  }
+ ],
+ "fixed_geometry": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf"
+  ],
+  "n_rebuilt": 6,
+  "rebuilt_atoms": [
+   {
+    "comp": "ARG",
+    "seqid": 7,
+    "atom": "CD",
+    "element": "C"
+   },
+   {
+    "comp": "ARG",
+    "seqid": 7,
+    "atom": "CG",
+    "element": "C"
+   },
+   {
+    "comp": "ARG",
+    "seqid": 7,
+    "atom": "CZ",
+    "element": "C"
+   },
+   {
+    "comp": "ARG",
+    "seqid": 7,
+    "atom": "NE",
+    "element": "N"
+   },
+   {
+    "comp": "ARG",
+    "seqid": 7,
+    "atom": "NH1",
+    "element": "N"
+   },
+   {
+    "comp": "ARG",
+    "seqid": 7,
+    "atom": "NH2",
+    "element": "N"
+   }
+  ],
+  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+  "forcefield": "GAFF2 (antechamber gasteiger charges)"
  }
 }
