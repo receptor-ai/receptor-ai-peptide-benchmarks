@@ -134,7 +134,9 @@ Route `B` (repeat deposition) gives `B_<UniProt>_<PDB>` (for example `B_P06873_3
 
 ## ss_per_pose.csv — one row per pose
 
-Secondary structure of each pose, from the `pep_ss` tool (`scripts/pep_ss.py`). **bound** counts every
+Secondary structure of each pose, from the `pep_ss` tool (`scripts/pep_ss.py`). The shipped CLI
+reproduces the BMI-200 per-entry assignments (`--entry bmi200/entries/<id>`); the per-pose rows here were
+produced by the same assignment engine run over the pose files. **bound** counts every
 backbone hydrogen bond, including bonds to the receptor; **intrinsic** counts only the peptide's own
 backbone hydrogen bonds. The per-residue string uses one character per residue, in backbone order:
 
