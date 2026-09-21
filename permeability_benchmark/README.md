@@ -1,8 +1,10 @@
 # Peptide permeability benchmark — CycPeptMPDB
 
-This folder holds curated PAMPA measurements for cyclic peptides. One row
-gives one peptide and one measured log P_app. A second file lists the
-source paper of every measurement.
+A benchmark dataset for the passive membrane permeability of peptides: a
+curated reference set of PAMPA measurements for cyclic peptides, drawn from
+CycPeptMPDB, to evaluate a permeability prediction against. One row gives one
+peptide and one measured log P_app. A second file lists the source paper of
+every measurement.
 
 ## Layout
 

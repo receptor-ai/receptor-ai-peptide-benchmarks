@@ -17,7 +17,7 @@ Public benchmark datasets for Receptor.AI's peptide platform.
   peptide–protein X-ray/NMR complexes drawn from seven published peptide-docking benchmarks, each
   shipped as a native structure plus a scoring library for evaluating predicted docking poses
   against it. See its [README](docking_benchmark/README.md).
-- [`permeability_benchmark/`](permeability_benchmark/) — curated PAMPA permeability
-  measurements for cyclic peptides, taken from CycPeptMPDB. 7027 measured log P_app values
-  over 42 source papers, with the DOI of 36 of those papers. See its
+- [`permeability_benchmark/`](permeability_benchmark/) — passive membrane permeability of
+  peptides. A curated reference set of 7027 PAMPA log P_app measurements for cyclic peptides,
+  taken from CycPeptMPDB over 42 source papers, with the DOI of 36 of those papers. See its
   [README](permeability_benchmark/README.md).
