@@ -17,7 +17,6 @@ loop_
 _entity.id
 _entity.type
 A polymer
-T55! non-polymer
 
 loop_
 _entity_poly.entity_id
@@ -49,7 +48,6 @@ MET .
 PHE .
 PRO .
 SER .
-T55 .
 THR .
 TRP .
 TYR .
@@ -59,7 +57,6 @@ loop_
 _struct_asym.id
 _struct_asym.entity_id
 B A
-D T55!
 
 loop_
 _struct_conn.id
@@ -1432,16 +1429,5 @@ HETATM 1309 C CB . DAL B A 174 ? 27.524 20.417 34.488 1 22.97 ? 174 A 1
 HETATM 1310 C C . DAL B A 174 ? 27.709 19.187 36.581 1 26.18 ? 174 A 1
 HETATM 1311 O O . DAL B A 174 ? 28.94 18.953 36.652 1 25.12 ? 174 A 1
 HETATM 1312 O OXT . DAL B A 174 ? 26.875 18.371 37.01 1 23.44 ? 174 A 1
-HETATM 1313 C CAD . T55 D T55! . ? 24.497 9.298 28.159 1 48.36 ? 102 B 1
-HETATM 1314 C CAE . T55 D T55! . ? 25.433 10.274 27.458 1 46.39 ? 102 B 1
-HETATM 1315 C CAG . T55 D T55! . ? 26.648 10.423 28.348 1 45.76 ? 102 B 1
-HETATM 1316 C CAH . T55 D T55! . ? 27.629 11.436 27.787 1 45.35 ? 102 B 1
-HETATM 1317 C CAI . T55 D T55! . ? 27.87 12.551 28.771 1 45.84 ? 102 B 1
-HETATM 1318 C CAJ . T55 D T55! . ? 29.266 13.123 28.601 1 42.17 ? 102 B 1
-HETATM 1319 C CAK . T55 D T55! . ? 29.3 14.491 29.245 1 39.34 ? 102 B 1
-HETATM 1320 C CAL . T55 D T55! . ? 29.905 15.534 28.343 1 36.81 ? 102 B 1
-HETATM 1321 C CAF . T55 D T55! . ? 25.776 9.808 26.047 1 45.14 ? 102 B 1
-HETATM 1322 C C . T55 D T55! . ? 29.055 16.759 28.427 1 35.77 ? 102 B 1
-HETATM 1323 O O . T55 D T55! . ? 28.091 16.867 27.715 1 38.66 ? 102 B 1
 
 _struct.title '4PJZ: retained receptor chains only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'

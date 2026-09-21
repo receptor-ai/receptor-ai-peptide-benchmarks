@@ -1,4 +1,19 @@
 {
+ "corrections": [
+  {
+   "date": "2026-09-15",
+   "component": "T55",
+   "issue": "T55 (8-methylnonanoic acid), the N-acyl lipid tail amide-bonded to GCS N2, is covalently part of the peptide (peptide GHP4 -O4- GCS -N2(amide)- T55) but was written into receptor.cif and omitted from peptide.cif/peptide.sdf. The permissive hetero pass recorded T55 with an empty struct_conn_bonded_to: it only followed covalent bonds from polymer peptide atoms to hetero groups (catching GCS/NAG/MAN) and missed the second-shell GCS.N2-T55.C bond (1.316 A; covale14 in complex.cif), so T55 was kept only by distance and mis-assigned to the receptor.",
+   "fix": "Moved T55 (11 heavy atoms) into peptide.cif and peptide.sdf and added the GCS.N2-T55.C amide bond; removed T55 from receptor.cif. peptide is now 132 heavy atoms (was 121; formula C88H97Cl2N9O33); receptor is now 1312 heavy atoms (was 1323). complex.cif was already correct and is unchanged.",
+   "files_changed": [
+    "peptide.cif",
+    "peptide.sdf",
+    "receptor.cif",
+    "meta.json"
+   ],
+   "note": "Derived QC counters elsewhere in this meta.json (e.g. qc.atom_counts.hetero_heavy, provenance.outputs.*, strict_clean.atom_counts) were NOT recomputed and may still reflect the pre-correction split; the structure files are authoritative."
+  }
+ ],
  "built_utc": "2026-08-03T15:09:34Z",
  "decisions": {
   "altloc": {
@@ -52,9 +67,20 @@
      "n_heavy_atoms": 11,
      "on_additive_list": false,
      "on_cofactor_list": false,
-     "reason": "in_peptide_site_le_5.0A",
+     "reason": "covalently_bonded_to_retained_peptide_via_GCS_N2 [corrected 2026-09-15, see corrections]",
      "seqid": 102,
-     "struct_conn_bonded_to": [],
+     "struct_conn_bonded_to": [
+      {
+       "atom": [
+        "B",
+        "GCS",
+        101,
+        "N2"
+       ],
+       "partner": "peptide",
+       "type": "covale"
+      }
+     ],
      "subchain": "D"
     },
     {
@@ -215,6 +241,12 @@
      "seqid": 104,
      "source": "struct_conn_covale",
      "subchain": "F"
+    },
+    {
+     "comp": "T55",
+     "seqid": 102,
+     "source": "struct_conn_covale [added 2026-09-15, see corrections]",
+     "subchain": "D"
     }
    ],
    "rule": "drop water always; keep any component with a heavy atom within 5.0 A of the retained peptide (flagged additive_in_peptide_site when it is on the crystallisation additive list); keep components covalently or metal-bonded to a retained polymer per _struct_conn; keep curated cofactors within 6.0 A of a retained receptor chain; keep metal ions with >=2 protein donor atoms within 3.0 A; drop everything else and record it"

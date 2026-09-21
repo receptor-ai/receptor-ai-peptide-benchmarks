@@ -1,4 +1,12 @@
 {
+ "corrections": [
+  {
+   "date": "2026-09-16",
+   "issue": "ZOY (N-[(4S)-4,5-diamino-5-oxopentyl]-10-phenyldecanamide) is a covalent staple+lipid on the peptide, bonded at two points (ZOY.N--TPO5.C amide and ZOY.C16--ALA3.CB) forming a macrocycle, but it was filed in receptor_NN.cif and recorded only as a pose_env_adduct, so pose_NN.sdf/cif represented the peptide without it (and TPO5 as a malformed free C-terminus).",
+   "fix": "Moved ZOY into pose_NN.cif and pose_NN.sdf with both inter-residue bonds; removed it from receptor_NN.cif. Mirrors the 4PJZ/T55 correction (2026-09-15).",
+   "note": "pose_env_adducts and the peptide seq/token fields still describe the pre-correction peptide and were not recomputed; the pose structure files are authoritative."
+  }
+ ],
  "cell": "linear_modified",
  "core_separation_widest_pair_A": "3.66",
  "difference_type": "clear",
