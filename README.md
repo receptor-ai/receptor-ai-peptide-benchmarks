@@ -4,6 +4,10 @@ Public benchmark datasets for Receptor.AI's peptide platform.
 
 ## Benchmarks
 
+- [`affinity_benchmark/`](affinity_benchmark/) — rank a peptide analog series by predicted
+  affinity. 10 series over 8 target proteins, each in a full and a cropped variant. This
+  release holds the procedure and the input structures; it holds no results. See its
+  [README](affinity_benchmark/README.md).
 - [`bmi_benchmark/`](bmi_benchmark/) — binding-mode identification for peptides. Two
   curated datasets of peptide–protein X-ray complexes: BMI-200, a 202-entry diversity
   set; and BMI-MODES, 31 pockets that each hold 2 to 5 experimentally supported poses.
