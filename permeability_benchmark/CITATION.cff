@@ -1,12 +1,10 @@
 cff-version: 1.2.0
-message: "If you use this benchmark, please cite it as below."
-title: "Peptide passive-permeability benchmark on CycPeptMPDB"
+message: "If you use this data, please cite it as below."
+title: "Peptide permeability benchmark on CycPeptMPDB"
 abstract: >-
-  A benchmark for predicted passive membrane permeability of cyclic
-  peptides, scored per source paper against the curated PAMPA and Caco-2
-  measurements of CycPeptMPDB. It reports the Pearson r of the prediction
-  against the measured log P_app for 31 PAMPA sources and 10 Caco-2
-  sources.
+  Curated PAMPA permeability measurements for cyclic peptides, taken from
+  CycPeptMPDB. It holds 7027 measured log P_app values over 42 source
+  papers, with the DOI of 36 of those papers.
 type: dataset
 authors:
   - name: "Receptor.AI, Inc."
@@ -19,7 +17,5 @@ date-released: "2026-09-07"
 keywords:
   - peptides
   - cyclic peptides
-  - membrane permeability
+  - passive permeability
   - PAMPA
-  - Caco-2
-  - benchmark
