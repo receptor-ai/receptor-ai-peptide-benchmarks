@@ -1,10 +1,5 @@
-* text=auto eol=lf
-*.csv text eol=lf
-*.cif text eol=lf
-*.sdf text eol=lf
-*.md text eol=lf
-*.py text eol=lf
-*.cff text eol=lf
-*.json text eol=lf
-*.tar.gz binary
-*.gz binary
+# Preserve committed (LF) line endings on every platform so the SHA-256
+# checksums in bmi_benchmark/SHA256SUMS verify identically on Windows, macOS,
+# and Linux. Without this, a Windows checkout with core.autocrlf=true rewrites
+# text files to CRLF and `sha256sum -c SHA256SUMS` fails on every file.
+* -text
