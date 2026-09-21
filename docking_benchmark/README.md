@@ -15,11 +15,14 @@ structures with the tools in `scripts/`.
 
 ```
 docking_benchmark/
-  README.md      this file
-  SHA256SUMS     a SHA-256 checksum for every delivered file
-  metrics/       the scoring library (RMSD variants, DockQ/CAPRI, an approximate clashscore)
-  scripts/       quality_filter.py, score_docking.py, summarize_metrics.py -- see below
-  docking985/    the dataset. See docking985/README.md.
+  README.md        this file
+  LICENSE          CC-BY-4.0 -- covers the docking985 dataset
+  SHA256SUMS       a SHA-256 checksum for every delivered file
+  scripts/         quality_filter.py, score_docking.py, summarize_metrics.py, and their own
+                    LICENSE (MIT) -- see below
+    metrics/       the scoring library (RMSD variants, DockQ/CAPRI, an approximate clashscore),
+                    covered by scripts/LICENSE too
+  docking985/      the dataset. See docking985/README.md.
 ```
 
 ## Scripts
@@ -29,9 +32,8 @@ docking_benchmark/
   `peptide.pdb` + `meta.json`), no external downloads needed. Use it to quality-screen a candidate
   complex of your own before adding it to a benchmark.
 - **`scripts/score_docking.py`** — scores a folder of predicted-pose SDFs (one per case, matched by
-  filename to a `case_id`) against the native structures: backbone/CA/sidechain/heavy-atom/
-  contact-weighted RMSD, DockQ (fnat, fnonnat, iRMSD, LRMSD, CAPRI class), and an approximate
-  clashscore.
+  filename to a `case_id`) against the native structures: backbone/CA/sidechain/heavy-atom RMSD,
+  DockQ (fnat, fnonnat, iRMSD, LRMSD, CAPRI class), and an approximate clashscore.
 - **`scripts/summarize_metrics.py`** — aggregates a `score_docking.py` results CSV into per-metric
   means and the CAPRI class distribution.
 
@@ -46,14 +48,17 @@ Dependencies: `biotite`, `numpy`, `rdkit`, and (for `score_docking.py`'s DockQ m
 
 ## Provenance and licensing
 
+Two separate licenses apply. The **`docking985` dataset** (structures and metadata) is under
+[CC-BY-4.0](LICENSE). The **code** (`scripts/`, including `scripts/metrics/`) is under
+[MIT](scripts/LICENSE) — use, modify, and redistribute it freely, including in closed-source tools.
+
 Coordinates come from the RCSB PDB under CC0 1.0. Attribute the RCSB PDB when you use this
 benchmark. See [`docking985/README.md`](docking985/README.md) for the source benchmarks each entry
 was drawn from.
 
 ## How to cite
 
-If you use docking985, please cite this benchmark. Machine-readable metadata is in
-[`CITATION.cff`](CITATION.cff). Plain text:
+If you use docking985, please cite this benchmark:
 
 > Receptor.AI, Inc. (2026). docking985: a peptide–protein re-docking benchmark (Version 1.0.0).
 > https://github.com/receptor-ai/receptor-ai-peptide-benchmarks

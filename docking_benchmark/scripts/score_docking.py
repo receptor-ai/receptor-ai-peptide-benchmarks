@@ -28,7 +28,6 @@ import numpy as np
 import biotite.structure.io as strucio
 
 from metrics.structures import combine, load_native_peptide, load_pred_peptide_coord
-from metrics.contact_weighted_rmsd import contact_weighted_rmsd
 from metrics.rmsd_and_capri import backbone_rmsd, ca_rmsd, dockq_metrics, heavy_atom_rmsd, sidechain_rmsd
 from metrics.utils import clashscore
 
@@ -40,7 +39,6 @@ ROUND_NDIGITS = 3
 FIELDNAMES = [
     "case_id", "n_atoms",
     "backbone_rmsd", "heavy_atom_rmsd", "ca_rmsd", "sidechain_rmsd",
-    "contact_weighted_rmsd",
     "clash_native", "clash_pred",
     "fnat", "fnonnat", "LRMSD", "DockQ", "CAPRI_class",
 ]
@@ -91,7 +89,6 @@ def score_case(entry_dir: Path, output_sdf: Path) -> dict:
         "heavy_atom_rmsd": heavy_atom_rmsd(native_peptide, peptide_pred, rec_coord, rec_coord.copy()),
         "ca_rmsd": ca_rmsd(native_peptide, peptide_pred, rec_coord, rec_coord.copy()),
         "sidechain_rmsd": sidechain_rmsd(native_peptide, peptide_pred, rec_coord, rec_coord.copy()),
-        "contact_weighted_rmsd": contact_weighted_rmsd(pep_native_coord, peptide_pred, rec_coord, rec_coord.copy()),
         "clash_native": clashscore(complex_native),
         "clash_pred": clashscore(complex_pred),
     }

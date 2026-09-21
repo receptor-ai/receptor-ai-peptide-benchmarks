@@ -12,7 +12,6 @@ import numpy as np
 METRIC_COLUMNS = [
     "n_atoms",
     "backbone_rmsd", "heavy_atom_rmsd", "ca_rmsd", "sidechain_rmsd",
-    "contact_weighted_rmsd",
     "clash_native", "clash_pred",
     "fnat", "fnonnat", "LRMSD", "DockQ",
 ]
