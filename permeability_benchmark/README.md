@@ -1,4 +1,4 @@
-# Cyclic-peptide PAMPA permeability data — CycPeptMPDB
+# Peptide permeability benchmark — CycPeptMPDB
 
 This folder holds curated PAMPA measurements for cyclic peptides. One row
 gives one peptide and one measured log P_app. A second file lists the
@@ -97,8 +97,8 @@ in [`LICENSE`](LICENSE).
 If you use this data, please cite it. Machine-readable metadata is in
 [`CITATION.cff`](CITATION.cff). Plain text:
 
-> Receptor.AI, Inc. (2026). Cyclic-peptide PAMPA permeability data from
-> CycPeptMPDB (Version 1.0.0).
+> Receptor.AI, Inc. (2026). Peptide permeability benchmark on CycPeptMPDB
+> (Version 1.0.0).
 > https://github.com/receptor-ai/receptor-ai-peptide-benchmarks
 
 ## Warnings
