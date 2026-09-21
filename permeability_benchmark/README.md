@@ -3,8 +3,11 @@
 A benchmark dataset for the passive membrane permeability of peptides: a
 curated reference set of PAMPA measurements for cyclic peptides, drawn from
 CycPeptMPDB, to evaluate a permeability prediction against. One row gives one
-peptide and one measured log P_app. A second file lists the source paper of
-every measurement.
+peptide, its structure and one measured log P_app. A second file lists the
+source paper of every measurement.
+
+Every peptide carries its structure as SMILES, as HELM and as a monomer
+sequence. No external download is necessary.
 
 ## Layout
 
@@ -22,7 +25,7 @@ permeability_benchmark/
 
 | File | Content |
 |---|---|
-| `experimental.csv` | The curated measurement per peptide. 7027 rows over 42 source papers. |
+| `experimental.csv` | The structure and the curated measurement per peptide. 7027 rows over 42 source papers. |
 | `pampa_sources.csv` | The source paper of each measurement. 36 rows. |
 
 [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md) explains every column of every
@@ -108,6 +111,9 @@ If you use this data, please cite it. Machine-readable metadata is in
 Do not read the BLOD rows as measurements. The assay could not measure
 them. CycPeptMPDB stores the placeholder -10. The curation removes these
 rows.
+
+The 7027 rows hold 6960 distinct structures. A peptide that 2 source
+papers measure keeps one row per paper.
 
 Do not trust a source paper with fewer than 20 peptides. A small series
 gives a noisy correlation.

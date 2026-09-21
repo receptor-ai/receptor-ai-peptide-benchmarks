@@ -10,6 +10,11 @@ This file explains every column of every CSV in this folder.
 | `assay` | The assay | always `pampa` |
 | `logp_exp` | The measured log P_app, in log10 cm/s | -9.46 to -3.46 |
 | `source` | The source paper id | e.g. `2006_Rezai_1` |
+| `sequence` | The monomer sequence, as CycPeptMPDB gives it | e.g. `['dL', 'dL', 'L', 'dL', 'P', 'Y']` |
+| `helm` | The structure in HELM notation | e.g. `PEPTIDE2{[dL].[dL].L.[dL].P.Y}$PEPTIDE2,PEPTIDE2,1:R1-6:R2$$$` |
+| `smiles` | The structure as SMILES, with the stereochemistry | e.g. `CC(C)C[C@@H]1NC(=O)...` |
+
+The 3 structure columns come from CycPeptMPDB without a change.
 
 ### `inputs/pampa_sources.csv` — 36 rows, one per listed source
 

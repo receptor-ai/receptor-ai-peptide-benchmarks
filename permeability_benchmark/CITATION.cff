@@ -4,7 +4,8 @@ title: "Peptide permeability benchmark on CycPeptMPDB"
 abstract: >-
   Curated PAMPA permeability measurements for cyclic peptides, taken from
   CycPeptMPDB. It holds 7027 measured log P_app values over 42 source
-  papers, with the DOI of 36 of those papers.
+  papers, the structure of every peptide as SMILES, HELM and a monomer
+  sequence, and the DOI of 36 of those papers.
 type: dataset
 authors:
   - name: "Receptor.AI, Inc."
