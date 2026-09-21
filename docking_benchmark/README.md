@@ -15,11 +15,14 @@ structures with the tools in `scripts/`.
 
 ```
 docking_benchmark/
-  README.md      this file
-  SHA256SUMS     a SHA-256 checksum for every delivered file
-  metrics/       the scoring library (RMSD variants, DockQ/CAPRI, an approximate clashscore)
-  scripts/       quality_filter.py, score_docking.py, summarize_metrics.py -- see below
-  docking985/    the dataset. See docking985/README.md.
+  README.md        this file
+  LICENSE          CC-BY-4.0 -- covers the docking985 dataset
+  SHA256SUMS       a SHA-256 checksum for every delivered file
+  scripts/         quality_filter.py, score_docking.py, summarize_metrics.py, and their own
+                    LICENSE (MIT) -- see below
+    metrics/       the scoring library (RMSD variants, DockQ/CAPRI, an approximate clashscore),
+                    covered by scripts/LICENSE too
+  docking985/      the dataset. See docking985/README.md.
 ```
 
 ## Scripts
@@ -45,6 +48,10 @@ Dependencies: `biotite`, `numpy`, `rdkit`, and (for `score_docking.py`'s DockQ m
 [`DockQ`](https://github.com/bjornwallner/DockQ).
 
 ## Provenance and licensing
+
+Two separate licenses apply. The **`docking985` dataset** (structures and metadata) is under
+[CC-BY-4.0](LICENSE). The **code** (`scripts/`, including `scripts/metrics/`) is under
+[MIT](scripts/LICENSE) — use, modify, and redistribute it freely, including in closed-source tools.
 
 Coordinates come from the RCSB PDB under CC0 1.0. Attribute the RCSB PDB when you use this
 benchmark. See [`docking985/README.md`](docking985/README.md) for the source benchmarks each entry
