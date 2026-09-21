@@ -1,0 +1,21 @@
+{
+  "case_id": "2KE1_entity2",
+  "pdb_id": "2KE1",
+  "peptide_entity_id": "2",
+  "benchmarks": "PepSet",
+  "uniprot_ids": "O43918",
+  "experimental_method": "SOLUTION NMR",
+  "is_nmr": true,
+  "resolution_angstrom": null,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 10,
+  "peptide_sequence": "ARTKQTARKS",
+  "n_protein_atoms": 494,
+  "n_peptide_atoms": 80,
+  "dist_min_pocket": 2.554,
+  "dist_max_pocket": 57.08,
+  "peptide_contact_fraction": 0.938,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

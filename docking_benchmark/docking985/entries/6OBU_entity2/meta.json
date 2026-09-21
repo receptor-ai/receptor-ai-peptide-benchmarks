@@ -1,0 +1,21 @@
+{
+  "case_id": "6OBU_entity2",
+  "pdb_id": "6OBU",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P62136",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.95,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 7,
+  "peptide_sequence": "ALDRXEX",
+  "n_protein_atoms": 2356,
+  "n_peptide_atoms": 71,
+  "dist_min_pocket": 1.746,
+  "dist_max_pocket": 77.356,
+  "peptide_contact_fraction": 0.793,
+  "n_vdw_violations": 2,
+  "vdw_violations_per_peptide_atom": 0.0133
+}

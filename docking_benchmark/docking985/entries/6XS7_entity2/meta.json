@@ -1,0 +1,21 @@
+{
+  "case_id": "6XS7_entity2",
+  "pdb_id": "6XS7",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q9UBQ0",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.58,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 17,
+  "peptide_sequence": "XYTTIYWTPLGTFPRIR",
+  "n_protein_atoms": 1466,
+  "n_peptide_atoms": 151,
+  "dist_min_pocket": 2.755,
+  "dist_max_pocket": 55.827,
+  "peptide_contact_fraction": 0.53,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

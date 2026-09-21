@@ -1,0 +1,21 @@
+{
+  "case_id": "3P8F_entity2",
+  "pdb_id": "3P8F",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet;PPDbench",
+  "uniprot_ids": "Q9Y5Y6",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.0,
+  "peptide_chain_id": "I",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 14,
+  "peptide_sequence": "GRCTKSIPPICFPD",
+  "n_protein_atoms": 1885,
+  "n_peptide_atoms": 105,
+  "dist_min_pocket": 2.689,
+  "dist_max_pocket": 48.77,
+  "peptide_contact_fraction": 0.694,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

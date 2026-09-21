@@ -1,0 +1,21 @@
+{
+  "case_id": "3O2B_entity2",
+  "pdb_id": "3O2B",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "P0A8Q6",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.05,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 10,
+  "peptide_sequence": "FRSKGEELFT",
+  "n_protein_atoms": 673,
+  "n_peptide_atoms": 78,
+  "dist_min_pocket": 2.688,
+  "dist_max_pocket": 87.607,
+  "peptide_contact_fraction": 0.573,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "4MZL_entity2",
+  "pdb_id": "4MZL",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q8I4W8",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.01,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 17,
+  "peptide_sequence": "NIXSLLRVQAHIRKKMV",
+  "n_protein_atoms": 1111,
+  "n_peptide_atoms": 141,
+  "dist_min_pocket": 2.253,
+  "dist_max_pocket": 64.706,
+  "peptide_contact_fraction": 0.762,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

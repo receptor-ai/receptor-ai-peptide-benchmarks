@@ -1,0 +1,21 @@
+{
+  "case_id": "3MMG_entity2",
+  "pdb_id": "3MMG",
+  "peptide_entity_id": "2",
+  "benchmarks": "LEADS-PEP;ProtPep37_2021",
+  "uniprot_ids": "P09814",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.7,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 7,
+  "peptide_sequence": "ETVRFQSD",
+  "n_protein_atoms": 1719,
+  "n_peptide_atoms": 60,
+  "dist_min_pocket": 2.612,
+  "dist_max_pocket": 74.84,
+  "peptide_contact_fraction": 0.945,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

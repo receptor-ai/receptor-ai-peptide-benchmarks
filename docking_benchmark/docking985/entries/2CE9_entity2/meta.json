@@ -1,0 +1,21 @@
+{
+  "case_id": "2CE9_entity2",
+  "pdb_id": "2CE9",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "Q04724",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.12,
+  "peptide_chain_id": "X",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 5,
+  "peptide_sequence": "MWRPW",
+  "n_protein_atoms": 2587,
+  "n_peptide_atoms": 55,
+  "dist_min_pocket": 2.647,
+  "dist_max_pocket": 127.369,
+  "peptide_contact_fraction": 0.904,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

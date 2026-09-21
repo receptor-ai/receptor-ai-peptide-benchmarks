@@ -1,0 +1,21 @@
+{
+  "case_id": "3UFM_entity2",
+  "pdb_id": "3UFM",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "Q9RWH9",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.95,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 4,
+  "peptide_sequence": "DDFPPEEDDLPF",
+  "n_protein_atoms": 1840,
+  "n_peptide_atoms": 35,
+  "dist_min_pocket": 2.655,
+  "dist_max_pocket": 50.51,
+  "peptide_contact_fraction": 0.947,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

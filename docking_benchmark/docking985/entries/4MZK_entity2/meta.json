@@ -1,0 +1,21 @@
+{
+  "case_id": "4MZK_entity2",
+  "pdb_id": "4MZK",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q8I4W8",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.82,
+  "peptide_chain_id": "T",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 19,
+  "peptide_sequence": "XKNIPSLLRLQAHLRKKMV",
+  "n_protein_atoms": 1141,
+  "n_peptide_atoms": 149,
+  "dist_min_pocket": 2.698,
+  "dist_max_pocket": 47.612,
+  "peptide_contact_fraction": 0.681,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

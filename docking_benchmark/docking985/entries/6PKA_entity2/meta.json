@@ -1,0 +1,21 @@
+{
+  "case_id": "6PKA_entity2",
+  "pdb_id": "6PKA",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q2G036",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.25,
+  "peptide_chain_id": "H",
+  "n_peptide_chain_copies": 14,
+  "peptide_length": 7,
+  "peptide_sequence": "XXSPXAP",
+  "n_protein_atoms": 1381,
+  "n_peptide_atoms": 57,
+  "dist_min_pocket": 2.426,
+  "dist_max_pocket": 117.654,
+  "peptide_contact_fraction": 0.733,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

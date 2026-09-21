@@ -1,0 +1,21 @@
+{
+  "case_id": "5LY1_entity2",
+  "pdb_id": "5LY1",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "O75164",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.5,
+  "peptide_chain_id": "E",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 14,
+  "peptide_sequence": "XYVYNTRSGWRWYT",
+  "n_protein_atoms": 11405,
+  "n_peptide_atoms": 135,
+  "dist_min_pocket": 2.248,
+  "dist_max_pocket": 99.908,
+  "peptide_contact_fraction": 0.894,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "2XCB_entity2",
+  "pdb_id": "2XCB",
+  "peptide_entity_id": "2",
+  "benchmarks": "PepSet",
+  "uniprot_ids": "Q9I325",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.85,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 8,
+  "peptide_sequence": "DRVELNAPRQ",
+  "n_protein_atoms": 2047,
+  "n_peptide_atoms": 60,
+  "dist_min_pocket": 2.456,
+  "dist_max_pocket": 57.744,
+  "peptide_contact_fraction": 0.864,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

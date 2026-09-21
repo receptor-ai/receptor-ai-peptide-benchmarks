@@ -1,0 +1,21 @@
+{
+  "case_id": "2D0N_entity2",
+  "pdb_id": "2D0N",
+  "peptide_entity_id": "2",
+  "benchmarks": "PPDbench",
+  "uniprot_ids": "O89100",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.57,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 9,
+  "peptide_sequence": "PSIDRSTKP",
+  "n_protein_atoms": 454,
+  "n_peptide_atoms": 70,
+  "dist_min_pocket": 2.643,
+  "dist_max_pocket": 46.421,
+  "peptide_contact_fraction": 0.675,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

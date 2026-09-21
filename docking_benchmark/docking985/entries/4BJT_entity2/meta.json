@@ -1,0 +1,21 @@
+{
+  "case_id": "4BJT_entity2",
+  "pdb_id": "4BJT",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "P11938",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.61,
+  "peptide_chain_id": "D",
+  "n_peptide_chain_copies": 3,
+  "peptide_length": 7,
+  "peptide_sequence": "ADISVLPEIRIPIFNSLKMQ",
+  "n_protein_atoms": 1245,
+  "n_peptide_atoms": 61,
+  "dist_min_pocket": 2.596,
+  "dist_max_pocket": 83.063,
+  "peptide_contact_fraction": 0.968,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

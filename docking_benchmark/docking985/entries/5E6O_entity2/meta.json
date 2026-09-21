@@ -1,0 +1,21 @@
+{
+  "case_id": "5E6O_entity2",
+  "pdb_id": "5E6O",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "Q23536",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.8,
+  "peptide_chain_id": "E",
+  "n_peptide_chain_copies": 4,
+  "peptide_length": 4,
+  "peptide_sequence": "WEEL",
+  "n_protein_atoms": 967,
+  "n_peptide_atoms": 41,
+  "dist_min_pocket": 2.518,
+  "dist_max_pocket": 78.431,
+  "peptide_contact_fraction": 0.961,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

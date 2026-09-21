@@ -1,0 +1,21 @@
+{
+  "case_id": "1NRS_entity4",
+  "pdb_id": "1NRS",
+  "peptide_entity_id": "4",
+  "benchmarks": "Vina_47",
+  "uniprot_ids": "P00734",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.4,
+  "peptide_chain_id": "I",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 9,
+  "peptide_sequence": "NGDFEEIPEEYL",
+  "n_protein_atoms": 2302,
+  "n_peptide_atoms": 78,
+  "dist_min_pocket": 2.501,
+  "dist_max_pocket": 53.922,
+  "peptide_contact_fraction": 0.709,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "3V3B_entity2",
+  "pdb_id": "3V3B",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q00987",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.0,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 10,
+  "peptide_sequence": "QSQQTFXNLWRLLLQN",
+  "n_protein_atoms": 722,
+  "n_peptide_atoms": 96,
+  "dist_min_pocket": 2.738,
+  "dist_max_pocket": 63.076,
+  "peptide_contact_fraction": 0.548,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

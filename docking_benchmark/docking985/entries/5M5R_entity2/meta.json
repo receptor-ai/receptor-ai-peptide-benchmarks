@@ -1,0 +1,21 @@
+{
+  "case_id": "5M5R_entity2",
+  "pdb_id": "5M5R",
+  "peptide_entity_id": "2",
+  "benchmarks": "PepSet;ProtPep37_2021",
+  "uniprot_ids": "P49951",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.76,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 8,
+  "peptide_sequence": "CGDLLNLDLG",
+  "n_protein_atoms": 2811,
+  "n_peptide_atoms": 60,
+  "dist_min_pocket": 2.629,
+  "dist_max_pocket": 71.627,
+  "peptide_contact_fraction": 0.86,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

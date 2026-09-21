@@ -1,0 +1,21 @@
+{
+  "case_id": "1VWM_entity2",
+  "pdb_id": "1VWM",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P22629",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.6,
+  "peptide_chain_id": "P",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 8,
+  "peptide_sequence": "XCHPQFCX",
+  "n_protein_atoms": 902,
+  "n_peptide_atoms": 53,
+  "dist_min_pocket": 2.657,
+  "dist_max_pocket": 46.36,
+  "peptide_contact_fraction": 0.66,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

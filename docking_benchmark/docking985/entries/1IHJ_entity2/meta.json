@@ -1,0 +1,21 @@
+{
+  "case_id": "1IHJ_entity2",
+  "pdb_id": "1IHJ",
+  "peptide_entity_id": "2",
+  "benchmarks": "PIPER-FlexPepDock;Vina_47",
+  "uniprot_ids": "Q24008",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.8,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 5,
+  "peptide_sequence": "GKTEFCA",
+  "n_protein_atoms": 731,
+  "n_peptide_atoms": 39,
+  "dist_min_pocket": 2.037,
+  "dist_max_pocket": 75.391,
+  "peptide_contact_fraction": 0.705,
+  "n_vdw_violations": 2,
+  "vdw_violations_per_peptide_atom": 0.0227
+}

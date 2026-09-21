@@ -1,0 +1,21 @@
+{
+  "case_id": "2P1O_entity3",
+  "pdb_id": "2P1O",
+  "peptide_entity_id": "3",
+  "benchmarks": "PPDbench;PepSet",
+  "uniprot_ids": "Q570C0",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.9,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 13,
+  "peptide_sequence": "QVVGWPPVRNYRK",
+  "n_protein_atoms": 5564,
+  "n_peptide_atoms": 114,
+  "dist_min_pocket": 2.692,
+  "dist_max_pocket": 96.444,
+  "peptide_contact_fraction": 0.699,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

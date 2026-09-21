@@ -1,0 +1,21 @@
+{
+  "case_id": "3BO7_entity2",
+  "pdb_id": "3BO7",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "D0VWS5",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.35,
+  "peptide_chain_id": "E",
+  "n_peptide_chain_copies": 4,
+  "peptide_length": 11,
+  "peptide_sequence": "ALLVTAGLVLA",
+  "n_protein_atoms": 1325,
+  "n_peptide_atoms": 85,
+  "dist_min_pocket": 2.562,
+  "dist_max_pocket": 69.492,
+  "peptide_contact_fraction": 0.73,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

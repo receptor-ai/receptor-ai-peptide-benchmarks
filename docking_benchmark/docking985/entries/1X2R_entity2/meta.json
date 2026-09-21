@@ -1,0 +1,21 @@
+{
+  "case_id": "1X2R_entity2",
+  "pdb_id": "1X2R",
+  "peptide_entity_id": "2",
+  "benchmarks": "PIPER-FlexPepDock;PPDbench",
+  "uniprot_ids": "Q9Z2X8",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.7,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 9,
+  "peptide_sequence": "LDEETGEFL",
+  "n_protein_atoms": 2227,
+  "n_peptide_atoms": 74,
+  "dist_min_pocket": 2.681,
+  "dist_max_pocket": 50.28,
+  "peptide_contact_fraction": 0.707,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}
