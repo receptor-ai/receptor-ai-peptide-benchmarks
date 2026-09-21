@@ -4,7 +4,8 @@
    "date": "2026-09-16",
    "issue": "The peptide is O-GlcNAcylated: NAG sugar(s) are O-glycosidically bonded to peptide Ser (SER-OG--NAG-C1, ~1.4 A) but were filed in the paired receptor_NN.cif and recorded only as pose_env_adducts, so pose_NN.sdf/cif represented the unglycosylated peptide.",
    "fix": "Moved the peptide-bonded NAG(s) into pose_NN.cif and pose_NN.sdf with the Ser-OG--NAG-C1 glycosidic bond(s); removed them from receptor_NN.cif. Mirrors the 4PJZ/T55 correction (2026-09-15).",
-   "note": "pose_env_adducts and the peptide seq/token fields still describe the pre-correction (unglycosylated) peptide and were not recomputed; the pose structure files are authoritative."
+   "note": "pose_env_adducts and the peptide seq/token fields still describe the pre-correction (unglycosylated) peptide and were not recomputed; the pose structure files are authoritative.",
+   "derived_fields": "seq/peptide_tokens list the amino-acid sequence only (the covalent NAG/ZOY is a modification, not a residue token) and are unchanged; provenance.poses[].atoms documents the source-subchain atom count and is unchanged; pose_env_adducts still names the moiety by its original role. The shipped pose_NN.cif/sdf now additionally contain the covalent moiety and are authoritative."
   }
  ],
  "cell": "linear_standard",

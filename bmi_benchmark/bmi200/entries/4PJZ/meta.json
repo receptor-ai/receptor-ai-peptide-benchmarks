@@ -11,7 +11,8 @@
     "receptor.cif",
     "meta.json"
    ],
-   "note": "Derived QC counters elsewhere in this meta.json (e.g. qc.atom_counts.hetero_heavy, provenance.outputs.*, strict_clean.atom_counts) were NOT recomputed and may still reflect the pre-correction split; the structure files are authoritative."
+   "note": "Derived QC counters elsewhere in this meta.json (e.g. qc.atom_counts.hetero_heavy, provenance.outputs.*, strict_clean.atom_counts) were NOT recomputed and may still reflect the pre-correction split; the structure files are authoritative.",
+   "derived_fields": "qc.atom_counts.peptide_heavy (85) and strict_clean.peptide_polymer_after (85) are POLYMER-scoped and remain correct; T55 is a non-polymer atom, so complex-level composition counts (hetero_heavy, total_heavy) are unchanged. provenance.outputs and strict_clean.outputs byte sizes and n_struct_conn for peptide.cif/receptor.cif were updated to the corrected files."
   }
  ],
  "built_utc": "2026-08-03T15:09:34Z",
@@ -394,16 +395,16 @@
     ]
    },
    "peptide.cif": {
-    "bytes": 11038,
+    "bytes": 15601,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 13,
+    "n_struct_conn": 14,
     "subchains_kept": [
      "A"
     ]
    },
    "receptor.cif": {
-    "bytes": 91056,
+    "bytes": 89377,
     "file": "receptor.cif",
     "n_chains": 2,
     "n_struct_conn": 3,
@@ -993,11 +994,11 @@
     "n_struct_conn": 17
    },
    "peptide.cif": {
-    "bytes": 11038,
-    "n_struct_conn": 13
+    "bytes": 15601,
+    "n_struct_conn": 14
    },
    "receptor.cif": {
-    "bytes": 90212,
+    "bytes": 89377,
     "n_struct_conn": 3
    }
   },
@@ -1090,7 +1091,7 @@
     "min_dist_to_peptide_A": 3.264,
     "min_dist_to_receptor_A": 3.482,
     "n_heavy_atoms": 11,
-    "permissive_reason": "in_peptide_site_le_5.0A",
+    "permissive_reason": "covalently_bonded_to_retained_peptide_via_GCS_N2 [corrected 2026-09-21, see corrections]",
     "seqid": 102,
     "subchain": "D"
    },
