@@ -36,6 +36,52 @@ This data measures one workflow:
 4. Compare the score with the measured log P_app of
    `inputs/experimental.csv`.
 
+## The source papers by tier
+
+The tier groups a source paper by how well the workflow ranked its
+peptides. GOOD is the best group, then MEDIUM, then FAIL.
+
+| tier | source | n | what the library varies |
+|---|---|---:|---|
+| GOOD | 2015_Marelli | 10 | Enantiomeric cyclic-peptide pairs |
+| GOOD | 2021_Lee | 5 | Cyclosporin-O derivatives (IHB/chameleonicity) |
+| GOOD | 2020_Le Roux | 47 | Semipeptidic macrocycles, non-peptidic linkers |
+| GOOD | 2022_Saunders | 11 | Backbone amides -> heterocycles |
+| GOOD | 2022_Lee | 24 | Cyclosporin O + peptoid side chains |
+| GOOD | 2015_Wang | 50 | Diverse cyclic-peptide natural products |
+| GOOD | 2016_Hickey | 18 | Exocyclic amide macrocycles |
+| GOOD | 2021_Golosov | 23 | Thioether cyclic-peptide scaffolds |
+| GOOD | 2021_Wang | 24 | Cyclic decapeptide flexibility/lipophilicity scan |
+| GOOD | 2016_Frost | 12 | Oxadiazole rings replacing amides |
+| GOOD | 2022_Taechalertpaisarn | 52 | New side-chain-to-backbone H-bond scaffold |
+| GOOD | 2015_Ahlbach | 31 | Diverse natural-product cyclic peptides |
+| MEDIUM | 2020_Barlow | 26 | Prodrug masking of H-bond donors |
+| MEDIUM | 2022_Tamura | 10 | Thiazoline ring-bridged macrocycles |
+| MEDIUM | 2020_Townsend | 2881 | Combinatorial 6-/7-mer library: L/D stereochemistry, N-Me, peptoid, beta-AA substitutions on one fixed backbone |
+| MEDIUM | 2021_Kelly | 1519 | Lariat scaffolds, position-scanning |
+| MEDIUM | 2022_Bhardwaj | 133 | Computationally designed macrocycles |
+| MEDIUM | 2021_Comeau | 42 | N-/C-methylation scan |
+| FAIL | 2015_Bockus_2 | 17 | Small n |
+| FAIL | 2020_Furukawa | 36 |  |
+| FAIL | 2018_Lee | 6 | Small n |
+| FAIL | 2006_Rezai_2 | 11 | Small n |
+| FAIL | 2013_CHUGAI | 878 | A different assay format, at pH 6.5. Large n |
+| FAIL | 2016_Furukawa | 680 | Peptomer (Calpha->N) scaffold. Large n |
+| FAIL | 2017_Pye | 20 |  |
+| FAIL | 2020_Hosono | 11 | Amide -> ester substitution |
+| FAIL | 2018_Kaneda | 7 | Small n |
+| FAIL | 2018_Naylor | 72 | PAMPA is the secondary assay here. The primary assay is RRCK |
+| FAIL | 2006_Rezai_1 | 10 | Small n |
+| FAIL | 2015_Bockus_1 | 15 | Small n |
+| FAIL | 2019_Ono | 8 | Small n |
+
+The table holds 31 of the 42 source papers of `inputs/experimental.csv`.
+A paper enters with 5 peptides or more.
+
+`n` is the peptide count at the time of the work. `inputs/experimental.csv`
+is a later curation snapshot, so a few counts differ. The largest
+difference is 4 rows.
+
 ## Provenance and licensing
 
 The experimental values come from CycPeptMPDB (Li et al., *J. Chem. Inf.
