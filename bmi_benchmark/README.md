@@ -71,14 +71,19 @@ assignment.
 
 **Completeness.** `meta.json` distinguishes two cases of a residue missing heavy atoms:
 
-- `incomplete_residues` — genuine crystallographic disorder (27 structures; mostly Lys/Arg/Glu/Asp/Ser
+- `incomplete_residues` — genuine crystallographic disorder (25 structures; mostly Lys/Arg/Glu/Asp/Ser
   tips). Each has a companion `peptide_fixed.cif`/`.sdf` (`pose_XX_fixed.*` in BMI-MODES): the missing
   atoms are rebuilt from the CCD and relaxed by a restrained GAFF2 minimisation with every crystal atom
   and the receptor frozen, so the crystallographic pose is unchanged. `meta.json.fixed_geometry` lists
-  the rebuilt atoms.
-- `covalent_junctions` — 11 structures where a carboxylate O, terminal OXT, or Cys-S looks missing but
+  the rebuilt atoms. The one exception is 7Y8D, whose incomplete component (JFF) is a covalent staple
+  crosslinker with a disordered pendant that cannot be reliably rebuilt; it ships as deposited and is
+  flagged `no_fixed_companion` in `meta.json`.
+- `covalent_junctions` — 12 structures where a carboxylate O, terminal OXT, or Cys-S looks missing but
   is a covalent-bond position (ester, isopeptide lactam, backbone amide, or thioether staple); the
-  residue is fully modelled.
+  residue is fully modelled. In each record `atom` is the vacated position and `bonded_to` is its
+  partner; `distance_A` is how far that vacated position sits from the partner atom (0.03–0.5 Å) — small
+  because the partner occupies the vacated site, which is what confirms it is the covalent-bond position.
+  It is not the bond length (the bond itself is in `_struct_conn`).
 
 **Topology.** This project classifies each peptide as cyclic or linear from the ring topology of its
 coordinates, not from the deposited annotation. The deposited annotation disagrees with the coordinates

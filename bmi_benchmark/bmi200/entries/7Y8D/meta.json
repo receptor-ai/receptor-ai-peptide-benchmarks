@@ -1298,7 +1298,9 @@
     "O4",
     "S1"
    ],
-   "kind": "sidechain_truncated"
+   "kind": "sidechain_truncated",
+   "no_fixed_companion": true,
+   "note": "No peptide_fixed.cif/.sdf is shipped for this entry. JFF is a covalent staple crosslinker - a bis-thioether to Cys1.SG and Cys11.SG plus an N-terminal Cys1.N-JFF.C1 linkage (see _struct_conn) - not a rebuildable disordered side chain. Its 16 unmodelled atoms are a disordered pendant substituent (>50% of the moiety, a chloro-substituted aromatic/amide group) that cannot be reliably rebuilt, so the peptide is shipped exactly as deposited. [2026-09-21]"
   }
  ]
 }

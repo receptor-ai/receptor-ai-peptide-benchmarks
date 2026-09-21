@@ -1003,5 +1003,34 @@
   "risky_removal_cut_A": 4.0,
   "risky_removals": [],
   "utc": "2026-08-03T16:46:56Z"
- }
+ },
+ "covalent_junctions": [
+  {
+   "chain": "C",
+   "seqid": 1436,
+   "residue": "IAS",
+   "atom": "OD2",
+   "bonded_to": "IAS.N",
+   "distance_A": 0.13
+  },
+  {
+   "chain": "C",
+   "seqid": 1437,
+   "residue": "IAS",
+   "atom": "OD2",
+   "bonded_to": "DAL.N",
+   "distance_A": 0.12
+  }
+ ],
+ "corrections": [
+  {
+   "date": "2026-09-21",
+   "component": "IAS 1436 / IAS 1437 (isoaspartate) side-chain carboxyl",
+   "issue": "Two isoaspartate (IAS) residues form isopeptide bonds through their side-chain carboxyl (IAS1436.CG-IAS1437.N and IAS1437.CG-DAL1438.N, both 1.33 A, in _struct_conn). Each therefore lacks side-chain OD2 - the vacated carboxyl-oxygen position is the amide bond - yet neither was recorded in incomplete_residues or covalent_junctions. The residues are fully modelled (an isopeptide lactam junction), so this was a missing annotation, not a structure defect.",
+   "fix": "Added covalent_junctions entries for both IAS residues (atom OD2, bonded_to the isopeptide partner N; distance_A 0.13/0.12 A, the reconstructed OD2-to-partner distance per the field convention).",
+   "files_changed": [
+    "meta.json"
+   ]
+  }
+ ]
 }

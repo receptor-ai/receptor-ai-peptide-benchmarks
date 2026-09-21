@@ -1,4 +1,20 @@
 {
+ "corrections": [
+  {
+   "date": "2026-09-21",
+   "component": "ASP (chain P/Q, seqid 8) side chain",
+   "issue": "A_4EQJ is a standard linear peptide (HIV-1 protease substrate, seq AETFYVDG); Asp8 has no covalent link to Tyr6. Its side chain (CG, OD1, OD2) is simply disordered in the crystal - only N, CA, C, O, CB are modelled in both poses. The original repair mis-handled this: (1) it omitted OD2 in both pose_01_fixed and pose_02_fixed, shipping an incomplete carboxylate (CG, OD1 only); (2) in pose_02_fixed it fabricated a covalent Asp.CG-Tyr.OH ester (a covale in both .cif and .sdf, with CG placed 1.51 A from Tyr.OH) from a distance-triggered link inference misfiring on the nearby disordered side chain; (3) meta.json recorded a spurious covalent_junctions 'ASP.OD2-TYR.OH' (OD2 exists in no shipped structure; the 1.42/0.5 A distances are non-physical) and an inconsistent incomplete_residues inventory (heavy_present 6 despite only 5 crystal atoms; missing_atoms [CG,OD1] omitting OD2).",
+   "fix": "Regenerated pose_01_fixed and pose_02_fixed with a proper aspartate carboxylate: CG/OD1/OD2 placed at ideal CCD geometry on the frozen crystal N-CA-CB frame, chi1/chi2 chosen by steric optimisation against the frozen receptor and peptide, then refined by a restrained in-pocket energy minimisation (all crystal + receptor atoms frozen; only CG/OD1/OD2 mobile). Removed the fabricated Asp.CG-Tyr.OH bond. Both poses now sanitise to C36H48N6O12 with the carboxylate 3.3-4.0 A from Tyr6.OH (non-bonded). Corrected metadata: incomplete_residues ASP heavy_present 6->5 and missing_atoms [CG,OD1]->[CG,OD1,OD2]; removed covalent_junctions__pose_01 and __pose_02; fixed_geometry n_rebuilt 6->7 (added ASP OD2). Crystal atoms are byte-identical.",
+   "files_changed": [
+    "pose_01_fixed.cif",
+    "pose_01_fixed.sdf",
+    "pose_02_fixed.cif",
+    "pose_02_fixed.sdf",
+    "meta.json"
+   ],
+   "note": "GLU3's rebuilt side chain (CD,CG,OE1,OE2) was produced by the original repair and is unchanged; only ASP8's atoms were regenerated. provenance.poses[].atoms (47) counts crystal atoms and is unchanged."
+  }
+ ],
  "cell": "linear_standard",
  "core_separation_widest_pair_A": "7.32",
  "difference_type": "large",
@@ -101,11 +117,12 @@
    "chain": "P",
    "seqid": 8,
    "residue": "ASP",
-   "heavy_present": 6,
+   "heavy_present": 5,
    "heavy_expected": 8,
    "missing_atoms": [
     "CG",
-    "OD1"
+    "OD1",
+    "OD2"
    ],
    "kind": "sidechain_truncated"
   }
@@ -129,23 +146,14 @@
    "chain": "Q",
    "seqid": 8,
    "residue": "ASP",
-   "heavy_present": 6,
+   "heavy_present": 5,
    "heavy_expected": 8,
    "missing_atoms": [
     "CG",
-    "OD1"
+    "OD1",
+    "OD2"
    ],
    "kind": "sidechain_truncated"
-  }
- ],
- "covalent_junctions__pose_01": [
-  {
-   "chain": "P",
-   "seqid": 8,
-   "residue": "ASP",
-   "atom": "OD2",
-   "bonded_to": "TYR.OH",
-   "distance_A": 1.42
   }
  ],
  "fixed_geometry__pose_01": {
@@ -153,7 +161,7 @@
    "pose_01_fixed.cif",
    "pose_01_fixed.sdf"
   ],
-  "n_rebuilt": 6,
+  "n_rebuilt": 7,
   "rebuilt_atoms": [
    {
     "comp": "GLU",
@@ -190,27 +198,24 @@
     "seqid": 8,
     "atom": "OD1",
     "element": "O"
+   },
+   {
+    "comp": "ASP",
+    "seqid": 8,
+    "atom": "OD2",
+    "element": "O"
    }
   ],
   "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
-  "forcefield": "GAFF2 (antechamber gasteiger charges)"
+  "forcefield": "GAFF2 (antechamber gasteiger charges)",
+  "regeneration_note": "ASP8 CG/OD1/OD2 regenerated 2026-09-21 (see corrections) by CCD-ideal placement + restrained in-pocket minimisation, replacing a defective original rebuild that omitted OD2 and (pose_02) fabricated an Asp.CG-Tyr.OH ester. GLU3 atoms are the original rebuild."
  },
- "covalent_junctions__pose_02": [
-  {
-   "chain": "Q",
-   "seqid": 8,
-   "residue": "ASP",
-   "atom": "OD2",
-   "bonded_to": "TYR.OH",
-   "distance_A": 0.5
-  }
- ],
  "fixed_geometry__pose_02": {
   "files": [
    "pose_02_fixed.cif",
    "pose_02_fixed.sdf"
   ],
-  "n_rebuilt": 6,
+  "n_rebuilt": 7,
   "rebuilt_atoms": [
    {
     "comp": "GLU",
@@ -247,9 +252,16 @@
     "seqid": 8,
     "atom": "OD1",
     "element": "O"
+   },
+   {
+    "comp": "ASP",
+    "seqid": 8,
+    "atom": "OD2",
+    "element": "O"
    }
   ],
   "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
-  "forcefield": "GAFF2 (antechamber gasteiger charges)"
+  "forcefield": "GAFF2 (antechamber gasteiger charges)",
+  "regeneration_note": "ASP8 CG/OD1/OD2 regenerated 2026-09-21 (see corrections) by CCD-ideal placement + restrained in-pocket minimisation, replacing a defective original rebuild that omitted OD2 and (pose_02) fabricated an Asp.CG-Tyr.OH ester. GLU3 atoms are the original rebuild."
  }
 }

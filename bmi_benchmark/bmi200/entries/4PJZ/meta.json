@@ -13,6 +13,16 @@
    ],
    "note": "Derived QC counters elsewhere in this meta.json (e.g. qc.atom_counts.hetero_heavy, provenance.outputs.*, strict_clean.atom_counts) were NOT recomputed and may still reflect the pre-correction split; the structure files are authoritative.",
    "derived_fields": "qc.atom_counts.peptide_heavy (85) and strict_clean.peptide_polymer_after (85) are POLYMER-scoped and remain correct; T55 is a non-polymer atom, so complex-level composition counts (hetero_heavy, total_heavy) are unchanged. provenance.outputs and strict_clean.outputs byte sizes and n_struct_conn for peptide.cif/receptor.cif were updated to the corrected files."
+  },
+  {
+   "date": "2026-09-21",
+   "component": "T55 downstream counters",
+   "issue": "Follow-up to the 2026-09-15 T55 correction, whose note flagged that some derived counters were not recomputed. Two remained stale: provenance.outputs['complex.cif'].bytes (100609, actual 99783; complex.cif content was always correct and balances peptide+receptor) and bmi200/MANIFEST.csv 4PJZ (components_in_peptide_file omitted T55; n_components_in_peptide_file said 10).",
+   "fix": "Set provenance.outputs['complex.cif'].bytes to 99783. In bmi200/MANIFEST.csv, appended T55 to 4PJZ components_in_peptide_file and set n_components_in_peptide_file to 11.",
+   "files_changed": [
+    "meta.json",
+    "../../MANIFEST.csv"
+   ]
   }
  ],
  "built_utc": "2026-08-03T15:09:34Z",
@@ -385,7 +395,7 @@
   },
   "outputs": {
    "complex.cif": {
-    "bytes": 100609,
+    "bytes": 99783,
     "file": "complex.cif",
     "n_chains": 2,
     "n_struct_conn": 17,

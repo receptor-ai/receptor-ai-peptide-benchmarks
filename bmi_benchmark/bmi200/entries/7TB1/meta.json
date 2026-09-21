@@ -1029,7 +1029,7 @@
    "residue": "CYS",
    "atom": "SG",
    "bonded_to": "I1J.S5",
-   "distance_A": 0.67
+   "distance_A": 0.1
   },
   {
    "chain": "D",
@@ -1037,7 +1037,18 @@
    "residue": "CYS",
    "atom": "SG",
    "bonded_to": "I1J.S6",
-   "distance_A": 0.32
+   "distance_A": 0.16
+  }
+ ],
+ "corrections": [
+  {
+   "date": "2026-09-21",
+   "component": "CYS2 / CYS7 (thioether staple) covalent_junctions.distance_A",
+   "issue": "Both cysteines are modelled only to CB (the Sgamma is absent), and the staple is recorded as CYS.CB-I1J.S (1.81/1.73 A, normal C-S). distance_A is therefore a reconstructed value for the absent Sgamma, and the original values (0.67/0.32) came from reconstructing Sgamma at an arbitrary chi1; a thiol's Sgamma hangs off CB by a freely-rotating bond, so an arbitrary chi1 can land it far from the partner (worst case ~3.3 A).",
+   "fix": "Recomputed distance_A as the closest a geometrically-valid Sgamma placement (scanning chi1, ideal CB-SG 1.808 A / CA-CB-SG 114.4 deg) comes to the bonded staple sulfur: 0.10 A (CYS2->I1J.S5) and 0.16 A (CYS7->I1J.S6). This is consistent with the rigid sp2-oxygen junctions (~0.1 A) and correctly reflects that the staple sulfur occupies a valid Sgamma site. The crystal coordinates and the CB-S bond are unchanged.",
+   "files_changed": [
+    "meta.json"
+   ]
   }
  ]
 }
