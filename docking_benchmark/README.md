@@ -32,9 +32,8 @@ docking_benchmark/
   `peptide.pdb` + `meta.json`), no external downloads needed. Use it to quality-screen a candidate
   complex of your own before adding it to a benchmark.
 - **`scripts/score_docking.py`** — scores a folder of predicted-pose SDFs (one per case, matched by
-  filename to a `case_id`) against the native structures: backbone/CA/sidechain/heavy-atom/
-  contact-weighted RMSD, DockQ (fnat, fnonnat, iRMSD, LRMSD, CAPRI class), and an approximate
-  clashscore.
+  filename to a `case_id`) against the native structures: backbone/CA/sidechain/heavy-atom RMSD,
+  DockQ (fnat, fnonnat, iRMSD, LRMSD, CAPRI class), and an approximate clashscore.
 - **`scripts/summarize_metrics.py`** — aggregates a `score_docking.py` results CSV into per-metric
   means and the CAPRI class distribution.
 
