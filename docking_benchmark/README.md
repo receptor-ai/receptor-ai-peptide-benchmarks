@@ -59,8 +59,7 @@ was drawn from.
 
 ## How to cite
 
-If you use docking985, please cite this benchmark. Machine-readable metadata is in
-[`CITATION.cff`](CITATION.cff). Plain text:
+If you use docking985, please cite this benchmark:
 
 > Receptor.AI, Inc. (2026). docking985: a peptide–protein re-docking benchmark (Version 1.0.0).
 > https://github.com/receptor-ai/peptide-benchmarks
