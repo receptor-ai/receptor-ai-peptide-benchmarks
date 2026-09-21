@@ -45,8 +45,9 @@ A source appears only with 5 peptides or more.
 | pure hexadecane | 26 | +0.553 | +0.306 |
 | custom PC (Avanti 1.67% L-alpha-PC) | 10 | +0.437 | +0.191 |
 
-The lecithin/dodecane class holds 95 % of the PAMPA rows. Its r of
-+0.318 best shows the performance of the model on the main PAMPA membrane.
+The lecithin/dodecane class holds 5691 of the 6700 PAMPA rows of this
+table. That is 85 %. Its r of +0.318 best shows the performance of the
+model on the main PAMPA membrane.
 
 ## 03_pampa_per_source.csv — PAMPA r per source paper
 
@@ -175,7 +176,12 @@ test used CREST multi-conformer sampling. It gave no gain over the single
 conformer. This release does not contain that test.
 
 `inputs/experimental.csv` is a later curation snapshot than the 4 result
-tables. Its row count differs from the `n` of the tables for 7 source and
-assay pairs. The differences go in both directions. The largest is 15
-rows (2023_Ohta, Caco-2). Use the `n` of the tables with the published r
-values. Use `inputs/experimental.csv` as the current curated data.
+tables. It holds 42 PAMPA sources and 20 Caco-2 sources. The tables score
+31 PAMPA sources and 10 Caco-2 sources. 6 PAMPA sources of the snapshot
+have no row in `inputs/pampa_source_membrane.csv`.
+
+The row count of the snapshot also differs from the `n` of the tables for
+7 source and assay pairs. The differences go in both directions. The
+largest is 15 rows (2023_Ohta, Caco-2). Use the `n` of the tables with
+the published r values. Use `inputs/experimental.csv` as the current
+curated data.

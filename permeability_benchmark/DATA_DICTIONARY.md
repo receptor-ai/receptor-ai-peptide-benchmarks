@@ -52,7 +52,7 @@ note column. `source` joins to `inputs/caco2_source_direction.csv`.
 | `logp_exp` | The measured log P_app, in log10 cm/s | -9.46 to -3.46 |
 | `source` | The source paper id | e.g. `2006_Rezai_1` |
 
-### `inputs/pampa_source_membrane.csv` — 36 rows, one per PAMPA source
+### `inputs/pampa_source_membrane.csv` — 36 rows, one per scored PAMPA source
 
 | Column | Meaning | Values |
 |---|---|---|
@@ -61,6 +61,9 @@ note column. `source` joins to `inputs/caco2_source_direction.csv`.
 | `paper_title` | The title of the paper | free text |
 | `membrane_fine` | The membrane composition, as the paper states it | free text |
 | `membrane_class` | The short membrane class. It maps one-to-one to `merged_membrane_class` of `02_pampa_by_membrane_class.csv` | `lecithin/dodecane`, `Chugai biomimetic`, `DOPC/hexadecane`, `custom PC`, `hexadecane only`, `undocumented` |
+
+`inputs/experimental.csv` holds 42 PAMPA sources. The 6 sources that no
+table scores have no row in this file.
 
 ### `inputs/caco2_source_direction.csv` — 21 rows, one per Caco-2 source
 
@@ -71,6 +74,8 @@ note column. `source` joins to `inputs/caco2_source_direction.csv`.
 | `direction` | The transport direction | `AB`, `AB+BA_avg`, `unspecified_outsourced`, `unusable`, `unknown` |
 | `evidence` | The quotation that fixes the direction | free text |
 | `decision` | Whether the source enters the Caco-2 scoring | `keep`, `drop_averaged`, `drop_unverified` |
+
+One source, `2018_Ramalho`, has no row in `inputs/experimental.csv`.
 
 Load a file with:
 
