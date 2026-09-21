@@ -4,8 +4,6 @@ The model predicts passive permeability from one 3D peptide structure.
 Every number below is the Pearson r
 of the predicted `logp_raw` against the measured log P_app.
 
-Run date: about 2026-05-24. Data collected 2026-09-02.
-
 ## Layout
 
 ```
@@ -134,8 +132,8 @@ the empirical per-assay head.
 ## Reproduction
 
 This folder holds the experimental data and the results. It does not
-hold the predicted `logp_raw` per peptide. That cache stays in the run
-repository. Ask the run owner for it.
+hold the predicted `logp_raw` per peptide. The per-peptide predictions
+are not part of this release.
 
 The scoring has no random step, so no seed is needed. The experimental
 values come from the public download `CycPeptMPDB_Peptide_All.csv`
@@ -172,9 +170,12 @@ rows before the scoring.
 The Caco-2 conformers of Ohta, Tanada and Kage (658 peptides) come from
 Balloon 1.8.4, not from RDKit. 642 of 658 runs succeeded.
 
-Conformer sampling does not improve this result. A later CREST
-multi-conformer test gave no gain over the single conformer.
+Conformer sampling did not improve this result. An unpublished internal
+test used CREST multi-conformer sampling. It gave no gain over the single
+conformer. This release does not contain that test.
 
-`inputs/experimental.csv` is a later curation snapshot. Its n differs
-from the published tables for 7 source and assay pairs. The largest
-difference is 15 rows (2023_Ohta, Caco-2).
+`inputs/experimental.csv` is a later curation snapshot than the 4 result
+tables. Its row count differs from the `n` of the tables for 7 source and
+assay pairs. The differences go in both directions. The largest is 15
+rows (2023_Ohta, Caco-2). Use the `n` of the tables with the published r
+values. Use `inputs/experimental.csv` as the current curated data.
