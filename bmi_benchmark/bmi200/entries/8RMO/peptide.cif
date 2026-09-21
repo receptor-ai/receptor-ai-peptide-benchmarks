@@ -117,7 +117,7 @@ ATOM 51 C CG . ASP A F 6 ? 38.223 41.104 -15.001 0.5 18.918 ? 6 F 1
 ATOM 52 O OD1 . ASP A F 6 ? 38.115 40.832 -16.219 0.5 21.839 ? 6 F 1
 ATOM 53 O OD2 . ASP A F 6 ? 37.349 40.849 -14.155 0.5 19.837 ? 6 F 1
 
-_struct.title '8RMO: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8RMO: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

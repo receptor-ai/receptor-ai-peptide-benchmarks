@@ -143,7 +143,7 @@ HETATM 52 C CG . 9PR B B 6 ? 17.748 -2.958 4.939 1 20 ? 6 B 1
 HETATM 53 C C1 . 9PR B B 6 ? 18.291 0.639 8.403 1 15.06 ? 6 B 1
 HETATM 54 N N1 . 9PR B B 6 ? 17.732 -0.713 8.237 1 15.87 ? 6 B 1
 
-_struct.title '3N8M: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3N8M: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -1815,4 +1815,4 @@ ATOM 1677 N NZ . LYS C W 95 ? 40.66653 34.22524 1.28265 1 75.24 ? 107 W 1
 ATOM 1678 O OXT . LYS C W 95 ? 42.57022 35.68058 8.79058 1 55.88 ? 107 W 1
 
 _struct.title
-'6Z13: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'6Z13: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

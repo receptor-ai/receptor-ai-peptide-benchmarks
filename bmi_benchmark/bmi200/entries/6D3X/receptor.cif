@@ -3802,4 +3802,4 @@ ATOM 3670 O OD1 . ASN B B 246 ? 11.23 -1.222 46 1 27.71 ? 791 B 1
 ATOM 3671 N ND2 . ASN B B 246 ? 11.596 0.367 44.443 1 21.1 ? 791 B 1
 ATOM 3672 O OXT . ASN B B 246 ? 16.631 -0.459 47.082 1 31.03 ? 791 B 1
 
-_struct.title '6D3X: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '6D3X: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

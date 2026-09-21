@@ -1944,4 +1944,4 @@ ATOM 1855 O OG1 . THR A A 236 ? -3.423 -18.228 20.291 1 38.01 ? 231 A 1
 ATOM 1856 C CG2 . THR A A 236 ? -5.281 -19.331 21.365 1 30.93 ? 231 A 1
 ATOM 1857 O OXT . THR A A 236 ? -2.453 -16.437 23.029 1 41.63 ? 231 A 1
 
-_struct.title '8C1Y: retained receptor chains only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+_struct.title '8C1Y: retained receptor chains only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

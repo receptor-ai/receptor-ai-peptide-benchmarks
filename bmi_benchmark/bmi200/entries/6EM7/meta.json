@@ -191,22 +191,6 @@
   "strict_clean_removed_cofactor_ADP_at_2.99A",
   "peptide_integral_nonpolymer_RIP"
  ],
- "frozen_row": {
-  "cell": "linear_standard",
-  "is_cyclic": "0",
-  "n_models": "1",
-  "peptide_caps": "-",
-  "peptide_entity": "6EM7_2",
-  "peptide_len_seqres": "18",
-  "peptide_n_chains": "1",
-  "peptide_ncaa": "-",
-  "peptide_seq_raw": "TTYADFIASGRTGRRSAI",
-  "receptor_desc": "cAMP-dependent protein kinase catalytic subunit alpha",
-  "receptor_uniprot": "P25321",
-  "resolution_A": "1.238",
-  "space_group": "P 21 21 21",
-  "topology_labels": "covalent_to_other_chain"
- },
  "not_computed": {},
  "pdb_id": "6EM7",
  "provenance": {
@@ -239,15 +223,15 @@
   },
   "outputs": {
    "complex.cif": {
-    "bytes": 200883,
+    "bytes": 200879,
     "file": "complex.cif",
     "n_chains": 2,
     "n_struct_conn": 7,
     "role": "strict primary",
-    "written_by": "bin/strict_reclean.py corpus-strict-hetero-1.0"
+    "written_by": "strict-hetero-clean bmi-strict-hetero-1.0"
    },
    "peptide.cif": {
-    "bytes": 11512,
+    "bytes": 15751,
     "file": "peptide.cif",
     "n_chains": 1,
     "n_struct_conn": 1,
@@ -256,12 +240,12 @@
     ]
    },
    "receptor.cif": {
-    "bytes": 190946,
+    "bytes": 190942,
     "file": "receptor.cif",
     "n_chains": 1,
     "n_struct_conn": 6,
     "role": "strict receptor + ions",
-    "written_by": "bin/strict_reclean.py corpus-strict-hetero-1.0"
+    "written_by": "strict-hetero-clean bmi-strict-hetero-1.0"
    }
   },
   "validation_report": {
@@ -845,7 +829,7 @@
      "seqid": 23
     }
    ],
-   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this corpus there is no other source",
+   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this dataset there is no other source",
    "ccd_chirality_disagreements": [],
    "chirality_counts": {
     "L": 16,
@@ -1256,7 +1240,7 @@
    "peptide_n_atoms_below_1.0": 0
   }
  },
- "spec_version": "corpus-spec-1.0",
+ "spec_version": "bmi-spec-1.0",
  "status": {
   "reason": null,
   "stage": "ok"
@@ -1285,7 +1269,7 @@
   },
   "files": {
    "complex.cif": {
-    "bytes": 200883,
+    "bytes": 200879,
     "n_chains": 2,
     "n_struct_conn": 7,
     "role": "strict primary"
@@ -1294,7 +1278,7 @@
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
    "receptor.cif": {
-    "bytes": 190946,
+    "bytes": 190942,
     "n_chains": 1,
     "n_struct_conn": 6,
     "role": "strict receptor + ions"
@@ -1318,7 +1302,7 @@
     "subchain": "F"
    }
   ],
-  "policy_version": "corpus-strict-hetero-1.0",
+  "policy_version": "bmi-strict-hetero-1.0",
   "polymer_atom_counts_unchanged": true,
   "removed_components": [
    {

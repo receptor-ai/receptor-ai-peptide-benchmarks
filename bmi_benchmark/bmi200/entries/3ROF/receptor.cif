@@ -1339,4 +1339,4 @@ ATOM 1250 C CA . GLY A A 158 ? 22.045 6.312 5.818 1 17.02 ? 153 A 1
 ATOM 1251 C C . GLY A A 158 ? 23.036 7.432 6.089 1 21.13 ? 153 A 1
 ATOM 1252 O O . GLY A A 158 ? 24.107 7.478 5.463 1 28.07 ? 153 A 1
 
-_struct.title '3ROF: retained receptor chains only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+_struct.title '3ROF: retained receptor chains only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

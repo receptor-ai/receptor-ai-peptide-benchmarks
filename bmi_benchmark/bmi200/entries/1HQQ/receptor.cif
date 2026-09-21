@@ -1869,4 +1869,4 @@ ATOM 1780 C CD . LYS G D 124 ? 18.128 17.491 -9.869 1 36.14 ? 134 D 1
 ATOM 1781 C CE . LYS G D 124 ? 16.828 17.173 -10.593 1 36.7 ? 134 D 1
 ATOM 1782 N NZ . LYS G D 124 ? 16.88 15.858 -11.29 1 37.82 ? 134 D 1
 
-_struct.title '1HQQ: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '1HQQ: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

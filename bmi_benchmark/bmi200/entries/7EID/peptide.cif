@@ -152,7 +152,7 @@ ATOM 59 C CA . GLY C C 10 ? -21.345 1.515 4.656 1 45.89 ? 14 C 1
 ATOM 60 C C . GLY C C 10 ? -22.325 0.397 4.333 1 46.78 ? 14 C 1
 ATOM 61 O O . GLY C C 10 ? -23.249 0.186 5.145 1 48.46 ? 14 C 1
 
-_struct.title '7EID: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7EID: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

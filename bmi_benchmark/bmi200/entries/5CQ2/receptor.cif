@@ -690,4 +690,4 @@ ATOM 602 O O . ASP A A 86 ? -16.42 33.822 5.102 1 71.39 ? 517 A 1
 ATOM 603 C CB . ASP A A 86 ? -13.076 34.557 3.837 1 51.7 ? 517 A 1
 ATOM 604 C CG . ASP A A 86 ? -12.363 35.645 3.016 1 53.34 ? 517 A 1
 
-_struct.title '5CQ2: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '5CQ2: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

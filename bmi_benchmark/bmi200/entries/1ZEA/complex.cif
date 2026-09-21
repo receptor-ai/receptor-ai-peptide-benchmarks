@@ -3494,4 +3494,4 @@ ATOM 3353 N NH2 . ARG B H 216 ? -8.151 37.259 54.815 1 27.18 ? 213 H 1
 ATOM 3354 O OXT . ARG B H 216 ? -12.821 36.574 60.635 1 32.15 ? 213 H 1
 
 _struct.title
-'1ZEA: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'1ZEA: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

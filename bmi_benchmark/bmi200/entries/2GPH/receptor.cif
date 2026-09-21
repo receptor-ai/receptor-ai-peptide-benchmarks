@@ -2910,4 +2910,4 @@ ATOM 2821 C CB . PRO A A 360 ? 12.722 5.789 -10.565 1 63.71 ? 354 A 1
 ATOM 2822 C CG . PRO A A 360 ? 13.266 5.085 -9.353 1 63.99 ? 354 A 1
 ATOM 2823 C CD . PRO A A 360 ? 12.123 5.22 -8.365 1 62.89 ? 354 A 1
 
-_struct.title '2GPH: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '2GPH: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

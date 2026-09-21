@@ -2954,4 +2954,4 @@ ATOM 2834 C CG . PRO A A 376 ? -14.579 -4.392 -8.531 1 83.38 ? 356 A 1
 ATOM 2835 C CD . PRO A A 376 ? -13.663 -4.959 -7.485 1 81.59 ? 356 A 1
 
 _struct.title
-'7UGB: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'7UGB: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

@@ -213,7 +213,7 @@ ATOM 107 C CG . ASN B B 14 ? 21.287 2.003 15.658 1 24 ? 14 B 1
 ATOM 108 O OD1 . ASN B B 14 ? 21.381 1.203 14.726 1 22.19 ? 14 B 1
 ATOM 109 N ND2 . ASN B B 14 ? 20.117 2.373 16.164 1 26.74 ? 14 B 1
 
-_struct.title '4KEL: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4KEL: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

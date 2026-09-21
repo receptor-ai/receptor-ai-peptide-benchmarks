@@ -1,4 +1,4 @@
-pdb_id,cell,label_says_cyclic,measured_cyclic,agrees,cyclomatic_measured,cyclomatic_corpus,ring_closure_class_corpus,topology_measured_corpus,closure_types_measured,closure_detail,n_residues_in_file,n_amino_acid_residues,n_components,n_heavy,n_res_observed_manifest
+pdb_id,cell,label_says_cyclic,measured_cyclic,agrees,cyclomatic_measured,cyclomatic_metadata,ring_closure_class_metadata,topology_metadata,closure_types_measured,closure_detail,n_residues_in_file,n_amino_acid_residues,n_components,n_heavy,n_res_observed_manifest
 1HQQ,cyclic_standard,1,1,1,2,2,disulfide,macrocycle,disulfide,disulfide CYS2.SG-CYS7.SG 2.03A | disulfide CYS3.SG-CYS13.SG 2.03A,13,13,1,95,13.0
 1HXL,cyclic_standard,1,1,1,2,2,disulfide,macrocycle,disulfide,disulfide CYS2.SG-CYS7.SG 2.03A | disulfide CYS3.SG-CYS13.SG 2.03A,13,13,1,96,13.0
 1HY2,cyclic_standard,1,1,1,2,2,disulfide,macrocycle,disulfide,disulfide CYS2.SG-CYS7.SG 2.03A | disulfide CYS3.SG-CYS13.SG 2.03A,12,12,1,83,12.0

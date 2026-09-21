@@ -1886,4 +1886,4 @@ ATOM 1768 O OE1 . GLU A A 221 ? -14.039 -44.759 11.545 1 40.85 ? 427 A 1
 ATOM 1769 O OE2 . GLU A A 221 ? -13.661 -44.63 9.354 1 45.37 ? 427 A 1
 ATOM 1770 O OXT . GLU A A 221 ? -17.489 -40.775 11.195 1 38.86 ? 427 A 1
 
-_struct.title '6SBA: retained receptor chains only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+_struct.title '6SBA: retained receptor chains only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

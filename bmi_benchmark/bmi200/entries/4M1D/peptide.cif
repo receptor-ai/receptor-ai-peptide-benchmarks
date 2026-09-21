@@ -214,7 +214,7 @@ ATOM 109 C CB . CYS C P 14 ? 2.119 29.297 68.503 1 31 ? 320 P 1
 ATOM 110 S SG . CYS C P 14 ? 3.338 27.982 68.653 1 37.73 ? 320 P 1
 ATOM 111 O OXT . CYS C P 14 ? 0.027 30.97 68.79 1 43.12 ? 320 P 1
 
-_struct.title '4M1D: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4M1D: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

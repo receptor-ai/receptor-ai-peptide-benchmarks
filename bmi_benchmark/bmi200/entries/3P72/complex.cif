@@ -2313,4 +2313,4 @@ ATOM 2191 N NH1 . ARG A A 269 ? -61.99 54.669 -4.309 1 55.22 ? 269 A 1
 ATOM 2192 N NH2 . ARG A A 269 ? -63.867 54.338 -3.03 1 57.14 ? 269 A 1
 
 _struct.title
-'3P72: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'3P72: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

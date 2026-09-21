@@ -184,7 +184,7 @@ HETATM 83 O OXT . MN1 C L 10 ? 28.49 20.282 -39.806 1 59.94 ? 10 L 1
 HETATM 84 C C5 . MN1 C L 10 ? 25.641 19.121 -38.134 1 35.59 ? 10 L 1
 HETATM 85 C C6 . MN1 C L 10 ? 25.118 19.416 -36.717 1 37.03 ? 10 L 1
 
-_struct.title '8FVL: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8FVL: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

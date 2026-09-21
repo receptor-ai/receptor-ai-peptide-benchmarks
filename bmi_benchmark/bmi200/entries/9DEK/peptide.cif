@@ -238,7 +238,7 @@ ATOM 128 C CA . GLY C C 16 ? 37.985 18.799 -13.723 1 38.25 ? 15 C 1
 ATOM 129 C C . GLY C C 16 ? 39.112 17.937 -14.251 1 43.99 ? 15 C 1
 ATOM 130 O O . GLY C C 16 ? 38.882 16.777 -14.584 1 43.4 ? 15 C 1
 
-_struct.title '9DEK: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '9DEK: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

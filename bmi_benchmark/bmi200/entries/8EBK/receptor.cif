@@ -781,4 +781,4 @@ ATOM 693 C CG . LEU A A 122 ? 17.741 0.129 -2.875 1 46.46 ? 106 A 1
 ATOM 694 C CD1 . LEU A A 122 ? 16.252 0.065 -2.593 1 45.3 ? 106 A 1
 ATOM 695 C CD2 . LEU A A 122 ? 18.534 -0.414 -1.708 1 46.76 ? 106 A 1
 
-_struct.title '8EBK: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '8EBK: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

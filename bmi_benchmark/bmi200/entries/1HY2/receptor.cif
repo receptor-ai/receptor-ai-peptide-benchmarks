@@ -1921,4 +1921,4 @@ ATOM 1832 C CB . PRO D D 125 ? 16.75 8.492 42.194 1 31.08 ? 135 D 1
 ATOM 1833 C CG . PRO D D 125 ? 17.951 9.367 42.021 1 30.9 ? 135 D 1
 ATOM 1834 C CD . PRO D D 125 ? 17.346 10.763 42.104 1 30.61 ? 135 D 1
 
-_struct.title '1HY2: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '1HY2: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

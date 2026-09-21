@@ -242,7 +242,7 @@ ATOM 133 C CB . CYS C C 15 ? 30.599 4.962 11.108 1 20.01 ? 14 C 1
 ATOM 134 S SG . CYS C C 15 ? 28.795 4.898 11.112 1 19.35 ? 14 C 1
 ATOM 135 O OXT . CYS C C 15 ? 33.075 6.395 10.035 1 21.31 ? 14 C 1
 
-_struct.title '9BT7: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '9BT7: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

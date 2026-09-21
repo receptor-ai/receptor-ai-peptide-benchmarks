@@ -155,7 +155,7 @@ ATOM 61 C CG . ASP D Y 8 ? 43.995 -35.425 -12.005 0.7 49.72 ? 8 Y 1
 ATOM 62 O OD1 . ASP D Y 8 ? 44.657 -34.361 -11.971 0.7 48.81 ? 8 Y 1
 ATOM 63 O OD2 . ASP D Y 8 ? 43.996 -36.263 -11.073 0.7 51.29 ? 8 Y 1
 
-_struct.title '3AVB: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3AVB: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

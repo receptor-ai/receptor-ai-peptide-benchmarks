@@ -2036,4 +2036,4 @@ ATOM 1944 C CD1 . LEU B B 128 ? 5.12772 6.84653 2.12895 1 46.8032 ? 147 B 1
 ATOM 1945 C CD2 . LEU B B 128 ? 6.69892 8.65533 1.43967 1 50.368 ? 147 B 1
 ATOM 1946 O OXT . LEU B B 128 ? 7.8961 9.34414 6.11062 1 57.3097 ? 147 B 1
 
-_struct.title '7TO9: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '7TO9: receptor chains + retained ions (BMI-MODES benchmark, strict hetero policy bmi-strict-hetero-1.0)'

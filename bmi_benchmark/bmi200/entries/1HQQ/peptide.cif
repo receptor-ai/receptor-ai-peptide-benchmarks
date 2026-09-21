@@ -197,7 +197,7 @@ ATOM 93 O O . CYS B E 13 ? 12.921 -2.166 29.316 1 37.51 ? 13 E 1
 ATOM 94 C CB . CYS B E 13 ? 11.744 0.968 28.986 1 33.28 ? 13 E 1
 ATOM 95 S SG . CYS B E 13 ? 10.66 2.224 29.737 1 30.79 ? 13 E 1
 
-_struct.title '1HQQ: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '1HQQ: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

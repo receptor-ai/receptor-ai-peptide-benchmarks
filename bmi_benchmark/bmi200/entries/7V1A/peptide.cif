@@ -257,7 +257,7 @@ ATOM 146 O O . SER B B 19 ? 13.599 34.967 -15.413 1 98.08 ? 25 B 1
 ATOM 147 C CB . SER B B 19 ? 14.207 32.095 -13.772 1 100.21 ? 25 B 1
 ATOM 148 O OG . SER B B 19 ? 14.425 31.866 -15.154 1 106.35 ? 25 B 1
 
-_struct.title '7V1A: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7V1A: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

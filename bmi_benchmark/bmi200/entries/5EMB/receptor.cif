@@ -799,4 +799,4 @@ ATOM 714 C CG1 . VAL A A 101 ? 2.929 1.82 1.909 1 14.34 ? 133 A 1
 ATOM 715 C CG2 . VAL A A 101 ? 2.159 3.885 0.66 1 14.69 ? 133 A 1
 ATOM 716 O OXT . VAL A A 101 ? 0.61 4.953 3.658 1 19.16 ? 133 A 1
 
-_struct.title '5EMB: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '5EMB: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

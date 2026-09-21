@@ -3439,4 +3439,4 @@ ATOM 3315 C CB . PRO B H 216 ? -18.5635 109.96011 181.70561 1 55.7267 ? 216 H 1
 ATOM 3316 C CG . PRO B H 216 ? -19.48273 109.45134 180.64218 1 54.1697 ? 216 H 1
 ATOM 3317 C CD . PRO B H 216 ? -18.9832 108.07597 180.28153 1 50.4397 ? 216 H 1
 
-_struct.title '8DS7: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '8DS7: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

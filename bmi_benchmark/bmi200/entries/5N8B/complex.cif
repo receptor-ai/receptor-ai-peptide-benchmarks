@@ -2016,4 +2016,4 @@ ATOM 1896 C CG . PRO C B 159 ? -2.259 49.105 27.826 1 30.02 ? 135 B 1
 ATOM 1897 C CD . PRO C B 159 ? -3.135 49.573 26.704 1 28.3 ? 135 B 1
 
 _struct.title
-'5N8B: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'5N8B: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

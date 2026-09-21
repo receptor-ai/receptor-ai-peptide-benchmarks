@@ -1237,4 +1237,4 @@ ATOM 1148 O O . ALA A A 145 ? 6.179 -12.869 -9.942 1 37.87 ? 138 A 1
 ATOM 1149 C CB . ALA A A 145 ? 6.88 -9.813 -9.291 1 36.26 ? 138 A 1
 ATOM 1150 O OXT . ALA A A 145 ? 6.564 -12.746 -7.884 1 37.65 ? 138 A 1
 
-_struct.title '7EID: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '7EID: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

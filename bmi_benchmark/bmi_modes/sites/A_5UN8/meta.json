@@ -21,8 +21,6 @@
  "core_separation_widest_pair_A": "4.04",
  "difference_type": "substantial",
  "frame_pdb": "5UN8",
- "gate": "pass",
- "gate_reason": "pass",
  "max_separation_A": "5.33",
  "max_token_diff": "0",
  "min_inter_mode_core_sep_A": "3.06",
@@ -118,6 +116,5 @@
  "seq": "QLWVDSTPPPG",
  "site_id": "A_5UN8",
  "site_type": "one_deposition",
- "tier": "1_same_molecule",
  "uniprot": "O60502"
 }

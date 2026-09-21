@@ -3209,4 +3209,4 @@ ATOM 3087 C CZ . ARG B B 217 ? -8.269 -59.016 -30.555 1 59.19 ? 217 B 1
 ATOM 3088 N NH1 . ARG B B 217 ? -7.449 -60.067 -30.541 1 56.76 ? 217 B 1
 ATOM 3089 N NH2 . ARG B B 217 ? -9.436 -59.093 -29.925 1 59.44 ? 217 B 1
 
-_struct.title '4TUJ: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '4TUJ: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

@@ -1994,4 +1994,4 @@ ATOM 1875 C CG . ASP A A 239 ? -16.084 3.659 -5.053 1 30.76 ? 246 A 1
 ATOM 1876 O OD1 . ASP A A 239 ? -16.095 2.609 -5.73 1 30.66 ? 246 A 1
 ATOM 1877 O OD2 . ASP A A 239 ? -17.13 4.178 -4.607 1 30.67 ? 246 A 1
 
-_struct.title '5F8X: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '5F8X: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

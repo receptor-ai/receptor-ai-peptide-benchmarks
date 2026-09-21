@@ -245,7 +245,7 @@ ATOM 136 C CG2 . ILE B B 20 ? 19.11441 -1.80702 22.00626 1 35.325 ? 21 B 1
 ATOM 137 C CD1 . ILE B B 20 ? 16.16073 -2.23026 20.68978 1 37.662 ? 21 B 1
 ATOM 138 O OXT . ILE B B 20 ? 19.59225 -5.28988 19.32384 1 42.4611 ? 21 B 1
 
-_struct.title '8GAL: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8GAL: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

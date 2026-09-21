@@ -225,7 +225,7 @@ ATOM 151 C CG2 . ILE B B 20 ? 5.947 -10.513 21.295 1 32.07 ? 20 B 1
 ATOM 152 C CD1 . ILE B B 20 ? 7.755 -12.186 19.415 1 35.57 ? 20 B 1
 ATOM 153 O OXT . ILE B B 20 ? 7.667 -14.201 23.577 1 31.99 ? 20 B 1
 
-_struct.title '8GTX: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8GTX: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

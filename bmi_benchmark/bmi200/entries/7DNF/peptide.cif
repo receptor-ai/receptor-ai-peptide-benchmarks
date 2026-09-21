@@ -233,7 +233,7 @@ ATOM 126 C CB . PRO B B 17 ? 5.363 -40.151 26.889 1 42.25 ? 20 B 1
 ATOM 127 C CG . PRO B B 17 ? 5.741 -40.74 25.559 1 44.16 ? 20 B 1
 ATOM 128 C CD . PRO B B 17 ? 5.136 -39.835 24.536 1 40.64 ? 20 B 1
 
-_struct.title '7DNF: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7DNF: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -271,7 +271,7 @@ ATOM 156 O O . ALA B B 19 ? 7.105 8.502 7.973 1 32.87 ? 164 B 1
 ATOM 157 C CB . ALA B B 19 ? 5.921 5.744 9.583 1 28.25 ? 164 B 1
 HETATM 158 N N . NH2 B B 20 ? 8.25 6.579 7.904 1 41.8 ? 165 B 1
 
-_struct.title '2YQ7: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '2YQ7: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

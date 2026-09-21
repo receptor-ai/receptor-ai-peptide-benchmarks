@@ -1306,4 +1306,4 @@ ATOM 1217 C CD1 . LEU A A 162 ? -0.625 30.423 -16.999 1 14.79 ? 162 A 1
 ATOM 1218 C CD2 . LEU A A 162 ? -0.742 31.084 -19.391 1 14.15 ? 162 A 1
 ATOM 1219 O OXT . LEU A A 162 ? -0.603 25.88 -20.499 1 14.32 ? 162 A 1
 
-_struct.title '1VDN: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '1VDN: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

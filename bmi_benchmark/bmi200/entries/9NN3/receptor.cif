@@ -1016,4 +1016,4 @@ ATOM 927 C CD . GLN A A 111 ? 38.81838 -11.07426 11.75221 1 45.9743 ? 186 A 1
 ATOM 928 O OE1 . GLN A A 111 ? 39.04726 -11.883 12.66157 1 36.3221 ? 186 A 1
 ATOM 929 N NE2 . GLN A A 111 ? 38.74063 -9.76136 11.96163 1 44.1744 ? 186 A 1
 
-_struct.title '9NN3: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '9NN3: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

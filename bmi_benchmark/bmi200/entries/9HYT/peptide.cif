@@ -256,7 +256,7 @@ HETATM 140 C C16 . 29N Q 29N! . ? 15.398 15.092 35.015 1 29.976 ? 101 F 1
 HETATM 141 C C19 . 29N Q 29N! . ? 20.618 12.178 30.609 1 30.835 ? 101 F 1
 HETATM 142 C C25 . 29N Q 29N! . ? 15.214 9.606 34.727 1 22.393 ? 101 F 1
 
-_struct.title '9HYT: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '9HYT: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

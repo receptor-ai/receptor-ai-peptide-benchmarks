@@ -119,7 +119,7 @@ ATOM 49 C CZ . ARG B Z 8 ? -19.679 1.345 3.106 1 61.54 ? 44 Z 1
 ATOM 50 N NH1 . ARG B Z 8 ? -20.781 2.087 3.179 1 69.8 ? 44 Z 1
 ATOM 51 N NH2 . ARG B Z 8 ? -19.782 0.027 3.077 1 68.05 ? 44 Z 1
 
-_struct.title '3SOV: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3SOV: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

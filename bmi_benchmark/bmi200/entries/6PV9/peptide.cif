@@ -243,7 +243,7 @@ ATOM 130 C C . GLY B B 16 ? 10.104 82.382 -51.096 1 33.92 ? 16 B 1
 ATOM 131 O O . GLY B B 16 ? 10.53 82.249 -52.242 1 45.66 ? 16 B 1
 HETATM 132 N N . NH2 B B 17 ? 9.697 83.557 -50.616 1 38.67 ? 17 B 1
 
-_struct.title '6PV9: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '6PV9: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

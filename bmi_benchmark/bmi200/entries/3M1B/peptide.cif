@@ -196,7 +196,7 @@ ATOM 92 O O . CYS J J 14 ? 45.764 -29.723 46.065 1 112.21 ? 113 J 1
 ATOM 93 C CB . CYS J J 14 ? 42.157 -29.842 45.552 1 112.15 ? 113 J 1
 ATOM 94 S SG . CYS J J 14 ? 41.684 -28.193 46.156 1 113.25 ? 113 J 1
 
-_struct.title '3M1B: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3M1B: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

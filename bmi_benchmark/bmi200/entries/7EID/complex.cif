@@ -1333,4 +1333,4 @@ ATOM 1210 C CB . ALA A A 145 ? 6.88 -9.813 -9.291 1 36.26 ? 138 A 1
 ATOM 1211 O OXT . ALA A A 145 ? 6.564 -12.746 -7.884 1 37.65 ? 138 A 1
 
 _struct.title
-'7EID: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'7EID: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

@@ -282,7 +282,7 @@ ATOM 167 C CZ . TYR B B 19 ? -21.432 7.57 47.767 1 32.17 ? 105 B 1
 ATOM 168 O OH . TYR B B 19 ? -22.22 8.608 48.192 1 42.18 ? 105 B 1
 HETATM 169 N N . NH2 B B 20 ? -16.372 3.558 44.232 1 26.01 ? 106 B 1
 
-_struct.title '4A1U: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4A1U: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

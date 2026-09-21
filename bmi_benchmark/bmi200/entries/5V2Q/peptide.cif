@@ -271,7 +271,7 @@ HETATM 154 C C6 . 8VY D 8VY! . ? 9.398 -16.354 118.445 1 32 ? 501 B 1
 HETATM 155 C "C1'" . 8VY D 8VY! . ? 8.081 -14.383 119.16 1 30.09 ? 501 B 1
 HETATM 156 C "C3'" . 8VY D 8VY! . ? 10.694 -17.483 122.475 1 42.64 ? 501 B 1
 
-_struct.title '5V2Q: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5V2Q: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

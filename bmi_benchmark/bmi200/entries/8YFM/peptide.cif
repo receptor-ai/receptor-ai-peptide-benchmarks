@@ -172,7 +172,7 @@ ATOM 75 C CG1 . VAL D E 11 ? -6.016 -42.296 31.816 1 30.27 ? 109 E 1
 ATOM 76 C CG2 . VAL D E 11 ? -4.013 -42.721 30.382 1 32.59 ? 109 E 1
 ATOM 77 O OXT . VAL D E 11 ? -3.843 -46.117 31.872 1 32.15 ? 109 E 1
 
-_struct.title '8YFM: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8YFM: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

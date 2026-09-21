@@ -853,4 +853,4 @@ ATOM 764 C CG . ASN C D 102 ? 26.349 -29.3 34.834 0.56 48.35 ? 1591 D 1
 ATOM 765 O OD1 . ASN C D 102 ? 27.019 -28.575 35.572 1 62.29 ? 1591 D 1
 ATOM 766 N ND2 . ASN C D 102 ? 26.87 -29.932 33.788 0.39 54.81 ? 1591 D 1
 
-_struct.title '8YFM: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '8YFM: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

@@ -2175,4 +2175,4 @@ ATOM 2039 C CD . PRO C C 3 ? 39.037 15.876 -15.045 1 67.82 ? 13 C 1
 HETATM 2040 N N . NH2 C C 4 ? 41.411 18.079 -18.392 1 71.37 ? 14 C 1
 
 _struct.title
-'4MNV: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'4MNV: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

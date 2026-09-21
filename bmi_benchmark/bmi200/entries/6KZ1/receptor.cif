@@ -812,4 +812,4 @@ ATOM 724 C CD1 . LEU A A 113 ? 10.374 26.574 12.604 1 36.3 ? 907 A 1
 ATOM 725 C CD2 . LEU A A 113 ? 10.789 27.408 10.31 1 40.43 ? 907 A 1
 ATOM 726 O OXT . LEU A A 113 ? 8.188 24.297 8.02 1 30 ? 907 A 1
 
-_struct.title '6KZ1: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '6KZ1: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

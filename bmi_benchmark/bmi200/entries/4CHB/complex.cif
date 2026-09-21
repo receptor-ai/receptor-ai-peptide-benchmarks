@@ -2313,4 +2313,4 @@ ATOM 2221 O O . LYS A A 300 ? 12.613 -31.525 -8.45 1 38.13 ? 591 A 1
 ATOM 2222 C CB . LYS A A 300 ? 12.114 -34.287 -10.143 1 29.26 ? 591 A 1
 
 _struct.title
-'4CHB: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'4CHB: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

@@ -221,7 +221,7 @@ ATOM 120 C CG . ASP B B 15 ? -40.235 16.374 36.938 1 37.87 ? 188 B 1
 ATOM 121 O OD1 . ASP B B 15 ? -40.006 15.887 38.069 1 25.67 ? 188 B 1
 ATOM 122 O OD2 . ASP B B 15 ? -40.88 17.435 36.787 1 36.67 ? 188 B 1
 
-_struct.title '4PZ5: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4PZ5: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

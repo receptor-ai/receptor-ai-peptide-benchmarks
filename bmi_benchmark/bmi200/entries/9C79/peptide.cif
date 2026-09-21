@@ -230,7 +230,7 @@ ATOM 126 C CG . ASN C D 18 ? -4.58267 21.93896 54.13869 1 65.355 ? 113 D 1
 ATOM 127 O OD1 . ASN C D 18 ? -3.96368 20.87315 54.19752 1 81.2818 ? 113 D 1
 ATOM 128 N ND2 . ASN C D 18 ? -5.8438 22.01579 53.7148 1 75.3568 ? 113 D 1
 
-_struct.title '9C79: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '9C79: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

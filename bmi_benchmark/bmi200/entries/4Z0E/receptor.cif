@@ -2222,4 +2222,4 @@ ATOM 2103 O OE1 . GLU A A 335 ? -9.204 2.056 9.573 1 34.06 ? 438 A 1
 ATOM 2104 O OE2 . GLU A A 335 ? -8.138 3.863 10.214 1 32.45 ? 438 A 1
 ATOM 2105 O OXT . GLU A A 335 ? -5.338 0.942 13.342 1 21.65 ? 438 A 1
 
-_struct.title '4Z0E: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '4Z0E: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

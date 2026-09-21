@@ -1240,4 +1240,4 @@ ATOM 1147 S SD . MET E E 62 ? 101.714 5.586 82.366 1 81.54 ? 1065 E 1
 ATOM 1148 C CE . MET E E 62 ? 101.504 4.025 81.519 1 81.57 ? 1065 E 1
 
 _struct.title
-'6L0V: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'6L0V: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

@@ -4924,4 +4924,4 @@ ATOM 4832 C CB . THR B B 319 ? 136.058 -29.661 38.487 1 54.14 ? 340 B 1
 ATOM 4833 O OG1 . THR B B 319 ? 136.677 -29.773 37.205 1 57.15 ? 340 B 1
 ATOM 4834 C CG2 . THR B B 319 ? 134.91 -30.66 38.595 1 55.85 ? 340 B 1
 
-_struct.title '5OJR: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '5OJR: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

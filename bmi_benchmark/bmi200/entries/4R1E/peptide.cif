@@ -208,7 +208,7 @@ HETATM 130 C CAC . 3EC C 3EC! . ? -20.737 6.468 -20.347 1 39.76 ? 901 B 1
 HETATM 131 C CAB . 3EC C 3EC! . ? -20.005 7.656 -19.719 1 39.33 ? 901 B 1
 HETATM 132 N NAA . 3EC C 3EC! . ? -20.903 8.425 -18.845 1 40.32 ? 901 B 1
 
-_struct.title '4R1E: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4R1E: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -235,7 +235,7 @@ ATOM 127 C C . GLY B B 14 ? 22.901 10.538 -9.124 0.76 28.05 ? 14 B 1
 ATOM 128 O O . GLY B B 14 ? 21.937 11.168 -8.695 0.84 29.29 ? 14 B 1
 HETATM 129 N N . NH2 B B 15 ? 24.04 11.057 -9.56 0.63 29.2 ? 15 B 1
 
-_struct.title '5O45: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5O45: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

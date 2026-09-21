@@ -1493,4 +1493,4 @@ ATOM 1369 O OG . SER B B 153 ? 65.453 8.737 0.882 1 67.92 ? 153 B 1
 ATOM 1370 O OXT . SER B B 153 ? 68.717 9.373 2.119 1 84.42 ? 153 B 1
 
 _struct.title
-'8RYK: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'8RYK: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

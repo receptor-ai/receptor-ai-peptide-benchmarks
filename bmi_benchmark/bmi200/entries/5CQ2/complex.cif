@@ -818,4 +818,4 @@ ATOM 696 C CB . ASP A A 86 ? -13.076 34.557 3.837 1 51.7 ? 517 A 1
 ATOM 697 C CG . ASP A A 86 ? -12.363 35.645 3.016 1 53.34 ? 517 A 1
 
 _struct.title
-'5CQ2: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'5CQ2: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

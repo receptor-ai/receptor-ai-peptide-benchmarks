@@ -2403,4 +2403,4 @@ ATOM 2287 C CG . PRO B B 326 ? 41.759 66.784 47.791 1 44.74 ? 542 B 1
 ATOM 2288 C CD . PRO B B 326 ? 41.808 67.348 46.39 1 28.82 ? 542 B 1
 ATOM 2289 N N . VAL B B 327 ? 41.472 71.339 48.99 1 32.9 ? 543 B 1
 
-_struct.title '2VR3: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '2VR3: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

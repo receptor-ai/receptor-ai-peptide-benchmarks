@@ -1998,4 +1998,4 @@ ATOM 1876 C CE . LYS G D 124 ? 16.828 17.173 -10.593 1 36.7 ? 134 D 1
 ATOM 1877 N NZ . LYS G D 124 ? 16.88 15.858 -11.29 1 37.82 ? 134 D 1
 
 _struct.title
-'1HQQ: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'1HQQ: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

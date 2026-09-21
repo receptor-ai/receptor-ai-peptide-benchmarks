@@ -1059,4 +1059,4 @@ ATOM 972 C CA . GLY B B 120 ? 5.399 -14.326 -3.261 1 44.39 ? 120 B 1
 ATOM 973 C C . GLY B B 120 ? 4.286 -15.198 -3.962 1 57.26 ? 120 B 1
 ATOM 974 O O . GLY B B 120 ? 4.199 -16.547 -4.243 1 39.4 ? 120 B 1
 
-_struct.title '5WRD: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '5WRD: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

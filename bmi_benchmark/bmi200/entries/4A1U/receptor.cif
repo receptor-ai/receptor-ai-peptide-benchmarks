@@ -1292,4 +1292,4 @@ ATOM 1203 C CA . GLY A A 155 ? -4.276 -2.451 36.581 1 55.79 ? 206 A 1
 ATOM 1204 C C . GLY A A 155 ? -4.74 -3.812 37.073 1 58.4 ? 206 A 1
 ATOM 1205 O O . GLY A A 155 ? -5.917 -4.166 36.955 1 58.64 ? 206 A 1
 
-_struct.title '4A1U: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '4A1U: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

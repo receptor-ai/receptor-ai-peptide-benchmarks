@@ -226,7 +226,7 @@ ATOM 119 N NH1 . ARG B B 14 ? -13.56 35.466 -40.421 1 33.75 ? 913 B 1
 ATOM 120 N NH2 . ARG B B 14 ? -13.981 33.238 -40.068 1 32.95 ? 913 B 1
 HETATM 121 N N . NH2 B B 15 ? -15.022 38.975 -36.966 1 27.22 ? 914 B 1
 
-_struct.title '5H5Q: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5H5Q: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

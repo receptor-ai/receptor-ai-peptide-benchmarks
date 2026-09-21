@@ -1177,4 +1177,4 @@ ATOM 1050 O OD1 . ASN A A 152 ? 22.986 35.426 38.878 1 42.72 ? 162 A 1
 ATOM 1051 N ND2 . ASN A A 152 ? 22.955 36.59 40.803 1 42.79 ? 162 A 1
 
 _struct.title
-'2HMH: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'2HMH: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

@@ -1657,4 +1657,4 @@ ATOM 1563 C CZ . PHE B B 99 ? -14.056 5.357 -9.058 1 38.56 ? 99 B 1
 ATOM 1564 O OXT . PHE B B 99 ? -12.855 7.47 -14.116 1 36.27 ? 99 B 1
 
 _struct.title
-'4OBF: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'4OBF: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

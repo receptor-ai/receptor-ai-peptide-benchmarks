@@ -200,22 +200,6 @@
   "unannotated_covalent_link_CB-C1",
   "peptide_covalently_bonded_to_MET_A_via_covale"
  ],
- "frozen_row": {
-  "cell": "cyclic_standard",
-  "is_cyclic": "1",
-  "n_models": "1",
-  "peptide_caps": "-",
-  "peptide_entity": "5F8T_2",
-  "peptide_len_seqres": "10",
-  "peptide_n_chains": "1",
-  "peptide_ncaa": "-",
-  "peptide_seq_raw": "CPKRFAALFC",
-  "receptor_desc": "Plasma kallikrein light chain",
-  "receptor_uniprot": "P03952",
-  "resolution_A": "1.75",
-  "space_group": "P 65",
-  "topology_labels": "covalent_to_other_chain;disulfide_intrachain"
- },
  "not_computed": {},
  "pdb_id": "5F8T",
  "provenance": {
@@ -248,7 +232,7 @@
   },
   "outputs": {
    "complex.cif": {
-    "bytes": 140785,
+    "bytes": 140821,
     "file": "complex.cif",
     "n_chains": 2,
     "n_struct_conn": 6,
@@ -258,7 +242,7 @@
     ]
    },
    "peptide.cif": {
-    "bytes": 7787,
+    "bytes": 11249,
     "file": "peptide.cif",
     "n_chains": 1,
     "n_struct_conn": 1,
@@ -267,7 +251,7 @@
     ]
    },
    "receptor.cif": {
-    "bytes": 134562,
+    "bytes": 134561,
     "file": "receptor.cif",
     "n_chains": 1,
     "n_struct_conn": 4,
@@ -767,7 +751,7 @@
      "seqid": 2
     }
    ],
-   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this corpus there is no other source",
+   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this dataset there is no other source",
    "ccd_chirality_disagreements": [],
    "chirality_counts": {
     "L": 10
@@ -1108,7 +1092,7 @@
     }
    ],
    "ring_closures_affected": [],
-   "spec_version_followed": "corpus-spec-1.0",
+   "spec_version_followed": "bmi-spec-1.0",
    "verified_NOT_affected": [
     "omega_pattern (built only from adjacent residue pairs, never from a ring closure)",
     "all clash counts and the bond graph (_bond_graph links a _struct_conn pair only when the two atoms are actually within 3.2 A, so a symmetry link creates no edge)",
@@ -1117,7 +1101,7 @@
    ]
   }
  ],
- "spec_version": "corpus-spec-1.0",
+ "spec_version": "bmi-spec-1.0",
  "status": {
   "reason": null,
   "stage": "ok"
@@ -1158,8 +1142,8 @@
   },
   "policy": {
    "ambiguous_set_ruling": "CL/NA/K are monatomic ions and stay. SO4/PO4 are polyatomic additives and go. NH4 goes: only one heavy atom is modelled but the CCD lists 5 atoms, so the species is polyatomic, and the test is on the species not on what happens to be modelled. UNX goes: one atom, but element X is neither metal nor halide.",
-   "keep_K1_peptide_integral": "any component sharing a label_asym_id with a residue of decisions.hetero.peptide_covalent_moieties (whole branched entity), EXCEPT a corpus_chem.CRYO_BUFFER component whose only link to the peptide is distance-inferred rather than in _struct_conn",
-   "keep_K2_monatomic_ion": "the CCD lists exactly one atom and its element is a metal (corpus_chem.METALS) or a halide F/CL/BR/I",
+   "keep_K1_peptide_integral": "any component sharing a label_asym_id with a residue of decisions.hetero.peptide_covalent_moieties (whole branched entity), EXCEPT a cryoprotectant or buffer additive whose only link to the peptide is distance-inferred rather than in _struct_conn",
+   "keep_K2_monatomic_ion": "the CCD lists exactly one atom and its element is a metal or a halide (F, Cl, Br, I)",
    "keep_K3_polymer_cap": "ACE/NH2/FOR/NME/ACY/NHE within 1.25 x sum-of-covalent-radii of a retained peptide or receptor polymer atom",
    "remove": "every other non-polymer: additives, buffers, glycans, lipids, receptor covalent adducts, curated cofactors, UNX/UNL"
   },

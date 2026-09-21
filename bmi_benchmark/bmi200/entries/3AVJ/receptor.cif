@@ -2408,4 +2408,4 @@ ATOM 2316 C CD . GLN B B 180 ? 8.987 -9.272 1.601 0.5 49.87 ? 209 B 1
 ATOM 2317 O OE1 . GLN B B 180 ? 9.02 -8.849 0.445 0.5 46.69 ? 209 B 1
 ATOM 2318 N NE2 . GLN B B 180 ? 9.045 -10.583 1.886 0.5 39.22 ? 209 B 1
 
-_struct.title '3AVJ: retained receptor chains only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+_struct.title '3AVJ: retained receptor chains only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

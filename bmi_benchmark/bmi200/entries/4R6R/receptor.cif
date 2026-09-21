@@ -3197,4 +3197,4 @@ ATOM 3103 C CD1 . LEU E E 133 ? -0.095 3.318 10.505 1 27.6 ? 133 E 1
 ATOM 3104 C CD2 . LEU E E 133 ? 1.209 3.859 8.405 1 27.74 ? 133 E 1
 ATOM 3105 O OXT . LEU E E 133 ? 4.336 6.182 11.259 1 27.99 -1 133 E 1
 
-_struct.title '4R6R: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '4R6R: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

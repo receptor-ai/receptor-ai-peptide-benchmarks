@@ -33,7 +33,7 @@ ARG .
 NH2 .
 
 _struct.entry_id 7VHE
-_struct.title '7VHE: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7VHE: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _struct_asym.id

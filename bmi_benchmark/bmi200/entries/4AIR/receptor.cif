@@ -2376,4 +2376,4 @@ ATOM 2283 O OD2 . ASP A A 354 ? -22.513 12.056 43.947 1 75.08 ? 333 A 1
 ATOM 2284 O OXT . ASP A A 354 ? -19.044 8.261 44.201 1 66.43 ? 333 A 1
 HETATM 2285 CL CL . CL E CL! . ? 8.829 -7.764 13.194 1 13.13 ? 1428 A 1
 
-_struct.title '4AIR: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '4AIR: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

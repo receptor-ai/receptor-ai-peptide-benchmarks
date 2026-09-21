@@ -1208,4 +1208,4 @@ ATOM 1119 C CG . ASP D D 145 ? 3.453 -51.308 -19.15 1 83 ? 145 D 1
 ATOM 1120 O OD1 . ASP D D 145 ? 2.339 -51.887 -19.095 1 83.32 ? 145 D 1
 ATOM 1121 O OD2 . ASP D D 145 ? 4.541 -51.919 -19.114 1 76.46 ? 145 D 1
 
-_struct.title '6MPZ: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '6MPZ: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

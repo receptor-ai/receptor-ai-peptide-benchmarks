@@ -2051,4 +2051,4 @@ ATOM 1931 C CB . THR A U 245 ? -29.214 -8.099 -27.4 1 29.29 ? 242 U 1
 ATOM 1932 O OG1 . THR A U 245 ? -30.603 -8.131 -27.738 1 27.91 ? 242 U 1
 ATOM 1933 C CG2 . THR A U 245 ? -29 -8.748 -26.036 1 28.88 ? 242 U 1
 
-_struct.title '5WXQ: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '5WXQ: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

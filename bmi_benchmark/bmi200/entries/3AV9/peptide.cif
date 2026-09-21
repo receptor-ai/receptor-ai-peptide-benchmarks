@@ -153,7 +153,7 @@ ATOM 58 C CG . ASP C X 8 ? 8.782 -55.865 -1.155 1 58.03 ? 8 X 1
 ATOM 59 O OD1 . ASP C X 8 ? 7.522 -55.919 -1.247 1 60.14 ? 8 X 1
 ATOM 60 O OD2 . ASP C X 8 ? 9.55 -56.353 -2.027 1 61.31 ? 8 X 1
 
-_struct.title '3AV9: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3AV9: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

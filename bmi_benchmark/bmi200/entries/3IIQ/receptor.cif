@@ -1840,4 +1840,4 @@ ATOM 1724 C CE1 . HIS A A 249 ? -1.869 20.994 -27.25 1 32.63 ? 323 A 1
 ATOM 1725 N NE2 . HIS A A 249 ? -0.79 20.214 -27.22 1 36.54 ? 323 A 1
 ATOM 1726 O OXT . HIS A A 249 ? -3.515 19.914 -23.328 1 26.33 ? 323 A 1
 
-_struct.title '3IIQ: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '3IIQ: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

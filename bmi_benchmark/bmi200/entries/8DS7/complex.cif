@@ -3515,4 +3515,4 @@ ATOM 3387 C CG . PRO B H 216 ? -19.48273 109.45134 180.64218 1 54.1697 ? 216 H 1
 ATOM 3388 C CD . PRO B H 216 ? -18.9832 108.07597 180.28153 1 50.4397 ? 216 H 1
 
 _struct.title
-'8DS7: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'8DS7: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

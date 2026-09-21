@@ -145,7 +145,7 @@ ATOM 51 C CA . GLY D D 7 ? 10.89284 -1.55363 11.75404 1 37.4045 ? 200 D 1
 ATOM 52 C C . GLY D D 7 ? 11.96079 -0.84727 12.56497 1 38.881 ? 200 D 1
 ATOM 53 O O . GLY D D 7 ? 11.68365 -0.41937 13.69234 1 37.5914 ? 200 D 1
 
-_struct.title '7ZIT: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7ZIT: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

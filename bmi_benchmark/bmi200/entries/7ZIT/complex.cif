@@ -2000,4 +2000,4 @@ ATOM 1878 C CB . SER B B 230 ? 25.08479 -17.70028 -4.06795 1 50.4113 ? 230 B 1
 ATOM 1879 O OG . SER B B 230 ? 24.51335 -16.40197 -4.02787 1 51.6667 ? 230 B 1
 
 _struct.title
-'7ZIT: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'7ZIT: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

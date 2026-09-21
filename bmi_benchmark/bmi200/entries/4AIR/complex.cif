@@ -2457,4 +2457,4 @@ ATOM 2330 O OXT . ASP A A 354 ? -19.044 8.261 44.201 1 66.43 ? 333 A 1
 HETATM 2331 CL CL . CL E CL! . ? 8.829 -7.764 13.194 1 13.13 ? 1428 A 1
 
 _struct.title
-'4AIR: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'4AIR: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

@@ -197,7 +197,7 @@ HETATM 94 S S07 . 48V C L 11 ? -6.918 -1.538 2.118 1 42.75 ? 11 L 1
 HETATM 95 C C08 . 48V C L 11 ? -6.133 0.064 2.472 1 31.74 ? 11 L 1
 HETATM 96 C C09 . 48V C L 11 ? -5.616 0.668 1.249 1 28.88 ? 11 L 1
 
-_struct.title '5EEQ: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5EEQ: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

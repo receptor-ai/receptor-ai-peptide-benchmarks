@@ -189,22 +189,6 @@
   "multi_chain_receptor_2",
   "peptide_partial_occupancy_min_0.50"
  ],
- "frozen_row": {
-  "cell": "linear_modified",
-  "is_cyclic": "0",
-  "n_models": "1",
-  "peptide_caps": "ACE;NH2",
-  "peptide_entity": "3FIV_2",
-  "peptide_len_seqres": "8",
-  "peptide_n_chains": "2",
-  "peptide_ncaa": "ALN",
-  "peptide_seq_raw": "(ACE)(ALN)VLAE(ALN)(NH2)",
-  "receptor_desc": "FELINE IMMUNODEFICIENCY VIRUS PROTEASE",
-  "receptor_uniprot": "P16088",
-  "resolution_A": "1.85",
-  "space_group": "P 31",
-  "topology_labels": "adjacent_residue_nonstandard_link"
- },
  "not_computed": {},
  "pdb_id": "3FIV",
  "provenance": {
@@ -237,7 +221,7 @@
   },
   "outputs": {
    "complex.cif": {
-    "bytes": 125819,
+    "bytes": 125868,
     "file": "complex.cif",
     "n_chains": 3,
     "n_struct_conn": 8,
@@ -248,7 +232,7 @@
     ]
    },
    "peptide.cif": {
-    "bytes": 6471,
+    "bytes": 8500,
     "file": "peptide.cif",
     "n_chains": 1,
     "n_struct_conn": 4,
@@ -257,7 +241,7 @@
     ]
    },
    "receptor.cif": {
-    "bytes": 121024,
+    "bytes": 121053,
     "file": "receptor.cif",
     "n_chains": 2,
     "n_struct_conn": 4,
@@ -610,7 +594,7 @@
   },
   "geometry": {
    "bond_length_outliers": [],
-   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this corpus there is no other source",
+   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this dataset there is no other source",
    "ccd_chirality_disagreements": [],
    "chirality_counts": {
     "L": 6,
@@ -803,7 +787,7 @@
    "peptide_n_atoms_below_1.0": 63
   }
  },
- "spec_version": "corpus-spec-1.0",
+ "spec_version": "bmi-spec-1.0",
  "status": {
   "reason": null,
   "stage": "ok"
@@ -832,7 +816,7 @@
   },
   "files": {
    "complex.cif": {
-    "bytes": 125872,
+    "bytes": 125868,
     "n_chains": 3,
     "n_struct_conn": 8,
     "role": "strict primary"
@@ -841,7 +825,7 @@
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
    "receptor.cif": {
-    "bytes": 121057,
+    "bytes": 121053,
     "n_chains": 2,
     "n_struct_conn": 4,
     "role": "strict receptor + ions"
@@ -851,7 +835,7 @@
   "n_hetero_instances_before": 0,
   "n_risky_removals": 0,
   "peptide_integral_components": [],
-  "policy_version": "corpus-strict-hetero-1.0",
+  "policy_version": "bmi-strict-hetero-1.0",
   "polymer_atom_counts_unchanged": true,
   "removed_components": [],
   "retained_components": [],

@@ -1247,4 +1247,4 @@ ATOM 1123 C CB . ALA A B 130 ? -36.543 -20.259 -4.573 1 87.24 ? 173 B 1
 ATOM 1124 O OXT . ALA A B 130 ? -37.131 -19.96 -1.835 1 97.63 ? 173 B 1
 
 _struct.title
-'9S3N: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'9S3N: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

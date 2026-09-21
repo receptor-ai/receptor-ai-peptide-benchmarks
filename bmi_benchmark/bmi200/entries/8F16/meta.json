@@ -332,22 +332,6 @@
   "strict_clean_removed_additive_EDO_at_3.778A",
   "peptide_integral_nonpolymer_WHL"
  ],
- "frozen_row": {
-  "cell": "linear_modified",
-  "is_cyclic": "0",
-  "n_models": "1",
-  "peptide_caps": "ACE;NH2",
-  "peptide_entity": "8F16_2",
-  "peptide_len_seqres": "17",
-  "peptide_n_chains": "2",
-  "peptide_ncaa": "DAL;DAR;DAS;DCY;DGL;DHI;DPR;DSN;DTR;DTY;MED",
-  "peptide_seq_raw": "(ACE)(DPR)(DHI)(DGL)(MED)(DCY)(DTY)(DTR)(DAL)(DAS)(DAL)(DTY)(DCY)(DAR)(DTY)(DSN)(NH2)",
-  "receptor_desc": "E3 ubiquitin-protein ligase CHIP",
-  "receptor_uniprot": "Q9UNE7",
-  "resolution_A": "1.56",
-  "space_group": "P 21 21 21",
-  "topology_labels": "adjacent_residue_nonstandard_link;covalent_to_other_chain"
- },
  "not_computed": {},
  "pdb_id": "8F16",
  "provenance": {
@@ -380,15 +364,15 @@
   },
   "outputs": {
    "complex.cif": {
-    "bytes": 157311,
+    "bytes": 157307,
     "file": "complex.cif",
     "n_chains": 3,
     "n_struct_conn": 18,
     "role": "strict primary",
-    "written_by": "bin/strict_reclean.py corpus-strict-hetero-1.0"
+    "written_by": "strict-hetero-clean bmi-strict-hetero-1.0"
    },
    "peptide.cif": {
-    "bytes": 13064,
+    "bytes": 17307,
     "file": "peptide.cif",
     "n_chains": 1,
     "n_struct_conn": 18,
@@ -397,12 +381,12 @@
     ]
    },
    "receptor.cif": {
-    "bytes": 145040,
+    "bytes": 145036,
     "file": "receptor.cif",
     "n_chains": 2,
     "n_struct_conn": 0,
     "role": "strict receptor + ions",
-    "written_by": "bin/strict_reclean.py corpus-strict-hetero-1.0"
+    "written_by": "strict-hetero-clean bmi-strict-hetero-1.0"
    }
   },
   "validation_report": {
@@ -968,7 +952,7 @@
      "seqid": 3
     }
    ],
-   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this corpus there is no other source",
+   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this dataset there is no other source",
    "ccd_chirality_disagreements": [],
    "chirality_counts": {
     "D": 15,
@@ -1350,7 +1334,7 @@
    "peptide_n_atoms_below_1.0": 0
   }
  },
- "spec_version": "corpus-spec-1.0",
+ "spec_version": "bmi-spec-1.0",
  "status": {
   "reason": null,
   "stage": "ok"
@@ -1379,7 +1363,7 @@
   },
   "files": {
    "complex.cif": {
-    "bytes": 157311,
+    "bytes": 157307,
     "n_chains": 3,
     "n_struct_conn": 18,
     "role": "strict primary"
@@ -1388,7 +1372,7 @@
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
    "receptor.cif": {
-    "bytes": 145040,
+    "bytes": 145036,
     "n_chains": 2,
     "n_struct_conn": 0,
     "role": "strict receptor + ions"
@@ -1412,7 +1396,7 @@
     "subchain": "J"
    }
   ],
-  "policy_version": "corpus-strict-hetero-1.0",
+  "policy_version": "bmi-strict-hetero-1.0",
   "polymer_atom_counts_unchanged": true,
   "removed_components": [
    {

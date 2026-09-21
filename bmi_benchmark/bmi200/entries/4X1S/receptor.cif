@@ -2062,4 +2062,4 @@ ATOM 1942 C CD . LYS B U 246 ? -33.293 -4.18 -33.72 1 63.38 ? 243 U 1
 ATOM 1943 C CE . LYS B U 246 ? -33.611 -3.275 -34.899 1 64.64 ? 243 U 1
 ATOM 1944 N NZ . LYS B U 246 ? -34.164 -1.952 -34.477 1 64.78 ? 243 U 1
 
-_struct.title '4X1S: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '4X1S: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

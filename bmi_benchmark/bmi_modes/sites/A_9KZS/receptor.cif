@@ -2366,4 +2366,4 @@ ATOM 2277 C CB . VAL A A 300 ? 18.533 -34.49 20.945 1 54.28 ? 299 A 1
 ATOM 2278 C CG1 . VAL A A 300 ? 19.215 -35.222 19.782 1 51.31 ? 299 A 1
 ATOM 2279 C CG2 . VAL A A 300 ? 18.388 -35.401 22.174 1 50.97 ? 299 A 1
 
-_struct.title '9KZS: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '9KZS: receptor chains + retained ions (BMI-MODES benchmark, strict hetero policy bmi-strict-hetero-1.0)'

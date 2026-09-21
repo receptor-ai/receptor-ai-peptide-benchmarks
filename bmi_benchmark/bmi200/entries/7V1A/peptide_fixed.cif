@@ -41,7 +41,7 @@ SER .
 THR .
 
 _struct.entry_id 7V1A
-_struct.title '7V1A: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7V1A: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _struct_asym.id

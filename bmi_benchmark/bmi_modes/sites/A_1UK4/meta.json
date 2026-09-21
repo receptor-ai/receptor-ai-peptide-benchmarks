@@ -3,8 +3,6 @@
  "core_separation_widest_pair_A": "3.63",
  "difference_type": "clear",
  "frame_pdb": "1UK4",
- "gate": "pass",
- "gate_reason": "pass",
  "max_separation_A": "3.66",
  "max_token_diff": "0",
  "min_inter_mode_core_sep_A": "3.63",
@@ -81,6 +79,5 @@
  "seq": "NSTLQ(0QE)",
  "site_id": "A_1UK4",
  "site_type": "one_deposition",
- "tier": "1_same_molecule",
  "uniprot": "P0C6U8"
 }

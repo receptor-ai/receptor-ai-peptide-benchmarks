@@ -944,4 +944,4 @@ ATOM 819 C CD1 . ILE A A 90 ? -33.753 11.924 88.614 1 29.53 ? 151 A 1
 ATOM 820 O OXT . ILE A A 90 ? -35.321 12.038 92.789 1 29.91 ? 151 A 1
 
 _struct.title
-'4PZ5: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'4PZ5: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

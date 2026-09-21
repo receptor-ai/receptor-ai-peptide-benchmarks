@@ -1871,4 +1871,4 @@ ATOM 1782 N NH1 . ARG A A 241 ? 29.785 15.855 -15.512 1 21.55 ? 223 A 1
 ATOM 1783 N NH2 . ARG A A 241 ? 27.699 14.828 -15.723 1 20.74 ? 223 A 1
 ATOM 1784 O OXT . ARG A A 241 ? 27.403 19.513 -16.77 1 14.86 ? 223 A 1
 
-_struct.title '5E1O: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '5E1O: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

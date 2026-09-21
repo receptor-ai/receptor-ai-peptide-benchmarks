@@ -215,7 +215,7 @@ ATOM 109 C CG . ASP C C 14 ? 0.224 -2.885 38.343 1 42.12 ? 14 C 1
 ATOM 110 O OD1 . ASP C C 14 ? -0.085 -3.833 37.582 1 39.94 ? 14 C 1
 ATOM 111 O OD2 . ASP C C 14 ? -0.338 -1.77 38.315 1 46.34 ? 14 C 1
 
-_struct.title '6D3X: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '6D3X: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

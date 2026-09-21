@@ -3404,4 +3404,4 @@ ATOM 3282 N NH1 . ARG B H 216 ? -6.942 38.417 56.388 1 22.05 ? 213 H 1
 ATOM 3283 N NH2 . ARG B H 216 ? -8.151 37.259 54.815 1 27.18 ? 213 H 1
 ATOM 3284 O OXT . ARG B H 216 ? -12.821 36.574 60.635 1 32.15 ? 213 H 1
 
-_struct.title '1ZEA: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '1ZEA: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

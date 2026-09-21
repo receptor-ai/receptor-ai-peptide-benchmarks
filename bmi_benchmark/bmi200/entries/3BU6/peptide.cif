@@ -220,7 +220,7 @@ ATOM 118 C CA . GLY B B 15 ? 22.418 7.16 36.148 1 34.55 ? 634 B 1
 ATOM 119 C C . GLY B B 15 ? 23.315 7.599 37.297 1 35.19 ? 634 B 1
 ATOM 120 O O . GLY B B 15 ? 23.49 6.871 38.278 1 35.53 ? 634 B 1
 
-_struct.title '3BU6: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3BU6: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

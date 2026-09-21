@@ -34,7 +34,7 @@ MCM .
 PRO .
 
 _struct.entry_id 1VDN
-_struct.title '1VDN: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '1VDN: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _struct_asym.id

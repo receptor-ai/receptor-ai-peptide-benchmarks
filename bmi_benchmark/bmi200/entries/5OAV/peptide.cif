@@ -187,7 +187,7 @@ ATOM 90 C CZ . ARG D D 12 ? 45.276 -13.371 61.666 1 21.58 ? 11 D 1
 ATOM 91 N NH1 . ARG D D 12 ? 45.249 -13.402 62.993 1 20.17 ? 11 D 1
 ATOM 92 N NH2 . ARG D D 12 ? 44.14 -13.291 60.982 1 22.5 ? 11 D 1
 
-_struct.title '5OAV: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5OAV: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -2118,4 +2118,4 @@ ATOM 2026 C CG2 . THR A A 236 ? -5.281 -19.331 21.365 1 30.93 ? 231 A 1
 ATOM 2027 O OXT . THR A A 236 ? -2.453 -16.437 23.029 1 41.63 ? 231 A 1
 
 _struct.title
-'8C1Y: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'8C1Y: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

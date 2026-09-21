@@ -2513,4 +2513,4 @@ ATOM 2391 O OE1 . GLN B B 180 ? 2.94 -12.294 -1.229 0.5 50.3 ? 209 B 1
 ATOM 2392 N NE2 . GLN B B 180 ? 4.593 -13.125 -2.519 0.5 48.89 ? 209 B 1
 
 _struct.title
-'3AVA: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'3AVA: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

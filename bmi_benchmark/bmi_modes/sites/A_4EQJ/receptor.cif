@@ -1595,4 +1595,4 @@ ATOM 1507 C CE2 . PHE A A 203 ? -4.875 8.163 30.553 0.5 86.39 ? 199 A 1
 ATOM 1508 C CZ . PHE A A 203 ? -4.087 7.192 31.137 0.5 83.1 ? 199 A 1
 ATOM 1509 O OXT . PHE A A 203 ? -1.704 12.174 32.495 0.5 67.32 ? 199 A 1
 
-_struct.title '4EQJ: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '4EQJ: receptor chains + retained ions (BMI-MODES benchmark, strict hetero policy bmi-strict-hetero-1.0)'

@@ -95,22 +95,6 @@
  "flags": [
   "cis_amide_n=2"
  ],
- "frozen_row": {
-  "cell": "cyclic_modified",
-  "is_cyclic": "1",
-  "n_models": "1",
-  "peptide_caps": "ACE;NH2",
-  "peptide_entity": "6PV9_2",
-  "peptide_len_seqres": "17",
-  "peptide_n_chains": "1",
-  "peptide_ncaa": "9KK;DCY;MAA;SAR",
-  "peptide_seq_raw": "(ACE)F(MAA)NPHL(SAR)WSW(9KK)(9KK)R(DCY)G(NH2)",
-  "receptor_desc": "Programmed cell death 1 ligand 1",
-  "receptor_uniprot": "Q9NZQ7",
-  "resolution_A": "2.0",
-  "space_group": "P 64",
-  "topology_labels": "adjacent_residue_nonstandard_link;thioether_or_S_bridge"
- },
  "not_computed": {},
  "pdb_id": "6PV9",
  "provenance": {
@@ -153,7 +137,7 @@
     ]
    },
    "peptide.cif": {
-    "bytes": 11542,
+    "bytes": 16337,
     "file": "peptide.cif",
     "n_chains": 1,
     "n_struct_conn": 12,
@@ -678,7 +662,7 @@
   },
   "geometry": {
    "bond_length_outliers": [],
-   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this corpus there is no other source",
+   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this dataset there is no other source",
    "ccd_chirality_disagreements": [],
    "chirality_counts": {
     "D": 1,
@@ -1076,7 +1060,7 @@
    "peptide_n_atoms_below_1.0": 0
   }
  },
- "spec_version": "corpus-spec-1.0",
+ "spec_version": "bmi-spec-1.0",
  "status": {
   "reason": null,
   "stage": "ok"
@@ -1101,8 +1085,8 @@
   "n_struct_conn_after": 14,
   "n_struct_conn_before": 14,
   "peptide_integral_components": [],
-  "policy": "corpus-strict-hetero-1.0",
-  "policy_version": "corpus-strict-hetero-1.0",
+  "policy": "bmi-strict-hetero-1.0",
+  "policy_version": "bmi-strict-hetero-1.0",
   "removed_by_class": {},
   "removed_components": [],
   "retained_components": [],

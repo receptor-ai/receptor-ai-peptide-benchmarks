@@ -116,7 +116,7 @@ ATOM 48 C CG2 . ILE C C 8 ? 55.893 113.318 19.047 1 13.16 ? 267 C 1
 ATOM 49 C CD1 . ILE C C 8 ? 57.21 111.625 16.841 1 11.57 ? 267 C 1
 ATOM 50 O OXT . ILE C C 8 ? 55.279 112.571 22.479 1 15.88 ? 267 C 1
 
-_struct.title '5XOQ: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5XOQ: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -190,7 +190,7 @@ ATOM 121 C CD2 . HIS F E 16 ? 13.481 -67.877 -17.891 1 42.41 ? 527 E 1
 ATOM 122 C CE1 . HIS F E 16 ? 14.643 -68.558 -16.159 1 42.33 ? 527 E 1
 ATOM 123 N NE2 . HIS F E 16 ? 13.996 -67.524 -16.667 1 47.57 ? 527 E 1
 
-_struct.title '6ME1: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '6ME1: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

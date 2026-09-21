@@ -2508,4 +2508,4 @@ ATOM 2420 C CG . LEU A AAA 328 ? 5.962 -40.634 13.527 1 74.239 ? 568 AAA 1
 ATOM 2421 C CD1 . LEU A AAA 328 ? 5.428 -40.035 14.824 1 75.745 ? 568 AAA 1
 ATOM 2422 C CD2 . LEU A AAA 328 ? 4.858 -41.421 12.834 1 73.504 ? 568 AAA 1
 
-_struct.title '8RTZ: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '8RTZ: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

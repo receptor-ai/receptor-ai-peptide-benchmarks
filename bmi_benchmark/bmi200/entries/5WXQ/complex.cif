@@ -2157,4 +2157,4 @@ ATOM 2033 O OG1 . THR A U 245 ? -30.603 -8.131 -27.738 1 27.91 ? 242 U 1
 ATOM 2034 C CG2 . THR A U 245 ? -29 -8.748 -26.036 1 28.88 ? 242 U 1
 
 _struct.title
-'5WXQ: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'5WXQ: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

@@ -159,22 +159,6 @@
  "flags": [
   "multi_chain_receptor_3"
  ],
- "frozen_row": {
-  "cell": "cyclic_standard",
-  "is_cyclic": "1",
-  "n_models": "1",
-  "peptide_caps": "-",
-  "peptide_entity": "4IOI_5",
-  "peptide_len_seqres": "12",
-  "peptide_n_chains": "1",
-  "peptide_ncaa": "-",
-  "peptide_seq_raw": "CQFDLSTRRLKC",
-  "receptor_desc": "Trastuzumab light chain",
-  "receptor_uniprot": "P0A015;Q51918",
-  "resolution_A": "1.95",
-  "space_group": "P 21 21 21",
-  "topology_labels": "disulfide_intrachain"
- },
  "not_computed": {},
  "pdb_id": "4IOI",
  "provenance": {
@@ -210,15 +194,15 @@
   },
   "outputs": {
    "complex.cif": {
-    "bytes": 271542,
+    "bytes": 271538,
     "file": "complex.cif",
     "n_chains": 4,
     "n_struct_conn": 8,
     "role": "strict primary",
-    "written_by": "bin/strict_reclean.py corpus-strict-hetero-1.0"
+    "written_by": "strict-hetero-clean bmi-strict-hetero-1.0"
    },
    "peptide.cif": {
-    "bytes": 8353,
+    "bytes": 12119,
     "file": "peptide.cif",
     "n_chains": 1,
     "n_struct_conn": 1,
@@ -227,12 +211,12 @@
     ]
    },
    "receptor.cif": {
-    "bytes": 264815,
+    "bytes": 264811,
     "file": "receptor.cif",
     "n_chains": 3,
     "n_struct_conn": 7,
     "role": "strict receptor + ions",
-    "written_by": "bin/strict_reclean.py corpus-strict-hetero-1.0"
+    "written_by": "strict-hetero-clean bmi-strict-hetero-1.0"
    }
   },
   "validation_report": {
@@ -693,7 +677,7 @@
      "seqid": 12
     }
    ],
-   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this corpus there is no other source",
+   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this dataset there is no other source",
    "ccd_chirality_disagreements": [],
    "chirality_counts": {
     "L": 12
@@ -995,7 +979,7 @@
    "peptide_n_atoms_below_1.0": 0
   }
  },
- "spec_version": "corpus-spec-1.0",
+ "spec_version": "bmi-spec-1.0",
  "status": {
   "reason": null,
   "stage": "ok"
@@ -1024,7 +1008,7 @@
   },
   "files": {
    "complex.cif": {
-    "bytes": 271542,
+    "bytes": 271538,
     "n_chains": 4,
     "n_struct_conn": 8,
     "role": "strict primary"
@@ -1033,7 +1017,7 @@
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
    "receptor.cif": {
-    "bytes": 264815,
+    "bytes": 264811,
     "n_chains": 3,
     "n_struct_conn": 7,
     "role": "strict receptor + ions"
@@ -1043,7 +1027,7 @@
   "n_hetero_instances_before": 0,
   "n_risky_removals": 0,
   "peptide_integral_components": [],
-  "policy_version": "corpus-strict-hetero-1.0",
+  "policy_version": "bmi-strict-hetero-1.0",
   "polymer_atom_counts_unchanged": true,
   "removed_components": [],
   "retained_components": [],

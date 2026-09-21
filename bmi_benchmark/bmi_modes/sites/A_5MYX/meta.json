@@ -3,8 +3,6 @@
  "core_separation_widest_pair_A": "6.36",
  "difference_type": "substantial",
  "frame_pdb": "5MYX",
- "gate": "pass",
- "gate_reason": "pass",
  "max_separation_A": "8.03",
  "max_token_diff": "0",
  "min_inter_mode_core_sep_A": "6.36",
@@ -80,6 +78,5 @@
  "seq": "(PCA)FRHDSGYEVHHQKLV",
  "site_id": "A_5MYX",
  "site_type": "one_deposition",
- "tier": "1_same_molecule",
  "uniprot": "-"
 }

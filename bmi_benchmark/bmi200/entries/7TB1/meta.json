@@ -216,22 +216,6 @@
   "peptide_residues_below_rscc_0.8_n=2",
   "peptide_integral_nonpolymer_I1J"
  ],
- "frozen_row": {
-  "cell": "linear_standard",
-  "is_cyclic": "0",
-  "n_models": "1",
-  "peptide_caps": "-",
-  "peptide_entity": "7TB1_2",
-  "peptide_len_seqres": "10",
-  "peptide_n_chains": "2",
-  "peptide_ncaa": "-",
-  "peptide_seq_raw": "ACSSIWCPDG",
-  "receptor_desc": "E3 ubiquitin-protein ligase CHIP",
-  "receptor_uniprot": "Q9UNE7",
-  "resolution_A": "1.785",
-  "space_group": "P 1 21 1",
-  "topology_labels": "covalent_to_other_chain"
- },
  "not_computed": {},
  "pdb_id": "7TB1",
  "provenance": {
@@ -264,7 +248,7 @@
   },
   "outputs": {
    "complex.cif": {
-    "bytes": 146468,
+    "bytes": 146517,
     "file": "complex.cif",
     "n_chains": 3,
     "n_struct_conn": 2,
@@ -275,7 +259,7 @@
     ]
    },
    "peptide.cif": {
-    "bytes": 6766,
+    "bytes": 9744,
     "file": "peptide.cif",
     "n_chains": 1,
     "n_struct_conn": 2,
@@ -284,7 +268,7 @@
     ]
    },
    "receptor.cif": {
-    "bytes": 140665,
+    "bytes": 140694,
     "file": "receptor.cif",
     "n_chains": 2,
     "n_struct_conn": 0,
@@ -694,7 +678,7 @@
   },
   "geometry": {
    "bond_length_outliers": [],
-   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this corpus there is no other source",
+   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this dataset there is no other source",
    "ccd_chirality_disagreements": [],
    "chirality_counts": {
     "L": 9,
@@ -938,7 +922,7 @@
    "peptide_n_atoms_below_1.0": 0
   }
  },
- "spec_version": "corpus-spec-1.0",
+ "spec_version": "bmi-spec-1.0",
  "status": {
   "reason": null,
   "stage": "ok"
@@ -967,7 +951,7 @@
   },
   "files": {
    "complex.cif": {
-    "bytes": 146521,
+    "bytes": 146517,
     "n_chains": 3,
     "n_struct_conn": 2,
     "role": "strict primary"
@@ -976,7 +960,7 @@
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
    "receptor.cif": {
-    "bytes": 140698,
+    "bytes": 140694,
     "n_chains": 2,
     "n_struct_conn": 0,
     "role": "strict receptor + ions"
@@ -1000,7 +984,7 @@
     "subchain": "F"
    }
   ],
-  "policy_version": "corpus-strict-hetero-1.0",
+  "policy_version": "bmi-strict-hetero-1.0",
   "polymer_atom_counts_unchanged": true,
   "removed_components": [],
   "retained_components": [

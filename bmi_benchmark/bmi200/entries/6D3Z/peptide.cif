@@ -217,7 +217,7 @@ ATOM 111 C CG . ASN B C 14 ? -12.042 95.732 2.103 1 61.2 ? 14 C 1
 ATOM 112 O OD1 . ASN B C 14 ? -11.548 95.388 3.178 1 60.34 ? 14 C 1
 ATOM 113 N ND2 . ASN B C 14 ? -11.461 96.625 1.306 1 58.8 ? 14 C 1
 
-_struct.title '6D3Z: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '6D3Z: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -3324,4 +3324,4 @@ ATOM 3227 C CD2 . LEU E E 133 ? 1.209 3.859 8.405 1 27.74 ? 133 E 1
 ATOM 3228 O OXT . LEU E E 133 ? 4.336 6.182 11.259 1 27.99 -1 133 E 1
 
 _struct.title
-'4R6R: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'4R6R: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

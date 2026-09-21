@@ -3,8 +3,6 @@
  "core_separation_widest_pair_A": "13.21",
  "difference_type": "large",
  "frame_pdb": "2ZNE",
- "gate": "pass",
- "gate_reason": "pass",
  "max_separation_A": "13.71",
  "max_token_diff": "0",
  "min_inter_mode_core_sep_A": "13.21",
@@ -80,6 +78,5 @@
  "seq": "QGPPYPTYPGYPGYSQ",
  "site_id": "A_2ZNE",
  "site_type": "one_deposition",
- "tier": "1_same_molecule",
  "uniprot": "O75340"
 }

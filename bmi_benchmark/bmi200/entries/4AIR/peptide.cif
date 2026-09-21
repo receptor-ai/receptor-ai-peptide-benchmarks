@@ -129,7 +129,7 @@ HETATM 44 O OE1 . FGA C C 5 ? 6.118 -10.379 0.669 1 45.54 ? 1331 C 1
 HETATM 45 O OE2 . FGA C C 5 ? 7.871 -11.724 1 1 43.87 ? 1331 C 1
 HETATM 46 O OXT . FGA C C 5 ? 7.976 -6.131 4.094 1 18.56 ? 1331 C 1
 
-_struct.title '4AIR: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4AIR: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

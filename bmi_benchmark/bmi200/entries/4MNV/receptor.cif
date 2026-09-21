@@ -2079,4 +2079,4 @@ ATOM 1953 C CG . PRO C C 3 ? 38.894 15.219 -16.391 1 67.34 ? 13 C 1
 ATOM 1954 C CD . PRO C C 3 ? 39.037 15.876 -15.045 1 67.82 ? 13 C 1
 HETATM 1955 N N . NH2 C C 4 ? 41.411 18.079 -18.392 1 71.37 ? 14 C 1
 
-_struct.title '4MNV: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '4MNV: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

@@ -2162,4 +2162,4 @@ ATOM 2036 O OE1 . GLU B U 247 ? 14.852 20.01 14.086 1 67.78 ? 244 U 1
 ATOM 2037 O OE2 . GLU B U 247 ? 15.995 21.824 13.625 1 70.86 ? 244 U 1
 
 _struct.title
-'4X1N: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'4X1N: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

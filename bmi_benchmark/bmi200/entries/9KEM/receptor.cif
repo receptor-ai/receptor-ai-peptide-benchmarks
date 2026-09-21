@@ -1008,4 +1008,4 @@ ATOM 920 C CG . LEU C C 111 ? 26.8322 -12.2485 20.70383 1 59.297 ? 164 C 1
 ATOM 921 C CD1 . LEU C C 111 ? 25.70053 -13.2249 20.97553 1 59.9952 ? 164 C 1
 ATOM 922 C CD2 . LEU C C 111 ? 26.30543 -10.95413 20.08509 1 52.8162 ? 164 C 1
 
-_struct.title '9KEM: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '9KEM: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

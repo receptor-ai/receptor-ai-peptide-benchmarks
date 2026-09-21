@@ -23,9 +23,9 @@ does not copy these annotations from the PDB deposition.
 | Selection rule | Distinct peptide sequences, spread over topology, size, and structure. | One peptide sequence, placed two or more ways in one pocket. |
 | Cases | 202 entries | 30 sites |
 | Poses | 202. One per entry. | 71 |
-| Distinct receptors (UniProt) | 126 | 27 |
+| Distinct receptors (UniProt) | 131 | 27 |
 | Distinct peptide sequences | 202 | 30 |
-| Resolution (Å) | 0.85–3.10. Median 1.78. | 1.10–2.50. Median 1.80. |
+| Resolution (Å) | 0.85–3.10. Median 1.78. | 1.10–2.50. Median 1.76. |
 | Cyclic / linear (measured) | 102 / 100 | 1 / 29 |
 
 The two datasets use opposite selection rules. BMI-200 requires a distinct peptide sequence in every
@@ -47,7 +47,8 @@ bmi_benchmark/
   bmi_modes/     the mode-discrimination dataset. See bmi_modes/README.md.
 ```
 
-To load either dataset, run `python scripts/load.py`. The script needs only pandas.
+To load either dataset, run `python scripts/load.py`. The script needs only pandas. To verify file
+integrity, run `sha256sum -c SHA256SUMS` from `bmi_benchmark/`.
 
 ## What both datasets share
 
@@ -86,8 +87,9 @@ assignment.
   It is not the bond length (the bond itself is in `_struct_conn`).
 
 **Topology.** This project classifies each peptide as cyclic or linear from the ring topology of its
-coordinates, not from the deposited annotation. The deposited annotation disagrees with the coordinates
-for 28 of the 202 BMI-200 entries.
+coordinates, not from the deposited annotation. For 28 of the 202 BMI-200 entries the coordinate re-measurement overrode the initially assigned
+topology label; the final labels all agree with the coordinates (`topology_audit.csv` reads
+`agrees == 1` on every row).
 
 **Secondary structure.** This project assigns secondary structure in two representations. Each dataset's
 README gives its own secondary-structure tables. The `pep_ss` tool that makes these assignments is in
@@ -101,8 +103,13 @@ README gives its own secondary-structure tables. The `pep_ss` tool that makes th
   peptide in solution. Do not read it as one. The isolated assignment shows only how much of the bound
   structure the peptide holds by itself.
 
-**Metal content.** Every complex is metal-free. Any complex whose deposited structure contained a metal
-is excluded. Each dataset keeps monatomic halides and flags them (`has_monatomic_halide`).
+**Metal content.** No metal sits in any peptide binding pocket, in either dataset. BMI-200 is metal-free
+outright: any complex whose deposited structure contained a metal was excluded, and BMI-200 keeps and
+flags the monatomic halides it retains (`has_monatomic_halide`, 22 of 202). BMI-MODES is pocket-metal-free
+rather than metal-free: 7 of its 30 sites keep a deposited assembly metal in the receptor, outside the
+binding site (`A_2AOF`, `A_2ZNE`, `A_3UA7`, `A_5MTW`, `A_5N8E`, `A_6GQN`, `B_P06873_3PTL`). The nearest
+metal-to-peptide approach is 6.9 Å, so no metal contacts or coordinates any pose, and every pose records
+`pose_env_metals` = `-`. BMI-MODES contains no monatomic halides and has no `has_monatomic_halide` column.
 
 ## Provenance and licensing
 
@@ -123,4 +130,4 @@ If you use BMI-200 or BMI-MODES, please cite this benchmark. Machine-readable
 metadata is in [`CITATION.cff`](CITATION.cff). Plain text:
 
 > Receptor.AI, Inc. (2026). BMI-200 and BMI-MODES: peptide–protein binding-mode
-> identification benchmarks (Version 1.0.0). https://github.com/receptor-ai/peptide-benchmarks
+> identification benchmarks (Version 1.0.0). https://github.com/receptor-ai/receptor-ai-peptide-benchmarks

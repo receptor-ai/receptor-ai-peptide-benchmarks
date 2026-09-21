@@ -163,7 +163,7 @@ ATOM 67 C CE1 . HIS C P 12 ? 62.831 14.06 147.265 1 18.6 ? 11 P 1
 ATOM 68 N NE2 . HIS C P 12 ? 63.523 14.354 148.35 1 20.43 ? 11 P 1
 HETATM 69 N N . NH2 C P 13 ? 67.409 19.084 145.46 1 18.13 ? 12 P 1
 
-_struct.title '2BRR: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '2BRR: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

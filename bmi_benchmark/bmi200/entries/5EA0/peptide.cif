@@ -176,7 +176,7 @@ ATOM 77 C CB . SER C P 14 ? -12.097 -17.98 11.512 1 45.18 ? 1122 P 1
 ATOM 78 O OG . SER C P 14 ? -13.088 -18.854 10.998 1 46.22 ? 1122 P 1
 HETATM 79 N N . NH2 C P 15 ? -9.553 -18.744 9.974 1 26.73 ? 1123 P 1
 
-_struct.title '5EA0: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5EA0: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

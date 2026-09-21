@@ -190,7 +190,7 @@ ATOM 87 C CG . PRO B B 12 ? -2.353 16.994 -25.48 1 24.03 ? 52 B 1
 ATOM 88 C CD . PRO B B 12 ? -2.61 16.395 -24.135 1 18.86 ? 52 B 1
 HETATM 89 N N . NH2 B B 13 ? -5.026 20.398 -23.882 1 18.45 ? 53 B 1
 
-_struct.title '6MYE: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '6MYE: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

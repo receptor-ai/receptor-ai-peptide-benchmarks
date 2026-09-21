@@ -885,4 +885,4 @@ ATOM 796 O O . CYS A A 107 ? -3.23415 33.49214 -6.11805 1 67.0262 ? 104 A 1
 ATOM 797 C CB . CYS A A 107 ? -3.98511 30.06156 -6.36766 1 38.93 ? 104 A 1
 ATOM 798 S SG . CYS A A 107 ? -2.55353 29.66732 -5.4127 1 56.3207 ? 104 A 1
 
-_struct.title '9EIK: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '9EIK: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

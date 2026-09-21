@@ -192,7 +192,7 @@ HETATM 90 C CA . GLZ H P 14 ? -8.687 -45.361 10.865 1 28.93 ? 14 P 1
 HETATM 91 C C . GLZ H P 14 ? -7.187 -45.408 10.699 1 29.26 ? 14 P 1
 HETATM 92 O O . GLZ H P 14 ? -6.634 -45.73 11.743 1 23.71 ? 14 P 1
 
-_struct.title '6MPZ: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '6MPZ: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

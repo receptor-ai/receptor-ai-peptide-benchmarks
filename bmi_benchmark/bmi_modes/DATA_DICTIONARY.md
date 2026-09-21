@@ -33,7 +33,6 @@ Route `B` (repeat deposition) gives `B_<UniProt>_<PDB>` (for example `B_P06873_3
 | Column | Meaning | Values |
 |---|---|---|
 | `site_id` | Site identifier (see format above) | e.g. `A_8ZVY`, `B_P06873_3PTL` |
-| `tier` | Comparison tier | `1_same_molecule` (the same molecule compared to itself) |
 | `site_type` | Where the poses come from | `one_deposition` (one PDB entry) or `repeat_deposition` (repeat depositions of the same pair) |
 | `route` | Assembly route | `A_one_deposition` or `B_repeat_deposition` |
 | `difference_type` | Qualitative magnitude of the difference between the two modes | `clear`, `substantial`, `large` |
@@ -47,7 +46,7 @@ Route `B` (repeat deposition) gives `B_<UniProt>_<PDB>` (for example `B_P06873_3
 
 | Column | Meaning | Values |
 |---|---|---|
-| `uniprot` | Receptor UniProt accession(s) | `;`-separated (blank if none) |
+| `uniprot` | Receptor UniProt accession(s) | `;`-separated (`-` if none) |
 | `receptor_one_line` | Receptor description | free text |
 | `receptor_class` | Receptor functional class | 13 classes, e.g. `transcription_factor`, `protease` |
 | `seq` | Peptide sequence (one-letter, with 3-letter tokens in parentheses for non-standard residues/caps) | e.g. `VSFN(FRD)PQITAA(NH2)` |
@@ -121,9 +120,9 @@ Route `B` (repeat deposition) gives `B_<UniProt>_<PDB>` (for example `B_P06873_3
 | `chain_in_pdb` | Chain id given to the peptide in the shipped pose file | `P`, `Q`, `R`, `S`, `T` |
 | `n_atoms`, `n_residues` | Heavy atoms / residues in the pose | integers |
 | `occupancy` | Crystallographic occupancy of the pose | 0–1 |
-| `env_adducts` | Covalent adducts near the pose | codes (blank if none) |
-| `env_near` | Any component near the pose | codes (blank if none) |
-| `env_additives` | Crystallisation additives near the pose | codes (blank if none) |
+| `env_adducts` | Covalent adducts near the pose | codes (`-` if none) |
+| `env_near` | Any component near the pose | codes (`-` if none) |
+| `env_additives` | Crystallisation additives near the pose | codes (`-` if none) |
 | `receptor_file` | The receptor file that pairs with this pose (`receptor_NN.cif` in the site directory) | e.g. `receptor_01.cif` |
 | `receptor_chains` | Receptor chains in that file | e.g. `A,B` |
 | `receptor_residues` | Receptor residues in that file | integer |

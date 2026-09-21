@@ -273,7 +273,7 @@ ATOM 162 O O . ALA B B 16 ? 14.914 9.255 -15.329 1 65.8 ? 16 B 1
 ATOM 163 C CB . ALA B B 16 ? 14.546 12.077 -14.288 1 60.11 ? 16 B 1
 ATOM 164 O OXT . ALA B B 16 ? 13.584 9.987 -16.798 1 67.03 ? 16 B 1
 
-_struct.title '8EBK: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8EBK: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

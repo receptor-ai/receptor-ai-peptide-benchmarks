@@ -249,7 +249,7 @@ ATOM 143 C CB . CYS B B 14 ? -15.65 -14.707 0.948 1 34.33 ? 13 B 1
 ATOM 144 S SG . CYS B B 14 ? -15.573 -16.46 0.457 1 36.08 ? 13 B 1
 HETATM 145 N N . NH2 B B 15 ? -13 -14.939 -1.384 1 36.14 ? 14 B 1
 
-_struct.title '9X2V: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '9X2V: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

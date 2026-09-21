@@ -274,7 +274,7 @@ HETATM 156 C C . ACE H ACE! . ? -0.16 -20.507 31.594 1 58.8 ? 101 B 1
 HETATM 157 O O . ACE H ACE! . ? -0.043 -19.419 31.005 1 42.18 ? 101 B 1
 HETATM 158 C CH3 . ACE H ACE! . ? -1.47 -21.123 32.011 1 40.08 ? 101 B 1
 
-_struct.title '6SBA: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '6SBA: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

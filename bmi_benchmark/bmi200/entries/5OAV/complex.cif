@@ -1108,4 +1108,4 @@ ATOM 988 O OD2 . ASP C C 61 ? 40.443 -25.395 90.338 1 32.53 ? 141 C 1
 ATOM 989 O OXT . ASP C C 61 ? 39.559 -22.023 86.969 1 30.16 ? 141 C 1
 
 _struct.title
-'5OAV: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'5OAV: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

@@ -241,7 +241,7 @@ HETATM 130 C CAF . T55 D T55! . ? 25.776 9.808 26.047 1 45.14 ? 102 B 1
 HETATM 131 C C . T55 D T55! . ? 29.055 16.759 28.427 1 35.77 ? 102 B 1
 HETATM 132 O O . T55 D T55! . ? 28.091 16.867 27.715 1 38.66 ? 102 B 1
 
-_struct.title '4PJZ: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4PJZ: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

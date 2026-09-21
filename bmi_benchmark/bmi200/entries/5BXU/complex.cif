@@ -1438,4 +1438,4 @@ ATOM 1312 O O . ALA A A 163 ? -17.958 17.492 -9.09 1 49.94 ? 648 A 1
 ATOM 1313 C CB . ALA A A 163 ? -17.566 19.464 -6.391 1 35.56 ? 648 A 1
 
 _struct.title
-'5BXU: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'5BXU: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

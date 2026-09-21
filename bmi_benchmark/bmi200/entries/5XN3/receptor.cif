@@ -1591,4 +1591,4 @@ ATOM 1502 C CG . ARG A A 201 ? 1.055 5.751 -6.184 1 27.88 ? 220 A 1
 ATOM 1503 N N . GLY A A 202 ? 5.148 7.825 -6.579 1 31.31 ? 221 A 1
 ATOM 1504 C CA . GLY A A 202 ? 5.917 9.077 -6.451 1 30.38 ? 221 A 1
 
-_struct.title '5XN3: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '5XN3: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

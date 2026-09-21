@@ -4505,4 +4505,4 @@ ATOM 4361 C CB . SER B B 529 ? 4.889 -15.016 -8.937 1 38.01 ? 681 B 1
 ATOM 4362 O OG . SER B B 529 ? 6.176 -14.465 -9.091 1 44.59 ? 681 B 1
 
 _struct.title
-'8FVL: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'8FVL: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

@@ -144,7 +144,7 @@ HETATM 52 O O11 . AMV M AMV! . ? 17.082 -48.77 44.213 1 48.9 ? 1 F 1
 HETATM 53 N N2 . AMV M AMV! . ? 16.749 -53.108 45.82 1 47.25 ? 1 F 1
 HETATM 54 C C12 . AMV M AMV! . ? 17.373 -56.67 47.331 1 54.09 ? 1 F 1
 
-_struct.title '3ITB: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3ITB: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -252,7 +252,7 @@ ATOM 140 C CG . PRO D M 17 ? 27.449 49.863 11.132 1 34.09 ? 205 M 1
 ATOM 141 C CD . PRO D M 17 ? 27.415 50.142 9.659 1 29.33 ? 205 M 1
 HETATM 142 N N . NH2 D M 18 ? 29.845 47.583 8.553 1 28.58 ? 206 M 1
 
-_struct.title '6SEN: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '6SEN: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

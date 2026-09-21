@@ -3390,4 +3390,4 @@ ATOM 3265 C CZ . ARG D D 215 ? 40.533 38.035 32.696 1 53.81 ? 215 D 1
 ATOM 3266 N NH1 . ARG D D 215 ? 39.743 38.979 33.198 1 37.5 ? 215 D 1
 ATOM 3267 N NH2 . ARG D D 215 ? 40.377 36.77 33.069 1 49.02 ? 215 D 1
 
-_struct.title '5MYX: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '5MYX: receptor chains + retained ions (BMI-MODES benchmark, strict hetero policy bmi-strict-hetero-1.0)'

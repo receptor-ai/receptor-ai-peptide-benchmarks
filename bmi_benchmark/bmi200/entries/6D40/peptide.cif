@@ -214,7 +214,7 @@ ATOM 108 C CG . ASP B C 14 ? 56.952 12.637 116.086 1 56.98 ? 14 C 1
 ATOM 109 O OD1 . ASP B C 14 ? 56.379 13.525 115.413 1 56.15 ? 14 C 1
 ATOM 110 O OD2 . ASP B C 14 ? 57.1 11.468 115.672 1 56.03 ? 14 C 1
 
-_struct.title '6D40: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '6D40: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

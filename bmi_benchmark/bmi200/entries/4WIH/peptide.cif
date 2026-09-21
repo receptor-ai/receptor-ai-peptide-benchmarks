@@ -183,7 +183,7 @@ ATOM 112 C CG1 . ILE B B 15 ? -5.732 13.247 33.365 1 36.02 ? 15 B 1
 ATOM 113 C CG2 . ILE B B 15 ? -7.896 13.201 34.618 1 44.94 ? 15 B 1
 ATOM 114 C CD1 . ILE B B 15 ? -6.421 13.167 32.012 1 32.51 ? 15 B 1
 
-_struct.title '4WIH: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4WIH: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

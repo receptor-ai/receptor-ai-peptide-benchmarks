@@ -1660,4 +1660,4 @@ ATOM 1542 C CG . PRO A A 198 ? -16.43 -3.611 -30.389 1 25.12 ? 527 A 1
 ATOM 1543 C CD . PRO A A 198 ? -16.484 -4.79 -29.459 1 22.16 ? 527 A 1
 ATOM 1544 O OXT . PRO A A 198 ? -18.764 -6.166 -33.319 1 30.78 ? 527 A 1
 
-_struct.title '7Z8O: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '7Z8O: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

@@ -46,8 +46,8 @@ def bmi200_complex_path(pdb_id):
 
 
 def bmi_modes_pose_path(site_id, pose):
-    """Return the path to one BMI-MODES pose file (for example pose='pose_01')."""
-    return os.path.join(ROOT, "bmi_modes", "sites", site_id, f"{pose}.cif")
+    """Return the path to one BMI-MODES pose file (for example pose=1)."""
+    return os.path.join(ROOT, "bmi_modes", "sites", site_id, f"pose_{int(pose):02d}.cif")
 
 
 def _summary_bmi200():
@@ -60,7 +60,9 @@ def _summary_bmi200():
     n = pd.to_numeric(e.n_res_observed, errors="coerce")
     print(f"  peptide length: {int(n.min())}-{int(n.max())} residues "
           f"(median {n.median():.0f})")
-    print(f"  distinct receptors (UniProt): {e.receptor_uniprot.nunique()}")
+    acc = e.receptor_uniprot.str.split(";").explode().str.strip()
+    acc = acc[(acc != "") & (acc != "-")]
+    print(f"  distinct receptors (UniProt): {acc.nunique()}")
     print(f"  example complex: {bmi200_complex_path(e.pdb_id.iloc[0])}")
 
 

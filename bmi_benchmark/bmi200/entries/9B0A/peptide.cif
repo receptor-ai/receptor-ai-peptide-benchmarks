@@ -232,7 +232,7 @@ ATOM 122 O O . CYS D D 18 ? 15.41821 6.32955 43.41366 1 56.5261 ? 18 D 1
 ATOM 123 C CB . CYS D D 18 ? 12.26193 6.40998 41.61794 1 56.2686 ? 18 D 1
 ATOM 124 S SG . CYS D D 18 ? 11.67972 7.80261 42.63632 1 79.2079 ? 18 D 1
 
-_struct.title '9B0A: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '9B0A: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

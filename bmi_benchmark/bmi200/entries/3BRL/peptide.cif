@@ -135,7 +135,7 @@ ATOM 66 C CG . ASP B C 10 ? 3.413 -15.24 -14.862 1 55.27 ? 296 C 1
 ATOM 67 O OD1 . ASP B C 10 ? 4.043 -16.078 -15.542 1 57.17 ? 296 C 1
 ATOM 68 O OD2 . ASP B C 10 ? 3.208 -15.38 -13.637 1 61.19 ? 296 C 1
 
-_struct.title '3BRL: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3BRL: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

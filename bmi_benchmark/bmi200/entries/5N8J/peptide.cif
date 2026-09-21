@@ -155,7 +155,7 @@ HETATM 59 O O . DSN E P 11 ? 22.617 38.821 18.413 1 25.9 ? 9 P 1
 HETATM 60 C CB . DSN E P 11 ? 21.433 37.053 16.412 1 20.85 ? 9 P 1
 HETATM 61 O OG . DSN E P 11 ? 20.566 36.919 15.286 1 23.04 ? 9 P 1
 
-_struct.title '5N8J: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5N8J: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

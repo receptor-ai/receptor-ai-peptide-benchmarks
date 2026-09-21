@@ -241,7 +241,7 @@ HETATM 134 C C13 . M9E E M9E! . ? -11.434 25.363 -16.037 1 63.18 ? 101 B 1
 HETATM 135 N N4 . M9E E M9E! . ? -10.369 26.35 -15.844 1 53.14 ? 101 B 1
 HETATM 136 C C14 . M9E E M9E! . ? -10.862 27.685 -16.155 1 67.04 ? 101 B 1
 
-_struct.title '6T2D: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '6T2D: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -2903,4 +2903,4 @@ ATOM 2777 C CB . ASP D D 70 ? 11.015 57.247 11.144 1 39.06 ? 70 D 1
 ATOM 2778 O OXT . ASP D D 70 ? 12.575 58.908 9.472 1 39.9 ? 70 D 1
 
 _struct.title
-'7VHE: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'7VHE: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

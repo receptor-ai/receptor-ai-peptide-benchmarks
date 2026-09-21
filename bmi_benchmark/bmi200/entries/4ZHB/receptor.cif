@@ -970,4 +970,4 @@ ATOM 851 O OE1 . GLU A A 114 ? -10.825 -0.235 9.677 0.5 18.05 ? 114 A 1
 ATOM 852 O OE2 . GLU A A 114 ? -11.018 -0.25 11.876 0.5 15.02 ? 114 A 1
 ATOM 853 O OXT . GLU A A 114 ? -7.493 4.436 11.192 0.5 29.67 ? 114 A 1
 
-_struct.title '4ZHB: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '4ZHB: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

@@ -1130,4 +1130,4 @@ ATOM 1041 C CB . THR A A 125 ? 89.664 5.157 7.98 1 41.81 ? 166 A 1
 ATOM 1042 O OG1 . THR A A 125 ? 90.171 3.888 7.559 1 51.17 ? 166 A 1
 ATOM 1043 C CG2 . THR A A 125 ? 90.023 5.392 9.447 1 41.03 ? 166 A 1
 
-_struct.title '6G0O: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '6G0O: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

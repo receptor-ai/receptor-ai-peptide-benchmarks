@@ -135,7 +135,7 @@ HETATM 46 C CB . DAL C C 5 ? 94.98 68.736 -10.614 1 23.43 ? 1438 C 1
 HETATM 47 C C . DAL C C 5 ? 95.453 71.152 -10.156 1 23.44 ? 1438 C 1
 HETATM 48 O O . DAL C C 5 ? 95.394 71.762 -11.223 1 19.95 ? 1438 C 1
 
-_struct.title '1W9V: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '1W9V: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

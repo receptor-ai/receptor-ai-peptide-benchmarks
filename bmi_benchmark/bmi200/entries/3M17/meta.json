@@ -440,22 +440,6 @@
  "flags": [
   "peptide_residues_below_rscc_0.8_n=1"
  ],
- "frozen_row": {
-  "cell": "cyclic_modified",
-  "is_cyclic": "1",
-  "n_models": "1",
-  "peptide_caps": "ACE;NH2",
-  "peptide_entity": "3M17_3",
-  "peptide_len_seqres": "15",
-  "peptide_n_chains": "4",
-  "peptide_ncaa": "LE1;MLE;SAR",
-  "peptide_seq_raw": "(ACE)RF(LE1)TGHFG(SAR)(MLE)YPC(NH2)",
-  "receptor_desc": "IgG receptor FcRn large subunit p51",
-  "receptor_uniprot": "P55899;P61769",
-  "resolution_A": "2.60",
-  "space_group": "C 2 2 21",
-  "topology_labels": "adjacent_residue_nonstandard_link;disulfide_intrachain"
- },
  "not_computed": {},
  "pdb_id": "3M17",
  "provenance": {
@@ -489,7 +473,7 @@
   },
   "outputs": {
    "complex.cif": {
-    "bytes": 141744,
+    "bytes": 141743,
     "file": "complex.cif",
     "n_chains": 2,
     "n_struct_conn": 10,
@@ -499,7 +483,7 @@
     ]
    },
    "peptide.cif": {
-    "bytes": 9663,
+    "bytes": 13934,
     "file": "peptide.cif",
     "n_chains": 1,
     "n_struct_conn": 8,
@@ -508,7 +492,7 @@
     ]
    },
    "receptor.cif": {
-    "bytes": 133705,
+    "bytes": 133704,
     "file": "receptor.cif",
     "n_chains": 1,
     "n_struct_conn": 2,
@@ -1106,7 +1090,7 @@
   },
   "geometry": {
    "bond_length_outliers": [],
-   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this corpus there is no other source",
+   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this dataset there is no other source",
    "ccd_chirality_disagreements": [],
    "chirality_counts": {
     "L": 10,
@@ -1460,7 +1444,7 @@
    "peptide_n_atoms_below_1.0": 0
   }
  },
- "spec_version": "corpus-spec-1.0",
+ "spec_version": "bmi-spec-1.0",
  "status": {
   "reason": null,
   "stage": "ok"

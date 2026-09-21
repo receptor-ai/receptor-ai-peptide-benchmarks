@@ -185,22 +185,6 @@
   "twisted_amide_n=1",
   "strict_clean_removed_additive_IPA_at_3.907A"
  ],
- "frozen_row": {
-  "cell": "cyclic_modified",
-  "is_cyclic": "1",
-  "n_models": "1",
-  "peptide_caps": "-",
-  "peptide_entity": "9UPJ_2",
-  "peptide_len_seqres": "11",
-  "peptide_n_chains": "2",
-  "peptide_ncaa": "ABA;DAL;MLE;MVA;SAR;YYA",
-  "peptide_seq_raw": "(DAL)(MLE)(MLE)(MVA)(YYA)(ABA)(SAR)(MLE)V(MLE)A",
-  "receptor_desc": "Peptidyl-prolyl cis-trans isomerase",
-  "receptor_uniprot": "N9TCE9",
-  "resolution_A": "1.5",
-  "space_group": "P 1 21 1",
-  "topology_labels": "adjacent_residue_nonstandard_link;head_to_tail"
- },
  "not_computed": {},
  "pdb_id": "9UPJ",
  "provenance": {
@@ -233,15 +217,15 @@
   },
   "outputs": {
    "complex.cif": {
-    "bytes": 93240,
+    "bytes": 93236,
     "file": "complex.cif",
     "n_chains": 2,
     "n_struct_conn": 11,
     "role": "strict primary",
-    "written_by": "bin/strict_reclean.py corpus-strict-hetero-1.0"
+    "written_by": "strict-hetero-clean bmi-strict-hetero-1.0"
    },
    "peptide.cif": {
-    "bytes": 8309,
+    "bytes": 10825,
     "file": "peptide.cif",
     "n_chains": 1,
     "n_struct_conn": 11,
@@ -250,12 +234,12 @@
     ]
    },
    "receptor.cif": {
-    "bytes": 85813,
+    "bytes": 85809,
     "file": "receptor.cif",
     "n_chains": 1,
     "n_struct_conn": 0,
     "role": "strict receptor + ions",
-    "written_by": "bin/strict_reclean.py corpus-strict-hetero-1.0"
+    "written_by": "strict-hetero-clean bmi-strict-hetero-1.0"
    }
   },
   "validation_report": {
@@ -673,7 +657,7 @@
      "seqid": 5
     }
    ],
-   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this corpus there is no other source",
+   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this dataset there is no other source",
    "ccd_chirality_disagreements": [],
    "chirality_counts": {
     "D": 1,
@@ -964,7 +948,7 @@
    "peptide_n_atoms_below_1.0": 0
   }
  },
- "spec_version": "corpus-spec-1.0",
+ "spec_version": "bmi-spec-1.0",
  "status": {
   "reason": null,
   "stage": "ok"
@@ -993,7 +977,7 @@
   },
   "files": {
    "complex.cif": {
-    "bytes": 93240,
+    "bytes": 93236,
     "n_chains": 2,
     "n_struct_conn": 11,
     "role": "strict primary"
@@ -1002,7 +986,7 @@
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
    "receptor.cif": {
-    "bytes": 85813,
+    "bytes": 85809,
     "n_chains": 1,
     "n_struct_conn": 0,
     "role": "strict receptor + ions"
@@ -1012,7 +996,7 @@
   "n_hetero_instances_before": 2,
   "n_risky_removals": 1,
   "peptide_integral_components": [],
-  "policy_version": "corpus-strict-hetero-1.0",
+  "policy_version": "bmi-strict-hetero-1.0",
   "polymer_atom_counts_unchanged": true,
   "removed_components": [
    {

@@ -1575,4 +1575,4 @@ ATOM 1484 C CE2 . PHE B B 99 ? -14.998 5.25 -10.071 1 38.21 ? 99 B 1
 ATOM 1485 C CZ . PHE B B 99 ? -14.056 5.357 -9.058 1 38.56 ? 99 B 1
 ATOM 1486 O OXT . PHE B B 99 ? -12.855 7.47 -14.116 1 36.27 ? 99 B 1
 
-_struct.title '4OBF: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '4OBF: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

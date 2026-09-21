@@ -141,7 +141,7 @@ ATOM 48 C CG2 . ILE D D 7 ? 5.037 93.26 0.24 1 45.97 ? 369 D 1
 ATOM 49 C CD1 . ILE D D 7 ? 5.373 90.543 1.769 1 42.58 ? 369 D 1
 ATOM 50 O OXT . ILE D D 7 ? 3.813 95.402 3.235 1 42.79 ? 369 D 1
 
-_struct.title '6EXJ: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '6EXJ: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

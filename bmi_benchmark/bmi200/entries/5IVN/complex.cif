@@ -1166,4 +1166,4 @@ ATOM 1041 O OG . SER A A 122 ? -44.31 -7.336 4.793 1 37.49 ? 122 A 1
 ATOM 1042 N N . LYS A A 123 ? -44.228 -4.59 3.255 1 41.62 ? 123 A 1
 
 _struct.title
-'5IVN: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'5IVN: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

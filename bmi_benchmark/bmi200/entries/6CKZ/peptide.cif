@@ -140,7 +140,7 @@ HETATM 49 O OD1 . 1U8 C C 6 ? 32.926 12.478 66.246 1 19.33 ? 6 C 1
 HETATM 50 O OD2 . 1U8 C C 6 ? 32.93 10.652 67.417 1 18.55 ? 6 C 1
 HETATM 51 C C9 . 1U8 C C 6 ? 35.568 7.43 64.089 1 21.83 ? 6 C 1
 
-_struct.title '6CKZ: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '6CKZ: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -2069,4 +2069,4 @@ ATOM 1949 C CD . GLU A A 278 ? 4.963 -30.194 22.93 1 65.14 ? 247 A 1
 ATOM 1950 O OE1 . GLU A A 278 ? 4.819 -29.722 24.08 1 68.87 ? 247 A 1
 ATOM 1951 O OE2 . GLU A A 278 ? 4.381 -31.224 22.524 1 68.68 ? 247 A 1
 
-_struct.title '7ZRR: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '7ZRR: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

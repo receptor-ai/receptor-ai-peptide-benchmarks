@@ -2413,4 +2413,4 @@ ATOM 2282 O O . ALA E E 137 ? -15.041 36.779 98.916 1 60.1 ? 136 E 1
 ATOM 2283 C CB . ALA E E 137 ? -14.105 37.699 102.327 1 57.54 ? 136 E 1
 
 _struct.title
-'6XKB: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'6XKB: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

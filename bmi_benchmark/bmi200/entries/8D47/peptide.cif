@@ -216,7 +216,7 @@ ATOM 141 C CG . ASP E C 19 ? -2.12494 21.63812 -53.0278 1 68.2566 ? 830 C 1
 ATOM 142 O OD1 . ASP E C 19 ? -2.80653 22.6546 -52.75408 1 64.3127 ? 830 C 1
 ATOM 143 O OD2 . ASP E C 19 ? -1.11592 21.30444 -52.36126 1 73.205 ? 830 C 1
 
-_struct.title '8D47: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8D47: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

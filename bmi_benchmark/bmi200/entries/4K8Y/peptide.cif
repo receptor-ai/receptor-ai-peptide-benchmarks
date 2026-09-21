@@ -198,7 +198,7 @@ ATOM 93 C C . ASP B B 14 ? 22.652 -30.222 -1.58 1 24.85 ? 14 B 1
 ATOM 94 O O . ASP B B 14 ? 21.485 -30.571 -1.76 1 25.17 ? 14 B 1
 ATOM 95 C CB . ASP B B 14 ? 23.194 -32.586 -0.951 1 28.81 ? 14 B 1
 
-_struct.title '4K8Y: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4K8Y: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

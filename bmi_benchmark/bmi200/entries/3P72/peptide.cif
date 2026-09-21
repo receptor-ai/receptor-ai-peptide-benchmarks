@@ -185,7 +185,7 @@ ATOM 84 O O . CYS B B 11 ? -32.093 8.91 -29.23 1 46.31 ? 11 B 1
 ATOM 85 C CB . CYS B B 11 ? -32.919 10.467 -26.565 1 46.28 ? 11 B 1
 ATOM 86 S SG . CYS B B 11 ? -32.767 11.169 -24.872 1 45.19 ? 11 B 1
 
-_struct.title '3P72: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3P72: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

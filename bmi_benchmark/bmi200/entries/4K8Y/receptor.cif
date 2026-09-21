@@ -1770,4 +1770,4 @@ ATOM 1649 O O . ALA A A 223 ? 19.278 -15.768 34.176 1 26.18 ? 244 A 1
 ATOM 1650 C CB . ALA A A 223 ? 18.273 -18.593 33.382 1 15.4 ? 244 A 1
 ATOM 1651 O OXT . ALA A A 223 ? 17.97 -15.387 32.564 1 25.13 ? 244 A 1
 
-_struct.title '4K8Y: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '4K8Y: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

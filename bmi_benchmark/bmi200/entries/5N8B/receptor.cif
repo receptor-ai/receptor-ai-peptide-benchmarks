@@ -1888,4 +1888,4 @@ ATOM 1799 C CB . PRO C B 159 ? -3.177 48.759 28.948 1 30.94 ? 135 B 1
 ATOM 1800 C CG . PRO C B 159 ? -2.259 49.105 27.826 1 30.02 ? 135 B 1
 ATOM 1801 C CD . PRO C B 159 ? -3.135 49.573 26.704 1 28.3 ? 135 B 1
 
-_struct.title '5N8B: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '5N8B: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

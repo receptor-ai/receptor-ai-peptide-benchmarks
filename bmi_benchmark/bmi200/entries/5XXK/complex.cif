@@ -1780,4 +1780,4 @@ ATOM 1646 O OD1 . ASN B B 108 ? 3.004 155.527 41.569 1 71.94 ? 111 B 1
 ATOM 1647 N ND2 . ASN B B 108 ? 4.35 156.732 42.902 1 71.45 ? 111 B 1
 
 _struct.title
-'5XXK: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'5XXK: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

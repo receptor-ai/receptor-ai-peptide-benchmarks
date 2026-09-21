@@ -1601,4 +1601,4 @@ ATOM 1510 C CE2 . PHE B B 99 ? 4.254 39.216 14.959 1 17.99 ? 99 B 1
 ATOM 1511 C CZ . PHE B B 99 ? 4.195 37.856 15.192 1 23.07 ? 99 B 1
 ATOM 1512 O OXT . PHE B B 99 ? 2.76 41.679 18.787 1 17.14 ? 99 B 1
 
-_struct.title '6BRA: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '6BRA: receptor chains + retained ions (BMI-MODES benchmark, strict hetero policy bmi-strict-hetero-1.0)'

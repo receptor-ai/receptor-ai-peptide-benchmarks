@@ -1347,4 +1347,4 @@ ATOM 1257 C CB . PRO D D 81 ? -63.625 -37.723 -8.719 1 130.37 ? 335 D 1
 ATOM 1258 C CG . PRO D D 81 ? -62.407 -37.681 -9.601 1 131.01 ? 335 D 1
 ATOM 1259 C CD . PRO D D 81 ? -61.258 -37.452 -8.673 1 126.94 ? 335 D 1
 
-_struct.title '6FNZ: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '6FNZ: receptor chains + retained cofactors (BMI-MODES benchmark, cleaned)'

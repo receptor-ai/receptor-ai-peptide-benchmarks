@@ -3695,4 +3695,4 @@ ATOM 3601 C CZ . ARG D D 160 ? -4.482 -53.932 22.297 1 58.28 ? 644 D 1
 ATOM 3602 N NH1 . ARG D D 160 ? -3.964 -54.457 21.193 1 60.02 ? 644 D 1
 ATOM 3603 N NH2 . ARG D D 160 ? -3.959 -52.824 22.804 1 54.54 ? 644 D 1
 
-_struct.title '3TWS: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '3TWS: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

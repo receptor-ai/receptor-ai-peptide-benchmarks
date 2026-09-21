@@ -225,7 +225,7 @@ ATOM 150 C CB . SER D D 19 ? -13.334 -1.757 15.039 1 69.65 ? 1253 D 1
 ATOM 151 O OG . SER D D 19 ? -12.889 -2.973 14.454 1 64.02 ? 1253 D 1
 ATOM 152 O OXT . SER D D 19 ? -14.241 -1.624 12.144 1 68.05 ? 1253 D 1
 
-_struct.title '5WRD: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5WRD: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -195,7 +195,7 @@ ATOM 91 C CB . CYS B P 12 ? -20.128 -10.138 1.185 1 36.65 ? 12 P 1
 ATOM 92 S SG . CYS B P 12 ? -21.925 -9.934 1.285 1 34.52 ? 12 P 1
 ATOM 93 O OXT . CYS B P 12 ? -17.073 -8.558 1.719 1 37.91 ? 12 P 1
 
-_struct.title '6XVD: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '6XVD: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -124,7 +124,7 @@ ATOM 58 O O . SER B B 7 ? -14.819 -10.235 15.805 1 21.44 ? 55 B 1
 ATOM 59 C CB . SER B B 7 ? -12.025 -11.315 17.532 1 16.64 ? 55 B 1
 ATOM 60 O OG . SER B B 7 ? -10.577 -11.196 17.609 1 23.14 ? 55 B 1
 
-_struct.title '3ROF: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3ROF: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

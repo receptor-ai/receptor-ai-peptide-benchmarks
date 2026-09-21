@@ -235,7 +235,7 @@ ATOM 126 N NH1 . ARG C C 15 ? 28.057 69.782 153.468 1 33.41 ? 15 C 1
 ATOM 127 N NH2 . ARG C C 15 ? 26.141 69.277 152.32 1 27.77 ? 15 C 1
 ATOM 128 O OXT . ARG C C 15 ? 27.264 70.534 161.221 1 21.49 ? 15 C 1
 
-_struct.title '5VB9: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5VB9: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -141,7 +141,7 @@ ATOM 73 O OE1 . GLU B B 11 ? 5.164 11.77 -18.991 1 6.2 ? 867 B 1
 ATOM 74 O OE2 . GLU B B 11 ? 5.633 9.652 -18.687 1 6.59 ? 867 B 1
 ATOM 75 O OXT . GLU B B 11 ? 6.389 13.059 -14.86 1 6.8 ? 867 B 1
 
-_struct.title '4LN2: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4LN2: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

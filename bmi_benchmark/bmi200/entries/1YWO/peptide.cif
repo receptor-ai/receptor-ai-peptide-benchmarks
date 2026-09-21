@@ -147,7 +147,7 @@ ATOM 78 S SD . MET B P 10 ? 19.499 -6.793 19.378 0.7 45.88 ? 10 P 1
 ATOM 79 C CE . MET B P 10 ? 19.928 -6.672 21.128 1 43.79 ? 10 P 1
 ATOM 80 O OXT . MET B P 10 ? 14.22 -7.896 17.497 1 43.17 ? 10 P 1
 
-_struct.title '1YWO: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '1YWO: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

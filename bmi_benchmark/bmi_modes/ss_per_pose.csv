@@ -5,7 +5,7 @@ A_2AOJ,1,C/A,2AOJ,1,altloc,12,10,0,0,0,linear,0,linear,0,CCEEXxEEExCX,CCxxXxxxxx
 A_2AOJ,2,C/B,2AOJ,2,altloc,12,10,0,0,0,linear,0,linear,0,CxEEXxEECCCX,CxxxXxxxCCCX,sheet,extended_unpaired,4,0,4,0,8,0,2,0,none,0
 B_P06873_3PTL,1,3PTL,3PTL,1,copies,10,10,0,0,0,linear,0,linear,0,CxxxxxxCCC,CxxxxxxCCC,extended_unpaired,extended_unpaired,0,0,0,0,1,0,0,0,none,0
 B_P06873_3PTL,2,3OSZ,3OSZ,2,copies,10,10,0,0,0,linear,0,linear,0,CCxxCCxCxC,CCxxCCxCxC,extended_unpaired,extended_unpaired,0,0,0,0,0,0,0,0,none,0
-A_3LIY,1,C/-,3LIY,1,altloc,9,8,1,0,0,linear,0,linear,0,CxEE?EExC,Cxxx?xxxC,sheet,extended_unpaired,4,0,4,0,8,0,2,0,none,0
+A_3LIY,1,C/-,3LIY,1,copies,9,8,1,0,0,linear,0,linear,0,CxEE?EExC,Cxxx?xxxC,sheet,extended_unpaired,4,0,4,0,8,0,2,0,none,0
 A_3LIY,2,F/A,3LIY,1,altloc,8,7,1,0,0,linear,0,linear,0,CxEE?EEC,Cxxx?xxC,sheet,extended_unpaired,4,0,4,0,8,0,2,0,none,0
 A_3LIY,3,F/B,3LIY,2,altloc,8,7,1,0,0,linear,0,linear,0,CxEE?EEC,Cxxx?xxC,sheet,extended_unpaired,4,0,4,0,8,0,2,0,none,0
 A_3LIY,4,I/A,3LIY,1,altloc,8,7,1,0,0,linear,0,linear,0,CxEE?EEC,Cxxx?xxC,sheet,extended_unpaired,4,0,4,0,8,0,2,0,none,0
@@ -20,8 +20,8 @@ A_3UA7,1,E/-,3UA7,1,copies,9,8,0,0,0,linear,0,linear,0,XCPPPPPPC,XCPPPPPPC,ppii,
 A_3UA7,2,F/-,3UA7,2,copies,8,8,0,0,0,linear,0,linear,0,CPPPPPPC,CPPPPPPC,ppii,ppii,0,0,0,0,0,0,0,6,none,0
 A_7TO8,1,C/A,7TO8,1,altloc,13,13,0,0,0,linear,0,linear,0,CTTHHHHHHHHHC,CTTHHHHHHHHHC,helix,helix,0,0,0,8,1,9,0,0,right,0
 A_7TO8,2,C/B,7TO8,2,altloc,13,13,0,0,0,linear,0,linear,0,CTTHHHHHHHHHC,CTTHHHHHHHHHC,helix,helix,0,0,0,8,1,9,0,0,right,0
-A_6FNZ,1,G/-,6FNZ,1,altloc,6,6,0,0,0,linear,0,linear,0,CxxxxC,CxxxxC,extended_unpaired,extended_unpaired,0,0,0,0,0,0,0,0,none,0
-A_6FNZ,2,E/-,6FNZ,1,altloc,6,6,0,0,0,linear,0,linear,0,CxxxCC,CxxxCC,extended_unpaired,extended_unpaired,0,0,0,0,0,0,0,0,none,0
+A_6FNZ,1,G/-,6FNZ,1,copies,6,6,0,0,0,linear,0,linear,0,CxxxxC,CxxxxC,extended_unpaired,extended_unpaired,0,0,0,0,0,0,0,0,none,0
+A_6FNZ,2,E/-,6FNZ,1,copies,6,6,0,0,0,linear,0,linear,0,CxxxCC,CxxxCC,extended_unpaired,extended_unpaired,0,0,0,0,0,0,0,0,none,0
 A_6FNZ,3,F/A,6FNZ,1,altloc,6,6,0,0,0,linear,0,linear,0,CxxxxC,CxxxxC,extended_unpaired,extended_unpaired,0,0,0,0,0,0,0,0,none,0
 A_6FNZ,4,F/B,6FNZ,2,altloc,6,6,0,0,0,linear,0,linear,0,CxxxxC,CxxxxC,extended_unpaired,extended_unpaired,0,0,0,0,0,0,0,0,none,0
 A_4EQJ,1,B/A,4EQJ,1,altloc,6,6,0,0,0,linear,0,linear,0,CExxxE,CxxxxC,extended_unpaired,extended_unpaired,2,0,2,0,5,0,1,0,none,0
@@ -55,11 +55,11 @@ A_5UN8,1,G/-,5UN8,1,copies,9,9,0,0,0,linear,0,linear,0,CxTTxPPPC,CxTTxPPPC,ppii,
 A_5UN8,2,E/-,5UN8,2,copies,7,7,0,0,0,linear,0,linear,0,CCxSxxC,CCxSxxC,turn_only,turn_only,0,0,0,1,0,0,0,0,none,0
 A_5UN8,3,F/-,5UN8,2,copies,8,8,0,0,0,linear,0,linear,0,CCxSxxxC,CCxSxxxC,turn_only,turn_only,0,0,0,1,0,0,0,0,none,0
 A_5UN8,4,H/-,5UN8,1,copies,8,8,0,0,0,linear,0,linear,0,CxTTxxxC,CxTTxxxC,turn_only,turn_only,0,0,0,1,0,0,0,0,none,0
-A_3G2S,1,C/-,3G2S,1,altloc,11,11,0,0,0,linear,0,linear,0,CxxCxxPPPPC,CxxCxxPPPPC,ppii,ppii,0,0,0,0,0,0,0,4,none,0
+A_3G2S,1,C/-,3G2S,1,copies,11,11,0,0,0,linear,0,linear,0,CxxCxxPPPPC,CxxCxxPPPPC,ppii,ppii,0,0,0,0,0,0,0,4,none,0
 A_3G2S,2,D/A,3G2S,2,altloc,11,11,0,0,0,linear,0,linear,0,CCxxPPPPPPC,CCxxPPPPPPC,ppii,ppii,0,0,0,0,0,0,0,6,none,0
 A_3G2S,3,D/B,3G2S,2,altloc,11,11,0,0,0,linear,0,linear,0,CCxxPPPPPPC,CCxxPPPPPPC,ppii,ppii,0,0,0,0,0,0,0,6,none,0
-A_5N8E,1,E/-,5N8E,1,altloc,13,12,0,0,0,linear,0,linear,0,CxCxxGGGTCxCX,CxCxxGGGTCxCX,turn_only,turn_only,0,0,0,3,1,3,0,0,right,0
-A_5N8E,2,F/-,5N8E,1,altloc,12,11,0,0,0,linear,0,linear,0,CCxxGGGGCxCX,CCxxGGGGCxCX,helix,helix,0,0,0,4,1,4,0,0,right,0
+A_5N8E,1,E/-,5N8E,1,copies,13,12,0,0,0,linear,0,linear,0,CxCxxGGGTCxCX,CxCxxGGGTCxCX,turn_only,turn_only,0,0,0,3,1,3,0,0,right,0
+A_5N8E,2,F/-,5N8E,1,copies,12,11,0,0,0,linear,0,linear,0,CCxxGGGGCxCX,CCxxGGGGCxCX,helix,helix,0,0,0,4,1,4,0,0,right,0
 A_5N8E,3,G/A,5N8E,2,altloc,12,11,0,0,0,linear,0,linear,0,CCxxGGGxxECX,CCxxGGGxxxCX,extended_unpaired,extended_unpaired,1,0,1,2,2,3,1,0,right,0
 A_5N8E,4,G/B,5N8E,2,altloc,12,11,0,0,0,linear,0,linear,0,CCxxGGGTxECX,CCxxGGGTxxCX,turn_only,turn_only,1,0,1,2,2,3,1,0,right,0
 A_1UK4,1,D/-,1UK4,1,copies,6,5,0,0,0,linear,0,linear,0,CxxxCX,CxxxCX,extended_unpaired,extended_unpaired,0,0,0,0,2,0,0,0,none,0

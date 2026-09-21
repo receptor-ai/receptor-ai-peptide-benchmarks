@@ -42,7 +42,7 @@ TYR .
 VAL .
 
 _struct.entry_id 5CQ2
-_struct.title '5CQ2: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5CQ2: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _struct_asym.id

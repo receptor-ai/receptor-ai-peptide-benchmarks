@@ -229,7 +229,7 @@ ATOM 127 C CB . THR J K 15 ? 5.537 74.979 97.577 1 30.32 ? 14 K 1
 ATOM 128 O OG1 . THR J K 15 ? 6.367 74.053 98.286 1 32.57 ? 14 K 1
 ATOM 129 C CG2 . THR J K 15 ? 6.344 76.231 97.304 1 31.51 ? 14 K 1
 
-_struct.title '6XKB: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '6XKB: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

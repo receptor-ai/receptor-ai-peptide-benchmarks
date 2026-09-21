@@ -204,7 +204,7 @@ ATOM 129 C CG2 . ILE D D 16 ? 55.114 11.471 74.789 1 28.59 ? 287 D 1
 ATOM 130 C CD1 . ILE D D 16 ? 58.003 11.93 75.347 1 32.3 ? 287 D 1
 ATOM 131 O OXT . ILE D D 16 ? 54.184 9.658 77.33 1 40.99 ? 287 D 1
 
-_struct.title '6L0V: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '6L0V: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

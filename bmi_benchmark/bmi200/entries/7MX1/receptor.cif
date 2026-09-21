@@ -1890,4 +1890,4 @@ ATOM 1801 O O . SER B B 227 ? 119.312 -19.359 57.873 1 108.54 ? 593 B 1
 ATOM 1802 C CB . SER B B 227 ? 117.363 -18.737 54.892 1 127.92 ? 593 B 1
 ATOM 1803 O OG . SER B B 227 ? 117.395 -17.912 53.739 1 145.58 ? 593 B 1
 
-_struct.title '7MX1: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '7MX1: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

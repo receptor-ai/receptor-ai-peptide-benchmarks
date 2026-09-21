@@ -1478,4 +1478,4 @@ HETATM 1346 O ODY . A1AJE C A1AJE! . ? -9.06235 10.49512 -24.2945 1 17.8505 ? 40
 HETATM 1347 S SDQ . A1AJE C A1AJE! . ? -8.1485 14.64469 -21.50794 1 25.7559 ? 401 A 1
 
 _struct.title
-'8VJP: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'8VJP: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

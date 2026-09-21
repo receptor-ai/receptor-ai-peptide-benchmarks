@@ -1890,4 +1890,4 @@ ATOM 1801 N NH1 . ARG B B 243 ? -11.068 -14.861 26.871 1 29.48 ? 223 B 1
 ATOM 1802 N NH2 . ARG B B 243 ? -9.989 -14.186 24.956 1 26.76 ? 223 B 1
 ATOM 1803 O OXT . ARG B B 243 ? -6.441 -13.25 31.564 1 20.88 ? 223 B 1
 
-_struct.title '6KDQ: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '6KDQ: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

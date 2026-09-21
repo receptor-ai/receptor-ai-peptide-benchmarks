@@ -789,4 +789,4 @@ ATOM 698 C CG . PRO A A 79 ? -11.524 -12.085 11.808 1 25.64 ? 224 A 1
 ATOM 699 C CD . PRO A A 79 ? -10.765 -11.51 12.964 1 25.57 ? 224 A 1
 
 _struct.title
-'3DS4: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'3DS4: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

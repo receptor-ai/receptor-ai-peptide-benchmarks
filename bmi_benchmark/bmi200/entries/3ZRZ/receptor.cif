@@ -799,4 +799,4 @@ ATOM 680 C CG2 . ILE A A 90 ? 39.98 -17.984 -9.594 1 23.19 ? 151 A 1
 ATOM 681 C CD1 . ILE A A 90 ? 37.264 -16.224 -9.474 1 24.76 ? 151 A 1
 ATOM 682 O OXT . ILE A A 90 ? 42.796 -17.587 -7.823 1 23.45 ? 151 A 1
 
-_struct.title '3ZRZ: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '3ZRZ: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

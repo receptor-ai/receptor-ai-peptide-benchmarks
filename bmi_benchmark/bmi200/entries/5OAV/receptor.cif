@@ -984,4 +984,4 @@ ATOM 895 O OD1 . ASP C C 61 ? 40.969 -23.685 89.069 1 30.09 ? 141 C 1
 ATOM 896 O OD2 . ASP C C 61 ? 40.443 -25.395 90.338 1 32.53 ? 141 C 1
 ATOM 897 O OXT . ASP C C 61 ? 39.559 -22.023 86.969 1 30.16 ? 141 C 1
 
-_struct.title '5OAV: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '5OAV: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

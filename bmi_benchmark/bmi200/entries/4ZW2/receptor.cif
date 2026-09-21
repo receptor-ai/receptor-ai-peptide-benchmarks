@@ -2571,4 +2571,4 @@ ATOM 2482 C CB . SER A A 333 ? 9.183 66.222 23.929 1 56.31 ? 333 A 1
 ATOM 2483 O OG . SER A A 333 ? 8.628 67.14 24.903 1 60.86 ? 333 A 1
 ATOM 2484 O OXT . SER A A 333 ? 10.936 64.121 25.554 1 63.95 ? 333 A 1
 
-_struct.title '4ZW2: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '4ZW2: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

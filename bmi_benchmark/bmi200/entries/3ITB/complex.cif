@@ -5488,4 +5488,4 @@ HETATM 5357 N N2 . AMV M AMV! . ? 16.749 -53.108 45.82 1 47.25 ? 1 F 1
 HETATM 5358 C C12 . AMV M AMV! . ? 17.373 -56.67 47.331 1 54.09 ? 1 F 1
 
 _struct.title
-'3ITB: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'3ITB: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

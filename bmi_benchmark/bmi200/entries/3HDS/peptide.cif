@@ -100,7 +100,7 @@ ATOM 34 C C . ALA F F 5 ? -36.787 9.038 11.872 1 31.51 ? 6 F 1
 ATOM 35 O O . ALA F F 5 ? -35.567 8.949 11.721 1 32.66 ? 6 F 1
 ATOM 36 C CB . ALA F F 5 ? -37.831 10.862 10.529 1 30.63 ? 6 F 1
 
-_struct.title '3HDS: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3HDS: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

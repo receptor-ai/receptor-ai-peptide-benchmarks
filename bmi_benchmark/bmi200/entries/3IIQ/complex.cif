@@ -1916,4 +1916,4 @@ ATOM 1784 N NE2 . HIS A A 249 ? -0.79 20.214 -27.22 1 36.54 ? 323 A 1
 ATOM 1785 O OXT . HIS A A 249 ? -3.515 19.914 -23.328 1 26.33 ? 323 A 1
 
 _struct.title
-'3IIQ: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'3IIQ: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

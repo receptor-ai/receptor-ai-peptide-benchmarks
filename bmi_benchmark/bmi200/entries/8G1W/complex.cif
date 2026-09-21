@@ -2101,4 +2101,4 @@ HETATM 1960 N NH1 . THZ B M 5 ? 20.469 -2.301 -6.336 1 54.46 ? 5 M 1
 HETATM 1961 N NH2 . THZ B M 5 ? 18.127 -1.928 -5.981 1 54.88 ? 5 M 1
 
 _struct.title
-'8G1W: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'8G1W: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

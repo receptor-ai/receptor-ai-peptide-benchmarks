@@ -139,7 +139,7 @@ ATOM 69 C CG1 . VAL D D 13 ? 35.921 71.105 9.337 1 39.82 ? 411 D 1
 ATOM 70 C CG2 . VAL D D 13 ? 35.1 68.746 8.948 1 23.99 ? 411 D 1
 ATOM 71 O OXT . VAL D D 13 ? 39.165 70.857 8.808 1 28.61 ? 411 D 1
 
-_struct.title '2VR3: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '2VR3: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

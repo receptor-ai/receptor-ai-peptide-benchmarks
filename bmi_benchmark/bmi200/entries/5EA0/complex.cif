@@ -3507,4 +3507,4 @@ ATOM 3379 O OE1 . GLU B L 219 ? -41.486 -17.37 -50.045 1 52.35 ? 213 L 1
 ATOM 3380 O OE2 . GLU B L 219 ? -39.548 -16.601 -49.337 1 57.25 -1 213 L 1
 
 _struct.title
-'5EA0: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'5EA0: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

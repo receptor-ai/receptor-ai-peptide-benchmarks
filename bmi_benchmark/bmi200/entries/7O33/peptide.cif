@@ -172,7 +172,7 @@ ATOM 76 O O . ALA C P 13 ? -5.57 -4.6 -40.978 1 69.75 ? 13 P 1
 ATOM 77 C CB . ALA C P 13 ? -5.794 -4.767 -37.648 1 68.78 ? 13 P 1
 ATOM 78 O OXT . ALA C P 13 ? -4.031 -3.565 -39.886 1 67.2 ? 13 P 1
 
-_struct.title '7O33: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7O33: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

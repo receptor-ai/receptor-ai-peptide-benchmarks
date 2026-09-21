@@ -216,7 +216,7 @@ HETATM 103 N N . KZ0 F KZ0! . ? -21.049 18.338 8.838 1 10.04 ? 303 B 1
 HETATM 104 N N2 . KZ0 F KZ0! . ? -19.471 17.035 10.033 1 10.85 ? 303 B 1
 HETATM 105 C C . KZ0 F KZ0! . ? -21.48 15.997 9.145 1 10.01 ? 303 B 1
 
-_struct.title '7Z8O: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7Z8O: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

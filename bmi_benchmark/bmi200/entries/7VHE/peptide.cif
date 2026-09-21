@@ -118,7 +118,7 @@ ATOM 31 O O . ALA G G 4 ? -0.215 66.624 11.797 1 12.28 ? 10 G 1
 ATOM 32 C CB . ALA G G 4 ? 2.126 65.38 13.509 1 14.28 ? 10 G 1
 HETATM 33 N N . NH2 G G 5 ? 1.492 68.099 11.742 1 15.84 ? 11 G 1
 
-_struct.title '7VHE: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7VHE: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

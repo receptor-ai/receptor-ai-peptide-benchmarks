@@ -144,7 +144,7 @@ HETATM 50 C CD . MP8 QA o 7 ? 1.781 -1.48 66.212 1 19.06 ? 706 o 1
 HETATM 51 C CE . MP8 QA o 7 ? 3.817 -0.9 67.687 1 18.98 ? 706 o 1
 HETATM 52 C CG . MP8 QA o 7 ? 2.392 -0.635 67.29 1 23.61 ? 706 o 1
 
-_struct.title '3MT6: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3MT6: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -3904,4 +3904,4 @@ ATOM 3776 C C . GLY D E 65 ? -12.805 -54.985 8.5 1 57.38 ? 81 E 1
 ATOM 3777 O O . GLY D E 65 ? -13.109 -55.873 7.708 1 59.61 ? 81 E 1
 ATOM 3778 O OXT . GLY D E 65 ? -11.963 -54.162 8.147 1 69.43 ? 81 E 1
 
-_struct.title '4IOI: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '4IOI: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

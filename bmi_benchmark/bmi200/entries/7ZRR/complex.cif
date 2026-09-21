@@ -2209,4 +2209,4 @@ ATOM 2076 O OE1 . GLU A A 278 ? 4.819 -29.722 24.08 1 68.87 ? 247 A 1
 ATOM 2077 O OE2 . GLU A A 278 ? 4.381 -31.224 22.524 1 68.68 ? 247 A 1
 
 _struct.title
-'7ZRR: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'7ZRR: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

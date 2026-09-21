@@ -265,22 +265,6 @@
   "peptide_copies_do_NOT_collapse_max_backbone_rmsd_2.77A",
   "peptide_truncated_3_of_12_residues_unmodelled"
  ],
- "frozen_row": {
-  "cell": "linear_modified",
-  "is_cyclic": "0",
-  "n_models": "1",
-  "peptide_caps": "-",
-  "peptide_entity": "5N8J_2",
-  "peptide_len_seqres": "12",
-  "peptide_n_chains": "3",
-  "peptide_ncaa": "DAL;DAS;DGL;DLE;DSG;DSN;DTY;DVA",
-  "peptide_seq_raw": "G(DTY)G(DLE)(DAL)(DSG)(DVA)(DAS)(DGL)(DSN)(DSN)G",
-  "receptor_desc": "Streptavidin",
-  "receptor_uniprot": "P22629",
-  "resolution_A": "1.05",
-  "space_group": "P 1 21 1",
-  "topology_labels": "adjacent_residue_nonstandard_link"
- },
  "not_computed": {},
  "pdb_id": "5N8J",
  "provenance": {
@@ -324,7 +308,7 @@
     ]
    },
    "peptide.cif": {
-    "bytes": 6444,
+    "bytes": 8496,
     "file": "peptide.cif",
     "n_chains": 1,
     "n_struct_conn": 8,
@@ -740,7 +724,7 @@
      "seqid": 4
     }
    ],
-   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this corpus there is no other source",
+   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this dataset there is no other source",
    "ccd_chirality_disagreements": [],
    "chirality_counts": {
     "D": 8,
@@ -963,7 +947,7 @@
    "peptide_n_atoms_below_1.0": 0
   }
  },
- "spec_version": "corpus-spec-1.0",
+ "spec_version": "bmi-spec-1.0",
  "status": {
   "reason": null,
   "stage": "ok"
@@ -988,8 +972,8 @@
   "n_struct_conn_after": 8,
   "n_struct_conn_before": 8,
   "peptide_integral_components": [],
-  "policy": "corpus-strict-hetero-1.0",
-  "policy_version": "corpus-strict-hetero-1.0",
+  "policy": "bmi-strict-hetero-1.0",
+  "policy_version": "bmi-strict-hetero-1.0",
   "removed_by_class": {},
   "removed_components": [],
   "retained_components": [],

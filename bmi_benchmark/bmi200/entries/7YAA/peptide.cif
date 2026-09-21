@@ -213,7 +213,7 @@ HETATM 109 C C19 . JJ9 D JJ9! . ? -20.797 -19.308 17.466 1 11.26 ? 101 B 1
 HETATM 110 C C21 . JJ9 D JJ9! . ? -19.781 -18.548 18.234 1 11.13 ? 101 B 1
 HETATM 111 O O22 . JJ9 D JJ9! . ? -20.049 -17.347 18.516 1 13.19 ? 101 B 1
 
-_struct.title '7YAA: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7YAA: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

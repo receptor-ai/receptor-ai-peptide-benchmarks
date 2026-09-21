@@ -190,7 +190,7 @@ ATOM 89 C CG . ASP B B 11 ? 28.101 -18.201 31.477 1 14.19 ? 266 B 1
 ATOM 90 O OD1 . ASP B B 11 ? 28.205 -16.995 31.74 1 13.8 ? 266 B 1
 ATOM 91 O OXT . ASP B B 11 ? 26.603 -17.066 28.025 1 20.2 ? 266 B 1
 
-_struct.title '2CV3: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '2CV3: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

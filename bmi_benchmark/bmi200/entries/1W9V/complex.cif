@@ -3248,4 +3248,4 @@ ATOM 3121 C CG2 . THR A A 433 ? 91.539 37.532 1.473 1 39.95 ? 433 A 1
 ATOM 3122 O OXT . THR A A 433 ? 93.685 33.932 3.357 1 40.34 ? 433 A 1
 
 _struct.title
-'1W9V: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'1W9V: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

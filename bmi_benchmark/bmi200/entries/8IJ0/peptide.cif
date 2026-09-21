@@ -184,7 +184,7 @@ ATOM 87 C CB . THR D D 11 ? -7.107 1.91 10.61 1 22.6 ? 11 D 1
 ATOM 88 O OG1 . THR D D 11 ? -7.864 0.857 11.219 1 24.91 ? 11 D 1
 ATOM 89 C CG2 . THR D D 11 ? -7.639 3.257 11.058 1 24.42 ? 11 D 1
 
-_struct.title '8IJ0: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8IJ0: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

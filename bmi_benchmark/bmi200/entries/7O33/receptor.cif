@@ -3410,4 +3410,4 @@ ATOM 3287 O O . CYS B H 215 ? -22.527 -21.649 25.329 1 104.6 ? 215 H 1
 ATOM 3288 C CB . CYS B H 215 ? -19.947 -20.069 24.962 1 99.08 ? 215 H 1
 ATOM 3289 S SG . CYS B H 215 ? -20.847 -18.517 24.677 1 107.37 ? 215 H 1
 
-_struct.title '7O33: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '7O33: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

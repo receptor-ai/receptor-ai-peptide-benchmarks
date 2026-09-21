@@ -237,7 +237,7 @@ HETATM 127 O O . ACE H ACE! . ? 20.7426 22.52398 32.17217 1 27.3708 ? 101 D 1
 HETATM 128 C CH3 . ACE H ACE! . ? 22.38352 21.96706 33.81333 1 27.9381 ? 101 D 1
 HETATM 129 N N . NH2 I NH2! . ? 17.72509 23.69475 35.3874 1 30.0059 ? 102 D 1
 
-_struct.title '8CV4: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8CV4: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

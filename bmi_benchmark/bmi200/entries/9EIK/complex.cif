@@ -1009,4 +1009,4 @@ ATOM 887 C CB . CYS A A 107 ? -3.98511 30.06156 -6.36766 1 38.93 ? 104 A 1
 ATOM 888 S SG . CYS A A 107 ? -2.55353 29.66732 -5.4127 1 56.3207 ? 104 A 1
 
 _struct.title
-'9EIK: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'9EIK: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

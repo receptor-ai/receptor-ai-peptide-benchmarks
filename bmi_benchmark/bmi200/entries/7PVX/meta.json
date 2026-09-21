@@ -147,22 +147,6 @@
  "flags": [
   "multi_chain_receptor_2"
  ],
- "frozen_row": {
-  "cell": "linear_standard",
-  "is_cyclic": "0",
-  "n_models": "1",
-  "peptide_caps": "-",
-  "peptide_entity": "7PVX_2",
-  "peptide_len_seqres": "12",
-  "peptide_n_chains": "2",
-  "peptide_ncaa": "-",
-  "peptide_seq_raw": "VSLARRPLPPLP",
-  "receptor_desc": "Isoform 1 of Proto-oncogene tyrosine-protein kinase Src",
-  "receptor_uniprot": "P00523",
-  "resolution_A": "1.43",
-  "space_group": "P 1 21 1",
-  "topology_labels": "-"
- },
  "not_computed": {},
  "pdb_id": "7PVX",
  "provenance": {
@@ -195,7 +179,7 @@
   },
   "outputs": {
    "complex.cif": {
-    "bytes": 68054,
+    "bytes": 68090,
     "file": "complex.cif",
     "n_chains": 3,
     "n_struct_conn": 0,
@@ -206,7 +190,7 @@
     ]
    },
    "peptide.cif": {
-    "bytes": 7063,
+    "bytes": 10212,
     "file": "peptide.cif",
     "n_chains": 1,
     "n_struct_conn": 0,
@@ -215,7 +199,7 @@
     ]
    },
    "receptor.cif": {
-    "bytes": 61978,
+    "bytes": 61977,
     "file": "receptor.cif",
     "n_chains": 2,
     "n_struct_conn": 0,
@@ -712,7 +696,7 @@
      "seqid": 12
     }
    ],
-   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this corpus there is no other source",
+   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this dataset there is no other source",
    "ccd_chirality_disagreements": [],
    "chirality_counts": {
     "L": 12
@@ -998,7 +982,7 @@
    "peptide_n_atoms_below_1.0": 0
   }
  },
- "spec_version": "corpus-spec-1.0",
+ "spec_version": "bmi-spec-1.0",
  "status": {
   "reason": null,
   "stage": "ok"
@@ -1039,8 +1023,8 @@
   },
   "policy": {
    "ambiguous_set_ruling": "CL/NA/K are monatomic ions and stay. SO4/PO4 are polyatomic additives and go. NH4 goes: only one heavy atom is modelled but the CCD lists 5 atoms, so the species is polyatomic, and the test is on the species not on what happens to be modelled. UNX goes: one atom, but element X is neither metal nor halide.",
-   "keep_K1_peptide_integral": "any component sharing a label_asym_id with a residue of decisions.hetero.peptide_covalent_moieties (whole branched entity), EXCEPT a corpus_chem.CRYO_BUFFER component whose only link to the peptide is distance-inferred rather than in _struct_conn",
-   "keep_K2_monatomic_ion": "the CCD lists exactly one atom and its element is a metal (corpus_chem.METALS) or a halide F/CL/BR/I",
+   "keep_K1_peptide_integral": "any component sharing a label_asym_id with a residue of decisions.hetero.peptide_covalent_moieties (whole branched entity), EXCEPT a cryoprotectant or buffer additive whose only link to the peptide is distance-inferred rather than in _struct_conn",
+   "keep_K2_monatomic_ion": "the CCD lists exactly one atom and its element is a metal or a halide (F, Cl, Br, I)",
    "keep_K3_polymer_cap": "ACE/NH2/FOR/NME/ACY/NHE within 1.25 x sum-of-covalent-radii of a retained peptide or receptor polymer atom",
    "remove": "every other non-polymer: additives, buffers, glycans, lipids, receptor covalent adducts, curated cofactors, UNX/UNL"
   },

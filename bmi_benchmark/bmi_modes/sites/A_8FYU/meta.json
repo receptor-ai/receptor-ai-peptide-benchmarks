@@ -3,8 +3,6 @@
  "core_separation_widest_pair_A": "5.01",
  "difference_type": "substantial",
  "frame_pdb": "8FYU",
- "gate": "pass",
- "gate_reason": "pass",
  "max_separation_A": "6.9",
  "max_token_diff": "0",
  "min_inter_mode_core_sep_A": "5.01",
@@ -80,7 +78,6 @@
  "seq": "SSTGSIDMVD",
  "site_id": "A_8FYU",
  "site_type": "one_deposition",
- "tier": "1_same_molecule",
  "uniprot": "Q9UNE7",
  "incomplete_residues__pose_01": [
   {

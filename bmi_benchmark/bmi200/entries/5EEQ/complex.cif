@@ -1041,4 +1041,4 @@ ATOM 917 O OG1 . THR A A 116 ? 19.077 -8.623 16.389 1 72.2 ? 528 A 1
 ATOM 918 C CG2 . THR A A 116 ? 19.117 -6.329 17.121 1 70.38 ? 528 A 1
 
 _struct.title
-'5EEQ: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'5EEQ: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

@@ -268,7 +268,7 @@ ATOM 154 O OE1 . GLU B B 19 ? 5.001 104.364 40.218 1 46.4 ? 18 B 1
 ATOM 155 O OE2 . GLU B B 19 ? 4.411 105.747 38.56 1 47.7 ? 18 B 1
 HETATM 156 N N . NH2 B B 20 ? 9.302 101.504 38.719 1 55.75 ? 19 B 1
 
-_struct.title '4ZW2: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4ZW2: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

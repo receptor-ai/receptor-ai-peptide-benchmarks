@@ -1407,4 +1407,4 @@ ATOM 1315 C CD1 . LEU A A 163 ? 8.042 67.504 9.058 1 44.95 ? 164 A 1
 ATOM 1316 C CD2 . LEU A A 163 ? 8.052 65.115 10.033 1 40.11 ? 164 A 1
 
 _struct.title
-'7ABT: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'7ABT: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

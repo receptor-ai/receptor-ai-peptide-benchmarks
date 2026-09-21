@@ -3,8 +3,6 @@
  "core_separation_widest_pair_A": "8.0",
  "difference_type": "large",
  "frame_pdb": "6FNZ",
- "gate": "pass",
- "gate_reason": "pass",
  "max_separation_A": "11.89",
  "max_token_diff": "0",
  "min_inter_mode_core_sep_A": "8.0",
@@ -100,6 +98,5 @@
  "seq": "PESSEG",
  "site_id": "A_6FNZ",
  "site_type": "one_deposition",
- "tier": "1_same_molecule",
  "uniprot": "O43602"
 }

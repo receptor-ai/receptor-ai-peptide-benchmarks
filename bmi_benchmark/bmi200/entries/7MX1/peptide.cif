@@ -161,7 +161,7 @@ HETATM 64 N N2 . ZOY F ZOY! . ? 123.109 0.247 80.453 1 43.53 ? 101 E 1
 HETATM 65 O O1 . ZOY F ZOY! . ? 118.315 -4.401 79.489 1 32.44 ? 101 E 1
 HETATM 66 O O2 . ZOY F ZOY! . ? 124.893 -1.126 80.453 1 42.01 ? 101 E 1
 
-_struct.title '7MX1: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7MX1: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

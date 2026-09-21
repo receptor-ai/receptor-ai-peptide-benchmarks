@@ -1592,4 +1592,4 @@ ATOM 1503 C CG1 . VAL A A 191 ? -26.634 -11.215 16.348 1 28.65 ? 217 A 1
 ATOM 1504 C CG2 . VAL A A 191 ? -24.636 -9.901 17.15 1 27.9 ? 217 A 1
 ATOM 1505 O OXT . VAL A A 191 ? -25.342 -6.702 16.519 1 26.52 ? 217 A 1
 
-_struct.title '5ZJZ: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '5ZJZ: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

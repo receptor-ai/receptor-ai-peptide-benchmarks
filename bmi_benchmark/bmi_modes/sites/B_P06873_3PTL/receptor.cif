@@ -2145,4 +2145,4 @@ ATOM 2028 O O . ALA A A 279 ? 5.499 -14.832 22.617 1 26.41 ? 279 A 1
 ATOM 2029 C CB . ALA A A 279 ? 5.969 -12.449 20.295 1 25 ? 279 A 1
 ATOM 2030 O OXT . ALA A A 279 ? 7.345 -13.748 22.797 1 28.1 ? 279 A 1
 
-_struct.title '3PTL: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '3PTL: receptor chains + retained cofactors (BMI-MODES benchmark, cleaned)'

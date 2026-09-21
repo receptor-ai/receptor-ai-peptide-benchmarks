@@ -3069,4 +3069,4 @@ ATOM 2950 C CG . PRO A A 360 ? 13.266 5.085 -9.353 1 63.99 ? 354 A 1
 ATOM 2951 C CD . PRO A A 360 ? 12.123 5.22 -8.365 1 62.89 ? 354 A 1
 
 _struct.title
-'2GPH: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'2GPH: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

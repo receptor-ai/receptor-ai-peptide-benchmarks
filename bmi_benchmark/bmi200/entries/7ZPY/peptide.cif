@@ -160,7 +160,7 @@ ATOM 91 C CE . LYS B B 10 ? 21.852 -23.162 29.954 1 58.01 ? 11 B 1
 ATOM 92 N NZ . LYS B B 10 ? 21.838 -23.214 28.473 1 62.58 ? 11 B 1
 ATOM 93 O OXT . LYS B B 10 ? 21.692 -22.212 35.259 1 52.02 ? 11 B 1
 
-_struct.title '7ZPY: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7ZPY: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

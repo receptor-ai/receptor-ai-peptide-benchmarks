@@ -4106,4 +4106,4 @@ ATOM 4018 C CE . LYS A A 525 ? -9.831 12.627 -31.669 1 35.345 ? 525 A 1
 ATOM 4019 N NZ . LYS A A 525 ? -10.253 13.395 -30.477 1 41.844 ? 525 A 1
 ATOM 4020 O OXT . LYS A A 525 ? -11.073 10.589 -35.851 1 29.66 ? 525 A 1
 
-_struct.title '8ARE: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '8ARE: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

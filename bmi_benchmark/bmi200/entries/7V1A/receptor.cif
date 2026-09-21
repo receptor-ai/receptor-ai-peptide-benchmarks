@@ -2256,4 +2256,4 @@ ATOM 2167 C CB . PRO A A 300 ? 26.871 -1.353 -21.92 1 72.75 ? 1656 A 1
 ATOM 2168 C CG . PRO A A 300 ? 25.774 -1.778 -21.004 1 67.57 ? 1656 A 1
 ATOM 2169 C CD . PRO A A 300 ? 26.446 -2.442 -19.843 1 73.98 ? 1656 A 1
 
-_struct.title '7V1A: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '7V1A: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

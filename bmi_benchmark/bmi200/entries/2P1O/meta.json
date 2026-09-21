@@ -157,22 +157,6 @@
   "strict_clean_removed_other_organic_NLA_at_3.48A",
   "twisted_amide_n=1"
  ],
- "frozen_row": {
-  "cell": "linear_standard",
-  "is_cyclic": "0",
-  "n_models": "1",
-  "peptide_caps": "-",
-  "peptide_entity": "2P1O_3",
-  "peptide_len_seqres": "13",
-  "peptide_n_chains": "1",
-  "peptide_ncaa": "-",
-  "peptide_seq_raw": "QVVGWPPVRNYRK",
-  "receptor_desc": "TRANSPORT INHIBITOR RESPONSE 1 protein",
-  "receptor_uniprot": "Q39255;Q570C0",
-  "resolution_A": "1.9",
-  "space_group": "C 1 2 1",
-  "topology_labels": "-"
- },
  "not_computed": {},
  "pdb_id": "2P1O",
  "provenance": {
@@ -216,7 +200,7 @@
     ]
    },
    "peptide.cif": {
-    "bytes": 8789,
+    "bytes": 13579,
     "file": "peptide.cif",
     "n_chains": 1,
     "n_struct_conn": 0,
@@ -783,7 +767,7 @@
      "seqid": 7
     }
    ],
-   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this corpus there is no other source",
+   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this dataset there is no other source",
    "ccd_chirality_disagreements": [],
    "chirality_counts": {
     "L": 12,
@@ -1090,7 +1074,7 @@
    "peptide_n_atoms_below_1.0": 0
   }
  },
- "spec_version": "corpus-spec-1.0",
+ "spec_version": "bmi-spec-1.0",
  "status": {
   "reason": null,
   "stage": "ok"
@@ -1115,8 +1099,8 @@
   "n_struct_conn_after": 0,
   "n_struct_conn_before": 0,
   "peptide_integral_components": [],
-  "policy": "corpus-strict-hetero-1.0",
-  "policy_version": "corpus-strict-hetero-1.0",
+  "policy": "bmi-strict-hetero-1.0",
+  "policy_version": "bmi-strict-hetero-1.0",
   "removed_by_class": {
    "other_organic": 1
   },

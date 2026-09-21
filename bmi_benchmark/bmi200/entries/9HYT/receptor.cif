@@ -3196,4 +3196,4 @@ ATOM 3056 C CG . LEU C C 216 ? 4.818 -3.424 43.759 1 81.184 ? 322 C 1
 ATOM 3057 C CD1 . LEU C C 216 ? 5.735 -3.778 44.927 1 76.119 ? 322 C 1
 ATOM 3058 C CD2 . LEU C C 216 ? 3.374 -3.773 44.115 1 75.938 ? 322 C 1
 
-_struct.title '9HYT: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '9HYT: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

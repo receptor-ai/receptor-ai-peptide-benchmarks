@@ -357,22 +357,6 @@
   "strict_clean_removed_additive_SO4_at_2.97A",
   "twisted_amide_n=1"
  ],
- "frozen_row": {
-  "cell": "cyclic_modified",
-  "is_cyclic": "1",
-  "n_models": "1",
-  "peptide_caps": "-",
-  "peptide_entity": "7DNF_2",
-  "peptide_len_seqres": "17",
-  "peptide_n_chains": "2",
-  "peptide_ncaa": "DPR",
-  "peptide_seq_raw": "PKRIHIGPGRAFYTT(DPR)P",
-  "receptor_desc": "DARPin 63_B7",
-  "receptor_uniprot": "-",
-  "resolution_A": "1.78",
-  "space_group": "P 1 21 1",
-  "topology_labels": "adjacent_residue_nonstandard_link;backbone_macrolactam_partial"
- },
  "not_computed": {},
  "pdb_id": "7DNF",
  "provenance": {
@@ -416,7 +400,7 @@
     ]
    },
    "peptide.cif": {
-    "bytes": 10470,
+    "bytes": 15135,
     "file": "peptide.cif",
     "n_chains": 1,
     "n_struct_conn": 3,
@@ -1038,7 +1022,7 @@
   },
   "geometry": {
    "bond_length_outliers": [],
-   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this corpus there is no other source",
+   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this dataset there is no other source",
    "ccd_chirality_disagreements": [],
    "chirality_counts": {
     "D": 1,
@@ -1433,7 +1417,7 @@
    "peptide_n_atoms_below_1.0": 0
   }
  },
- "spec_version": "corpus-spec-1.0",
+ "spec_version": "bmi-spec-1.0",
  "status": {
   "reason": null,
   "stage": "ok"
@@ -1458,8 +1442,8 @@
   "n_struct_conn_after": 3,
   "n_struct_conn_before": 3,
   "peptide_integral_components": [],
-  "policy": "corpus-strict-hetero-1.0",
-  "policy_version": "corpus-strict-hetero-1.0",
+  "policy": "bmi-strict-hetero-1.0",
+  "policy_version": "bmi-strict-hetero-1.0",
   "removed_by_class": {
    "additive": 1
   },

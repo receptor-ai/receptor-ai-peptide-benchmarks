@@ -215,7 +215,7 @@ ATOM 111 C CG . ASP B I 15 ? -32.344 -23.2 29.346 1 93.14 ? 181 I 1
 ATOM 112 O OD1 . ASP B I 15 ? -32.91 -23.193 30.459 1 92.51 ? 181 I 1
 ATOM 113 O OD2 . ASP B I 15 ? -31.918 -24.242 28.809 1 101.35 ? 181 I 1
 
-_struct.title '7UGB: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7UGB: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

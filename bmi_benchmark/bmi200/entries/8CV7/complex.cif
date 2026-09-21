@@ -1157,4 +1157,4 @@ ATOM 1025 O OD1 . ASP A A 114 ? -16.9955 -7.42394 -29.56235 1 56.77 ? 455 A 1
 ATOM 1026 O OD2 . ASP A A 114 ? -18.67291 -7.73399 -30.95845 1 56.1359 ? 455 A 1
 
 _struct.title
-'8CV7: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'8CV7: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

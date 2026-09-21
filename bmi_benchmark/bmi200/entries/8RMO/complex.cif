@@ -3391,4 +3391,4 @@ ATOM 3257 O OD1 . ASN C L 217 ? 22.434 -11.486 29.8 1 62.45 ? 217 L 1
 ATOM 3258 N ND2 . ASN C L 217 ? 20.44 -12.185 29.056 1 62.231 ? 217 L 1
 
 _struct.title
-'8RMO: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'8RMO: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

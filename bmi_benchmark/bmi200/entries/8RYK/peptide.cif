@@ -257,7 +257,7 @@ ATOM 149 C CE . LYS D D 16 ? 52.625 19.647 20.872 1 76.18 ? 16 D 1
 ATOM 150 N NZ . LYS D D 16 ? 52.19 20.272 22.14 1 75.14 ? 16 D 1
 HETATM 151 N N . NH2 D D 17 ? 48.618 16.479 17.791 1 71.26 ? 17 D 1
 
-_struct.title '8RYK: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8RYK: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

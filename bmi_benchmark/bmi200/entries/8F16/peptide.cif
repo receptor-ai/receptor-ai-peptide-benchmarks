@@ -262,7 +262,7 @@ HETATM 147 C CK . WHL J WHL! . ? 2.91 4.761 24.396 1 18.01 ? 101 C 1
 HETATM 148 N NA . WHL J WHL! . ? 10.338 4.101 21.659 1 19.67 ? 101 C 1
 HETATM 149 O OA . WHL J WHL! . ? 4.858 6.217 24.604 1 24.9 ? 101 C 1
 
-_struct.title '8F16: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8F16: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

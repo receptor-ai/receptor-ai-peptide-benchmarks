@@ -173,7 +173,7 @@ ATOM 101 C CG . PRO C T 12 ? 8.67 -15.011 -8.194 1 14.06 ? 12 T 1
 ATOM 102 C CD . PRO C T 12 ? 8.215 -15.767 -6.984 1 11.66 ? 12 T 1
 ATOM 103 O OXT . PRO C T 12 ? 5.05 -13.918 -6.446 1 15.51 ? 12 T 1
 
-_struct.title '3DS4: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3DS4: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

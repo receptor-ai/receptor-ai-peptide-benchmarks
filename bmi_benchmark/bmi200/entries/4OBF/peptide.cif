@@ -146,7 +146,7 @@ ATOM 76 C CB . PRO E E 10 ? 2.513 -0.732 12.7 1 31.36 ? 10 E 1
 ATOM 77 C CG . PRO E E 10 ? 3.207 -0.948 11.39 1 32.62 ? 10 E 1
 ATOM 78 C CD . PRO E E 10 ? 2.362 -0.273 10.376 1 29.94 ? 10 E 1
 
-_struct.title '4OBF: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4OBF: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

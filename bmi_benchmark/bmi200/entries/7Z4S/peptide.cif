@@ -219,7 +219,7 @@ ATOM 110 C CB . CYS D D 14 ? 17.351 -15.612 14.265 1 30.69 ? 13 D 1
 ATOM 111 S SG . CYS D D 14 ? 17.066 -14.071 13.351 1 29.39 ? 13 D 1
 HETATM 112 N N . NH2 D D 15 ? 16.736 -17.569 16.848 1 38.53 ? 14 D 1
 
-_struct.title '7Z4S: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7Z4S: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -1588,4 +1588,4 @@ ATOM 1461 C CZ . PHE A A 169 ? -14.93 21.419 -4.076 1 20.42 ? 197 A 1
 ATOM 1462 O OXT . PHE A A 169 ? -17.318 28.383 -3.985 1 25.13 ? 197 A 1
 
 _struct.title
-'5H5Q: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'5H5Q: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

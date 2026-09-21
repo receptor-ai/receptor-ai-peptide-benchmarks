@@ -161,7 +161,7 @@ ATOM 65 O O . CYS A F 9 ? -35.938 37.951 5.587 1 40.81 ? 9 F 1
 ATOM 66 C CB . CYS A F 9 ? -33.559 36.635 7.762 1 36.88 ? 9 F 1
 ATOM 67 S SG . CYS A F 9 ? -33.021 35.114 8.613 1 37.21 ? 9 F 1
 
-_struct.title '8G2M: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8G2M: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

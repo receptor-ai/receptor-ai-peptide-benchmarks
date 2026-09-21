@@ -234,7 +234,7 @@ HETATM 123 C C16 . 29N F 29N! . ? 25.043 22.535 -11.721 1 24.23 ? 101 B 1
 HETATM 124 C C19 . 29N F 29N! . ? 31.009 17.627 -8.898 1 26.46 ? 101 B 1
 HETATM 125 C C25 . 29N F 29N! . ? 27.959 15.69 -13.662 1 24 ? 101 B 1
 
-_struct.title '4MNX: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4MNX: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

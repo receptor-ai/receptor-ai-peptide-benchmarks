@@ -1968,4 +1968,4 @@ ATOM 1836 C CE . MET B B 116 ? 5.793 9.416 20.976 1 54.62 ? 116 B 1
 ATOM 1837 O OXT . MET B B 116 ? 0.699 7.321 23.862 1 51.47 ? 116 B 1
 
 _struct.title
-'3FIV: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'3FIV: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

@@ -2408,4 +2408,4 @@ ATOM 2316 C CD . GLN B B 180 ? -3.682 12.155 -2.62 0.5 51.6 ? 209 B 1
 ATOM 2317 O OE1 . GLN B B 180 ? -3.268 12.184 -1.467 0.5 43.68 ? 209 B 1
 ATOM 2318 N NE2 . GLN B B 180 ? -4.896 12.615 -2.956 0.5 41.61 ? 209 B 1
 
-_struct.title '3AVK: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '3AVK: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

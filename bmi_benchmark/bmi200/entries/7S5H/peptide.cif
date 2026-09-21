@@ -204,7 +204,7 @@ HETATM 98 C C4 . 89N D 89N! . ? -12.976 22.939 0.415 1 14.87 ? 101 C 1
 HETATM 99 C C5 . 89N D 89N! . ? -13.581 23.591 1.406 1 14.5 ? 101 C 1
 HETATM 100 O O1 . 89N D 89N! . ? -14.94 24.784 -0.178 1 14.69 ? 101 C 1
 
-_struct.title '7S5H: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7S5H: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -317,22 +317,6 @@
   "multi_chain_receptor_3",
   "strict_clean_removed_additive_EPE_at_3.12A"
  ],
- "frozen_row": {
-  "cell": "cyclic_modified",
-  "is_cyclic": "1",
-  "n_models": "1",
-  "peptide_caps": "ACE;NH2",
-  "peptide_entity": "8F1F_4",
-  "peptide_len_seqres": "14",
-  "peptide_n_chains": "2",
-  "peptide_ncaa": "DPN;MAA;SAR;XC0",
-  "peptide_seq_raw": "(ACE)(DPN)QYW(XC0)Y(MAA)T(SAR)VCG(NH2)",
-  "receptor_desc": "Ubiquitin",
-  "receptor_uniprot": "P0CG47",
-  "resolution_A": "1.85",
-  "space_group": "P 1 2 1",
-  "topology_labels": "adjacent_residue_nonstandard_link;thioether_or_S_bridge"
- },
  "not_computed": {},
  "pdb_id": "8F1F",
  "provenance": {
@@ -379,7 +363,7 @@
     ]
    },
    "peptide.cif": {
-    "bytes": 9565,
+    "bytes": 13652,
     "file": "peptide.cif",
     "n_chains": 1,
     "n_struct_conn": 10,
@@ -974,7 +958,7 @@
   },
   "geometry": {
    "bond_length_outliers": [],
-   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this corpus there is no other source",
+   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this dataset there is no other source",
    "ccd_chirality_disagreements": [],
    "chirality_counts": {
     "D": 1,
@@ -1309,7 +1293,7 @@
    "peptide_n_atoms_below_1.0": 0
   }
  },
- "spec_version": "corpus-spec-1.0",
+ "spec_version": "bmi-spec-1.0",
  "status": {
   "reason": null,
   "stage": "ok"
@@ -1334,8 +1318,8 @@
   "n_struct_conn_after": 10,
   "n_struct_conn_before": 10,
   "peptide_integral_components": [],
-  "policy": "corpus-strict-hetero-1.0",
-  "policy_version": "corpus-strict-hetero-1.0",
+  "policy": "bmi-strict-hetero-1.0",
+  "policy_version": "bmi-strict-hetero-1.0",
   "removed_by_class": {
    "additive": 1
   },

@@ -155,7 +155,7 @@ HETATM 61 C CE3 . ALN D J 7 ? 24.928 -2.652 30.664 0.5 19.33 ? 207 J 1
 HETATM 62 C CZ2 . ALN D J 7 ? 23.624 -2.599 31.118 0.5 21.85 ? 207 J 1
 HETATM 63 N N . NH2 D J 8 ? 24.003 5.419 33.657 0.5 12.64 ? 208 J 1
 
-_struct.title '3FIV: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3FIV: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

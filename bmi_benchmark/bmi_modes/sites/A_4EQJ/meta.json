@@ -19,8 +19,6 @@
  "core_separation_widest_pair_A": "7.32",
  "difference_type": "large",
  "frame_pdb": "4EQJ",
- "gate": "pass",
- "gate_reason": "pass",
  "max_separation_A": "11.01",
  "max_token_diff": "0",
  "min_inter_mode_core_sep_A": "7.32",
@@ -96,7 +94,6 @@
  "seq": "AETFYVDG",
  "site_id": "A_4EQJ",
  "site_type": "one_deposition",
- "tier": "1_same_molecule",
  "uniprot": "P03369",
  "incomplete_residues__pose_01": [
   {

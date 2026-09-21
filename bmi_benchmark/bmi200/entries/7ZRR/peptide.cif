@@ -239,7 +239,7 @@ HETATM 124 C C7 . ZBR G ZBR! . ? 4.491 -21.267 -9.462 1 39.17 ? 102 B 1
 HETATM 125 C C8 . ZBR G ZBR! . ? 7.428 -22.439 -13.376 1 36.01 ? 102 B 1
 HETATM 126 C C9 . ZBR G ZBR! . ? 3.555 -19.313 -14.003 1 57.33 ? 102 B 1
 
-_struct.title '7ZRR: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7ZRR: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

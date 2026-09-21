@@ -384,22 +384,6 @@
   "strict_clean_removed_additive_SO4_at_2.82A",
   "twisted_amide_n=1"
  ],
- "frozen_row": {
-  "cell": "cyclic_modified",
-  "is_cyclic": "1",
-  "n_models": "1",
-  "peptide_caps": "-",
-  "peptide_entity": "8AD9_2",
-  "peptide_len_seqres": "7",
-  "peptide_n_chains": "2",
-  "peptide_ncaa": "LTU;MLE;WLU;WPA;WVL",
-  "peptide_seq_raw": "(LTU)(WLU)A(WPA)V(MLE)(WVL)",
-  "receptor_desc": "Putative ATP-dependent protease ATP-binding subunit ClpC2",
-  "receptor_uniprot": "P9WPC7",
-  "resolution_A": "1.43",
-  "space_group": "C 1 2 1",
-  "topology_labels": "adjacent_residue_nonstandard_link;head_to_tail"
- },
  "not_computed": {},
  "pdb_id": "8AD9",
  "provenance": {
@@ -443,7 +427,7 @@
     ]
    },
    "peptide.cif": {
-    "bytes": 7311,
+    "bytes": 10584,
     "file": "peptide.cif",
     "n_chains": 1,
     "n_struct_conn": 7,
@@ -785,7 +769,7 @@
   },
   "geometry": {
    "bond_length_outliers": [],
-   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this corpus there is no other source",
+   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this dataset there is no other source",
    "ccd_chirality_disagreements": [],
    "chirality_counts": {
     "L": 7
@@ -991,7 +975,7 @@
    "peptide_n_atoms_below_1.0": 0
   }
  },
- "spec_version": "corpus-spec-1.0",
+ "spec_version": "bmi-spec-1.0",
  "status": {
   "reason": null,
   "stage": "ok"
@@ -1016,8 +1000,8 @@
   "n_struct_conn_after": 7,
   "n_struct_conn_before": 7,
   "peptide_integral_components": [],
-  "policy": "corpus-strict-hetero-1.0",
-  "policy_version": "corpus-strict-hetero-1.0",
+  "policy": "bmi-strict-hetero-1.0",
+  "policy_version": "bmi-strict-hetero-1.0",
   "removed_by_class": {
    "additive": 3
   },

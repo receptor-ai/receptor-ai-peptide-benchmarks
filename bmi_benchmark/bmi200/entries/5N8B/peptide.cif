@@ -196,7 +196,7 @@ ATOM 94 C C . GLY B E 12 ? 23.576 20.396 19.292 1 12.42 ? 12 E 1
 ATOM 95 O O . GLY B E 12 ? 24.284 21.379 19.079 1 14.92 ? 12 E 1
 HETATM 96 N N . NH2 B E 13 ? 23.985 19.299 20.07 1 11.09 ? 13 E 1
 
-_struct.title '5N8B: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5N8B: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

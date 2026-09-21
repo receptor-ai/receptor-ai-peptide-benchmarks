@@ -3353,4 +3353,4 @@ ATOM 3229 O OE1 . GLU C L 202 ? 12.723 -13.153 37.688 1 47.97 ? 213 L 1
 ATOM 3230 O OE2 . GLU C L 202 ? 13.79 -13.205 39.617 1 52.01 ? 213 L 1
 ATOM 3231 O OXT . GLU C L 202 ? 16.05 -10.9 34.124 1 57.15 ? 213 L 1
 
-_struct.title '8G2M: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '8G2M: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

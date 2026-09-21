@@ -122,7 +122,7 @@ ATOM 33 C CD . LYS D D 5 ? -0.062 7.842 29.802 1 25.56 ? 4 D 1
 ATOM 34 C CE . LYS D D 5 ? -0.682 9.1 30.453 1 25.12 ? 4 D 1
 ATOM 35 N NZ . LYS D D 5 ? -0.197 10.387 29.806 1 20.07 ? 4 D 1
 
-_struct.title '3PSL: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3PSL: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

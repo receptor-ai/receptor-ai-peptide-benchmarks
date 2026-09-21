@@ -3,8 +3,6 @@
  "core_separation_widest_pair_A": "5.86",
  "difference_type": "substantial",
  "frame_pdb": "5OJR",
- "gate": "pass",
- "gate_reason": "pass",
  "max_separation_A": "6.52",
  "max_token_diff": "0",
  "min_inter_mode_core_sep_A": "5.86",
@@ -80,6 +78,5 @@
  "seq": "NAHNFPLDLASAESAPVA",
  "site_id": "A_5OJR",
  "site_type": "one_deposition",
- "tier": "1_same_molecule",
  "uniprot": "Q8DI95"
 }

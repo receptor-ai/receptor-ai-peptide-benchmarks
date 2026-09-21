@@ -167,7 +167,7 @@ HETATM 93 C CA . GLY E GLY! . ? 5.738 15.155 19.715 1 10.03 ? 401 C 1
 HETATM 94 C C . GLY E GLY! . ? 6.576 14.256 20.526 1 8.04 ? 401 C 1
 HETATM 95 O O . GLY E GLY! . ? 6.554 14.363 21.742 1 10.41 ? 401 C 1
 
-_struct.title '4WX4: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4WX4: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

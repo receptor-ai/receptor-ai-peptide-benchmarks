@@ -2027,4 +2027,4 @@ ATOM 1904 C C . GLY B B 143 ? -3.16771 -17.00611 67.2896 1 67.8827 ? 116 B 1
 ATOM 1905 O O . GLY B B 143 ? -2.51554 -18.02084 67.0386 1 64.3074 ? 116 B 1
 
 _struct.title
-'9B0A: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'9B0A: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

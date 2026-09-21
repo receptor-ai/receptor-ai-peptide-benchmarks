@@ -671,4 +671,4 @@ ATOM 584 C CD1 . LEU B B 93 ? -6.242 13.668 26.732 1 20.89 ? 73 B 1
 ATOM 585 C CD2 . LEU B B 93 ? -6.799 11.418 27.626 1 20.34 ? 73 B 1
 ATOM 586 O OXT . LEU B B 93 ? -8.361 12.839 31.905 1 17.02 ? 73 B 1
 
-_struct.title '3PLU: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '3PLU: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

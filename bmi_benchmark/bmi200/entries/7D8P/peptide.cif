@@ -181,7 +181,7 @@ ATOM 82 C CD2 . HIS C C 11 ? -12.347 -4.586 -14.273 1 82.26 ? 156 C 1
 ATOM 83 C CE1 . HIS C C 11 ? -11.751 -4.86 -16.366 1 81.21 ? 156 C 1
 ATOM 84 N NE2 . HIS C C 11 ? -12.748 -5.016 -15.514 1 78.99 ? 156 C 1
 
-_struct.title '7D8P: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7D8P: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

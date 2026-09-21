@@ -9,7 +9,7 @@ Load either table with `keep_default_na=False, na_values=['']` so that the eleme
 is not read as a missing value.
 
 A blank cell means "not applicable" or "not measured" for that entry (for example, a ring-closure column
-is blank for a linear peptide). Counts are integers; distances are in ångström (Å); fractions are 0–1.
+is blank for a linear peptide). A dash (`-`) in a list or id column (`peptide_ncaa`, `peptide_caps`, `topology_labels`, `receptor_uniprot`, `receptor_pfam`) means "none". Counts are integers; distances are in ångström (Å); fractions are 0–1.
 Every value is measured from the deposited coordinates or read from the RCSB PDB / UniProt, not copied
 from any deposited secondary-structure or topology annotation.
 
@@ -22,8 +22,8 @@ from any deposited secondary-structure or topology annotation.
 | Column | Meaning | Values |
 |---|---|---|
 | `pdb_id` | RCSB PDB accession of the source structure | 4-character code |
-| `set_membership` | Which selection stream the entry came from | `core_200` (stratified diversity core) or `requested_addition` (two extra entries folded in) |
-| `selection_rule` | How the entry was chosen | `stratified_maxmin` or `requested_addition` |
+| `set_membership` | Which selection stream the entry came from | `core_200` (stratified diversity core) or `manual_addition` (two extra entries folded in) |
+| `selection_rule` | How the entry was chosen | `stratified_maxmin` or `manual_addition` |
 | `selected_for_ss_stratum` | Secondary-structure stratum this entry was picked to fill | `helix`, `sheet`, `turn_only`, `ppii`, `helix_310`, `none`, `helix_sheet` |
 | `cluster_rank` | Rank of the entry inside its receptor sequence cluster (see `receptor_seqid30_cluster`); 1 is the representative | 1–8. Use `== 1` or `<= 2` to reduce receptor redundancy |
 | `quality_relaxed` | 1 if the quality gate was relaxed for this entry | 0 for the core; blank for the two additions |
@@ -56,7 +56,7 @@ from any deposited secondary-structure or topology annotation.
 | `cell` | Chemistry cell: measured topology crossed with modification | `cyclic_standard`, `cyclic_modified`, `linear_standard`, `linear_modified` (`standard` = unmodified) |
 | `cell_label_frozen` | The cell label as first assigned, before the coordinate re-measurement | same four values |
 | `topology_label_disagrees` | 1 if `cell` differs from `cell_label_frozen` | 0 / 1 |
-| `cyclic_measured`, `is_cyclic` | 1 if the peptide is cyclic by measured ring topology | 0 / 1 |
+| `cyclic_measured` | 1 if the peptide is cyclic by measured ring topology | 0 / 1 |
 | `cyclomatic_number` | Number of independent rings in the peptide bond graph (0 = linear) | 0–4 |
 | `ring_closure_class` | Chemistry of the ring closure | `disulfide`, `thioether_or_S_C_bridge`, `head_to_tail_backbone_amide`, `amide_or_C_N_bridge`, `ester_or_C_O_bridge`, `carbon_carbon_bridge`, `linear` |
 | `topology_measured` | Ring topology from coordinates | `macrocycle` / `linear` |
@@ -79,7 +79,7 @@ from any deposited secondary-structure or topology annotation.
 | `n_bond_length_outliers` | Bonds outside the expected length window | integer |
 | `worst_bond_deviation_A` | Largest signed bond-length deviation from ideal | Å |
 | `backbone_c_n_min_A`, `backbone_c_n_max_A` | Range of backbone amide C–N bond lengths | Å |
-| `n_backbone_c_n_outside_1.20_1.50A` | Backbone C–N bonds outside 1.20–1.50 Å | integer (0 for all shipped entries) |
+| `n_backbone_c_n_outside_1.20_1.50A` | Backbone C–N bonds outside 1.20–1.50 Å | integer (0 for all shipped entries except 4AIR, whose backbone has no bonded standard C–N pair, so this and the other `backbone_c_n_*` columns are blank) |
 
 ### Amide (omega) geometry
 
@@ -124,7 +124,6 @@ keeps `e` (peptide-to-peptide bridge) and turns receptor-only bridges into `x`.
 | Column | Meaning | Values |
 |---|---|---|
 | `ss_category_bound`, `ss_category_intrinsic` | Coarse secondary-structure category | `helix`, `helix_310`, `sheet`, `ppii`, `turn_only`, `none`, `helix_sheet` |
-| `ss_category` | Display label of the bound category | `helix`, `sheet`, `PPII`, `turn_only`, `none/coil`, `helix+sheet` |
 | `pep_ss_string_bound`, `pep_ss_string_intrinsic` | Per-residue string (alphabet above) | e.g. `XHHHHHHHHHHHHHHHHHCX` |
 | `longest_helix_any_bound` | Longest run of any helix (H/h/G/g/I) | residues |
 | `longest_helix_alpha_bound`, `longest_helix_310_bound` | Longest α- / 3₁₀-helix run | residues |
@@ -146,8 +145,8 @@ keeps `e` (peptide-to-peptide bridge) and turns receptor-only bridges into `x`.
 |---|---|---|
 | `receptor_class` | Functional class | 21 classes, e.g. `adaptor_scaffold_ppi`, `ubiquitin_system`, `protease` |
 | `receptor_subclass` | Finer functional label | free text |
-| `receptor_uniprot` | UniProt accession | blank if none |
-| `receptor_pfam` | Pfam family id(s) | `;`-separated |
+| `receptor_uniprot` | UniProt accession | `-` if none |
+| `receptor_pfam` | Pfam family id(s) | `;`-separated; `-` if none |
 | `receptor_desc`, `receptor_one_line` | Protein description (short / one-line) | free text |
 | `receptor_organism` | Source organism | free text |
 | `receptor_ec_number` | Enzyme Commission number | e.g. `3.4.21.89` (blank if not an enzyme) |
@@ -188,7 +187,6 @@ keeps `e` (peptide-to-peptide bridge) and turns receptor-only bridges into `x`.
 | `peptide_length_band` | Length bin | `5-8`, `9-12`, `13-16`, `17-20` |
 | `clean_core_pass` | 1 if the entry passed the "clean core" quality gate | 0 / 1 |
 | `clean_core_n_failed_tests`, `clean_core_fail_reasons` | Number of failed clean-core tests / their reasons | integer / text |
-| `scoreable_core` | 1 if the peptide backbone is complete and gap-free (the subset where a per-residue metric is meaningful) | 0 / 1 |
 
 ### Clashes and steric overlap
 
@@ -256,7 +254,7 @@ keeps `e` (peptide-to-peptide bridge) and turns receptor-only bridges into `x`.
 
 ## topology_audit.csv
 
-One row per core entry (200 rows). It cross-checks the deposited cyclic/linear label against the ring
+One row per core entry (200 rows). It cross-checks the assigned cyclic/linear label against the ring
 topology measured from the coordinates, and records the detailed ring closures. The two folded-in entries
 are in `MANIFEST.csv` but not in this audit table.
 
@@ -268,9 +266,9 @@ are in `MANIFEST.csv` but not in this audit table.
 | `measured_cyclic` | 1 if the coordinates measure the peptide as cyclic | 0 / 1 |
 | `agrees` | 1 if `label_says_cyclic` equals `measured_cyclic` | 1 for every row |
 | `cyclomatic_measured` | Independent rings measured from the coordinates | 0–4 |
-| `cyclomatic_corpus` | Independent rings recorded in the entry metadata | 0–4 |
-| `ring_closure_class_corpus` | Ring-closure chemistry recorded in the metadata | same classes as `ring_closure_class` |
-| `topology_measured_corpus` | Topology recorded in the metadata | `macrocycle` / `linear` |
+| `cyclomatic_metadata` | Independent rings recorded in the entry metadata | 0–4 |
+| `ring_closure_class_metadata` | Ring-closure chemistry recorded in the metadata | same classes as `ring_closure_class` |
+| `topology_metadata` | Topology recorded in the metadata | `macrocycle` / `linear` |
 | `closure_types_measured` | Ring-closure chemistries found in the coordinates | `;`-list (blank if linear) |
 | `closure_detail` | Each ring closure: chemistry, the two atoms, and the distance | e.g. `disulfide CYS2.SG-CYS7.SG 2.03A` |
 | `n_residues_in_file` | Components in `peptide.cif` (residues plus caps/linkers) | integer |

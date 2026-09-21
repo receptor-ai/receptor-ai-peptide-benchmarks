@@ -1983,4 +1983,4 @@ ATOM 1860 O OD1 . ASN A A 248 ? 30.129 10.046 95.654 1 36.35 ? 791 A 1
 ATOM 1861 N ND2 . ASN A A 248 ? 31.847 8.649 95.28 1 33.22 ? 791 A 1
 ATOM 1862 O OXT . ASN A A 248 ? 30.98 11.661 91.171 1 37.73 ? 791 A 1
 
-_struct.title '6D40: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '6D40: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

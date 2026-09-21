@@ -804,4 +804,4 @@ ATOM 721 C CB . SER B B 96 ? 12.891 -31.25 4.527 1 33.51 ? 527 B 1
 ATOM 722 O OG . SER B B 96 ? 11.718 -31.321 5.323 1 35.22 ? 527 B 1
 ATOM 723 O OXT . SER B B 96 ? 14.714 -29.631 2.443 1 34.99 ? 527 B 1
 
-_struct.title '2V3S: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '2V3S: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

@@ -3235,4 +3235,4 @@ ATOM 3107 O O . CYS B H 211 ? -60.194 -16.115 20.617 1 45.3818 ? 211 H 1
 ATOM 3108 C CB . CYS B H 211 ? -62.84 -14.651 21.711 1 54.7118 ? 211 H 1
 ATOM 3109 S SG . CYS B H 211 ? -63.774 -13.201 22.297 1 63.3076 ? 211 H 1
 
-_struct.title '9P4C: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '9P4C: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

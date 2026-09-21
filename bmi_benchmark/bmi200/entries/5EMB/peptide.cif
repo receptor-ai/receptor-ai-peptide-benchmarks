@@ -157,7 +157,7 @@ ATOM 63 S SD . MET B B 8 ? 4.136 -5 -15.823 0.62 7.24 ? 593 B 1
 ATOM 64 C CE . MET B B 8 ? 3.823 -6.734 -15.998 0.62 8.79 ? 593 B 1
 ATOM 65 O OXT . MET B B 8 ? -0.891 -2.712 -17.253 0.62 8.05 ? 593 B 1
 
-_struct.title '5EMB: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5EMB: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

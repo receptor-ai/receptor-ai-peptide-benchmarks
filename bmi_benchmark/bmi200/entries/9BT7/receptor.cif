@@ -2653,4 +2653,4 @@ ATOM 2533 C CG . LEU B B 163 ? 32.926 -14.853 3.893 1 50.77 ? 196 B 1
 ATOM 2534 C CD1 . LEU B B 163 ? 34.167 -14.517 4.7 1 58.49 ? 196 B 1
 ATOM 2535 C CD2 . LEU B B 163 ? 33.256 -14.937 2.412 1 44.06 ? 196 B 1
 
-_struct.title '9BT7: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '9BT7: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

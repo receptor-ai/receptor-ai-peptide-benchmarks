@@ -106,7 +106,7 @@ ATOM 38 O OG1 . THR B B 5 ? 14.532 -2.255 -27.468 1 19.58 ? 5 B 1
 ATOM 39 C CG2 . THR B B 5 ? 13.902 -1.618 -25.286 1 20.32 ? 5 B 1
 ATOM 40 O OXT . THR B B 5 ? 14.515 -5.564 -24.259 1 18.166 ? 5 B 1
 
-_struct.title '8ARE: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8ARE: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

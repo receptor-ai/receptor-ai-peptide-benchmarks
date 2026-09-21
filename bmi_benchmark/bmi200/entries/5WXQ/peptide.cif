@@ -204,7 +204,7 @@ ATOM 99 O O . CYS B P 14 ? -16.759 -9.177 2.073 1 45.74 ? 12 P 1
 ATOM 100 C CB . CYS B P 14 ? -20.099 -10.259 1.446 1 41.14 ? 12 P 1
 ATOM 101 S SG . CYS B P 14 ? -21.834 -9.811 1.683 1 40.88 ? 12 P 1
 
-_struct.title '5WXQ: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5WXQ: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

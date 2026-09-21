@@ -1913,4 +1913,4 @@ ATOM 1824 O O . SER B B 230 ? 27.08446 -16.05627 -5.72398 1 57.3464 ? 230 B 1
 ATOM 1825 C CB . SER B B 230 ? 25.08479 -17.70028 -4.06795 1 50.4113 ? 230 B 1
 ATOM 1826 O OG . SER B B 230 ? 24.51335 -16.40197 -4.02787 1 51.6667 ? 230 B 1
 
-_struct.title '7ZIT: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '7ZIT: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

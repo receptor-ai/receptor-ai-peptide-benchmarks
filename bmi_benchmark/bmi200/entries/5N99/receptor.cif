@@ -3719,4 +3719,4 @@ ATOM 3624 C CD . LYS I I 158 ? 69.804 53.131 68.05 1 94.2 ? 134 I 1
 ATOM 3625 C CE . LYS I I 158 ? 70.891 52.439 68.829 1 106.89 ? 134 I 1
 ATOM 3626 N NZ . LYS I I 158 ? 71.33 53.263 69.982 1 118.28 ? 134 I 1
 
-_struct.title '5N99: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '5N99: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

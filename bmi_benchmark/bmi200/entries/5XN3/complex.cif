@@ -1684,4 +1684,4 @@ ATOM 1565 N N . GLY A A 202 ? 5.148 7.825 -6.579 1 31.31 ? 221 A 1
 ATOM 1566 C CA . GLY A A 202 ? 5.917 9.077 -6.451 1 30.38 ? 221 A 1
 
 _struct.title
-'5XN3: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'5XN3: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

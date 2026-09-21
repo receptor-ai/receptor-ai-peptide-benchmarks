@@ -3494,4 +3494,4 @@ ATOM 3367 C CD . GLU B L 217 ? -25.88048 -20.01636 -17.84041 1 64.9059 ? 211 L 1
 ATOM 3368 O OE1 . GLU B L 217 ? -25.90574 -21.04848 -17.13495 1 70.1893 ? 211 L 1
 ATOM 3369 O OE2 . GLU B L 217 ? -25.33147 -19.97065 -18.96492 1 71.9994 ? 211 L 1
 
-_struct.title '9C79: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '9C79: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

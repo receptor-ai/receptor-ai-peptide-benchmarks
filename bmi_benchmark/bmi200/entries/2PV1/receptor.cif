@@ -858,4 +858,4 @@ ATOM 771 N NH1 . ARG A A 103 ? 30.428 -14.015 -10.972 1 19.13 ? 274 A 1
 ATOM 772 N NH2 . ARG A A 103 ? 29.627 -16.159 -10.948 1 24.6 ? 274 A 1
 ATOM 773 O OXT . ARG A A 103 ? 30.745 -14.175 -18.661 1 21.02 ? 274 A 1
 
-_struct.title '2PV1: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '2PV1: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

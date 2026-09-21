@@ -236,7 +236,7 @@ ATOM 126 O O . ALA B B 15 ? -13.756 -19.806 21.17 1 42.73 ? 14 B 1
 ATOM 127 C CB . ALA B B 15 ? -14.644 -17.244 20.5 1 38.25 ? 14 B 1
 HETATM 128 N N . NH2 B B 16 ? -15.831 -20.569 21.9 1 39.44 ? 16 B 1
 
-_struct.title '6AAW: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '6AAW: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

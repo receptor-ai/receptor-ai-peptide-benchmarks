@@ -4949,4 +4949,4 @@ ATOM 4813 C C . GLY B B 302 ? 2.942 -18.371 3.81 1 65.2 ? 302 B 1
 ATOM 4814 O O . GLY B B 302 ? 3.344 -18.373 2.643 1 71.52 ? 302 B 1
 
 _struct.title
-'7Z4S: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'7Z4S: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

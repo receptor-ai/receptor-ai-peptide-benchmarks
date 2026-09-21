@@ -3414,4 +3414,4 @@ ATOM 3291 C CD . LYS D D 220 ? -40.862 35.326 -62.662 1 78.33 ? 220 D 1
 ATOM 3292 C CE . LYS D D 220 ? -41.202 35.265 -64.145 1 85.63 ? 220 D 1
 ATOM 3293 N NZ . LYS D D 220 ? -40.356 36.177 -64.965 1 88.11 ? 220 D 1
 
-_struct.title '5TH2: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '5TH2: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

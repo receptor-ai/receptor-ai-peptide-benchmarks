@@ -251,7 +251,7 @@ HETATM 136 O O1 . LFI E LFI! . ? 11.584 -44.974 11.949 1 21.22 ? 101 A 1
 HETATM 137 O O2 . LFI E LFI! . ? 10.088 -41.286 14.832 1 20.07 ? 101 A 1
 HETATM 138 O O3 . LFI E LFI! . ? 6.809 -42.478 11.284 1 21.06 ? 101 A 1
 
-_struct.title '9RXL: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '9RXL: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

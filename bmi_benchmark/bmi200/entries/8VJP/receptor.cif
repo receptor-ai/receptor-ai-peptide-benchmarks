@@ -1312,4 +1312,4 @@ ATOM 1223 C CG . ASP A A 156 ? -5.94592 -17.50988 2.5539 1 24.2056 ? 323 A 1
 ATOM 1224 O OD1 . ASP A A 156 ? -4.93398 -17.36527 1.83592 1 24.1957 ? 323 A 1
 ATOM 1225 O OD2 . ASP A A 156 ? -5.91816 -17.42741 3.79601 1 24.0881 -1 323 A 1
 
-_struct.title '8VJP: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '8VJP: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

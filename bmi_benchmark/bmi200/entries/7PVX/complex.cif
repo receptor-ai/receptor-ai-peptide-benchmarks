@@ -1107,4 +1107,4 @@ ATOM 1015 O OD2 . ASP C C 60 ? 18.136 6.025 40.011 1 50.28 ? 141 C 1
 ATOM 1016 O OXT . ASP C C 60 ? 19.38 9.456 36.328 1 46.5 ? 141 C 1
 
 _struct.title
-'7PVX: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'7PVX: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

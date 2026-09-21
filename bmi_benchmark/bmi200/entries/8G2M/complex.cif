@@ -3425,4 +3425,4 @@ ATOM 3297 O OE2 . GLU C L 202 ? 13.79 -13.205 39.617 1 52.01 ? 213 L 1
 ATOM 3298 O OXT . GLU C L 202 ? 16.05 -10.9 34.124 1 57.15 ? 213 L 1
 
 _struct.title
-'8G2M: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'8G2M: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

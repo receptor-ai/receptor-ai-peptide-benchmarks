@@ -293,22 +293,6 @@
   "peptide_partial_occupancy_min_0.76",
   "peptide_integral_nonpolymer_NH2"
  ],
- "frozen_row": {
-  "cell": "cyclic_modified",
-  "is_cyclic": "1",
-  "n_models": "1",
-  "peptide_caps": "-",
-  "peptide_entity": "6Z13_1",
-  "peptide_len_seqres": "15",
-  "peptide_n_chains": "1",
-  "peptide_ncaa": "NLE",
-  "peptide_seq_raw": "CDIHV(NLE)WEWECFEKL",
-  "receptor_desc": "Vascular endothelial growth factor A",
-  "receptor_uniprot": "P15692",
-  "resolution_A": "1.8",
-  "space_group": "P 21 21 21",
-  "topology_labels": "adjacent_residue_nonstandard_link;covalent_to_other_chain;disulfide_intrachain"
- },
  "not_computed": {},
  "pdb_id": "6Z13",
  "provenance": {
@@ -341,7 +325,7 @@
   },
   "outputs": {
    "complex.cif": {
-    "bytes": 125554,
+    "bytes": 125253,
     "file": "complex.cif",
     "n_chains": 3,
     "n_struct_conn": 13,
@@ -352,7 +336,7 @@
     ]
    },
    "peptide.cif": {
-    "bytes": 12216,
+    "bytes": 17198,
     "file": "peptide.cif",
     "n_chains": 1,
     "n_struct_conn": 4,
@@ -361,7 +345,7 @@
     ]
    },
    "receptor.cif": {
-    "bytes": 114944,
+    "bytes": 114623,
     "file": "receptor.cif",
     "n_chains": 2,
     "n_struct_conn": 9,
@@ -959,7 +943,7 @@
   },
   "geometry": {
    "bond_length_outliers": [],
-   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this corpus there is no other source",
+   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this dataset there is no other source",
    "ccd_chirality_disagreements": [],
    "chirality_counts": {
     "L": 15
@@ -1350,7 +1334,7 @@
    "peptide_n_atoms_below_1.0": 135
   }
  },
- "spec_version": "corpus-spec-1.0",
+ "spec_version": "bmi-spec-1.0",
  "status": {
   "reason": null,
   "stage": "ok"
@@ -1379,7 +1363,7 @@
   },
   "files": {
    "complex.cif": {
-    "bytes": 125257,
+    "bytes": 125253,
     "n_chains": 3,
     "n_struct_conn": 13,
     "role": "strict primary"
@@ -1388,7 +1372,7 @@
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
    "receptor.cif": {
-    "bytes": 114627,
+    "bytes": 114623,
     "n_chains": 2,
     "n_struct_conn": 9,
     "role": "strict receptor + ions"
@@ -1412,7 +1396,7 @@
     "subchain": "D"
    }
   ],
-  "policy_version": "corpus-strict-hetero-1.0",
+  "policy_version": "bmi-strict-hetero-1.0",
   "polymer_atom_counts_unchanged": true,
   "removed_components": [
    {

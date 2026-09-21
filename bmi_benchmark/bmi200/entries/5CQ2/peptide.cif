@@ -197,7 +197,7 @@ ATOM 91 C CG2 . ILE B B 13 ? 3.453 10.663 2.561 1 40.7 ? 338 B 1
 ATOM 92 C CD1 . ILE B B 13 ? 0.797 9.868 5.241 1 39.95 ? 338 B 1
 HETATM 93 N N . NH2 B B 14 ? 5.807 8.434 3.762 1 62.26 ? 339 B 1
 
-_struct.title '5CQ2: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5CQ2: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

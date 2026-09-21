@@ -2089,4 +2089,4 @@ ATOM 1960 C CG . PRO D D 120 ? 16.509 -5.375 26.488 1 52.82 ? 364 D 1
 ATOM 1961 C CD . PRO D D 120 ? 16.647 -6.555 25.545 1 44.88 ? 364 D 1
 
 _struct.title
-'9RXL: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'9RXL: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

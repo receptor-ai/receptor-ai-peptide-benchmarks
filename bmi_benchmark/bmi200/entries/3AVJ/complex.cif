@@ -2501,4 +2501,4 @@ ATOM 2379 O OE1 . GLN B B 180 ? 9.02 -8.849 0.445 0.5 46.69 ? 209 B 1
 ATOM 2380 N NE2 . GLN B B 180 ? 9.045 -10.583 1.886 0.5 39.22 ? 209 B 1
 
 _struct.title
-'3AVJ: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'3AVJ: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

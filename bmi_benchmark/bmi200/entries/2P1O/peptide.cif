@@ -184,7 +184,7 @@ ATOM 112 C CE . LYS C C 13 ? 13.017 -95.23 -34.371 1 23.17 ? 13 C 1
 ATOM 113 N NZ . LYS C C 13 ? 12.135 -94.106 -34.837 1 23.38 ? 13 C 1
 ATOM 114 O OXT . LYS C C 13 ? 19.399 -95.522 -35.41 1 26.41 ? 13 C 1
 
-_struct.title '2P1O: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '2P1O: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

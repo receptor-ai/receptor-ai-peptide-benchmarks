@@ -134,7 +134,7 @@ ATOM 64 C CG1 . VAL B B 7 ? 8.678 -19.913 -9.58 1 20.46 ? 7 B 1
 ATOM 65 C CG2 . VAL B B 7 ? 8.007 -22.314 -9.742 1 23.25 ? 7 B 1
 ATOM 66 O OXT . VAL B B 7 ? 4.724 -21.507 -8.35 1 20.84 ? 7 B 1
 
-_struct.title '2PV1: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '2PV1: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

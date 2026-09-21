@@ -2440,4 +2440,4 @@ ATOM 2316 C CG . PRO A A 300 ? 25.774 -1.778 -21.004 1 67.57 ? 1656 A 1
 ATOM 2317 C CD . PRO A A 300 ? 26.446 -2.442 -19.843 1 73.98 ? 1656 A 1
 
 _struct.title
-'7V1A: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'7V1A: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

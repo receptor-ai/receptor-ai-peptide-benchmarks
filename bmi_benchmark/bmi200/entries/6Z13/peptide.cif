@@ -247,7 +247,7 @@ ATOM 134 C CD1 . LEU A P 15 ? 30.91512 47.56216 -6.29672 0.76 69.91 ? 15 P 1
 ATOM 135 C CD2 . LEU A P 15 ? 31.41744 45.71397 -7.92496 0.76 49.38 ? 15 P 1
 HETATM 136 N N . NH2 D NH2! . ? 31.19792 51.05654 -10.32598 1 68.38 ? 101 P 1
 
-_struct.title '6Z13: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '6Z13: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

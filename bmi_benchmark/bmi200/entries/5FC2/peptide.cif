@@ -163,7 +163,7 @@ ATOM 65 N NH1 . ARG A A 8 ? -29.378 -4.716 7.302 1 18.62 ? 8 A 1
 ATOM 66 N NH2 . ARG A A 8 ? -28.712 -2.636 6.671 1 23.04 ? 8 A 1
 HETATM 67 C C . 6L3 A A 9 ? -33.638 -4.963 0.356 1 35.2 ? 9 A 1
 
-_struct.title '5FC2: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5FC2: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

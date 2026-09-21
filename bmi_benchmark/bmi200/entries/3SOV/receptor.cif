@@ -2536,4 +2536,4 @@ ATOM 2418 C CG . ASP A A 309 ? 20.367 -14.189 -6.89 1 52.2 ? 325 A 1
 ATOM 2419 O OD1 . ASP A A 309 ? 21.235 -13.292 -6.835 1 52.31 ? 325 A 1
 ATOM 2420 O OD2 . ASP A A 309 ? 20.633 -15.404 -6.758 1 51.77 ? 325 A 1
 
-_struct.title '3SOV: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '3SOV: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

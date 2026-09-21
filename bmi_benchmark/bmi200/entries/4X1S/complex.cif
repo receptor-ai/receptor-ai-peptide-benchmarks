@@ -2151,4 +2151,4 @@ ATOM 2024 C CE . LYS B U 246 ? -33.611 -3.275 -34.899 1 64.64 ? 243 U 1
 ATOM 2025 N NZ . LYS B U 246 ? -34.164 -1.952 -34.477 1 64.78 ? 243 U 1
 
 _struct.title
-'4X1S: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'4X1S: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

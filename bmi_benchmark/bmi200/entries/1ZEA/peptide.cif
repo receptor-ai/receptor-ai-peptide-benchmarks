@@ -164,7 +164,7 @@ HETATM 68 O OXT . DSN C A 9 ? 50.993 57.242 92.104 1 60.69 ? 9 A 1
 HETATM 69 C CB . DSN C A 9 ? 47.791 58.23 90.669 1 63.04 ? 9 A 1
 HETATM 70 O OG . DSN C A 9 ? 47.955 59.589 91.056 1 66.93 ? 9 A 1
 
-_struct.title '1ZEA: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '1ZEA: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -1115,4 +1115,4 @@ ATOM 994 O O . VAL A A 118 ? -5.655 45.243 117.867 1 91.25 ? 131 A 1
 ATOM 995 C CB . VAL A A 118 ? -4.882 45.323 120.976 1 104.64 ? 131 A 1
 
 _struct.title
-'5VB9: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'5VB9: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

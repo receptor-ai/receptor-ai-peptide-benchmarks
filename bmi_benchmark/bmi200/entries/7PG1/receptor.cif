@@ -1507,4 +1507,4 @@ ATOM 1415 C CZ . ARG B B 171 ? 10.44655 29.5472 -10.37164 1 104.769 ? 170 B 1
 ATOM 1416 N NH1 . ARG B B 171 ? 11.74299 29.35888 -10.15865 1 123.642 ? 170 B 1
 ATOM 1417 N NH2 . ARG B B 171 ? 9.80353 28.76471 -11.22928 1 125.035 ? 170 B 1
 
-_struct.title '7PG1: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '7PG1: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

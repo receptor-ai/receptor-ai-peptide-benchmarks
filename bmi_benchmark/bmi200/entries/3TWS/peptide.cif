@@ -212,7 +212,7 @@ HETATM 107 N NT . SET E E 16 ? -30.256 -31.472 13.376 1 29.31 ? 16 E 1
 HETATM 108 C C . SET E E 16 ? -30.743 -32.094 12.306 1 32.17 ? 16 E 1
 HETATM 109 O O . SET E E 16 ? -31.926 -32.421 12.187 1 38.28 ? 16 E 1
 
-_struct.title '3TWS: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3TWS: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

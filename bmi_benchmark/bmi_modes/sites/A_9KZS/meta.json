@@ -3,8 +3,6 @@
  "core_separation_widest_pair_A": "3.58",
  "difference_type": "clear",
  "frame_pdb": "9KZS",
- "gate": "pass",
- "gate_reason": "pass",
  "max_separation_A": "3.56",
  "max_token_diff": "0",
  "min_inter_mode_core_sep_A": "3.58",
@@ -80,6 +78,5 @@
  "seq": "DRSIMQ",
  "site_id": "A_9KZS",
  "site_type": "one_deposition",
- "tier": "1_same_molecule",
  "uniprot": "A0A023J7B5"
 }

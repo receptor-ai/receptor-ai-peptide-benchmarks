@@ -182,7 +182,7 @@ ATOM 85 C C . ALA E E 12 ? 21.49743 -41.8192 -4.15155 1 55.9591 ? 12 E 1
 ATOM 86 O O . ALA E E 12 ? 21.74698 -42.67787 -4.99594 1 59.8038 ? 12 E 1
 ATOM 87 C CB . ALA E E 12 ? 20.19309 -40.29111 -5.64839 1 49.861 ? 12 E 1
 
-_struct.title '9KEM: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '9KEM: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

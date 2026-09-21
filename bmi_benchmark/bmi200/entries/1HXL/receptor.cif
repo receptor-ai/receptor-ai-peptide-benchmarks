@@ -975,4 +975,4 @@ ATOM 889 C CD . LYS B B 124 ? 26.462 49.079 14.546 1 38.01 ? 134 B 1
 ATOM 890 C CE . LYS B B 124 ? 25.066 48.565 14.222 1 39.63 ? 134 B 1
 ATOM 891 N NZ . LYS B B 124 ? 24.568 49.072 12.912 1 40.08 ? 134 B 1
 
-_struct.title '1HXL: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '1HXL: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

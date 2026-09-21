@@ -1333,4 +1333,4 @@ ATOM 1212 O OD1 . ASP D D 145 ? 2.339 -51.887 -19.095 1 83.32 ? 145 D 1
 ATOM 1213 O OD2 . ASP D D 145 ? 4.541 -51.919 -19.114 1 76.46 ? 145 D 1
 
 _struct.title
-'6MPZ: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'6MPZ: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

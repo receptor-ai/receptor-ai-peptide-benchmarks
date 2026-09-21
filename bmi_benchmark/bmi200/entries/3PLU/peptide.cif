@@ -211,7 +211,7 @@ ATOM 136 C CG2 . ILE D D 19 ? -21.662 20.255 4.081 1 18.41 ? 24 D 1
 ATOM 137 C CD1 . ILE D D 19 ? -20.526 20.495 7.089 1 16.16 ? 24 D 1
 ATOM 138 O OXT . ILE D D 19 ? -20.42 20.802 1.267 1 19.98 ? 24 D 1
 
-_struct.title '3PLU: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3PLU: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

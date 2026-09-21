@@ -1331,4 +1331,4 @@ ATOM 1242 C CG . LEU A A 163 ? 8.774 66.495 9.973 1 35.72 ? 164 A 1
 ATOM 1243 C CD1 . LEU A A 163 ? 8.042 67.504 9.058 1 44.95 ? 164 A 1
 ATOM 1244 C CD2 . LEU A A 163 ? 8.052 65.115 10.033 1 40.11 ? 164 A 1
 
-_struct.title '7ABT: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '7ABT: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

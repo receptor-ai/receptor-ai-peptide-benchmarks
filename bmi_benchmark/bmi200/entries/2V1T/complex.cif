@@ -778,4 +778,4 @@ ATOM 653 C CD2 . LEU A A 73 ? -4.709 10.18 31.776 1 16.75 ? 126 A 1
 ATOM 654 O OXT . LEU A A 73 ? -1.664 12.078 28.213 1 17.62 ? 126 A 1
 
 _struct.title
-'2V1T: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'2V1T: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

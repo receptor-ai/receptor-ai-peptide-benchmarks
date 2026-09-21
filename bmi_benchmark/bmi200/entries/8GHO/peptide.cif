@@ -233,7 +233,7 @@ ATOM 125 C CG1 . ILE C C 17 ? -49.334 55.481 29.23 1 92.95 ? 86 C 1
 ATOM 126 C CG2 . ILE C C 17 ? -49.918 53.78 27.386 1 93.33 ? 86 C 1
 ATOM 127 C CD1 . ILE C C 17 ? -47.88 55.033 29.353 1 99.75 ? 86 C 1
 
-_struct.title '8GHO: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8GHO: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

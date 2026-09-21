@@ -1150,4 +1150,4 @@ ATOM 1022 C CD1 . LEU A A 128 ? -23.591 7.338 -0.687 1 45.91 ? 155 A 1
 ATOM 1023 C CD2 . LEU A A 128 ? -22.769 7.371 1.693 1 38.2 ? 155 A 1
 
 _struct.title
-'8QFZ: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'8QFZ: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

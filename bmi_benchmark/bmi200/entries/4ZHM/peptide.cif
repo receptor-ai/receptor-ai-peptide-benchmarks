@@ -180,7 +180,7 @@ HETATM 78 C C7 . MRZ C MRZ! . ? -0.415 -37.669 -25.602 1 36.08 ? 100 P 1
 HETATM 79 N N8 . MRZ C MRZ! . ? -0.634 -38.547 -24.762 1 35.08 ? 100 P 1
 HETATM 80 N N9 . MRZ C MRZ! . ? -0.678 -38.034 -26.834 1 35.2 ? 100 P 1
 
-_struct.title '4ZHM: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4ZHM: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

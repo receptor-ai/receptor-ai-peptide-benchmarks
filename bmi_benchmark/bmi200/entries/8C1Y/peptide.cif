@@ -241,7 +241,7 @@ ATOM 168 C CZ . TYR B B 18 ? -14.716 0.034 19.964 1 85.68 ? 134 B 1
 ATOM 169 O OH . TYR B B 18 ? -14.067 1.13 19.452 1 77.92 ? 134 B 1
 ATOM 170 O OXT . TYR B B 18 ? -16.416 -5.878 24.219 1 89.88 ? 134 B 1
 
-_struct.title '8C1Y: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8C1Y: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

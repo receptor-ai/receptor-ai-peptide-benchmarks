@@ -204,7 +204,7 @@ HETATM 102 C C08 . 6E4 B B 12 ? -16.154 -18.659 16.288 1 14.46 ? 12 B 1
 HETATM 103 N N09 . 6E4 B B 12 ? -16.739 -19.037 17.428 1 15 ? 12 B 1
 HETATM 104 O O10 . 6E4 B B 12 ? -16.501 -19.219 15.202 1 17.92 ? 12 B 1
 
-_struct.title '5IVN: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5IVN: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

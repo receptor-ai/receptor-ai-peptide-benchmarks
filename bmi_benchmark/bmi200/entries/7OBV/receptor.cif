@@ -1511,4 +1511,4 @@ ATOM 1419 C CZ . ARG B B 171 ? -21.67544 -19.70072 20.58635 1 31.778 ? 170 B 1
 ATOM 1420 N NH1 . ARG B B 171 ? -20.35859 -19.8005 20.50755 1 29.9209 ? 170 B 1
 ATOM 1421 N NH2 . ARG B B 171 ? -22.3757 -20.71853 21.07374 1 32.4887 ? 170 B 1
 
-_struct.title '7OBV: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '7OBV: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

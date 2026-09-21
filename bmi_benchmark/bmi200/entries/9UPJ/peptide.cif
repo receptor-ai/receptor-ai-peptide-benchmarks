@@ -183,7 +183,7 @@ ATOM 84 C C . ALA D D 11 ? 23.623 22.731 -14.695 1 8.83 ? 11 D 1
 ATOM 85 O O . ALA D D 11 ? 23.937 21.874 -15.524 1 8.72 ? 11 D 1
 ATOM 86 C CB . ALA D D 11 ? 25.086 24.344 -13.488 1 9.99 ? 11 D 1
 
-_struct.title '9UPJ: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '9UPJ: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

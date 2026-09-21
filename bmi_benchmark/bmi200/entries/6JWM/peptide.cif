@@ -121,7 +121,7 @@ ATOM 53 C CG . ASN B B 7 ? 24.758 -11.327 -2.872 1 6.78 ? 7 B 1
 ATOM 54 O OD1 . ASN B B 7 ? 23.885 -11.922 -3.497 1 6.47 ? 7 B 1
 ATOM 55 N ND2 . ASN B B 7 ? 24.747 -10.02 -2.669 1 6.93 ? 7 B 1
 
-_struct.title '6JWM: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '6JWM: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

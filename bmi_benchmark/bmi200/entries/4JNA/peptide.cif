@@ -127,7 +127,7 @@ ATOM 36 C CB . VAL C H 5 ? 74.207 26.221 34.037 1 29.71 ? 5 H 1
 ATOM 37 C CG1 . VAL C H 5 ? 74.436 25.203 35.103 1 30.86 ? 5 H 1
 ATOM 38 C CG2 . VAL C H 5 ? 75.436 26.705 33.287 1 26.35 ? 5 H 1
 
-_struct.title '4JNA: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4JNA: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

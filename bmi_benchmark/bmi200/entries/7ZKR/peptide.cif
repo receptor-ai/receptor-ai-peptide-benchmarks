@@ -219,7 +219,7 @@ HETATM 110 C C6 . OXE G OXE! . ? -31.247 -21.433 17.577 1 12.1296 ? 102 B 1
 HETATM 111 C "C1'" . OXE G OXE! . ? -28.81 -21.503 18.169 1 11.1888 ? 102 B 1
 HETATM 112 C "C2'" . OXE G OXE! . ? -28.425 -19.312 16.185 1 10.5788 ? 102 B 1
 
-_struct.title '7ZKR: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7ZKR: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

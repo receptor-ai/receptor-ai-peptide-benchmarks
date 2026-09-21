@@ -1047,4 +1047,4 @@ ATOM 958 C C . GLY A A 120 ? 20.421 -7.626 12.227 1 27.95 ? 1603 A 1
 ATOM 959 O O . GLY A A 120 ? 20.223 -8.844 12.22 1 32.38 ? 1603 A 1
 ATOM 960 O OXT . GLY A A 120 ? 19.829 -6.924 11.401 1 30.96 ? 1603 A 1
 
-_struct.title '4X34: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '4X34: receptor chains + retained ions (BMI-MODES benchmark, strict hetero policy bmi-strict-hetero-1.0)'

@@ -124,7 +124,7 @@ HETATM 35 C C10 . MCM B B 6 ? -27.589 38.897 -3.015 1 17.15 ? 6 B 1
 HETATM 36 O O1 . MCM B B 6 ? -26.435 34.932 -2.166 1 14.99 ? 6 B 1
 HETATM 37 O O2 . MCM B B 6 ? -25.064 35.729 -0.367 1 18.35 ? 6 B 1
 
-_struct.title '1VDN: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '1VDN: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

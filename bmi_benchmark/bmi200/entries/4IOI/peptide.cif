@@ -197,7 +197,7 @@ ATOM 95 C CB . CYS E C 12 ? -28.146 -31.649 20.739 1 39.39 ? 12 C 1
 ATOM 96 S SG . CYS E C 12 ? -26.803 -31.383 19.581 1 47.1 ? 12 C 1
 ATOM 97 O OXT . CYS E C 12 ? -31.224 -31.257 21.369 1 64.73 ? 12 C 1
 
-_struct.title '4IOI: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4IOI: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

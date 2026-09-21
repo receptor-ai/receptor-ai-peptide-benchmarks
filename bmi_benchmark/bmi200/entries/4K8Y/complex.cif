@@ -1872,4 +1872,4 @@ ATOM 1745 C CB . ALA A A 223 ? 18.273 -18.593 33.382 1 15.4 ? 244 A 1
 ATOM 1746 O OXT . ALA A A 223 ? 17.97 -15.387 32.564 1 25.13 ? 244 A 1
 
 _struct.title
-'4K8Y: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'4K8Y: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

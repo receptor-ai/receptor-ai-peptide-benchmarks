@@ -183,7 +183,7 @@ ATOM 81 C CB . CYS H H 12 ? 38.584 9.63 33.479 1 38.41 ? 13 H 1
 ATOM 82 S SG . CYS H H 12 ? 37.08 9.048 34.315 1 37.47 ? 13 H 1
 ATOM 83 O OXT . CYS H H 12 ? 41.008 12.266 34.152 1 39.65 ? 13 H 1
 
-_struct.title '1HY2: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '1HY2: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -3549,4 +3549,4 @@ ATOM 3424 C C . GLY E D 212 ? 12.409 -2.732 -29.038 1 65.97 ? 212 D 1
 ATOM 3425 O O . GLY E D 212 ? 12.295 -2.048 -28.02 1 63.92 ? 212 D 1
 
 _struct.title
-'6ME1: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'6ME1: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

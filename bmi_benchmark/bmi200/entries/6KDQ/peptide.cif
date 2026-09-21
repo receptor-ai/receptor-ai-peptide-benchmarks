@@ -150,7 +150,7 @@ ATOM 60 C CZ . ARG D F 7 ? 19.608 -44.056 30.23 1 26.04 ? 7 F 1
 ATOM 61 N NH1 . ARG D F 7 ? 18.962 -44.714 29.276 1 30.04 ? 7 F 1
 ATOM 62 N NH2 . ARG D F 7 ? 20.748 -43.442 29.949 1 23.89 ? 7 F 1
 
-_struct.title '6KDQ: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '6KDQ: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

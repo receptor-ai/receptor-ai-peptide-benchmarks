@@ -167,7 +167,7 @@ HETATM 73 C CE1 . WVL C C 7 ? -30.493 19.215 11.672 1 25.16 ? 7 C 1
 HETATM 74 C CE2 . WVL C C 7 ? -28.139 18.209 11.904 1 28.08 ? 7 C 1
 HETATM 75 N N . WVL C C 7 ? -28.794 13.756 14.18 1 16.52 ? 7 C 1
 
-_struct.title '8AD9: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8AD9: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -995,4 +995,4 @@ ATOM 871 O OE1 . GLN A A 101 ? -9.481 12.216 17.812 1 49.38 ? 153 A 1
 ATOM 872 N NE2 . GLN A A 101 ? -8.147 14.043 17.958 1 45.88 ? 153 A 1
 
 _struct.title
-'3N8M: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'3N8M: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

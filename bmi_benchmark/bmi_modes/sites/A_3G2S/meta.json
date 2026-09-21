@@ -3,8 +3,6 @@
  "core_separation_widest_pair_A": "3.7",
  "difference_type": "substantial",
  "frame_pdb": "3G2S",
- "gate": "pass",
- "gate_reason": "pass",
  "max_separation_A": "5.3",
  "max_token_diff": "0",
  "min_inter_mode_core_sep_A": "3.7",
@@ -90,6 +88,5 @@
  "seq": "ITGFSDDVPMVIA",
  "site_id": "A_3G2S",
  "site_type": "one_deposition",
- "tier": "1_same_molecule",
  "uniprot": "Q9UJY5"
 }

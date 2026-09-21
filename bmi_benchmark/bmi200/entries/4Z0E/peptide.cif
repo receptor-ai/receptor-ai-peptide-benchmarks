@@ -202,7 +202,7 @@ ATOM 98 O O . CYS B C 13 ? -6.472 23.515 -25.71 1 38.98 ? 13 C 1
 ATOM 99 C CB . CYS B C 13 ? -8.581 23.794 -28.049 1 41.15 ? 13 C 1
 ATOM 100 S SG . CYS B C 13 ? -10.243 24.204 -28.634 1 58.12 ? 13 C 1
 
-_struct.title '4Z0E: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4Z0E: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

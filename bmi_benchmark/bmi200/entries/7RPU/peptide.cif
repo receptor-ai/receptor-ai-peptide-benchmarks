@@ -173,7 +173,7 @@ ATOM 99 C CA . GLY C P 14 ? 25.432 16.19 56.147 1 25.6241 ? 639 P 1
 ATOM 100 C C . GLY C P 14 ? 25.029 17.026 54.944 1 27.8218 ? 639 P 1
 ATOM 101 O O . GLY C P 14 ? 24.846 16.513 53.841 1 30.1431 ? 639 P 1
 
-_struct.title '7RPU: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7RPU: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

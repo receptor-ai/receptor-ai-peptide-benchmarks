@@ -1259,4 +1259,4 @@ ATOM 1167 N NH1 . ARG A A 137 ? 22.776 35.224 21.873 1 47.41 ? 178 A 1
 ATOM 1168 N NH2 . ARG A A 137 ? 24.742 35.827 20.803 1 38.72 ? 178 A 1
 
 _struct.title
-'3SO6: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'3SO6: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

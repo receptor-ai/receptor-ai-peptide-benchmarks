@@ -248,7 +248,7 @@ ATOM 135 C CG . PRO C C 19 ? -6.466 -2.605 3.083 1 24.19 ? 577 C 1
 ATOM 136 C CD . PRO C C 19 ? -7.039 -3.932 2.808 1 21.65 ? 577 C 1
 HETATM 137 N N . NH2 C C 20 ? -7.271 -3.274 7.54 1 23.54 ? 578 C 1
 
-_struct.title '3ZRZ: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3ZRZ: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

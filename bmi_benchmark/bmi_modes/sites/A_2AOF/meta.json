@@ -3,8 +3,6 @@
  "core_separation_widest_pair_A": "15.2",
  "difference_type": "large",
  "frame_pdb": "2AOF",
- "gate": "pass",
- "gate_reason": "pass",
  "max_separation_A": "16.35",
  "max_token_diff": "0",
  "min_inter_mode_core_sep_A": "15.2",
@@ -80,7 +78,6 @@
  "seq": "RPGN(FRD)LQSRP(NH2)",
  "site_id": "A_2AOF",
  "site_type": "one_deposition",
- "tier": "1_same_molecule",
  "uniprot": "P04587",
  "incomplete_residues__pose_02": [
   {

@@ -154,7 +154,7 @@ ATOM 60 C CB . VAL B B 8 ? 4.571 -15.691 32.884 1 22.34 ? 8 B 1
 ATOM 61 C CG1 . VAL B B 8 ? 4.603 -14.487 33.802 1 20.86 ? 8 B 1
 ATOM 62 C CG2 . VAL B B 8 ? 5.014 -17.034 33.558 1 21.66 ? 8 B 1
 
-_struct.title '5XN3: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5XN3: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

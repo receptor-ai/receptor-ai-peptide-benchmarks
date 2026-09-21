@@ -334,22 +334,6 @@
   "peptide_copies_do_NOT_collapse_max_backbone_rmsd_1.44A",
   "strict_clean_removed_additive_PO4_at_2.279_A"
  ],
- "frozen_row": {
-  "cell": "linear_modified",
-  "is_cyclic": "0",
-  "n_models": "1",
-  "peptide_caps": "NH2",
-  "peptide_entity": "3AX2_2",
-  "peptide_len_seqres": "16",
-  "peptide_n_chains": "4",
-  "peptide_ncaa": "-",
-  "peptide_seq_raw": "GPRLSRLLSYAGSGC(NH2)",
-  "receptor_desc": "Mitochondrial import receptor subunit TOM20 homolog",
-  "receptor_uniprot": "Q62760",
-  "resolution_A": "1.9",
-  "space_group": "P 31",
-  "topology_labels": "adjacent_residue_nonstandard_link;disulfide_interchain"
- },
  "not_computed": {},
  "pdb_id": "3AX2",
  "provenance": {
@@ -382,7 +366,7 @@
   },
   "outputs": {
    "complex.cif": {
-    "bytes": 116560,
+    "bytes": 116206,
     "file": "complex.cif",
     "n_chains": 4,
     "n_struct_conn": 2,
@@ -394,7 +378,7 @@
     ]
    },
    "peptide.cif": {
-    "bytes": 8857,
+    "bytes": 12052,
     "file": "peptide.cif",
     "n_chains": 1,
     "n_struct_conn": 1,
@@ -403,7 +387,7 @@
     ]
    },
    "receptor.cif": {
-    "bytes": 108510,
+    "bytes": 108138,
     "file": "receptor.cif",
     "n_chains": 4,
     "n_struct_conn": 0,
@@ -1051,7 +1035,7 @@
   },
   "geometry": {
    "bond_length_outliers": [],
-   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this corpus there is no other source",
+   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this dataset there is no other source",
    "ccd_chirality_disagreements": [],
    "chirality_counts": {
     "L": 12,
@@ -1433,7 +1417,7 @@
    "peptide_n_atoms_below_1.0": 0
   }
  },
- "spec_version": "corpus-spec-1.0",
+ "spec_version": "bmi-spec-1.0",
  "status": {
   "reason": null,
   "stage": "ok"
@@ -1474,8 +1458,8 @@
   },
   "policy": {
    "ambiguous_set_ruling": "CL/NA/K are monatomic ions and stay. SO4/PO4 are polyatomic additives and go. NH4 goes: only one heavy atom is modelled but the CCD lists 5 atoms, so the species is polyatomic, and the test is on the species not on what happens to be modelled. UNX goes: one atom, but element X is neither metal nor halide.",
-   "keep_K1_peptide_integral": "any component sharing a label_asym_id with a residue of decisions.hetero.peptide_covalent_moieties (whole branched entity), EXCEPT a corpus_chem.CRYO_BUFFER component whose only link to the peptide is distance-inferred rather than in _struct_conn",
-   "keep_K2_monatomic_ion": "the CCD lists exactly one atom and its element is a metal (corpus_chem.METALS) or a halide F/CL/BR/I",
+   "keep_K1_peptide_integral": "any component sharing a label_asym_id with a residue of decisions.hetero.peptide_covalent_moieties (whole branched entity), EXCEPT a cryoprotectant or buffer additive whose only link to the peptide is distance-inferred rather than in _struct_conn",
+   "keep_K2_monatomic_ion": "the CCD lists exactly one atom and its element is a metal or a halide (F, Cl, Br, I)",
    "keep_K3_polymer_cap": "ACE/NH2/FOR/NME/ACY/NHE within 1.25 x sum-of-covalent-radii of a retained peptide or receptor polymer atom",
    "remove": "every other non-polymer: additives, buffers, glycans, lipids, receptor covalent adducts, curated cofactors, UNX/UNL"
   },

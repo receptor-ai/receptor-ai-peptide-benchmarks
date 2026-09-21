@@ -3,8 +3,6 @@
  "core_separation_widest_pair_A": "4.08",
  "difference_type": "clear",
  "frame_pdb": "5N8E",
- "gate": "pass",
- "gate_reason": "pass",
  "max_separation_A": "3.89",
  "max_token_diff": "0",
  "min_inter_mode_core_sep_A": "4.0",
@@ -100,6 +98,5 @@
  "seq": "RDPAPAWAHGGG(NH2)",
  "site_id": "A_5N8E",
  "site_type": "one_deposition",
- "tier": "1_same_molecule",
  "uniprot": "P22629"
 }

@@ -1629,4 +1629,4 @@ ATOM 1507 C CE2 . PHE B B 99 ? 4.491 38.968 14.839 1 25.2 ? 199 B 1
 ATOM 1508 C CZ . PHE B B 99 ? 4.409 37.62 15.126 1 32.35 ? 199 B 1
 ATOM 1509 O OXT . PHE B B 99 ? 2.772 41.438 18.689 1 24.34 ? 199 B 1
 
-_struct.title '2AOF: retained receptor chains only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+_struct.title '2AOF: retained receptor chains only (BMI-MODES benchmark, strict hetero re-clean 2026-08-03)'

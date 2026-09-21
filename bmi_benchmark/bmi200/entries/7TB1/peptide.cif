@@ -175,7 +175,7 @@ HETATM 72 O O4 . I1J F I1J! . ? -4.741 6.09 -9.627 1 26.91 ? 101 D 1
 HETATM 73 S S5 . I1J F I1J! . ? -2.068 6.98 -8.81 1 29.03 ? 101 D 1
 HETATM 74 S S6 . I1J F I1J! . ? -5.826 7.773 -6.879 1 23.93 ? 101 D 1
 
-_struct.title '7TB1: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7TB1: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

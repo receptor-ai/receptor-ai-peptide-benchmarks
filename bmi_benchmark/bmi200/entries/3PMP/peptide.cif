@@ -182,7 +182,7 @@ ATOM 83 C C . ALA D D 11 ? 30.617 -10.37 -18.797 1 15.68 ? 11 D 1
 ATOM 84 O O . ALA D D 11 ? 31.723 -9.773 -18.818 1 12.83 ? 11 D 1
 ATOM 85 C CB . ALA D D 11 ? 30.261 -12.096 -20.54 1 15.02 ? 11 D 1
 
-_struct.title '3PMP: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3PMP: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

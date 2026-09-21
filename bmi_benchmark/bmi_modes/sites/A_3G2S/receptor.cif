@@ -1285,4 +1285,4 @@ ATOM 1169 C CB . SER A A 149 ? 31.502 -10.766 -16.025 1 101.39 ? 147 A 1
 ATOM 1170 O OG . SER A A 149 ? 30.833 -11.75 -15.255 1 101.7 ? 147 A 1
 ATOM 1171 O OXT . SER A A 149 ? 32.298 -8.162 -17.137 1 82.16 ? 147 A 1
 
-_struct.title '3G2S: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '3G2S: receptor chains + retained ions (BMI-MODES benchmark, strict hetero policy bmi-strict-hetero-1.0)'

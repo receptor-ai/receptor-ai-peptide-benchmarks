@@ -3,8 +3,6 @@
  "core_separation_widest_pair_A": "5.37",
  "difference_type": "substantial",
  "frame_pdb": "5MTW",
- "gate": "pass",
- "gate_reason": "pass",
  "max_separation_A": "5.91",
  "max_token_diff": "0",
  "min_inter_mode_core_sep_A": "5.25",
@@ -90,7 +88,6 @@
  "seq": "EVPTWHRLSSYRG",
  "site_id": "A_5MTW",
  "site_type": "one_deposition",
- "tier": "1_same_molecule",
  "uniprot": "P95257",
  "incomplete_residues__pose_03": [
   {

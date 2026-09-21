@@ -3013,4 +3013,4 @@ ATOM 2922 C CB . THR E O 204 ? -10.583 0.526 58.845 1 47.31 ? 190 O 1
 ATOM 2923 O OG1 . THR E O 204 ? -10.768 0.576 60.265 1 49.37 ? 190 O 1
 ATOM 2924 C CG2 . THR E O 204 ? -11.52 -0.522 58.257 1 47.01 ? 190 O 1
 
-_struct.title '3MT6: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '3MT6: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

@@ -184,7 +184,7 @@ ATOM 88 O OD1 . ASP B B 10 ? -21.87559 6.50646 -9.40369 1 64.558 ? 11 B 1
 ATOM 89 O OD2 . ASP B B 10 ? -20.88978 6.07021 -7.50497 1 72.0683 ? 11 B 1
 ATOM 90 O OXT . ASP B B 10 ? -25.84244 4.95487 -6.8842 1 82.8935 ? 11 B 1
 
-_struct.title '9EIK: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '9EIK: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

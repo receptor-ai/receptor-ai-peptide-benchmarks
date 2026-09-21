@@ -21,8 +21,6 @@
  "core_separation_widest_pair_A": "3.66",
  "difference_type": "clear",
  "frame_pdb": "7MX1",
- "gate": "pass",
- "gate_reason": "pass",
  "max_separation_A": "3.28",
  "max_token_diff": "0",
  "min_inter_mode_core_sep_A": "3.66",
@@ -98,6 +96,5 @@
  "seq": "(ACE)PLAS(TPO)",
  "site_id": "A_7MX1",
  "site_type": "one_deposition",
- "tier": "1_same_molecule",
  "uniprot": "P53350"
 }

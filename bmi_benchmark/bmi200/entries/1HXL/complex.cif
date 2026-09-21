@@ -1106,4 +1106,4 @@ ATOM 986 C CE . LYS B B 124 ? 25.066 48.565 14.222 1 39.63 ? 134 B 1
 ATOM 987 N NZ . LYS B B 124 ? 24.568 49.072 12.912 1 40.08 ? 134 B 1
 
 _struct.title
-'1HXL: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'1HXL: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

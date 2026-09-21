@@ -901,4 +901,4 @@ ATOM 810 C CD2 . LEU A A 113 ? 10.789 27.408 10.31 1 40.43 ? 907 A 1
 ATOM 811 O OXT . LEU A A 113 ? 8.188 24.297 8.02 1 30 ? 907 A 1
 
 _struct.title
-'6KZ1: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'6KZ1: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

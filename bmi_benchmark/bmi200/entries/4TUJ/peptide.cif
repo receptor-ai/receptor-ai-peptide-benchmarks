@@ -200,7 +200,7 @@ ATOM 97 C C . ALA C E 14 ? 37.726 -2.844 -40.085 1 62.64 ? 14 E 1
 ATOM 98 O O . ALA C E 14 ? 37.048 -2.541 -39.106 1 68.15 ? 14 E 1
 ATOM 99 C CB . ALA C E 14 ? 36.321 -2.419 -42.096 1 55.41 ? 14 E 1
 
-_struct.title '4TUJ: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4TUJ: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

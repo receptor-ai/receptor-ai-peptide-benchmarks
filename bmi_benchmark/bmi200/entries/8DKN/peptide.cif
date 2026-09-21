@@ -174,7 +174,7 @@ ATOM 100 C CG . MET B C 13 ? 27.142 4.379 -13.366 1 69.1 ? 14 C 1
 ATOM 101 S SD . MET B C 13 ? 26.328 3.462 -14.696 1 76.12 ? 14 C 1
 ATOM 102 C CE . MET B C 13 ? 27.786 3.022 -15.621 1 74.95 ? 14 C 1
 
-_struct.title '8DKN: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8DKN: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

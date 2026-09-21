@@ -1440,4 +1440,4 @@ ATOM 1346 C CG . ASN D D 62 ? 3.734 -25.082 -18.211 1 50.71 ? 120 D 1
 ATOM 1347 O OD1 . ASN D D 62 ? 4.099 -26.124 -18.756 1 64.8 ? 120 D 1
 ATOM 1348 N ND2 . ASN D D 62 ? 4.214 -24.688 -17.034 1 45.05 ? 120 D 1
 
-_struct.title '4J9H: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '4J9H: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

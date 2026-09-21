@@ -2089,4 +2089,4 @@ ATOM 1963 O OD1 . ASP A A 239 ? -16.095 2.609 -5.73 1 30.66 ? 246 A 1
 ATOM 1964 O OD2 . ASP A A 239 ? -17.13 4.178 -4.607 1 30.67 ? 246 A 1
 
 _struct.title
-'5F8X: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'5F8X: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

@@ -242,7 +242,7 @@ ATOM 134 O OD1 . ASP B P 16 ? -3.855 -14.946 27.531 1 46.19 ? 81 P 1
 ATOM 135 O OD2 . ASP B P 16 ? -2.105 -16.267 27.468 1 51.8 ? 81 P 1
 ATOM 136 O OXT . ASP B P 16 ? -4.338 -18.062 30.068 1 46.93 ? 81 P 1
 
-_struct.title '7W28: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7W28: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -197,7 +197,7 @@ ATOM 127 C CB . THR E E 18 ? 8.757 -17.198 5.325 1 19.88 ? 19 E 1
 ATOM 128 O OG1 . THR E E 18 ? 8.328 -17.353 6.682 1 21.19 ? 19 E 1
 ATOM 129 C CG2 . THR E E 18 ? 7.576 -17.686 4.499 1 20.38 ? 19 E 1
 
-_struct.title '2DRM: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '2DRM: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

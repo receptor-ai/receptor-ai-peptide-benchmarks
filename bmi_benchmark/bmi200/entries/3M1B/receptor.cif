@@ -2073,4 +2073,4 @@ ATOM 1956 C C . LEU C C 267 ? -21.14 -43.922 36.411 1 131.64 ? 267 C 1
 ATOM 1957 O O . LEU C C 267 ? -22.298 -43.679 36.042 1 131.77 ? 267 C 1
 ATOM 1958 C CB . LEU C C 267 ? -20.146 -41.846 35.428 1 131.42 ? 267 C 1
 
-_struct.title '3M1B: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '3M1B: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

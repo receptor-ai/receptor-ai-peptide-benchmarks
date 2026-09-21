@@ -149,7 +149,7 @@ ATOM 80 C CD2 . HIS C C 10 ? -25.021 -49.177 -22.399 1 30.43 ? 566 C 1
 ATOM 81 C CE1 . HIS C C 10 ? -25.078 -47.545 -23.863 1 32.73 ? 566 C 1
 ATOM 82 N NE2 . HIS C C 10 ? -24.277 -48.402 -23.255 1 30.03 ? 566 C 1
 
-_struct.title '4CHB: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4CHB: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

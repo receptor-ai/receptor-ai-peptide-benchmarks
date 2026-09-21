@@ -135,7 +135,7 @@ ATOM 70 C CZ . ARG B B 8 ? 4.425 98.867 19.189 1 42.3 ? 8 B 1
 ATOM 71 N NH1 . ARG B B 8 ? 3.653 97.883 19.698 1 45.95 ? 8 B 1
 ATOM 72 N NH2 . ARG B B 8 ? 5.679 98.997 19.6 1 59.38 ? 8 B 1
 
-_struct.title '7ABT: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7ABT: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

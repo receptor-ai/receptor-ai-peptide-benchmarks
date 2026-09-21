@@ -187,7 +187,7 @@ ATOM 85 C C . GLY D D 10 ? 10.27412 24.2389 3.17256 1 37.1266 ? 10 D 1
 ATOM 86 O O . GLY D D 10 ? 9.96222 23.15654 3.66836 1 40.4515 ? 10 D 1
 HETATM 87 N N . NH2 D D 11 ? 10.81 25.24298 3.86601 1 38.4373 ? 11 D 1
 
-_struct.title '9NN3: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '9NN3: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

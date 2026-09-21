@@ -1599,4 +1599,4 @@ ATOM 1470 N NH1 . ARG B B 171 ? -20.35859 -19.8005 20.50755 1 29.9209 ? 170 B 1
 ATOM 1471 N NH2 . ARG B B 171 ? -22.3757 -20.71853 21.07374 1 32.4887 ? 170 B 1
 
 _struct.title
-'7OBV: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'7OBV: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

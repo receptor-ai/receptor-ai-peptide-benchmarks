@@ -204,7 +204,7 @@ ATOM 127 O O . SER C M 17 ? -21.639 18.063 -14.562 1 49.5823 ? 598 M 1
 ATOM 128 C CB . SER C M 17 ? -20.815 17.858 -11.282 1 28.2666 ? 598 M 1
 ATOM 129 O OG . SER C M 17 ? -19.808 18.417 -10.459 1 36.6544 ? 598 M 1
 
-_struct.title '9P4C: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '9P4C: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

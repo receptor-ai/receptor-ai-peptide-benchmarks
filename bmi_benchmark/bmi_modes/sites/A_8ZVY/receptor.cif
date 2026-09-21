@@ -1482,4 +1482,4 @@ ATOM 1395 C CB . THR B B 183 ? -0.86996 -13.70926 -29.38303 1 105.513 ? 1102 B 1
 ATOM 1396 O OG1 . THR B B 183 ? -1.40623 -14.77396 -28.58737 1 104.934 ? 1102 B 1
 ATOM 1397 C CG2 . THR B B 183 ? 0.22102 -14.2692 -30.28939 1 96.2565 ? 1102 B 1
 
-_struct.title '8ZVY: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '8ZVY: receptor chains + retained cofactors (BMI-MODES benchmark, cleaned)'

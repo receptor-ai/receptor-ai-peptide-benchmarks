@@ -3,8 +3,6 @@
  "core_separation_widest_pair_A": "19.67",
  "difference_type": "large",
  "frame_pdb": "8ZVY",
- "gate": "pass",
- "gate_reason": "pass",
  "max_separation_A": "21.05",
  "max_token_diff": "0",
  "min_inter_mode_core_sep_A": "19.67",
@@ -80,6 +78,5 @@
  "seq": "DNEAYEMPSEEGYQDYEPEA",
  "site_id": "A_8ZVY",
  "site_type": "one_deposition",
- "tier": "1_same_molecule",
  "uniprot": "P02281;P06897"
 }

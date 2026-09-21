@@ -1665,4 +1665,4 @@ ATOM 1540 C CE . LYS C W 95 ? 40.08801 34.72222 2.56014 1 58.02 ? 107 W 1
 ATOM 1541 N NZ . LYS C W 95 ? 40.66653 34.22524 1.28265 1 75.24 ? 107 W 1
 ATOM 1542 O OXT . LYS C W 95 ? 42.57022 35.68058 8.79058 1 55.88 ? 107 W 1
 
-_struct.title '6Z13: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '6Z13: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

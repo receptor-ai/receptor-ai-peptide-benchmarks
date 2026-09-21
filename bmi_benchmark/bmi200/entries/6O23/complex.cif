@@ -6826,4 +6826,4 @@ ATOM 6689 O O . GLU D D 212 ? 58.272 -33.687 0.352 1 61.08 ? 213 D 1
 ATOM 6690 C CB . GLU D D 212 ? 56.3 -36.755 0.149 1 60.43 ? 213 D 1
 
 _struct.title
-'6O23: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'6O23: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

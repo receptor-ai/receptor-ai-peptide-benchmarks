@@ -1216,4 +1216,4 @@ ATOM 1125 C C . GLY B B 120 ? 4.286 -15.198 -3.962 1 57.26 ? 120 B 1
 ATOM 1126 O O . GLY B B 120 ? 4.199 -16.547 -4.243 1 39.4 ? 120 B 1
 
 _struct.title
-'5WRD: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'5WRD: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

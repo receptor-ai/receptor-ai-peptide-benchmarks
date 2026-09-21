@@ -1927,4 +1927,4 @@ ATOM 1806 C CB . PRO D D 159 ? 6.93 25.061 35.753 1 20.46 ? 135 D 1
 ATOM 1807 C CG . PRO D D 159 ? 6.267 24.992 37.082 1 20.18 ? 135 D 1
 ATOM 1808 C CD . PRO D D 159 ? 7.187 25.708 38.033 1 19.03 ? 135 D 1
 
-_struct.title '5N8E: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '5N8E: receptor chains + retained ions (BMI-MODES benchmark, strict hetero policy bmi-strict-hetero-1.0)'

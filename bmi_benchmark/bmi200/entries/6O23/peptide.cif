@@ -191,7 +191,7 @@ ATOM 125 C CB . PRO E E 20 ? -5.382 14.049 20.451 1 41.44 ? 20 E 1
 ATOM 126 C CG . PRO E E 20 ? -5.713 15.342 19.784 1 43.07 ? 20 E 1
 ATOM 127 C CD . PRO E E 20 ? -6.864 15.029 18.885 1 41.13 ? 20 E 1
 
-_struct.title '6O23: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '6O23: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

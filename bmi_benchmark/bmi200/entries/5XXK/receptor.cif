@@ -1630,4 +1630,4 @@ ATOM 1539 C CG . ASN B B 108 ? 3.91 156.348 41.709 1 71.19 ? 111 B 1
 ATOM 1540 O OD1 . ASN B B 108 ? 3.004 155.527 41.569 1 71.94 ? 111 B 1
 ATOM 1541 N ND2 . ASN B B 108 ? 4.35 156.732 42.902 1 71.45 ? 111 B 1
 
-_struct.title '5XXK: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '5XXK: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

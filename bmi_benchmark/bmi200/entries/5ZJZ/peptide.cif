@@ -234,7 +234,7 @@ ATOM 128 C CZ3 . TRP B B 14 ? -6.267 -9.773 34.935 1 23.23 ? 14 B 1
 ATOM 129 C CH2 . TRP B B 14 ? -5.061 -9.336 34.343 1 23.55 ? 14 B 1
 HETATM 130 N N . NH2 B B 15 ? -5.107 -14.55 40.6 1 25.36 ? 15 B 1
 
-_struct.title '5ZJZ: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5ZJZ: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

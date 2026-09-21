@@ -1148,4 +1148,4 @@ ATOM 1059 C CZ . ARG A A 137 ? 23.613 36.17 21.463 1 43.48 ? 178 A 1
 ATOM 1060 N NH1 . ARG A A 137 ? 22.776 35.224 21.873 1 47.41 ? 178 A 1
 ATOM 1061 N NH2 . ARG A A 137 ? 24.742 35.827 20.803 1 38.72 ? 178 A 1
 
-_struct.title '3SO6: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '3SO6: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

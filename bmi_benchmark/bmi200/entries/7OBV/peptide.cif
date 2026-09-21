@@ -139,7 +139,7 @@ ATOM 48 C CD . LYS C D 6 ? -5.01735 -13.20635 1.96882 1 15.8318 ? 6 D 1
 ATOM 49 C CE . LYS C D 6 ? -6.13726 -12.78443 1.0419 1 21.0036 ? 6 D 1
 ATOM 50 N NZ . LYS C D 6 ? -7.13226 -11.94515 1.6432 1 21.7555 ? 6 D 1
 
-_struct.title '7OBV: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7OBV: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -4350,4 +4350,4 @@ ATOM 4259 O OE1 . GLN B B 284 ? 20.469 35.11 190.571 1 106.44 ? 291 B 1
 ATOM 4260 N NE2 . GLN B B 284 ? 18.865 36.462 189.789 1 104.1 ? 291 B 1
 
 _struct.title
-'5MFF: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'5MFF: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

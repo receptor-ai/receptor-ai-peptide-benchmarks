@@ -3328,4 +3328,4 @@ ATOM 3195 C CB . SER D B 166 ? 18.129 133.644 212.096 1 44.58 ? 163 B 1
 ATOM 3196 O OG . SER D B 166 ? 18.613 134.153 210.878 1 50.58 ? 163 B 1
 HETATM 3197 CA CA . CA L CA! . ? 23.073 112.879 235.133 1 58.06 ? 202 B 1
 
-_struct.title '5MTW: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '5MTW: receptor chains + retained ions (BMI-MODES benchmark, strict hetero policy bmi-strict-hetero-1.0)'

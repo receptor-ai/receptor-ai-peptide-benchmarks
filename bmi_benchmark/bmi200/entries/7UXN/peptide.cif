@@ -212,7 +212,7 @@ HETATM 105 C CK . WHL C WHL! . ? -3.006 18.13 4.88 1 28.68 ? 101 B 1
 HETATM 106 N NA . WHL C WHL! . ? -6.388 12.657 0.147 1 22.57 ? 101 B 1
 HETATM 107 O OA . WHL C WHL! . ? -3.754 15.902 4.934 1 31.86 ? 101 B 1
 
-_struct.title '7UXN: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7UXN: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

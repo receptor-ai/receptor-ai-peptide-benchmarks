@@ -2052,4 +2052,4 @@ ATOM 1927 O OE2 . GLU A A 221 ? -13.661 -44.63 9.354 1 45.37 ? 427 A 1
 ATOM 1928 O OXT . GLU A A 221 ? -17.489 -40.775 11.195 1 38.86 ? 427 A 1
 
 _struct.title
-'6SBA: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'6SBA: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

@@ -3495,4 +3495,4 @@ ATOM 3366 C CB . CYS B H 215 ? -19.947 -20.069 24.962 1 99.08 ? 215 H 1
 ATOM 3367 S SG . CYS B H 215 ? -20.847 -18.517 24.677 1 107.37 ? 215 H 1
 
 _struct.title
-'7O33: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'7O33: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

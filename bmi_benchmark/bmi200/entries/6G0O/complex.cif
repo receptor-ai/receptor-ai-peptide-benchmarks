@@ -1263,4 +1263,4 @@ ATOM 1140 O OG1 . THR A A 125 ? 90.171 3.888 7.559 1 51.17 ? 166 A 1
 ATOM 1141 C CG2 . THR A A 125 ? 90.023 5.392 9.447 1 41.03 ? 166 A 1
 
 _struct.title
-'6G0O: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'6G0O: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

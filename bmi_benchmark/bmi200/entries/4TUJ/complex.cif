@@ -3313,4 +3313,4 @@ ATOM 3187 N NH1 . ARG B B 217 ? -7.449 -60.067 -30.541 1 56.76 ? 217 B 1
 ATOM 3188 N NH2 . ARG B B 217 ? -9.436 -59.093 -29.925 1 59.44 ? 217 B 1
 
 _struct.title
-'4TUJ: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'4TUJ: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

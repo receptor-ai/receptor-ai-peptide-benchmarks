@@ -2369,4 +2369,4 @@ ATOM 2278 C CB . THR B B 145 ? 1.889 20.121 -30.991 1 46.91 ? 156 B 1
 ATOM 2279 O OG1 . THR B B 145 ? 1.47 21.488 -30.91 1 54.98 ? 156 B 1
 ATOM 2280 C CG2 . THR B B 145 ? 0.919 19.345 -31.867 1 46.81 ? 156 B 1
 
-_struct.title '8IJ0: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '8IJ0: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

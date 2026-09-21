@@ -3,8 +3,6 @@
  "core_separation_widest_pair_A": "10.7",
  "difference_type": "large",
  "frame_pdb": "6BRA",
- "gate": "pass",
- "gate_reason": "pass",
  "max_separation_A": "14.52",
  "max_token_diff": "0",
  "min_inter_mode_core_sep_A": "10.7",
@@ -80,6 +78,5 @@
  "seq": "SGIFLETS",
  "site_id": "A_6BRA",
  "site_type": "one_deposition",
- "tier": "1_same_molecule",
  "uniprot": "Q5RZ08"
 }

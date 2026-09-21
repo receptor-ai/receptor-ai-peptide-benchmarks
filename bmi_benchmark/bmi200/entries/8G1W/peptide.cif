@@ -146,7 +146,7 @@ HETATM 55 N N43 . KCM C L 5 ? 21.588 1.224 6.356 1 20.34 ? 5 L 1
 HETATM 56 O O41 . KCM C L 5 ? 22.435 3.067 9.002 1 19.17 ? 5 L 1
 HETATM 57 S S50 . KCM C L 5 ? 24.028 1.736 6.75 1 22.29 ? 5 L 1
 
-_struct.title '8G1W: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8G1W: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

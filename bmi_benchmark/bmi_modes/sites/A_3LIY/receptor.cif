@@ -1856,4 +1856,4 @@ ATOM 1764 C CG . PRO B B 116 ? 94.317 58.992 76.236 1 47.8 ? 116 B 1
 ATOM 1765 C CD . PRO B B 116 ? 93.805 59.453 74.89 1 37.96 ? 116 B 1
 ATOM 1766 O OXT . PRO B B 116 ? 94.681 63.577 77.008 1 55.56 ? 116 B 1
 
-_struct.title '3LIY: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '3LIY: receptor chains + retained ions (BMI-MODES benchmark, strict hetero policy bmi-strict-hetero-1.0)'

@@ -1043,4 +1043,4 @@ ATOM 956 C CB . THR A A 118 ? 29.96056 -1.10963 18.50723 1 80.7511 ? 118 A 1
 ATOM 957 O OG1 . THR A A 118 ? 30.98933 -0.29095 17.91961 1 85.9068 ? 118 A 1
 ATOM 958 C CG2 . THR A A 118 ? 29.27014 -0.31147 19.65104 1 49.8787 ? 118 A 1
 
-_struct.title '8Q7K: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '8Q7K: receptor chains + retained ions (BMI-MODES benchmark, strict hetero policy bmi-strict-hetero-1.0)'

@@ -2236,4 +2236,4 @@ ATOM 2110 C CG2 . ILE B B 137 ? -34.664 5.577 -28.967 1 60.72 ? 150 B 1
 ATOM 2111 C CD1 . ILE B B 137 ? -32.329 7.553 -29.227 1 62.67 ? 150 B 1
 
 _struct.title
-'7TB1: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'7TB1: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

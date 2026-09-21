@@ -1009,4 +1009,4 @@ ATOM 887 O OE2 . GLU A A 114 ? -11.018 -0.25 11.876 0.5 15.02 ? 114 A 1
 ATOM 888 O OXT . GLU A A 114 ? -7.493 4.436 11.192 0.5 29.67 ? 114 A 1
 
 _struct.title
-'4ZHB: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'4ZHB: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

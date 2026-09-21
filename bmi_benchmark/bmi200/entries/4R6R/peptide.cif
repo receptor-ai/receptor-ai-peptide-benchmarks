@@ -195,7 +195,7 @@ ATOM 121 C CD . LYS B B 17 ? -5.573 20.608 29.205 1 57.88 ? 18 B 1
 ATOM 122 C CE . LYS B B 17 ? -5.874 19.132 29.407 1 54.17 ? 18 B 1
 ATOM 123 N NZ . LYS B B 17 ? -5.357 18.669 30.729 1 56.71 ? 18 B 1
 
-_struct.title '4R6R: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4R6R: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

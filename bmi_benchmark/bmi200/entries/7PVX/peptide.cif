@@ -160,7 +160,7 @@ ATOM 91 C CG . PRO B B 12 ? 17.387 14.462 13.388 1 28.37 ? 12 B 1
 ATOM 92 C CD . PRO B B 12 ? 17.529 13.995 14.858 1 27.34 ? 12 B 1
 ATOM 93 O OXT . PRO B B 12 ? 20.572 17.592 14.439 1 36.85 ? 12 B 1
 
-_struct.title '7PVX: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7PVX: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

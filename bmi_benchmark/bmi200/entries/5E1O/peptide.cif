@@ -118,7 +118,7 @@ ATOM 50 O O . ALA C D 6 ? -4.229 29.191 -23.455 1 33.67 ? 6 D 1
 ATOM 51 C CB . ALA C D 6 ? -2.407 31.877 -23.904 1 33.35 ? 6 D 1
 ATOM 52 O OXT . ALA C D 6 ? -5.452 30.855 -23.999 1 36.32 ? 6 D 1
 
-_struct.title '5E1O: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5E1O: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

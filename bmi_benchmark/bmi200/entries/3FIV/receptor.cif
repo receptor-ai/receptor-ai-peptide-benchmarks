@@ -1894,4 +1894,4 @@ ATOM 1772 S SD . MET B B 116 ? 4.099 9.885 21.118 1 58.25 ? 116 B 1
 ATOM 1773 C CE . MET B B 116 ? 5.793 9.416 20.976 1 54.62 ? 116 B 1
 ATOM 1774 O OXT . MET B B 116 ? 0.699 7.321 23.862 1 51.47 ? 116 B 1
 
-_struct.title '3FIV: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '3FIV: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

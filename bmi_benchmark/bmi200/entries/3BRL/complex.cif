@@ -884,4 +884,4 @@ ATOM 792 O O . GLY A A 89 ? 31.194 -19.061 -12.347 1 47.7 ? 89 A 1
 ATOM 793 O OXT . GLY A A 89 ? 33.166 -18.385 -12.764 1 65.28 ? 89 A 1
 
 _struct.title
-'3BRL: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'3BRL: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

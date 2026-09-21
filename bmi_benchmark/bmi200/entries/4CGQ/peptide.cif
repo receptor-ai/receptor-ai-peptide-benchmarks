@@ -127,7 +127,7 @@ ATOM 57 O OD1 . ASP B Q 7 ? 45.837 2.975 13.34 1 15.52 ? 6 Q 1
 ATOM 58 O OD2 . ASP B Q 7 ? 44.614 4.803 13.329 1 16.25 ? 6 Q 1
 ATOM 59 O OXT . ASP B Q 7 ? 40.643 2.681 12.344 1 18.89 ? 6 Q 1
 
-_struct.title '4CGQ: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4CGQ: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

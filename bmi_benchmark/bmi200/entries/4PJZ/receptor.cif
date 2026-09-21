@@ -1430,4 +1430,4 @@ HETATM 1310 C C . DAL B A 174 ? 27.709 19.187 36.581 1 26.18 ? 174 A 1
 HETATM 1311 O O . DAL B A 174 ? 28.94 18.953 36.652 1 25.12 ? 174 A 1
 HETATM 1312 O OXT . DAL B A 174 ? 26.875 18.371 37.01 1 23.44 ? 174 A 1
 
-_struct.title '4PJZ: retained receptor chains only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+_struct.title '4PJZ: retained receptor chains only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

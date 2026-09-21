@@ -1456,4 +1456,4 @@ ATOM 1339 C CE2 . PHE A A 169 ? -15.227 21.974 -2.843 1 20.78 ? 197 A 1
 ATOM 1340 C CZ . PHE A A 169 ? -14.93 21.419 -4.076 1 20.42 ? 197 A 1
 ATOM 1341 O OXT . PHE A A 169 ? -17.318 28.383 -3.985 1 25.13 ? 197 A 1
 
-_struct.title '5H5Q: retained receptor chains only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+_struct.title '5H5Q: retained receptor chains only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

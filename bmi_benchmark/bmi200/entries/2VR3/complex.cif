@@ -2478,4 +2478,4 @@ ATOM 2359 C CD . PRO B B 326 ? 41.808 67.348 46.39 1 28.82 ? 542 B 1
 ATOM 2360 N N . VAL B B 327 ? 41.472 71.339 48.99 1 32.9 ? 543 B 1
 
 _struct.title
-'2VR3: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'2VR3: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

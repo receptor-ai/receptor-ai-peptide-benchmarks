@@ -1787,4 +1787,4 @@ ATOM 1670 O O . SER B B 267 ? -24.611 -5.279 -14.986 1 44.04 ? 419 B 1
 ATOM 1671 C CB . SER B B 267 ? -24.427 -5.301 -11.845 1 42.44 ? 419 B 1
 ATOM 1672 O OG . SER B B 267 ? -24.227 -6.6 -12.38 1 44.36 ? 419 B 1
 
-_struct.title '7S5H: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '7S5H: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

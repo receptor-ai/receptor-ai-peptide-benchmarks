@@ -3628,4 +3628,4 @@ ATOM 3496 O OE1 . GLU B L 217 ? -25.90574 -21.04848 -17.13495 1 70.1893 ? 211 L 
 ATOM 3497 O OE2 . GLU B L 217 ? -25.33147 -19.97065 -18.96492 1 71.9994 ? 211 L 1
 
 _struct.title
-'9C79: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'9C79: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

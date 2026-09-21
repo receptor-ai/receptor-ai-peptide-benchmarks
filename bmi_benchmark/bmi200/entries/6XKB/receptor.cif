@@ -2244,4 +2244,4 @@ ATOM 2152 C C . ALA E E 137 ? -15.086 36.998 100.124 1 59 ? 136 E 1
 ATOM 2153 O O . ALA E E 137 ? -15.041 36.779 98.916 1 60.1 ? 136 E 1
 ATOM 2154 C CB . ALA E E 137 ? -14.105 37.699 102.327 1 57.54 ? 136 E 1
 
-_struct.title '6XKB: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '6XKB: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

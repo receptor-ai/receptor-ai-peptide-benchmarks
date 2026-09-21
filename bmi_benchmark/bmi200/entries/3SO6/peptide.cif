@@ -179,7 +179,7 @@ ATOM 105 C CB . THR B Q 14 ? 21.942 54.324 35.538 0.7 16.72 ? 851 Q 1
 ATOM 106 O OG1 . THR B Q 14 ? 22.414 52.993 35.605 0.7 21.31 ? 851 Q 1
 ATOM 107 C CG2 . THR B Q 14 ? 20.594 54.334 34.982 0.7 17.5 ? 851 Q 1
 
-_struct.title '3SO6: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3SO6: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

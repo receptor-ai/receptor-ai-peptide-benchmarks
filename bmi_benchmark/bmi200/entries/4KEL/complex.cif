@@ -1871,4 +1871,4 @@ ATOM 1744 C CB . ALA A A 223 ? -10.88 -6.207 5.29 1 14.31 ? 244 A 1
 ATOM 1745 O OXT . ALA A A 223 ? -13.261 -6.978 3.255 1 16.86 ? 244 A 1
 
 _struct.title
-'4KEL: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'4KEL: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

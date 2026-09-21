@@ -2419,4 +2419,4 @@ ATOM 2330 C CB . THR A A 346 ? 70.676 -14.567 144.03 1 28.85 ? 476 A 1
 ATOM 2331 O OG1 . THR A A 346 ? 69.937 -13.95 145.118 1 26.18 ? 476 A 1
 ATOM 2332 C CG2 . THR A A 346 ? 71.276 -13.55 143.163 1 30.36 ? 476 A 1
 
-_struct.title '5V2Q: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '5V2Q: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

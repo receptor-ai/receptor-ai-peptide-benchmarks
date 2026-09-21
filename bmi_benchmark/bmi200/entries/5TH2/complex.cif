@@ -3521,4 +3521,4 @@ ATOM 3394 C CE . LYS D D 220 ? -41.202 35.265 -64.145 1 85.63 ? 220 D 1
 ATOM 3395 N NZ . LYS D D 220 ? -40.356 36.177 -64.965 1 88.11 ? 220 D 1
 
 _struct.title
-'5TH2: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'5TH2: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

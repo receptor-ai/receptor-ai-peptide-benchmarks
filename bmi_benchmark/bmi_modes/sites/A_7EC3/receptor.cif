@@ -4254,4 +4254,4 @@ ATOM 4165 C CD2 . HIS A A 500 ? 12.252 -3.997 -42.479 1 70.06 ? 499 A 1
 ATOM 4166 C CE1 . HIS A A 500 ? 11.515 -4.831 -44.329 1 67.06 ? 499 A 1
 ATOM 4167 N NE2 . HIS A A 500 ? 11.322 -3.874 -43.457 1 62.58 ? 499 A 1
 
-_struct.title '7EC3: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '7EC3: receptor chains + retained ions (BMI-MODES benchmark, strict hetero policy bmi-strict-hetero-1.0)'

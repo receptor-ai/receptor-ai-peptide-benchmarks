@@ -2846,4 +2846,4 @@ ATOM 2722 C CE2 . PHE A A 353 ? -19.005 -13.26 26.863 1 14.64 ? 350 A 1
 ATOM 2723 C CZ . PHE A A 353 ? -20.12 -14.055 26.718 1 15.27 ? 350 A 1
 ATOM 2724 O OXT . PHE A A 353 ? -22.734 -9.85 25.862 1 14.59 ? 350 A 1
 
-_struct.title '6EM7: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '6EM7: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

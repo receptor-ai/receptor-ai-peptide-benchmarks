@@ -208,7 +208,7 @@ HETATM 104 C CG . MK8 C C 11 ? 8.87 125 32.736 1 32.61 ? 27 C 1
 HETATM 105 C CB1 . MK8 C C 11 ? 8.775 123.42 30.174 1 28.26 ? 27 C 1
 HETATM 106 N N . NH2 C C 12 ? 6.228 124.21 29.09 1 31.22 ? 28 C 1
 
-_struct.title '5XXK: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5XXK: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

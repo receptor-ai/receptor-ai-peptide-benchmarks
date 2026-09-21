@@ -982,4 +982,4 @@ ATOM 865 C C . VAL A A 118 ? -4.773 45.817 118.499 1 127.2 ? 131 A 1
 ATOM 866 O O . VAL A A 118 ? -5.655 45.243 117.867 1 91.25 ? 131 A 1
 ATOM 867 C CB . VAL A A 118 ? -4.882 45.323 120.976 1 104.64 ? 131 A 1
 
-_struct.title '5VB9: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '5VB9: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

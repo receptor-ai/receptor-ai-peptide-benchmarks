@@ -4254,4 +4254,4 @@ ATOM 4165 C CD2 . HIS A A 500 ? 12.312 -4.09 -42.305 1 63.3 ? 499 A 1
 ATOM 4166 C CE1 . HIS A A 500 ? 11.634 -4.817 -44.256 1 58.56 ? 499 A 1
 ATOM 4167 N NE2 . HIS A A 500 ? 11.356 -3.967 -43.285 1 53.86 ? 499 A 1
 
-_struct.title '7VFL: retained receptor chains only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+_struct.title '7VFL: retained receptor chains only (BMI-MODES benchmark, strict hetero re-clean 2026-08-03)'

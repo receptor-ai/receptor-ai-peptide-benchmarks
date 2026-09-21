@@ -3,8 +3,6 @@
  "core_separation_widest_pair_A": "13.49",
  "difference_type": "large",
  "frame_pdb": "3LIY",
- "gate": "pass",
- "gate_reason": "pass",
  "max_separation_A": "16.65",
  "max_token_diff": "0",
  "min_inter_mode_core_sep_A": "13.19",
@@ -110,6 +108,5 @@
  "seq": "(ACE)APQV(STA)VMHP",
  "site_id": "A_3LIY",
  "site_type": "one_deposition",
- "tier": "1_same_molecule",
  "uniprot": "Q82134"
 }

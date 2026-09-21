@@ -812,4 +812,4 @@ ATOM 723 C C . GLY A A 89 ? 32.016 -18.607 -13.158 1 58.35 ? 89 A 1
 ATOM 724 O O . GLY A A 89 ? 31.194 -19.061 -12.347 1 47.7 ? 89 A 1
 ATOM 725 O OXT . GLY A A 89 ? 33.166 -18.385 -12.764 1 65.28 ? 89 A 1
 
-_struct.title '3BRL: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '3BRL: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

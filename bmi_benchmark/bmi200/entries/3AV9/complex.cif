@@ -2511,4 +2511,4 @@ ATOM 2389 O OE1 . GLN B B 180 ? 2.752 -12.092 -0.997 0.5 50.67 ? 209 B 1
 ATOM 2390 N NE2 . GLN B B 180 ? 4.332 -13.102 -2.277 0.5 51.37 ? 209 B 1
 
 _struct.title
-'3AV9: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'3AV9: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

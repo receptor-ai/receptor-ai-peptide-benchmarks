@@ -1054,4 +1054,4 @@ ATOM 967 C CG . ASP A A 128 ? -32.43695 40.95825 -10.64566 1 90.7751 ? 155 A 1
 ATOM 968 O OD1 . ASP A A 128 ? -31.70605 40.47653 -9.72541 1 77.8947 ? 155 A 1
 ATOM 969 O OD2 . ASP A A 128 ? -32.19714 42.05546 -11.21711 1 84.363 ? 155 A 1
 
-_struct.title '8GAL: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '8GAL: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

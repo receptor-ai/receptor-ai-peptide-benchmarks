@@ -184,7 +184,7 @@ ATOM 87 C CB . SER B B 11 ? 1.455 3.435 43.874 1 27.47 ? 763 B 1
 ATOM 88 O OG . SER B B 11 ? 2.358 2.437 43.421 1 28.51 ? 763 B 1
 ATOM 89 O OXT . SER B B 11 ? -0.971 5.079 43.842 1 29.18 ? 763 B 1
 
-_struct.title '2HMH: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '2HMH: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

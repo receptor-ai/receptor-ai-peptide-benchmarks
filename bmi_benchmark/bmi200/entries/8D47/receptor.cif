@@ -3436,4 +3436,4 @@ ATOM 3313 C CD . LYS C H 231 ? 12.32045 -33.9559 -4.44157 1 81.5742 ? 228 H 1
 ATOM 3314 C CE . LYS C H 231 ? 11.46067 -32.91991 -5.16348 1 72.4398 ? 228 H 1
 ATOM 3315 N NZ . LYS C H 231 ? 10.74418 -33.4951 -6.33774 1 58.6684 ? 228 H 1
 
-_struct.title '8D47: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '8D47: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

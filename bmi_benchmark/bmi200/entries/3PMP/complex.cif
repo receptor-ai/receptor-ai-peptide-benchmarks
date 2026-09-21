@@ -1470,4 +1470,4 @@ ATOM 1336 C CG1 . VAL B B 163 ? 24.214 20.095 -2.726 1 24.69 ? 162 B 1
 ATOM 1337 C CG2 . VAL B B 163 ? 26.084 21.577 -2.035 1 24.68 ? 162 B 1
 
 _struct.title
-'3PMP: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'3PMP: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

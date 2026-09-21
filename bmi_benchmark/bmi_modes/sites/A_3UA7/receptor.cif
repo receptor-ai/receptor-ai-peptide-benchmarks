@@ -614,4 +614,4 @@ ATOM 497 C CB . SER A A 64 ? -19.181 -22.223 -19.253 1 39.62 ? 143 A 1
 ATOM 498 O OG . SER A A 64 ? -18.396 -22.869 -20.24 1 44.34 ? 143 A 1
 HETATM 499 NA NA . NA I NA! . ? -13.657 -12.414 -27.815 1 28.37 ? 145 A 1
 
-_struct.title '3UA7: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '3UA7: receptor chains + retained cofactors (BMI-MODES benchmark, cleaned)'

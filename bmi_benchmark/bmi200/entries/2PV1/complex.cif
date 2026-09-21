@@ -929,4 +929,4 @@ ATOM 838 N NH2 . ARG A A 103 ? 29.627 -16.159 -10.948 1 24.6 ? 274 A 1
 ATOM 839 O OXT . ARG A A 103 ? 30.745 -14.175 -18.661 1 21.02 ? 274 A 1
 
 _struct.title
-'2PV1: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'2PV1: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

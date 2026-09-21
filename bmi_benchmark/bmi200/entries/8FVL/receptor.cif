@@ -4405,4 +4405,4 @@ ATOM 4275 O O . SER B B 529 ? 2.992 -17.66 -8.936 1 39.76 ? 681 B 1
 ATOM 4276 C CB . SER B B 529 ? 4.889 -15.016 -8.937 1 38.01 ? 681 B 1
 ATOM 4277 O OG . SER B B 529 ? 6.176 -14.465 -9.091 1 44.59 ? 681 B 1
 
-_struct.title '8FVL: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '8FVL: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

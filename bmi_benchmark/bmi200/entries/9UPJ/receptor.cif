@@ -1358,4 +1358,4 @@ ATOM 1269 C CG . LEU B B 168 ? 8.86 -13.566 -19.779 1 30 ? 168 B 1
 ATOM 1270 C CD1 . LEU B B 168 ? 9.172 -14.602 -18.726 1 30 ? 168 B 1
 ATOM 1271 C CD2 . LEU B B 168 ? 9.943 -13.505 -20.837 1 30 ? 168 B 1
 
-_struct.title '9UPJ: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '9UPJ: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

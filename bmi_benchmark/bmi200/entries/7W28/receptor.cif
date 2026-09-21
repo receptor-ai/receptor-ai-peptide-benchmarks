@@ -3968,4 +3968,4 @@ ATOM 3879 C CB . PRO A A 499 ? -48.679 -14.122 71.614 1 83.75 ? 497 A 1
 ATOM 3880 C CG . PRO A A 499 ? -49.877 -13.236 71.537 1 81.75 ? 497 A 1
 ATOM 3881 C CD . PRO A A 499 ? -50.348 -13.288 70.103 1 76.35 ? 497 A 1
 
-_struct.title '7W28: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '7W28: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

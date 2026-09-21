@@ -2863,4 +2863,4 @@ ATOM 2743 O O . ASP D D 70 ? 11.289 58.613 7.797 1 45.88 ? 70 D 1
 ATOM 2744 C CB . ASP D D 70 ? 11.015 57.247 11.144 1 39.06 ? 70 D 1
 ATOM 2745 O OXT . ASP D D 70 ? 12.575 58.908 9.472 1 39.9 ? 70 D 1
 
-_struct.title '7VHE: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '7VHE: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

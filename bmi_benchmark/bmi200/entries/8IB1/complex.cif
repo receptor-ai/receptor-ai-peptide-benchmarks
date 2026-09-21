@@ -3497,4 +3497,4 @@ ATOM 3372 C CG . PRO B B 247 ? 42.21476 38.47946 83.43299 1 43.6165 ? 247 B 1
 ATOM 3373 C CD . PRO B B 247 ? 41.12177 37.48172 83.61962 1 39.2091 ? 247 B 1
 
 _struct.title
-'8IB1: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'8IB1: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

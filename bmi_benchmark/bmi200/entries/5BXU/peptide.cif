@@ -178,7 +178,7 @@ HETATM 78 N N11 . 4XQ D 4XQ! . ? 13.626 11.186 -11.931 1 26.36 ? 101 B 1
 HETATM 79 N N12 . 4XQ D 4XQ! . ? 13.677 10.749 -10.709 1 27.74 ? 101 B 1
 HETATM 80 C C31 . 4XQ D 4XQ! . ? 7.756 0.937 -9.531 1 24.9 ? 101 B 1
 
-_struct.title '5BXU: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5BXU: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

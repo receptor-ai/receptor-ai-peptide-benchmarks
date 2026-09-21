@@ -202,7 +202,7 @@ ATOM 126 C CB . CYS B B 16 ? 27.303 8.984 26.556 1 48.5 ? 31 B 1
 ATOM 127 S SG . CYS B B 16 ? 25.759 9.466 27.395 1 45.12 ? 31 B 1
 ATOM 128 O OXT . CYS B B 16 ? 25.81 9.349 24.281 1 54.71 ? 31 B 1
 
-_struct.title '2GPH: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '2GPH: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

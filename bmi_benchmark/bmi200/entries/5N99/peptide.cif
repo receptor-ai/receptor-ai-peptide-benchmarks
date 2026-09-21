@@ -134,7 +134,7 @@ ATOM 45 C CD . GLN C C 5 ? 74.734 45.377 34.51 1 15.75 ? 5 C 1
 ATOM 46 O OE1 . GLN C C 5 ? 75.875 44.92 34.34 1 18.84 ? 5 C 1
 ATOM 47 N NE2 . GLN C C 5 ? 73.654 44.702 34.279 1 15.58 ? 5 C 1
 
-_struct.title '5N99: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5N99: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

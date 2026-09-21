@@ -2809,4 +2809,4 @@ ATOM 2720 C CB . PRO A A 376 ? -14.932 -5.538 -9.418 1 83.89 ? 356 A 1
 ATOM 2721 C CG . PRO A A 376 ? -14.579 -4.392 -8.531 1 83.38 ? 356 A 1
 ATOM 2722 C CD . PRO A A 376 ? -13.663 -4.959 -7.485 1 81.59 ? 356 A 1
 
-_struct.title '7UGB: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '7UGB: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

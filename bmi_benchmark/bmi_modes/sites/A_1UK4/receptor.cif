@@ -2423,4 +2423,4 @@ ATOM 2334 C CA . GLY B B 302 ? 57.212 -3.068 10.923 1 105.36 ? 302 B 1
 ATOM 2335 C C . GLY B B 302 ? 56.094 -2.126 11.318 1 107.72 ? 302 B 1
 ATOM 2336 O O . GLY B B 302 ? 56.255 -0.902 11.131 1 109.48 ? 302 B 1
 
-_struct.title '1UK4: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '1UK4: receptor chains + retained cofactors (BMI-MODES benchmark, cleaned)'

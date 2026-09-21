@@ -989,4 +989,4 @@ ATOM 900 C CG . ASP A A 114 ? -17.51346 -7.34313 -30.70091 1 57.2486 ? 455 A 1
 ATOM 901 O OD1 . ASP A A 114 ? -16.9955 -7.42394 -29.56235 1 56.77 ? 455 A 1
 ATOM 902 O OD2 . ASP A A 114 ? -18.67291 -7.73399 -30.95845 1 56.1359 ? 455 A 1
 
-_struct.title '8CV7: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '8CV7: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

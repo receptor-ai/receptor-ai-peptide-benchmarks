@@ -2098,4 +2098,4 @@ ATOM 1971 N ND2 . ASN A A 248 ? 31.847 8.649 95.28 1 33.22 ? 791 A 1
 ATOM 1972 O OXT . ASN A A 248 ? 30.98 11.661 91.171 1 37.73 ? 791 A 1
 
 _struct.title
-'6D40: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'6D40: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

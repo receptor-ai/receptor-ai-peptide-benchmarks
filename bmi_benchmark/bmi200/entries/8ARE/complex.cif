@@ -4150,4 +4150,4 @@ ATOM 4059 N NZ . LYS A A 525 ? -10.253 13.395 -30.477 1 41.844 ? 525 A 1
 ATOM 4060 O OXT . LYS A A 525 ? -11.073 10.589 -35.851 1 29.66 ? 525 A 1
 
 _struct.title
-'8ARE: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'8ARE: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

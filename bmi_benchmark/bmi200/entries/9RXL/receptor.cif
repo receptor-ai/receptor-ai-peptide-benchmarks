@@ -1912,4 +1912,4 @@ ATOM 1821 C CB . PRO D D 120 ? 16.289 -6.021 27.858 1 53.6 ? 364 D 1
 ATOM 1822 C CG . PRO D D 120 ? 16.509 -5.375 26.488 1 52.82 ? 364 D 1
 ATOM 1823 C CD . PRO D D 120 ? 16.647 -6.555 25.545 1 44.88 ? 364 D 1
 
-_struct.title '9RXL: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '9RXL: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

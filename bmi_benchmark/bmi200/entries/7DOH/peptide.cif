@@ -122,7 +122,7 @@ ATOM 54 O OD1 . ASP A I 9 ? 3.274 -19.77508 -25.30084 1 15.7961 ? 9 I 1
 ATOM 55 O OD2 . ASP A I 9 ? 4.57498 -21.523 -25.04136 1 17.1084 ? 9 I 1
 ATOM 56 O OXT . ASP A I 9 ? 0.74215 -21.81077 -24.64563 1 24.1213 ? 9 I 1
 
-_struct.title '7DOH: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7DOH: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

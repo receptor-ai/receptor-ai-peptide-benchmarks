@@ -212,7 +212,7 @@ ATOM 107 C CE . LYS B B 14 ? 14.99 -9.308 18.329 1 22.21 ? 914 B 1
 ATOM 108 N NZ . LYS B B 14 ? 15.817 -8.743 17.213 1 23.09 ? 914 B 1
 ATOM 109 O OXT . LYS B B 14 ? 10.804 -7.415 21.141 1 17.44 ? 914 B 1
 
-_struct.title '5H5S: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5H5S: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

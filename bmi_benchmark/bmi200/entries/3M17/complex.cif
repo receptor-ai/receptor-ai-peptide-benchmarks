@@ -2176,4 +2176,4 @@ ATOM 2042 C C . LEU C C 267 ? -8.42 25.659 42.752 1 43.39 ? 267 C 1
 ATOM 2043 O O . LEU C C 267 ? -7.533 25.468 41.916 1 43.29 ? 267 C 1
 ATOM 2044 C CB . LEU C C 267 ? -10.205 24.054 43.487 1 43.11 ? 267 C 1
 
-_struct.title '3M17: peptide + contacting receptor chains + retained hetero (BMI peptide corpus, cleaned)'
+_struct.title '3M17: peptide + contacting receptor chains + retained hetero (BMI-200 benchmark, cleaned)'

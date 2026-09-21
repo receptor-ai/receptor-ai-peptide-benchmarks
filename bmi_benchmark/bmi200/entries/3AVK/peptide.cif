@@ -157,7 +157,7 @@ ATOM 62 C CG . ASP D F 8 ? -8.565 54.278 -3.562 1 47.71 ? 8 F 1
 ATOM 63 O OD1 . ASP D F 8 ? -7.339 54.133 -3.804 1 43.91 ? 8 F 1
 ATOM 64 O OD2 . ASP D F 8 ? -9.424 54.448 -4.444 1 44.53 ? 8 F 1
 
-_struct.title '3AVK: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3AVK: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -169,7 +169,7 @@ ATOM 69 O O . CYS C M 10 ? 30.33843 89.7192 132.91617 1 42.6045 ? 10 M 1
 ATOM 70 C CB . CYS C M 10 ? 28.82351 92.12338 135.21752 1 31.5303 ? 10 M 1
 ATOM 71 S SG . CYS C M 10 ? 28.13611 93.79141 135.22356 1 28.8562 ? 10 M 1
 
-_struct.title '8DS7: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8DS7: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

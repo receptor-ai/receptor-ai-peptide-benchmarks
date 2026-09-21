@@ -170,7 +170,7 @@ ATOM 75 C CG . PRO G G 11 ? -9.589 -23.151 -15.976 1 16.99 ? 10 G 1
 ATOM 76 C CD . PRO G G 11 ? -8.568 -23.771 -16.895 1 17.12 ? 10 G 1
 ATOM 77 O OXT . PRO G G 11 ? -8.57 -19.292 -17.414 1 30.16 ? 10 G 1
 
-_struct.title '4J9H: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4J9H: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

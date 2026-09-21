@@ -1509,4 +1509,4 @@ ATOM 1373 C C . GLY A A 155 ? -4.74 -3.812 37.073 1 58.4 ? 206 A 1
 ATOM 1374 O O . GLY A A 155 ? -5.917 -4.166 36.955 1 58.64 ? 206 A 1
 
 _struct.title
-'4A1U: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'4A1U: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

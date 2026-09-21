@@ -1833,4 +1833,4 @@ ATOM 1706 C CD2 . LEU E E 73 ? -7.185 -15.631 29.225 1 45.89 ? 126 E 1
 ATOM 1707 O OXT . LEU E E 73 ? -4.363 -18.196 26.194 1 41.01 ? 126 E 1
 
 _struct.title
-'3AX2: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'3AX2: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

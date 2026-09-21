@@ -267,22 +267,6 @@
   "peptide_integral_nonpolymer_ACE",
   "peptide_integral_nonpolymer_NH2"
  ],
- "frozen_row": {
-  "cell": "linear_modified",
-  "is_cyclic": "0",
-  "n_models": "1",
-  "peptide_caps": "-",
-  "peptide_entity": "8CV7_2",
-  "peptide_len_seqres": "12",
-  "peptide_n_chains": "2",
-  "peptide_ncaa": "ALY",
-  "peptide_seq_raw": "WYGYW(ALY)VP(ALY)RKC",
-  "receptor_desc": "Isoform 3 of Bromodomain-containing protein 2",
-  "receptor_uniprot": "P25440",
-  "resolution_A": "1.6",
-  "space_group": "P 1 21 1",
-  "topology_labels": "adjacent_residue_nonstandard_link;covalent_to_other_chain"
- },
  "not_computed": {},
  "pdb_id": "8CV7",
  "provenance": {
@@ -315,7 +299,7 @@
   },
   "outputs": {
    "complex.cif": {
-    "bytes": 80589,
+    "bytes": 80638,
     "file": "complex.cif",
     "n_chains": 2,
     "n_struct_conn": 7,
@@ -325,7 +309,7 @@
     ]
    },
    "peptide.cif": {
-    "bytes": 11549,
+    "bytes": 15506,
     "file": "peptide.cif",
     "n_chains": 1,
     "n_struct_conn": 7,
@@ -334,7 +318,7 @@
     ]
    },
    "receptor.cif": {
-    "bytes": 70025,
+    "bytes": 70054,
     "file": "receptor.cif",
     "n_chains": 1,
     "n_struct_conn": 0,
@@ -752,7 +736,7 @@
   },
   "geometry": {
    "bond_length_outliers": [],
-   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this corpus there is no other source",
+   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this dataset there is no other source",
    "ccd_chirality_disagreements": [],
    "chirality_counts": {
     "L": 11,
@@ -1038,7 +1022,7 @@
    "peptide_n_atoms_below_1.0": 0
   }
  },
- "spec_version": "corpus-spec-1.0",
+ "spec_version": "bmi-spec-1.0",
  "status": {
   "reason": null,
   "stage": "ok"
@@ -1067,7 +1051,7 @@
   },
   "files": {
    "complex.cif": {
-    "bytes": 80642,
+    "bytes": 80638,
     "n_chains": 2,
     "n_struct_conn": 7,
     "role": "strict primary"
@@ -1076,7 +1060,7 @@
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
    "receptor.cif": {
-    "bytes": 70058,
+    "bytes": 70054,
     "n_chains": 1,
     "n_struct_conn": 0,
     "role": "strict receptor + ions"
@@ -1113,7 +1097,7 @@
     "subchain": "H"
    }
   ],
-  "policy_version": "corpus-strict-hetero-1.0",
+  "policy_version": "bmi-strict-hetero-1.0",
   "polymer_atom_counts_unchanged": true,
   "removed_components": [],
   "retained_components": [

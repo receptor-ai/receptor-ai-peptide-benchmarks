@@ -2489,4 +2489,4 @@ ATOM 2374 C CE . LYS A A 330 ? 8.04728 -5.79808 -6.27096 1 12.2823 ? 330 A 1
 ATOM 2375 N NZ . LYS A A 330 ? 7.87566 -5.76525 -4.79298 1 12.3191 ? 330 A 1
 ATOM 2376 O OXT . LYS A A 330 ? 9.88759 -7.68998 -10.9408 1 17.0974 ? 330 A 1
 
-_struct.title '9GFY: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '9GFY: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

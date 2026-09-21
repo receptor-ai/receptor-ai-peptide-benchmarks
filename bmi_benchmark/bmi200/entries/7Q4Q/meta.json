@@ -241,22 +241,6 @@
   "multi_chain_receptor_2",
   "peptide_residues_below_rscc_0.8_n=3"
  ],
- "frozen_row": {
-  "cell": "linear_standard",
-  "is_cyclic": "0",
-  "n_models": "1",
-  "peptide_caps": "-",
-  "peptide_entity": "7Q4Q_3",
-  "peptide_len_seqres": "15",
-  "peptide_n_chains": "2",
-  "peptide_ncaa": "-",
-  "peptide_seq_raw": "GNKLQVLGKDLLLPQ",
-  "receptor_desc": "Magacizumab heavy chain",
-  "receptor_uniprot": "-",
-  "resolution_A": "1.65",
-  "space_group": "P 21 21 21",
-  "topology_labels": "-"
- },
  "not_computed": {},
  "pdb_id": "7Q4Q",
  "provenance": {
@@ -301,7 +285,7 @@
     ]
    },
    "peptide.cif": {
-    "bytes": 8684,
+    "bytes": 12643,
     "file": "peptide.cif",
     "n_chains": 1,
     "n_struct_conn": 0,
@@ -841,7 +825,7 @@
      "seqid": 15
     }
    ],
-   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this corpus there is no other source",
+   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this dataset there is no other source",
    "ccd_chirality_disagreements": [],
    "chirality_counts": {
     "L": 13,
@@ -1189,7 +1173,7 @@
    "peptide_n_atoms_below_1.0": 0
   }
  },
- "spec_version": "corpus-spec-1.0",
+ "spec_version": "bmi-spec-1.0",
  "status": {
   "reason": null,
   "stage": "ok"
@@ -1214,8 +1198,8 @@
   "n_struct_conn_after": 7,
   "n_struct_conn_before": 7,
   "peptide_integral_components": [],
-  "policy": "corpus-strict-hetero-1.0",
-  "policy_version": "corpus-strict-hetero-1.0",
+  "policy": "bmi-strict-hetero-1.0",
+  "policy_version": "bmi-strict-hetero-1.0",
   "removed_by_class": {},
   "removed_components": [],
   "retained_components": [],

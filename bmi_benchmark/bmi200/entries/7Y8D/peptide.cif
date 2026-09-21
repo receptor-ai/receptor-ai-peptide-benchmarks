@@ -217,7 +217,7 @@ HETATM 109 C C18 . JFF C JFF! . ? 41.777 14.35 -38.919 1 33.48 ? 101 B 1
 HETATM 110 O O6 . JFF C JFF! . ? 42.343 15.292 -38.414 1 29.66 ? 101 B 1
 HETATM 111 C C19 . JFF C JFF! . ? 42.294 12.919 -38.737 1 28.89 ? 101 B 1
 
-_struct.title '7Y8D: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '7Y8D: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

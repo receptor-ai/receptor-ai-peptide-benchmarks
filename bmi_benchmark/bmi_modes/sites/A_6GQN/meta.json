@@ -3,8 +3,6 @@
  "core_separation_widest_pair_A": "5.87",
  "difference_type": "substantial",
  "frame_pdb": "6GQN",
- "gate": "pass",
- "gate_reason": "pass",
  "max_separation_A": "6.89",
  "max_token_diff": "0",
  "min_inter_mode_core_sep_A": "5.87",
@@ -80,7 +78,6 @@
  "seq": "TILRRSRSDRKKLA",
  "site_id": "A_6GQN",
  "site_type": "one_deposition",
- "tier": "1_same_molecule",
  "uniprot": "Q8DR57",
  "incomplete_residues__pose_01": [
   {

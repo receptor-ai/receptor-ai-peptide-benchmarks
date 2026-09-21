@@ -3,8 +3,7 @@
 BMI-MODES holds 30 sites, 71 poses, and 27 receptors. A **site** is one receptor pocket that holds two or
 more experimentally supported poses of one peptide. Each pose is the same molecule, in the same chemical
 environment, placed a different way. This dataset does not test whether a method finds the correct pose.
-This dataset tests whether a method produces **all** the poses, keeps them **apart** as distinct modes,
-and **ranks** them.
+This dataset tests whether a method produces **all** the poses and keeps them **apart** as distinct modes.
 
 BMI-200 cannot support this test, because BMI-200 holds one pose per entry. The two datasets share 3 PDB
 entries (`5OJR`, `7MX1`, `8IJ0`).
@@ -67,12 +66,12 @@ needs two conformations.
 
 | Pose pairs by source | Pairs | One conformation, two places (superposed < 1.0 Å) |
 |---|--:|--:|
-| altloc branches | 32 | 21 |
-| separate copies | 26 | 4 |
+| altloc branches | 12 | 10 |
+| separate copies | 46 | 15 |
 | **all pairs** | **58** | **25** |
 
-Altloc pairs are usually one conformation placed twice (21 of 32). Separate-copy pairs usually differ in
-conformation as well (only 4 of 26 are placement-only). Each pose has its own receptor conformation, so
+Altloc pairs are usually one conformation placed twice (10 of 12). Separate-copy pairs more often differ
+in conformation as well (15 of 46 are placement-only). Each pose has its own receptor conformation, so
 the pocket Cα RMSD between a mode and the reference pose is also available (median 0.40 Å; 4 poses of
 1.0 Å or more are induced-fit).
 
@@ -125,8 +124,8 @@ different secondary structure.
 Per site, `sites/<site_id>/` contains, for each pose _NN_:
 
 - `pose_NN.cif` — the pose (the peptide), in the common reference frame. `pose_01` is the reference.
-- `receptor_NN.cif` — that pose's own receptor: its assembly copy, its conformation, and the metals and
-  cofactors in its pocket, in the same frame.
+- `receptor_NN.cif` — that pose's own receptor: its assembly copy, its conformation, plus any cofactors and
+  adducts in its pocket and any deposited assembly metals elsewhere in the receptor, in the same frame.
 - `receptor.cif` — the cleaned receptor for the frame entry.
 - `meta.json` — the measurements plus the placement of each pose.
 
@@ -172,3 +171,8 @@ big_sep = man[man.difference_type == 'large']   # 12 sites, modes 10 Å apart or
 - **Generalisation to structured peptides.** Half the poses hold no backbone hydrogen bond of their own.
   The dataset over-represents receptor-templated peptides.
 - **Whether the modes found are all the modes.** These are the poses that were modelled.
+- **Whether a pocket is a crystal-lattice contact.** Two sites (`A_4X34`, `A_8ZVY`) carry
+  `possible_lattice_contact = True` in `meta.json`/`MANIFEST.csv`: their pocket may be formed in part by a
+  neighbouring lattice copy rather than by the biological receptor alone. They are kept because they still
+  hold distinct, well-separated modes; read their mode split with that caveat. Every other BMI-MODES site,
+  and all of BMI-200, is `False`.

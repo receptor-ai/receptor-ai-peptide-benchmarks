@@ -2222,4 +2222,4 @@ ATOM 2104 C CZ . ARG A A 269 ? -63.233 54.202 -4.196 1 56.62 ? 269 A 1
 ATOM 2105 N NH1 . ARG A A 269 ? -61.99 54.669 -4.309 1 55.22 ? 269 A 1
 ATOM 2106 N NH2 . ARG A A 269 ? -63.867 54.338 -3.03 1 57.14 ? 269 A 1
 
-_struct.title '3P72: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '3P72: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

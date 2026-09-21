@@ -2668,4 +2668,4 @@ ATOM 2542 C CD1 . LEU A AAA 328 ? 5.428 -40.035 14.824 1 75.745 ? 568 AAA 1
 ATOM 2543 C CD2 . LEU A AAA 328 ? 4.858 -41.421 12.834 1 73.504 ? 568 AAA 1
 
 _struct.title
-'8RTZ: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'8RTZ: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

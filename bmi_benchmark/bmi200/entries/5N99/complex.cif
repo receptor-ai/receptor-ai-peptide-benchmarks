@@ -3799,4 +3799,4 @@ ATOM 3672 C CE . LYS I I 158 ? 70.891 52.439 68.829 1 106.89 ? 134 I 1
 ATOM 3673 N NZ . LYS I I 158 ? 71.33 53.263 69.982 1 118.28 ? 134 I 1
 
 _struct.title
-'5N99: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'5N99: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

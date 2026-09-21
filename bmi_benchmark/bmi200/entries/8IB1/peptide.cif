@@ -173,7 +173,7 @@ ATOM 100 C CG . ASP C C 13 ? -3.06444 7.9707 49.78302 1 74.8622 ? 13 C 1
 ATOM 101 O OD1 . ASP C C 13 ? -2.88021 6.84829 50.30492 1 69.051 ? 13 C 1
 ATOM 102 O OD2 . ASP C C 13 ? -4.12666 8.62554 49.90629 1 64.1844 -1 13 C 1
 
-_struct.title '8IB1: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8IB1: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

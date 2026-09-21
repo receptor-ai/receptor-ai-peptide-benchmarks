@@ -2227,4 +2227,4 @@ ATOM 2138 C C . LYS A A 300 ? 12.13 -32.639 -8.257 1 35.46 ? 591 A 1
 ATOM 2139 O O . LYS A A 300 ? 12.613 -31.525 -8.45 1 38.13 ? 591 A 1
 ATOM 2140 C CB . LYS A A 300 ? 12.114 -34.287 -10.143 1 29.26 ? 591 A 1
 
-_struct.title '4CHB: retained receptor chains only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+_struct.title '4CHB: retained receptor chains only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

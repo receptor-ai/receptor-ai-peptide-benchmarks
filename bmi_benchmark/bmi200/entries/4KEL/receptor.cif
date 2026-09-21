@@ -1755,4 +1755,4 @@ ATOM 1634 O O . ALA A A 223 ? -11.651 -8.358 3.056 1 15.68 ? 244 A 1
 ATOM 1635 C CB . ALA A A 223 ? -10.88 -6.207 5.29 1 14.31 ? 244 A 1
 ATOM 1636 O OXT . ALA A A 223 ? -13.261 -6.978 3.255 1 16.86 ? 244 A 1
 
-_struct.title '4KEL: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '4KEL: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

@@ -3468,4 +3468,4 @@ ATOM 3341 O OE1 . GLU B B 218 ? 62.216 0.3 117.956 1 21.4368 ? 218 B 1
 ATOM 3342 O OE2 . GLU B B 218 ? 60.335 -0.791 118.339 1 30.7774 ? 218 B 1
 
 _struct.title
-'7RPU: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'7RPU: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

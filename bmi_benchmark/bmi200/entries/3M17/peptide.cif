@@ -217,7 +217,7 @@ ATOM 107 C CB . CYS J J 14 ? 21.982 -31.531 55.042 1 30.9 ? 13 J 1
 ATOM 108 S SG . CYS J J 14 ? 20.915 -32.461 53.908 1 31.13 ? 13 J 1
 HETATM 109 N N . NH2 J J 15 ? 25.002 -33.553 55.985 1 31.35 ? 14 J 1
 
-_struct.title '3M17: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3M17: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -1216,4 +1216,4 @@ ATOM 1127 C CA . GLY A A 141 ? -34.533 -6.875 4.58 1 26.53 ? 141 A 1
 ATOM 1128 C C . GLY A A 141 ? -35.154 -5.534 4.954 1 30.25 ? 141 A 1
 ATOM 1129 O O . GLY A A 141 ? -35.374 -5.274 6.156 1 28.73 ? 141 A 1
 
-_struct.title '7YAA: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '7YAA: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

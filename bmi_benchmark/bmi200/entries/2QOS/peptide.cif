@@ -166,7 +166,7 @@ ATOM 95 C CE2 . TYR B A 11 ? 33.363 36.817 52.022 1 36.95 ? 168 A 1
 ATOM 96 C CZ . TYR B A 11 ? 32.175 36.912 52.731 1 38.53 ? 168 A 1
 ATOM 97 O OH . TYR B A 11 ? 31.075 36.19 52.33 1 36.09 ? 168 A 1
 
-_struct.title '2QOS: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '2QOS: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

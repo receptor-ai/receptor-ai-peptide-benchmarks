@@ -111,7 +111,7 @@ ATOM 43 C CB . PRO F F 8 ? 57.994 58.503 54.667 1 37.17 ? 8 F 1
 ATOM 44 C CG . PRO F F 8 ? 57.729 58.445 53.223 1 35.27 ? 8 F 1
 ATOM 45 C CD . PRO F F 8 ? 59.114 58.392 52.627 1 34.62 ? 8 F 1
 
-_struct.title '5T6P: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5T6P: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -180,7 +180,7 @@ HETATM 87 O OBI . K1N R K1N! . ? 31.365 28.925 16.775 1 23.39 ? 101 C 1
 HETATM 88 O OBM . K1N R K1N! . ? 32.472 31.235 14.178 1 23.47 ? 101 C 1
 HETATM 89 CL CL1 . K1N R K1N! . ? 21.27 26.636 20.886 1 20.15 ? 101 C 1
 
-_struct.title '6RD2: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '6RD2: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

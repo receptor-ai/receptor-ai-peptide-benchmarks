@@ -3,8 +3,6 @@
  "core_separation_widest_pair_A": "10.91",
  "difference_type": "large",
  "frame_pdb": "7TO8",
- "gate": "pass",
- "gate_reason": "pass",
  "max_separation_A": "12.57",
  "max_token_diff": "0",
  "min_inter_mode_core_sep_A": "10.91",
@@ -80,6 +78,5 @@
  "seq": "AQRSL(ALY)LL(ALY)HLYHG",
  "site_id": "A_7TO8",
  "site_type": "one_deposition",
- "tier": "1_same_molecule",
  "uniprot": "Q15059"
 }

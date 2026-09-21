@@ -857,4 +857,4 @@ ATOM 771 O OG . SER B B 96 ? 11.718 -31.321 5.323 1 35.22 ? 527 B 1
 ATOM 772 O OXT . SER B B 96 ? 14.714 -29.631 2.443 1 34.99 ? 527 B 1
 
 _struct.title
-'2V3S: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'2V3S: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

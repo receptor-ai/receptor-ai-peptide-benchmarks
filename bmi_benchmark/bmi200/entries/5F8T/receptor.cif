@@ -2008,4 +2008,4 @@ ATOM 1889 C CG . ASP A A 239 ? -4.746 -15.741 5 1 44.47 ? 246 A 1
 ATOM 1890 O OD1 . ASP A A 239 ? -5.69 -15.217 5.63 1 45.3 ? 246 A 1
 ATOM 1891 O OD2 . ASP A A 239 ? -4.786 -16.926 4.607 1 43.86 ? 246 A 1
 
-_struct.title '5F8T: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '5F8T: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

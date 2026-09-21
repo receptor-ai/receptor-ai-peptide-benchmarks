@@ -1523,4 +1523,4 @@ ATOM 1401 C CG2 . THR C C 96 ? -10.802 82.898 9.129 1 82.31 ? 739 C 1
 ATOM 1402 O OXT . THR C C 96 ? -15.009 82.522 8.015 1 81.16 ? 739 C 1
 
 _struct.title
-'6EXJ: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'6EXJ: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

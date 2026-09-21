@@ -3548,4 +3548,4 @@ ATOM 3459 C CE . LYS A A 461 ? 7.035 -21.731 37.5 1 89.56 ? 716 A 1
 ATOM 3460 N NZ . LYS A A 461 ? 5.833 -20.872 37.627 1 88.55 ? 716 A 1
 ATOM 3461 O OXT . LYS A A 461 ? 8.583 -23.847 43.633 1 92.95 ? 716 A 1
 
-_struct.title '7ZPY: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '7ZPY: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

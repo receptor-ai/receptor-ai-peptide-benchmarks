@@ -3836,4 +3836,4 @@ ATOM 3711 N NH1 . ARG D D 160 ? -3.964 -54.457 21.193 1 60.02 ? 644 D 1
 ATOM 3712 N NH2 . ARG D D 160 ? -3.959 -52.824 22.804 1 54.54 ? 644 D 1
 
 _struct.title
-'3TWS: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'3TWS: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

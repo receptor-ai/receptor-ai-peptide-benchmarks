@@ -210,7 +210,7 @@ ATOM 105 C CB . CYS B B 15 ? 2.814 -10.709 -1.021 1 14.26 ? 26 B 1
 ATOM 106 S SG . CYS B B 15 ? 3.089 -8.939 -0.909 1 17.71 ? 26 B 1
 HETATM 107 N N . NH2 B B 16 ? 1.049 -13.398 -1.126 1 20.98 ? 27 B 1
 
-_struct.title '3AX2: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '3AX2: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

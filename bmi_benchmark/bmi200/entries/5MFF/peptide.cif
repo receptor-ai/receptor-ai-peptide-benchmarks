@@ -172,7 +172,7 @@ ATOM 108 C CZ . ARG E E 10 ? 34.596 17.698 186.34 1 96.01 ? 10 E 1
 ATOM 109 N NH1 . ARG E E 10 ? 35.124 17.239 185.216 1 84.86 ? 10 E 1
 ATOM 110 N NH2 . ARG E E 10 ? 35.272 17.574 187.475 1 77.97 ? 10 E 1
 
-_struct.title '5MFF: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '5MFF: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

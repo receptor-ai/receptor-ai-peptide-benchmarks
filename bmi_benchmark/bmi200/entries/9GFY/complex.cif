@@ -2548,4 +2548,4 @@ ATOM 2423 N NZ . LYS A A 330 ? 7.87566 -5.76525 -4.79298 1 12.3191 ? 330 A 1
 ATOM 2424 O OXT . LYS A A 330 ? 9.88759 -7.68998 -10.9408 1 17.0974 ? 330 A 1
 
 _struct.title
-'9GFY: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'9GFY: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

@@ -970,4 +970,4 @@ ATOM 838 O OD1 . ASN A A 108 ? -18.703 -26.935 4.453 1 65.38 ? 111 A 1
 ATOM 839 N ND2 . ASN A A 108 ? -18.147 -26.823 2.282 1 65.12 ? 111 A 1
 
 _struct.title
-'6AAW: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'6AAW: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

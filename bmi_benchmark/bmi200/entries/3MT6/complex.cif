@@ -3103,4 +3103,4 @@ ATOM 2975 O OG1 . THR E O 204 ? -10.768 0.576 60.265 1 49.37 ? 190 O 1
 ATOM 2976 C CG2 . THR E O 204 ? -11.52 -0.522 58.257 1 47.01 ? 190 O 1
 
 _struct.title
-'3MT6: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'3MT6: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

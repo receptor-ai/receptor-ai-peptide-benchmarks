@@ -100,7 +100,7 @@ ATOM 33 C CG . ASN B B 5 ? 13.349 3.838 27.86 1 45.23 ? 5 B 1
 ATOM 34 O OD1 . ASN B B 5 ? 12.345 3.268 27.465 1 53.97 ? 5 B 1
 ATOM 35 N ND2 . ASN B B 5 ? 14.293 4.278 27.034 1 50.63 ? 5 B 1
 
-_struct.title '4ZHB: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '4ZHB: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

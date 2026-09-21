@@ -2007,4 +2007,4 @@ ATOM 1882 O OE2 . GLU B B 220 ? 20.419 67.188 22.453 1 67.47 ? 434 B 1
 ATOM 1883 O OXT . GLU B B 220 ? 19.201 71.377 17.581 1 57.13 ? 434 B 1
 
 _struct.title
-'6SEN: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'6SEN: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

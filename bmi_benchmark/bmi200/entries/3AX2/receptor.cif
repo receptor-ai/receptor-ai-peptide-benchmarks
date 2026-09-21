@@ -1691,4 +1691,4 @@ ATOM 1598 C CD1 . LEU E E 73 ? -5.434 -14.837 30.924 1 47 ? 126 E 1
 ATOM 1599 C CD2 . LEU E E 73 ? -7.185 -15.631 29.225 1 45.89 ? 126 E 1
 ATOM 1600 O OXT . LEU E E 73 ? -4.363 -18.196 26.194 1 41.01 ? 126 E 1
 
-_struct.title '3AX2: retained receptor chains only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+_struct.title '3AX2: retained receptor chains only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

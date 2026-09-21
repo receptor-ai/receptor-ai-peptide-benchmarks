@@ -188,7 +188,7 @@ HETATM 88 C CB . CY3 C C 13 ? -13.84 2.202 24.113 1 28.96 ? 24 C 1
 HETATM 89 S SG . CY3 C C 13 ? -12.064 1.842 24.076 1 31.05 ? 24 C 1
 HETATM 90 N N1 . CY3 C C 13 ? -16.657 1.601 24.363 1 29.81 ? 24 C 1
 
-_struct.title '2V1T: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '2V1T: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

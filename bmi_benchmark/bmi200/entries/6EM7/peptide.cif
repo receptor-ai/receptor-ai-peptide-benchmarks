@@ -253,7 +253,7 @@ HETATM 143 O O2 . RIP F RIP! . ? -6.794 -29.206 28.294 1 32.57 ? 101 D 1
 HETATM 144 O O4 . RIP F RIP! . ? -7.595 -28.653 30.697 1 33.49 ? 101 D 1
 HETATM 145 O O5 . RIP F RIP! . ? -6.09 -26.589 29.282 1 29.02 ? 101 D 1
 
-_struct.title '6EM7: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '6EM7: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

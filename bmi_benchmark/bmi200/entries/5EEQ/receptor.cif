@@ -908,4 +908,4 @@ ATOM 820 C CB . THR A A 116 ? 19.342 -7.283 15.958 1 69.62 ? 528 A 1
 ATOM 821 O OG1 . THR A A 116 ? 19.077 -8.623 16.389 1 72.2 ? 528 A 1
 ATOM 822 C CG2 . THR A A 116 ? 19.117 -6.329 17.121 1 70.38 ? 528 A 1
 
-_struct.title '5EEQ: retained receptor chains only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+_struct.title '5EEQ: retained receptor chains only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

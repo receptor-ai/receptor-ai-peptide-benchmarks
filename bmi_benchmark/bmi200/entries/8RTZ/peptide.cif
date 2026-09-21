@@ -231,7 +231,7 @@ HETATM 119 C C16 . 29N C 29N! . ? 33.044 -13.5 17.926 1 23.123 ? 101 A 1
 HETATM 120 C C19 . 29N C 29N! . ? 38.251 -7.07 14.048 1 33.714 ? 101 A 1
 HETATM 121 C C25 . 29N C 29N! . ? 32.949 -5.933 15.245 1 33.73 ? 101 A 1
 
-_struct.title '8RTZ: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8RTZ: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

@@ -4823,4 +4823,4 @@ ATOM 4700 C CA . GLY B B 302 ? 1.454 -18.322 4.119 1 65.08 ? 302 B 1
 ATOM 4701 C C . GLY B B 302 ? 2.942 -18.371 3.81 1 65.2 ? 302 B 1
 ATOM 4702 O O . GLY B B 302 ? 3.344 -18.373 2.643 1 71.52 ? 302 B 1
 
-_struct.title '7Z4S: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '7Z4S: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

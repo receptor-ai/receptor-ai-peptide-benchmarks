@@ -5394,4 +5394,4 @@ ATOM 5302 C C . GLY D D 352 ? 1.319 -112.281 21.639 1 49.85 ? 352 D 1
 ATOM 5303 O O . GLY D D 352 ? 2.088 -112.539 20.707 1 49.73 ? 352 D 1
 ATOM 5304 O OXT . GLY D D 352 ? 0.119 -112.562 21.493 1 51.94 ? 352 D 1
 
-_struct.title '3ITB: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '3ITB: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

@@ -1210,4 +1210,4 @@ ATOM 1077 C CZ . TYR A A 117 ? -27.51 -44.601 3.467 0.542 24.8836 ? 115 A 1
 ATOM 1078 O OH . TYR A A 117 ? -27.964 -45.154 4.643 0.542 26.4324 ? 115 A 1
 
 _struct.title
-'7ZKR: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'7ZKR: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

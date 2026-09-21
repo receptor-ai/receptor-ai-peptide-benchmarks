@@ -813,4 +813,4 @@ ATOM 723 C CD2 . LEU B B 93 ? -6.799 11.418 27.626 1 20.34 ? 73 B 1
 ATOM 724 O OXT . LEU B B 93 ? -8.361 12.839 31.905 1 17.02 ? 73 B 1
 
 _struct.title
-'3PLU: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'3PLU: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

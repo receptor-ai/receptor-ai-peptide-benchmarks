@@ -2331,4 +2331,4 @@ ATOM 2204 O OE2 . GLU A A 335 ? -8.138 3.863 10.214 1 32.45 ? 438 A 1
 ATOM 2205 O OXT . GLU A A 335 ? -5.338 0.942 13.342 1 21.65 ? 438 A 1
 
 _struct.title
-'4Z0E: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'4Z0E: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

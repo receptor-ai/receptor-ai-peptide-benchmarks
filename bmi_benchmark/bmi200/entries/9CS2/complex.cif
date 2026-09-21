@@ -3346,4 +3346,4 @@ ATOM 3215 C CH2 . TRP A A 390 ? 2.472 -7.219 -11.047 1 34.08 ? 810 A 1
 ATOM 3216 O OXT . TRP A A 390 ? -0.648 -13.227 -5.963 1 35.25 ? 810 A 1
 
 _struct.title
-'9CS2: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'9CS2: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

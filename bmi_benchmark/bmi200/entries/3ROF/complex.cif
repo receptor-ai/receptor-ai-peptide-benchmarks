@@ -1403,4 +1403,4 @@ ATOM 1311 C C . GLY A A 158 ? 23.036 7.432 6.089 1 21.13 ? 153 A 1
 ATOM 1312 O O . GLY A A 158 ? 24.107 7.478 5.463 1 28.07 ? 153 A 1
 
 _struct.title
-'3ROF: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'3ROF: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

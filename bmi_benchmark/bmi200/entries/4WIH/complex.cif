@@ -3139,4 +3139,4 @@ ATOM 3012 C CE2 . PHE A A 353 ? 20.62 12.357 32.13 1 33.57 ? 351 A 1
 ATOM 3013 C CZ . PHE A A 353 ? 19.403 12.68 31.562 1 37.67 ? 351 A 1
 
 _struct.title
-'4WIH: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'4WIH: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

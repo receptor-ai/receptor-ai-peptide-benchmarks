@@ -901,4 +901,4 @@ ATOM 780 C CG2 . VAL A A 101 ? 2.159 3.885 0.66 1 14.69 ? 133 A 1
 ATOM 781 O OXT . VAL A A 101 ? 0.61 4.953 3.658 1 19.16 ? 133 A 1
 
 _struct.title
-'5EMB: peptide + contacting receptor chains + metals/monatomic ions only (BMI peptide corpus, strict hetero re-clean 2026-08-03)'
+'5EMB: peptide + contacting receptor chains + metals/monatomic ions only (BMI-200 benchmark, strict hetero re-clean 2026-08-03)'

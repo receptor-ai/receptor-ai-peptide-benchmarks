@@ -2127,4 +2127,4 @@ ATOM 2035 C CG1 . ILE B B 137 ? -33.119 7.319 -27.928 1 61.38 ? 150 B 1
 ATOM 2036 C CG2 . ILE B B 137 ? -34.664 5.577 -28.967 1 60.72 ? 150 B 1
 ATOM 2037 C CD1 . ILE B B 137 ? -32.329 7.553 -29.227 1 62.67 ? 150 B 1
 
-_struct.title '7TB1: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '7TB1: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

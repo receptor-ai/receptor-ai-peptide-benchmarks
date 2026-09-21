@@ -213,7 +213,7 @@ ATOM 105 C C . GLY H 2 13 ? 11.488 -14.874 46.019 1 19.37 ? 12 2 1
 ATOM 106 O O . GLY H 2 13 ? 11.381 -15.041 47.219 1 20.29 ? 12 2 1
 HETATM 107 N N . NH2 H 2 14 ? 12.071 -15.739 45.243 1 20.18 ? 13 2 1
 
-_struct.title '8F1F: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8F1F: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

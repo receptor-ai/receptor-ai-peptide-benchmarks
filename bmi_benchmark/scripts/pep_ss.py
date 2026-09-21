@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""pep_ss.py -- coordinate-only secondary-structure assignment for corpus peptides.
+"""pep_ss.py -- coordinate-only secondary-structure assignment for peptides.
 
 PER-RESIDUE ALPHABET (one character per residue of the peptide, in backbone order)
 ---------------------------------------------------------------------------------
@@ -31,7 +31,7 @@ X and ? residues are excluded from every fraction denominator; the denominator i
 THRESHOLDS.  Every number this module decides on is a module constant in the THRESH dict
 below, each with the measurement or the citation that fixes it.  Nothing is hardcoded inline.
 
-WHAT THIS TOOL DOES NOT DO.  See SS_METHOD.md section "Limits".  Short version: it does not
+WHAT THIS TOOL DOES NOT DO.  Short version: it does not
 predict what the free peptide would do, it does not assign anything to a residue whose
 backbone is not an alpha-amino-acid backbone, it does not use side-chain H-bonds for
 secondary structure, it cannot see a symmetry mate, and it cannot recover a residue that was
@@ -39,8 +39,8 @@ never modelled.
 
 USAGE
     pep_ss.py --selftest                     ideal-geometry calibration, exits non-zero on failure
-    pep_ss.py --entry 2WFJ [--json out.json] one entry, human-readable report + optional JSON
-    pep_ss.py --entry 2WFJ --brief           one line
+    pep_ss.py --entry 1HC9 [--json out.json] one entry, human-readable report + optional JSON
+    pep_ss.py --entry 1HC9 --brief           one line
     pep_ss.py --refs                         print the derived reference table and exit
 """
 from __future__ import annotations
@@ -59,7 +59,7 @@ except ImportError:  # pragma: no cover
     gemmi = None
 from scipy.spatial import cKDTree
 
-CORPUS = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 VERSION = "pep_ss-1.1"
 # 1.1, 2026-08-03: _bridges' two WIDE bridge clauses were the mirror image of Kabsch
 #   & Sander -- a (donor, acceptor) versus K&S (acceptor, donor) convention inversion,
@@ -70,23 +70,23 @@ VERSION = "pep_ss-1.1"
 
 # --------------------------------------------------------------------------- #
 # THRESHOLDS.  Each entry carries the source that fixes it.  The measurements
-# named "measured here" were made on this corpus by the calibration scripts
-# reproduced in SS_METHOD.md section 2; they are not quoted from anywhere.
+# named "measured here" were made on this reference set by the calibration scripts; they are
+# not quoted from anywhere.
 # --------------------------------------------------------------------------- #
 THRESH = {
     # ---- covalent connectivity -------------------------------------------- #
     # Amide C(i)-N(i+1) link.  Two measurements fix this, and the SECOND one is
     # the binding one because the peptides are the hard case.
-    #   (a) 10158 standard-residue peptide bonds of 40 random corpus receptors:
+    #   (a) standard-residue peptide bonds measured across a reference protein set:
     #       mean 1.332, sd 0.009, max 1.411 A; over the same chains the closest
     #       NON-bonded C...N pair anywhere is >= 2.6 A, zero pairs below 2.6.
-    #   (b) EVERY C...N pair below 2.6 A in all 4361 peptide.cif files, 36634
-    #       pairs: a dense population from 1.15 to 1.75 A (36596 pairs, 99.90 %),
+    #   (b) EVERY C...N pair below 2.6 A across the peptide.cif files: a dense
+    #       population from 1.15 to 1.75 A (99.90 %),
     #       then a sparse tail of 11 pairs spread over 1.75-2.35 A, then the
     #       non-bonded population resuming at 2.35 A and above (19 pairs).
     # 1.75 is the top of the dense population.  It matters: 4B8Y's head-to-tail
     # closure is a genuine amide modelled at 1.534 A and a 1.50 cutoff misses it,
-    # turning a macrocycle into a linear chain.  Peptides in this corpus include
+    # turning a macrocycle into a linear chain.  Peptides in this reference set include
     # low-resolution and heavily modified components, and wwPDB checks no bond
     # geometry at all for non-standard components, so their amides are refined
     # more loosely than a receptor's -- which is exactly why (a) alone would have
@@ -101,19 +101,19 @@ THRESH = {
     # gemmi's element table.  0.35 puts the C-C cutoff at 1.87 and the C-N cutoff
     # at 1.82, above every real bond and below the shortest 1-3 contact (~2.4).
     "bond_slack_A": 0.35,
-    # Bond from a backbone N to any heavy atom.  Measured: over 120 random
-    # *_modified entries, distances from a peptide backbone N to any heavy atom
+    # Bond from a backbone N to any heavy atom.  Measured over a set of
+    # modified entries: distances from a peptide backbone N to any heavy atom
     # in the complex fall in 1.15-1.75 A (2179 pairs) and then in 2.05-2.8 A
     # (4900 pairs) with an EMPTY interval 1.75-2.05.  1.80 is the middle of that
     # gap.  Neighbours found in 1.70-2.00 are additionally flagged as borderline.
     "n_bond_max_A": 1.80,
     "n_bond_borderline_A": (1.70, 2.00),
     # ---- what counts as an alpha-amino-acid backbone ---------------------- #
-    # Measured over 10230 standard residues: N-CA 1.461 +- 0.013 (range
+    # Measured over a set of standard residues: N-CA 1.461 +- 0.013 (range
     # 1.387-1.540), CA-C 1.524 +- 0.012 (range 1.450-1.649).  The windows below
     # are ~+-10 sd wide, i.e. they will not reject a badly refined but genuine
     # alpha residue, and they still reject every real non-alpha case in the
-    # corpus by a wide margin: 4BPJ/4BPI HR7 has N-CA 2.44 (gamma-amino acid
+    # reference set by a wide margin: 4BPJ/4BPI HR7 has N-CA 2.44 (gamma-amino acid
     # numbering), 4BPJ B3A/B3D/B3Q have CA-C > 1.9 (beta3 backbone), 7Z4S II7
     # has CA-C 4.04.
     "n_ca_range_A": (1.30, 1.65),
@@ -123,8 +123,8 @@ THRESH = {
     # distance windows above are the confirmation.
     "backbone_path_bonds": 2,
     # ---- hydrogen bonds --------------------------------------------------- #
-    # Calibrated on 3004 i->i-4 backbone H-bonds inside phi/psi-defined helices
-    # of >= 7 residues in 60 random corpus receptors:
+    # Calibrated on i->i-4 backbone H-bonds inside phi/psi-defined helices
+    # of >= 7 residues in a reference protein set:
     #     N...O  mean 3.017, sd 0.251, p95 3.386;  96.3 % <= 3.5 A
     #     N-H...O angle  mean 157.2, sd 10.0, p1 125.6;  99.5 % >= 120 deg
     # 3.5 A / 120 deg therefore retains ~96 % of genuine helical H-bonds.  The
@@ -136,7 +136,7 @@ THRESH = {
     # N-H bond length used to place the inferred hydrogen.  Neutron/X-ray amide
     # N-H is 1.01 A; the value only affects the angle, and the angle criterion is
     # insensitive to it (changing 1.01 -> 0.90 moves the mean N-H...O angle by
-    # < 1 deg over the 3004-bond calibration set).
+    # < 1 deg over the calibration set).
     "nh_length_A": 1.01,
     # DSSP's own Kabsch-Sander cutoff, reported for comparison, never decisive.
     "ks_energy_max_kcal": -0.50,
@@ -171,8 +171,8 @@ THRESH = {
     "gamma_tol_deg": 40.0,
     # ---- chirality -------------------------------------------------------- #
     # improper = dihedral(N, C, CB, CA).  Sign convention calibrated against real
-    # coordinates, not asserted: over 12141 standard L-residues of 40 random
-    # corpus receptors the improper is -33.6 +- 2.0 deg with zero positive
+    # coordinates, not asserted: over a set of standard L-residues the
+    # improper is -33.6 +- 2.0 deg with zero positive
     # values, and 2WFJ DAL 1 (D-alanine of cyclosporin A, the only D residue in
     # that peptide) gives +33.3.  |improper| below the cutoff is a planar or
     # badly modelled centre and is refused.
@@ -194,8 +194,8 @@ THRESH = {
     # H-bond detection.  The H-bond criterion itself is 3.5 A; 8.0 leaves room
     # for the i-1/i+1 partners a bridge definition needs.
     "receptor_shell_A": 8.0,
-    # CA-CA pre-filter on candidate bridge partners.  Measured: over 199
-    # H-bonded backbone pairs in 45 random corpus entries the CA-CA distance is
+    # CA-CA pre-filter on candidate bridge partners.  Measured over a set of
+    # H-bonded backbone pairs: the CA-CA distance is
     # 5.65 +- , p99 6.67, max 6.79 A.  8.0 therefore cannot exclude a real
     # bridge; it only keeps the pair enumeration small.  The two-H-bond bridge
     # clause, not this number, decides whether a pair is a bridge.
@@ -205,8 +205,8 @@ THRESH = {
 BB = ("N", "CA", "C", "O")
 
 # --------------------------------------------------------------------------- #
-# Ideal geometry.  Bond lengths and angles MEASURED on this corpus (see
-# SS_METHOD.md section 2.1), not quoted:
+# Ideal geometry.  Bond lengths and angles MEASURED on this reference set,
+# not quoted:
 #   N-CA  1.461 +- 0.013     N-CA-C   111.06 +- 2.28
 #   CA-C  1.524 +- 0.012     CA-C-N   116.80 +- 1.17
 #   C-N   1.332 +- 0.009     C-N-CA   121.39 +- 1.47
@@ -215,8 +215,8 @@ BB = ("N", "CA", "C", "O")
 IDEAL = {
     "N_CA": 1.461, "CA_C": 1.524, "C_N": 1.332, "C_O": 1.233,
     "N_CA_C": 111.06, "CA_C_N": 116.80, "C_N_CA": 121.39, "CA_C_O": 120.46,
-    # side-chain attachment at CA, also measured here, on 3649 standard non-Gly
-    # non-Pro residues of 15 random corpus receptors:
+    # side-chain attachment at CA, also measured here, on a set of standard
+    # non-Gly non-Pro residues:
     #   CA-CB 1.532 +- 0.012,  N-CA-CB 110.69 +- 1.25,
     #   dihedral(C, N, CA, CB) = -122.59 +- 2.24 for an L residue.
     # The last number is what makes the chirality selftest a real test: the ideal
@@ -326,7 +326,7 @@ def build_ideal(n_res, phi, psi, omega=180.0):
     """Build an ideal poly-peptide backbone.  Returns a list of dicts N/CA/C/O.
 
     phi/psi/omega may be scalars or per-residue sequences.  Ideal bond lengths
-    and angles come from IDEAL, which was measured on this corpus.
+    and angles come from IDEAL, which was measured on this reference set.
     """
     def seq(v):
         return [float(v)] * n_res if np.isscalar(v) else [float(x) for x in v]
@@ -440,9 +440,9 @@ def refs():
     """Derive every geometric reference value from the ideal builds.
 
     Nothing here is a quoted number: each entry is measured on a 12-residue ideal
-    chain built from REF_TORSIONS with the corpus-measured bond geometry.  The
+    chain built from REF_TORSIONS with the reference-measured bond geometry.  The
     only free choices are the acceptance half-widths, which are stated in the
-    'halfwidth' fields and justified in SS_METHOD.md section 3.
+    'halfwidth' fields.
     """
     global _REFS
     if _REFS is not None:
@@ -479,8 +479,8 @@ def refs():
                                "i1": (p1, s1), "i2": (p2, s2)}
     out["_halfwidths"] = {
         # Ramachandran acceptance boxes.  +-40 deg on phi and psi around the ideal
-        # point.  Justification (SS_METHOD 3.2): the observed spread of phi/psi
-        # inside long corpus helices, measured on 3004 residues, is sd 7-10 deg,
+        # point.  Justification: the observed spread of phi/psi inside long
+        # reference-set helices is sd 7-10 deg,
         # so +-40 is ~4 sd and admits distorted but genuine helical residues; it
         # is also narrow enough that the alpha_R box does not touch the beta or
         # PPII boxes.  Overlaps that DO remain are listed in out["_overlaps"].
@@ -575,7 +575,7 @@ class Res:
         for at in res:
             if at.element.is_hydrogen:
                 continue
-            if at.name in self.atoms:      # keep first altloc only; the corpus is
+            if at.name in self.atoms:      # keep first altloc only; the reference set is
                 continue                   # already reduced to one per residue
             self.atoms[at.name] = (np.array([at.pos.x, at.pos.y, at.pos.z]),
                                    at.element.name)
@@ -624,7 +624,7 @@ def load_entry(entry_dir):
     """Return (peptide residues, receptor/other residues, all heavy atoms).
 
     The peptide is taken from peptide.cif and the rest from complex.cif minus the
-    peptide's atoms, so the partition is exactly the corpus partition and no
+    peptide's atoms, so the partition is exactly the reference set partition and no
     heuristic decides what a peptide is.
     """
     ppath = os.path.join(entry_dir, "peptide.cif")
@@ -745,7 +745,7 @@ def order_backbone(pep):
         a, b = pep[allsegs[k][-1]], pep[allsegs[k + 1][0]]
         # A segment whose residues carry no CA at all is not a chain segment: it
         # is a covalent moiety (a farnesyl, a lipid, a non-amino-acid cap) that
-        # the corpus keeps inside peptide.cif because it is bonded to the peptide.
+        # the reference set keeps inside peptide.cif because it is bonded to the peptide.
         # Calling the join to it a "chain break" would invent a gap that does not
         # exist, so it is reported separately.
         if "CA" not in a.bb or "CA" not in b.bb:
@@ -788,7 +788,7 @@ def order_backbone(pep):
         # N two carbons) within bonding distance.  The backbone order is then
         # genuinely ambiguous and the walk below picks the first link found.  The
         # branches are reported so the apply pass can exclude such an entry rather
-        # than trust an arbitrary order.  7TO8 is the corpus example: six branches.
+        # than trust an arbitrary order.  7TO8 is the reference set example: six branches.
         "backbone_order_ambiguous": bool(extra),
         "closure_link": None,
         "note_terminal_truncation": (
@@ -867,7 +867,7 @@ def other_covalent_rings(pep, order, info):
 def donor_state(res, prev_res, env_tree, env_pos, env_key, env_res):
     """Does this residue's backbone N carry a hydrogen?
 
-    Decided from heavy-atom connectivity only, because the corpus has no
+    Decided from heavy-atom connectivity only, because the reference set has no
     hydrogens.  Every heavy atom in the whole complex within the N-bond cutoff is
     counted, so an N-methyl, a proline-type ring closure, an N-terminal cap in a
     different residue and a side-chain-to-backbone-N crosslink are all caught by
@@ -1616,9 +1616,9 @@ class Assignment:
         # pairs finds exactly the narrow pairs and produces the tell-tale
         # alternating E-x-E-x string.  So every peptide position is paired with
         # every residue whose CA is within bridge_ca_max_A, and the two-H-bond
-        # clause then decides.  The distance is a pre-filter for speed only: over
-        # 199 H-bonded backbone pairs in 45 random corpus entries the CA-CA
-        # distance never exceeds 6.79 A, so 8.0 cannot exclude a real bridge.
+        # clause then decides.  The distance is a pre-filter for speed only: a
+        # reference set of H-bonded backbone pairs never exceeds 6.79 A CA-CA, so
+        # 8.0 cannot exclude a real bridge.
         cand = set()
         pep_ca = [(k, r.bb["CA"]) for k, r in enumerate(self.chain) if "CA" in r.bb]
         all_ca = [(("P", k), r.bb["CA"]) for k, r in enumerate(self.chain)
@@ -1658,7 +1658,7 @@ class Assignment:
             # in K&S notation and then declared HB to be (donor, acceptor) in the
             # same sentence, and the code followed the notation instead of the set.
             #
-            # Measured against mkdssp 4.2.2's own declared bridges (199 corpus
+            # Measured against mkdssp 4.2.2's own declared bridges (199 reference set
             # entries, 10428 bridges, partners typed from the ladder-label case, so
             # the type is never inferred from the bonds under test): the old
             # parallel form matched 0 of 946 declared parallel bridges and invented
@@ -1685,7 +1685,7 @@ class Assignment:
             # So: the clause is now exactly right, and the residual beta gap against DSSP
             # is the H-BOND CRITERION, which is a separate and still-open question.  The
             # unqualified original sentence read as a tool-level claim it could not support
-            # -- the HANDOFF.md section 4b failure mode, so it is corrected in place rather
+            # -- a failure mode where a benchmark claim outran its evidence, so corrected in place rather
             # than reworded away.
             #
             # Demonstrations, straight out of the mkdssp output, N-H(donor) -> O=C(acceptor):
@@ -2115,7 +2115,7 @@ def build_ideal_cycle(n=6, phi0=-70.0, psi0=130.0, seed=0):
 
     The torsions are relaxed by least squares until the amide that would be built
     from residue n-1's psi lands on residue 0's N and CA -- i.e. until the ring
-    actually closes with the corpus-measured amide geometry.  Bond lengths and
+    actually closes with the reference-measured amide geometry.  Bond lengths and
     angles are never adjusted; only phi and psi move.  Returns (residues, rms
     closure error in A) or (None, reason).
     """
@@ -2161,7 +2161,7 @@ def _cyclic_selftest():
     `wrap` become True, does _nbr walk across the closure, and do the first
     residue's phi and the last residue's psi stop being null.  An implementation
     that assumes a linear chain fails every one of these, and it would fail them
-    silently on all 476 macrocyclic corpus entries.
+    silently on the macrocyclic entries.
     """
     res, err = build_ideal_cycle(6)
     if res is None:
@@ -2253,7 +2253,7 @@ def _bridge_selftest():
     the same coordinates, the mirror clause loses every bridge of the parallel sheet
     (8 E residues -> 0, since it has no recall at all on parallel bridges) and loses
     the two WIDE bridges at the ends of the antiparallel ladder (5 -> 3), which is
-    exactly the failure mode seen against mkdssp on the corpus.
+    exactly the failure mode seen against mkdssp on the reference set.
 
     Returns a list of (ok, description) pairs.
     """
@@ -2276,7 +2276,7 @@ def selftest(verbose=True):
     """Ideal-geometry calibration.  Returns (n_fail, lines)."""
     L, fails = [], 0
     R = refs()
-    L.append("DERIVED REFERENCE TABLE (from ideal chains built with corpus-measured "
+    L.append("DERIVED REFERENCE TABLE (from ideal chains built with reference-measured "
              "bond geometry)")
     L.append(f"{'conformation':13s} {'phi':>7s} {'psi':>7s} {'i,i+1':>6s} {'i,i+2':>6s} "
              f"{'i,i+3':>6s} {'i,i+4':>6s} {'rise':>6s} {'radius':>7s} "
@@ -2354,7 +2354,7 @@ def selftest(verbose=True):
         fails += 0 if ok else 1
         L.append(f"  {'PASS' if ok else 'FAIL'} chirality round trip: built {want}, "
                  f"read {labs}, improper {min(imp):.2f}..{max(imp):.2f} deg "
-                 f"(corpus L residues measure -32.94 +- 1.59)")
+                 f"(reference set L residues measure -32.94 +- 1.59)")
     # a quaternary CA (Aib-like: a second substituent) must be refused, not guessed
     res = build_ideal(6, *REF_TORSIONS["alpha_R"])
     a = _IdealAssignment(res, "aib")
@@ -2566,7 +2566,7 @@ def main(argv=None):
         return 1 if f else 0
     if not a.entry:
         ap.error("give --entry, --selftest or --refs")
-    d = a.entry if os.path.isdir(a.entry) else os.path.join(CORPUS, "entries", a.entry)
+    d = a.entry if os.path.isdir(a.entry) else os.path.join(REPO_ROOT, "bmi200", "entries", a.entry)
     rep = Assignment(d).report()
     if a.json:
         with open(a.json, "w") as fh:

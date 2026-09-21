@@ -198,7 +198,7 @@ ATOM 94 O O . CYS D D 13 ? 31.331 32.67 -5.336 1 37.18 ? 13 D 1
 ATOM 95 C CB . CYS D D 13 ? 32.491 32.784 -2.133 1 31.96 ? 13 D 1
 ATOM 96 S SG . CYS D D 13 ? 32.805 33.968 -0.785 1 28.8 ? 13 D 1
 
-_struct.title '1HXL: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '1HXL: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

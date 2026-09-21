@@ -33,7 +33,7 @@ Completeness).
 - The dataset holds 102 cyclic and 100 linear peptides. This project split them by the ring topology
   measured from the coordinates.
 - `modified` means the peptide contains 1 or more non-canonical amino acids.
-- The dataset covers 21 receptor functional classes and 7 ring-closure chemistries. The dataset holds 126
+- The dataset covers 21 receptor functional classes and 7 ring-closure chemistries. The dataset holds 131
   distinct receptors (UniProt accessions) across 130 clusters at 30% sequence identity.
 
 ## 2. Selection criteria
@@ -112,11 +112,9 @@ or nascent structure, read the per-residue string `pep_ss_string_bound` rather t
    receptor exists in the PDB (`cross_dockable == 1`), so a cross-docking test is possible. This dataset
    does not ship that unbound receptor; fetch it from the PDB yourself. The remaining 41 entries support
    self-docking only.
-3. **Gap-free-backbone subset (85 of 202).** `scoreable_core == 1` marks entries with a complete,
-   gap-free peptide backbone. This is the subset on which a per-residue metric is meaningful.
-4. **`n_res_observed` counts the modelled residues.** Use `n_res_observed` for any geometric measure.
+3. **`n_res_observed` counts the modelled residues.** Use `n_res_observed` for any geometric measure.
    `peptide_seq_raw` is the designed (SEQRES) sequence and can differ from the observed residues.
-5. **Antibody, designed-binder (24), and MHC (6) complexes** are a different binding-mode problem from a
+4. **Antibody, designed-binder (24), and MHC (6) complexes** are a different binding-mode problem from a
    pocket. Report or exclude them separately when that distinction matters (`receptor_class`).
 
 ## 6. Files and key columns
@@ -138,7 +136,7 @@ from becoming null. Selected columns:
 | `metal_free`, `has_monatomic_halide` | ion content |
 | `ss_category_bound`, `ss_category_intrinsic` | secondary structure (isolated = intrinsic) |
 | `pep_ss_string_bound`, `pep_ss_string_intrinsic` | per-residue SS strings |
-| `cross_dockable`, `scoreable_core`, `cluster_rank` | usable-subset flags |
+| `cross_dockable`, `cluster_rank` | usable-subset flags |
 | `n_d_residues`, `n_cis_amides_corrected`, `helix_handedness` | chemistry and geometry |
 
 ```python

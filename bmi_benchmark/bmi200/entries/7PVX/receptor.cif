@@ -1010,4 +1010,4 @@ ATOM 921 O OD1 . ASP C C 60 ? 19.068 7.91 40.731 1 51.98 ? 141 C 1
 ATOM 922 O OD2 . ASP C C 60 ? 18.136 6.025 40.011 1 50.28 ? 141 C 1
 ATOM 923 O OXT . ASP C C 60 ? 19.38 9.456 36.328 1 46.5 ? 141 C 1
 
-_struct.title '7PVX: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '7PVX: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

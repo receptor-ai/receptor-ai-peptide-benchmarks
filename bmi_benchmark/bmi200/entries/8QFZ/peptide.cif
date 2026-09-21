@@ -230,7 +230,7 @@ HETATM 123 O O1 . LFI C LFI! . ? -15.188 -18.809 -4.391 1 23.64 ? 101 B 1
 HETATM 124 O O2 . LFI C LFI! . ? -13.474 -18.004 0.611 1 19 ? 101 B 1
 HETATM 125 O O3 . LFI C LFI! . ? -17.831 -16.486 -0.993 1 19.89 ? 101 B 1
 
-_struct.title '8QFZ: retained peptide copy + covalent moieties (BMI peptide corpus, cleaned)'
+_struct.title '8QFZ: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id

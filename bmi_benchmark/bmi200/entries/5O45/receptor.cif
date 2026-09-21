@@ -1140,4 +1140,4 @@ ATOM 1024 C CE1 . HIS A A 129 ? -18.68 13.167 15.521 0.32 33.7 ? 145 A 1
 ATOM 1025 N NE2 . HIS A A 129 ? -18.63 13.31 16.836 0.64 33.71 ? 145 A 1
 ATOM 1026 O OXT . HIS A A 129 ? -12.444 15.438 14.659 1 33.79 ? 145 A 1
 
-_struct.title '5O45: receptor chains + retained ions (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+_struct.title '5O45: receptor chains + retained ions (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'

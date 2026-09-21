@@ -1105,4 +1105,4 @@ ATOM 1015 C CG . MET E E 62 ? 103.415 5.458 82.94 1 76.3 ? 1065 E 1
 ATOM 1016 S SD . MET E E 62 ? 101.714 5.586 82.366 1 81.54 ? 1065 E 1
 ATOM 1017 C CE . MET E E 62 ? 101.504 4.025 81.519 1 81.57 ? 1065 E 1
 
-_struct.title '6L0V: receptor chains + retained cofactors (BMI peptide corpus, cleaned)'
+_struct.title '6L0V: receptor chains + retained cofactors (BMI-200 benchmark, cleaned)'

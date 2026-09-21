@@ -2798,4 +2798,4 @@ ATOM 2669 C CD1 . LEU B B 163 ? 34.167 -14.517 4.7 1 58.49 ? 196 B 1
 ATOM 2670 C CD2 . LEU B B 163 ? 33.256 -14.937 2.412 1 44.06 ? 196 B 1
 
 _struct.title
-'9BT7: peptide + contacting receptor chains + metals and monatomic ions only (BMI peptide corpus, strict hetero policy corpus-strict-hetero-1.0)'
+'9BT7: peptide + contacting receptor chains + metals and monatomic ions only (BMI-200 benchmark, strict hetero policy bmi-strict-hetero-1.0)'
