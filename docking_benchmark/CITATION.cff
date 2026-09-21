@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite it as below."
+title: "docking985: a peptide–protein re-docking benchmark"
+abstract: >-
+  A curated dataset of 985 peptide–protein X-ray/NMR complexes, drawn from seven published
+  peptide-docking benchmarks and filtered to a consistent quality bar, with a scoring library for
+  evaluating predicted docking poses against the native structures.
+type: dataset
+authors:
+  - name: "Receptor.AI, Inc."
+    website: "https://receptor.ai"
+repository-code: "https://github.com/receptor-ai/receptor-ai-peptide-benchmarks"
+url: "https://github.com/receptor-ai/receptor-ai-peptide-benchmarks"
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2026-09-04"
+keywords:
+  - peptides
+  - protein-peptide docking
+  - benchmark
+  - drug discovery

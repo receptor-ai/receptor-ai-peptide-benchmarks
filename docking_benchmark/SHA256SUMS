@@ -1,3 +1,4 @@
+664a6684fcc88a9d7c2fc37aeb1ef47d9cc46d737ca4421a945f2d870b690da2  ./CITATION.cff
 819ca2a60510875572a4ac7f559d433d21ff550f28f92b4af271391c52647525  ./docking985/DATA_DICTIONARY.md
 fd23103db389034c04852fc7b999ddbea23c865f0ea653a1b268286aa5ca33ae  ./docking985/entries/1A30_entity2/complex.pdb
 3693e8791f441778a825534f6a8413fb406e41f1dac8f5ded33a9b466af09513  ./docking985/entries/1A30_entity2/meta.json
@@ -4927,7 +4928,7 @@ c93619dfaec623f157a58772d64cfb4b35464b2463f9cdd4063e3115cadb78d6  ./docking985/e
 fb139efe2916e5efdb10a58d7a27e3945ac3bcf92c2189e58ce15a7b29718e0d  ./docking985/MANIFEST.csv
 e49ddacda7fba63a7cd26dec2d8569ee79913587e60c37e89fb767c5daca3161  ./docking985/README.md
 d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744  ./LICENSE
-4ade80e0bc89f0ff00127eeaae8f33f16cab05c146792785cd5320dee5a12ff9  ./README.md
+d098636c324ea7ef88052ec67dc2c89b2dc7355e0054a9aad77083319c12358d  ./README.md
 c22642cc2d8b7bef88d88dc95eecd817493da7dab6ff77249ded4a586c4e414d  ./scripts/LICENSE
 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./scripts/metrics/__init__.py
 2a7d93d0ee94fd7f1b5528b95e50a0a2851d97fd5a990b0e96bc8ad6eb4dd21e  ./scripts/metrics/rmsd_and_capri.py
