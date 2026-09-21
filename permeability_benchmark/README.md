@@ -26,6 +26,16 @@ permeability_benchmark/
 [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md) explains every column of every
 CSV.
 
+## The pipeline
+
+This data measures one workflow:
+
+1. Take the peptide.
+2. Generate a structure ensemble of it.
+3. Score the ensemble with our software.
+4. Compare the score with the measured log P_app of
+   `inputs/experimental.csv`.
+
 ## Provenance and licensing
 
 The experimental values come from CycPeptMPDB (Li et al., *J. Chem. Inf.
