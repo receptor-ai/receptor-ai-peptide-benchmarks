@@ -6,6 +6,15 @@
    "fix": "Moved the peptide-bonded NAG(s) into pose_NN.cif and pose_NN.sdf with the Ser-OG--NAG-C1 glycosidic bond(s); removed them from receptor_NN.cif. Mirrors the 4PJZ/T55 correction (2026-09-15).",
    "note": "pose_env_adducts and the peptide seq/token fields still describe the pre-correction (unglycosylated) peptide and were not recomputed; the pose structure files are authoritative.",
    "derived_fields": "seq/peptide_tokens list the amino-acid sequence only (the covalent NAG/ZOY is a modification, not a residue token) and are unchanged; provenance.poses[].atoms documents the source-subchain atom count and is unchanged; pose_env_adducts still names the moiety by its original role. The shipped pose_NN.cif/sdf now additionally contain the covalent moiety and are authoritative."
+  },
+  {
+   "date": "2026-09-21",
+   "component": "provenance.poses[].atoms / .residues",
+   "issue": "After the peptide-integral moiety (NAG/ZOY) was moved from the receptor into the pose files, the per-pose atom and residue counts in provenance.poses were not updated and still reflected the peptide-only pose (the same counts were also stale in bmi_modes/poses.csv).",
+   "fix": "Updated provenance.poses[].atoms and .residues to the current pose-file contents (pose1: atoms 67->81, residues 9->10; pose2: atoms 56->70, residues 7->8; pose3: atoms 63->77, residues 8->9; pose4: atoms 63->77, residues 8->9). peptide_tokens/seq are peptide-only and unchanged.",
+   "files_changed": [
+    "meta.json"
+   ]
   }
  ],
  "cell": "linear_standard",
@@ -60,43 +69,43 @@
   "per_pose_receptors": "receptor_NN.cif pairs with pose_NN.cif; each is that pose's own assembly copy in the reference frame",
   "poses": [
    {
-    "atoms": 67,
+    "atoms": 81,
     "from": "PDB 5UN8 subchain G",
     "label": "G/-",
     "pose": 1,
     "receptor_chains": "A,C,G",
     "receptor_residues": 854,
-    "residues": 9,
+    "residues": 10,
     "transform": "reference pose, raw deposition frame"
    },
    {
-    "atoms": 56,
+    "atoms": 70,
     "from": "PDB 5UN8 subchain E",
     "label": "E/-",
     "pose": 2,
     "receptor_chains": "A,C,E",
     "receptor_residues": 854,
-    "residues": 7,
+    "residues": 8,
     "transform": "receptor subchain A superposed onto C by residue number, 411 CA, 0.83 A"
    },
    {
-    "atoms": 63,
+    "atoms": 77,
     "from": "PDB 5UN8 subchain F",
     "label": "F/-",
     "pose": 3,
     "receptor_chains": "B,D,F",
     "receptor_residues": 856,
-    "residues": 8,
+    "residues": 9,
     "transform": "receptor subchain B superposed onto C by residue number, 412 CA, 0.8 A"
    },
    {
-    "atoms": 63,
+    "atoms": 77,
     "from": "PDB 5UN8 subchain H",
     "label": "H/-",
     "pose": 4,
     "receptor_chains": "B,D,H",
     "receptor_residues": 856,
-    "residues": 8,
+    "residues": 9,
     "transform": "receptor subchain D superposed onto C by residue number, 429 CA, 0.16 A"
    }
   ]

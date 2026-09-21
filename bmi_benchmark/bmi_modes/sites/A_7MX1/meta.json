@@ -6,6 +6,15 @@
    "fix": "Moved ZOY into pose_NN.cif and pose_NN.sdf with both inter-residue bonds; removed it from receptor_NN.cif. Mirrors the 4PJZ/T55 correction (2026-09-15).",
    "note": "pose_env_adducts and the peptide seq/token fields still describe the pre-correction peptide and were not recomputed; the pose structure files are authoritative.",
    "derived_fields": "seq/peptide_tokens list the amino-acid sequence only (the covalent NAG/ZOY is a modification, not a residue token) and are unchanged; provenance.poses[].atoms documents the source-subchain atom count and is unchanged; pose_env_adducts still names the moiety by its original role. The shipped pose_NN.cif/sdf now additionally contain the covalent moiety and are authoritative."
+  },
+  {
+   "date": "2026-09-21",
+   "component": "provenance.poses[].atoms / .residues",
+   "issue": "After the peptide-integral moiety (NAG/ZOY) was moved from the receptor into the pose files, the per-pose atom and residue counts in provenance.poses were not updated and still reflected the peptide-only pose (the same counts were also stale in bmi_modes/poses.csv).",
+   "fix": "Updated provenance.poses[].atoms and .residues to the current pose-file contents (pose1: atoms 40->66, residues 6->7; pose2: atoms 40->66, residues 6->7). peptide_tokens/seq are peptide-only and unchanged.",
+   "files_changed": [
+    "meta.json"
+   ]
   }
  ],
  "cell": "linear_modified",
@@ -60,23 +69,23 @@
   "per_pose_receptors": "receptor_NN.cif pairs with pose_NN.cif; each is that pose's own assembly copy in the reference frame",
   "poses": [
    {
-    "atoms": 40,
+    "atoms": 66,
     "from": "PDB 7MX1 subchain D",
     "label": "D/-",
     "pose": 1,
     "receptor_chains": "B,E",
     "receptor_residues": 223,
-    "residues": 6,
+    "residues": 7,
     "transform": "reference pose, raw deposition frame"
    },
    {
-    "atoms": 40,
+    "atoms": 66,
     "from": "PDB 7MX1 subchain C",
     "label": "C/-",
     "pose": 2,
     "receptor_chains": "A,C",
     "receptor_residues": 221,
-    "residues": 6,
+    "residues": 7,
     "transform": "receptor subchain A superposed onto B by residue number, 220 CA, 0.55 A"
    }
   ]
