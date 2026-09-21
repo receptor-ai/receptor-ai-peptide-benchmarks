@@ -4,7 +4,7 @@ title: "Cyclic-peptide PAMPA permeability data from CycPeptMPDB"
 abstract: >-
   Curated PAMPA permeability measurements for cyclic peptides, taken from
   CycPeptMPDB. It holds 7027 measured log P_app values over 42 source
-  papers, plus the membrane composition of 36 of those papers.
+  papers, with the DOI of 36 of those papers.
 type: dataset
 authors:
   - name: "Receptor.AI, Inc."
@@ -17,5 +17,5 @@ date-released: "2026-09-07"
 keywords:
   - peptides
   - cyclic peptides
-  - membrane permeability
+  - passive permeability
   - PAMPA

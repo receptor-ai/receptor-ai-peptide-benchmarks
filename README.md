@@ -15,5 +15,5 @@ Public benchmark datasets for Receptor.AI's peptide platform.
   against it. See its [README](docking_benchmark/README.md).
 - [`permeability_benchmark/`](permeability_benchmark/) — curated PAMPA permeability
   measurements for cyclic peptides, taken from CycPeptMPDB. 7027 measured log P_app values
-  over 42 source papers, plus the membrane composition of 36 of those papers. See its
+  over 42 source papers, with the DOI of 36 of those papers. See its
   [README](permeability_benchmark/README.md).

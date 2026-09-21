@@ -11,18 +11,16 @@ This file explains every column of every CSV in this folder.
 | `logp_exp` | The measured log P_app, in log10 cm/s | -9.46 to -3.46 |
 | `source` | The source paper id | e.g. `2006_Rezai_1` |
 
-### `inputs/pampa_source_membrane.csv` — 36 rows, one per annotated source
+### `inputs/pampa_sources.csv` — 36 rows, one per listed source
 
 | Column | Meaning | Values |
 |---|---|---|
 | `source` | The source paper id. It joins to `inputs/experimental.csv` | e.g. `2020_Townsend` |
 | `doi` | The link to the paper | URL |
 | `paper_title` | The title of the paper | free text |
-| `membrane_fine` | The membrane composition, as the paper states it | free text |
-| `membrane_class` | The short membrane class | `lecithin/dodecane`, `Chugai biomimetic`, `DOPC/hexadecane`, `custom PC`, `hexadecane only`, `undocumented` |
 
-`inputs/experimental.csv` holds 42 source papers. The 6 papers that this
-file does not list have no membrane annotation.
+`inputs/experimental.csv` holds 42 source papers. This file lists 36 of
+them.
 
 Load a file with:
 
