@@ -1,0 +1,22 @@
+{
+  "case_id": "1FCH_entity2",
+  "pdb_id": "1FCH",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021;Vina_47",
+  "uniprot_ids": "P50542",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.2,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 5,
+  "peptide_sequence": "YQSKL",
+  "noncanonical_components": "",
+  "n_protein_atoms": 2371,
+  "n_peptide_atoms": 45,
+  "dist_min_pocket": 2.591,
+  "dist_max_pocket": 67.549,
+  "peptide_contact_fraction": 0.99,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

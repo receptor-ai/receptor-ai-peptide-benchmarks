@@ -1,0 +1,22 @@
+{
+  "case_id": "5IAG_entity3",
+  "pdb_id": "5IAG",
+  "peptide_entity_id": "3",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "P42574",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.98,
+  "peptide_chain_id": "D",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 4,
+  "peptide_sequence": "DDDM",
+  "noncanonical_components": "",
+  "n_protein_atoms": 1968,
+  "n_peptide_atoms": 32,
+  "dist_min_pocket": 2.72,
+  "dist_max_pocket": 52.478,
+  "peptide_contact_fraction": 0.944,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

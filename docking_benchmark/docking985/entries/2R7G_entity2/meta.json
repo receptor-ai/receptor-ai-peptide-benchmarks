@@ -1,0 +1,22 @@
+{
+  "case_id": "2R7G_entity2",
+  "pdb_id": "2R7G",
+  "peptide_entity_id": "2",
+  "benchmarks": "PPDbench;PepSet",
+  "uniprot_ids": "P06400",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.671,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 3,
+  "peptide_length": 10,
+  "peptide_sequence": "PPTLHELYDL",
+  "noncanonical_components": "",
+  "n_protein_atoms": 2769,
+  "n_peptide_atoms": 84,
+  "dist_min_pocket": 2.625,
+  "dist_max_pocket": 105.666,
+  "peptide_contact_fraction": 0.819,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

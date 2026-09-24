@@ -1,0 +1,22 @@
+{
+  "case_id": "3SXU_entity3",
+  "pdb_id": "3SXU",
+  "peptide_entity_id": "3",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "P28905",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.85,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 4,
+  "peptide_sequence": "WDIPF",
+  "noncanonical_components": "",
+  "n_protein_atoms": 1949,
+  "n_peptide_atoms": 35,
+  "dist_min_pocket": 2.746,
+  "dist_max_pocket": 77.185,
+  "peptide_contact_fraction": 0.686,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

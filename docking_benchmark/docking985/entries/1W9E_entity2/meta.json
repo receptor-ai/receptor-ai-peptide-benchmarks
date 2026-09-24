@@ -1,0 +1,22 @@
+{
+  "case_id": "1W9E_entity2",
+  "pdb_id": "1W9E",
+  "peptide_entity_id": "2",
+  "benchmarks": "PIPER-FlexPepDock;ProtPep37_2021;Vina_47",
+  "uniprot_ids": "O00560",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.56,
+  "peptide_chain_id": "R",
+  "n_peptide_chain_copies": 3,
+  "peptide_length": 4,
+  "peptide_sequence": "TNEFYF",
+  "noncanonical_components": "",
+  "n_protein_atoms": 1261,
+  "n_peptide_atoms": 44,
+  "dist_min_pocket": 2.653,
+  "dist_max_pocket": 73.52,
+  "peptide_contact_fraction": 0.863,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

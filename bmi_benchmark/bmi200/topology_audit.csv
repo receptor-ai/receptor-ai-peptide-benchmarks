@@ -1,0 +1,201 @@
+pdb_id,cell,label_says_cyclic,measured_cyclic,agrees,cyclomatic_measured,cyclomatic_metadata,ring_closure_class_metadata,topology_metadata,closure_types_measured,closure_detail,n_residues_in_file,n_amino_acid_residues,n_components,n_heavy,n_res_observed_manifest
+1HQQ,cyclic_standard,1,1,1,2,2,disulfide,macrocycle,disulfide,disulfide CYS2.SG-CYS7.SG 2.03A | disulfide CYS3.SG-CYS13.SG 2.03A,13,13,1,95,13.0
+1HXL,cyclic_standard,1,1,1,2,2,disulfide,macrocycle,disulfide,disulfide CYS2.SG-CYS7.SG 2.03A | disulfide CYS3.SG-CYS13.SG 2.03A,13,13,1,96,13.0
+1HY2,cyclic_standard,1,1,1,2,2,disulfide,macrocycle,disulfide,disulfide CYS2.SG-CYS7.SG 2.03A | disulfide CYS3.SG-CYS13.SG 2.03A,12,12,1,83,12.0
+3AV9,cyclic_standard,1,1,1,1,1,head_to_tail_backbone_amide,macrocycle,head_to_tail_backbone_amide,head_to_tail_backbone_amide SER1.N-ASP8.C 1.35A,8,8,1,60,8.0
+3AVA,cyclic_standard,1,1,1,1,1,head_to_tail_backbone_amide,macrocycle,head_to_tail_backbone_amide,head_to_tail_backbone_amide ALA1.N-ASP8.C 1.35A,8,8,1,62,8.0
+3AVB,cyclic_standard,1,1,1,1,1,head_to_tail_backbone_amide,macrocycle,head_to_tail_backbone_amide,head_to_tail_backbone_amide SER1.N-ASP8.C 1.34A,8,8,1,63,8.0
+3AVG,cyclic_standard,1,1,1,1,1,head_to_tail_backbone_amide,macrocycle,head_to_tail_backbone_amide,head_to_tail_backbone_amide ALA1.N-ASP8.C 1.34A,8,8,1,62,8.0
+3AVH,cyclic_standard,1,1,1,1,1,head_to_tail_backbone_amide,macrocycle,head_to_tail_backbone_amide,head_to_tail_backbone_amide ALA1.N-ASP8.C 1.34A,8,8,1,65,8.0
+3AVJ,cyclic_standard,1,1,1,1,1,head_to_tail_backbone_amide,macrocycle,head_to_tail_backbone_amide,head_to_tail_backbone_amide ALA1.N-ASP8.C 1.35A,8,8,1,62,8.0
+3AVK,cyclic_standard,1,1,1,1,1,head_to_tail_backbone_amide,macrocycle,head_to_tail_backbone_amide,head_to_tail_backbone_amide SER1.N-ASP8.C 1.34A,8,8,1,64,8.0
+3AVM,cyclic_standard,1,1,1,1,1,head_to_tail_backbone_amide,macrocycle,head_to_tail_backbone_amide,head_to_tail_backbone_amide SER1.N-ASP8.C 1.33A,8,8,1,66,8.0
+3P72,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS1.SG-CYS11.SG 2.04A,11,11,1,86,11.0
+4IOI,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS1.SG-CYS12.SG 2.02A,12,12,1,97,12.0
+4K8Y,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS3.SG-CYS11.SG 2.04A,13,13,1,95,13.0
+4KEL,cyclic_standard,1,1,1,2,2,head_to_tail_backbone_amide,macrocycle,disulfide;head_to_tail_backbone_amide,disulfide CYS3.SG-CYS11.SG 2.04A | head_to_tail_backbone_amide GLY1.N-ASN14.C 1.43A,14,14,1,109,14.0
+4M1D,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS305.SG-CYS320.SG 2.05A,14,14,1,111,14.0
+4MNV,cyclic_standard,1,1,1,1,1,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge CYS2.SG-ZBR101.C7 1.84A,11,11,1,85,10.0
+4TUJ,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS2.SG-CYS11.SG 2.06A,14,14,1,99,14.0
+4X1N,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS1.SG-CYS10.SG 2.04A,11,11,1,84,10.0
+4X1S,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS1.SG-CYS10.SG 1.98A,11,11,1,81,10.0
+4ZHM,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS1.SG-CYS10.SG 2.04A,11,11,1,80,10.0
+5F8T,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS1.SG-CYS10.SG 2.24A,11,11,1,88,10.0
+5F8X,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS1.SG-CYS10.SG 2.04A,11,11,1,87,10.0
+5F8Z,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS1.SG-CYS10.SG 2.05A,11,11,1,84,10.0
+5H5S,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS903.SG-CYS911.SG 2.08A,14,14,1,109,14.0
+5TH2,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS1.SG-CYS12.SG 2.03A,12,12,1,102,12.0
+5V2Q,cyclic_standard,1,1,1,1,1,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge CYS435.SG-8VY501.C1' 1.97A,20,20,1,156,19.0
+5VB9,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS1.SG-CYS14.SG 2.07A,15,15,1,128,15.0
+5WXQ,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS1.SG-CYS12.SG 2.03A,14,14,1,101,14.0
+5XN3,cyclic_standard,1,1,1,1,1,head_to_tail_backbone_amide,macrocycle,head_to_tail_backbone_amide,head_to_tail_backbone_amide ARG1.N-VAL8.C 1.33A,8,8,1,62,8.0
+6D3X,cyclic_standard,1,1,1,2,2,head_to_tail_backbone_amide,macrocycle,disulfide;head_to_tail_backbone_amide,disulfide CYS3.SG-CYS11.SG 2.06A | head_to_tail_backbone_amide GLY1.N-ASP14.C 1.32A,14,14,1,111,14.0
+6D3Y,cyclic_standard,1,1,1,2,2,head_to_tail_backbone_amide,macrocycle,disulfide;head_to_tail_backbone_amide,disulfide CYS3.SG-CYS11.SG 2.08A | head_to_tail_backbone_amide GLY1.N-ASP14.C 1.34A,14,14,1,108,14.0
+6D3Z,cyclic_standard,1,1,1,2,2,head_to_tail_backbone_amide,macrocycle,disulfide;head_to_tail_backbone_amide,disulfide CYS3.SG-CYS11.SG 2.05A | head_to_tail_backbone_amide GLY1.N-ASN14.C 1.40A,14,14,1,113,14.0
+6D40,cyclic_standard,1,1,1,2,2,head_to_tail_backbone_amide,macrocycle,disulfide;head_to_tail_backbone_amide,disulfide CYS3.SG-CYS11.SG 2.05A | head_to_tail_backbone_amide GLY1.N-ASP14.C 1.33A,14,14,1,110,14.0
+6JWM,cyclic_standard,1,1,1,1,1,head_to_tail_backbone_amide,macrocycle,head_to_tail_backbone_amide,head_to_tail_backbone_amide ARG1.N-ASN7.C 1.34A,7,7,1,55,7.0
+6SBA,cyclic_standard,1,1,1,1,1,amide_or_C_N_bridge,macrocycle,isopeptide_or_lactam_amide,isopeptide_or_lactam_amide GLU10.CD-LYS25.NZ 1.26A,21,20,1,158,20.0
+6T2D,cyclic_standard,1,1,1,1,1,amide_or_C_N_bridge,macrocycle,isopeptide_or_lactam_amide,isopeptide_or_lactam_amide GLU4.CD-M9E101.N4 1.29A,15,15,1,136,14.0
+6XVD,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS1.SG-CYS12.SG 2.04A,12,12,1,93,12.0
+7TB1,cyclic_standard,1,1,1,1,1,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge CYS2.CB-I1J101.S5 1.81A,11,11,1,74,10.0
+7YAA,cyclic_standard,1,1,1,1,1,thioether_or_S_C_bridge,macrocycle,isopeptide_or_lactam_amide,isopeptide_or_lactam_amide PRO2.N-JJ9101.C21 1.33A,11,11,1,111,10.0
+7ZRR,cyclic_standard,1,1,1,2,2,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge CYS9.SG-ZBR102.C7 1.85A | thioether_or_S_C_bridge CYS2.SG-ZBR102.C9 1.78A,18,17,1,126,16.0
+8DS7,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS2.SG-CYS10.SG 2.03A,10,10,1,71,10.0
+8G2M,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS1.SG-CYS9.SG 2.01A,9,9,1,67,9.0
+8GAK,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS11.SG-CYS18.SG 2.07A,20,20,1,140,20.0
+8GAL,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS11.SG-CYS18.SG 2.14A,18,18,1,138,18.0
+8GHO,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS72.SG-CYS77.SG 2.04A,17,17,1,127,17.0
+8QFZ,cyclic_standard,1,1,1,2,2,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge CYS17.SG-LFI101.C10 1.72A | thioether_or_S_C_bridge CYS11.SG-LFI101.C12 1.71A,13,13,1,125,12.0
+9B0A,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS1.SG-CYS18.SG 2.04A,18,18,1,124,18.0
+9HGD,cyclic_standard,1,1,1,1,1,head_to_tail_backbone_amide,macrocycle,head_to_tail_backbone_amide,head_to_tail_backbone_amide LEU1.N-GLU13.C 1.33A,13,13,1,104,13.0
+9S3N,cyclic_standard,1,1,1,2,2,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge CYS7.SG-KZ0101.C5 1.77A | thioether_or_S_C_bridge CYS2.SG-KZ0101.C 1.77A,18,18,1,143,17.0
+1W9V,cyclic_modified,1,1,1,1,1,amide_or_C_N_bridge,macrocycle,head_to_tail_backbone_amide,head_to_tail_backbone_amide VR01434.N-DAL1438.C 1.33A,5,5,1,48,5.0
+2CV3,cyclic_modified,1,1,1,3,3,amide_or_C_N_bridge,macrocycle,ester_or_C_O_bridge;isopeptide_or_lactam_amide,ester_or_C_O_bridge SER262.OG-ASP265.CG 1.32A | ester_or_C_O_bridge THR257.OG1-ASP263.CG 1.34A | isopeptide_or_lactam_amide LYS259.NZ-ASP266.CG 1.33A,11,11,1,91,11.0
+2YQ7,cyclic_modified,1,1,1,1,1,amide_or_C_N_bridge,macrocycle,isopeptide_or_lactam_amide,isopeptide_or_lactam_amide GLU154.CD-LYS158.NZ 1.34A,20,18,1,158,20.0
+3IIQ,cyclic_modified,1,1,1,1,1,amide_or_C_N_bridge,macrocycle,carbon_carbon_bridge,carbon_carbon_bridge 5PG4.CD2-TYR6.CE2 1.42A,7,7,1,59,6.0
+3MT6,cyclic_modified,1,1,1,1,1,amide_or_C_N_bridge,macrocycle,ester_or_C_O_bridge,ester_or_C_O_bridge SER702.OG-MP8706.C 1.30A,7,7,1,52,7.0
+3PMP,cyclic_modified,1,1,1,1,1,head_to_tail_backbone_amide,macrocycle,head_to_tail_backbone_amide,head_to_tail_backbone_amide DAL1.N-ALA11.C 1.34A,11,11,1,85,11.0
+4JNA,cyclic_modified,1,1,1,1,1,ester_or_C_O_bridge,macrocycle,ester_or_C_O_bridge,ester_or_C_O_bridge 1KC1.O1-VAL5.C 1.34A,5,5,1,38,5.0
+4MNX,cyclic_modified,1,1,1,2,2,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge CYS7.SG-29N101.C25 1.84A | thioether_or_S_C_bridge CYS2.SG-29N101.C19 1.84A,15,14,1,125,14.0
+4PJZ,cyclic_modified,1,1,1,4,4,ester_or_C_O_bridge,macrocycle,carbon_carbon_bridge;ester_or_C_O_bridge,ester_or_C_O_bridge GHP1.C3-3FG3.OD1 1.37A | ester_or_C_O_bridge 3MY2.OBD-GHP4.C3 1.43A | ester_or_C_O_bridge GHP4.C5-OMY6.OCZ 1.40A | carbon_carbon_bridge GHP5.C3-3FG7.CG1 1.43A,10,10,1,121,7.0
+4Z0E,cyclic_modified,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS1.SG-CYS13.SG 2.03A,13,13,1,100,13.0
+5BXU,cyclic_modified,1,1,1,1,1,carbon_carbon_bridge,macrocycle,carbon_carbon_bridge,carbon_carbon_bridge ALA4.CB-4XQ101.C31 1.54A,10,9,1,80,9.0
+5EEQ,cyclic_modified,1,1,1,2,2,amide_or_C_N_bridge,macrocycle,ester_or_C_O_bridge;isopeptide_or_lactam_amide,ester_or_C_O_bridge SER1.OG-73C8.C4 1.32A | isopeptide_or_lactam_amide SER1.N-48V11.C09 1.32A,11,11,1,96,11.0
+5H5Q,cyclic_modified,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS901.SG-CYS911.SG 2.08A,15,13,1,121,15.0
+5N99,cyclic_modified,1,1,1,1,1,head_to_tail_backbone_amide,macrocycle,head_to_tail_backbone_amide,head_to_tail_backbone_amide ASN1.N-GLN5.C 1.35A,5,5,1,47,5.0
+5O45,cyclic_modified,1,1,1,1,1,amide_or_C_N_bridge,macrocycle,isopeptide_or_lactam_amide,isopeptide_or_lactam_amide PHE1.N-CCS13.CE 1.32A,15,14,1,129,15.0
+5XXK,cyclic_modified,1,1,1,1,1,carbon_carbon_bridge,macrocycle,carbon_carbon_bridge,carbon_carbon_bridge 0EH20.CAT-MK827.CE 1.31A,12,11,1,106,12.0
+5ZJZ,cyclic_modified,1,1,1,1,1,carbon_carbon_bridge,macrocycle,carbon_carbon_bridge,carbon_carbon_bridge MK88.CE-MK812.CE 1.34A,15,13,1,130,15.0
+6AAW,cyclic_modified,1,1,1,1,1,carbon_carbon_bridge,macrocycle,carbon_carbon_bridge,carbon_carbon_bridge 0EH4.CAT-MK811.CE 1.35A,16,14,1,128,16.0
+6PV9,cyclic_modified,1,1,1,1,1,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge ACE1.CH3-DCY15.SG 1.82A,17,15,1,132,17.0
+6Z13,cyclic_modified,1,1,1,2,2,disulfide,macrocycle,disulfide;isopeptide_or_lactam_amide,isopeptide_or_lactam_amide GLU10.CD-LYS14.NZ 1.32A | disulfide CYS1.SG-CYS11.SG 2.05A,16,15,1,136,15.0
+7DNF,cyclic_modified,1,1,1,1,1,head_to_tail_backbone_amide,macrocycle,head_to_tail_backbone_amide,head_to_tail_backbone_amide LYS5.N-PRO20.C 1.34A,16,16,1,128,16.0
+7MX1,cyclic_modified,1,1,1,1,1,carbon_carbon_bridge,macrocycle,carbon_carbon_bridge,carbon_carbon_bridge ALA3.CB-ZOY101.C16 1.64A,7,6,1,66,6.0
+7OBV,cyclic_modified,1,1,1,1,1,amide_or_C_N_bridge,macrocycle,isopeptide_or_lactam_amide,isopeptide_or_lactam_amide V7T1.NZ-LYS6.C 1.33A,6,6,1,50,6.0
+7PG1,cyclic_modified,1,1,1,1,1,amide_or_C_N_bridge,macrocycle,isopeptide_or_lactam_amide,isopeptide_or_lactam_amide V7T1.NZ-LYS6.C 1.33A,6,6,1,43,6.0
+7S5H,cyclic_modified,1,1,1,3,3,amide_or_C_N_bridge,macrocycle,carbon_carbon_bridge;head_to_tail_backbone_amide;isopeptide_or_lactam_amide,isopeptide_or_lactam_amide Z501.C1-FTR5.NE1 1.47A | carbon_carbon_bridge PHE4.CE2-89N101.C2 1.51A | head_to_tail_backbone_amide Z501.N-3WX9.C 1.33A,10,10,1,100,9.0
+7UXN,cyclic_modified,1,1,1,1,1,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge CYS3.SG-WHL101.CH 1.71A,13,12,1,107,12.0
+7V1A,cyclic_modified,1,1,1,1,1,carbon_carbon_bridge,macrocycle,carbon_carbon_bridge,carbon_carbon_bridge MK819.CE-MK823.CE 1.49A,19,19,1,148,19.0
+7Y8D,cyclic_modified,1,1,1,1,1,thioether_or_S_C_bridge,macrocycle,isopeptide_or_lactam_amide,isopeptide_or_lactam_amide CYS1.N-JFF101.C1 1.40A,13,12,1,111,12.0
+7Z4S,cyclic_modified,1,1,1,1,1,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge ACE0.CH3-CYS13.SG 1.82A,15,13,1,112,15.0
+7Z8O,cyclic_modified,1,1,1,2,2,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge CYS276.SG-KZ0303.C 1.86A | thioether_or_S_C_bridge CYS260.SG-KZ0303.C5 1.84A,15,14,1,105,14.0
+7ZKR,cyclic_modified,1,1,1,1,1,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge LE13.SG-OXE102.C2' 1.82A,14,13,1,112,13.0
+8AD9,cyclic_modified,1,1,1,1,1,head_to_tail_backbone_amide,macrocycle,head_to_tail_backbone_amide,head_to_tail_backbone_amide LTU1.N-WVL7.C 1.34A,7,7,1,75,7.0
+8CV4,cyclic_modified,1,1,1,1,1,thioether_or_S_C_bridge,macrocycle,head_to_tail_backbone_amide,head_to_tail_backbone_amide TRP1.N-ACE101.C 1.34A,14,12,1,129,12.0
+8CV7,cyclic_modified,1,1,1,1,1,thioether_or_S_C_bridge,macrocycle,head_to_tail_backbone_amide,head_to_tail_backbone_amide TRP1.N-ACE101.C 1.33A,14,12,1,124,12.0
+8EBK,cyclic_modified,1,1,1,1,1,amide_or_C_N_bridge,macrocycle,carbon_carbon_bridge,carbon_carbon_bridge 0EH6.CAT-MK813.CE 1.37A,16,16,1,164,16.0
+8F16,cyclic_modified,1,1,1,1,1,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge DCY6.SG-WHL101.CH 1.81A,18,16,1,149,17.0
+8F1F,cyclic_modified,1,1,1,1,1,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge ACE0.CH3-CYS11.SG 1.82A,14,12,1,107,14.0
+8FVL,cyclic_modified,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide YC32.S2-CYS9.SG 2.07A,10,10,1,85,10.0
+8G1W,cyclic_modified,1,1,1,1,1,amide_or_C_N_bridge,macrocycle,ester_or_C_O_bridge,ester_or_C_O_bridge TYR2.OH-NLE4.CE 1.41A,5,4,1,57,5.0
+8RTZ,cyclic_modified,1,1,1,2,2,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge CYS7.SG-29N101.C19 1.65A | thioether_or_S_C_bridge CYS2.SG-29N101.C25 1.67A,16,15,1,121,15.0
+8RYK,cyclic_modified,1,1,1,1,1,amide_or_C_N_bridge,macrocycle,isopeptide_or_lactam_amide,isopeptide_or_lactam_amide PHE1.N-CCS14.CE 1.35A,17,16,1,151,17.0
+8VJP,cyclic_modified,1,1,1,1,1,amide_or_C_N_bridge,macrocycle,carbon_carbon_bridge,carbon_carbon_bridge ALA9.CA-A1AJD101.CEK 1.58A,17,15,1,122,15.0
+9BT7,cyclic_modified,1,1,1,1,1,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge ACE0.CH3-CYS14.SG 1.81A,15,14,1,135,15.0
+9CS2,cyclic_modified,1,1,1,1,1,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge R3W1.C2-CYS15.SG 1.82A,17,16,1,152,17.0
+9DEK,cyclic_modified,1,1,1,1,1,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge ACE0.CH3-CYS14.SG 1.83A,16,15,1,130,16.0
+9HYT,cyclic_modified,1,1,1,2,2,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge CYS7.SG-29N101.C16 1.79A | thioether_or_S_C_bridge CYS2.SG-29N101.C25 1.77A,18,16,1,142,17.0
+9NN3,cyclic_modified,1,1,1,1,1,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge ACE1.CH3-CYS9.SG 1.77A,11,9,1,87,11.0
+9RXL,cyclic_modified,1,1,1,2,2,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge CYS6.SG-LFI101.C12 1.63A | thioether_or_S_C_bridge CYS1.SG-LFI101.C11 1.69A,19,18,1,138,18.0
+9UPJ,cyclic_modified,1,1,1,1,1,head_to_tail_backbone_amide,macrocycle,head_to_tail_backbone_amide,head_to_tail_backbone_amide DAL1.N-ALA11.C 1.33A,11,11,1,86,11.0
+9X2V,cyclic_modified,1,1,1,1,1,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge ACE0.CH3-CYS13.SG 1.81A,15,13,1,145,15.0
+1HC9,linear_standard,0,0,1,0,0,linear,linear,,,13,13,1,121,13.0
+1YWO,linear_standard,0,0,1,0,0,linear,linear,,,10,10,1,80,10.0
+2DRM,linear_standard,0,0,1,0,0,linear,linear,,,18,18,1,129,18.0
+2GPH,linear_standard,0,0,1,0,0,linear,linear,,,16,16,1,128,16.0
+2P1O,linear_standard,0,0,1,0,0,linear,linear,,,13,13,1,114,13.0
+2PV1,linear_standard,0,0,1,0,0,linear,linear,,,7,7,1,66,7.0
+2QOS,linear_standard,0,0,1,0,0,linear,linear,,,11,11,1,97,11.0
+2V3S,linear_standard,0,0,1,0,0,linear,linear,,,6,6,1,49,6.0
+2VR3,linear_standard,0,0,1,0,0,linear,linear,,,13,13,1,71,13.0
+3BRL,linear_standard,0,0,1,0,0,linear,linear,,,10,10,1,68,10.0
+3DS4,linear_standard,0,0,1,0,0,linear,linear,,,12,12,1,103,12.0
+3HDS,linear_standard,0,0,1,0,0,linear,linear,,,5,5,1,36,5.0
+3PLU,linear_standard,0,0,1,0,0,linear,linear,,,18,18,1,138,18.0
+3ROF,linear_standard,0,0,1,0,0,linear,linear,,,7,7,1,60,7.0
+3SO6,linear_standard,0,0,1,0,0,linear,linear,,,13,13,1,107,13.0
+4CGQ,linear_standard,0,0,1,0,0,linear,linear,,,7,7,1,59,7.0
+4CHB,linear_standard,0,0,1,0,0,linear,linear,,,10,10,1,82,10.0
+4LN2,linear_standard,0,0,1,0,0,linear,linear,,,10,10,1,75,10.0
+4OBF,linear_standard,0,0,1,0,0,linear,linear,,,10,10,1,78,10.0
+4R1E,linear_standard,0,0,1,0,0,linear,linear,,,16,16,1,132,15.0
+4R6R,linear_standard,0,0,1,0,0,linear,linear,,,17,17,1,123,17.0
+4WIH,linear_standard,0,0,1,0,0,linear,linear,,,15,15,1,114,15.0
+4WX4,linear_standard,0,0,1,0,0,linear,linear,,,11,11,1,95,10.0
+4ZHB,linear_standard,0,0,1,0,0,linear,linear,,,5,5,1,35,5.0
+5E1O,linear_standard,0,0,1,0,0,linear,linear,,,6,6,1,52,6.0
+5MFF,linear_standard,0,0,1,0,0,linear,linear,,,10,10,1,110,10.0
+5OJR,linear_standard,0,0,1,0,0,linear,linear,,,18,18,1,129,18.0
+5T6P,linear_standard,0,0,1,0,0,linear,linear,,,6,6,1,45,6.0
+5WRD,linear_standard,0,0,1,0,0,linear,linear,,,19,19,1,152,19.0
+5XOQ,linear_standard,0,0,1,0,0,linear,linear,,,8,8,1,50,8.0
+6EM7,linear_standard,0,0,1,0,0,linear,linear,,,19,19,1,145,18.0
+6KZ1,linear_standard,0,0,1,0,0,linear,linear,,,12,12,1,85,12.0
+6L0V,linear_standard,0,0,1,0,0,linear,linear,,,16,16,1,131,16.0
+6ME1,linear_standard,0,0,1,0,0,linear,linear,,,16,16,1,123,16.0
+6O23,linear_standard,0,0,1,0,0,linear,linear,,,18,18,1,127,18.0
+7ABT,linear_standard,0,0,1,0,0,linear,linear,,,8,8,1,72,8.0
+7DOH,linear_standard,0,0,1,0,0,linear,linear,,,9,9,1,56,9.0
+7PVX,linear_standard,0,0,1,0,0,linear,linear,,,12,12,1,93,12.0
+7Q4Q,linear_standard,0,0,1,0,0,linear,linear,,,15,15,1,115,15.0
+7RPU,linear_standard,0,0,1,0,0,linear,linear,,,13,13,1,101,13.0
+7ZPY,linear_standard,0,0,1,0,0,linear,linear,,,10,10,1,93,10.0
+8ARE,linear_standard,0,0,1,0,0,linear,linear,,,5,5,1,40,5.0
+8C1Y,linear_standard,0,0,1,0,0,linear,linear,,,18,18,1,170,18.0
+8D47,linear_standard,0,0,1,0,0,linear,linear,,,18,18,1,143,18.0
+8DKN,linear_standard,0,0,1,0,0,linear,linear,,,13,13,1,102,13.0
+8GTX,linear_standard,0,0,1,0,0,linear,linear,,,20,20,1,153,20.0
+8IB1,linear_standard,0,0,1,0,0,linear,linear,,,13,13,1,102,13.0
+8RMO,linear_standard,0,0,1,0,0,linear,linear,,,6,6,1,53,6.0
+8V8E,linear_standard,0,0,1,0,0,linear,linear,,,9,9,1,70,9.0
+9P4C,linear_standard,0,0,1,0,0,linear,linear,,,17,17,1,129,17.0
+1VDN,linear_modified,0,0,1,0,0,linear,linear,,,6,5,1,37,6.0
+1ZEA,linear_modified,0,0,1,0,0,linear,linear,,,9,9,1,70,9.0
+2BRR,linear_modified,0,0,1,0,0,linear,linear,,,10,9,1,69,10.0
+2HMH,linear_modified,0,0,1,0,0,linear,linear,,,11,11,1,89,11.0
+2V1T,linear_modified,0,0,1,0,0,linear,linear,,,13,13,1,90,13.0
+3AX2,linear_modified,0,0,1,0,0,linear,linear,,,16,15,1,107,16.0
+3BU6,linear_modified,0,0,1,0,0,linear,linear,,,14,14,1,120,14.0
+3FIV,linear_modified,0,0,1,0,0,linear,linear,,,8,6,1,63,8.0
+3ITB,linear_modified,0,0,1,0,0,linear,linear,,,6,6,1,54,5.0
+3N8M,linear_modified,0,0,1,0,0,linear,linear,,,6,6,1,54,6.0
+3PSL,linear_modified,0,0,1,0,0,linear,linear,,,5,4,1,35,5.0
+3SOV,linear_modified,0,0,1,0,0,linear,linear,,,7,7,1,51,7.0
+3TWS,linear_modified,0,0,1,0,0,linear,linear,,,14,14,1,109,14.0
+3ZRZ,linear_modified,0,0,1,0,0,linear,linear,,,20,18,1,137,20.0
+4A1U,linear_modified,0,0,1,0,0,linear,linear,,,20,18,1,169,20.0
+4AIR,linear_modified,0,0,1,0,0,linear,linear,,,5,5,1,46,5.0
+4DOW,linear_modified,0,0,1,0,0,linear,linear,,,12,12,1,103,12.0
+4J9H,linear_modified,0,0,1,0,0,linear,linear,,,11,10,1,77,11.0
+4PZ5,linear_modified,0,0,1,0,0,linear,linear,,,15,14,1,122,15.0
+4ZW2,linear_modified,0,0,1,0,0,linear,linear,,,20,18,1,156,20.0
+5CQ2,linear_modified,0,0,1,0,0,linear,linear,,,14,12,1,93,14.0
+5EA0,linear_modified,0,0,1,0,0,linear,linear,,,12,11,1,79,12.0
+5EMB,linear_modified,0,0,1,0,0,linear,linear,,,7,7,1,65,7.0
+5FC2,linear_modified,0,0,1,0,0,linear,linear,,,9,9,1,67,9.0
+5IVN,linear_modified,0,0,1,0,0,linear,linear,,,12,12,1,104,12.0
+5N8B,linear_modified,0,0,1,0,0,linear,linear,,,13,12,1,96,13.0
+5N8J,linear_modified,0,0,1,0,0,linear,linear,,,9,9,1,61,9.0
+5OAV,linear_modified,0,0,1,0,0,linear,linear,,,12,11,1,92,12.0
+6CKZ,linear_modified,0,0,1,0,0,linear,linear,,,6,5,1,51,6.0
+6EXJ,linear_modified,0,0,1,0,0,linear,linear,,,7,6,1,50,7.0
+6G0O,linear_modified,0,0,1,0,0,linear,linear,,,11,11,1,98,11.0
+6KDQ,linear_modified,0,0,1,0,0,linear,linear,,,7,7,1,62,7.0
+6MPZ,linear_modified,0,0,1,0,0,linear,linear,,,14,14,1,92,14.0
+6MYE,linear_modified,0,0,1,0,0,linear,linear,,,13,11,1,89,13.0
+6RD2,linear_modified,0,0,1,0,0,linear,linear,,,6,6,1,89,5.0
+6SEN,linear_modified,0,0,1,0,0,linear,linear,,,18,16,1,142,18.0
+6XKB,linear_modified,0,0,1,0,0,linear,linear,,,15,15,1,129,15.0
+7D8P,linear_modified,0,0,1,0,0,linear,linear,,,10,10,1,84,10.0
+7EID,linear_modified,0,0,1,0,0,linear,linear,,,10,10,1,61,10.0
+7O33,linear_modified,0,0,1,0,0,linear,linear,,,13,12,1,78,13.0
+7UGB,linear_modified,0,0,1,0,0,linear,linear,,,15,14,1,113,15.0
+7VHE,linear_modified,0,0,1,0,0,linear,linear,,,5,4,1,33,5.0
+7W28,linear_modified,0,0,1,0,0,linear,linear,,,16,16,1,136,16.0
+7ZIT,linear_modified,0,0,1,0,0,linear,linear,,,7,7,1,53,7.0
+8IJ0,linear_modified,0,0,1,0,0,linear,linear,,,11,11,1,89,11.0
+8YFM,linear_modified,0,0,1,0,0,linear,linear,,,10,10,1,77,10.0
+9C79,linear_modified,0,0,1,0,0,linear,linear,,,18,17,1,128,18.0
+9EIK,linear_modified,0,0,1,0,0,linear,linear,,,10,10,1,90,10.0
+9GFY,linear_modified,0,0,1,0,0,linear,linear,,,6,6,1,48,6.0
+9KEM,linear_modified,0,0,1,0,0,linear,linear,,,12,12,1,87,12.0

@@ -1,0 +1,22 @@
+{
+  "case_id": "2V5W_entity3",
+  "pdb_id": "2V5W",
+  "peptide_entity_id": "3",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "Q9BY41",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.0,
+  "peptide_chain_id": "I",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 6,
+  "peptide_sequence": "XRHKKX",
+  "noncanonical_components": "ACE;ALY;ALY;MCM",
+  "n_protein_atoms": 2832,
+  "n_peptide_atoms": 61,
+  "dist_min_pocket": 2.503,
+  "dist_max_pocket": 59.302,
+  "peptide_contact_fraction": 0.908,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

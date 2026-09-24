@@ -1,0 +1,22 @@
+{
+  "case_id": "4B4N_entity2",
+  "pdb_id": "4B4N",
+  "peptide_entity_id": "2",
+  "benchmarks": "PPDbench",
+  "uniprot_ids": "A9PKC6",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.813,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 15,
+  "peptide_sequence": "PVLFPGQPFGQPPLG",
+  "noncanonical_components": "",
+  "n_protein_atoms": 1069,
+  "n_peptide_atoms": 110,
+  "dist_min_pocket": 2.178,
+  "dist_max_pocket": 50.742,
+  "peptide_contact_fraction": 0.624,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

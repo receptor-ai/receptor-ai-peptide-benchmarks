@@ -1,0 +1,22 @@
+{
+  "case_id": "5U6A_entity5",
+  "pdb_id": "5U6A",
+  "peptide_entity_id": "5",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.736,
+  "peptide_chain_id": "D",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 14,
+  "peptide_sequence": "XCQFDXSTXRLRCG",
+  "noncanonical_components": "ACE;2GX;562",
+  "n_protein_atoms": 4233,
+  "n_peptide_atoms": 129,
+  "dist_min_pocket": 2.659,
+  "dist_max_pocket": 65.556,
+  "peptide_contact_fraction": 0.803,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

@@ -1,0 +1,220 @@
+data_9GFY
+_entry.id 9GFY
+
+_cell.entry_id 9GFY
+_cell.length_a 45.12
+_cell.length_b 72.623
+_cell.length_c 52.295
+_cell.angle_alpha 90
+_cell.angle_beta 109.22
+_cell.angle_gamma 90
+
+_symmetry.entry_id 9GFY
+_symmetry.space_group_name_H-M 'P 1 21 1'
+_symmetry.Int_Tables_number 4
+
+loop_
+_entity.id
+_entity.type
+B polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+B polypeptide(L) B ?
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ALA .
+IVA .
+STA .
+VAL .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+B B
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_dist_value
+covale1 covale B IVA 1 C B VAL 2 N 1.335
+covale2 covale B VAL 2 C B VAL 3 N 1.336
+covale3 covale B ALA 5 C B STA 6 N 1.337
+covale4 covale B STA 4 C B ALA 5 N 1.338
+covale5 covale B VAL 3 C B STA 4 N 1.339
+
+loop_
+_struct_conn_type.id
+covale
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+HETATM 1 C CA . IVA B B 1 ? -6.77587 2.93269 3.00719 1 24.371 ? 1 B 1
+HETATM 2 C CB . IVA B B 1 ? -8.16292 2.39425 2.72633 1 25.9133 ? 1 B 1
+HETATM 3 C CG1 . IVA B B 1 ? -8.39132 1.09649 3.47982 1 27.1278 ? 1 B 1
+HETATM 4 C CG2 . IVA B B 1 ? -8.34443 2.18113 1.2295 1 25.4551 ? 1 B 1
+HETATM 5 C C . IVA B B 1 ? -6.50789 3.19489 4.47509 1 22.2055 ? 1 B 1
+HETATM 6 O O . IVA B B 1 ? -7.14618 4.03033 5.11048 1 23.7778 ? 1 B 1
+ATOM 7 N N . VAL B B 2 ? -5.5377 2.46423 5.02808 1 16.5945 ? 2 B 1
+ATOM 8 C CA . VAL B B 2 ? -5.06226 2.74094 6.36846 1 15.7861 ? 2 B 1
+ATOM 9 C C . VAL B B 2 ? -3.79869 3.58701 6.25521 1 13.2003 ? 2 B 1
+ATOM 10 O O . VAL B B 2 ? -3.13445 3.58934 5.21991 1 12.3187 ? 2 B 1
+ATOM 11 C CB . VAL B B 2 ? -4.81818 1.45903 7.18047 1 18.6084 ? 2 B 1
+ATOM 12 C CG1 . VAL B B 2 ? -6.0799 0.61296 7.25561 1 20.6907 ? 2 B 1
+ATOM 13 C CG2 . VAL B B 2 ? -3.66834 0.65418 6.60689 1 18.8864 ? 2 B 1
+ATOM 14 N N . VAL B B 3 ? -3.50303 4.33746 7.32074 1 12.9616 ? 3 B 1
+ATOM 15 C CA . VAL B B 3 ? -2.33477 5.19805 7.36453 1 12.8043 ? 3 B 1
+ATOM 16 C C . VAL B B 3 ? -1.71865 5.03447 8.74814 1 12.1432 ? 3 B 1
+ATOM 17 O O . VAL B B 3 ? -2.24038 5.56014 9.72772 1 13.3245 ? 3 B 1
+ATOM 18 C CB . VAL B B 3 ? -2.69429 6.67182 7.08079 1 13.9085 ? 3 B 1
+ATOM 19 C CG1 . VAL B B 3 ? -1.46721 7.5689 7.20958 1 14.6913 ? 3 B 1
+ATOM 20 C CG2 . VAL B B 3 ? -3.3331 6.83611 5.70659 1 15.5315 ? 3 B 1
+HETATM 21 N N . STA B B 4 ? -0.59669 4.30546 8.80887 1 11.9139 ? 4 B 1
+HETATM 22 C CA . STA B B 4 ? 0.07399 3.96059 10.05845 1 12.1769 ? 4 B 1
+HETATM 23 C CB . STA B B 4 ? -0.04784 2.46074 10.32948 1 13.2673 ? 4 B 1
+HETATM 24 C CG . STA B B 4 ? -1.45855 1.87605 10.23416 1 14.0136 ? 4 B 1
+HETATM 25 C CD1 . STA B B 4 ? -1.41988 0.35419 10.31122 1 15.4128 ? 4 B 1
+HETATM 26 C CD2 . STA B B 4 ? -2.3641 2.44433 11.31207 1 15.5018 ? 4 B 1
+HETATM 27 C CH . STA B B 4 ? 1.53926 4.4003 10.01255 1 12.2671 ? 4 B 1
+HETATM 28 O OH . STA B B 4 ? 2.20271 3.77377 8.91584 1 11.9761 ? 4 B 1
+HETATM 29 C CM . STA B B 4 ? 1.7932 5.90423 9.94335 1 12.5535 ? 4 B 1
+HETATM 30 C C . STA B B 4 ? 1.48485 6.6189 11.23904 1 12.9833 ? 4 B 1
+HETATM 31 O O . STA B B 4 ? 0.3602 7.05298 11.47994 1 13.6087 ? 4 B 1
+ATOM 32 N N . ALA B B 5 ? 2.50424 6.72533 12.0987 1 13.6696 ? 5 B 1
+ATOM 33 C CA . ALA B B 5 ? 2.34189 7.37316 13.38904 1 14.6161 ? 5 B 1
+ATOM 34 C C . ALA B B 5 ? 2.41069 8.88717 13.22595 1 16.0989 ? 5 B 1
+ATOM 35 O O . ALA B B 5 ? 3.42475 9.51389 13.52448 1 16.8779 ? 5 B 1
+ATOM 36 C CB . ALA B B 5 ? 3.41341 6.89394 14.36059 1 16.2211 ? 5 B 1
+HETATM 37 N N . STA B B 6 ? 1.30267 9.45682 12.73956 1 16.8447 ? 6 B 1
+HETATM 38 C CA . STA B B 6 ? 1.19317 10.87273 12.41378 1 20.6208 ? 6 B 1
+HETATM 39 C CB . STA B B 6 ? 0.82658 11.03325 10.93892 1 21.1685 ? 6 B 1
+HETATM 40 C CG . STA B B 6 ? 1.85006 10.48257 9.95029 1 22.8515 ? 6 B 1
+HETATM 41 C CD1 . STA B B 6 ? 1.22631 10.24594 8.58634 1 24.6602 ? 6 B 1
+HETATM 42 C CD2 . STA B B 6 ? 3.03777 11.4228 9.84173 1 23.619 ? 6 B 1
+HETATM 43 C CH . STA B B 6 ? 0.17274 11.55583 13.32896 1 25.3397 ? 6 B 1
+HETATM 44 O OH . STA B B 6 ? -1.11658 10.96412 13.16813 1 26.5375 ? 6 B 1
+HETATM 45 C CM . STA B B 6 ? 0.52803 11.52507 14.81237 1 29.3358 ? 6 B 1
+HETATM 46 C C . STA B B 6 ? -0.58513 12.03265 15.72114 1 32.9256 ? 6 B 1
+HETATM 47 O O . STA B B 6 ? -1.75374 12.04323 15.27877 1 34.134 ? 6 B 1
+HETATM 48 O OXT . STA B B 6 ? -0.25552 12.40934 16.8712 1 35.2018 ? 6 B 1
+
+_struct.title '9GFY: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+ALA N CA SING N 1
+ALA N H SING N 2
+ALA N H2 SING N 3
+ALA CA C SING N 4
+ALA CA CB SING N 5
+ALA CA HA SING N 6
+ALA C O DOUB N 7
+ALA C OXT SING N 8
+ALA CB HB1 SING N 9
+ALA CB HB2 SING N 10
+ALA CB HB3 SING N 11
+ALA OXT HXT SING N 12
+IVA CA CB SING N 13
+IVA CA C SING N 14
+IVA CA HA1 SING N 15
+IVA CA HA2 SING N 16
+IVA CB CG1 SING N 17
+IVA CB CG2 SING N 18
+IVA CB HB SING N 19
+IVA CG1 HG11 SING N 20
+IVA CG1 HG12 SING N 21
+IVA CG1 HG13 SING N 22
+IVA CG2 HG21 SING N 23
+IVA CG2 HG22 SING N 24
+IVA CG2 HG23 SING N 25
+IVA C O DOUB N 26
+IVA C OXT SING N 27
+IVA OXT HXT SING N 28
+STA N CA SING N 29
+STA N H SING N 30
+STA N H2 SING N 31
+STA CA CB SING N 32
+STA CA CH SING N 33
+STA CA HA SING N 34
+STA CB CG SING N 35
+STA CB HB1 SING N 36
+STA CB HB2 SING N 37
+STA CG CD1 SING N 38
+STA CG CD2 SING N 39
+STA CG HG SING N 40
+STA CD1 HD11 SING N 41
+STA CD1 HD12 SING N 42
+STA CD1 HD13 SING N 43
+STA CD2 HD21 SING N 44
+STA CD2 HD22 SING N 45
+STA CD2 HD23 SING N 46
+STA CH OH SING N 47
+STA CH CM SING N 48
+STA CH HC SING N 49
+STA OH HH SING N 50
+STA CM C SING N 51
+STA CM HM1 SING N 52
+STA CM HM2 SING N 53
+STA C O DOUB N 54
+STA C OXT SING N 55
+STA OXT HXT SING N 56
+VAL N CA SING N 57
+VAL N H SING N 58
+VAL N H2 SING N 59
+VAL CA C SING N 60
+VAL CA CB SING N 61
+VAL CA HA SING N 62
+VAL C O DOUB N 63
+VAL C OXT SING N 64
+VAL CB CG1 SING N 65
+VAL CB CG2 SING N 66
+VAL CB HB SING N 67
+VAL CG1 HG11 SING N 68
+VAL CG1 HG12 SING N 69
+VAL CG1 HG13 SING N 70
+VAL CG2 HG21 SING N 71
+VAL CG2 HG22 SING N 72
+VAL CG2 HG23 SING N 73
+VAL OXT HXT SING N 74

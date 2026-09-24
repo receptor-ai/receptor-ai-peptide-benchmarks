@@ -1,0 +1,22 @@
+{
+  "case_id": "2BYP_entity2",
+  "pdb_id": "2BYP",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q8WSF8",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.07,
+  "peptide_chain_id": "F",
+  "n_peptide_chain_copies": 5,
+  "peptide_length": 12,
+  "peptide_sequence": "GCCSDPRCAWRC",
+  "noncanonical_components": "CY3",
+  "n_protein_atoms": 1694,
+  "n_peptide_atoms": 91,
+  "dist_min_pocket": 2.457,
+  "dist_max_pocket": 83.248,
+  "peptide_contact_fraction": 0.797,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

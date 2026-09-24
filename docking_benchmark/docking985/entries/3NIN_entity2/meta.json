@@ -1,0 +1,22 @@
+{
+  "case_id": "3NIN_entity2",
+  "pdb_id": "3NIN",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "P19812",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.1,
+  "peptide_chain_id": "D",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 4,
+  "peptide_sequence": "RLGES",
+  "noncanonical_components": "",
+  "n_protein_atoms": 631,
+  "n_peptide_atoms": 32,
+  "dist_min_pocket": 2.644,
+  "dist_max_pocket": 49.864,
+  "peptide_contact_fraction": 1.0,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

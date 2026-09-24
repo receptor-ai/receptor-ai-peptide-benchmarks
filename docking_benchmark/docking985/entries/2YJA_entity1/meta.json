@@ -1,0 +1,22 @@
+{
+  "case_id": "2YJA_entity1",
+  "pdb_id": "2YJA",
+  "peptide_entity_id": "1",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P03372",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.82,
+  "peptide_chain_id": "A",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 13,
+  "peptide_sequence": "XHKLLHQLLQDSX",
+  "noncanonical_components": "ACE;MK8;MK8;NH2",
+  "n_protein_atoms": 1977,
+  "n_peptide_atoms": 99,
+  "dist_min_pocket": 2.683,
+  "dist_max_pocket": 56.877,
+  "peptide_contact_fraction": 0.657,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

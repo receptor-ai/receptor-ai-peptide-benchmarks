@@ -1,0 +1,22 @@
+{
+  "case_id": "2OXW_entity2",
+  "pdb_id": "2OXW",
+  "peptide_entity_id": "2",
+  "benchmarks": "LEADS-PEP",
+  "uniprot_ids": "P39900",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.15,
+  "peptide_chain_id": "X",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 3,
+  "peptide_sequence": "IAG",
+  "noncanonical_components": "",
+  "n_protein_atoms": 1243,
+  "n_peptide_atoms": 17,
+  "dist_min_pocket": 2.647,
+  "dist_max_pocket": 38.907,
+  "peptide_contact_fraction": 1.0,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

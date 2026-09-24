@@ -1,0 +1,22 @@
+{
+  "case_id": "1BC5_entity2",
+  "pdb_id": "1BC5",
+  "peptide_entity_id": "2",
+  "benchmarks": "Vina_47",
+  "uniprot_ids": "P07801",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.2,
+  "peptide_chain_id": "T",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 6,
+  "peptide_sequence": "XNWETF",
+  "noncanonical_components": "ACE",
+  "n_protein_atoms": 2212,
+  "n_peptide_atoms": 53,
+  "dist_min_pocket": 2.564,
+  "dist_max_pocket": 65.305,
+  "peptide_contact_fraction": 0.935,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

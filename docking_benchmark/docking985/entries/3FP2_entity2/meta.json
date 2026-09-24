@@ -1,0 +1,22 @@
+{
+  "case_id": "3FP2_entity2",
+  "pdb_id": "3FP2",
+  "peptide_entity_id": "2",
+  "benchmarks": "PepSet;ProtPep37_2021",
+  "uniprot_ids": "P38825",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.98,
+  "peptide_chain_id": "Q",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 5,
+  "peptide_sequence": "EVPADTEMEEVD",
+  "noncanonical_components": "",
+  "n_protein_atoms": 3860,
+  "n_peptide_atoms": 42,
+  "dist_min_pocket": 2.545,
+  "dist_max_pocket": 94.929,
+  "peptide_contact_fraction": 0.848,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

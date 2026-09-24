@@ -1,0 +1,22 @@
+{
+  "case_id": "2YQ6_entity2",
+  "pdb_id": "2YQ6",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q07817",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.799,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 19,
+  "peptide_sequence": "WIAQELRLIGDLFNAYYAX",
+  "noncanonical_components": "MK8;MK8;NH2",
+  "n_protein_atoms": 1165,
+  "n_peptide_atoms": 147,
+  "dist_min_pocket": 2.422,
+  "dist_max_pocket": 58.996,
+  "peptide_contact_fraction": 0.601,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

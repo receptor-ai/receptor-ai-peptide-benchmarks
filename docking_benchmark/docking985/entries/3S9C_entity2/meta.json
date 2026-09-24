@@ -1,0 +1,22 @@
+{
+  "case_id": "3S9C_entity2",
+  "pdb_id": "3S9C",
+  "peptide_entity_id": "2",
+  "benchmarks": "PepSet;ProtPep37_2021",
+  "uniprot_ids": "P18965",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.8,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 7,
+  "peptide_sequence": "SRDPDNIAAWYLRS",
+  "noncanonical_components": "",
+  "n_protein_atoms": 1883,
+  "n_peptide_atoms": 63,
+  "dist_min_pocket": 2.673,
+  "dist_max_pocket": 45.772,
+  "peptide_contact_fraction": 0.795,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

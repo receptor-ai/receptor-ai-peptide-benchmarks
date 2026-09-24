@@ -1,0 +1,22 @@
+{
+  "case_id": "5JME_entity2",
+  "pdb_id": "5JME",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q8WSF8",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.336,
+  "peptide_chain_id": "F",
+  "n_peptide_chain_copies": 4,
+  "peptide_length": 17,
+  "peptide_sequence": "GCCSHPACSVNHPELCX",
+  "noncanonical_components": "NH2",
+  "n_protein_atoms": 1631,
+  "n_peptide_atoms": 112,
+  "dist_min_pocket": 2.179,
+  "dist_max_pocket": 80.828,
+  "peptide_contact_fraction": 0.717,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

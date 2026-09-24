@@ -1,0 +1,22 @@
+{
+  "case_id": "4APO_entity2",
+  "pdb_id": "4APO",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "O00170",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.895,
+  "peptide_chain_id": "D",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 6,
+  "peptide_sequence": "AEDDVE",
+  "noncanonical_components": "",
+  "n_protein_atoms": 1247,
+  "n_peptide_atoms": 47,
+  "dist_min_pocket": 2.694,
+  "dist_max_pocket": 73.634,
+  "peptide_contact_fraction": 0.778,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

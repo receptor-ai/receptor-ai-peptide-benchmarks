@@ -1,0 +1,22 @@
+{
+  "case_id": "3BFW_entity2",
+  "pdb_id": "3BFW",
+  "peptide_entity_id": "2",
+  "benchmarks": "LEADS-PEP",
+  "uniprot_ids": "P08190",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.8,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 11,
+  "peptide_sequence": "ADSTITIRGYVRDNR",
+  "noncanonical_components": "",
+  "n_protein_atoms": 960,
+  "n_peptide_atoms": 89,
+  "dist_min_pocket": 2.565,
+  "dist_max_pocket": 62.781,
+  "peptide_contact_fraction": 0.959,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

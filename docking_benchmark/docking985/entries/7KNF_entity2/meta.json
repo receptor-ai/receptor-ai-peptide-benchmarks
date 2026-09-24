@@ -1,0 +1,22 @@
+{
+  "case_id": "7KNF_entity2",
+  "pdb_id": "7KNF",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "G5EFZ1",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.8,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 15,
+  "peptide_sequence": "XYDYPGDHCYLYGTX",
+  "noncanonical_components": "ACE;DTY;HOA",
+  "n_protein_atoms": 3899,
+  "n_peptide_atoms": 108,
+  "dist_min_pocket": 2.16,
+  "dist_max_pocket": 70.655,
+  "peptide_contact_fraction": 0.806,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

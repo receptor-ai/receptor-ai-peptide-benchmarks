@@ -1,0 +1,22 @@
+{
+  "case_id": "4EZN_entity2",
+  "pdb_id": "4EZN",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "P0A6Y8",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.8,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 6,
+  "peptide_sequence": "VDKGSYLPRPTPPRPIYNRN",
+  "noncanonical_components": "",
+  "n_protein_atoms": 1602,
+  "n_peptide_atoms": 51,
+  "dist_min_pocket": 2.662,
+  "dist_max_pocket": 69.614,
+  "peptide_contact_fraction": 0.86,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

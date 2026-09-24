@@ -1,0 +1,22 @@
+{
+  "case_id": "3SRJ_entity2",
+  "pdb_id": "3SRJ",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "Q7KQK5",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.15,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 4,
+  "peptide_length": 18,
+  "peptide_sequence": "VFAEFLPLFSKFGSRMHILK",
+  "noncanonical_components": "",
+  "n_protein_atoms": 2391,
+  "n_peptide_atoms": 147,
+  "dist_min_pocket": 2.468,
+  "dist_max_pocket": 91.856,
+  "peptide_contact_fraction": 0.767,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

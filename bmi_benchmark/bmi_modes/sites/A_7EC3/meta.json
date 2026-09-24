@@ -1,0 +1,100 @@
+{
+ "corrections": [
+  {
+   "date": "2026-09-16",
+   "issue": "The peptide is O-GlcNAcylated: NAG sugar(s) are O-glycosidically bonded to peptide Ser (SER-OG--NAG-C1, ~1.4 A) but were filed in the paired receptor_NN.cif and recorded only as pose_env_adducts, so pose_NN.sdf/cif represented the unglycosylated peptide.",
+   "fix": "Moved the peptide-bonded NAG(s) into pose_NN.cif and pose_NN.sdf with the Ser-OG--NAG-C1 glycosidic bond(s); removed them from receptor_NN.cif. Mirrors the 4PJZ/T55 correction (2026-09-15).",
+   "note": "pose_env_adducts and the peptide seq/token fields still describe the pre-correction (unglycosylated) peptide and were not recomputed; the pose structure files are authoritative.",
+   "derived_fields": "seq/peptide_tokens list the amino-acid sequence only (the covalent NAG/ZOY is a modification, not a residue token) and are unchanged; provenance.poses[].atoms documents the source-subchain atom count and is unchanged; pose_env_adducts still names the moiety by its original role. The shipped pose_NN.cif/sdf now additionally contain the covalent moiety and are authoritative."
+  },
+  {
+   "date": "2026-09-21",
+   "component": "provenance.poses[].atoms / .residues",
+   "issue": "After the peptide-integral moiety (NAG/ZOY) was moved from the receptor into the pose files, the per-pose atom and residue counts in provenance.poses were not updated and still reflected the peptide-only pose (the same counts were also stale in bmi_modes/poses.csv).",
+   "fix": "Updated provenance.poses[].atoms and .residues to the current pose-file contents (pose1: atoms 57->85, residues 8->10; pose2: atoms 42->56, residues 6->7). peptide_tokens/seq are peptide-only and unchanged.",
+   "files_changed": [
+    "meta.json"
+   ]
+  }
+ ],
+ "cell": "linear_standard",
+ "core_separation_widest_pair_A": "6.54",
+ "difference_type": "substantial",
+ "frame_pdb": "7EC3",
+ "max_separation_A": "6.83",
+ "max_token_diff": "0",
+ "min_inter_mode_core_sep_A": "6.54",
+ "min_inter_mode_separation_A": "6.83",
+ "min_pose_occupancy": "1.0",
+ "min_separation_A": "6.83",
+ "mode_members": "C | D",
+ "mode_sizes": "1+1",
+ "n_core_residues": "4",
+ "n_distinct_modes": "2",
+ "n_entries": "1",
+ "n_in_bmi200": "0",
+ "n_modes_at_2A": "2",
+ "n_modes_at_3A": "2",
+ "n_modes_at_5A": "2",
+ "n_modes_completelinkage_3A": "2",
+ "n_modes_wholepose_3A": "2",
+ "n_pairs_measured": "1",
+ "n_pairs_without_core": "0",
+ "n_poses_counted": "2",
+ "n_poses_elsewhere": "0",
+ "n_poses_in_pocket": "2",
+ "n_poses_modelled": "2",
+ "n_poses_not_comparable": "0",
+ "n_poses_symmetry_resolved": "0",
+ "pairwise_core_separation_A": "C~D=6.54/4res",
+ "pairwise_separation_A": "C~D=6.83",
+ "peptide_tokens": "SDSDSDSD",
+ "pose_contact_entities": "1;1",
+ "pose_env_additives": "-;-",
+ "pose_env_adducts": "NAGx2;NAG",
+ "pose_env_ions": "-;-",
+ "pose_env_metals": "-;-",
+ "pose_env_near": "NAGx2;NAG",
+ "pose_frames": "-;A>B",
+ "pose_modes": "1;2",
+ "pose_occupancy": "1.0;1.0",
+ "pose_pairing": "residue_number",
+ "pose_sep_from_ref_A": "0.0;6.83",
+ "pose_specs": "C/-;D/-",
+ "possible_lattice_contact": "False",
+ "provenance": {
+  "frame_receptor_from": "PDB 7EC3 receptor, used as the common reference frame (shipped as receptor.cif)",
+  "per_pose_receptors": "receptor_NN.cif pairs with pose_NN.cif; each is that pose's own assembly copy in the reference frame",
+  "poses": [
+   {
+    "atoms": 85,
+    "from": "PDB 7EC3 subchain C",
+    "label": "C/-",
+    "pose": 1,
+    "receptor_chains": "A,D",
+    "receptor_residues": 502,
+    "residues": 10,
+    "transform": "reference pose, raw deposition frame"
+   },
+   {
+    "atoms": 56,
+    "from": "PDB 7EC3 subchain D",
+    "label": "D/-",
+    "pose": 2,
+    "receptor_chains": "C,G",
+    "receptor_residues": 501,
+    "residues": 7,
+    "transform": "receptor subchain B superposed onto A by residue number, 500 CA, 1.41 A"
+   }
+  ]
+ },
+ "receptor_class": "transferase",
+ "receptor_one_line": "Glycosyl transferase family 1 domain-containing protein, transferase (",
+ "redundancy_group": "RG019",
+ "resolution_A": "2.5",
+ "route": "A_one_deposition",
+ "seq": "SDSDSDSD",
+ "site_id": "A_7EC3",
+ "site_type": "one_deposition",
+ "uniprot": "Q2G0L2"
+}

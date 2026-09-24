@@ -1,0 +1,22 @@
+{
+  "case_id": "2IPU_entity3",
+  "pdb_id": "2IPU",
+  "peptide_entity_id": "3",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "P01863",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.65,
+  "peptide_chain_id": "P",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 7,
+  "peptide_sequence": "DAEFRHDS",
+  "noncanonical_components": "",
+  "n_protein_atoms": 1701,
+  "n_peptide_atoms": 61,
+  "dist_min_pocket": 2.544,
+  "dist_max_pocket": 127.126,
+  "peptide_contact_fraction": 0.959,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "2OY2_entity2",
+  "pdb_id": "2OY2",
+  "peptide_entity_id": "2",
+  "benchmarks": "LEADS-PEP",
+  "uniprot_ids": "P22894",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.5,
+  "peptide_chain_id": "W",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 3,
+  "peptide_sequence": "IAG",
+  "noncanonical_components": "",
+  "n_protein_atoms": 1245,
+  "n_peptide_atoms": 18,
+  "dist_min_pocket": 2.657,
+  "dist_max_pocket": 72.195,
+  "peptide_contact_fraction": 1.0,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

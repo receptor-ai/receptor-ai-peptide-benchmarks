@@ -1,0 +1,246 @@
+data_7OBV
+_entry.id 7OBV
+
+_cell.entry_id 7OBV
+_cell.length_a 45.089
+_cell.length_b 61.233
+_cell.length_c 82.928
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+
+_symmetry.entry_id 7OBV
+_symmetry.space_group_name_H-M 'P 21 21 21'
+_symmetry.Int_Tables_number 19
+
+loop_
+_entity.id
+_entity.type
+D polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+D polypeptide(L) D ?
+
+loop_
+_chem_comp.id
+_chem_comp.type
+BAL .
+DPN .
+GLY .
+LYS .
+V7T .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+C D
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_auth_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_auth_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.ptnr2_auth_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_auth_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_dist_value
+covale1 covale D V7T 1 NZ D LYS 6 C 1.332
+covale2 covale D GLY 2 C D BAL 3 N 1.332
+covale3 covale D DPN 4 C D LYS 5 N 1.335
+covale4 covale D V7T 1 C D GLY 2 N 1.336
+covale5 covale D BAL 3 C D DPN 4 N 1.337
+covale6 covale D LYS 5 C D LYS 6 N 1.342
+
+loop_
+_struct_conn_type.id
+covale
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+HETATM 1 N N1 . V7T C D 1 ? 4.68223 -10.19638 3.10992 1 13.5712 ? 1 D 1
+HETATM 2 N N2 . V7T C D 1 ? 6.23963 -9.9744 4.8802 1 14.2521 ? 1 D 1
+HETATM 3 C CA . V7T C D 1 ? 3.50331 -12.37556 4.5339 1 12.2608 ? 1 D 1
+HETATM 4 C CD . V7T C D 1 ? 0.82463 -14.45423 6.42182 1 12.5792 ? 1 D 1
+HETATM 5 C CE . V7T C D 1 ? -0.31795 -15.34216 5.96427 1 11.9344 ? 1 D 1
+HETATM 6 N NZ . V7T C D 1 ? -1.24524 -14.64272 5.08456 1 11.4443 ? 1 D 1
+HETATM 7 C CG . V7T C D 1 ? 1.64706 -13.95802 5.25389 1 12.2851 ? 1 D 1
+HETATM 8 C CB . V7T C D 1 ? 2.77576 -13.05314 5.69411 1 12.7274 ? 1 D 1
+HETATM 9 C C2 . V7T C D 1 ? 5.13555 -10.52365 4.28763 1 13.0993 ? 1 D 1
+HETATM 10 N N . V7T C D 1 ? 4.54374 -11.51613 5.06804 1 12.9603 ? 1 D 1
+HETATM 11 C C . V7T C D 1 ? 4.14468 -13.41178 3.61243 1 12.4808 ? 1 D 1
+HETATM 12 O O . V7T C D 1 ? 5.0916 -14.08091 4.01516 1 15.2509 ? 1 D 1
+ATOM 13 N N . GLY C D 2 ? 3.63046 -13.54755 2.38646 1 12.4656 ? 2 D 1
+ATOM 14 C CA . GLY C D 2 ? 4.29116 -14.42524 1.44591 1 13.2689 ? 2 D 1
+ATOM 15 C C . GLY C D 2 ? 3.4221 -15.42847 0.70829 1 12.4994 ? 2 D 1
+ATOM 16 O O . GLY C D 2 ? 3.89208 -16.08023 -0.21708 1 12.5385 ? 2 D 1
+HETATM 17 N N . BAL C D 3 ? 2.14883 -15.54408 1.08164 1 12.2078 ? 3 D 1
+HETATM 18 C CB . BAL C D 3 ? 1.17123 -16.25718 0.26426 1 12.5478 ? 3 D 1
+HETATM 19 C CA . BAL C D 3 ? 0.88385 -15.51213 -1.03351 1 12.2201 ? 3 D 1
+HETATM 20 C C . BAL C D 3 ? 0.53407 -14.07556 -0.73586 1 11.6292 ? 3 D 1
+HETATM 21 O O . BAL C D 3 ? -0.48282 -13.78103 -0.10987 1 12.4225 ? 3 D 1
+HETATM 22 N N . DPN C D 4 ? 1.42953 -13.15672 -1.11367 1 11.8635 ? 4 D 1
+HETATM 23 C CA . DPN C D 4 ? 1.16712 -11.73666 -0.93324 1 12.5177 ? 4 D 1
+HETATM 24 C C . DPN C D 4 ? 0.91379 -11.37225 0.52865 1 12.4827 ? 4 D 1
+HETATM 25 O O . DPN C D 4 ? 1.77683 -11.55148 1.38953 1 12.2869 ? 4 D 1
+HETATM 26 C CB . DPN C D 4 ? 2.33599 -10.9096 -1.48368 1 13.0537 ? 4 D 1
+HETATM 27 C CG . DPN C D 4 ? 2.03415 -9.43328 -1.56843 1 13.2871 ? 4 D 1
+HETATM 28 C CD1 . DPN C D 4 ? 2.7015 -8.52595 -0.76328 1 13.7011 ? 4 D 1
+HETATM 29 C CD2 . DPN C D 4 ? 1.08189 -8.95316 -2.45243 1 14.0345 ? 4 D 1
+HETATM 30 C CE1 . DPN C D 4 ? 2.41966 -7.17023 -0.83709 1 14.7773 ? 4 D 1
+HETATM 31 C CE2 . DPN C D 4 ? 0.80149 -7.59745 -2.52641 1 14.7506 ? 4 D 1
+HETATM 32 C CZ . DPN C D 4 ? 1.47053 -6.70774 -1.71961 1 15.2924 ? 4 D 1
+ATOM 33 N N . LYS C D 5 ? -0.28805 -10.85392 0.79099 1 12.5063 ? 5 D 1
+ATOM 34 C CA . LYS C D 5 ? -0.69368 -10.38014 2.10867 1 11.8371 ? 5 D 1
+ATOM 35 C C . LYS C D 5 ? -1.44183 -11.44882 2.90872 1 11.919 ? 5 D 1
+ATOM 36 O O . LYS C D 5 ? -1.99952 -11.15283 3.96836 1 12.0225 ? 5 D 1
+ATOM 37 C CB . LYS C D 5 ? -1.56538 -9.12802 1.95141 1 13.411 ? 5 D 1
+ATOM 38 C CG . LYS C D 5 ? -0.75717 -7.96019 1.39005 1 15.6491 ? 5 D 1
+ATOM 39 C CD . LYS C D 5 ? -1.57007 -6.72816 1.06926 1 18.9903 ? 5 D 1
+ATOM 40 C CE . LYS C D 5 ? -2.37327 -6.88582 -0.20276 1 20.1691 ? 5 D 1
+ATOM 41 N NZ . LYS C D 5 ? -2.96588 -5.59409 -0.62578 1 19.7077 ? 5 D 1
+ATOM 42 N N . LYS C D 6 ? -1.45973 -12.68406 2.38395 1 11.4545 ? 6 D 1
+ATOM 43 C CA . LYS C D 6 ? -2.15676 -13.79998 3.00639 1 11.9736 ? 6 D 1
+ATOM 44 C C . LYS C D 6 ? -1.16649 -14.68718 3.75579 1 11.7597 ? 6 D 1
+ATOM 45 O O . LYS C D 6 ? -0.32843 -15.3517 3.1434 1 12.878 ? 6 D 1
+ATOM 46 C CB . LYS C D 6 ? -2.90416 -14.63038 1.95416 1 11.8728 ? 6 D 1
+ATOM 47 C CG . LYS C D 6 ? -3.92699 -13.85551 1.15007 1 12.9617 ? 6 D 1
+ATOM 48 C CD . LYS C D 6 ? -5.01735 -13.20635 1.96882 1 15.8318 ? 6 D 1
+ATOM 49 C CE . LYS C D 6 ? -6.13726 -12.78443 1.0419 1 21.0036 ? 6 D 1
+ATOM 50 N NZ . LYS C D 6 ? -7.13226 -11.94515 1.6432 1 21.7555 ? 6 D 1
+
+_struct.title '7OBV: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+BAL N CB SING N 1
+BAL N H SING N 2
+BAL N H2 SING N 3
+BAL CB CA SING N 4
+BAL CB HB3 SING N 5
+BAL CB HB2 SING N 6
+BAL CA C SING N 7
+BAL CA HA1 SING N 8
+BAL CA HA2 SING N 9
+BAL C O DOUB N 10
+BAL C OXT SING N 11
+BAL OXT HXT SING N 12
+DPN N CA SING N 13
+DPN N H SING N 14
+DPN N H2 SING N 15
+DPN CA C SING N 16
+DPN CA CB SING N 17
+DPN CA HA SING N 18
+DPN C O DOUB N 19
+DPN C OXT SING N 20
+DPN OXT HXT SING N 21
+DPN CB CG SING N 22
+DPN CB HB2 SING N 23
+DPN CB HB3 SING N 24
+DPN CG CD1 DOUB Y 25
+DPN CG CD2 SING Y 26
+DPN CD1 CE1 SING Y 27
+DPN CD1 HD1 SING N 28
+DPN CD2 CE2 DOUB Y 29
+DPN CD2 HD2 SING N 30
+DPN CE1 CZ DOUB Y 31
+DPN CE1 HE1 SING N 32
+DPN CE2 CZ SING Y 33
+DPN CE2 HE2 SING N 34
+DPN CZ HZ SING N 35
+GLY N CA SING N 36
+GLY N H SING N 37
+GLY N H2 SING N 38
+GLY CA C SING N 39
+GLY CA HA2 SING N 40
+GLY CA HA3 SING N 41
+GLY C O DOUB N 42
+GLY C OXT SING N 43
+GLY OXT HXT SING N 44
+LYS N CA SING N 45
+LYS N H SING N 46
+LYS N H2 SING N 47
+LYS CA C SING N 48
+LYS CA CB SING N 49
+LYS CA HA SING N 50
+LYS C O DOUB N 51
+LYS C OXT SING N 52
+LYS CB CG SING N 53
+LYS CB HB2 SING N 54
+LYS CB HB3 SING N 55
+LYS CG CD SING N 56
+LYS CG HG2 SING N 57
+LYS CG HG3 SING N 58
+LYS CD CE SING N 59
+LYS CD HD2 SING N 60
+LYS CD HD3 SING N 61
+LYS CE NZ SING N 62
+LYS CE HE2 SING N 63
+LYS CE HE3 SING N 64
+LYS NZ HZ1 SING N 65
+LYS NZ HZ2 SING N 66
+LYS NZ HZ3 SING N 67
+LYS OXT HXT SING N 68
+V7T N1 C2 DOUB N 69
+V7T N2 C2 SING N 70
+V7T CA CB SING N 71
+V7T CA N SING N 72
+V7T CA C SING N 73
+V7T CD CE SING N 74
+V7T CD CG SING N 75
+V7T CE NZ SING N 76
+V7T CG CB SING N 77
+V7T C2 N SING N 78
+V7T C O DOUB N 79
+V7T N1 H1 SING N 80
+V7T N2 H4 SING N 81
+V7T N2 H3 SING N 82
+V7T CA HA SING N 83
+V7T CD HD2 SING N 84
+V7T CD HD3 SING N 85
+V7T CE HE2 SING N 86
+V7T CE HE3 SING N 87
+V7T NZ HZ1 SING N 88
+V7T NZ HZ2 SING N 89
+V7T CG HG2 SING N 90
+V7T CG HG3 SING N 91
+V7T CB HB2 SING N 92
+V7T CB HB3 SING N 93
+V7T N H SING N 94
+V7T C OXT SING N 95
+V7T OXT HXT SING N 96

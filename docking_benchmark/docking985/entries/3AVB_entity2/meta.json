@@ -1,0 +1,22 @@
+{
+  "case_id": "3AVB_entity2",
+  "pdb_id": "3AVB",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P12497",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.85,
+  "peptide_chain_id": "X",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 8,
+  "peptide_sequence": "SLKIDNLD",
+  "noncanonical_components": "",
+  "n_protein_atoms": 1170,
+  "n_peptide_atoms": 63,
+  "dist_min_pocket": 2.594,
+  "dist_max_pocket": 54.144,
+  "peptide_contact_fraction": 0.602,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

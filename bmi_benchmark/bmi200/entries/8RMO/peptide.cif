@@ -1,0 +1,209 @@
+data_8RMO
+_entry.id 8RMO
+
+_cell.entry_id 8RMO
+_cell.length_a 87.432
+_cell.length_b 134.621
+_cell.length_c 41.798
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+
+_symmetry.entry_id 8RMO
+_symmetry.space_group_name_H-M 'P 21 21 2'
+_symmetry.Int_Tables_number 18
+
+loop_
+_entity.id
+_entity.type
+F polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+F polypeptide(L) F ?
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ASP .
+LYS .
+TYR .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+A F
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . ASP A F 1 ? 45.682 45.926 -7.492 1 27.124 ? 1 F 1
+ATOM 2 C CA . ASP A F 1 ? 45.443 44.505 -7.146 1 22.721 ? 1 F 1
+ATOM 3 C C . ASP A F 1 ? 45.325 43.716 -8.444 1 18.1 ? 1 F 1
+ATOM 4 O O . ASP A F 1 ? 45.207 44.32 -9.521 1 19.15 ? 1 F 1
+ATOM 5 C CB . ASP A F 1 ? 44.249 44.342 -6.195 1 27.895 ? 1 F 1
+ATOM 6 C CG . ASP A F 1 ? 42.855 44.46 -6.802 1 28.185 ? 1 F 1
+ATOM 7 O OD1 . ASP A F 1 ? 42.704 44.278 -8.008 1 38.844 ? 1 F 1
+ATOM 8 O OD2 . ASP A F 1 ? 41.948 44.841 -6.097 1 29.214 ? 1 F 1
+ATOM 9 N N . TYR A F 2 ? 45.365 42.384 -8.343 1 14.591 ? 2 F 1
+ATOM 10 C CA . TYR A F 2 ? 45.379 41.561 -9.543 1 14.502 ? 2 F 1
+ATOM 11 C C . TYR A F 2 ? 44.113 41.743 -10.394 1 14.615 ? 2 F 1
+ATOM 12 O O . TYR A F 2 ? 44.136 41.503 -11.592 1 16.307 ? 2 F 1
+ATOM 13 C CB . TYR A F 2 ? 45.569 40.087 -9.26 1 14.215 ? 2 F 1
+ATOM 14 C CG . TYR A F 2 ? 44.415 39.307 -8.685 1 13.61 ? 2 F 1
+ATOM 15 C CD1 . TYR A F 2 ? 44.165 39.274 -7.346 1 16.531 ? 2 F 1
+ATOM 16 C CD2 . TYR A F 2 ? 43.631 38.517 -9.501 1 13.67 ? 2 F 1
+ATOM 17 C CE1 . TYR A F 2 ? 43.136 38.517 -6.849 1 17.294 ? 2 F 1
+ATOM 18 C CE2 . TYR A F 2 ? 42.574 37.77 -9.014 1 14.991 ? 2 F 1
+ATOM 19 C CZ . TYR A F 2 ? 42.377 37.704 -7.659 1 16.849 ? 2 F 1
+ATOM 20 O OH . TYR A F 2 ? 41.362 36.952 -7.09 1 20.476 ? 2 F 1
+ATOM 21 N N . LYS A F 3 ? 42.997 42.164 -9.786 1 14.081 ? 3 F 1
+ATOM 22 C CA . LYS A F 3 ? 41.774 42.369 -10.548 1 15.339 ? 3 F 1
+ATOM 23 C C . LYS A F 3 ? 41.809 43.623 -11.418 1 17.194 ? 3 F 1
+ATOM 24 O O . LYS A F 3 ? 40.976 43.754 -12.318 1 17.689 ? 3 F 1
+ATOM 25 C CB . LYS A F 3 ? 40.546 42.323 -9.641 1 17.252 ? 3 F 1
+ATOM 26 C CG . LYS A F 3 ? 40.235 40.908 -9.209 1 18.981 ? 3 F 1
+ATOM 27 C CD . LYS A F 3 ? 39.116 40.748 -8.245 1 17.413 ? 3 F 1
+ATOM 28 C CE . LYS A F 3 ? 38.832 39.289 -8.038 1 22.358 ? 3 F 1
+ATOM 29 N NZ . LYS A F 3 ? 38.094 38.989 -6.813 1 20.558 ? 3 F 1
+ATOM 30 N N . ASP A F 4 ? 42.783 44.519 -11.215 1 18.515 ? 4 F 1
+ATOM 31 C CA . ASP A F 4 ? 42.971 45.648 -12.11 1 21.542 ? 4 F 1
+ATOM 32 C C . ASP A F 4 ? 43.218 45.194 -13.544 1 22.813 ? 4 F 1
+ATOM 33 O O . ASP A F 4 ? 42.962 45.96 -14.474 1 27.272 ? 4 F 1
+ATOM 34 C CB . ASP A F 4 ? 44.133 46.53 -11.665 1 23.458 ? 4 F 1
+ATOM 35 C CG . ASP A F 4 ? 43.878 47.358 -10.428 1 24.311 ? 4 F 1
+ATOM 36 O OD1 . ASP A F 4 ? 42.709 47.671 -10.162 1 31.67 ? 4 F 1
+ATOM 37 O OD2 . ASP A F 4 ? 44.878 47.737 -9.774 1 30.098 ? 4 F 1
+ATOM 38 N N . ASP A F 5 ? 43.761 43.983 -13.736 1 22.397 ? 5 F 1
+ATOM 39 C CA . ASP A F 5 ? 44.013 43.452 -15.068 1 25.011 ? 5 F 1
+ATOM 40 C C . ASP A F 5 ? 42.797 42.773 -15.693 1 24.042 ? 5 F 1
+ATOM 41 O O . ASP A F 5 ? 42.937 42.23 -16.784 1 28.151 ? 5 F 1
+ATOM 42 C CB . ASP A F 5 ? 45.166 42.444 -15.06 1 29.29 ? 5 F 1
+ATOM 43 C CG . ASP A F 5 ? 46.508 43.064 -14.726 1 35.678 ? 5 F 1
+ATOM 44 O OD1 . ASP A F 5 ? 46.803 44.161 -15.265 1 40.223 ? 5 F 1
+ATOM 45 O OD2 . ASP A F 5 ? 47.27 42.42 -13.982 1 40.779 ? 5 F 1
+ATOM 46 N N . ASP A F 6 ? 41.642 42.773 -15.009 0.5 21.903 ? 6 F 1
+ATOM 47 C CA . ASP A F 6 ? 40.407 42.28 -15.589 0.5 22.179 ? 6 F 1
+ATOM 48 C C . ASP A F 6 ? 39.698 43.404 -16.36 0.5 25.795 ? 6 F 1
+ATOM 49 O O . ASP A F 6 ? 40.344 44.034 -17.209 0.5 26.732 ? 6 F 1
+ATOM 50 C CB . ASP A F 6 ? 39.479 41.784 -14.494 0.5 19.589 ? 6 F 1
+ATOM 51 C CG . ASP A F 6 ? 38.223 41.104 -15.001 0.5 18.918 ? 6 F 1
+ATOM 52 O OD1 . ASP A F 6 ? 38.115 40.832 -16.219 0.5 21.839 ? 6 F 1
+ATOM 53 O OD2 . ASP A F 6 ? 37.349 40.849 -14.155 0.5 19.837 ? 6 F 1
+
+_struct.title '8RMO: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+ASP N CA SING N 1
+ASP N H SING N 2
+ASP N H2 SING N 3
+ASP CA C SING N 4
+ASP CA CB SING N 5
+ASP CA HA SING N 6
+ASP C O DOUB N 7
+ASP C OXT SING N 8
+ASP CB CG SING N 9
+ASP CB HB2 SING N 10
+ASP CB HB3 SING N 11
+ASP CG OD1 DOUB N 12
+ASP CG OD2 SING N 13
+ASP OD2 HD2 SING N 14
+ASP OXT HXT SING N 15
+LYS N CA SING N 16
+LYS N H SING N 17
+LYS N H2 SING N 18
+LYS CA C SING N 19
+LYS CA CB SING N 20
+LYS CA HA SING N 21
+LYS C O DOUB N 22
+LYS C OXT SING N 23
+LYS CB CG SING N 24
+LYS CB HB2 SING N 25
+LYS CB HB3 SING N 26
+LYS CG CD SING N 27
+LYS CG HG2 SING N 28
+LYS CG HG3 SING N 29
+LYS CD CE SING N 30
+LYS CD HD2 SING N 31
+LYS CD HD3 SING N 32
+LYS CE NZ SING N 33
+LYS CE HE2 SING N 34
+LYS CE HE3 SING N 35
+LYS NZ HZ1 SING N 36
+LYS NZ HZ2 SING N 37
+LYS NZ HZ3 SING N 38
+LYS OXT HXT SING N 39
+TYR N CA SING N 40
+TYR N H SING N 41
+TYR N H2 SING N 42
+TYR CA C SING N 43
+TYR CA CB SING N 44
+TYR CA HA SING N 45
+TYR C O DOUB N 46
+TYR C OXT SING N 47
+TYR CB CG SING N 48
+TYR CB HB2 SING N 49
+TYR CB HB3 SING N 50
+TYR CG CD1 DOUB Y 51
+TYR CG CD2 SING Y 52
+TYR CD1 CE1 SING Y 53
+TYR CD1 HD1 SING N 54
+TYR CD2 CE2 DOUB Y 55
+TYR CD2 HD2 SING N 56
+TYR CE1 CZ DOUB Y 57
+TYR CE1 HE1 SING N 58
+TYR CE2 CZ SING Y 59
+TYR CE2 HE2 SING N 60
+TYR CZ OH SING N 61
+TYR OH HH SING N 62
+TYR OXT HXT SING N 63
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_auth_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_auth_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.ptnr2_auth_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_auth_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_dist_value
+covale1 covale F ASP 1 C F TYR 2 N 1.336
+covale2 covale F TYR 2 C F LYS 3 N 1.339
+covale3 covale F LYS 3 C F ASP 4 N 1.339
+covale4 covale F ASP 4 C F ASP 5 N 1.341
+covale5 covale F ASP 5 C F ASP 6 N 1.342

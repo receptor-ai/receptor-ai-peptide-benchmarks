@@ -1,0 +1,22 @@
+{
+  "case_id": "1D0A_entity2",
+  "pdb_id": "1D0A",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "Q12933",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.0,
+  "peptide_chain_id": "G",
+  "n_peptide_chain_copies": 6,
+  "peptide_length": 6,
+  "peptide_sequence": "XPIQEE",
+  "noncanonical_components": "ACE",
+  "n_protein_atoms": 1336,
+  "n_peptide_atoms": 46,
+  "dist_min_pocket": 2.513,
+  "dist_max_pocket": 122.326,
+  "peptide_contact_fraction": 0.966,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

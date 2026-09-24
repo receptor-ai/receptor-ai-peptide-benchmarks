@@ -1,0 +1,22 @@
+{
+  "case_id": "5VI6_entity2",
+  "pdb_id": "5VI6",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q9BY41",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.237,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 4,
+  "peptide_sequence": "FFXX",
+  "noncanonical_components": "CPI;5OM",
+  "n_protein_atoms": 2754,
+  "n_peptide_atoms": 45,
+  "dist_min_pocket": 2.629,
+  "dist_max_pocket": 47.284,
+  "peptide_contact_fraction": 0.833,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

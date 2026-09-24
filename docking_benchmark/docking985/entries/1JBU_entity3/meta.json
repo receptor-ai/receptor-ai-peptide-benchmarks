@@ -1,0 +1,22 @@
+{
+  "case_id": "1JBU_entity3",
+  "pdb_id": "1JBU",
+  "peptide_entity_id": "3",
+  "benchmarks": "CSPSet;PPDbench",
+  "uniprot_ids": "P08709",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.0,
+  "peptide_chain_id": "X",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 15,
+  "peptide_sequence": "EEWEVLCWTWETCER",
+  "noncanonical_components": "",
+  "n_protein_atoms": 2285,
+  "n_peptide_atoms": 140,
+  "dist_min_pocket": 2.66,
+  "dist_max_pocket": 63.229,
+  "peptide_contact_fraction": 0.767,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

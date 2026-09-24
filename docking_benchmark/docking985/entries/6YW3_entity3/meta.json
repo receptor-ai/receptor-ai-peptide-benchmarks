@@ -1,0 +1,22 @@
+{
+  "case_id": "6YW3_entity3",
+  "pdb_id": "6YW3",
+  "peptide_entity_id": "3",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q9GZT9",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.279,
+  "peptide_chain_id": "S",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 17,
+  "peptide_sequence": "DLDLEMLAPYIPMDDDFQL",
+  "noncanonical_components": "",
+  "n_protein_atoms": 1898,
+  "n_peptide_atoms": 134,
+  "dist_min_pocket": 2.651,
+  "dist_max_pocket": 48.391,
+  "peptide_contact_fraction": 0.766,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

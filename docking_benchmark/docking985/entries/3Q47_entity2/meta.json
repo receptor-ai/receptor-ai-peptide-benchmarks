@@ -1,0 +1,22 @@
+{
+  "case_id": "3Q47_entity2",
+  "pdb_id": "3Q47",
+  "peptide_entity_id": "2",
+  "benchmarks": "LEADS-PEP;ProtPep37_2021",
+  "uniprot_ids": "Q9WUD1",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.705,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 7,
+  "peptide_sequence": "SPHNPISDVD",
+  "noncanonical_components": "",
+  "n_protein_atoms": 1065,
+  "n_peptide_atoms": 53,
+  "dist_min_pocket": 2.682,
+  "dist_max_pocket": 46.266,
+  "peptide_contact_fraction": 0.903,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

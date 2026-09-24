@@ -1,0 +1,22 @@
+{
+  "case_id": "2BCD_entity2",
+  "pdb_id": "2BCD",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P36873",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.1,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 5,
+  "peptide_sequence": "DVXEX",
+  "noncanonical_components": "ACB;1ZN;FGA;MDH",
+  "n_protein_atoms": 2375,
+  "n_peptide_atoms": 55,
+  "dist_min_pocket": 2.613,
+  "dist_max_pocket": 45.679,
+  "peptide_contact_fraction": 0.891,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

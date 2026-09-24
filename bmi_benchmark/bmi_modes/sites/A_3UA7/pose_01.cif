@@ -1,0 +1,240 @@
+data_3UA7_E
+_entry.id '3UA7_E'
+
+_cell.entry_id '3UA7_E'
+_cell.length_a 51.39
+_cell.length_b 51.39
+_cell.length_c 185.59
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+
+_symmetry.entry_id '3UA7_E'
+_symmetry.space_group_name_H-M 'P 41 21 2'
+_symmetry.Int_Tables_number 92
+
+loop_
+_entity.id
+_entity.type
+P polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+P polypeptide(L) P ?
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ACE .
+ALA .
+ARG .
+ILE .
+PRO .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+Pxp P
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+HETATM 1 C C . ACE Pxp P 1 ? -10.486 -1.783 1.063 1 30.48 ? 0 P 1
+HETATM 2 O O . ACE Pxp P 1 ? -9.755 -0.793 0.807 1 35.29 ? 0 P 1
+HETATM 3 C CH3 . ACE Pxp P 1 ? -9.948 -3.183 1.191 1 28.78 ? 0 P 1
+ATOM 4 N N . ALA Pxp P 2 ? -11.758 -1.632 1.424 1 28.41 ? 1 P 1
+ATOM 5 C CA . ALA Pxp P 2 ? -12.596 -2.75 1.867 1 25.96 ? 1 P 1
+ATOM 6 C C . ALA Pxp P 2 ? -12.691 -3.866 0.828 1 23.02 ? 1 P 1
+ATOM 7 O O . ALA Pxp P 2 ? -12.808 -3.578 -0.356 1 24.8 ? 1 P 1
+ATOM 8 C CB . ALA Pxp P 2 ? -13.997 -2.225 2.175 1 25.47 ? 1 P 1
+ATOM 9 N N . PRO Pxp P 3 ? -12.691 -5.133 1.27 1 22.78 ? 2 P 1
+ATOM 10 C CA . PRO Pxp P 3 ? -12.92 -6.239 0.334 1 22.37 ? 2 P 1
+ATOM 11 C C . PRO Pxp P 3 ? -14.374 -6.341 -0.147 1 21.32 ? 2 P 1
+ATOM 12 O O . PRO Pxp P 3 ? -15.298 -5.76 0.452 1 17.56 ? 2 P 1
+ATOM 13 C CB . PRO Pxp P 3 ? -12.582 -7.468 1.152 1 24.55 ? 2 P 1
+ATOM 14 C CG . PRO Pxp P 3 ? -13.015 -7.058 2.569 1 24.81 ? 2 P 1
+ATOM 15 C CD . PRO Pxp P 3 ? -12.723 -5.581 2.679 1 22.33 ? 2 P 1
+ATOM 16 N N . PRO Pxp P 4 ? -14.56 -7.098 -1.23 1 19.65 ? 3 P 1
+ATOM 17 C CA . PRO Pxp P 4 ? -15.939 -7.391 -1.58 1 19.06 ? 3 P 1
+ATOM 18 C C . PRO Pxp P 4 ? -16.722 -8.043 -0.439 1 18.47 ? 3 P 1
+ATOM 19 O O . PRO Pxp P 4 ? -16.223 -8.948 0.241 1 20.03 ? 3 P 1
+ATOM 20 C CB . PRO Pxp P 4 ? -15.825 -8.315 -2.785 1 19.86 ? 3 P 1
+ATOM 21 C CG . PRO Pxp P 4 ? -14.416 -8.225 -3.259 1 22.79 ? 3 P 1
+ATOM 22 C CD . PRO Pxp P 4 ? -13.591 -7.866 -2.06 1 21.54 ? 3 P 1
+ATOM 23 N N . ILE Pxp P 5 ? -17.967 -7.641 -0.262 1 16.9 ? 4 P 1
+ATOM 24 C CA . ILE Pxp P 5 ? -18.824 -8.39 0.655 1 17.87 ? 4 P 1
+ATOM 25 C C . ILE Pxp P 5 ? -19.068 -9.821 0.236 1 18.29 ? 4 P 1
+ATOM 26 O O . ILE Pxp P 5 ? -18.921 -10.166 -0.943 1 17.68 ? 4 P 1
+ATOM 27 C CB . ILE Pxp P 5 ? -20.156 -7.643 0.874 1 19.33 ? 4 P 1
+ATOM 28 C CG1 . ILE Pxp P 5 ? -21.073 -7.702 -0.383 1 15.81 ? 4 P 1
+ATOM 29 C CG2 . ILE Pxp P 5 ? -19.86 -6.211 1.432 1 20.84 ? 4 P 1
+ATOM 30 C CD1 . ILE Pxp P 5 ? -22.438 -7.101 -0.093 1 19.74 ? 4 P 1
+ATOM 31 N N . PRO Pxp P 6 ? -19.399 -10.697 1.195 1 16.4 ? 5 P 1
+ATOM 32 C CA . PRO Pxp P 6 ? -19.7 -12.069 0.819 1 19.24 ? 5 P 1
+ATOM 33 C C . PRO Pxp P 6 ? -20.992 -12.151 -0.008 1 18.1 ? 5 P 1
+ATOM 34 O O . PRO Pxp P 6 ? -21.784 -11.244 0.002 1 17.5 ? 5 P 1
+ATOM 35 C CB . PRO Pxp P 6 ? -19.911 -12.755 2.18 1 20.17 ? 5 P 1
+ATOM 36 C CG . PRO Pxp P 6 ? -19.137 -11.894 3.193 1 17.97 ? 5 P 1
+ATOM 37 C CD . PRO Pxp P 6 ? -19.453 -10.499 2.664 1 16.34 ? 5 P 1
+ATOM 38 N N . PRO Pxp P 7 ? -21.19 -13.249 -0.737 1 18.31 ? 6 P 1
+ATOM 39 C CA . PRO Pxp P 7 ? -22.477 -13.52 -1.378 1 20.14 ? 6 P 1
+ATOM 40 C C . PRO Pxp P 7 ? -23.646 -13.552 -0.377 1 22.57 ? 6 P 1
+ATOM 41 O O . PRO Pxp P 7 ? -23.432 -13.77 0.822 1 23.76 ? 6 P 1
+ATOM 42 C CB . PRO Pxp P 7 ? -22.286 -14.919 -1.975 1 20.72 ? 6 P 1
+ATOM 43 C CG . PRO Pxp P 7 ? -20.785 -15.082 -2.156 1 21.89 ? 6 P 1
+ATOM 44 C CD . PRO Pxp P 7 ? -20.217 -14.334 -0.915 1 20.03 ? 6 P 1
+ATOM 45 N N . PRO Pxp P 8 ? -24.861 -13.197 -0.83 1 25.54 ? 7 P 1
+ATOM 46 C CA . PRO Pxp P 8 ? -25.956 -12.962 0.122 1 28.35 ? 7 P 1
+ATOM 47 C C . PRO Pxp P 8 ? -26.239 -14.217 0.967 1 33.51 ? 7 P 1
+ATOM 48 O O . PRO Pxp P 8 ? -25.948 -15.342 0.537 1 34.82 ? 7 P 1
+ATOM 49 C CB . PRO Pxp P 8 ? -27.163 -12.645 -0.791 1 29.2 ? 7 P 1
+ATOM 50 C CG . PRO Pxp P 8 ? -26.686 -12.973 -2.218 1 27.58 ? 7 P 1
+ATOM 51 C CD . PRO Pxp P 8 ? -25.223 -12.819 -2.209 1 23.77 ? 7 P 1
+ATOM 52 N N . ARG Pxp P 9 ? -26.8 -14.016 2.155 1 36.52 ? 8 P 1
+ATOM 53 C CA . ARG Pxp P 9 ? -27.118 -15.123 3.049 1 40.34 ? 8 P 1
+ATOM 54 C C . ARG Pxp P 9 ? -27.68 -16.312 2.277 1 42.49 ? 8 P 1
+ATOM 55 O O . ARG Pxp P 9 ? -28.895 -16.5 2.207 1 45.52 ? 8 P 1
+ATOM 56 C CB . ARG Pxp P 9 ? -28.111 -14.676 4.124 1 41.34 ? 8 P 1
+ATOM 57 C CG . ARG Pxp P 9 ? -27.459 -14.09 5.366 1 39.18 ? 8 P 1
+ATOM 58 C CD . ARG Pxp P 9 ? -28.502 -13.629 6.371 1 38.14 ? 8 P 1
+ATOM 59 N NE . ARG Pxp P 9 ? -28.99 -12.285 6.075 1 45.42 ? 8 P 1
+ATOM 60 C CZ . ARG Pxp P 9 ? -28.205 -11.227 5.903 1 46.93 ? 8 P 1
+ATOM 61 N NH1 . ARG Pxp P 9 ? -26.888 -11.353 5.996 1 51.26 ? 8 P 1
+ATOM 62 N NH2 . ARG Pxp P 9 ? -28.736 -10.041 5.637 1 49.26 ? 8 P 1
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+ACE C O DOUB N 1
+ACE C CH3 SING N 2
+ACE C H SING N 3
+ACE CH3 H1 SING N 4
+ACE CH3 H2 SING N 5
+ACE CH3 H3 SING N 6
+ALA N CA SING N 7
+ALA N H SING N 8
+ALA N H2 SING N 9
+ALA CA C SING N 10
+ALA CA CB SING N 11
+ALA CA HA SING N 12
+ALA C O DOUB N 13
+ALA C OXT SING N 14
+ALA CB HB1 SING N 15
+ALA CB HB2 SING N 16
+ALA CB HB3 SING N 17
+ALA OXT HXT SING N 18
+ARG N CA SING N 19
+ARG N H SING N 20
+ARG N H2 SING N 21
+ARG CA C SING N 22
+ARG CA CB SING N 23
+ARG CA HA SING N 24
+ARG C O DOUB N 25
+ARG C OXT SING N 26
+ARG CB CG SING N 27
+ARG CB HB2 SING N 28
+ARG CB HB3 SING N 29
+ARG CG CD SING N 30
+ARG CG HG2 SING N 31
+ARG CG HG3 SING N 32
+ARG CD NE SING N 33
+ARG CD HD2 SING N 34
+ARG CD HD3 SING N 35
+ARG NE CZ SING N 36
+ARG NE HE SING N 37
+ARG CZ NH1 SING N 38
+ARG CZ NH2 DOUB N 39
+ARG NH1 HH11 SING N 40
+ARG NH1 HH12 SING N 41
+ARG NH2 HH21 SING N 42
+ARG NH2 HH22 SING N 43
+ARG OXT HXT SING N 44
+ILE N CA SING N 45
+ILE N H SING N 46
+ILE N H2 SING N 47
+ILE CA C SING N 48
+ILE CA CB SING N 49
+ILE CA HA SING N 50
+ILE C O DOUB N 51
+ILE C OXT SING N 52
+ILE CB CG1 SING N 53
+ILE CB CG2 SING N 54
+ILE CB HB SING N 55
+ILE CG1 CD1 SING N 56
+ILE CG1 HG12 SING N 57
+ILE CG1 HG13 SING N 58
+ILE CG2 HG21 SING N 59
+ILE CG2 HG22 SING N 60
+ILE CG2 HG23 SING N 61
+ILE CD1 HD11 SING N 62
+ILE CD1 HD12 SING N 63
+ILE CD1 HD13 SING N 64
+ILE OXT HXT SING N 65
+PRO N CA SING N 66
+PRO N CD SING N 67
+PRO N H SING N 68
+PRO CA C SING N 69
+PRO CA CB SING N 70
+PRO CA HA SING N 71
+PRO C O DOUB N 72
+PRO C OXT SING N 73
+PRO CB CG SING N 74
+PRO CB HB2 SING N 75
+PRO CB HB3 SING N 76
+PRO CG CD SING N 77
+PRO CG HG2 SING N 78
+PRO CG HG3 SING N 79
+PRO CD HD2 SING N 80
+PRO CD HD3 SING N 81
+PRO OXT HXT SING N 82
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_auth_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_auth_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.ptnr2_auth_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_auth_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_dist_value
+covale1 covale P PRO 3 C P ILE 4 N 1.320
+covale2 covale P PRO 7 C P ARG 8 N 1.329
+covale3 covale P ACE 0 C P ALA 1 N 1.331
+covale4 covale P PRO 5 C P PRO 6 N 1.333
+covale5 covale P PRO 2 C P PRO 3 N 1.334
+covale6 covale P ILE 4 C P PRO 5 N 1.340
+covale7 covale P ALA 1 C P PRO 2 N 1.342
+covale8 covale P PRO 6 C P PRO 7 N 1.344

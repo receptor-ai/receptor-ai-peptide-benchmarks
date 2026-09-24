@@ -1,0 +1,22 @@
+{
+  "case_id": "4ZQW_entity2",
+  "pdb_id": "4ZQW",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "B3BM81",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.001,
+  "peptide_chain_id": "A",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 13,
+  "peptide_sequence": "SAKEYALSGRELT",
+  "noncanonical_components": "ORN",
+  "n_protein_atoms": 1335,
+  "n_peptide_atoms": 102,
+  "dist_min_pocket": 2.21,
+  "dist_max_pocket": 53.329,
+  "peptide_contact_fraction": 0.959,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "5V2Q_entity2",
+  "pdb_id": "5V2Q",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q8VGC3",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.7,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 20,
+  "peptide_sequence": "ASPLEEDLCGYLCWITQAE",
+  "noncanonical_components": "8VY",
+  "n_protein_atoms": 2372,
+  "n_peptide_atoms": 156,
+  "dist_min_pocket": 2.572,
+  "dist_max_pocket": 81.251,
+  "peptide_contact_fraction": 0.547,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

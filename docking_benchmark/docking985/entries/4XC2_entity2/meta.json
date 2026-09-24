@@ -1,0 +1,22 @@
+{
+  "case_id": "4XC2_entity2",
+  "pdb_id": "4XC2",
+  "peptide_entity_id": "2",
+  "benchmarks": "PepSet",
+  "uniprot_ids": "O95166",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.9,
+  "peptide_chain_id": "E",
+  "n_peptide_chain_copies": 4,
+  "peptide_length": 11,
+  "peptide_sequence": "SDDDFWVRVAP",
+  "noncanonical_components": "",
+  "n_protein_atoms": 974,
+  "n_peptide_atoms": 92,
+  "dist_min_pocket": 2.442,
+  "dist_max_pocket": 114.141,
+  "peptide_contact_fraction": 0.926,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

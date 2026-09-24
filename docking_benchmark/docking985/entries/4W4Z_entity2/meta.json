@@ -1,0 +1,22 @@
+{
+  "case_id": "4W4Z_entity2",
+  "pdb_id": "4W4Z",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P54764",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.41,
+  "peptide_chain_id": "E",
+  "n_peptide_chain_copies": 4,
+  "peptide_length": 13,
+  "peptide_sequence": "APYCVYRXSWSCX",
+  "noncanonical_components": "BAL;NH2",
+  "n_protein_atoms": 1428,
+  "n_peptide_atoms": 98,
+  "dist_min_pocket": 2.521,
+  "dist_max_pocket": 107.638,
+  "peptide_contact_fraction": 0.732,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

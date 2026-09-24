@@ -1,0 +1,286 @@
+data_3AV9
+_entry.id 3AV9
+
+_cell.entry_id 3AV9
+_cell.length_a 70.958
+_cell.length_b 70.958
+_cell.length_c 67.054
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 120
+
+_symmetry.entry_id 3AV9
+_symmetry.space_group_name_H-M 'P 31'
+_symmetry.Int_Tables_number 144
+
+loop_
+_entity.id
+_entity.type
+X polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+X polypeptide(L) X ?
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ALA .
+ASN .
+ASP .
+ILE .
+LEU .
+LYS .
+SER .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+C X
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_auth_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_auth_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.ptnr2_auth_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_auth_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_dist_value
+covale1 covale X ASN 6 C X LEU 7 N 1.326
+covale2 covale X LYS 3 C X ILE 4 N 1.335
+covale3 covale X LEU 7 C X ASP 8 N 1.336
+covale4 covale X ASP 5 C X ASN 6 N 1.337
+covale5 covale X ALA 2 C X LYS 3 N 1.338
+covale6 covale X SER 1 C X ALA 2 N 1.344
+covale7 covale X ILE 4 C X ASP 5 N 1.346
+covale8 covale X SER 1 N X ASP 8 C 1.351
+
+loop_
+_struct_conn_type.id
+covale
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . SER C X 1 ? 9.565 -53.709 3.071 1 53.65 ? 1 X 1
+ATOM 2 C CA . SER C X 1 ? 9.793 -53.709 4.553 1 53.12 ? 1 X 1
+ATOM 3 C C . SER C X 1 ? 9.122 -52.6 5.409 1 51.79 ? 1 X 1
+ATOM 4 O O . SER C X 1 ? 9.669 -52.165 6.465 1 51.82 ? 1 X 1
+ATOM 5 C CB . SER C X 1 ? 11.279 -53.965 4.943 1 54.14 ? 1 X 1
+ATOM 6 O OG . SER C X 1 ? 12.174 -52.991 4.413 1 58.62 ? 1 X 1
+ATOM 7 N N . ALA C X 2 ? 7.937 -52.167 4.946 1 48.89 ? 2 X 1
+ATOM 8 C CA . ALA C X 2 ? 7.115 -51.087 5.552 1 46.03 ? 2 X 1
+ATOM 9 C C . ALA C X 2 ? 7.849 -49.743 5.649 1 44.59 ? 2 X 1
+ATOM 10 O O . ALA C X 2 ? 7.685 -48.976 6.647 1 45.28 ? 2 X 1
+ATOM 11 C CB . ALA C X 2 ? 6.483 -51.503 6.938 1 46.82 ? 2 X 1
+ATOM 12 N N . LYS C X 3 ? 8.622 -49.427 4.604 1 39.91 ? 3 X 1
+ATOM 13 C CA . LYS C X 3 ? 9.272 -48.098 4.531 1 34.67 ? 3 X 1
+ATOM 14 C C . LYS C X 3 ? 8.813 -47.458 3.26 1 33.45 ? 3 X 1
+ATOM 15 O O . LYS C X 3 ? 8.484 -48.176 2.296 1 31.57 ? 3 X 1
+ATOM 16 C CB . LYS C X 3 ? 10.787 -48.236 4.462 1 34.75 ? 3 X 1
+ATOM 17 C CG . LYS C X 3 ? 11.479 -49.065 5.529 1 34.67 ? 3 X 1
+ATOM 18 C CD . LYS C X 3 ? 11.279 -48.44 6.89 1 32.05 ? 3 X 1
+ATOM 19 C CE . LYS C X 3 ? 12.219 -49.097 7.886 1 41.1 ? 3 X 1
+ATOM 20 N NZ . LYS C X 3 ? 11.718 -48.948 9.277 1 41.95 ? 3 X 1
+ATOM 21 N N . ILE C X 4 ? 8.757 -46.124 3.232 0.6 33.32 ? 4 X 1
+ATOM 22 C CA . ILE C X 4 ? 8.278 -45.396 2.036 0.6 32.8 ? 4 X 1
+ATOM 23 C C . ILE C X 4 ? 9.115 -45.837 0.828 0.6 32.73 ? 4 X 1
+ATOM 24 O O . ILE C X 4 ? 8.596 -46.003 -0.325 0.6 30.91 ? 4 X 1
+ATOM 25 C CB . ILE C X 4 ? 8.325 -43.838 2.278 0.6 33.71 ? 4 X 1
+ATOM 26 C CG1 . ILE C X 4 ? 7.129 -43.12 1.626 0.6 33.87 ? 4 X 1
+ATOM 27 C CG2 . ILE C X 4 ? 9.626 -43.227 1.799 0.6 34.72 ? 4 X 1
+ATOM 28 C CD1 . ILE C X 4 ? 5.842 -43.16 2.496 0.6 29.3 ? 4 X 1
+ATOM 29 N N . ASP C X 5 ? 10.423 -46.017 1.088 1 31.11 ? 5 X 1
+ATOM 30 C CA . ASP C X 5 ? 11.384 -46.212 0.018 1 33 ? 5 X 1
+ATOM 31 C C . ASP C X 5 ? 11.595 -47.674 -0.255 1 36.64 ? 5 X 1
+ATOM 32 O O . ASP C X 5 ? 12.386 -48.004 -1.129 1 37.96 ? 5 X 1
+ATOM 33 C CB . ASP C X 5 ? 12.789 -45.526 0.211 1 32.14 ? 5 X 1
+ATOM 34 C CG . ASP C X 5 ? 13.415 -45.783 1.568 1 28.58 ? 5 X 1
+ATOM 35 O OD1 . ASP C X 5 ? 14.602 -45.344 1.814 1 24.3 ? 5 X 1
+ATOM 36 O OD2 . ASP C X 5 ? 12.737 -46.401 2.43 1 27.14 ? 5 X 1
+ATOM 37 N N . ASN C X 6 ? 10.928 -48.521 0.536 1 37.9 ? 6 X 1
+ATOM 38 C CA . ASN C X 6 ? 11.015 -49.969 0.407 1 41.26 ? 6 X 1
+ATOM 39 C C . ASN C X 6 ? 9.703 -50.516 1.01 1 41.65 ? 6 X 1
+ATOM 40 O O . ASN C X 6 ? 9.591 -50.906 2.231 1 41.21 ? 6 X 1
+ATOM 41 C CB . ASN C X 6 ? 12.254 -50.497 1.099 1 41.53 ? 6 X 1
+ATOM 42 C CG . ASN C X 6 ? 12.475 -51.995 0.835 1 48.66 ? 6 X 1
+ATOM 43 O OD1 . ASN C X 6 ? 11.923 -52.559 -0.119 1 51.95 ? 6 X 1
+ATOM 44 N ND2 . ASN C X 6 ? 13.287 -52.643 1.695 1 51.53 ? 6 X 1
+ATOM 45 N N . LEU C X 7 ? 8.673 -50.465 0.177 1 41.53 ? 7 X 1
+ATOM 46 C CA . LEU C X 7 ? 7.329 -50.798 0.68 1 43.77 ? 7 X 1
+ATOM 47 C C . LEU C X 7 ? 7.319 -52.263 1.181 1 46.23 ? 7 X 1
+ATOM 48 O O . LEU C X 7 ? 6.663 -52.584 2.191 1 46.09 ? 7 X 1
+ATOM 49 C CB . LEU C X 7 ? 6.254 -50.491 -0.383 1 41.7 ? 7 X 1
+ATOM 50 C CG . LEU C X 7 ? 5.869 -49 -0.5 1 41.29 ? 7 X 1
+ATOM 51 C CD1 . LEU C X 7 ? 4.807 -48.991 -1.548 1 39.25 ? 7 X 1
+ATOM 52 C CD2 . LEU C X 7 ? 5.302 -48.342 0.813 1 36.61 ? 7 X 1
+ATOM 53 N N . ASP C X 8 ? 8.137 -53.098 0.535 1 49.4 ? 8 X 1
+ATOM 54 C CA . ASP C X 8 ? 8.41 -54.486 0.994 1 52.94 ? 8 X 1
+ATOM 55 C C . ASP C X 8 ? 8.793 -54.653 2.49 1 53.76 ? 8 X 1
+ATOM 56 O O . ASP C X 8 ? 8.357 -55.646 3.12 1 54.52 ? 8 X 1
+ATOM 57 C CB . ASP C X 8 ? 9.438 -55.169 0.07 1 54.03 ? 8 X 1
+ATOM 58 C CG . ASP C X 8 ? 8.782 -55.865 -1.155 1 58.03 ? 8 X 1
+ATOM 59 O OD1 . ASP C X 8 ? 7.522 -55.919 -1.247 1 60.14 ? 8 X 1
+ATOM 60 O OD2 . ASP C X 8 ? 9.55 -56.353 -2.027 1 61.31 ? 8 X 1
+
+_struct.title '3AV9: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+ALA N CA SING N 1
+ALA N H SING N 2
+ALA N H2 SING N 3
+ALA CA C SING N 4
+ALA CA CB SING N 5
+ALA CA HA SING N 6
+ALA C O DOUB N 7
+ALA C OXT SING N 8
+ALA CB HB1 SING N 9
+ALA CB HB2 SING N 10
+ALA CB HB3 SING N 11
+ALA OXT HXT SING N 12
+ASN N CA SING N 13
+ASN N H SING N 14
+ASN N H2 SING N 15
+ASN CA C SING N 16
+ASN CA CB SING N 17
+ASN CA HA SING N 18
+ASN C O DOUB N 19
+ASN C OXT SING N 20
+ASN CB CG SING N 21
+ASN CB HB2 SING N 22
+ASN CB HB3 SING N 23
+ASN CG OD1 DOUB N 24
+ASN CG ND2 SING N 25
+ASN ND2 HD21 SING N 26
+ASN ND2 HD22 SING N 27
+ASN OXT HXT SING N 28
+ASP N CA SING N 29
+ASP N H SING N 30
+ASP N H2 SING N 31
+ASP CA C SING N 32
+ASP CA CB SING N 33
+ASP CA HA SING N 34
+ASP C O DOUB N 35
+ASP C OXT SING N 36
+ASP CB CG SING N 37
+ASP CB HB2 SING N 38
+ASP CB HB3 SING N 39
+ASP CG OD1 DOUB N 40
+ASP CG OD2 SING N 41
+ASP OD2 HD2 SING N 42
+ASP OXT HXT SING N 43
+ILE N CA SING N 44
+ILE N H SING N 45
+ILE N H2 SING N 46
+ILE CA C SING N 47
+ILE CA CB SING N 48
+ILE CA HA SING N 49
+ILE C O DOUB N 50
+ILE C OXT SING N 51
+ILE CB CG1 SING N 52
+ILE CB CG2 SING N 53
+ILE CB HB SING N 54
+ILE CG1 CD1 SING N 55
+ILE CG1 HG12 SING N 56
+ILE CG1 HG13 SING N 57
+ILE CG2 HG21 SING N 58
+ILE CG2 HG22 SING N 59
+ILE CG2 HG23 SING N 60
+ILE CD1 HD11 SING N 61
+ILE CD1 HD12 SING N 62
+ILE CD1 HD13 SING N 63
+ILE OXT HXT SING N 64
+LEU N CA SING N 65
+LEU N H SING N 66
+LEU N H2 SING N 67
+LEU CA C SING N 68
+LEU CA CB SING N 69
+LEU CA HA SING N 70
+LEU C O DOUB N 71
+LEU C OXT SING N 72
+LEU CB CG SING N 73
+LEU CB HB2 SING N 74
+LEU CB HB3 SING N 75
+LEU CG CD1 SING N 76
+LEU CG CD2 SING N 77
+LEU CG HG SING N 78
+LEU CD1 HD11 SING N 79
+LEU CD1 HD12 SING N 80
+LEU CD1 HD13 SING N 81
+LEU CD2 HD21 SING N 82
+LEU CD2 HD22 SING N 83
+LEU CD2 HD23 SING N 84
+LEU OXT HXT SING N 85
+LYS N CA SING N 86
+LYS N H SING N 87
+LYS N H2 SING N 88
+LYS CA C SING N 89
+LYS CA CB SING N 90
+LYS CA HA SING N 91
+LYS C O DOUB N 92
+LYS C OXT SING N 93
+LYS CB CG SING N 94
+LYS CB HB2 SING N 95
+LYS CB HB3 SING N 96
+LYS CG CD SING N 97
+LYS CG HG2 SING N 98
+LYS CG HG3 SING N 99
+LYS CD CE SING N 100
+LYS CD HD2 SING N 101
+LYS CD HD3 SING N 102
+LYS CE NZ SING N 103
+LYS CE HE2 SING N 104
+LYS CE HE3 SING N 105
+LYS NZ HZ1 SING N 106
+LYS NZ HZ2 SING N 107
+LYS NZ HZ3 SING N 108
+LYS OXT HXT SING N 109
+SER N CA SING N 110
+SER N H SING N 111
+SER N H2 SING N 112
+SER CA C SING N 113
+SER CA CB SING N 114
+SER CA HA SING N 115
+SER C O DOUB N 116
+SER C OXT SING N 117
+SER CB OG SING N 118
+SER CB HB2 SING N 119
+SER CB HB3 SING N 120
+SER OG HG SING N 121
+SER OXT HXT SING N 122

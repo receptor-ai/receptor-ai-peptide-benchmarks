@@ -1,0 +1,193 @@
+data_1VDN
+_entry.id 1VDN
+
+_cell.entry_id 1VDN
+_cell.length_a 31.737
+_cell.length_b 40.009
+_cell.length_c 112.736
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+
+_symmetry.entry_id 1VDN
+_symmetry.space_group_name_H-M 'P 21 21 21'
+_symmetry.Int_Tables_number 19
+
+loop_
+_entity.id
+_entity.type
+B polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+B polypeptide(L) B ?
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ACE .
+ALA .
+MCM .
+PRO .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+B B
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_dist_value
+covale1 covale B ALA 2 C B ALA 3 N 1.329
+covale2 covale B PRO 4 C B ALA 5 N 1.331
+covale3 covale B ACE 1 C B ALA 2 N 1.334
+covale4 covale B ALA 5 C B MCM 6 N 1.335
+covale5 covale B ALA 3 C B PRO 4 N 1.344
+
+loop_
+_struct_conn_type.id
+covale
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+HETATM 1 C C . ACE B B 1 ? -28.633 29.721 -15.286 1 12.06 ? 1 B 1
+HETATM 2 O O . ACE B B 1 ? -27.729 30.548 -15.077 1 13.7 ? 1 B 1
+ATOM 3 N N . ALA B B 2 ? -29.688 29.605 -14.478 1 11.28 ? 2 B 1
+ATOM 4 C CA . ALA B B 2 ? -29.992 30.585 -13.438 1 12.02 ? 2 B 1
+ATOM 5 C C . ALA B B 2 ? -29.485 30.141 -12.066 1 11.61 ? 2 B 1
+ATOM 6 O O . ALA B B 2 ? -29.58 30.889 -11.095 1 11.58 ? 2 B 1
+ATOM 7 C CB . ALA B B 2 ? -31.5 30.842 -13.382 1 12.4 ? 2 B 1
+ATOM 8 N N . ALA B B 3 ? -28.968 28.919 -11.985 1 10.9 ? 3 B 1
+ATOM 9 C CA . ALA B B 3 ? -28.421 28.404 -10.729 1 11.54 ? 3 B 1
+ATOM 10 C C . ALA B B 3 ? -26.914 28.633 -10.81 1 11.99 ? 3 B 1
+ATOM 11 O O . ALA B B 3 ? -26.333 28.549 -11.892 1 12.76 ? 3 B 1
+ATOM 12 C CB . ALA B B 3 ? -28.726 26.922 -10.593 1 11.49 ? 3 B 1
+ATOM 13 N N . PRO B B 4 ? -26.249 28.876 -9.668 1 11.46 ? 4 B 1
+ATOM 14 C CA . PRO B B 4 ? -26.759 28.95 -8.294 1 11.36 ? 4 B 1
+ATOM 15 C C . PRO B B 4 ? -27.589 30.179 -7.938 1 12.44 ? 4 B 1
+ATOM 16 O O . PRO B B 4 ? -27.27 31.302 -8.331 1 13.27 ? 4 B 1
+ATOM 17 C CB . PRO B B 4 ? -25.488 28.863 -7.465 1 10.2 ? 4 B 1
+ATOM 18 C CG . PRO B B 4 ? -24.53 29.66 -8.293 1 10.49 ? 4 B 1
+ATOM 19 C CD . PRO B B 4 ? -24.795 29.124 -9.689 1 11.78 ? 4 B 1
+ATOM 20 N N . ALA B B 5 ? -28.648 29.949 -7.166 1 13.06 ? 5 B 1
+ATOM 21 C CA . ALA B B 5 ? -29.542 31.017 -6.734 1 14.13 ? 5 B 1
+ATOM 22 C C . ALA B B 5 ? -28.841 31.956 -5.761 1 14.17 ? 5 B 1
+ATOM 23 O O . ALA B B 5 ? -28.013 31.515 -4.959 1 15.78 ? 5 B 1
+ATOM 24 C CB . ALA B B 5 ? -30.785 30.418 -6.077 1 13.8 ? 5 B 1
+HETATM 25 N N . MCM B B 6 ? -29.202 33.239 -5.84 1 14.36 ? 6 B 1
+HETATM 26 C CA . MCM B B 6 ? -28.684 34.272 -5.042 1 13.6 ? 6 B 1
+HETATM 27 C C2 . MCM B B 6 ? -27.791 34.072 -3.964 1 13.92 ? 6 B 1
+HETATM 28 C C3 . MCM B B 6 ? -27.313 35.155 -3.216 1 14.62 ? 6 B 1
+HETATM 29 C C4 . MCM B B 6 ? -25.929 35.987 -1.391 1 14.84 ? 6 B 1
+HETATM 30 C C5 . MCM B B 6 ? -26.329 37.305 -1.693 1 15.78 ? 6 B 1
+HETATM 31 C C6 . MCM B B 6 ? -27.222 37.573 -2.754 1 15.4 ? 6 B 1
+HETATM 32 C C7 . MCM B B 6 ? -27.728 36.483 -3.537 1 15.18 ? 6 B 1
+HETATM 33 C C8 . MCM B B 6 ? -28.632 36.694 -4.624 1 14.83 ? 6 B 1
+HETATM 34 C C9 . MCM B B 6 ? -29.099 35.584 -5.365 1 14.47 ? 6 B 1
+HETATM 35 C C10 . MCM B B 6 ? -27.589 38.897 -3.015 1 17.15 ? 6 B 1
+HETATM 36 O O1 . MCM B B 6 ? -26.435 34.932 -2.166 1 14.99 ? 6 B 1
+HETATM 37 O O2 . MCM B B 6 ? -25.064 35.729 -0.367 1 18.35 ? 6 B 1
+
+_struct.title '1VDN: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+ACE C O DOUB N 1
+ACE C CH3 SING N 2
+ACE C H SING N 3
+ACE CH3 H1 SING N 4
+ACE CH3 H2 SING N 5
+ACE CH3 H3 SING N 6
+ALA N CA SING N 7
+ALA N H SING N 8
+ALA N H2 SING N 9
+ALA CA C SING N 10
+ALA CA CB SING N 11
+ALA CA HA SING N 12
+ALA C O DOUB N 13
+ALA C OXT SING N 14
+ALA CB HB1 SING N 15
+ALA CB HB2 SING N 16
+ALA CB HB3 SING N 17
+ALA OXT HXT SING N 18
+MCM N CA SING N 19
+MCM N HN1 SING N 20
+MCM N HN2 SING N 21
+MCM CA C2 DOUB Y 22
+MCM CA C9 SING Y 23
+MCM C2 C3 SING Y 24
+MCM C2 H2 SING N 25
+MCM C3 C7 DOUB Y 26
+MCM C3 O1 SING Y 27
+MCM C4 C5 SING Y 28
+MCM C4 O1 SING Y 29
+MCM C4 O2 DOUB N 30
+MCM C5 C6 DOUB Y 31
+MCM C5 H5 SING N 32
+MCM C6 C7 SING Y 33
+MCM C6 C10 SING N 34
+MCM C7 C8 SING Y 35
+MCM C8 C9 DOUB Y 36
+MCM C8 H8 SING N 37
+MCM C9 H9 SING N 38
+MCM C10 H101 SING N 39
+MCM C10 H102 SING N 40
+MCM C10 H103 SING N 41
+PRO N CA SING N 42
+PRO N CD SING N 43
+PRO N H SING N 44
+PRO CA C SING N 45
+PRO CA CB SING N 46
+PRO CA HA SING N 47
+PRO C O DOUB N 48
+PRO C OXT SING N 49
+PRO CB CG SING N 50
+PRO CB HB2 SING N 51
+PRO CB HB3 SING N 52
+PRO CG CD SING N 53
+PRO CG HG2 SING N 54
+PRO CG HG3 SING N 55
+PRO CD HD2 SING N 56
+PRO CD HD3 SING N 57
+PRO OXT HXT SING N 58

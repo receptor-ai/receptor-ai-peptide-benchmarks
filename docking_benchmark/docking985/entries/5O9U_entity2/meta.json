@@ -1,0 +1,22 @@
+{
+  "case_id": "5O9U_entity2",
+  "pdb_id": "5O9U",
+  "peptide_entity_id": "2",
+  "benchmarks": "PepSet",
+  "uniprot_ids": "P30419",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.85,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 9,
+  "peptide_sequence": "GCSVSKKK",
+  "noncanonical_components": "MYR",
+  "n_protein_atoms": 3262,
+  "n_peptide_atoms": 72,
+  "dist_min_pocket": 2.669,
+  "dist_max_pocket": 102.356,
+  "peptide_contact_fraction": 1.0,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

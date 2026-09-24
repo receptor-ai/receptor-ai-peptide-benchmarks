@@ -1,0 +1,22 @@
+{
+  "case_id": "5AH4_entity2",
+  "pdb_id": "5AH4",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "A0QND6",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.313,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 11,
+  "peptide_sequence": "XVPTLPLVPXG",
+  "noncanonical_components": "ACE;MVA;MP8;NZC;MP8;MVA;PH6;MLU",
+  "n_protein_atoms": 2800,
+  "n_peptide_atoms": 85,
+  "dist_min_pocket": 2.722,
+  "dist_max_pocket": 77.939,
+  "peptide_contact_fraction": 0.859,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

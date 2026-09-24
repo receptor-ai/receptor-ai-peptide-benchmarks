@@ -1,0 +1,22 @@
+{
+  "case_id": "1T7D_entity2",
+  "pdb_id": "1T7D",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P00803",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.47,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 7,
+  "peptide_sequence": "SAGGAY",
+  "noncanonical_components": "DSE;DAL;5PG;M12",
+  "n_protein_atoms": 1660,
+  "n_peptide_atoms": 49,
+  "dist_min_pocket": 2.5,
+  "dist_max_pocket": 99.511,
+  "peptide_contact_fraction": 0.811,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

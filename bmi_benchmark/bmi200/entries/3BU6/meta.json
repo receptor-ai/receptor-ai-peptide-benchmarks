@@ -1,0 +1,996 @@
+{
+ "built_utc": "2026-08-03T15:30:01Z",
+ "decisions": {
+  "altloc": {
+   "n_atoms_dropped": 0,
+   "n_residues_with_altloc": 0,
+   "rule": "one altloc per residue: highest mean occupancy over the residue's atoms, ties broken by first letter; retained atoms written with a blank altloc and their original occupancy"
+  },
+  "hetero": {
+   "components": [],
+   "n_dropped": 0,
+   "n_kept": 0,
+   "n_waters_dropped": 213,
+   "peptide_covalent_moieties": [],
+   "rule": "drop water always; keep any component with a heavy atom within 5.0 A of the retained peptide (flagged additive_in_peptide_site when it is on the crystallisation additive list); keep components covalently or metal-bonded to a retained polymer per _struct_conn; keep curated cofactors within 6.0 A of a retained receptor chain; keep metal ions with >=2 protein donor atoms within 3.0 A; drop everything else and record it"
+  },
+  "hydrogens": {
+   "deposited_had_hydrogens": false,
+   "n_removed": 0,
+   "rule": "all H/D deleted from every output file"
+  },
+  "model": {
+   "extra_models_kept_as_peptide_only": [],
+   "n_models_deposited": 1,
+   "rule": "keep deposited model 1 only"
+  },
+  "peptide_copy": {
+   "chosen_auth_chain": "B",
+   "chosen_subchain": "B",
+   "copies": [
+    {
+     "auth_chain": "B",
+     "mean_b": 30.87,
+     "mean_occupancy": 1.0,
+     "min_occupancy": 1.0,
+     "n_heavy_atoms": 120,
+     "n_missing_backbone_atoms": 0,
+     "n_protein_contact_pairs_asu": 411,
+     "n_protein_contact_pairs_sym": 0,
+     "n_residues_modelled": 14,
+     "n_residues_seqres": 15,
+     "subchain": "B"
+    }
+   ],
+   "decided_at_step": "single_eligible_copy",
+   "n_copies_in_asu": 1,
+   "per_copy_protein_contacts": {
+    "B": {
+     "A": {
+      "min_dist_asu": 2.626,
+      "min_dist_symmetry": null,
+      "n_contact_residues": 39,
+      "n_pairs_asu": 411,
+      "n_pairs_symmetry": 0
+     }
+    }
+   },
+   "rule": "(0) must contact a protein chain in the deposited asymmetric unit; then (1) most modelled residues, (2) most modelled heavy atoms, (3) highest mean occupancy, (4) lowest mean B, (5) lowest label_asym_id"
+  },
+  "receptor_chains": {
+   "chains": [
+    {
+     "auth_chain": "A",
+     "bsa_A2": 2151.2,
+     "entity_id": "1",
+     "kept": true,
+     "min_dist_A": 2.626,
+     "n_contact_residues": 39,
+     "n_pairs_asu": 411,
+     "n_pairs_symmetry": 0,
+     "n_residues": 297,
+     "reason": "primary_interface_largest_bsa",
+     "subchain": "A"
+    }
+   ],
+   "contact_cutoff_A": 4.5,
+   "n_kept": 1,
+   "nucleic_contacts": [],
+   "rcsb_interface_crosscheck": {
+    "agrees": true,
+    "annotated_but_not_kept": [],
+    "annotated_partners_of_peptide": {
+     "A": 1093.174555679546
+    },
+    "available": true,
+    "kept_but_not_annotated": [],
+    "kept_by_distance": [
+     "A"
+    ],
+    "n_interfaces_in_annotation": 1
+   },
+   "rule": "keep every protein chain with >=1 heavy-atom pair within 4.5 A of the retained peptide; the largest-BSA chain is always kept, further chains are kept when BSA >= 40 A^2 or contact pairs >= 5; non-contacting protein chains are dropped and recorded"
+  }
+ },
+ "flags": [
+  "peptide_residues_below_rscc_0.8_n=1"
+ ],
+ "not_computed": {},
+ "pdb_id": "3BU6",
+ "provenance": {
+  "coordinates": {
+   "bytes": 82305,
+   "status": "ok",
+   "url": "https://files.rcsb.org/download/3BU6.cif.gz"
+  },
+  "deposited": {
+   "cell": [
+    46.738,
+    84.724,
+    51.349,
+    90.0,
+    113.13,
+    90.0
+   ],
+   "has_anisotropic_u": false,
+   "n_models": 1,
+   "n_struct_conn": 7,
+   "resolution_A_from_cif": 1.95,
+   "spacegroup": "P 1 21 1"
+  },
+  "entity_poly_seq_entities": [
+   "1",
+   "2"
+  ],
+  "entry_metadata": {
+   "status": "ok"
+  },
+  "outputs": {
+   "complex.cif": {
+    "bytes": 173691,
+    "file": "complex.cif",
+    "n_chains": 2,
+    "n_struct_conn": 7,
+    "subchains_kept": [
+     "A",
+     "B"
+    ]
+   },
+   "peptide.cif": {
+    "bytes": 13165,
+    "file": "peptide.cif",
+    "n_chains": 1,
+    "n_struct_conn": 2,
+    "subchains_kept": [
+     "B"
+    ]
+   },
+   "receptor.cif": {
+    "bytes": 165495,
+    "file": "receptor.cif",
+    "n_chains": 1,
+    "n_struct_conn": 5,
+    "subchains_kept": [
+     "A"
+    ]
+   }
+  },
+  "validation_report": {
+   "bytes": 18288,
+   "status": "ok"
+  }
+ },
+ "qc": {
+  "altloc": {
+   "branch_rmsd": null,
+   "n_peptide_residues_with_altloc": 0,
+   "n_receptor_or_other_residues_with_altloc": 0,
+   "peptide_backbone_altloc_present": false,
+   "peptide_residues": []
+  },
+  "atom_counts": {
+   "hetero_heavy": 0,
+   "peptide_heavy": 120,
+   "receptor_heavy": 2357,
+   "total_heavy": 2477
+  },
+  "bfactors": {
+   "b_factor_type_from_validation": "FULL",
+   "note": "the ratio is the primary figure: absolute B scales with resolution and refinement protocol, the ratio does not",
+   "peptide_max_b": 41.45,
+   "peptide_mean_b": 30.87,
+   "peptide_median_b": 29.81,
+   "peptide_over_receptor_b_ratio": 1.153,
+   "receptor_mean_b": 26.78
+  },
+  "clashes": {
+   "all_at_graph_distance_4": 1,
+   "all_between_residues": 0,
+   "all_excluding_graph_distance_4": 0,
+   "all_per_1000_retained_atoms": 0.4,
+   "all_retained_atoms": 3,
+   "all_retained_atoms_hbond_excluded": 1,
+   "all_same_residue": 1,
+   "convention": "van der Waals overlap greater than 0.4 A between non-bonded heavy atoms (MolProbity convention and MolProbity radii). Pairs at bond-graph distance 1, 2 or 3 are excluded - 1-4 exclusion is mandatory without hydrogens because the para pair of every aromatic ring sits at 2.70-2.78 A. The bond graph is CCD bonds + polymer C(i)-N(i+1) + _struct_conn + distance-inferred links, so a macrocycle closure or a staple never registers as a clash. Metals are excluded entirely. Hydrogens are absent, so these counts are NOT on the same scale as the deposited clashscore.",
+   "intra_peptide": 0,
+   "intra_peptide_between_residues": 0,
+   "intra_peptide_excluding_graph_distance_4": 0,
+   "intra_peptide_hbond_excluded": 0,
+   "intra_peptide_per_1000_peptide_atoms": 0.0,
+   "intra_peptide_same_residue": 0,
+   "peptide_hetero": 0,
+   "peptide_hetero_hbond_excluded": 0,
+   "peptide_receptor": 0,
+   "peptide_receptor_excluding_graph_distance_4": 0,
+   "peptide_receptor_hbond_excluded": 0,
+   "peptide_receptor_nucleophile_like": 0,
+   "peptide_receptor_per_1000_peptide_atoms": 0.0,
+   "vdw_radii": {
+    "AS": 1.85,
+    "B": 1.8,
+    "BR": 1.85,
+    "C": 1.75,
+    "CL": 1.75,
+    "F": 1.3,
+    "I": 1.98,
+    "N": 1.55,
+    "O": 1.4,
+    "P": 1.8,
+    "S": 1.8,
+    "SE": 1.9,
+    "SI": 2.1
+   },
+   "worst_overlap_A": 0.53,
+   "worst_pairs": [
+    {
+     "atom1": "A/GLN1107/NE2",
+     "atom2": "A/ASP1266/O",
+     "dist": 2.42,
+     "graph_distance_4": false,
+     "group_i": 1,
+     "group_j": 1,
+     "i": 1051,
+     "j": 2336,
+     "nucleophile_like_short_contact": false,
+     "overlap": 0.53,
+     "potential_hbond": true,
+     "same_residue": false
+    },
+    {
+     "atom1": "A/TRP1193/C",
+     "atom2": "A/TRP1193/CD1",
+     "dist": 3.05,
+     "graph_distance_4": true,
+     "group_i": 1,
+     "group_j": 1,
+     "i": 1735,
+     "j": 1739,
+     "nucleophile_like_short_contact": false,
+     "overlap": 0.45,
+     "potential_hbond": false,
+     "same_residue": true
+    },
+    {
+     "atom1": "A/ARG1237/NH2",
+     "atom2": "A/ASP1266/OD2",
+     "dist": 2.538,
+     "graph_distance_4": false,
+     "group_i": 1,
+     "group_j": 1,
+     "i": 2095,
+     "j": 2340,
+     "nucleophile_like_short_contact": false,
+     "overlap": 0.412,
+     "potential_hbond": true,
+     "same_residue": false
+    }
+   ]
+  },
+  "completeness": {
+   "components_without_ccd": [],
+   "effective_length": 14,
+   "n_missing_backbone_atoms": 0,
+   "n_missing_sidechain_atoms": 0,
+   "n_residues_observed": 14,
+   "n_residues_seqres": 15,
+   "n_residues_unmodelled": 1,
+   "n_sidechain_atoms_expected": 64,
+   "residues_with_missing_atoms": [],
+   "sidechain_completeness": 1.0,
+   "unmodelled_label_seq_ids": [
+    1
+   ]
+  },
+  "copy_rmsd": {
+   "n_copies": 1,
+   "note": "superposed = Kabsch on the common atoms; in_place = no superposition",
+   "pairs": []
+  },
+  "deposited_validation": {
+   "available": true,
+   "deposited_clashes": {
+    "n_atom_records": 24,
+    "n_heavy_heavy_pairs_entry": 1,
+    "n_heavy_heavy_pairs_in_retained_selection": 1,
+    "n_heavy_heavy_pairs_involving_peptide": 0,
+    "n_pairs_with_a_hydrogen": 11,
+    "note": "reconstructed by pairing the per-atom <clash> records of the wwPDB report by their cid and discarding any pair with a hydrogen; this is the only apples-to-apples comparison with our heavy-atom-only count, because clashscore itself counts riding hydrogens added by reduce"
+   },
+   "entry": {
+    "B_factor_type": "FULL",
+    "DCC_R": "0.1995",
+    "DCC_Rfree": "0.2392",
+    "DataCompleteness": "98.59",
+    "EDS_resolution": "1.95",
+    "PDB-R": "0.2002",
+    "PDB-Rfree": "0.2386",
+    "PDB-resolution": "1.95",
+    "RestypesNotcheckedForBondAngleGeometry": "PTR",
+    "absolute-percentile-clashscore": "81.7",
+    "angles_rmsz": "0.77",
+    "attemptedValidationSteps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,percentiles,writexml",
+    "bonds_rmsz": "0.57",
+    "clashscore": "2.47",
+    "num-H-reduce": "2375",
+    "percent-RSRZ-outliers": "0.65",
+    "percent-rama-outliers": "0.00",
+    "percent-rota-outliers": "2.30"
+   },
+   "peptide_per_residue": [
+    {
+     "altcode": "",
+     "auth_chain": "B",
+     "avgoccu": 1.0,
+     "comp": "TYR",
+     "ent": "2",
+     "icode": "",
+     "label_seq": "2",
+     "natoms_eds": "12",
+     "owab": 28.29,
+     "phi": null,
+     "psi": null,
+     "rama": null,
+     "resnum": "621",
+     "rota": "m-80",
+     "rscc": 0.934,
+     "rsr": 0.077,
+     "rsrz": 0.286,
+     "said": "B"
+    },
+    {
+     "altcode": "",
+     "auth_chain": "B",
+     "avgoccu": 1.0,
+     "comp": "ASN",
+     "ent": "2",
+     "icode": "",
+     "label_seq": "3",
+     "natoms_eds": "8",
+     "owab": 31.04,
+     "phi": -67.8,
+     "psi": 129.2,
+     "rama": "Favored",
+     "resnum": "622",
+     "rota": "m-40",
+     "rscc": 0.908,
+     "rsr": 0.093,
+     "rsrz": 0.396,
+     "said": "B"
+    },
+    {
+     "altcode": "",
+     "auth_chain": "B",
+     "avgoccu": 1.0,
+     "comp": "PRO",
+     "ent": "2",
+     "icode": "",
+     "label_seq": "4",
+     "natoms_eds": "7",
+     "owab": 29.3,
+     "phi": -80.4,
+     "psi": 146.8,
+     "rama": "Favored",
+     "resnum": "623",
+     "rota": "Cg_endo",
+     "rscc": 0.935,
+     "rsr": 0.094,
+     "rsrz": 0.599,
+     "said": "B"
+    },
+    {
+     "altcode": "",
+     "auth_chain": "B",
+     "avgoccu": 1.0,
+     "comp": "TYR",
+     "ent": "2",
+     "icode": "",
+     "label_seq": "5",
+     "natoms_eds": "12",
+     "owab": 29.09,
+     "phi": -126.6,
+     "psi": 78.3,
+     "rama": "Favored",
+     "resnum": "624",
+     "rota": "m-80",
+     "rscc": 0.928,
+     "rsr": 0.094,
+     "rsrz": 0.85,
+     "said": "B"
+    },
+    {
+     "altcode": "",
+     "auth_chain": "B",
+     "avgoccu": 1.0,
+     "comp": "PRO",
+     "ent": "2",
+     "icode": "",
+     "label_seq": "6",
+     "natoms_eds": "7",
+     "owab": 29.16,
+     "phi": -55.8,
+     "psi": -30.5,
+     "rama": "Favored",
+     "resnum": "625",
+     "rota": "Cg_endo",
+     "rscc": 0.924,
+     "rsr": 0.081,
+     "rsrz": 0.21,
+     "said": "B"
+    },
+    {
+     "altcode": "",
+     "auth_chain": "B",
+     "avgoccu": 1.0,
+     "comp": "GLU",
+     "ent": "2",
+     "icode": "",
+     "label_seq": "7",
+     "natoms_eds": "9",
+     "owab": 32.04,
+     "phi": -72.2,
+     "psi": -12.4,
+     "rama": "Favored",
+     "resnum": "626",
+     "rota": "mt-10",
+     "rscc": 0.77,
+     "rsr": 0.162,
+     "rsrz": 1.608,
+     "said": "B"
+    },
+    {
+     "altcode": "",
+     "auth_chain": "B",
+     "avgoccu": 1.0,
+     "comp": "ASP",
+     "ent": "2",
+     "icode": "",
+     "label_seq": "8",
+     "natoms_eds": "8",
+     "owab": 25.91,
+     "phi": -82.7,
+     "psi": 1.6,
+     "rama": "Favored",
+     "resnum": "627",
+     "rota": "m-30",
+     "rscc": 0.947,
+     "rsr": 0.078,
+     "rsrz": -0.097,
+     "said": "B"
+    },
+    {
+     "altcode": "",
+     "auth_chain": "B",
+     "avgoccu": 1.0,
+     "comp": "PTR",
+     "ent": "2",
+     "icode": "",
+     "label_seq": "9",
+     "natoms_eds": "16",
+     "owab": 32.83,
+     "phi": null,
+     "psi": null,
+     "rama": null,
+     "resnum": "628",
+     "rota": null,
+     "rscc": 0.885,
+     "rsr": 0.116,
+     "rsrz": null,
+     "said": "B"
+    },
+    {
+     "altcode": "",
+     "auth_chain": "B",
+     "avgoccu": 1.0,
+     "comp": "GLY",
+     "ent": "2",
+     "icode": "",
+     "label_seq": "10",
+     "natoms_eds": "4",
+     "owab": 28.99,
+     "phi": -136.2,
+     "psi": 150.5,
+     "rama": "Favored",
+     "resnum": "629",
+     "rota": null,
+     "rscc": 0.959,
+     "rsr": 0.06,
+     "rsrz": -0.262,
+     "said": "B"
+    },
+    {
+     "altcode": "",
+     "auth_chain": "B",
+     "avgoccu": 1.0,
+     "comp": "ASP",
+     "ent": "2",
+     "icode": "",
+     "label_seq": "11",
+     "natoms_eds": "8",
+     "owab": 32.62,
+     "phi": -79.5,
+     "psi": 103.1,
+     "rama": "Favored",
+     "resnum": "630",
+     "rota": "m-30",
+     "rscc": 0.905,
+     "rsr": 0.091,
+     "rsrz": 0.253,
+     "said": "B"
+    },
+    {
+     "altcode": "",
+     "auth_chain": "B",
+     "avgoccu": 1.0,
+     "comp": "ILE",
+     "ent": "2",
+     "icode": "",
+     "label_seq": "12",
+     "natoms_eds": "8",
+     "owab": 31.15,
+     "phi": -133.1,
+     "psi": 170.1,
+     "rama": "Favored",
+     "resnum": "631",
+     "rota": "pt",
+     "rscc": 0.919,
+     "rsr": 0.089,
+     "rsrz": 0.5,
+     "said": "B"
+    },
+    {
+     "altcode": "",
+     "auth_chain": "B",
+     "avgoccu": 1.0,
+     "comp": "GLU",
+     "ent": "2",
+     "icode": "",
+     "label_seq": "13",
+     "natoms_eds": "9",
+     "owab": 34.19,
+     "phi": -113.6,
+     "psi": 132.1,
+     "rama": "Favored",
+     "resnum": "632",
+     "rota": "tt0",
+     "rscc": 0.925,
+     "rsr": 0.075,
+     "rsrz": -0.525,
+     "said": "B"
+    },
+    {
+     "altcode": "",
+     "auth_chain": "B",
+     "avgoccu": 1.0,
+     "comp": "ILE",
+     "ent": "2",
+     "icode": "",
+     "label_seq": "14",
+     "natoms_eds": "8",
+     "owab": 33.06,
+     "phi": -121.3,
+     "psi": 169.1,
+     "rama": "Favored",
+     "resnum": "633",
+     "rota": "pt",
+     "rscc": 0.916,
+     "rsr": 0.111,
+     "rsrz": 1.21,
+     "said": "B"
+    },
+    {
+     "altcode": "",
+     "auth_chain": "B",
+     "avgoccu": 1.0,
+     "comp": "GLY",
+     "ent": "2",
+     "icode": "",
+     "label_seq": "15",
+     "natoms_eds": "4",
+     "owab": 34.76,
+     "phi": null,
+     "psi": null,
+     "rama": null,
+     "resnum": "634",
+     "rota": null,
+     "rscc": 0.846,
+     "rsr": 0.122,
+     "rsrz": 1.524,
+     "said": "B"
+    }
+   ],
+   "peptide_rscc": {
+    "mean": 0.9072,
+    "min": 0.77,
+    "n_below_0.6": 0,
+    "n_below_0.8": 1,
+    "n_residues_in_report": 14,
+    "n_residues_with_rscc": 14,
+    "note": "RSCC is the direct answer to whether the peptide is in the density and it is available for non-standard components"
+   },
+   "peptide_rsrz": {
+    "max": 1.608,
+    "mean": 0.504,
+    "n_above_2": 0,
+    "n_residues_with_rsrz": 13,
+    "note": "RSRZ is reported only for components with a reference distribution, i.e. essentially only standard residues; for a modified peptide most residues have none, which is why RSCC and not RSRZ is the primary density figure here"
+   },
+   "receptor_rscc_mean": 0.9224
+  },
+  "geometry": {
+   "bond_length_outliers": [
+    {
+     "atoms": [
+      "CZ",
+      "OH"
+     ],
+     "ccd_ideal_A": 1.359,
+     "comp": "PTR",
+     "deviation_A": -0.105,
+     "observed_A": 1.254,
+     "seqid": 628
+    }
+   ],
+   "bond_reference": "bond lengths from the CCD ideal coordinates of each component; note that the deposited wwPDB report does not check bond geometry for non-standard components at all, so for this dataset there is no other source",
+   "ccd_chirality_disagreements": [],
+   "chirality_counts": {
+    "L": 12,
+    "achiral_no_cb": 2
+   },
+   "inferred_links": [],
+   "n_bonds_checked": 111,
+   "n_cis_amides": 0,
+   "n_d_residues": 0,
+   "n_l_residues": 12,
+   "n_twisted_amides": 0,
+   "omega": [
+    {
+     "bonded": true,
+     "c_n_distance_A": 1.336,
+     "call": "trans",
+     "from": 621,
+     "kind": "adjacent",
+     "omega_deg": 175.8,
+     "to": 622
+    },
+    {
+     "bonded": true,
+     "c_n_distance_A": 1.352,
+     "call": "trans",
+     "from": 622,
+     "kind": "adjacent",
+     "omega_deg": 174.1,
+     "to": 623
+    },
+    {
+     "bonded": true,
+     "c_n_distance_A": 1.335,
+     "call": "trans",
+     "from": 623,
+     "kind": "adjacent",
+     "omega_deg": 178.4,
+     "to": 624
+    },
+    {
+     "bonded": true,
+     "c_n_distance_A": 1.35,
+     "call": "trans",
+     "from": 624,
+     "kind": "adjacent",
+     "omega_deg": -177.1,
+     "to": 625
+    },
+    {
+     "bonded": true,
+     "c_n_distance_A": 1.331,
+     "call": "trans",
+     "from": 625,
+     "kind": "adjacent",
+     "omega_deg": -179.6,
+     "to": 626
+    },
+    {
+     "bonded": true,
+     "c_n_distance_A": 1.338,
+     "call": "trans",
+     "from": 626,
+     "kind": "adjacent",
+     "omega_deg": 178.3,
+     "to": 627
+    },
+    {
+     "bonded": true,
+     "c_n_distance_A": 1.329,
+     "call": "trans",
+     "from": 627,
+     "kind": "adjacent",
+     "omega_deg": 176.1,
+     "to": 628
+    },
+    {
+     "bonded": true,
+     "c_n_distance_A": 1.328,
+     "call": "trans",
+     "from": 628,
+     "kind": "adjacent",
+     "omega_deg": 173.8,
+     "to": 629
+    },
+    {
+     "bonded": true,
+     "c_n_distance_A": 1.332,
+     "call": "trans",
+     "from": 629,
+     "kind": "adjacent",
+     "omega_deg": 173.6,
+     "to": 630
+    },
+    {
+     "bonded": true,
+     "c_n_distance_A": 1.327,
+     "call": "trans",
+     "from": 630,
+     "kind": "adjacent",
+     "omega_deg": 179.8,
+     "to": 631
+    },
+    {
+     "bonded": true,
+     "c_n_distance_A": 1.332,
+     "call": "trans",
+     "from": 631,
+     "kind": "adjacent",
+     "omega_deg": 173.0,
+     "to": 632
+    },
+    {
+     "bonded": true,
+     "c_n_distance_A": 1.334,
+     "call": "trans",
+     "from": 632,
+     "kind": "adjacent",
+     "omega_deg": 177.0,
+     "to": 633
+    },
+    {
+     "bonded": true,
+     "c_n_distance_A": 1.332,
+     "call": "trans",
+     "from": 633,
+     "kind": "adjacent",
+     "omega_deg": 178.4,
+     "to": 634
+    }
+   ],
+   "omega_pattern": "ttttttttttttt",
+   "peptide_receptor_covalent_links": [],
+   "per_residue": [
+    {
+     "ca_chirality": "L",
+     "ccd_ca_neighbours": [
+      "C",
+      "CB",
+      "N"
+     ],
+     "ccd_type_chirality": "L",
+     "comp": "TYR",
+     "improper_deg": -32.31,
+     "seqid": 621
+    },
+    {
+     "ca_chirality": "L",
+     "ccd_ca_neighbours": [
+      "C",
+      "CB",
+      "N"
+     ],
+     "ccd_type_chirality": "L",
+     "comp": "ASN",
+     "improper_deg": -32.05,
+     "seqid": 622
+    },
+    {
+     "ca_chirality": "L",
+     "ccd_ca_neighbours": [
+      "C",
+      "CB",
+      "N"
+     ],
+     "ccd_type_chirality": "L",
+     "comp": "PRO",
+     "improper_deg": -37.29,
+     "seqid": 623
+    },
+    {
+     "ca_chirality": "L",
+     "ccd_ca_neighbours": [
+      "C",
+      "CB",
+      "N"
+     ],
+     "ccd_type_chirality": "L",
+     "comp": "TYR",
+     "improper_deg": -31.93,
+     "seqid": 624
+    },
+    {
+     "ca_chirality": "L",
+     "ccd_ca_neighbours": [
+      "C",
+      "CB",
+      "N"
+     ],
+     "ccd_type_chirality": "L",
+     "comp": "PRO",
+     "improper_deg": -35.34,
+     "seqid": 625
+    },
+    {
+     "ca_chirality": "L",
+     "ccd_ca_neighbours": [
+      "C",
+      "CB",
+      "N"
+     ],
+     "ccd_type_chirality": "L",
+     "comp": "GLU",
+     "improper_deg": -30.95,
+     "seqid": 626
+    },
+    {
+     "ca_chirality": "L",
+     "ccd_ca_neighbours": [
+      "C",
+      "CB",
+      "N"
+     ],
+     "ccd_type_chirality": "L",
+     "comp": "ASP",
+     "improper_deg": -31.64,
+     "seqid": 627
+    },
+    {
+     "ca_chirality": "L",
+     "ccd_ca_neighbours": [
+      "C",
+      "CB",
+      "N"
+     ],
+     "ccd_type_chirality": "L",
+     "comp": "PTR",
+     "improper_deg": -32.13,
+     "seqid": 628
+    },
+    {
+     "ca_chirality": "achiral_no_cb",
+     "ccd_ca_neighbours": [
+      "C",
+      "N"
+     ],
+     "ccd_type_chirality": "achiral_or_unspecified",
+     "comp": "GLY",
+     "improper_deg": null,
+     "seqid": 629
+    },
+    {
+     "ca_chirality": "L",
+     "ccd_ca_neighbours": [
+      "C",
+      "CB",
+      "N"
+     ],
+     "ccd_type_chirality": "L",
+     "comp": "ASP",
+     "improper_deg": -34.09,
+     "seqid": 630
+    },
+    {
+     "ca_chirality": "L",
+     "ccd_ca_neighbours": [
+      "C",
+      "CB",
+      "N"
+     ],
+     "ccd_type_chirality": "L",
+     "comp": "ILE",
+     "improper_deg": -32.06,
+     "seqid": 631
+    },
+    {
+     "ca_chirality": "L",
+     "ccd_ca_neighbours": [
+      "C",
+      "CB",
+      "N"
+     ],
+     "ccd_type_chirality": "L",
+     "comp": "GLU",
+     "improper_deg": -33.76,
+     "seqid": 632
+    },
+    {
+     "ca_chirality": "L",
+     "ccd_ca_neighbours": [
+      "C",
+      "CB",
+      "N"
+     ],
+     "ccd_type_chirality": "L",
+     "comp": "ILE",
+     "improper_deg": -31.81,
+     "seqid": 633
+    },
+    {
+     "ca_chirality": "achiral_no_cb",
+     "ccd_ca_neighbours": [
+      "C",
+      "N"
+     ],
+     "ccd_type_chirality": "achiral_or_unspecified",
+     "comp": "GLY",
+     "improper_deg": null,
+     "seqid": 634
+    }
+   ],
+   "ring_closure": [],
+   "worst_bond_deviation_A": -0.105
+  },
+  "interface": {
+   "bsa_peptide_side_A2": 1198.4,
+   "bsa_receptor_side_A2": 952.8,
+   "bsa_total_A2": 2151.2,
+   "contact_cutoff_A": 4.5,
+   "n_heavy_atom_contact_pairs": 411,
+   "n_peptide_contact_residues": 13,
+   "n_peptide_residues": 14,
+   "n_receptor_contact_residues": 39,
+   "peptide_buried_fraction": 0.5839,
+   "possible_lattice_contact": false,
+   "sasa_peptide_alone_A2": 2052.5,
+   "sasa_peptide_in_complex_A2": 854.0,
+   "sasa_points": 480
+  },
+  "occupancy": {
+   "note": "occupancies are those of the retained altloc; an atom below 1.0 here is either a partial-occupancy atom or the retained branch of an alternate conformation",
+   "peptide_mean_occupancy": 1.0,
+   "peptide_min_occupancy": 1.0,
+   "peptide_n_atoms": 120,
+   "peptide_n_atoms_below_1.0": 0
+  }
+ },
+ "spec_version": "bmi-spec-1.0",
+ "status": {
+  "reason": null,
+  "stage": "ok"
+ },
+ "strict_clean": {
+  "applied_utc": "2026-08-03T16:59:25Z",
+  "atom_counts": {
+   "peptide_cif_heavy": 120,
+   "protein_and_peptide_heavy_after": 2477,
+   "protein_and_peptide_heavy_before": 2477,
+   "protein_and_peptide_unchanged": true,
+   "removed_heavy": 0,
+   "total_heavy_after": 2477,
+   "total_heavy_before": 2477
+  },
+  "files": {
+   "complex.cif": "strict",
+   "peptide.cif": "unchanged",
+   "receptor.cif": "strict (rewritten so that peptide.cif + receptor.cif still partition complex.cif)"
+  },
+  "ion_rule": "monatomic stays, polyatomic goes: CL/NA/K/ZN/CA/MG/... kept, SO4/PO4/NO3/NH4 removed. A monatomic ion is also never a covalent bridge, so it cannot make a component it coordinates peptide-integral - SPEC sec.7 rule 4, coordination is not a covalent bond",
+  "n_struct_conn_after": 7,
+  "n_struct_conn_before": 7,
+  "peptide_integral_components": [],
+  "policy": "bmi-strict-hetero-1.0",
+  "policy_version": "bmi-strict-hetero-1.0",
+  "removed_by_class": {},
+  "removed_components": [],
+  "retained_components": [],
+  "risky_removals": [],
+  "verification": {
+   "checks_failed": [],
+   "ok": true
+  }
+ }
+}

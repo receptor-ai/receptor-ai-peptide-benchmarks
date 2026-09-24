@@ -1,0 +1,22 @@
+{
+  "case_id": "6U71_entity2",
+  "pdb_id": "6U71",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P25440",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.47,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 13,
+  "peptide_sequence": "XWWIIPKVKKGCX",
+  "noncanonical_components": "ACE;ALY;ALY;NH2",
+  "n_protein_atoms": 909,
+  "n_peptide_atoms": 105,
+  "dist_min_pocket": 2.785,
+  "dist_max_pocket": 48.783,
+  "peptide_contact_fraction": 0.543,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

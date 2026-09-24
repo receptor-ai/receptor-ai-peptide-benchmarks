@@ -1,0 +1,22 @@
+{
+  "case_id": "7KFA_entity3",
+  "pdb_id": "7KFA",
+  "peptide_entity_id": "3",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q8NBP7",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.45,
+  "peptide_chain_id": "D",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 13,
+  "peptide_sequence": "XFVPTTXXEAPCX",
+  "noncanonical_components": "ACE;WCM;WCM;NEH",
+  "n_protein_atoms": 4239,
+  "n_peptide_atoms": 118,
+  "dist_min_pocket": 2.59,
+  "dist_max_pocket": 73.075,
+  "peptide_contact_fraction": 0.625,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

@@ -1,0 +1,274 @@
+data_3MT6
+_entry.id 3MT6
+
+_cell.entry_id 3MT6
+_cell.length_a 93.254
+_cell.length_b 121.15
+_cell.length_c 276.17
+_cell.angle_alpha 90
+_cell.angle_beta 91.38
+_cell.angle_gamma 90
+
+_symmetry.entry_id 3MT6
+_symmetry.space_group_name_H-M 'P 1 21 1'
+_symmetry.Int_Tables_number 4
+
+loop_
+_entity.id
+_entity.type
+o polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+o polypeptide(L) o ?
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ALA .
+MAA .
+MP8 .
+OTT .
+PHE .
+PRO .
+SER .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+QA o
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_auth_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_auth_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.ptnr2_auth_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_auth_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_dist_value
+covale1 covale o SER 702 OG o MP8 706 C 1.299
+covale2 covale o PHE 701 C o SER 702 N 1.381
+covale3 covale o OTT 700 C1 o PHE 701 N 1.396
+covale4 covale o ALA 705 C o MP8 706 N 1.433
+covale5 covale o MAA 704 C o ALA 705 N 1.440
+covale6 covale o SER 702 C o PRO 703 N 1.441
+covale7 covale o PRO 703 C o MAA 704 N 1.445
+
+loop_
+_struct_conn_type.id
+covale
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+HETATM 1 C C1 . OTT QA o 1 ? 2.091 -0.025 62.59 1 23.57 ? 700 o 1
+HETATM 2 C C2 . OTT QA o 1 ? 3.503 -0.017 62.782 1 21.21 ? 700 o 1
+HETATM 3 C C3 . OTT QA o 1 ? 4.092 1.286 63.306 1 19.86 ? 700 o 1
+HETATM 4 C C4 . OTT QA o 1 ? 5.488 0.957 63.819 1 15.54 ? 700 o 1
+HETATM 5 C C5 . OTT QA o 1 ? 6.398 2.163 63.855 1 23.19 ? 700 o 1
+HETATM 6 C C6 . OTT QA o 1 ? 7.658 1.783 64.584 1 21.54 ? 700 o 1
+HETATM 7 C C7 . OTT QA o 1 ? 8.508 2.986 64.805 1 26.13 ? 700 o 1
+HETATM 8 C C8 . OTT QA o 1 ? 9.824 2.85 65.155 1 21.44 ? 700 o 1
+HETATM 9 O O11 . OTT QA o 1 ? 1.494 1.138 62.255 1 20.73 ? 700 o 1
+ATOM 10 N N . PHE QA o 2 ? 0.976 -0.854 62.459 1 20.34 ? 701 o 1
+ATOM 11 C CA . PHE QA o 2 ? -0.369 -0.446 62.013 1 20.42 ? 701 o 1
+ATOM 12 C C . PHE QA o 2 ? -1.199 0.267 63.111 1 22.39 ? 701 o 1
+ATOM 13 O O . PHE QA o 2 ? -2.032 -0.63 63.681 1 21.71 ? 701 o 1
+ATOM 14 C CB . PHE QA o 2 ? -1.176 -1.534 61.32 1 19.93 ? 701 o 1
+ATOM 15 C CG . PHE QA o 2 ? -0.52 -2.005 60.035 1 19.1 ? 701 o 1
+ATOM 16 C CD1 . PHE QA o 2 ? -0.912 -1.445 58.802 1 20.52 ? 701 o 1
+ATOM 17 C CD2 . PHE QA o 2 ? 0.453 -2.995 60.072 1 22.52 ? 701 o 1
+ATOM 18 C CE1 . PHE QA o 2 ? -0.302 -1.892 57.587 1 17.88 ? 701 o 1
+ATOM 19 C CE2 . PHE QA o 2 ? 1.064 -3.443 58.835 1 19.33 ? 701 o 1
+ATOM 20 C CZ . PHE QA o 2 ? 0.68 -2.89 57.63 1 18.52 ? 701 o 1
+ATOM 21 N N . SER QA o 3 ? -0.795 1.575 63.294 1 26.5 ? 702 o 1
+ATOM 22 C CA . SER QA o 3 ? -1.512 2.382 64.445 1 25.91 ? 702 o 1
+ATOM 23 C C . SER QA o 3 ? -2.431 3.668 64.14 1 26.05 ? 702 o 1
+ATOM 24 O O . SER QA o 3 ? -1.85 4.429 63.366 1 29.1 ? 702 o 1
+ATOM 25 C CB . SER QA o 3 ? -0.768 2.468 65.888 1 24.64 ? 702 o 1
+ATOM 26 O OG . SER QA o 3 ? 0.073 1.366 66 1 24.55 ? 702 o 1
+ATOM 27 N N . PRO QA o 4 ? -3.622 4.271 64.682 1 35.42 ? 703 o 1
+ATOM 28 C CA . PRO QA o 4 ? -4.494 3.489 65.672 1 36.25 ? 703 o 1
+ATOM 29 C C . PRO QA o 4 ? -4.83 1.912 65.52 1 31.89 ? 703 o 1
+ATOM 30 O O . PRO QA o 4 ? -4.959 1.673 64.334 1 28.37 ? 703 o 1
+ATOM 31 C CB . PRO QA o 4 ? -5.616 4.459 66.141 1 36.77 ? 703 o 1
+ATOM 32 C CG . PRO QA o 4 ? -5.528 5.655 65.276 1 45.61 ? 703 o 1
+ATOM 33 C CD . PRO QA o 4 ? -4.316 5.51 64.332 1 36.93 ? 703 o 1
+HETATM 34 N N . MAA QA o 5 ? -4.888 0.671 66.258 1 29.96 ? 704 o 1
+HETATM 35 C CM . MAA QA o 5 ? -5.182 -0.302 65.236 1 25.53 ? 704 o 1
+HETATM 36 C CA . MAA QA o 5 ? -4.822 -0.15 67.472 1 35.47 ? 704 o 1
+HETATM 37 C CB . MAA QA o 5 ? -6.142 -0.529 68.07 1 35.12 ? 704 o 1
+HETATM 38 C C . MAA QA o 5 ? -3.82 -1.287 67.409 1 34.18 ? 704 o 1
+HETATM 39 O O . MAA QA o 5 ? -3.629 -1.662 68.562 1 32.2 ? 704 o 1
+ATOM 40 N N . ALA QA o 6 ? -2.982 -2.077 66.544 1 32.37 ? 705 o 1
+ATOM 41 C CA . ALA QA o 6 ? -1.996 -3.105 66.199 1 26.72 ? 705 o 1
+ATOM 42 C C . ALA QA o 6 ? -0.566 -2.623 66.044 1 22.96 ? 705 o 1
+ATOM 43 O O . ALA QA o 6 ? -0.061 -3.211 65.088 1 20.63 ? 705 o 1
+ATOM 44 C CB . ALA QA o 6 ? -2.44 -4.033 65.081 1 30.07 ? 705 o 1
+HETATM 45 C C . MP8 QA o 7 ? -0.313 0.537 66.922 1 25.18 ? 706 o 1
+HETATM 46 N N . MP8 QA o 7 ? 0.407 -1.76 66.645 1 22.41 ? 706 o 1
+HETATM 47 O O . MP8 QA o 7 ? -1.168 1.104 67.653 1 25.07 ? 706 o 1
+HETATM 48 C CA . MP8 QA o 7 ? 0.109 -0.722 67.603 1 25.32 ? 706 o 1
+HETATM 49 C CB . MP8 QA o 7 ? 1.354 -0.574 68.368 1 22.11 ? 706 o 1
+HETATM 50 C CD . MP8 QA o 7 ? 1.781 -1.48 66.212 1 19.06 ? 706 o 1
+HETATM 51 C CE . MP8 QA o 7 ? 3.817 -0.9 67.687 1 18.98 ? 706 o 1
+HETATM 52 C CG . MP8 QA o 7 ? 2.392 -0.635 67.29 1 23.61 ? 706 o 1
+
+_struct.title '3MT6: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+ALA N CA SING N 1
+ALA N H SING N 2
+ALA N H2 SING N 3
+ALA CA C SING N 4
+ALA CA CB SING N 5
+ALA CA HA SING N 6
+ALA C O DOUB N 7
+ALA C OXT SING N 8
+ALA CB HB1 SING N 9
+ALA CB HB2 SING N 10
+ALA CB HB3 SING N 11
+ALA OXT HXT SING N 12
+MAA N CM SING N 13
+MAA N CA SING N 14
+MAA N H SING N 15
+MAA CM HM1 SING N 16
+MAA CM HM2 SING N 17
+MAA CM HM3 SING N 18
+MAA CA CB SING N 19
+MAA CA C SING N 20
+MAA CA HA SING N 21
+MAA CB HB1 SING N 22
+MAA CB HB2 SING N 23
+MAA CB HB3 SING N 24
+MAA C O DOUB N 25
+MAA C OXT SING N 26
+MAA OXT HXT SING N 27
+MP8 C O DOUB N 28
+MP8 C CA SING N 29
+MP8 C OXT SING N 30
+MP8 N CA SING N 31
+MP8 N CD SING N 32
+MP8 N H SING N 33
+MP8 CA CB SING N 34
+MP8 CA HA SING N 35
+MP8 CB CG SING N 36
+MP8 CB HB SING N 37
+MP8 CB HBA SING N 38
+MP8 CD CG SING N 39
+MP8 CD HD SING N 40
+MP8 CD HDA SING N 41
+MP8 CE CG SING N 42
+MP8 CE HE SING N 43
+MP8 CE HEA SING N 44
+MP8 CE HEB SING N 45
+MP8 CG HG SING N 46
+MP8 OXT HXT SING N 47
+OTT C1 C2 SING N 48
+OTT C1 O11 DOUB N 49
+OTT C1 O12 SING N 50
+OTT C2 C3 DOUB N 51
+OTT C3 C4 SING N 52
+OTT C4 C5 DOUB N 53
+OTT C5 C6 SING N 54
+OTT C6 C7 DOUB N 55
+OTT C7 C8 SING N 56
+OTT C2 H2 SING N 57
+OTT C3 H3 SING N 58
+OTT C4 H4 SING N 59
+OTT C5 H5 SING N 60
+OTT C6 H6 SING N 61
+OTT C7 H7 SING N 62
+OTT C8 H8 SING N 63
+OTT C8 H8A SING N 64
+OTT C8 H8B SING N 65
+OTT O12 HO12 SING N 66
+PHE N CA SING N 67
+PHE N H SING N 68
+PHE N H2 SING N 69
+PHE CA C SING N 70
+PHE CA CB SING N 71
+PHE CA HA SING N 72
+PHE C O DOUB N 73
+PHE C OXT SING N 74
+PHE CB CG SING N 75
+PHE CB HB2 SING N 76
+PHE CB HB3 SING N 77
+PHE CG CD1 DOUB Y 78
+PHE CG CD2 SING Y 79
+PHE CD1 CE1 SING Y 80
+PHE CD1 HD1 SING N 81
+PHE CD2 CE2 DOUB Y 82
+PHE CD2 HD2 SING N 83
+PHE CE1 CZ DOUB Y 84
+PHE CE1 HE1 SING N 85
+PHE CE2 CZ SING Y 86
+PHE CE2 HE2 SING N 87
+PHE CZ HZ SING N 88
+PHE OXT HXT SING N 89
+PRO N CA SING N 90
+PRO N CD SING N 91
+PRO N H SING N 92
+PRO CA C SING N 93
+PRO CA CB SING N 94
+PRO CA HA SING N 95
+PRO C O DOUB N 96
+PRO C OXT SING N 97
+PRO CB CG SING N 98
+PRO CB HB2 SING N 99
+PRO CB HB3 SING N 100
+PRO CG CD SING N 101
+PRO CG HG2 SING N 102
+PRO CG HG3 SING N 103
+PRO CD HD2 SING N 104
+PRO CD HD3 SING N 105
+PRO OXT HXT SING N 106
+SER N CA SING N 107
+SER N H SING N 108
+SER N H2 SING N 109
+SER CA C SING N 110
+SER CA CB SING N 111
+SER CA HA SING N 112
+SER C O DOUB N 113
+SER C OXT SING N 114
+SER CB OG SING N 115
+SER CB HB2 SING N 116
+SER CB HB3 SING N 117
+SER OG HG SING N 118
+SER OXT HXT SING N 119

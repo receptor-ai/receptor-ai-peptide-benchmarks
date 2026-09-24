@@ -1,0 +1,22 @@
+{
+  "case_id": "6BAE_entity5",
+  "pdb_id": "6BAE",
+  "peptide_entity_id": "5",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "S6B291",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.14,
+  "peptide_chain_id": "D",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 14,
+  "peptide_sequence": "XCQFDLSTRRLKCX",
+  "noncanonical_components": "ACE;NH2",
+  "n_protein_atoms": 4234,
+  "n_peptide_atoms": 104,
+  "dist_min_pocket": 2.447,
+  "dist_max_pocket": 64.109,
+  "peptide_contact_fraction": 0.781,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

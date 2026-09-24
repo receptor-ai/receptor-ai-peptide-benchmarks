@@ -1,0 +1,22 @@
+{
+  "case_id": "2V1R_entity2",
+  "pdb_id": "2V1R",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "P80667",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.1,
+  "peptide_chain_id": "P",
+  "n_peptide_chain_copies": 3,
+  "peptide_length": 9,
+  "peptide_sequence": "XEAMPPTLPHRDWKD",
+  "noncanonical_components": "ACE",
+  "n_protein_atoms": 558,
+  "n_peptide_atoms": 61,
+  "dist_min_pocket": 2.297,
+  "dist_max_pocket": 65.646,
+  "peptide_contact_fraction": 0.518,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

@@ -1,0 +1,226 @@
+data_5T6P
+_entry.id 5T6P
+
+_cell.entry_id 5T6P
+_cell.length_a 69.7
+_cell.length_b 69.7
+_cell.length_c 363.43
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 120
+
+_symmetry.entry_id 5T6P
+_symmetry.space_group_name_H-M 'P 31 2 1'
+_symmetry.Int_Tables_number 152
+
+loop_
+_entity.id
+_entity.type
+F polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+F polypeptide(L) F ?
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ALA .
+ARG .
+ASP .
+PRO .
+THR .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+F F
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . ASP F F 3 ? 73.995 58.77 50.551 1 46.36 ? 3 F 1
+ATOM 2 C CA . ASP F F 3 ? 73.318 59.525 51.598 1 43.78 ? 3 F 1
+ATOM 3 C C . ASP F F 3 ? 72.143 60.309 51.027 1 37.8 ? 3 F 1
+ATOM 4 O O . ASP F F 3 ? 71.988 61.502 51.27 1 35.07 ? 3 F 1
+ATOM 5 C CB . ASP F F 3 ? 74.308 60.466 52.286 1 49.23 ? 3 F 1
+ATOM 6 C CG . ASP F F 3 ? 75.345 61.002 51.33 1 53.45 ? 3 F 1
+ATOM 7 O OD1 . ASP F F 3 ? 75.222 60.733 50.119 1 54.47 ? 3 F 1
+ATOM 8 O OD2 . ASP F F 3 ? 76.278 61.695 51.788 1 55.88 -1 3 F 1
+ATOM 9 N N . THR F F 4 ? 71.313 59.623 50.252 1 36.64 ? 4 F 1
+ATOM 10 C CA . THR F F 4 ? 70.053 60.195 49.816 1 33.09 ? 4 F 1
+ATOM 11 C C . THR F F 4 ? 69.054 60.15 50.965 1 32.26 ? 4 F 1
+ATOM 12 O O . THR F F 4 ? 69.148 59.307 51.86 1 32.65 ? 4 F 1
+ATOM 13 C CB . THR F F 4 ? 69.524 59.418 48.613 1 32.14 ? 4 F 1
+ATOM 14 O OG1 . THR F F 4 ? 69.38 58.037 48.965 1 32.73 ? 4 F 1
+ATOM 15 C CG2 . THR F F 4 ? 70.507 59.536 47.459 1 31.75 ? 4 F 1
+ATOM 16 N N . ARG F F 5 ? 68.093 61.063 50.946 1 30.95 ? 5 F 1
+ATOM 17 C CA . ARG F F 5 ? 67.118 61.083 52.023 1 31.11 ? 5 F 1
+ATOM 18 C C . ARG F F 5 ? 66.325 59.78 52.004 1 33.35 ? 5 F 1
+ATOM 19 O O . ARG F F 5 ? 65.813 59.387 50.946 1 34.6 ? 5 F 1
+ATOM 20 C CB . ARG F F 5 ? 66.164 62.266 51.899 1 28.43 ? 5 F 1
+ATOM 21 C CG . ARG F F 5 ? 65.421 62.559 53.196 1 27.04 ? 5 F 1
+ATOM 22 C CD . ARG F F 5 ? 64.144 63.318 52.919 1 24.99 ? 5 F 1
+ATOM 23 N NE . ARG F F 5 ? 64.429 64.654 52.41 1 24.07 ? 5 F 1
+ATOM 24 C CZ . ARG F F 5 ? 63.598 65.367 51.658 1 23.11 ? 5 F 1
+ATOM 25 N NH1 . ARG F F 5 ? 62.413 64.876 51.313 1 23.48 1 5 F 1
+ATOM 26 N NH2 . ARG F F 5 ? 63.958 66.574 51.243 1 22.22 ? 5 F 1
+ATOM 27 N N . PRO F F 6 ? 66.181 59.096 53.136 1 34.23 ? 6 F 1
+ATOM 28 C CA . PRO F F 6 ? 65.406 57.853 53.142 1 34.88 ? 6 F 1
+ATOM 29 C C . PRO F F 6 ? 63.916 58.099 52.954 1 33.51 ? 6 F 1
+ATOM 30 O O . PRO F F 6 ? 63.374 59.147 53.315 1 25.29 ? 6 F 1
+ATOM 31 C CB . PRO F F 6 ? 65.705 57.261 54.522 1 37.48 ? 6 F 1
+ATOM 32 C CG . PRO F F 6 ? 65.991 58.443 55.366 1 36.83 ? 6 F 1
+ATOM 33 C CD . PRO F F 6 ? 66.745 59.383 54.466 1 34.92 ? 6 F 1
+ATOM 34 N N . ALA F F 7 ? 63.255 57.101 52.381 1 35.02 ? 7 F 1
+ATOM 35 C CA . ALA F F 7 ? 61.82 57.154 52.183 1 35.57 ? 7 F 1
+ATOM 36 C C . ALA F F 7 ? 61.096 57.069 53.526 1 38.16 ? 7 F 1
+ATOM 37 O O . ALA F F 7 ? 61.635 56.534 54.497 1 41.05 ? 7 F 1
+ATOM 38 C CB . ALA F F 7 ? 61.374 56.009 51.283 1 36.76 ? 7 F 1
+ATOM 39 N N . PRO F F 8 ? 59.871 57.608 53.617 1 36.72 ? 8 F 1
+ATOM 40 C CA . PRO F F 8 ? 59.14 57.517 54.883 1 38.84 ? 8 F 1
+ATOM 41 C C . PRO F F 8 ? 58.619 56.122 55.213 1 42.47 ? 8 F 1
+ATOM 42 O O . PRO F F 8 ? 58.376 55.337 54.296 1 43.58 ? 8 F 1
+ATOM 43 C CB . PRO F F 8 ? 57.994 58.503 54.667 1 37.17 ? 8 F 1
+ATOM 44 C CG . PRO F F 8 ? 57.729 58.445 53.223 1 35.27 ? 8 F 1
+ATOM 45 C CD . PRO F F 8 ? 59.114 58.392 52.627 1 34.62 ? 8 F 1
+
+_struct.title '5T6P: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+ALA N CA SING N 1
+ALA N H SING N 2
+ALA N H2 SING N 3
+ALA CA C SING N 4
+ALA CA CB SING N 5
+ALA CA HA SING N 6
+ALA C O DOUB N 7
+ALA C OXT SING N 8
+ALA CB HB1 SING N 9
+ALA CB HB2 SING N 10
+ALA CB HB3 SING N 11
+ALA OXT HXT SING N 12
+ARG N CA SING N 13
+ARG N H SING N 14
+ARG N H2 SING N 15
+ARG CA C SING N 16
+ARG CA CB SING N 17
+ARG CA HA SING N 18
+ARG C O DOUB N 19
+ARG C OXT SING N 20
+ARG CB CG SING N 21
+ARG CB HB2 SING N 22
+ARG CB HB3 SING N 23
+ARG CG CD SING N 24
+ARG CG HG2 SING N 25
+ARG CG HG3 SING N 26
+ARG CD NE SING N 27
+ARG CD HD2 SING N 28
+ARG CD HD3 SING N 29
+ARG NE CZ SING N 30
+ARG NE HE SING N 31
+ARG CZ NH1 SING N 32
+ARG CZ NH2 DOUB N 33
+ARG NH1 HH11 SING N 34
+ARG NH1 HH12 SING N 35
+ARG NH2 HH21 SING N 36
+ARG NH2 HH22 SING N 37
+ARG OXT HXT SING N 38
+ASP N CA SING N 39
+ASP N H SING N 40
+ASP N H2 SING N 41
+ASP CA C SING N 42
+ASP CA CB SING N 43
+ASP CA HA SING N 44
+ASP C O DOUB N 45
+ASP C OXT SING N 46
+ASP CB CG SING N 47
+ASP CB HB2 SING N 48
+ASP CB HB3 SING N 49
+ASP CG OD1 DOUB N 50
+ASP CG OD2 SING N 51
+ASP OD2 HD2 SING N 52
+ASP OXT HXT SING N 53
+PRO N CA SING N 54
+PRO N CD SING N 55
+PRO N H SING N 56
+PRO CA C SING N 57
+PRO CA CB SING N 58
+PRO CA HA SING N 59
+PRO C O DOUB N 60
+PRO C OXT SING N 61
+PRO CB CG SING N 62
+PRO CB HB2 SING N 63
+PRO CB HB3 SING N 64
+PRO CG CD SING N 65
+PRO CG HG2 SING N 66
+PRO CG HG3 SING N 67
+PRO CD HD2 SING N 68
+PRO CD HD3 SING N 69
+PRO OXT HXT SING N 70
+THR N CA SING N 71
+THR N H SING N 72
+THR N H2 SING N 73
+THR CA C SING N 74
+THR CA CB SING N 75
+THR CA HA SING N 76
+THR C O DOUB N 77
+THR C OXT SING N 78
+THR CB OG1 SING N 79
+THR CB CG2 SING N 80
+THR CB HB SING N 81
+THR OG1 HG1 SING N 82
+THR CG2 HG21 SING N 83
+THR CG2 HG22 SING N 84
+THR CG2 HG23 SING N 85
+THR OXT HXT SING N 86
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_dist_value
+covale1 covale F THR 4 C F ARG 5 N 1.326
+covale2 covale F ASP 3 C F THR 4 N 1.327
+covale3 covale F PRO 6 C F ALA 7 N 1.327
+covale4 covale F ARG 5 C F PRO 6 N 1.330
+covale5 covale F ALA 7 C F PRO 8 N 1.341

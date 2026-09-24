@@ -1,0 +1,22 @@
+{
+  "case_id": "5HYQ_entity3",
+  "pdb_id": "5HYQ",
+  "peptide_entity_id": "3",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.477,
+  "peptide_chain_id": "E",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 12,
+  "peptide_sequence": "CQFDLSTRRLKC",
+  "noncanonical_components": "CY3",
+  "n_protein_atoms": 1667,
+  "n_peptide_atoms": 101,
+  "dist_min_pocket": 2.425,
+  "dist_max_pocket": 80.711,
+  "peptide_contact_fraction": 0.759,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

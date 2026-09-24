@@ -1,0 +1,22 @@
+{
+  "case_id": "6NNV_entity2",
+  "pdb_id": "6NNV",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q9NZQ7",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.92,
+  "peptide_chain_id": "I",
+  "n_peptide_chain_copies": 4,
+  "peptide_length": 16,
+  "peptide_sequence": "XFFXGDVFYGWYLCKX",
+  "noncanonical_components": "ACE;MEA;9KK;SAR;MEA;SAR;NH2",
+  "n_protein_atoms": 985,
+  "n_peptide_atoms": 134,
+  "dist_min_pocket": 2.348,
+  "dist_max_pocket": 79.476,
+  "peptide_contact_fraction": 0.567,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

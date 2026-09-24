@@ -1,0 +1,181 @@
+data_3HDS
+_entry.id 3HDS
+
+_cell.entry_id 3HDS
+_cell.length_a 81.872
+_cell.length_b 84.16
+_cell.length_c 150.16
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+
+_symmetry.entry_id 3HDS
+_symmetry.space_group_name_H-M 'C 2 2 21'
+_symmetry.Int_Tables_number 20
+
+loop_
+_entity.id
+_entity.type
+F polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+F polypeptide(L) F ?
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ALA .
+SER .
+TRP .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+F F
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . ALA F F 1 ? -30.475 18.332 23.447 1 20.09 ? 2 F 1
+ATOM 2 C CA . ALA F F 1 ? -31.854 17.769 23.108 1 20.53 ? 2 F 1
+ATOM 3 C C . ALA F F 1 ? -32.012 17.474 21.623 1 20.36 ? 2 F 1
+ATOM 4 O O . ALA F F 1 ? -31.561 18.305 20.854 1 18.86 ? 2 F 1
+ATOM 5 C CB . ALA F F 1 ? -32.947 18.781 23.525 1 21.47 ? 2 F 1
+ATOM 6 N N . SER F F 2 ? -32.643 16.338 21.255 1 20.97 ? 3 F 1
+ATOM 7 C CA . SER F F 2 ? -32.903 15.956 19.842 1 23.07 ? 3 F 1
+ATOM 8 C C . SER F F 2 ? -34.179 15.119 19.555 1 23.15 ? 3 F 1
+ATOM 9 O O . SER F F 2 ? -34.749 14.448 20.438 1 23.3 ? 3 F 1
+ATOM 10 C CB . SER F F 2 ? -31.707 15.213 19.224 1 23.84 ? 3 F 1
+ATOM 11 O OG . SER F F 2 ? -31.65 13.873 19.721 1 27.21 ? 3 F 1
+ATOM 12 N N . TRP F F 3 ? -34.578 15.165 18.283 1 22.58 ? 4 F 1
+ATOM 13 C CA . TRP F F 3 ? -35.586 14.291 17.684 1 24.15 ? 4 F 1
+ATOM 14 C C . TRP F F 3 ? -35.163 13.954 16.266 1 25.95 ? 4 F 1
+ATOM 15 O O . TRP F F 3 ? -34.434 14.722 15.635 1 26.93 ? 4 F 1
+ATOM 16 C CB . TRP F F 3 ? -36.986 14.922 17.669 1 23.25 ? 4 F 1
+ATOM 17 C CG . TRP F F 3 ? -37.131 16.219 16.837 1 20.39 ? 4 F 1
+ATOM 18 C CD1 . TRP F F 3 ? -37.182 17.502 17.328 1 16.97 ? 4 F 1
+ATOM 19 C CD2 . TRP F F 3 ? -37.314 16.351 15.4 1 19.83 ? 4 F 1
+ATOM 20 N NE1 . TRP F F 3 ? -37.349 18.392 16.3 1 13.54 ? 4 F 1
+ATOM 21 C CE2 . TRP F F 3 ? -37.419 17.74 15.12 1 17.87 ? 4 F 1
+ATOM 22 C CE3 . TRP F F 3 ? -37.374 15.435 14.331 1 21.41 ? 4 F 1
+ATOM 23 C CZ2 . TRP F F 3 ? -37.619 18.245 13.829 1 18.39 ? 4 F 1
+ATOM 24 C CZ3 . TRP F F 3 ? -37.568 15.929 13.054 1 23.11 ? 4 F 1
+ATOM 25 C CH2 . TRP F F 3 ? -37.664 17.325 12.809 1 21.75 ? 4 F 1
+ATOM 26 N N . SER F F 4 ? -35.607 12.798 15.768 1 27.83 ? 5 F 1
+ATOM 27 C CA . SER F F 4 ? -35.39 12.439 14.359 1 29.37 ? 5 F 1
+ATOM 28 C C . SER F F 4 ? -36.439 11.453 13.856 1 29.65 ? 5 F 1
+ATOM 29 O O . SER F F 4 ? -37.128 10.799 14.641 1 29.55 ? 5 F 1
+ATOM 30 C CB . SER F F 4 ? -33.996 11.849 14.152 1 29.8 ? 5 F 1
+ATOM 31 O OG . SER F F 4 ? -33.881 10.641 14.867 1 33.91 ? 5 F 1
+ATOM 32 N N . ALA F F 5 ? -36.556 11.359 12.535 1 29.79 ? 6 F 1
+ATOM 33 C CA . ALA F F 5 ? -37.464 10.405 11.919 1 30.9 ? 6 F 1
+ATOM 34 C C . ALA F F 5 ? -36.787 9.038 11.872 1 31.51 ? 6 F 1
+ATOM 35 O O . ALA F F 5 ? -35.567 8.949 11.721 1 32.66 ? 6 F 1
+ATOM 36 C CB . ALA F F 5 ? -37.831 10.862 10.529 1 30.63 ? 6 F 1
+
+_struct.title '3HDS: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+ALA N CA SING N 1
+ALA N H SING N 2
+ALA N H2 SING N 3
+ALA CA C SING N 4
+ALA CA CB SING N 5
+ALA CA HA SING N 6
+ALA C O DOUB N 7
+ALA C OXT SING N 8
+ALA CB HB1 SING N 9
+ALA CB HB2 SING N 10
+ALA CB HB3 SING N 11
+ALA OXT HXT SING N 12
+SER N CA SING N 13
+SER N H SING N 14
+SER N H2 SING N 15
+SER CA C SING N 16
+SER CA CB SING N 17
+SER CA HA SING N 18
+SER C O DOUB N 19
+SER C OXT SING N 20
+SER CB OG SING N 21
+SER CB HB2 SING N 22
+SER CB HB3 SING N 23
+SER OG HG SING N 24
+SER OXT HXT SING N 25
+TRP N CA SING N 26
+TRP N H SING N 27
+TRP N H2 SING N 28
+TRP CA C SING N 29
+TRP CA CB SING N 30
+TRP CA HA SING N 31
+TRP C O DOUB N 32
+TRP C OXT SING N 33
+TRP CB CG SING N 34
+TRP CB HB2 SING N 35
+TRP CB HB3 SING N 36
+TRP CG CD1 DOUB Y 37
+TRP CG CD2 SING Y 38
+TRP CD1 NE1 SING Y 39
+TRP CD1 HD1 SING N 40
+TRP CD2 CE2 DOUB Y 41
+TRP CD2 CE3 SING Y 42
+TRP NE1 CE2 SING Y 43
+TRP NE1 HE1 SING N 44
+TRP CE2 CZ2 SING Y 45
+TRP CE3 CZ3 DOUB Y 46
+TRP CE3 HE3 SING N 47
+TRP CZ2 CH2 DOUB Y 48
+TRP CZ2 HZ2 SING N 49
+TRP CZ3 CH2 SING Y 50
+TRP CZ3 HZ3 SING N 51
+TRP CH2 HH2 SING N 52
+TRP OXT HXT SING N 53
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_auth_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_auth_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.ptnr2_auth_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_auth_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_dist_value
+covale1 covale F SER 5 C F ALA 6 N 1.329
+covale2 covale F SER 3 C F TRP 4 N 1.334
+covale3 covale F TRP 4 C F SER 5 N 1.335
+covale4 covale F ALA 2 C F SER 3 N 1.351

@@ -1,0 +1,285 @@
+data_5EMB
+_entry.id 5EMB
+
+_cell.entry_id 5EMB
+_cell.length_a 37.57
+_cell.length_b 48.33
+_cell.length_c 56.177
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+
+_symmetry.entry_id 5EMB
+_symmetry.space_group_name_H-M 'P 21 21 21'
+_symmetry.Int_Tables_number 19
+
+loop_
+_entity.id
+_entity.type
+B polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+B polypeptide(L) B ?
+
+loop_
+_chem_comp.id
+_chem_comp.type
+GLU .
+MET .
+SEP .
+THR .
+TRP .
+VAL .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+B B
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_auth_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_auth_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.ptnr2_auth_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_auth_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_dist_value
+covale1 covale B GLU 588 C B TRP 589 N 1.306
+covale2 covale B VAL 592 C B MET 593 N 1.309
+covale3 covale B TRP 589 C B SEP 590 N 1.320
+covale4 covale B SEP 590 C B THR 591 N 1.339
+covale5 covale B THR 591 C B VAL 592 N 1.340
+covale6 covale B GLU 587 C B GLU 588 N 1.344
+
+loop_
+_struct_conn_type.id
+covale
+
+loop_
+_atom_type.symbol
+C
+N
+O
+P
+S
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . GLU B B 2 ? 19.306 1.137 -8.649 1 19.92 ? 587 B 1
+ATOM 2 C CA . GLU B B 2 ? 18.823 0.992 -10.021 1 15.59 ? 587 B 1
+ATOM 3 C C . GLU B B 2 ? 17.396 0.405 -9.965 1 10.66 ? 587 B 1
+ATOM 4 O O . GLU B B 2 ? 17.235 -0.734 -9.499 1 10.17 ? 587 B 1
+ATOM 5 C CB . GLU B B 2 ? 19.752 0.1 -10.849 1 22.94 ? 587 B 1
+ATOM 6 C CG . GLU B B 2 ? 19.447 0.143 -12.37 1 38.76 ? 587 B 1
+ATOM 7 C CD . GLU B B 2 ? 20.139 -1.042 -13.03 1 49.58 ? 587 B 1
+ATOM 8 O OE1 . GLU B B 2 ? 21.138 -1.623 -12.347 1 49.85 ? 587 B 1
+ATOM 9 O OE2 . GLU B B 2 ? 19.792 -1.29 -14.302 1 78.13 ? 587 B 1
+ATOM 10 N N . GLU B B 3 ? 16.437 1.229 -10.42 1 9.95 ? 588 B 1
+ATOM 11 C CA . GLU B B 3 ? 15.029 0.856 -10.448 1 8.84 ? 588 B 1
+ATOM 12 C C . GLU B B 3 ? 14.492 0.895 -11.884 1 8.52 ? 588 B 1
+ATOM 13 O O . GLU B B 3 ? 14.885 1.724 -12.708 1 10.54 ? 588 B 1
+ATOM 14 C CB . GLU B B 3 ? 14.142 1.708 -9.626 1 9.96 ? 588 B 1
+ATOM 15 C CG . GLU B B 3 ? 14.481 1.66 -8.12 1 11.87 ? 588 B 1
+ATOM 16 C CD . GLU B B 3 ? 13.489 2.285 -7.155 1 16.55 ? 588 B 1
+ATOM 17 O OE1 . GLU B B 3 ? 12.453 2.802 -7.554 1 22.21 ? 588 B 1
+ATOM 18 O OE2 . GLU B B 3 ? 13.769 2.193 -5.951 1 16.83 ? 588 B 1
+ATOM 19 N N . TRP B B 4 ? 13.592 -0.015 -12.143 1 6.4 ? 589 B 1
+ATOM 20 C CA . TRP B B 4 ? 12.874 -0.091 -13.398 1 5.42 ? 589 B 1
+ATOM 21 C C . TRP B B 4 ? 11.376 0.038 -13.146 1 4.73 ? 589 B 1
+ATOM 22 O O . TRP B B 4 ? 10.871 -0.407 -12.114 1 5.39 ? 589 B 1
+ATOM 23 C CB . TRP B B 4 ? 13.135 -1.413 -14.112 1 6.85 ? 589 B 1
+ATOM 24 C CG . TRP B B 4 ? 14.415 -1.496 -14.878 1 8.12 ? 589 B 1
+ATOM 25 C CD1 . TRP B B 4 ? 15.557 -0.782 -14.708 1 9.29 ? 589 B 1
+ATOM 26 C CD2 . TRP B B 4 ? 14.644 -2.369 -15.99 1 9.17 ? 589 B 1
+ATOM 27 N NE1 . TRP B B 4 ? 16.484 -1.192 -15.604 1 10.57 ? 589 B 1
+ATOM 28 C CE2 . TRP B B 4 ? 15.961 -2.13 -16.432 1 11.03 ? 589 B 1
+ATOM 29 C CE3 . TRP B B 4 ? 13.847 -3.272 -16.713 1 11.26 ? 589 B 1
+ATOM 30 C CZ2 . TRP B B 4 ? 16.515 -2.786 -17.523 1 13.05 ? 589 B 1
+ATOM 31 C CZ3 . TRP B B 4 ? 14.408 -3.939 -17.76 1 13.43 ? 589 B 1
+ATOM 32 C CH2 . TRP B B 4 ? 15.711 -3.688 -18.177 1 15.41 ? 589 B 1
+HETATM 33 N N . SEP B B 5 ? 10.685 0.571 -14.136 1 4.85 ? 590 B 1
+HETATM 34 C CA . SEP B B 5 ? 9.233 0.708 -14.143 1 4.45 ? 590 B 1
+HETATM 35 C CB . SEP B B 5 ? 9.021 2.201 -14.141 1 6.81 ? 590 B 1
+HETATM 36 O OG . SEP B B 5 ? 7.628 2.469 -13.946 1 6.12 ? 590 B 1
+HETATM 37 C C . SEP B B 5 ? 8.706 0.002 -15.383 1 4.87 ? 590 B 1
+HETATM 38 O O . SEP B B 5 ? 9.265 0.17 -16.462 1 7.41 ? 590 B 1
+HETATM 39 P P . SEP B B 5 ? 7.271 4.03 -13.676 1 4.91 ? 590 B 1
+HETATM 40 O O1P . SEP B B 5 ? 8.058 4.659 -12.593 1 6.67 ? 590 B 1
+HETATM 41 O O2P . SEP B B 5 ? 7.539 4.744 -15.045 1 5.57 ? 590 B 1
+HETATM 42 O O3P . SEP B B 5 ? 5.781 3.933 -13.477 1 5.23 ? 590 B 1
+ATOM 43 N N . THR B B 6 ? 7.626 -0.775 -15.235 1 4.36 ? 591 B 1
+ATOM 44 C CA . THR B B 6 ? 7.052 -1.54 -16.328 1 4.27 ? 591 B 1
+ATOM 45 C C . THR B B 6 ? 5.535 -1.359 -16.322 1 4.42 ? 591 B 1
+ATOM 46 O O . THR B B 6 ? 4.901 -1.424 -15.269 1 4.88 ? 591 B 1
+ATOM 47 C CB . THR B B 6 ? 7.41 -3.04 -16.204 1 4.67 ? 591 B 1
+ATOM 48 O OG1 . THR B B 6 ? 8.826 -3.146 -16.027 1 5.77 ? 591 B 1
+ATOM 49 C CG2 . THR B B 6 ? 6.96 -3.865 -17.393 1 6.03 ? 591 B 1
+ATOM 50 N N . VAL B B 7 ? 4.982 -1.187 -17.53 1 4.34 ? 592 B 1
+ATOM 51 C CA . VAL B B 7 ? 3.543 -0.995 -17.724 1 4.36 ? 592 B 1
+ATOM 52 C C . VAL B B 7 ? 2.868 -2.349 -17.828 1 4.62 ? 592 B 1
+ATOM 53 O O . VAL B B 7 ? 3.251 -3.177 -18.693 1 6.15 ? 592 B 1
+ATOM 54 C CB . VAL B B 7 ? 3.285 -0.173 -18.998 1 4.97 ? 592 B 1
+ATOM 55 C CG1 . VAL B B 7 ? 1.794 0.083 -19.154 1 6.37 ? 592 B 1
+ATOM 56 C CG2 . VAL B B 7 ? 4.039 1.153 -18.957 1 5.62 ? 592 B 1
+ATOM 57 N N . MET B B 8 ? 1.878 -2.61 -17.013 0.62 5.12 ? 593 B 1
+ATOM 58 C CA . MET B B 8 ? 1.218 -3.927 -16.936 0.62 6.14 ? 593 B 1
+ATOM 59 C C . MET B B 8 ? -0.288 -3.798 -17.342 0.62 7.06 ? 593 B 1
+ATOM 60 O O . MET B B 8 ? -0.86 -4.858 -17.645 0.62 8.8 ? 593 B 1
+ATOM 61 C CB . MET B B 8 ? 1.34 -4.55 -15.526 0.62 6.5 ? 593 B 1
+ATOM 62 C CG . MET B B 8 ? 2.704 -4.466 -14.829 0.62 6.87 ? 593 B 1
+ATOM 63 S SD . MET B B 8 ? 4.136 -5 -15.823 0.62 7.24 ? 593 B 1
+ATOM 64 C CE . MET B B 8 ? 3.823 -6.734 -15.998 0.62 8.79 ? 593 B 1
+ATOM 65 O OXT . MET B B 8 ? -0.891 -2.712 -17.253 0.62 8.05 ? 593 B 1
+
+_struct.title '5EMB: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+GLU N CA SING N 1
+GLU N H SING N 2
+GLU N H2 SING N 3
+GLU CA C SING N 4
+GLU CA CB SING N 5
+GLU CA HA SING N 6
+GLU C O DOUB N 7
+GLU C OXT SING N 8
+GLU CB CG SING N 9
+GLU CB HB2 SING N 10
+GLU CB HB3 SING N 11
+GLU CG CD SING N 12
+GLU CG HG2 SING N 13
+GLU CG HG3 SING N 14
+GLU CD OE1 DOUB N 15
+GLU CD OE2 SING N 16
+GLU OE2 HE2 SING N 17
+GLU OXT HXT SING N 18
+MET N CA SING N 19
+MET N H SING N 20
+MET N H2 SING N 21
+MET CA C SING N 22
+MET CA CB SING N 23
+MET CA HA SING N 24
+MET C O DOUB N 25
+MET C OXT SING N 26
+MET CB CG SING N 27
+MET CB HB2 SING N 28
+MET CB HB3 SING N 29
+MET CG SD SING N 30
+MET CG HG2 SING N 31
+MET CG HG3 SING N 32
+MET SD CE SING N 33
+MET CE HE1 SING N 34
+MET CE HE2 SING N 35
+MET CE HE3 SING N 36
+MET OXT HXT SING N 37
+SEP N CA SING N 38
+SEP N H SING N 39
+SEP N H2 SING N 40
+SEP CA CB SING N 41
+SEP CA C SING N 42
+SEP CA HA SING N 43
+SEP CB OG SING N 44
+SEP CB HB2 SING N 45
+SEP CB HB3 SING N 46
+SEP OG P SING N 47
+SEP C O DOUB N 48
+SEP C OXT SING N 49
+SEP OXT HXT SING N 50
+SEP P O1P DOUB N 51
+SEP P O2P SING N 52
+SEP P O3P SING N 53
+SEP O2P HOP2 SING N 54
+SEP O3P HOP3 SING N 55
+THR N CA SING N 56
+THR N H SING N 57
+THR N H2 SING N 58
+THR CA C SING N 59
+THR CA CB SING N 60
+THR CA HA SING N 61
+THR C O DOUB N 62
+THR C OXT SING N 63
+THR CB OG1 SING N 64
+THR CB CG2 SING N 65
+THR CB HB SING N 66
+THR OG1 HG1 SING N 67
+THR CG2 HG21 SING N 68
+THR CG2 HG22 SING N 69
+THR CG2 HG23 SING N 70
+THR OXT HXT SING N 71
+TRP N CA SING N 72
+TRP N H SING N 73
+TRP N H2 SING N 74
+TRP CA C SING N 75
+TRP CA CB SING N 76
+TRP CA HA SING N 77
+TRP C O DOUB N 78
+TRP C OXT SING N 79
+TRP CB CG SING N 80
+TRP CB HB2 SING N 81
+TRP CB HB3 SING N 82
+TRP CG CD1 DOUB Y 83
+TRP CG CD2 SING Y 84
+TRP CD1 NE1 SING Y 85
+TRP CD1 HD1 SING N 86
+TRP CD2 CE2 DOUB Y 87
+TRP CD2 CE3 SING Y 88
+TRP NE1 CE2 SING Y 89
+TRP NE1 HE1 SING N 90
+TRP CE2 CZ2 SING Y 91
+TRP CE3 CZ3 DOUB Y 92
+TRP CE3 HE3 SING N 93
+TRP CZ2 CH2 DOUB Y 94
+TRP CZ2 HZ2 SING N 95
+TRP CZ3 CH2 SING Y 96
+TRP CZ3 HZ3 SING N 97
+TRP CH2 HH2 SING N 98
+TRP OXT HXT SING N 99
+VAL N CA SING N 100
+VAL N H SING N 101
+VAL N H2 SING N 102
+VAL CA C SING N 103
+VAL CA CB SING N 104
+VAL CA HA SING N 105
+VAL C O DOUB N 106
+VAL C OXT SING N 107
+VAL CB CG1 SING N 108
+VAL CB CG2 SING N 109
+VAL CB HB SING N 110
+VAL CG1 HG11 SING N 111
+VAL CG1 HG12 SING N 112
+VAL CG1 HG13 SING N 113
+VAL CG2 HG21 SING N 114
+VAL CG2 HG22 SING N 115
+VAL CG2 HG23 SING N 116
+VAL OXT HXT SING N 117

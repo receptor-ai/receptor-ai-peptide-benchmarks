@@ -1,0 +1,22 @@
+{
+  "case_id": "1MFG_entity2",
+  "pdb_id": "1MFG",
+  "peptide_entity_id": "2",
+  "benchmarks": "PIPER-FlexPepDock;PPDbench",
+  "uniprot_ids": "Q96RT1",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.25,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 9,
+  "peptide_sequence": "EYLGLDVPV",
+  "noncanonical_components": "",
+  "n_protein_atoms": 725,
+  "n_peptide_atoms": 71,
+  "dist_min_pocket": 2.674,
+  "dist_max_pocket": 41.302,
+  "peptide_contact_fraction": 0.729,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

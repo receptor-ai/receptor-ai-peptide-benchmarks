@@ -1,0 +1,22 @@
+{
+  "case_id": "2VWF_entity2",
+  "pdb_id": "2VWF",
+  "peptide_entity_id": "2",
+  "benchmarks": "PPDbench",
+  "uniprot_ids": "P62993",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.58,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 14,
+  "peptide_sequence": "IQPPPVNRNLKPDRK",
+  "noncanonical_components": "",
+  "n_protein_atoms": 456,
+  "n_peptide_atoms": 115,
+  "dist_min_pocket": 2.556,
+  "dist_max_pocket": 36.732,
+  "peptide_contact_fraction": 0.603,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

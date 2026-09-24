@@ -1,0 +1,22 @@
+{
+  "case_id": "4XOJ_entity2",
+  "pdb_id": "4XOJ",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P00760",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 0.91,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 13,
+  "peptide_sequence": "GRCTKSIPPICFP",
+  "noncanonical_components": "",
+  "n_protein_atoms": 1634,
+  "n_peptide_atoms": 95,
+  "dist_min_pocket": 2.583,
+  "dist_max_pocket": 47.045,
+  "peptide_contact_fraction": 0.635,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

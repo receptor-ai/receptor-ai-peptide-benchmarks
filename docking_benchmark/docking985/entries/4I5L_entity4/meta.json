@@ -1,0 +1,22 @@
+{
+  "case_id": "4I5L_entity4",
+  "pdb_id": "4I5L",
+  "peptide_entity_id": "4",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P30153",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.43,
+  "peptide_chain_id": "G",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 7,
+  "peptide_sequence": "ALDRXEA",
+  "noncanonical_components": "DAL;ACB;1ZN;FGA;MAA",
+  "n_protein_atoms": 2384,
+  "n_peptide_atoms": 71,
+  "dist_min_pocket": 1.617,
+  "dist_max_pocket": 156.699,
+  "peptide_contact_fraction": 0.829,
+  "n_vdw_violations": 2,
+  "vdw_violations_per_peptide_atom": 0.0137
+}

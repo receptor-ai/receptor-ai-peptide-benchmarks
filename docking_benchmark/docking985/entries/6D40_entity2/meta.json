@@ -1,0 +1,22 @@
+{
+  "case_id": "6D40_entity2",
+  "pdb_id": "6D40",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P00747",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.43,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 14,
+  "peptide_sequence": "GRCYKSIPPICFPD",
+  "noncanonical_components": "",
+  "n_protein_atoms": 1893,
+  "n_peptide_atoms": 110,
+  "dist_min_pocket": 2.707,
+  "dist_max_pocket": 53.704,
+  "peptide_contact_fraction": 0.58,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

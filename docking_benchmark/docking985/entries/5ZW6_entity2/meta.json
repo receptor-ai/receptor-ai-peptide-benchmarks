@@ -1,0 +1,22 @@
+{
+  "case_id": "5ZW6_entity2",
+  "pdb_id": "5ZW6",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "O64094",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.05,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 6,
+  "peptide_sequence": "GMPRGA",
+  "noncanonical_components": "",
+  "n_protein_atoms": 3230,
+  "n_peptide_atoms": 40,
+  "dist_min_pocket": 2.624,
+  "dist_max_pocket": 97.503,
+  "peptide_contact_fraction": 1.0,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

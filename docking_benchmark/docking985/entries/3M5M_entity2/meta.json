@@ -1,0 +1,22 @@
+{
+  "case_id": "3M5M_entity2",
+  "pdb_id": "3M5M",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "A8DG50",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.7,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 8,
+  "peptide_sequence": "XFDEMEEC",
+  "noncanonical_components": "ACE",
+  "n_protein_atoms": 2922,
+  "n_peptide_atoms": 64,
+  "dist_min_pocket": 2.585,
+  "dist_max_pocket": 75.908,
+  "peptide_contact_fraction": 0.939,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

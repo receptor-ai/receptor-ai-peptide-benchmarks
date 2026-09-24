@@ -1,0 +1,22 @@
+{
+  "case_id": "6WI3_entity2",
+  "pdb_id": "6WI3",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q92769",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.35,
+  "peptide_chain_id": "F",
+  "n_peptide_chain_copies": 3,
+  "peptide_length": 9,
+  "peptide_sequence": "XWTDNSMDK",
+  "noncanonical_components": "U2M;DTH;DSN;MED;DAS",
+  "n_protein_atoms": 3004,
+  "n_peptide_atoms": 72,
+  "dist_min_pocket": 2.857,
+  "dist_max_pocket": 90.336,
+  "peptide_contact_fraction": 0.587,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "6J67_entity2",
+  "pdb_id": "6J67",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q15554",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.05,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 6,
+  "peptide_sequence": "XFXLAP",
+  "noncanonical_components": "3FB;B8R",
+  "n_protein_atoms": 1658,
+  "n_peptide_atoms": 61,
+  "dist_min_pocket": 2.426,
+  "dist_max_pocket": 48.928,
+  "peptide_contact_fraction": 0.889,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "2OEI_entity2",
+  "pdb_id": "2OEI",
+  "peptide_entity_id": "2",
+  "benchmarks": "PPDbench",
+  "uniprot_ids": "O00213",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.35,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 9,
+  "peptide_sequence": "PPPPPPLPP",
+  "noncanonical_components": "",
+  "n_protein_atoms": 291,
+  "n_peptide_atoms": 64,
+  "dist_min_pocket": 2.506,
+  "dist_max_pocket": 32.82,
+  "peptide_contact_fraction": 0.657,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

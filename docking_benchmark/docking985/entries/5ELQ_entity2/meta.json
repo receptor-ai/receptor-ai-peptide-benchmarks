@@ -1,0 +1,22 @@
+{
+  "case_id": "5ELQ_entity2",
+  "pdb_id": "5ELQ",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "Q8K4V4",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.1,
+  "peptide_chain_id": "P",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 7,
+  "peptide_sequence": "REDQETAV",
+  "noncanonical_components": "",
+  "n_protein_atoms": 703,
+  "n_peptide_atoms": 55,
+  "dist_min_pocket": 2.611,
+  "dist_max_pocket": 63.665,
+  "peptide_contact_fraction": 0.84,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "4W50_entity2",
+  "pdb_id": "4W50",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P54764",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.42,
+  "peptide_chain_id": "E",
+  "n_peptide_chain_copies": 4,
+  "peptide_length": 12,
+  "peptide_sequence": "APYCVYRGSWSC",
+  "noncanonical_components": "",
+  "n_protein_atoms": 1428,
+  "n_peptide_atoms": 97,
+  "dist_min_pocket": 2.527,
+  "dist_max_pocket": 106.378,
+  "peptide_contact_fraction": 0.745,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

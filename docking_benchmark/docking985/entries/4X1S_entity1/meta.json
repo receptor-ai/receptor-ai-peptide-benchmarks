@@ -1,0 +1,22 @@
+{
+  "case_id": "4X1S_entity1",
+  "pdb_id": "4X1S",
+  "peptide_entity_id": "1",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P00749",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.9,
+  "peptide_chain_id": "P",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 11,
+  "peptide_sequence": "CPAYSAYLAC",
+  "noncanonical_components": "MRZ",
+  "n_protein_atoms": 1945,
+  "n_peptide_atoms": 81,
+  "dist_min_pocket": 2.343,
+  "dist_max_pocket": 49.607,
+  "peptide_contact_fraction": 0.904,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

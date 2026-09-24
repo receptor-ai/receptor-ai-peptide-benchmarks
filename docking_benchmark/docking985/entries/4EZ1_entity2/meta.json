@@ -1,0 +1,22 @@
+{
+  "case_id": "4EZ1_entity2",
+  "pdb_id": "4EZ1",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q8WSF8",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.49,
+  "peptide_chain_id": "K",
+  "n_peptide_chain_copies": 5,
+  "peptide_length": 14,
+  "peptide_sequence": "GCCSTPPCAVLYCX",
+  "noncanonical_components": "NH2",
+  "n_protein_atoms": 1651,
+  "n_peptide_atoms": 88,
+  "dist_min_pocket": 2.33,
+  "dist_max_pocket": 78.317,
+  "peptide_contact_fraction": 0.859,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

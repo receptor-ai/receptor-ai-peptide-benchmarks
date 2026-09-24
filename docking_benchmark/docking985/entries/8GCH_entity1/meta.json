@@ -1,0 +1,22 @@
+{
+  "case_id": "8GCH_entity1",
+  "pdb_id": "8GCH",
+  "peptide_entity_id": "1",
+  "benchmarks": "Vina_47",
+  "uniprot_ids": "P00766",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.6,
+  "peptide_chain_id": "E",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 11,
+  "peptide_sequence": "CGVPAIQPVLSGL",
+  "noncanonical_components": "",
+  "n_protein_atoms": 1701,
+  "n_peptide_atoms": 69,
+  "dist_min_pocket": 2.008,
+  "dist_max_pocket": 46.563,
+  "peptide_contact_fraction": 0.802,
+  "n_vdw_violations": 1,
+  "vdw_violations_per_peptide_atom": 0.011
+}

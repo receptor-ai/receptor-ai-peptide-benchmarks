@@ -1,0 +1,22 @@
+{
+  "case_id": "3WGX_entity2",
+  "pdb_id": "3WGX",
+  "peptide_entity_id": "2",
+  "benchmarks": "PepSet",
+  "uniprot_ids": "Q8NBS9",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 0.92,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 7,
+  "peptide_sequence": "HGEVCPAGWKPGSETIIPDP",
+  "noncanonical_components": "",
+  "n_protein_atoms": 884,
+  "n_peptide_atoms": 48,
+  "dist_min_pocket": 2.112,
+  "dist_max_pocket": 66.314,
+  "peptide_contact_fraction": 0.888,
+  "n_vdw_violations": 2,
+  "vdw_violations_per_peptide_atom": 0.0204
+}

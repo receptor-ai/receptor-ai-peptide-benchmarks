@@ -1,0 +1,22 @@
+{
+  "case_id": "3G5V_entity3",
+  "pdb_id": "3G5V",
+  "peptide_entity_id": "3",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.001,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 16,
+  "peptide_sequence": "CGADSYEMEEDGVRKC",
+  "noncanonical_components": "",
+  "n_protein_atoms": 3164,
+  "n_peptide_atoms": 122,
+  "dist_min_pocket": 2.659,
+  "dist_max_pocket": 86.978,
+  "peptide_contact_fraction": 0.523,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

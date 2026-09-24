@@ -1,0 +1,9 @@
+# Minimum versions this package was built and tested against.
+biotite>=1.7.1
+numpy>=1.26.4
+rdkit>=2026.3.5
+
+# Optional: only needed for score_docking.py's DockQ metrics (fnat, fnonnat,
+# iRMSD, LRMSD, DockQ, CAPRI_class). Without it, score_docking.py still runs
+# and reports the RMSD variants and clashscore - see README.md.
+DockQ>=2.1.3

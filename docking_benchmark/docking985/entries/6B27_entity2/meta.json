@@ -1,0 +1,22 @@
+{
+  "case_id": "6B27_entity2",
+  "pdb_id": "6B27",
+  "peptide_entity_id": "2",
+  "benchmarks": "PepSet",
+  "uniprot_ids": "Q6ZMT1",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.73,
+  "peptide_chain_id": "G",
+  "n_peptide_chain_copies": 6,
+  "peptide_length": 10,
+  "peptide_sequence": "EDEPEIPLSPRPRP",
+  "noncanonical_components": "",
+  "n_protein_atoms": 933,
+  "n_peptide_atoms": 79,
+  "dist_min_pocket": 2.425,
+  "dist_max_pocket": 106.35,
+  "peptide_contact_fraction": 0.659,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

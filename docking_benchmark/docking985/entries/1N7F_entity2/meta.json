@@ -1,0 +1,22 @@
+{
+  "case_id": "1N7F_entity2",
+  "pdb_id": "1N7F",
+  "peptide_entity_id": "2",
+  "benchmarks": "LEADS-PEP;PIPER-FlexPepDock",
+  "uniprot_ids": "P97879",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.8,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 8,
+  "peptide_sequence": "ATVRTYSC",
+  "noncanonical_components": "",
+  "n_protein_atoms": 643,
+  "n_peptide_atoms": 62,
+  "dist_min_pocket": 2.527,
+  "dist_max_pocket": 64.949,
+  "peptide_contact_fraction": 0.82,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

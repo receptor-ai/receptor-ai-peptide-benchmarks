@@ -1,0 +1,22 @@
+{
+  "case_id": "2Z6W_entity2",
+  "pdb_id": "2Z6W",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P30405",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 0.96,
+  "peptide_chain_id": "M",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 11,
+  "peptide_sequence": "ALLVTAGLVLA",
+  "noncanonical_components": "DAL;MLE;MLE;MVA;BMT;ABA;SAR;MLE;MLE",
+  "n_protein_atoms": 1240,
+  "n_peptide_atoms": 85,
+  "dist_min_pocket": 2.864,
+  "dist_max_pocket": 73.281,
+  "peptide_contact_fraction": 0.577,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

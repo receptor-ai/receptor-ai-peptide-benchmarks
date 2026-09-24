@@ -1,0 +1,22 @@
+{
+  "case_id": "2FFF_entity1",
+  "pdb_id": "2FFF",
+  "peptide_entity_id": "1",
+  "benchmarks": "PPDbench",
+  "uniprot_ids": "O70038",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.23,
+  "peptide_chain_id": "A",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 15,
+  "peptide_sequence": "ISEITYSDGTVIASI",
+  "noncanonical_components": "",
+  "n_protein_atoms": 3507,
+  "n_peptide_atoms": 109,
+  "dist_min_pocket": 2.363,
+  "dist_max_pocket": 89.114,
+  "peptide_contact_fraction": 0.624,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

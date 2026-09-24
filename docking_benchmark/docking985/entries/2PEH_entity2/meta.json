@@ -1,0 +1,22 @@
+{
+  "case_id": "2PEH_entity2",
+  "pdb_id": "2PEH",
+  "peptide_entity_id": "2",
+  "benchmarks": "PPDbench",
+  "uniprot_ids": "Q96I25",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.11,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 10,
+  "peptide_sequence": "KRKSRWDETP",
+  "noncanonical_components": "",
+  "n_protein_atoms": 814,
+  "n_peptide_atoms": 88,
+  "dist_min_pocket": 2.585,
+  "dist_max_pocket": 63.629,
+  "peptide_contact_fraction": 0.713,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

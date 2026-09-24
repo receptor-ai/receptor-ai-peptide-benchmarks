@@ -1,0 +1,28 @@
+peptide	1	2	3	4	5	6	7	8	9	10	11	12	13	Measured KD (nM)
+PMI	T	S	F	A	E	Y	W	N	L	L	S	P		7.7
+1	A	S	F	A	A	Y	W	N	L	L	S	P		10.0
+2	T	A	F	A	E	A	W	N	L	L	S	P		628.0
+3	T	S	A	A	E	Y	A	N	L	L	S	P		4912.0
+4	T	S	F	A	E	Y	W	A	L	L	S	P		0.8
+5	T	S	F	A	A	Y	W	N	A	L	S	P		30.0
+6	T	S	F	A	E	A	W	N	L	A	S	P		1440.0
+7	T	S	F	A	E	Y	A	N	L	L	A	P		1223.0
+8	T	S	F	A	E	Y	W	A	L	L	S	A		0.7
+17	T	S	F	A	E	Y	W	A	A	L	S	P	K	32.0
+18	T	S	F	A	E	Y	W	N	A	L	S	A	K	2.7
+19	T	S	F	A	E	Y	W	N	A	L	A	P	K	8.8
+20	T	S	F	A	E	Y	W	N	A	L	A	A	K	6.2
+21	A	S	F	A	E	Y	W	A	A	L	S	P	K	2.1
+22	T	S	F	A	E	Y	W	A	A	L	S	A	K	2.0
+23	T	A	F	A	E	Y	W	N	A	L	S	A	K	3.7
+24	A	S	F	A	E	Y	W	A	A	L	A	P	K	59.0
+25	T	S	F	A	A	Y	W	A	A	L	S	A	K	2.2
+26	T	A	F	A	E	Y	W	A	A	L	S	A	K	1.0
+27	A	A	F	A	E	Y	W	A	A	L	S	P	K	10.0
+28	A	S	F	A	E	Y	W	N	A	L	A	A	K	4.7
+29	A	S	F	A	E	Y	W	A	A	L	A	A	K	2.3
+30	A	S	F	A	A	Y	W	A	A	L	S	A	K	8.6
+31	A	A	F	A	E	Y	W	N	A	L	A	A	K	3.2
+32	T	A	F	A	A	Y	W	A	A	L	A	A	K	2.3
+33	A	S	F	A	A	Y	W	A	A	L	A	A	K	67.0
+34	A	A	F	A	A	Y	W	A	A	L	A	A	K	4.7

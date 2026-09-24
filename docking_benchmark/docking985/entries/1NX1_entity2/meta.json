@@ -1,0 +1,22 @@
+{
+  "case_id": "1NX1_entity2",
+  "pdb_id": "1NX1",
+  "peptide_entity_id": "2",
+  "benchmarks": "PIPER-FlexPepDock;PPDbench",
+  "uniprot_ids": "P04574",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.0,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 11,
+  "peptide_sequence": "DAIDALSSDFT",
+  "noncanonical_components": "",
+  "n_protein_atoms": 1399,
+  "n_peptide_atoms": 81,
+  "dist_min_pocket": 2.655,
+  "dist_max_pocket": 69.667,
+  "peptide_contact_fraction": 0.747,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

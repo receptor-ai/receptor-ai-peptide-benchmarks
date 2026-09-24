@@ -1,0 +1,22 @@
+{
+  "case_id": "4GNE_entity2",
+  "pdb_id": "4GNE",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "Q9BZ95",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.47,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 6,
+  "peptide_sequence": "ARTKQTA",
+  "noncanonical_components": "",
+  "n_protein_atoms": 766,
+  "n_peptide_atoms": 48,
+  "dist_min_pocket": 2.747,
+  "dist_max_pocket": 45.692,
+  "peptide_contact_fraction": 0.915,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

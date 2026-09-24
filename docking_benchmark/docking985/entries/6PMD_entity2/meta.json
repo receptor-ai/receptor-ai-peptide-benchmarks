@@ -1,0 +1,22 @@
+{
+  "case_id": "6PMD_entity2",
+  "pdb_id": "6PMD",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q2G036",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.21,
+  "peptide_chain_id": "H",
+  "n_peptide_chain_copies": 11,
+  "peptide_length": 7,
+  "peptide_sequence": "XXSPXAP",
+  "noncanonical_components": "SHV;WFP;YCP;MP8",
+  "n_protein_atoms": 1418,
+  "n_peptide_atoms": 55,
+  "dist_min_pocket": 2.239,
+  "dist_max_pocket": 115.979,
+  "peptide_contact_fraction": 0.774,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

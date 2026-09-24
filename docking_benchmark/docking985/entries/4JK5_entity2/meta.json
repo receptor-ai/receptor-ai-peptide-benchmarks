@@ -1,0 +1,22 @@
+{
+  "case_id": "4JK5_entity2",
+  "pdb_id": "4JK5",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P00749",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.55,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 19,
+  "peptide_sequence": "ACSRYEVDCRGRSSACGX",
+  "noncanonical_components": "DSN;NH2;ZBR",
+  "n_protein_atoms": 1934,
+  "n_peptide_atoms": 133,
+  "dist_min_pocket": 2.52,
+  "dist_max_pocket": 51.145,
+  "peptide_contact_fraction": 0.638,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

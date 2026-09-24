@@ -1,0 +1,22 @@
+{
+  "case_id": "6EXJ_entity2",
+  "pdb_id": "6EXJ",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "Q9JLU4",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.8,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 7,
+  "peptide_sequence": "XDLQTSI",
+  "noncanonical_components": "ACE",
+  "n_protein_atoms": 676,
+  "n_peptide_atoms": 50,
+  "dist_min_pocket": 2.415,
+  "dist_max_pocket": 38.466,
+  "peptide_contact_fraction": 0.973,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

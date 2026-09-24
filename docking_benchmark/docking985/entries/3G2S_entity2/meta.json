@@ -1,0 +1,22 @@
+{
+  "case_id": "3G2S_entity2",
+  "pdb_id": "3G2S",
+  "peptide_entity_id": "2",
+  "benchmarks": "PPDbench;PepSet",
+  "uniprot_ids": "Q9UJY5",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.7,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 11,
+  "peptide_sequence": "ITGFSDDVPMVIA",
+  "noncanonical_components": "",
+  "n_protein_atoms": 1171,
+  "n_peptide_atoms": 80,
+  "dist_min_pocket": 2.627,
+  "dist_max_pocket": 60.769,
+  "peptide_contact_fraction": 0.651,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

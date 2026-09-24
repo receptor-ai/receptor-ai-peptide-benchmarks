@@ -1,0 +1,22 @@
+{
+  "case_id": "6B67_entity2",
+  "pdb_id": "6B67",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "P35813",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.2,
+  "peptide_chain_id": "D",
+  "n_peptide_chain_copies": 3,
+  "peptide_length": 7,
+  "peptide_sequence": "MSIYVAX",
+  "noncanonical_components": "SEP;PTR;48V",
+  "n_protein_atoms": 2302,
+  "n_peptide_atoms": 64,
+  "dist_min_pocket": 2.604,
+  "dist_max_pocket": 101.191,
+  "peptide_contact_fraction": 0.78,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

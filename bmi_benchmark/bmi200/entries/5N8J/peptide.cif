@@ -1,0 +1,288 @@
+data_5N8J
+_entry.id 5N8J
+
+_cell.entry_id 5N8J
+_cell.length_a 46.665
+_cell.length_b 84.878
+_cell.length_c 57.754
+_cell.angle_alpha 90
+_cell.angle_beta 99.1
+_cell.angle_gamma 90
+
+_symmetry.entry_id 5N8J
+_symmetry.space_group_name_H-M 'P 1 21 1'
+_symmetry.Int_Tables_number 4
+
+loop_
+_entity.id
+_entity.type
+P polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+P polypeptide(D) P ?
+
+loop_
+_chem_comp.id
+_chem_comp.type
+DAL .
+DAS .
+DGL .
+DLE .
+DSG .
+DSN .
+DVA .
+GLY .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+E P
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_auth_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_auth_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.ptnr2_auth_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_auth_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_dist_value
+covale1 covale P DAL 3 C P DSG 4 N 1.320
+covale2 covale P GLY 1 C P DLE 2 N 1.328
+covale3 covale P DVA 5 C P DAS 6 N 1.330
+covale4 covale P DSG 4 C P DVA 5 N 1.332
+covale5 covale P DAS 6 C P DGL 7 N 1.336
+covale6 covale P DLE 2 C P DAL 3 N 1.337
+covale7 covale P DGL 7 C P DSN 8 N 1.342
+covale8 covale P DSN 8 C P DSN 9 N 1.342
+
+loop_
+_struct_conn_type.id
+covale
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . GLY E P 3 ? 27.753 29.097 9.89 1 16.35 ? 1 P 1
+ATOM 2 C CA . GLY E P 3 ? 26.653 28.089 9.858 1 15.27 ? 1 P 1
+ATOM 3 C C . GLY E P 3 ? 25.592 28.35 10.909 1 14.25 ? 1 P 1
+ATOM 4 O O . GLY E P 3 ? 25.786 29.12 11.852 1 15.51 ? 1 P 1
+HETATM 5 N N . DLE E P 4 ? 24.452 27.688 10.745 1 13.74 ? 2 P 1
+HETATM 6 C CA . DLE E P 4 ? 23.312 27.785 11.671 1 13.79 ? 2 P 1
+HETATM 7 C CB . DLE E P 4 ? 22.943 26.375 12.125 1 15.27 ? 2 P 1
+HETATM 8 C CG . DLE E P 4 ? 24.038 25.672 12.926 1 16.9 ? 2 P 1
+HETATM 9 C CD1 . DLE E P 4 ? 24.164 26.257 14.337 1 19.23 ? 2 P 1
+HETATM 10 C CD2 . DLE E P 4 ? 23.783 24.16 12.936 1 18.64 ? 2 P 1
+HETATM 11 C C . DLE E P 4 ? 22.108 28.334 10.958 1 12.77 ? 2 P 1
+HETATM 12 O O . DLE E P 4 ? 21.799 27.876 9.849 1 14.11 ? 2 P 1
+HETATM 13 N N . DAL E P 5 ? 21.404 29.269 11.604 1 13.22 ? 3 P 1
+HETATM 14 C CA . DAL E P 5 ? 20.186 29.889 11.05 1 12.77 ? 3 P 1
+HETATM 15 C CB . DAL E P 5 ? 20.583 31.183 10.318 1 14.03 ? 3 P 1
+HETATM 16 C C . DAL E P 5 ? 19.331 30.263 12.226 1 12.43 ? 3 P 1
+HETATM 17 O O . DAL E P 5 ? 19.82 30.758 13.246 1 13.72 ? 3 P 1
+HETATM 18 N N . DSG E P 6 ? 18.028 30.107 12.08 1 12.25 ? 4 P 1
+HETATM 19 C CA . DSG E P 6 ? 17.128 30.237 13.246 1 12.48 ? 4 P 1
+HETATM 20 C C . DSG E P 6 ? 17.186 31.622 13.854 1 12.81 ? 4 P 1
+HETATM 21 O O . DSG E P 6 ? 17.005 31.754 15.056 1 14.66 ? 4 P 1
+HETATM 22 C CB . DSG E P 6 ? 15.671 29.972 12.929 1 12.56 ? 4 P 1
+HETATM 23 C CG . DSG E P 6 ? 15.43 28.583 12.448 1 12.26 ? 4 P 1
+HETATM 24 O OD1 . DSG E P 6 ? 14.663 27.89 13.028 1 9.45 ? 4 P 1
+HETATM 25 N ND2 . DSG E P 6 ? 16.028 28.079 11.474 1 11.2 ? 4 P 1
+HETATM 26 N N . DVA E P 7 ? 17.472 32.657 13.065 1 13.63 ? 5 P 1
+HETATM 27 C CA . DVA E P 7 ? 17.586 34.012 13.605 1 14.33 ? 5 P 1
+HETATM 28 C CB . DVA E P 7 ? 17.793 35.072 12.519 1 14.58 ? 5 P 1
+HETATM 29 C CG1 . DVA E P 7 ? 19.012 34.84 11.617 1 15 ? 5 P 1
+HETATM 30 C CG2 . DVA E P 7 ? 16.53 35.163 11.688 1 15.07 ? 5 P 1
+HETATM 31 C C . DVA E P 7 ? 18.698 34.146 14.619 1 14.5 ? 5 P 1
+HETATM 32 O O . DVA E P 7 ? 18.725 35.119 15.41 1 15.38 ? 5 P 1
+HETATM 33 N N . DAS E P 8 ? 19.625 33.192 14.61 1 13.53 ? 6 P 1
+HETATM 34 C CA . DAS E P 8 ? 20.675 33.129 15.674 1 14.27 ? 6 P 1
+HETATM 35 C C . DAS E P 8 ? 20.133 33.056 17.076 1 15.14 ? 6 P 1
+HETATM 36 O O . DAS E P 8 ? 20.783 33.516 18.019 1 17.15 ? 6 P 1
+HETATM 37 C CB . DAS E P 8 ? 21.632 31.964 15.421 1 14.87 ? 6 P 1
+HETATM 38 C CG . DAS E P 8 ? 22.405 32.061 14.118 1 16.03 ? 6 P 1
+HETATM 39 O OD1 . DAS E P 8 ? 22.433 33.154 13.527 1 17.52 ? 6 P 1
+HETATM 40 O OD2 . DAS E P 8 ? 22.996 31.051 13.64 1 17.31 ? 6 P 1
+HETATM 41 N N . DGL E P 9 ? 18.933 32.488 17.224 1 14.65 ? 7 P 1
+HETATM 42 C CA . DGL E P 9 ? 18.29 32.385 18.522 1 14.74 ? 7 P 1
+HETATM 43 C C . DGL E P 9 ? 17.981 33.73 19.145 1 15.24 ? 7 P 1
+HETATM 44 O O . DGL E P 9 ? 17.792 33.797 20.35 1 17.02 ? 7 P 1
+HETATM 45 C CB . DGL E P 9 ? 16.978 31.625 18.368 1 14.86 ? 7 P 1
+HETATM 46 C CG . DGL E P 9 ? 15.874 32.501 17.774 1 15.49 ? 7 P 1
+HETATM 47 C CD . DGL E P 9 ? 14.702 31.713 17.237 1 16.02 ? 7 P 1
+HETATM 48 O OE1 . DGL E P 9 ? 13.826 32.322 16.586 1 16.65 ? 7 P 1
+HETATM 49 O OE2 . DGL E P 9 ? 14.608 30.484 17.456 1 17.47 ? 7 P 1
+HETATM 50 N N . DSN E P 10 ? 17.883 34.812 18.357 1 15.68 ? 8 P 1
+HETATM 51 C CA . DSN E P 10 ? 17.489 36.123 18.882 1 16.62 ? 8 P 1
+HETATM 52 C C . DSN E P 10 ? 18.426 37.208 18.422 1 17.32 ? 8 P 1
+HETATM 53 O O . DSN E P 10 ? 18.05 38.385 18.398 1 18.3 ? 8 P 1
+HETATM 54 C CB . DSN E P 10 ? 16.055 36.4 18.452 1 15.87 ? 8 P 1
+HETATM 55 O OG . DSN E P 10 ? 15.946 36.534 17.021 1 15.97 ? 8 P 1
+HETATM 56 N N . DSN E P 11 ? 19.673 36.821 18.111 1 19.04 ? 9 P 1
+HETATM 57 C CA . DSN E P 11 ? 20.693 37.726 17.58 1 20.45 ? 9 P 1
+HETATM 58 C C . DSN E P 11 ? 21.673 38.075 18.656 1 23.07 ? 9 P 1
+HETATM 59 O O . DSN E P 11 ? 22.617 38.821 18.413 1 25.9 ? 9 P 1
+HETATM 60 C CB . DSN E P 11 ? 21.433 37.053 16.412 1 20.85 ? 9 P 1
+HETATM 61 O OG . DSN E P 11 ? 20.566 36.919 15.286 1 23.04 ? 9 P 1
+
+_struct.title '5N8J: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+DAL N CA SING N 1
+DAL N H SING N 2
+DAL N H2 SING N 3
+DAL CA CB SING N 4
+DAL CA C SING N 5
+DAL CA HA SING N 6
+DAL CB HB1 SING N 7
+DAL CB HB2 SING N 8
+DAL CB HB3 SING N 9
+DAL C O DOUB N 10
+DAL C OXT SING N 11
+DAL OXT HXT SING N 12
+DAS N CA SING N 13
+DAS N H SING N 14
+DAS N H2 SING N 15
+DAS CA C SING N 16
+DAS CA CB SING N 17
+DAS CA HA SING N 18
+DAS C O DOUB N 19
+DAS C OXT SING N 20
+DAS CB CG SING N 21
+DAS CB HB2 SING N 22
+DAS CB HB3 SING N 23
+DAS CG OD1 DOUB N 24
+DAS CG OD2 SING N 25
+DAS OD2 HD2 SING N 26
+DAS OXT HXT SING N 27
+DGL N CA SING N 28
+DGL N H SING N 29
+DGL N H2 SING N 30
+DGL CA C SING N 31
+DGL CA CB SING N 32
+DGL CA HA SING N 33
+DGL C O DOUB N 34
+DGL C OXT SING N 35
+DGL CB CG SING N 36
+DGL CB HB2 SING N 37
+DGL CB HB3 SING N 38
+DGL CG CD SING N 39
+DGL CG HG2 SING N 40
+DGL CG HG3 SING N 41
+DGL CD OE1 DOUB N 42
+DGL CD OE2 SING N 43
+DGL OE2 HE2 SING N 44
+DGL OXT HXT SING N 45
+DLE N CA SING N 46
+DLE N H SING N 47
+DLE N H2 SING N 48
+DLE CA CB SING N 49
+DLE CA C SING N 50
+DLE CA HA SING N 51
+DLE CB CG SING N 52
+DLE CB HB2 SING N 53
+DLE CB HB3 SING N 54
+DLE CG CD1 SING N 55
+DLE CG CD2 SING N 56
+DLE CG HG SING N 57
+DLE CD1 HD11 SING N 58
+DLE CD1 HD12 SING N 59
+DLE CD1 HD13 SING N 60
+DLE CD2 HD21 SING N 61
+DLE CD2 HD22 SING N 62
+DLE CD2 HD23 SING N 63
+DLE C O DOUB N 64
+DLE C OXT SING N 65
+DLE OXT HXT SING N 66
+DSG N CA SING N 67
+DSG N H SING N 68
+DSG N H2 SING N 69
+DSG CA C SING N 70
+DSG CA CB SING N 71
+DSG CA HA SING N 72
+DSG C O DOUB N 73
+DSG C OXT SING N 74
+DSG CB CG SING N 75
+DSG CB HB2 SING N 76
+DSG CB HB3 SING N 77
+DSG CG OD1 DOUB N 78
+DSG CG ND2 SING N 79
+DSG ND2 HD21 SING N 80
+DSG ND2 HD22 SING N 81
+DSG OXT HXT SING N 82
+DSN N CA SING N 83
+DSN N H SING N 84
+DSN N H2 SING N 85
+DSN CA C SING N 86
+DSN CA CB SING N 87
+DSN CA HA SING N 88
+DSN C O DOUB N 89
+DSN C OXT SING N 90
+DSN OXT HXT SING N 91
+DSN CB OG SING N 92
+DSN CB HB2 SING N 93
+DSN CB HB3 SING N 94
+DSN OG HG SING N 95
+DVA N CA SING N 96
+DVA N H SING N 97
+DVA N H2 SING N 98
+DVA CA CB SING N 99
+DVA CA C SING N 100
+DVA CA HA SING N 101
+DVA CB CG1 SING N 102
+DVA CB CG2 SING N 103
+DVA CB HB SING N 104
+DVA CG1 HG11 SING N 105
+DVA CG1 HG12 SING N 106
+DVA CG1 HG13 SING N 107
+DVA CG2 HG21 SING N 108
+DVA CG2 HG22 SING N 109
+DVA CG2 HG23 SING N 110
+DVA C O DOUB N 111
+DVA C OXT SING N 112
+DVA OXT HXT SING N 113
+GLY N CA SING N 114
+GLY N H SING N 115
+GLY N H2 SING N 116
+GLY CA C SING N 117
+GLY CA HA2 SING N 118
+GLY CA HA3 SING N 119
+GLY C O DOUB N 120
+GLY C OXT SING N 121
+GLY OXT HXT SING N 122

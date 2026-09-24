@@ -1,0 +1,22 @@
+{
+  "case_id": "4JWD_entity2",
+  "pdb_id": "4JWD",
+  "peptide_entity_id": "2",
+  "benchmarks": "ProtPep37_2021",
+  "uniprot_ids": "P0A6Y8",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.95,
+  "peptide_chain_id": "C",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 7,
+  "peptide_sequence": "PRPLPFPRPGPRPI",
+  "noncanonical_components": "",
+  "n_protein_atoms": 1624,
+  "n_peptide_atoms": 58,
+  "dist_min_pocket": 2.814,
+  "dist_max_pocket": 70.524,
+  "peptide_contact_fraction": 0.915,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: >-
+  This repository is a collection of benchmarks. If you use a specific
+  benchmark, please cite that benchmark using the CITATION.cff in its folder.
+  To cite the collection as a whole, use the metadata below.
+title: "Receptor.AI Peptide Platform Benchmarks"
+abstract: "Public benchmarks for the Receptor.AI peptide platform."
+type: dataset
+authors:
+  - name: "Receptor.AI, Inc."
+    website: "https://receptor.ai"
+repository-code: "https://github.com/receptor-ai/receptor-ai-peptide-benchmarks"
+url: "https://github.com/receptor-ai/receptor-ai-peptide-benchmarks"
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2026-09-21"
+keywords:
+  - peptides
+  - protein-peptide interaction
+  - benchmark
+  - drug discovery

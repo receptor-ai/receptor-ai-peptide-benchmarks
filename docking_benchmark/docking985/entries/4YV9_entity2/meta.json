@@ -1,0 +1,22 @@
+{
+  "case_id": "4YV9_entity2",
+  "pdb_id": "4YV9",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "A0A0J9X288",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.95,
+  "peptide_chain_id": "E",
+  "n_peptide_chain_copies": 4,
+  "peptide_length": 11,
+  "peptide_sequence": "ALLVTAGLVLA",
+  "noncanonical_components": "DAL;MLE;MLE;MVA;BMT;ABA;SAR;MLE;MLE",
+  "n_protein_atoms": 2179,
+  "n_peptide_atoms": 85,
+  "dist_min_pocket": 2.643,
+  "dist_max_pocket": 114.832,
+  "peptide_contact_fraction": 0.783,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

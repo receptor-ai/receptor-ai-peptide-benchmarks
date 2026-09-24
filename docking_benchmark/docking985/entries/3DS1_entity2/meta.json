@@ -1,0 +1,22 @@
+{
+  "case_id": "3DS1_entity2",
+  "pdb_id": "3DS1",
+  "peptide_entity_id": "2",
+  "benchmarks": "LEADS-PEP",
+  "uniprot_ids": "P12497",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.6,
+  "peptide_chain_id": "T",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 11,
+  "peptide_sequence": "ITFEDLLDYYGP",
+  "noncanonical_components": "",
+  "n_protein_atoms": 623,
+  "n_peptide_atoms": 95,
+  "dist_min_pocket": 2.711,
+  "dist_max_pocket": 46.303,
+  "peptide_contact_fraction": 0.696,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

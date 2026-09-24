@@ -1,0 +1,22 @@
+{
+  "case_id": "5U1Q_entity2",
+  "pdb_id": "5U1Q",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q14451",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.1,
+  "peptide_chain_id": "L",
+  "n_peptide_chain_copies": 4,
+  "peptide_length": 9,
+  "peptide_sequence": "KFEGYDNEX",
+  "noncanonical_components": "48V",
+  "n_protein_atoms": 826,
+  "n_peptide_atoms": 79,
+  "dist_min_pocket": 2.692,
+  "dist_max_pocket": 74.375,
+  "peptide_contact_fraction": 0.602,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

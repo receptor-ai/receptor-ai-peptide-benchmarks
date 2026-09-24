@@ -1,0 +1,22 @@
+{
+  "case_id": "2C9T_entity2",
+  "pdb_id": "2C9T",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q8WSF8",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 2.25,
+  "peptide_chain_id": "K",
+  "n_peptide_chain_copies": 8,
+  "peptide_length": 13,
+  "peptide_sequence": "GCCSDPRCAWRCX",
+  "noncanonical_components": "NH2",
+  "n_protein_atoms": 1637,
+  "n_peptide_atoms": 91,
+  "dist_min_pocket": 2.351,
+  "dist_max_pocket": 121.957,
+  "peptide_contact_fraction": 0.79,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

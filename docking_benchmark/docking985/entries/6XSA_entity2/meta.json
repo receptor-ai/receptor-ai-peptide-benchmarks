@@ -1,0 +1,22 @@
+{
+  "case_id": "6XSA_entity2",
+  "pdb_id": "6XSA",
+  "peptide_entity_id": "2",
+  "benchmarks": "CSPSet",
+  "uniprot_ids": "Q9UBQ0",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.83,
+  "peptide_chain_id": "B",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 16,
+  "peptide_sequence": "XYLPTITGVGHLWHPL",
+  "noncanonical_components": "48V",
+  "n_protein_atoms": 1458,
+  "n_peptide_atoms": 131,
+  "dist_min_pocket": 2.673,
+  "dist_max_pocket": 50.327,
+  "peptide_contact_fraction": 0.512,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

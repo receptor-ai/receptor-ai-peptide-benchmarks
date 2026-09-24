@@ -1,0 +1,22 @@
+{
+  "case_id": "3SO6_entity2",
+  "pdb_id": "3SO6",
+  "peptide_entity_id": "2",
+  "benchmarks": "PPDbench",
+  "uniprot_ids": "D3ZAR1",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.37,
+  "peptide_chain_id": "Q",
+  "n_peptide_chain_copies": 1,
+  "peptide_length": 13,
+  "peptide_sequence": "NSINFDNPVYQKTT",
+  "noncanonical_components": "",
+  "n_protein_atoms": 1069,
+  "n_peptide_atoms": 107,
+  "dist_min_pocket": 2.586,
+  "dist_max_pocket": 47.665,
+  "peptide_contact_fraction": 0.802,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}

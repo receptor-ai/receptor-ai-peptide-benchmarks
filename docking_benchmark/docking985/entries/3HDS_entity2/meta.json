@@ -1,0 +1,22 @@
+{
+  "case_id": "3HDS_entity2",
+  "pdb_id": "3HDS",
+  "peptide_entity_id": "2",
+  "benchmarks": "PepSet;ProtPep37_2021",
+  "uniprot_ids": "C5MR76",
+  "experimental_method": "X-RAY DIFFRACTION",
+  "is_nmr": false,
+  "resolution_angstrom": 1.45,
+  "peptide_chain_id": "E",
+  "n_peptide_chain_copies": 2,
+  "peptide_length": 5,
+  "peptide_sequence": "ASWSA",
+  "noncanonical_components": "",
+  "n_protein_atoms": 898,
+  "n_peptide_atoms": 36,
+  "dist_min_pocket": 2.554,
+  "dist_max_pocket": 84.069,
+  "peptide_contact_fraction": 0.987,
+  "n_vdw_violations": 0,
+  "vdw_violations_per_peptide_atom": 0.0
+}
