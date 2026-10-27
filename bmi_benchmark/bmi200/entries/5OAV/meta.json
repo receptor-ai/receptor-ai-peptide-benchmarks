@@ -178,19 +178,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 68669,
-    "file": "complex.cif",
-    "n_chains": 3,
-    "n_struct_conn": 1,
-    "role": "strict primary",
-    "written_by": "strict-hetero-clean bmi-strict-hetero-1.0"
-   },
    "peptide.cif": {
     "bytes": 10076,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 1,
+    "n_struct_conn": 11,
     "subchains_kept": [
      "D"
     ]
@@ -925,12 +917,6 @@
    "trailing_newline": true
   },
   "files": {
-   "complex.cif": {
-    "bytes": 68669,
-    "n_chains": 3,
-    "n_struct_conn": 1,
-    "role": "strict primary"
-   },
    "peptide.cif": {
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
@@ -952,5 +938,66 @@
   "risky_removal_cut_A": 4.0,
   "risky_removals": [],
   "utc": "2026-08-03T16:51:16Z"
- }
+ },
+ "derived": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "C:NME(stand-in)",
+  "added_residues": [
+   {
+    "residue": "D/NME/12",
+    "label_asym": "Dx1",
+    "entity": "NME!",
+    "entity_type": "non-polymer",
+    "label_seq": ".",
+    "group": "HETATM",
+    "anchor": "after D/ARG/11"
+   }
+  ],
+  "added_atoms": [
+   {
+    "atom": "D/NME/12/N",
+    "element": "N",
+    "origin": "stand_in_cap",
+    "xyz": [
+     49.366,
+     -10.086,
+     57.898
+    ],
+    "b": 17.02
+   },
+   {
+    "atom": "D/NME/12/C",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     49.409,
+     -8.799,
+     57.209
+    ],
+    "b": 17.02
+   }
+  ],
+  "added_links": [
+   {
+    "type": "covale",
+    "atom1": "D/ARG/11/C",
+    "atom2": "D/NME/12/N"
+   }
+  ],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 4.36,
+    "min_receptor_contact_A": 9.89,
+    "junction_bonds_A": [
+     1.33
+    ]
+   }
+  }
+ },
+ "receptor_links": []
 }

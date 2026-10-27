@@ -300,21 +300,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 174142,
-    "file": "complex.cif",
-    "n_chains": 2,
-    "n_struct_conn": 3,
-    "subchains_kept": [
-     "B",
-     "A"
-    ]
-   },
    "peptide.cif": {
     "bytes": 7759,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 0,
+    "n_struct_conn": 6,
     "subchains_kept": [
      "B"
     ]
@@ -985,12 +975,6 @@
    "trailing_newline": true
   },
   "files": {
-   "complex.cif": {
-    "bytes": 174142,
-    "n_chains": 2,
-    "n_struct_conn": 3,
-    "role": "strict primary"
-   },
    "peptide.cif": {
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
@@ -1012,5 +996,103 @@
   "risky_removal_cut_A": 4.0,
   "risky_removals": [],
   "utc": "2026-08-03T16:47:02Z"
- }
+ },
+ "derived": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "N:ACE;C:NH2",
+  "added_residues": [
+   {
+    "residue": "Z/ACE/37",
+    "label_asym": "B",
+    "entity": "Z",
+    "entity_type": "polymer",
+    "label_seq": "1",
+    "group": "HETATM",
+    "anchor": "before Z/LEU/38"
+   },
+   {
+    "residue": "Z/NH2/45",
+    "label_asym": "B",
+    "entity": "Z",
+    "entity_type": "polymer",
+    "label_seq": "9",
+    "group": "HETATM",
+    "anchor": "after Z/ARG/44"
+   }
+  ],
+  "added_atoms": [
+   {
+    "atom": "Z/ACE/37/C",
+    "element": "C",
+    "origin": "declared_cap",
+    "xyz": [
+     -13.646,
+     16.083,
+     -3.294
+    ],
+    "b": 50.42
+   },
+   {
+    "atom": "Z/ACE/37/O",
+    "element": "O",
+    "origin": "declared_cap",
+    "xyz": [
+     -13.092,
+     14.995,
+     -3.149
+    ],
+    "b": 50.42
+   },
+   {
+    "atom": "Z/ACE/37/CH3",
+    "element": "C",
+    "origin": "declared_cap",
+    "xyz": [
+     -12.841,
+     17.358,
+     -3.377
+    ],
+    "b": 50.42
+   },
+   {
+    "atom": "Z/NH2/45/N",
+    "element": "N",
+    "origin": "declared_cap",
+    "xyz": [
+     -17.173,
+     3.417,
+     -0.035
+    ],
+    "b": 57.43
+   }
+  ],
+  "added_links": [
+   {
+    "type": "covale",
+    "atom1": "Z/ACE/37/C",
+    "atom2": "Z/LEU/38/N"
+   },
+   {
+    "type": "covale",
+    "atom1": "Z/ARG/44/C",
+    "atom2": "Z/NH2/45/N"
+   }
+  ],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 2.51,
+    "min_receptor_contact_A": 2.36,
+    "junction_bonds_A": [
+     1.33,
+     1.34
+    ]
+   }
+  }
+ },
+ "receptor_links": []
 }

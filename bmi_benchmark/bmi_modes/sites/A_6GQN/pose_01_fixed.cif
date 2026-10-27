@@ -72,9 +72,9 @@ ATOM 1 N N . THR Pxp P 1 ? -0.349 0.883 7.321 1 43.77 ? 27 P 1
 ATOM 2 C CA . THR Pxp P 1 ? 0.773 0.875 6.398 1 44.63 ? 27 P 1
 ATOM 3 C C . THR Pxp P 1 ? 0.307 0.172 5.129 1 40.25 ? 27 P 1
 ATOM 4 O O . THR Pxp P 1 ? -0.792 0.447 4.616 1 37.88 ? 27 P 1
-ATOM 5 C CB . THR Pxp P 1 ? 2.01829124 0.266469771 7.13908579 1 41.63 ? 27 P 1
-ATOM 6 C CG2 . THR Pxp P 1 ? 1.84653227 -1.17043105 7.69792588 1 41.63 ? 27 P 1
-ATOM 7 O OG1 . THR Pxp P 1 ? 3.17104031 0.3151026 6.29414517 1 41.63 ? 27 P 1
+ATOM 5 C CB . THR Pxp P 1 ? 2.050 0.334 7.128 1 41.63 ? 27 P 1
+ATOM 6 O OG1 . THR Pxp P 1 ? 3.198 0.416 6.279 1 41.63 ? 27 P 1
+ATOM 7 C CG2 . THR Pxp P 1 ? 1.932 -1.105 7.696 1 41.63 ? 27 P 1
 ATOM 8 N N . ILE Pxp P 2 ? 1.134 -0.75 4.618 1 35.33 ? 28 P 1
 ATOM 9 C CA . ILE Pxp P 2 ? 0.689 -1.566 3.487 1 27.21 ? 28 P 1
 ATOM 10 C C . ILE Pxp P 2 ? -0.516 -2.408 3.884 1 25.35 ? 28 P 1
@@ -186,6 +186,7 @@ ATOM 115 C CA . ALA Pxp P 14 ? -5.927 -10.53 -0.88 1 29.21 ? 40 P 1
 ATOM 116 C C . ALA Pxp P 14 ? -7.427 -10.531 -1.145 1 32.91 ? 40 P 1
 ATOM 117 O O . ALA Pxp P 14 ? -7.964 -9.487 -1.511 1 34.91 ? 40 P 1
 ATOM 118 C CB . ALA Pxp P 14 ? -5.667 -9.987 0.5 1 25.26 ? 40 P 1
+ATOM 119 O OXT . ALA Pxp P 14 ? -8.100 -11.574 -0.993 1 30.19 ? 40 P 1
 
 loop_
 _chem_comp_bond.comp_id
@@ -368,3 +369,127 @@ covale10 covale P ASP 35 C P ARG 36 N 1.337
 covale11 covale P THR 27 C P ILE 28 N 1.340
 covale12 covale P ILE 28 C P LEU 29 N 1.345
 covale13 covale P LYS 38 C P LEU 39 N 1.349
+
+loop_
+_bmi_atom_origin.atom_site_id
+_bmi_atom_origin.origin
+_bmi_atom_origin.deposited_atom_site_id
+1 deposited 1
+2 deposited 2
+3 deposited 3
+4 deposited 4
+5 rebuilt .
+6 rebuilt .
+7 rebuilt .
+8 deposited 5
+9 deposited 6
+10 deposited 7
+11 deposited 8
+12 deposited 9
+13 deposited 10
+14 deposited 11
+15 deposited 12
+16 deposited 13
+17 deposited 14
+18 deposited 15
+19 deposited 16
+20 deposited 17
+21 deposited 18
+22 deposited 19
+23 deposited 20
+24 deposited 21
+25 deposited 22
+26 deposited 23
+27 deposited 24
+28 deposited 25
+29 deposited 26
+30 deposited 27
+31 deposited 28
+32 deposited 29
+33 deposited 30
+34 deposited 31
+35 deposited 32
+36 deposited 33
+37 deposited 34
+38 deposited 35
+39 deposited 36
+40 deposited 37
+41 deposited 38
+42 deposited 39
+43 deposited 40
+44 deposited 41
+45 deposited 42
+46 deposited 43
+47 deposited 44
+48 deposited 45
+49 deposited 46
+50 deposited 47
+51 deposited 48
+52 deposited 49
+53 deposited 50
+54 deposited 51
+55 deposited 52
+56 deposited 53
+57 deposited 54
+58 deposited 55
+59 deposited 56
+60 deposited 57
+61 deposited 58
+62 deposited 59
+63 deposited 60
+64 deposited 61
+65 deposited 62
+66 deposited 63
+67 deposited 64
+68 deposited 65
+69 deposited 66
+70 deposited 67
+71 deposited 68
+72 deposited 69
+73 deposited 70
+74 deposited 71
+75 deposited 72
+76 deposited 73
+77 deposited 74
+78 deposited 75
+79 deposited 76
+80 deposited 77
+81 deposited 78
+82 deposited 79
+83 deposited 80
+84 deposited 81
+85 deposited 82
+86 deposited 83
+87 deposited 84
+88 deposited 85
+89 deposited 86
+90 deposited 87
+91 deposited 88
+92 deposited 89
+93 deposited 90
+94 deposited 91
+95 deposited 92
+96 deposited 93
+97 deposited 94
+98 deposited 95
+99 deposited 96
+100 deposited 97
+101 deposited 98
+102 deposited 99
+103 deposited 100
+104 deposited 101
+105 deposited 102
+106 deposited 103
+107 deposited 104
+108 deposited 105
+109 deposited 106
+110 deposited 107
+111 deposited 108
+112 deposited 109
+113 deposited 110
+114 deposited 111
+115 deposited 112
+116 deposited 113
+117 deposited 114
+118 deposited 115
+119 oxt .

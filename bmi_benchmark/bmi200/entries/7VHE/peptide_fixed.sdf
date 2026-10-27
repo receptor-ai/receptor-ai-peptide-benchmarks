@@ -1,4 +1,4 @@
-
+entries/7VHE/peptide_fixed
      RDKit          3D
 
  39 38  0  0  0  0  0  0  0  0999 V2000
@@ -7,12 +7,12 @@
     9.2090   64.2370    8.0580 C   0  0  0  0  0  0  0  0  0  0  0  0
     8.7430   65.3370    7.7370 O   0  0  0  0  0  0  0  0  0  0  0  0
    11.0700   62.8830    9.0840 C   0  0  0  0  0  0  0  0  0  0  0  0
-    9.8869   61.6533   11.0545 C   0  0  0  0  0  0  0  0  0  0  0  0
-   10.4366   63.0029   10.4884 C   0  0  0  0  0  0  0  0  0  0  0  0
-   11.2255   59.9671   12.4073 C   0  0  0  0  0  0  0  0  0  0  0  0
-   10.9499   60.6476   11.2754 N   0  0  0  0  0  0  0  0  0  0  0  0
-   12.4850   59.5891   12.6690 N   0  0  0  0  0  0  0  0  0  0  0  0
-   10.2672   59.6758   13.2977 N   0  0  0  0  0  0  0  0  0  0  0  0
+   10.4940   63.1450   10.4880 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5570   62.0470   11.0690 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.2390   60.8120   11.4520 N   0  0  0  0  0  0  0  0  0  0  0  0
+    9.6560   59.9180   12.3370 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5600   59.5180   13.3030 N   0  0  0  0  0  0  0  0  0  0  0  0
+    8.4320   59.5630   12.2390 N   0  0  0  0  0  0  0  0  0  0  0  0
     8.4370   63.1980    8.3580 N   0  0  0  0  0  0  0  0  0  0  0  0
     6.9880   63.3090    8.2370 C   0  0  2  0  0  0  0  0  0  0  0  0
     6.4370   64.3090    9.2620 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -45,16 +45,18 @@
   2  3  1  0
   2  5  1  0
   3  4  2  0
-  5  7  1  0
+  3 12  1  0
+  5  6  1  0
   6  7  1  0
-  6  9  1  0
+  7  8  1  0
   8  9  1  0
-  8 10  1  0
-  8 11  2  0
+  9 10  1  0
+  9 11  2  0
  12 13  1  0
  13 14  1  0
  13 16  1  1
  14 15  2  0
+ 14 23  1  0
  16 17  1  0
  17 18  1  0
  18 19  1  0
@@ -65,6 +67,7 @@
  24 25  1  0
  24 27  1  6
  25 26  2  0
+ 25 34  1  0
  27 28  1  0
  28 29  1  0
  29 30  1  0
@@ -76,9 +79,15 @@
  35 38  1  1
  36 37  2  0
  36 39  1  0
- 14 23  1  0
-  3 12  1  0
- 25 34  1  0
-M  CHG  3  11   1  22   1  33   1
 M  END
+>  <atom.prop.label>  (1) 
+G/ARG/7/N G/ARG/7/CA G/ARG/7/C G/ARG/7/O G/ARG/7/CB G/ARG/7/CG G/ARG/7/CD G/ARG/7/NE G/ARG/7/CZ G/ARG/7/NH1 G/ARG/7/NH2 G/ARG/8/N G/ARG/8/CA G/ARG/8/C G/ARG/8/O G/ARG/8/CB G/ARG/8/CG
+G/ARG/8/CD G/ARG/8/NE G/ARG/8/CZ G/ARG/8/NH1 G/ARG/8/NH2 G/ARG/9/N G/ARG/9/CA G/ARG/9/C G/ARG/9/O G/ARG/9/CB G/ARG/9/CG G/ARG/9/CD G/ARG/9/NE G/ARG/9/CZ G/ARG/9/NH1 G/ARG/9/NH2 G/ALA/10/N
+G/ALA/10/CA G/ALA/10/C G/ALA/10/O G/ALA/10/CB G/NH2/11/N
+
+>  <atom.prop.origin>  (1) 
+deposited deposited deposited deposited deposited rebuilt rebuilt rebuilt rebuilt rebuilt rebuilt deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited
+
 $$$$

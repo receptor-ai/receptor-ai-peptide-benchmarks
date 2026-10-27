@@ -107,51 +107,270 @@
    "kind": "sidechain_truncated"
   }
  ],
- "fixed_geometry__pose_03": {
+ "derived__pose_01": {
   "files": [
-   "pose_03_fixed.cif",
-   "pose_03_fixed.sdf"
+   "pose_01_fixed.cif",
+   "pose_01_fixed.sdf",
+   "pose_01_fixed_protonated.sdf"
   ],
-  "n_rebuilt": 6,
-  "rebuilt_atoms": [
+  "terminal_completion": "C:NME(stand-in)",
+  "added_residues": [
    {
-    "comp": "ARG",
-    "seqid": 115,
-    "atom": "CD",
-    "element": "C"
-   },
-   {
-    "comp": "ARG",
-    "seqid": 115,
-    "atom": "CG",
-    "element": "C"
-   },
-   {
-    "comp": "ARG",
-    "seqid": 115,
-    "atom": "CZ",
-    "element": "C"
-   },
-   {
-    "comp": "ARG",
-    "seqid": 115,
-    "atom": "NE",
-    "element": "N"
-   },
-   {
-    "comp": "ARG",
-    "seqid": 115,
-    "atom": "NH1",
-    "element": "N"
-   },
-   {
-    "comp": "ARG",
-    "seqid": 115,
-    "atom": "NH2",
-    "element": "N"
+    "residue": "P/NME/116",
+    "label_asym": "Px1",
+    "entity": "NME!",
+    "entity_type": "non-polymer",
+    "label_seq": ".",
+    "group": "HETATM",
+    "anchor": "after P/ARG/115"
    }
   ],
-  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
-  "forcefield": "GAFF2 (antechamber gasteiger charges)"
- }
+  "added_atoms": [
+   {
+    "atom": "P/NME/116/N",
+    "element": "N",
+    "origin": "stand_in_cap",
+    "xyz": [
+     7.773,
+     129.967,
+     198.976
+    ],
+    "b": 45.57
+   },
+   {
+    "atom": "P/NME/116/C",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     6.93,
+     129.958,
+     200.168
+    ],
+    "b": 45.57
+   }
+  ],
+  "added_links": [
+   {
+    "type": "covale",
+    "atom1": "P/ARG/115/C",
+    "atom2": "P/NME/116/N"
+   }
+  ],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 2.91,
+    "min_receptor_contact_A": 4.95,
+    "junction_bonds_A": [
+     1.33
+    ]
+   }
+  }
+ },
+ "derived__pose_02": {
+  "files": [
+   "pose_02_fixed.cif",
+   "pose_02_fixed.sdf",
+   "pose_02_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "C:NME(stand-in)",
+  "added_residues": [
+   {
+    "residue": "Q/NME/116",
+    "label_asym": "Qx1",
+    "entity": "NME!",
+    "entity_type": "non-polymer",
+    "label_seq": ".",
+    "group": "HETATM",
+    "anchor": "after Q/ARG/115"
+   }
+  ],
+  "added_atoms": [
+   {
+    "atom": "Q/NME/116/N",
+    "element": "N",
+    "origin": "stand_in_cap",
+    "xyz": [
+     9.064,
+     129.993,
+     198.467
+    ],
+    "b": 52.08
+   },
+   {
+    "atom": "Q/NME/116/C",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     8.705,
+     130.078,
+     199.88
+    ],
+    "b": 52.08
+   }
+  ],
+  "added_links": [
+   {
+    "type": "covale",
+    "atom1": "Q/ARG/115/C",
+    "atom2": "Q/NME/116/N"
+   }
+  ],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 4.36,
+    "min_receptor_contact_A": 4.52,
+    "junction_bonds_A": [
+     1.33
+    ]
+   }
+  }
+ },
+ "derived__pose_03": {
+  "files": [
+   "pose_03_fixed.cif",
+   "pose_03_fixed.sdf",
+   "pose_03_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "C:NME(stand-in)",
+  "added_residues": [
+   {
+    "residue": "R/NME/116",
+    "label_asym": "Rx1",
+    "entity": "NME!",
+    "entity_type": "non-polymer",
+    "label_seq": ".",
+    "group": "HETATM",
+    "anchor": "after R/ARG/115"
+   }
+  ],
+  "added_atoms": [
+   {
+    "atom": "R/ARG/115/CG",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     16.377,
+     138.028,
+     199.472
+    ],
+    "b": 45.64
+   },
+   {
+    "atom": "R/ARG/115/CD",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     17.876,
+     137.882,
+     199.122
+    ],
+    "b": 45.64
+   },
+   {
+    "atom": "R/ARG/115/NE",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     18.105,
+     138.044,
+     197.681
+    ],
+    "b": 45.64
+   },
+   {
+    "atom": "R/ARG/115/CZ",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     18.094,
+     139.252,
+     196.995
+    ],
+    "b": 45.64
+   },
+   {
+    "atom": "R/ARG/115/NH1",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     18.126,
+     139.034,
+     195.63
+    ],
+    "b": 45.64
+   },
+   {
+    "atom": "R/ARG/115/NH2",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     18.062,
+     140.386,
+     197.584
+    ],
+    "b": 45.64
+   },
+   {
+    "atom": "R/NME/116/N",
+    "element": "N",
+    "origin": "stand_in_cap",
+    "xyz": [
+     13.604,
+     138.556,
+     199.931
+    ],
+    "b": 45.64
+   },
+   {
+    "atom": "R/NME/116/C",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     12.425,
+     139.281,
+     199.466
+    ],
+    "b": 45.64
+   }
+  ],
+  "added_links": [
+   {
+    "type": "covale",
+    "atom1": "R/ARG/115/C",
+    "atom2": "R/NME/116/N"
+   }
+  ],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 3.98,
+    "min_receptor_contact_A": 2.72,
+    "junction_bonds_A": [
+     1.33
+    ]
+   }
+  },
+  "rebuild": {
+   "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+   "forcefield": "GAFF2 (antechamber gasteiger charges)",
+   "receptor_wall": "receptor heavy atoms within 8 A of the peptide, frozen, Lennard-Jones only",
+   "gaff2_energy_kJ_mol": {
+    "before": 1242.7,
+    "after": 662.3
+   },
+   "qc": {
+    "min_intra_peptide_contact_A": 2.86,
+    "min_receptor_contact_A": 4.47,
+    "ccd_stereocentres_checked": 0,
+    "ccd_chirality_mismatches": 0,
+    "deposited_atoms_max_shift_A": 0.0
+   },
+   "frozen": "every deposited atom and every terminal atom"
+  }
+ },
+ "receptor_links__pose_01": [],
+ "receptor_links__pose_02": [],
+ "receptor_links__pose_03": []
 }

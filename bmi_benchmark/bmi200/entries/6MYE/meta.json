@@ -149,21 +149,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 54418,
-    "file": "complex.cif",
-    "n_chains": 2,
-    "n_struct_conn": 2,
-    "subchains_kept": [
-     "A",
-     "B"
-    ]
-   },
    "peptide.cif": {
     "bytes": 11536,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 2,
+    "n_struct_conn": 12,
     "subchains_kept": [
      "B"
     ]
@@ -961,9 +951,8 @@
    "total_heavy_before": 777
   },
   "files": {
-   "complex.cif": "strict",
    "peptide.cif": "unchanged",
-   "receptor.cif": "strict (rewritten so that peptide.cif + receptor.cif still partition complex.cif)"
+   "receptor.cif": "rewritten strictly"
   },
   "ion_rule": "monatomic stays, polyatomic goes: CL/NA/K/ZN/CA/MG/... kept, SO4/PO4/NO3/NH4 removed. A monatomic ion is also never a covalent bridge, so it cannot make a component it coordinates peptide-integral - SPEC sec.7 rule 4, coordination is not a covalent bond",
   "n_struct_conn_after": 2,
@@ -1013,5 +1002,17 @@
    "checks_failed": [],
    "ok": true
   }
- }
+ },
+ "derived": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "-",
+  "added_residues": [],
+  "added_atoms": [],
+  "added_links": []
+ },
+ "receptor_links": []
 }

@@ -224,19 +224,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 104981,
-    "file": "complex.cif",
-    "n_chains": 2,
-    "n_struct_conn": 6,
-    "role": "strict primary",
-    "written_by": "strict-hetero-clean bmi-strict-hetero-1.0"
-   },
    "peptide.cif": {
     "bytes": 16463,
     "file": "peptide.cif",
     "n_chains": 2,
-    "n_struct_conn": 5,
+    "n_struct_conn": 17,
     "subchains_kept": [
      "B"
     ]
@@ -1157,12 +1149,6 @@
    "trailing_newline": true
   },
   "files": {
-   "complex.cif": {
-    "bytes": 104981,
-    "n_chains": 2,
-    "n_struct_conn": 6,
-    "role": "strict primary"
-   },
    "peptide.cif": {
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
@@ -1247,6 +1233,29 @@
    "atom": "OXT",
    "bonded_to": "ALA.N",
    "distance_A": 0.17
+  }
+ ],
+ "derived": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "-",
+  "added_residues": [],
+  "added_atoms": [],
+  "added_links": []
+ },
+ "receptor_links": [
+  {
+   "type": "covale",
+   "peptide_atom": "A/A1AJE/401/SDQ",
+   "receptor_atom": "A/HIS/252/NE2",
+   "symmetry": [
+    "1_555",
+    "1_555"
+   ],
+   "distance_A": 1.562
   }
  ]
 }

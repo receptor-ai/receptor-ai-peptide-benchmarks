@@ -1,14 +1,14 @@
-
+sites/A_6GQN/pose_01_fixed
      RDKit          3D
 
-118117  0  0  0  0  0  0  0  0999 V2000
+119118  0  0  0  0  0  0  0  0999 V2000
    -0.3490    0.8830    7.3210 N   0  0  0  0  0  0  0  0  0  0  0  0
     0.7730    0.8750    6.3980 C   0  0  2  0  0  0  0  0  0  0  0  0
     0.3070    0.1720    5.1290 C   0  0  0  0  0  0  0  0  0  0  0  0
    -0.7920    0.4470    4.6160 O   0  0  0  0  0  0  0  0  0  0  0  0
-    2.0183    0.2665    7.1391 C   0  0  1  0  0  0  0  0  0  0  0  0
-    1.8465   -1.1704    7.6979 C   0  0  0  0  0  0  0  0  0  0  0  0
-    3.1710    0.3151    6.2941 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0500    0.3340    7.1280 C   0  0  2  0  0  0  0  0  0  0  0  0
+    3.1980    0.4160    6.2790 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9320   -1.1050    7.6960 C   0  0  0  0  0  0  0  0  0  0  0  0
     1.1340   -0.7500    4.6180 N   0  0  0  0  0  0  0  0  0  0  0  0
     0.6890   -1.5660    3.4870 C   0  0  2  0  0  0  0  0  0  0  0  0
    -0.5160   -2.4080    3.8840 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -120,16 +120,19 @@
    -7.4270  -10.5310   -1.1450 C   0  0  0  0  0  0  0  0  0  0  0  0
    -7.9640   -9.4870   -1.5110 O   0  0  0  0  0  0  0  0  0  0  0  0
    -5.6670   -9.9870    0.5000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.1000  -11.5740   -0.9930 O   0  0  0  0  0  0  0  0  0  0  0  0
   2  1  1  1
   2  3  1  0
   2  5  1  0
   3  4  2  0
-  5  7  1  0
-  5  6  1  6
+  3  8  1  0
+  5  6  1  0
+  5  7  1  6
   9  8  1  1
   9 10  1  0
   9 12  1  0
  10 11  2  0
+ 10 16  1  0
  12 13  1  0
  12 14  1  1
  13 15  1  0
@@ -137,6 +140,7 @@
  17 18  1  0
  17 20  1  1
  18 19  2  0
+ 18 24  1  0
  20 21  1  0
  21 22  1  0
  21 23  1  0
@@ -144,6 +148,7 @@
  25 26  1  0
  25 28  1  6
  26 27  2  0
+ 26 35  1  0
  28 29  1  0
  29 30  1  0
  30 31  1  0
@@ -154,6 +159,7 @@
  36 37  1  0
  36 39  1  1
  37 38  2  0
+ 37 46  1  0
  39 40  1  0
  40 41  1  0
  41 42  1  0
@@ -164,11 +170,13 @@
  47 48  1  0
  47 50  1  1
  48 49  2  0
+ 48 52  1  0
  50 51  1  0
  52 53  1  0
  53 54  1  0
  53 56  1  6
  54 55  2  0
+ 54 63  1  0
  56 57  1  0
  57 58  1  0
  58 59  1  0
@@ -179,11 +187,13 @@
  64 65  1  0
  64 67  1  6
  65 66  2  0
+ 65 69  1  0
  67 68  1  0
  69 70  1  0
  70 71  1  0
  70 73  1  1
  71 72  2  0
+ 71 77  1  0
  73 74  1  0
  74 75  2  0
  74 76  1  0
@@ -191,6 +201,7 @@
  78 79  1  0
  78 81  1  1
  79 80  2  0
+ 79 88  1  0
  81 82  1  0
  82 83  1  0
  83 84  1  0
@@ -201,6 +212,7 @@
  89 90  1  0
  89 92  1  6
  90 91  2  0
+ 90 97  1  0
  92 93  1  0
  93 94  1  0
  94 95  1  0
@@ -209,6 +221,7 @@
  98 99  1  0
  98101  1  1
  99100  2  0
+ 99106  1  0
 101102  1  0
 102103  1  0
 103104  1  0
@@ -217,6 +230,7 @@
 107108  1  0
 107110  1  1
 108109  2  0
+108114  1  0
 110111  1  0
 111112  1  0
 111113  1  0
@@ -224,19 +238,25 @@
 115116  1  0
 115118  1  1
 116117  2  0
- 26 35  1  0
- 18 24  1  0
- 90 97  1  0
-108114  1  0
- 54 63  1  0
- 79 88  1  0
- 37 46  1  0
- 65 69  1  0
- 48 52  1  0
- 71 77  1  0
-  3  8  1  0
- 10 16  1  0
- 99106  1  0
-M  CHG  6  34   1  45   1  62   1  87   1  96   1 105   1
+116119  1  0
 M  END
+>  <atom.prop.label>  (1) 
+P/THR/27/N P/THR/27/CA P/THR/27/C P/THR/27/O P/THR/27/CB P/THR/27/OG1 P/THR/27/CG2 P/ILE/28/N P/ILE/28/CA P/ILE/28/C P/ILE/28/O P/ILE/28/CB P/ILE/28/CG1 P/ILE/28/CG2 P/ILE/28/CD1
+P/LEU/29/N P/LEU/29/CA P/LEU/29/C P/LEU/29/O P/LEU/29/CB P/LEU/29/CG P/LEU/29/CD1 P/LEU/29/CD2 P/ARG/30/N P/ARG/30/CA P/ARG/30/C P/ARG/30/O P/ARG/30/CB P/ARG/30/CG P/ARG/30/CD P/ARG/30/NE
+P/ARG/30/CZ P/ARG/30/NH1 P/ARG/30/NH2 P/ARG/31/N P/ARG/31/CA P/ARG/31/C P/ARG/31/O P/ARG/31/CB P/ARG/31/CG P/ARG/31/CD P/ARG/31/NE P/ARG/31/CZ P/ARG/31/NH1 P/ARG/31/NH2 P/SER/32/N
+P/SER/32/CA P/SER/32/C P/SER/32/O P/SER/32/CB P/SER/32/OG P/ARG/33/N P/ARG/33/CA P/ARG/33/C P/ARG/33/O P/ARG/33/CB P/ARG/33/CG P/ARG/33/CD P/ARG/33/NE P/ARG/33/CZ P/ARG/33/NH1 P/ARG/33/NH2
+P/SER/34/N P/SER/34/CA P/SER/34/C P/SER/34/O P/SER/34/CB P/SER/34/OG P/ASP/35/N P/ASP/35/CA P/ASP/35/C P/ASP/35/O P/ASP/35/CB P/ASP/35/CG P/ASP/35/OD1 P/ASP/35/OD2 P/ARG/36/N P/ARG/36/CA
+P/ARG/36/C P/ARG/36/O P/ARG/36/CB P/ARG/36/CG P/ARG/36/CD P/ARG/36/NE P/ARG/36/CZ P/ARG/36/NH1 P/ARG/36/NH2 P/LYS/37/N P/LYS/37/CA P/LYS/37/C P/LYS/37/O P/LYS/37/CB P/LYS/37/CG P/LYS/37/CD
+P/LYS/37/CE P/LYS/37/NZ P/LYS/38/N P/LYS/38/CA P/LYS/38/C P/LYS/38/O P/LYS/38/CB P/LYS/38/CG P/LYS/38/CD P/LYS/38/CE P/LYS/38/NZ P/LEU/39/N P/LEU/39/CA P/LEU/39/C P/LEU/39/O P/LEU/39/CB
+P/LEU/39/CG P/LEU/39/CD1 P/LEU/39/CD2 P/ALA/40/N P/ALA/40/CA P/ALA/40/C P/ALA/40/O P/ALA/40/CB P/ALA/40/OXT
+
+>  <atom.prop.origin>  (1) 
+deposited deposited deposited deposited rebuilt rebuilt rebuilt deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited oxt
+
 $$$$

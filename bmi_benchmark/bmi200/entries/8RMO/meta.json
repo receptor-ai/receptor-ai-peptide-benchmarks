@@ -211,19 +211,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 226496,
-    "file": "complex.cif",
-    "n_chains": 3,
-    "n_struct_conn": 7,
-    "role": "strict primary",
-    "written_by": "strict-hetero-clean bmi-strict-hetero-1.0"
-   },
    "peptide.cif": {
     "bytes": 6575,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 0,
+    "n_struct_conn": 5,
     "subchains_kept": [
      "A"
     ]
@@ -822,12 +814,6 @@
    "trailing_newline": true
   },
   "files": {
-   "complex.cif": {
-    "bytes": 226496,
-    "n_chains": 3,
-    "n_struct_conn": 7,
-    "role": "strict primary"
-   },
    "peptide.cif": {
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
@@ -863,5 +849,66 @@
   "risky_removal_cut_A": 4.0,
   "risky_removals": [],
   "utc": "2026-08-03T16:51:29Z"
- }
+ },
+ "derived": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "C:NME(stand-in)",
+  "added_residues": [
+   {
+    "residue": "F/NME/7",
+    "label_asym": "Fx1",
+    "entity": "NME!",
+    "entity_type": "non-polymer",
+    "label_seq": ".",
+    "group": "HETATM",
+    "anchor": "after F/ASP/6"
+   }
+  ],
+  "added_atoms": [
+   {
+    "atom": "F/NME/7/N",
+    "element": "N",
+    "origin": "stand_in_cap",
+    "xyz": [
+     38.422,
+     43.694,
+     -16.122
+    ],
+    "b": 22.1
+   },
+   {
+    "atom": "F/NME/7/C",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     37.729,
+     44.757,
+     -16.843
+    ],
+    "b": 22.1
+   }
+  ],
+  "added_links": [
+   {
+    "type": "covale",
+    "atom1": "F/ASP/6/C",
+    "atom2": "F/NME/7/N"
+   }
+  ],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 2.83,
+    "min_receptor_contact_A": 3.28,
+    "junction_bonds_A": [
+     1.33
+    ]
+   }
+  }
+ },
+ "receptor_links": []
 }

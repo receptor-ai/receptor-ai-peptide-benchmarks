@@ -175,21 +175,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 84210,
-    "file": "complex.cif",
-    "n_chains": 2,
-    "n_struct_conn": 1,
-    "subchains_kept": [
-     "B",
-     "A"
-    ]
-   },
    "peptide.cif": {
     "bytes": 16034,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 1,
+    "n_struct_conn": 18,
     "subchains_kept": [
      "B"
     ]
@@ -1215,12 +1205,6 @@
    "trailing_newline": true
   },
   "files": {
-   "complex.cif": {
-    "bytes": 84210,
-    "n_chains": 2,
-    "n_struct_conn": 1,
-    "role": "strict primary"
-   },
    "peptide.cif": {
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
@@ -1259,39 +1243,137 @@
    "kind": "sidechain_truncated"
   }
  ],
- "fixed_geometry": {
+ "derived": {
   "files": [
    "peptide_fixed.cif",
-   "peptide_fixed.sdf"
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
   ],
-  "n_rebuilt": 4,
-  "rebuilt_atoms": [
+  "terminal_completion": "N:ACE(stand-in)",
+  "added_residues": [
    {
-    "comp": "LYS",
-    "seqid": 4,
-    "atom": "CD",
-    "element": "C"
-   },
-   {
-    "comp": "LYS",
-    "seqid": 4,
-    "atom": "CE",
-    "element": "C"
-   },
-   {
-    "comp": "LYS",
-    "seqid": 4,
-    "atom": "CG",
-    "element": "C"
-   },
-   {
-    "comp": "LYS",
-    "seqid": 4,
-    "atom": "NZ",
-    "element": "N"
+    "residue": "B/ACE/3",
+    "label_asym": "Bx1",
+    "entity": "ACE!",
+    "entity_type": "non-polymer",
+    "label_seq": ".",
+    "group": "HETATM",
+    "anchor": "before B/LYS/4"
    }
   ],
-  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
-  "forcefield": "GAFF2 (antechamber gasteiger charges)"
- }
+  "added_atoms": [
+   {
+    "atom": "B/ACE/3/C",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     20.093,
+     -4.348,
+     3.509
+    ],
+    "b": 64.35
+   },
+   {
+    "atom": "B/ACE/3/O",
+    "element": "O",
+    "origin": "stand_in_cap",
+    "xyz": [
+     19.623,
+     -3.286,
+     3.105
+    ],
+    "b": 64.35
+   },
+   {
+    "atom": "B/ACE/3/CH3",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     21.582,
+     -4.596,
+     3.484
+    ],
+    "b": 64.35
+   },
+   {
+    "atom": "B/LYS/4/CG",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     17.499,
+     -6.418,
+     1.81
+    ],
+    "b": 64.35
+   },
+   {
+    "atom": "B/LYS/4/CD",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     16.778,
+     -7.562,
+     1.067
+    ],
+    "b": 64.35
+   },
+   {
+    "atom": "B/LYS/4/CE",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     17.086,
+     -7.574,
+     -0.444
+    ],
+    "b": 64.35
+   },
+   {
+    "atom": "B/LYS/4/NZ",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     16.391,
+     -8.67,
+     -1.129
+    ],
+    "b": 64.35
+   }
+  ],
+  "added_links": [
+   {
+    "type": "covale",
+    "atom1": "B/ACE/3/C",
+    "atom2": "B/LYS/4/N"
+   }
+  ],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 3.78,
+    "min_receptor_contact_A": 6.02,
+    "junction_bonds_A": [
+     1.34
+    ]
+   }
+  },
+  "rebuild": {
+   "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+   "forcefield": "GAFF2 (antechamber gasteiger charges)",
+   "receptor_wall": "receptor heavy atoms within 8 A of the peptide, frozen, Lennard-Jones only",
+   "gaff2_energy_kJ_mol": {
+    "before": 1290.9,
+    "after": 926.8
+   },
+   "qc": {
+    "min_intra_peptide_contact_A": 3.73,
+    "min_receptor_contact_A": 6.51,
+    "ccd_stereocentres_checked": 0,
+    "ccd_chirality_mismatches": 0,
+    "deposited_atoms_max_shift_A": 0.0
+   },
+   "frozen": "every deposited atom and every terminal atom"
+  }
+ },
+ "receptor_links": []
 }

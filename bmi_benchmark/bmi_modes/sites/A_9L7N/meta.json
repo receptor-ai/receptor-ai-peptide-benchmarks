@@ -78,5 +78,69 @@
  "seq": "KSAVLQ",
  "site_id": "A_9L7N",
  "site_type": "one_deposition",
- "uniprot": "A0A023J7B5"
+ "uniprot": "A0A023J7B5",
+ "derived__pose_01": {
+  "files": [
+   "pose_01_fixed.cif",
+   "pose_01_fixed.sdf",
+   "pose_01_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "C:OXT",
+  "added_residues": [],
+  "added_atoms": [
+   {
+    "atom": "P/GLN/149/OXT",
+    "element": "O",
+    "origin": "oxt",
+    "xyz": [
+     12.683,
+     35.242,
+     0.937
+    ],
+    "b": 30.0
+   }
+  ],
+  "added_links": [],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 2.21,
+    "min_receptor_contact_A": 2.24,
+    "junction_bonds_A": []
+   }
+  }
+ },
+ "derived__pose_02": {
+  "files": [
+   "pose_02_fixed.cif",
+   "pose_02_fixed.sdf",
+   "pose_02_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "C:OXT",
+  "added_residues": [],
+  "added_atoms": [
+   {
+    "atom": "Q/GLN/149/OXT",
+    "element": "O",
+    "origin": "oxt",
+    "xyz": [
+     9.642,
+     31.562,
+     1.936
+    ],
+    "b": 30.0
+   }
+  ],
+  "added_links": [],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 2.34,
+    "min_receptor_contact_A": 3.69,
+    "junction_bonds_A": []
+   }
+  }
+ },
+ "receptor_links__pose_01": [],
+ "receptor_links__pose_02": []
 }

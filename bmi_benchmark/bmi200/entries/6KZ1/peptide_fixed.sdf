@@ -1,18 +1,21 @@
-
+entries/6KZ1/peptide_fixed
      RDKit          3D
 
- 95 96  0  0  0  0  0  0  0  0999 V2000
+ 98 99  0  0  0  0  0  0  0  0999 V2000
+   14.5550   41.9320  -19.5180 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.8240   41.2160  -18.5550 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.1730   41.6760  -20.8710 C   0  0  0  0  0  0  0  0  0  0  0  0
    13.7100   42.9690  -19.4400 N   0  0  0  0  0  0  0  0  0  0  0  0
    13.0450   43.3240  -18.1910 C   0  0  2  0  0  0  0  0  0  0  0  0
    11.5220   43.2570  -18.3300 C   0  0  0  0  0  0  0  0  0  0  0  0
    10.7870   43.6940  -17.4430 O   0  0  0  0  0  0  0  0  0  0  0  0
    13.4700   44.7210  -17.7330 C   0  0  0  0  0  0  0  0  0  0  0  0
-   13.6315   47.2487  -18.2751 C   0  0  0  0  0  0  0  0  0  0  0  0
-   13.3538   45.8297  -18.8166 C   0  0  0  0  0  0  0  0  0  0  0  0
-   15.6216   48.4569  -17.2793 C   0  0  0  0  0  0  0  0  0  0  0  0
-   15.0421   47.4048  -17.8806 N   0  0  0  0  0  0  0  0  0  0  0  0
-   16.9295   48.4230  -16.9989 N   0  0  0  0  0  0  0  0  0  0  0  0
-   14.9145   49.5471  -16.9527 N   0  0  0  0  0  0  0  0  0  0  0  0
+   13.1090   45.8710  -18.7130 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.4960   47.2700  -18.1920 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.9520   47.4320  -18.1210 N   0  0  0  0  0  0  0  0  0  0  0  0
+   15.6040   48.5830  -17.7010 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.9720   48.3940  -17.6900 N   0  0  0  0  0  0  0  0  0  0  0  0
+   14.9790   49.6510  -17.3790 N   0  0  0  0  0  0  0  0  0  0  0  0
    11.0520   42.7260  -19.4570 N   0  0  0  0  0  0  0  0  0  0  0  0
     9.6220   42.4790  -19.6420 C   0  0  2  0  0  0  0  0  0  0  0  0
     9.3070   41.0040  -19.3890 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -61,10 +64,10 @@
     2.9380   31.6180   -5.7570 C   0  0  0  0  0  0  0  0  0  0  0  0
     2.6110   31.1490   -4.6630 O   0  0  0  0  0  0  0  0  0  0  0  0
     5.2000   32.4700   -5.0180 C   0  0  0  0  0  0  0  0  0  0  0  0
-    7.3518   33.6173   -4.2939 C   0  0  0  0  0  0  0  0  0  0  0  0
-    6.5608   33.0582   -5.4835 C   0  0  0  0  0  0  0  0  0  0  0  0
-    7.1840   34.7316   -3.8331 O   0  0  0  0  0  0  0  0  0  0  0  0
-    8.2477   32.7537   -3.7640 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7120   32.6000   -5.3180 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4500   33.2030   -4.1170 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5300   34.3980   -3.9010 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.9670   32.2880   -3.2650 O   0  0  0  0  0  0  0  0  0  0  0  0
     2.0600   32.0100   -6.6880 N   0  0  0  0  0  0  0  0  0  0  0  0
     0.6160   31.8860   -6.4730 C   0  0  2  0  0  0  0  0  0  0  0  0
    -0.0210   31.2490   -7.6790 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -97,102 +100,122 @@
    -4.6570   24.8000   -6.7540 C   0  0  0  0  0  0  0  0  0  0  0  0
    -4.4320   24.2930   -9.1550 C   0  0  0  0  0  0  0  0  0  0  0  0
    -9.0770   25.3040   -9.8440 O   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  6
-  2  3  1  0
-  2  5  1  0
-  3  4  2  0
-  5  7  1  0
-  6  7  1  0
-  6  9  1  0
+  1  2  2  0
+  1  3  1  0
+  1  4  1  0
+  4  5  1  0
+  5  6  1  0
+  5  8  1  6
+  6  7  2  0
+  6 15  1  0
   8  9  1  0
-  8 10  1  0
-  8 11  2  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  1  0
  12 13  1  0
- 13 14  1  0
- 13 16  1  6
- 14 15  2  0
+ 12 14  2  0
+ 15 16  1  0
  16 17  1  0
- 17 18  1  0
- 17 19  1  0
- 21 20  1  1
- 21 22  1  0
- 21 24  1  0
- 22 23  2  0
+ 16 19  1  6
+ 17 18  2  0
+ 17 23  1  0
+ 19 20  1  0
+ 20 21  1  0
+ 20 22  1  0
+ 24 23  1  1
  24 25  1  0
- 24 26  1  6
+ 24 27  1  0
+ 25 26  2  0
+ 25 30  1  0
  27 28  1  0
- 28 29  1  0
- 28 31  1  6
- 29 30  2  0
+ 27 29  1  6
+ 30 31  1  0
  31 32  1  0
- 32 33  1  0
- 32 34  1  0
+ 31 34  1  6
+ 32 33  2  0
+ 32 38  1  0
+ 34 35  1  0
  35 36  1  0
- 35 41  1  0
- 36 37  1  1
- 36 39  1  0
- 37 38  2  0
- 39 40  1  0
- 40 41  1  0
+ 35 37  1  0
+ 38 39  1  0
+ 38 44  1  0
+ 39 40  1  1
+ 39 42  1  0
+ 40 41  2  0
+ 40 45  1  0
  42 43  1  0
- 42 48  1  0
- 43 44  1  1
- 43 46  1  0
- 44 45  2  0
- 46 47  1  0
- 47 48  1  0
+ 43 44  1  0
+ 45 46  1  0
+ 45 51  1  0
+ 46 47  1  1
+ 46 49  1  0
+ 47 48  2  0
+ 47 52  1  0
  49 50  1  0
  50 51  1  0
- 50 53  1  6
- 51 52  2  0
+ 52 53  1  0
  53 54  1  0
- 55 56  1  0
+ 53 56  1  6
+ 54 55  2  0
+ 54 58  1  0
  56 57  1  0
- 56 59  1  1
- 57 58  2  0
- 59 61  1  0
- 60 61  1  0
- 60 62  2  0
- 60 63  1  0
- 65 64  1  6
- 65 66  1  0
- 65 68  1  0
- 66 67  2  0
+ 58 59  1  0
+ 59 60  1  0
+ 59 62  1  1
+ 60 61  2  0
+ 60 67  1  0
+ 62 63  1  0
+ 63 64  1  0
+ 64 65  2  0
+ 64 66  1  0
+ 68 67  1  6
  68 69  1  0
- 68 70  1  1
- 69 71  1  0
- 73 72  1  1
- 73 74  1  0
- 73 76  1  0
- 74 75  2  0
+ 68 71  1  0
+ 69 70  2  0
+ 69 75  1  0
+ 71 72  1  0
+ 71 73  1  1
+ 72 74  1  0
+ 76 75  1  1
  76 77  1  0
- 76 78  1  6
+ 76 79  1  0
+ 77 78  2  0
+ 77 82  1  0
  79 80  1  0
- 80 81  1  0
- 80 83  1  6
- 81 82  2  0
+ 79 81  1  6
+ 82 83  1  0
  83 84  1  0
- 84 85  1  0
- 84 86  1  0
+ 83 86  1  6
+ 84 85  2  0
+ 84 90  1  0
+ 86 87  1  0
  87 88  1  0
- 88 89  1  0
- 88 91  1  1
- 89 90  2  0
- 89 95  1  0
+ 87 89  1  0
+ 90 91  1  0
  91 92  1  0
- 92 93  1  0
- 92 94  1  0
- 51 55  1  0
- 81 87  1  0
- 44 49  1  0
- 66 72  1  0
-  3 12  1  0
- 29 35  1  0
- 22 27  1  0
- 14 20  1  0
- 74 79  1  0
- 57 64  1  0
- 37 42  1  0
-M  CHG  1  11   1
+ 91 94  1  1
+ 92 93  2  0
+ 92 98  1  0
+ 94 95  1  0
+ 95 96  1  0
+ 95 97  1  0
 M  END
+>  <atom.prop.label>  (1) 
+B/ACE/3499/C B/ACE/3499/O B/ACE/3499/CH3 B/ARG/3500/N B/ARG/3500/CA B/ARG/3500/C B/ARG/3500/O B/ARG/3500/CB B/ARG/3500/CG B/ARG/3500/CD B/ARG/3500/NE B/ARG/3500/CZ B/ARG/3500/NH1
+B/ARG/3500/NH2 B/LEU/3501/N B/LEU/3501/CA B/LEU/3501/C B/LEU/3501/O B/LEU/3501/CB B/LEU/3501/CG B/LEU/3501/CD1 B/LEU/3501/CD2 B/THR/3502/N B/THR/3502/CA B/THR/3502/C B/THR/3502/O
+B/THR/3502/CB B/THR/3502/OG1 B/THR/3502/CG2 B/LEU/3503/N B/LEU/3503/CA B/LEU/3503/C B/LEU/3503/O B/LEU/3503/CB B/LEU/3503/CG B/LEU/3503/CD1 B/LEU/3503/CD2 B/PRO/3504/N B/PRO/3504/CA
+B/PRO/3504/C B/PRO/3504/O B/PRO/3504/CB B/PRO/3504/CG B/PRO/3504/CD B/PRO/3505/N B/PRO/3505/CA B/PRO/3505/C B/PRO/3505/O B/PRO/3505/CB B/PRO/3505/CG B/PRO/3505/CD B/SER/3506/N
+B/SER/3506/CA B/SER/3506/C B/SER/3506/O B/SER/3506/CB B/SER/3506/OG B/GLU/3507/N B/GLU/3507/CA B/GLU/3507/C B/GLU/3507/O B/GLU/3507/CB B/GLU/3507/CG B/GLU/3507/CD B/GLU/3507/OE1
+B/GLU/3507/OE2 B/ILE/3508/N B/ILE/3508/CA B/ILE/3508/C B/ILE/3508/O B/ILE/3508/CB B/ILE/3508/CG1 B/ILE/3508/CG2 B/ILE/3508/CD1 B/THR/3509/N B/THR/3509/CA B/THR/3509/C B/THR/3509/O
+B/THR/3509/CB B/THR/3509/OG1 B/THR/3509/CG2 B/LEU/3510/N B/LEU/3510/CA B/LEU/3510/C B/LEU/3510/O B/LEU/3510/CB B/LEU/3510/CG B/LEU/3510/CD1 B/LEU/3510/CD2 B/LEU/3511/N B/LEU/3511/CA
+B/LEU/3511/C B/LEU/3511/O B/LEU/3511/CB B/LEU/3511/CG B/LEU/3511/CD1 B/LEU/3511/CD2 B/LEU/3511/OXT
+
+>  <atom.prop.origin>  (1) 
+stand_in_cap stand_in_cap stand_in_cap deposited deposited deposited deposited deposited rebuilt rebuilt rebuilt rebuilt rebuilt rebuilt deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited rebuilt rebuilt rebuilt rebuilt deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited
+
 $$$$

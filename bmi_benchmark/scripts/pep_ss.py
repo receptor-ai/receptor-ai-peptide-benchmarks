@@ -623,12 +623,12 @@ def _read(path):
 def load_entry(entry_dir):
     """Return (peptide residues, receptor/other residues, all heavy atoms).
 
-    The peptide is taken from peptide.cif and the rest from complex.cif minus the
-    peptide's atoms, so the partition is exactly the reference set partition and no
-    heuristic decides what a peptide is.
+    The peptide is taken from peptide.cif and the rest from receptor.cif. The two files
+    partition the deposited complex, so the partition is exactly the reference set partition
+    and no heuristic decides what a peptide is.
     """
     ppath = os.path.join(entry_dir, "peptide.cif")
-    cpath = os.path.join(entry_dir, "complex.cif")
+    cpath = os.path.join(entry_dir, "receptor.cif")
     if not os.path.exists(ppath):
         raise FileNotFoundError(ppath)
     pst = _read(ppath)

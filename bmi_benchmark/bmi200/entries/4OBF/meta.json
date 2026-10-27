@@ -542,22 +542,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 105031,
-    "file": "complex.cif",
-    "n_chains": 3,
-    "n_struct_conn": 0,
-    "subchains_kept": [
-     "E",
-     "A",
-     "B"
-    ]
-   },
    "peptide.cif": {
     "bytes": 9649,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 0,
+    "n_struct_conn": 9,
     "subchains_kept": [
      "E"
     ]
@@ -565,7 +554,7 @@
    "receptor.cif": {
     "bytes": 99886,
     "file": "receptor.cif",
-    "n_chains": 3,
+    "n_chains": 2,
     "n_struct_conn": 0,
     "subchains_kept": [
      "A",
@@ -1334,7 +1323,6 @@
     "decisions.hetero.components[].min_dist_to_receptor_A",
     "any drop reason of the form non_site_ligand_min_dist_to_peptide_<d> that embeds one"
    ],
-   "date": "2026-08-03",
    "gap": "gemmi's NeighborSearch returns lattice-translated copies of an atom with image_idx == 0, so _decide_hetero's `if m.image_idx != 0: continue` guard does not exclude them. The distance is then measured to the UNtranslated atom. The values listed below exceed the 6.0 A search radius and are therefore provably artefacts rather than measurements.",
    "id": "neighbour_search_lattice_image_distance",
    "instances": [
@@ -1393,12 +1381,6 @@
    "trailing_newline": true
   },
   "files": {
-   "complex.cif": {
-    "bytes": 105031,
-    "n_chains": 3,
-    "n_struct_conn": 0,
-    "role": "strict primary"
-   },
    "peptide.cif": {
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
@@ -1531,51 +1513,119 @@
    "kind": "sidechain_truncated"
   }
  ],
- "fixed_geometry": {
+ "derived": {
   "files": [
    "peptide_fixed.cif",
-   "peptide_fixed.sdf"
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
   ],
-  "n_rebuilt": 6,
-  "rebuilt_atoms": [
+  "terminal_completion": "C:OXT",
+  "added_residues": [],
+  "added_atoms": [
    {
-    "comp": "ARG",
-    "seqid": 1,
-    "atom": "CD",
-    "element": "C"
+    "atom": "E/ARG/1/CG",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     -4.692,
+     -18.43,
+     -5.458
+    ],
+    "b": 31.74
    },
    {
-    "comp": "ARG",
-    "seqid": 1,
-    "atom": "CG",
-    "element": "C"
+    "atom": "E/ARG/1/CD",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     -3.887,
+     -17.921,
+     -6.672
+    ],
+    "b": 31.74
    },
    {
-    "comp": "ARG",
-    "seqid": 1,
-    "atom": "CZ",
-    "element": "C"
+    "atom": "E/ARG/1/NE",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     -3.32,
+     -19.03,
+     -7.446
+    ],
+    "b": 31.74
    },
    {
-    "comp": "ARG",
-    "seqid": 1,
-    "atom": "NE",
-    "element": "N"
+    "atom": "E/ARG/1/CZ",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     -2.49,
+     -18.884,
+     -8.549
+    ],
+    "b": 31.74
    },
    {
-    "comp": "ARG",
-    "seqid": 1,
-    "atom": "NH1",
-    "element": "N"
+    "atom": "E/ARG/1/NH1",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     -2.139,
+     -20.119,
+     -9.061
+    ],
+    "b": 31.74
    },
    {
-    "comp": "ARG",
-    "seqid": 1,
-    "atom": "NH2",
-    "element": "N"
+    "atom": "E/ARG/1/NH2",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     -2.126,
+     -17.742,
+     -8.993
+    ],
+    "b": 31.74
+   },
+   {
+    "atom": "E/PRO/10/OXT",
+    "element": "O",
+    "origin": "oxt",
+    "xyz": [
+     -0.016,
+     0.372,
+     14.327
+    ],
+    "b": 31.97
    }
   ],
-  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
-  "forcefield": "GAFF2 (antechamber gasteiger charges)"
- }
+  "added_links": [],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 3.78,
+    "min_receptor_contact_A": 4.82,
+    "junction_bonds_A": []
+   }
+  },
+  "rebuild": {
+   "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+   "forcefield": "GAFF2 (antechamber gasteiger charges)",
+   "receptor_wall": "receptor heavy atoms within 8 A of the peptide, frozen, Lennard-Jones only",
+   "gaff2_energy_kJ_mol": {
+    "before": 543.0,
+    "after": 380.3
+   },
+   "qc": {
+    "min_intra_peptide_contact_A": 3.15,
+    "min_receptor_contact_A": 3.75,
+    "ccd_stereocentres_checked": 0,
+    "ccd_chirality_mismatches": 0,
+    "deposited_atoms_max_shift_A": 0.0
+   },
+   "frozen": "every deposited atom and every terminal atom"
+  }
+ },
+ "receptor_links": []
 }

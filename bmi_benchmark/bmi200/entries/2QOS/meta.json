@@ -126,21 +126,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 98896,
-    "file": "complex.cif",
-    "n_chains": 2,
-    "n_struct_conn": 1,
-    "subchains_kept": [
-     "A",
-     "B"
-    ]
-   },
    "peptide.cif": {
     "bytes": 11479,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 0,
+    "n_struct_conn": 10,
     "subchains_kept": [
      "B"
     ]
@@ -851,9 +841,8 @@
    "total_heavy_before": 1437
   },
   "files": {
-   "complex.cif": "strict",
    "peptide.cif": "unchanged",
-   "receptor.cif": "strict (rewritten so that peptide.cif + receptor.cif still partition complex.cif)"
+   "receptor.cif": "rewritten strictly"
   },
   "ion_rule": "monatomic stays, polyatomic goes: CL/NA/K/ZN/CA/MG/... kept, SO4/PO4/NO3/NH4 removed. A monatomic ion is also never a covalent bridge, so it cannot make a component it coordinates peptide-integral - SPEC sec.7 rule 4, coordination is not a covalent bond",
   "n_struct_conn_after": 1,
@@ -869,5 +858,37 @@
    "checks_failed": [],
    "ok": true
   }
- }
+ },
+ "derived": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "C:OXT",
+  "added_residues": [],
+  "added_atoms": [
+   {
+    "atom": "A/TYR/168/OXT",
+    "element": "O",
+    "origin": "oxt",
+    "xyz": [
+     35.896,
+     38.396,
+     57.232
+    ],
+    "b": 36.84
+   }
+  ],
+  "added_links": [],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 3.66,
+    "min_receptor_contact_A": 6.51,
+    "junction_bonds_A": []
+   }
+  }
+ },
+ "receptor_links": []
 }

@@ -2,10 +2,10 @@
 
 This file explains every column in the BMI-MODES tables. Four tables ship:
 
-- `MANIFEST.csv` — one row per **site** (30 rows).
-- `poses.csv` — one row per **pose** (71 rows).
-- `ss_per_pose.csv` — one row per pose (71 rows): secondary structure of that pose.
-- `pose_attribution.csv` — one row per **pose pair** (58 rows): the pairwise comparison behind the mode call.
+- `MANIFEST.csv` — one row per **site** (29 rows).
+- `poses.csv` — one row per **pose** (66 rows).
+- `ss_per_pose.csv` — one row per pose (66 rows): secondary structure of that pose.
+- `pose_attribution.csv` — one row per **pose pair** (48 rows): the pairwise comparison behind the mode call.
 
 Load every table with `keep_default_na=False, na_values=['']`.
 
@@ -49,7 +49,7 @@ Route `B` (repeat deposition) gives `B_<UniProt>_<PDB>` (for example `B_P06873_3
 | `uniprot` | Receptor UniProt accession(s) | `;`-separated (`-` if none) |
 | `receptor_one_line` | Receptor description | free text |
 | `receptor_class` | Receptor functional class | 13 classes, e.g. `transcription_factor`, `protease` |
-| `seq` | Peptide sequence (one-letter, with 3-letter tokens in parentheses for non-standard residues/caps) | e.g. `VSFN(FRD)PQITAA(NH2)` |
+| `seq` | Peptide sequence of the polymer residues (one-letter, with 3-letter tokens in parentheses for non-standard residues/caps; a bonded moiety in `env_adducts` is not part of it) | e.g. `VSFN(FRD)PQITAA(NH2)` |
 | `peptide_tokens` | The same sequence, tokenised | same form as `seq` |
 | `cell` | Chemistry cell of the peptide | `linear_standard`, `linear_modified`, `cyclic_modified` |
 | `max_token_diff` | Largest sequence-token difference between the site's poses | 0 (the poses must be the same sequence) |
@@ -59,16 +59,16 @@ Route `B` (repeat deposition) gives `B_<UniProt>_<PDB>` (for example `B_P06873_3
 | Column | Meaning | Values |
 |---|---|---|
 | `n_entries` | PDB entries contributing to the site | 1–2 |
-| `n_poses_modelled` | Poses modelled at the site | 2–5 |
-| `n_poses_in_pocket` | Poses that fall in the pocket | 2–5 |
+| `n_poses_modelled` | Poses modelled at the site | 2–4 |
+| `n_poses_in_pocket` | Poses that fall in the pocket | 2–4 |
 | `n_poses_elsewhere` | Poses that landed away from the pocket | 0–1 |
 | `n_poses_not_comparable` | Poses that could not be compared | 0 |
-| `n_poses_counted` | Poses counted toward the mode determination | 2–5 |
+| `n_poses_counted` | Poses counted toward the mode determination | 2–4 |
 | `n_distinct_modes` | Distinct binding modes at the site | 2 for every site (the defining property) |
 | `n_modes_at_2A`, `n_modes_at_3A`, `n_modes_at_5A` | Modes resolved at a 2 / 3 / 5 Å separation threshold | 2 at 2–3 Å; at 5 Å some sites merge to 1 |
 | `n_modes_wholepose_3A`, `n_modes_completelinkage_3A` | Modes at 3 Å by whole-pose clustering / complete-linkage clustering (a robustness cross-check) | 2 for every site |
-| `mode_sizes` | Poses per mode | e.g. `3+2` (mode 1 has 3 poses, mode 2 has 2) |
-| `mode_members` | Which poses belong to each mode | e.g. `C,FA,IA` and `FB,IB` |
+| `mode_sizes` | Poses per mode | e.g. `3+1` (mode 1 has 3 poses, mode 2 has 1) |
+| `mode_members` | Which poses belong to each mode | e.g. `G,E,FA` and `FB` |
 | `n_pairs_measured` | Pose pairs measured | integer |
 | `n_pairs_without_core` | Pose pairs with no shared core | 0 |
 | `n_poses_symmetry_resolved` | Poses whose placement was resolved with a crystallographic symmetry operation | 0–2 |
@@ -97,11 +97,11 @@ Route `B` (repeat deposition) gives `B_<UniProt>_<PDB>` (for example `B_P06873_3
 | `pose_modes` | Mode assigned to each pose | e.g. `1;2` |
 | `pose_occupancy` | Occupancy of each pose | e.g. `1.0;1.0` |
 | `pose_contact_entities` | Entity id(s) each pose contacts | e.g. `1;1` |
-| `pose_env_adducts` | Covalent adducts near each pose (e.g. glycans) | e.g. `NAGx2;NAG` (`-` = none) |
+| `pose_env_adducts` | Non-polymer moieties covalently bonded to each pose (e.g. glycans); they are part of `pose_NN.cif` | e.g. `NAGx2;NAG` (`-` = none) |
 | `pose_env_metals` | Metals near each pose | `-` = none |
 | `pose_env_ions` | Ions near each pose | `-` = none |
 | `pose_env_near` | Any component near each pose | codes (`-` = none) |
-| `pose_env_additives` | Crystallisation additives near each pose | e.g. `SO4x2;SO4` (`-` = none) |
+| `pose_env_additives` | Crystallisation additives near each pose | e.g. `-;GOL` (`-` = none) |
 | `poses_elsewhere` | Description of any pose that landed away from the pocket | text (blank if none) |
 
 ---
@@ -111,16 +111,18 @@ Route `B` (repeat deposition) gives `B_<UniProt>_<PDB>` (for example `B_P06873_3
 | Column | Meaning | Values |
 |---|---|---|
 | `site_id` | Site this pose belongs to | see `MANIFEST.csv` |
-| `pose` | Pose number within the site | 1–5 |
+| `pose` | Pose number within the site | 1–4 |
 | `label` | Pose label: `subchain/altloc`, or a PDB id for a repeat-deposition pose | e.g. `C/A`, `3PTL` |
 | `pdb_id` | PDB entry the pose comes from | 4-character code |
 | `source` | Provenance of the coordinates | e.g. `PDB 8ZVY subchain D`, `PDB 2AOJ subchain C altloc A`, `PDB 3PTL peptide` |
 | `mode` | Mode assigned to this pose | 1 / 2 |
 | `separation_from_ref_A` | Separation from the reference pose (pose 1) | Å |
-| `chain_in_pdb` | Chain id given to the peptide in the shipped pose file | `P`, `Q`, `R`, `S`, `T` |
-| `n_atoms`, `n_residues` | Heavy atoms / residues in the pose | integers |
+| `chain_in_pdb` | Chain id given to the peptide in the shipped pose file | `P`, `Q`, `R`, `S` |
+| `n_atoms`, `n_residues` | Heavy atoms / residues in `pose_NN.cif`, bonded moieties (`env_adducts`) included | integers |
+| `n_atoms_fixed` | Heavy atoms in `pose_NN_fixed.cif`: the pose plus the added atoms | integer |
+| `net_charge_ph7.4` | Net formal charge of `pose_NN_fixed_protonated.sdf`, the pose at pH 7.4 by the rules of the top-level README (Protonation); the same value as the SDF property `net_charge` | integer, −6 to +5 |
 | `occupancy` | Crystallographic occupancy of the pose | 0–1 |
-| `env_adducts` | Covalent adducts near the pose | codes (`-` if none) |
+| `env_adducts` | Non-polymer moieties covalently bonded to the pose; they are part of `pose_NN.cif` | codes (`-` if none) |
 | `env_near` | Any component near the pose | codes (`-` if none) |
 | `env_additives` | Crystallisation additives near the pose | codes (`-` if none) |
 | `receptor_file` | The receptor file that pairs with this pose (`receptor_NN.cif` in the site directory) | e.g. `receptor_01.cif` |
@@ -129,6 +131,7 @@ Route `B` (repeat deposition) gives `B_<UniProt>_<PDB>` (for example `B_P06873_3
 | `receptor_sup_rmsd_A` | RMSD of the receptor superposition onto the common frame | Å |
 | `pocket_ca_rmsd_vs_pose1_A` | Pocket Cα RMSD of this pose's receptor against pose 1's | Å |
 | `pocket_n_res_paired` | Pocket residues paired in that comparison | integer (blank for pose 1) |
+| `terminal_completion` | Terminal atoms the derived files add (top-level README, Derived files): `C:OXT`; a declared cap `N:ACE` / `C:NH2`; a stand-in cap `N:ACE(stand-in)` / `C:NME(stand-in)`; `N:`/`C:not added(<reason>)`; `-` if none | e.g. `N:ACE;C:NME(stand-in)` |
 
 ---
 
@@ -151,7 +154,7 @@ X not assignable (backbone atom missing)   ? refused (not an alpha-amino-acid ba
 |---|---|---|
 | `site_id`, `pose`, `label`, `pdb_id`, `mode` | Pose identity (as in `poses.csv`) | — |
 | `pose_source` | Whether the pose is a second copy or an alternate location | `copies` / `altloc` |
-| `n_residues` | Residues in the pose | integer |
+| `n_residues` | Polymer residues in the pose, caps included (a bonded moiety in `env_adducts` is not counted) | integer |
 | `n_assignable` | Residues that can be assigned (backbone complete and α-amino-acid) — the denominator for fractions | integer |
 | `n_refused` | Residues refused (backbone is not an α-amino-acid backbone) | integer |
 | `n_internal_chain_breaks` | Gaps in the modelled backbone | 0 for all poses |

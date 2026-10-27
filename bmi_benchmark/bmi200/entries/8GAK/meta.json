@@ -179,22 +179,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 158187,
-    "file": "complex.cif",
-    "n_chains": 3,
-    "n_struct_conn": 1,
-    "subchains_kept": [
-     "A",
-     "B",
-     "C"
-    ]
-   },
    "peptide.cif": {
     "bytes": 16529,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 1,
+    "n_struct_conn": 20,
     "subchains_kept": [
      "B"
     ]
@@ -1362,9 +1351,8 @@
    "total_heavy_before": 2077
   },
   "files": {
-   "complex.cif": "strict",
    "peptide.cif": "unchanged",
-   "receptor.cif": "strict (rewritten so that peptide.cif + receptor.cif still partition complex.cif)"
+   "receptor.cif": "rewritten strictly"
   },
   "ion_rule": "monatomic stays, polyatomic goes: CL/NA/K/ZN/CA/MG/... kept, SO4/PO4/NO3/NH4 removed. A monatomic ion is also never a covalent bridge, so it cannot make a component it coordinates peptide-integral - SPEC sec.7 rule 4, coordination is not a covalent bond",
   "n_struct_conn_after": 1,
@@ -1421,63 +1409,122 @@
    "kind": "sidechain_truncated"
   }
  ],
- "fixed_geometry": {
+ "derived": {
   "files": [
    "peptide_fixed.cif",
-   "peptide_fixed.sdf"
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
   ],
-  "n_rebuilt": 8,
-  "rebuilt_atoms": [
+  "terminal_completion": "-",
+  "added_residues": [],
+  "added_atoms": [
    {
-    "comp": "SER",
-    "seqid": 3,
-    "atom": "OG",
-    "element": "O"
+    "atom": "B/SER/3/OG",
+    "element": "O",
+    "origin": "rebuilt",
+    "xyz": [
+     14.289,
+     -4.231,
+     1.113
+    ],
+    "b": 84.25
    },
    {
-    "comp": "LYS",
-    "seqid": 4,
-    "atom": "CD",
-    "element": "C"
+    "atom": "B/LYS/4/CG",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     19.767,
+     -5.71,
+     3.415
+    ],
+    "b": 73.98
    },
    {
-    "comp": "LYS",
-    "seqid": 4,
-    "atom": "CE",
-    "element": "C"
+    "atom": "B/LYS/4/CD",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     21.125,
+     -5.191,
+     2.898
+    ],
+    "b": 73.98
    },
    {
-    "comp": "LYS",
-    "seqid": 4,
-    "atom": "CG",
-    "element": "C"
+    "atom": "B/LYS/4/CE",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     21.496,
+     -5.769,
+     1.518
+    ],
+    "b": 73.98
    },
    {
-    "comp": "LYS",
-    "seqid": 4,
-    "atom": "NZ",
-    "element": "N"
+    "atom": "B/LYS/4/NZ",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     22.787,
+     -5.251,
+     1.047
+    ],
+    "b": 73.98
    },
    {
-    "comp": "LYS",
-    "seqid": 14,
-    "atom": "CD",
-    "element": "C"
+    "atom": "B/LYS/14/CD",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     17.391,
+     12.193,
+     34.203
+    ],
+    "b": 41.0
    },
    {
-    "comp": "LYS",
-    "seqid": 14,
-    "atom": "CE",
-    "element": "C"
+    "atom": "B/LYS/14/CE",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     16.005,
+     11.616,
+     34.565
+    ],
+    "b": 41.0
    },
    {
-    "comp": "LYS",
-    "seqid": 14,
-    "atom": "NZ",
-    "element": "N"
+    "atom": "B/LYS/14/NZ",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     16.041,
+     10.902,
+     35.847
+    ],
+    "b": 41.0
    }
   ],
-  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
-  "forcefield": "GAFF2 (antechamber gasteiger charges)"
- }
+  "added_links": [],
+  "rebuild": {
+   "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+   "forcefield": "GAFF2 (antechamber gasteiger charges)",
+   "receptor_wall": "receptor heavy atoms within 8 A of the peptide, frozen, Lennard-Jones only",
+   "gaff2_energy_kJ_mol": {
+    "before": 1291.1,
+    "after": 907.8
+   },
+   "qc": {
+    "min_intra_peptide_contact_A": 3.14,
+    "min_receptor_contact_A": 3.03,
+    "ccd_stereocentres_checked": 0,
+    "ccd_chirality_mismatches": 0,
+    "deposited_atoms_max_shift_A": 0.0
+   },
+   "frozen": "every deposited atom and every terminal atom"
+  }
+ },
+ "receptor_links": []
 }

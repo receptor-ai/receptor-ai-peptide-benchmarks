@@ -1,13 +1,13 @@
-
+sites/A_8FYU/pose_01_fixed
      RDKit          3D
 
- 68 67  0  0  0  0  0  0  0  0999 V2000
+ 69 68  0  0  0  0  0  0  0  0999 V2000
     7.9950   -9.7030    7.4500 N   0  0  0  0  0  0  0  0  0  0  0  0
     7.4110   -8.7150    6.5460 C   0  0  2  0  0  0  0  0  0  0  0  0
     7.2260   -9.2690    5.1340 C   0  0  0  0  0  0  0  0  0  0  0  0
     6.8500   -8.5310    4.2280 O   0  0  0  0  0  0  0  0  0  0  0  0
     8.2780   -7.4520    6.4930 C   0  0  0  0  0  0  0  0  0  0  0  0
-    8.8517   -7.1548    7.7738 O   0  0  0  0  0  0  0  0  0  0  0  0
+    8.3670   -6.8500    7.7890 O   0  0  0  0  0  0  0  0  0  0  0  0
     7.4890  -10.5680    4.9370 N   0  0  0  0  0  0  0  0  0  0  0  0
     7.3620  -11.1380    3.5980 C   0  0  2  0  0  0  0  0  0  0  0  0
     5.9090  -11.3160    3.1640 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -70,34 +70,41 @@
    -8.0670   -6.9130   -1.6260 C   0  0  0  0  0  0  0  0  0  0  0  0
    -6.9730   -7.3770   -1.2280 O   0  0  0  0  0  0  0  0  0  0  0  0
    -9.1770   -7.3400   -1.2340 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.7120   -4.0170   -4.1460 O   0  0  0  0  0  0  0  0  0  0  0  0
   2  1  1  1
   2  3  1  0
   2  5  1  0
   3  4  2  0
+  3  7  1  0
   5  6  1  0
   7  8  1  0
   8  9  1  0
   8 11  1  1
   9 10  2  0
+  9 13  1  0
  11 12  1  0
  14 13  1  1
  14 15  1  0
  14 17  1  0
  15 16  2  0
+ 15 20  1  0
  17 18  1  0
  17 19  1  1
  20 21  1  0
  21 22  1  0
  22 23  2  0
+ 22 24  1  0
  24 25  1  0
  25 26  1  0
  25 28  1  1
  26 27  2  0
+ 26 30  1  0
  28 29  1  0
  31 30  1  1
  31 32  1  0
  31 34  1  0
  32 33  2  0
+ 32 38  1  0
  34 35  1  0
  34 36  1  1
  35 37  1  0
@@ -105,6 +112,7 @@
  39 40  1  0
  39 42  1  1
  40 41  2  0
+ 40 46  1  0
  42 43  1  0
  43 44  2  0
  43 45  1  0
@@ -112,6 +120,7 @@
  47 48  1  0
  47 50  1  6
  48 49  2  0
+ 48 54  1  0
  50 51  1  0
  51 52  1  0
  52 53  1  0
@@ -119,23 +128,29 @@
  55 56  1  0
  55 58  1  0
  56 57  2  0
+ 56 61  1  0
  58 59  1  0
  58 60  1  0
  61 62  1  0
  62 63  1  0
  62 65  1  6
  63 64  2  0
+ 63 69  1  0
  65 66  1  0
  66 67  2  0
  66 68  1  0
- 22 24  1  0
-  9 13  1  0
- 15 20  1  0
- 40 46  1  0
- 32 38  1  0
- 26 30  1  0
- 56 61  1  0
-  3  7  1  0
- 48 54  1  0
 M  END
+>  <atom.prop.label>  (1) 
+P/SER/633/N P/SER/633/CA P/SER/633/C P/SER/633/O P/SER/633/CB P/SER/633/OG P/SER/634/N P/SER/634/CA P/SER/634/C P/SER/634/O P/SER/634/CB P/SER/634/OG P/THR/635/N P/THR/635/CA P/THR/635/C
+P/THR/635/O P/THR/635/CB P/THR/635/OG1 P/THR/635/CG2 P/GLY/636/N P/GLY/636/CA P/GLY/636/C P/GLY/636/O P/SER/637/N P/SER/637/CA P/SER/637/C P/SER/637/O P/SER/637/CB P/SER/637/OG P/ILE/638/N
+P/ILE/638/CA P/ILE/638/C P/ILE/638/O P/ILE/638/CB P/ILE/638/CG1 P/ILE/638/CG2 P/ILE/638/CD1 P/ASP/639/N P/ASP/639/CA P/ASP/639/C P/ASP/639/O P/ASP/639/CB P/ASP/639/CG P/ASP/639/OD1
+P/ASP/639/OD2 P/MET/640/N P/MET/640/CA P/MET/640/C P/MET/640/O P/MET/640/CB P/MET/640/CG P/MET/640/SD P/MET/640/CE P/VAL/641/N P/VAL/641/CA P/VAL/641/C P/VAL/641/O P/VAL/641/CB
+P/VAL/641/CG1 P/VAL/641/CG2 P/ASP/642/N P/ASP/642/CA P/ASP/642/C P/ASP/642/O P/ASP/642/CB P/ASP/642/CG P/ASP/642/OD1 P/ASP/642/OD2 P/ASP/642/OXT
+
+>  <atom.prop.origin>  (1) 
+deposited deposited deposited deposited deposited rebuilt deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited oxt
+
 $$$$

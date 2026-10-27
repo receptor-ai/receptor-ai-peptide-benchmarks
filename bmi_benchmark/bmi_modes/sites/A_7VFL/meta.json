@@ -1,22 +1,4 @@
 {
- "corrections": [
-  {
-   "date": "2026-09-16",
-   "issue": "The peptide is O-GlcNAcylated: NAG sugar(s) are O-glycosidically bonded to peptide Ser (SER-OG--NAG-C1, ~1.4 A) but were filed in the paired receptor_NN.cif and recorded only as pose_env_adducts, so pose_NN.sdf/cif represented the unglycosylated peptide.",
-   "fix": "Moved the peptide-bonded NAG(s) into pose_NN.cif and pose_NN.sdf with the Ser-OG--NAG-C1 glycosidic bond(s); removed them from receptor_NN.cif. Mirrors the 4PJZ/T55 correction (2026-09-15).",
-   "note": "pose_env_adducts and the peptide seq/token fields still describe the pre-correction (unglycosylated) peptide and were not recomputed; the pose structure files are authoritative.",
-   "derived_fields": "seq/peptide_tokens list the amino-acid sequence only (the covalent NAG/ZOY is a modification, not a residue token) and are unchanged; provenance.poses[].atoms documents the source-subchain atom count and is unchanged; pose_env_adducts still names the moiety by its original role. The shipped pose_NN.cif/sdf now additionally contain the covalent moiety and are authoritative."
-  },
-  {
-   "date": "2026-09-21",
-   "component": "provenance.poses[].atoms / .residues",
-   "issue": "After the peptide-integral moiety (NAG/ZOY) was moved from the receptor into the pose files, the per-pose atom and residue counts in provenance.poses were not updated and still reflected the peptide-only pose (the same counts were also stale in bmi_modes/poses.csv).",
-   "fix": "Updated provenance.poses[].atoms and .residues to the current pose-file contents (pose1: atoms 57->85, residues 8->10; pose2: atoms 42->56, residues 6->7). peptide_tokens/seq are peptide-only and unchanged.",
-   "files_changed": [
-    "meta.json"
-   ]
-  }
- ],
  "cell": "linear_standard",
  "core_separation_widest_pair_A": "6.74",
  "difference_type": "substantial",
@@ -96,5 +78,186 @@
  "seq": "DSDSDSDSD",
  "site_id": "A_7VFL",
  "site_type": "one_deposition",
- "uniprot": "A0A0H2XGN0"
+ "uniprot": "A0A0H2XGN0",
+ "derived__pose_01": {
+  "files": [
+   "pose_01_fixed.cif",
+   "pose_01_fixed.sdf",
+   "pose_01_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "N:ACE(stand-in)",
+  "added_residues": [
+   {
+    "residue": "P/ACE/0",
+    "label_asym": "Px1",
+    "entity": "ACE!",
+    "entity_type": "non-polymer",
+    "label_seq": ".",
+    "group": "HETATM",
+    "anchor": "before P/SER/1"
+   }
+  ],
+  "added_atoms": [
+   {
+    "atom": "P/ACE/0/C",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     -9.911,
+     27.133,
+     14.049
+    ],
+    "b": 54.15
+   },
+   {
+    "atom": "P/ACE/0/O",
+    "element": "O",
+    "origin": "stand_in_cap",
+    "xyz": [
+     -9.708,
+     28.099,
+     14.782
+    ],
+    "b": 54.15
+   },
+   {
+    "atom": "P/ACE/0/CH3",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     -10.791,
+     27.258,
+     12.828
+    ],
+    "b": 54.15
+   }
+  ],
+  "added_links": [
+   {
+    "type": "covale",
+    "atom1": "P/ACE/0/C",
+    "atom2": "P/SER/1/N"
+   }
+  ],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 3.82,
+    "min_receptor_contact_A": 10.47,
+    "junction_bonds_A": [
+     1.34
+    ]
+   }
+  }
+ },
+ "derived__pose_02": {
+  "files": [
+   "pose_02_fixed.cif",
+   "pose_02_fixed.sdf",
+   "pose_02_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "N:ACE(stand-in);C:NME(stand-in)",
+  "added_residues": [
+   {
+    "residue": "Q/ACE/2",
+    "label_asym": "Qx2",
+    "entity": "ACE!",
+    "entity_type": "non-polymer",
+    "label_seq": ".",
+    "group": "HETATM",
+    "anchor": "before Q/SER/3"
+   },
+   {
+    "residue": "Q/NME/9",
+    "label_asym": "Qx1",
+    "entity": "NME!",
+    "entity_type": "non-polymer",
+    "label_seq": ".",
+    "group": "HETATM",
+    "anchor": "after Q/ASP/8"
+   }
+  ],
+  "added_atoms": [
+   {
+    "atom": "Q/ACE/2/C",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     -8.089,
+     21.855,
+     15.216
+    ],
+    "b": 64.91
+   },
+   {
+    "atom": "Q/ACE/2/O",
+    "element": "O",
+    "origin": "stand_in_cap",
+    "xyz": [
+     -8.669,
+     22.938,
+     15.275
+    ],
+    "b": 64.91
+   },
+   {
+    "atom": "Q/ACE/2/CH3",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     -8.27,
+     20.818,
+     16.298
+    ],
+    "b": 64.91
+   },
+   {
+    "atom": "Q/NME/9/N",
+    "element": "N",
+    "origin": "stand_in_cap",
+    "xyz": [
+     -6.354,
+     15.337,
+     1.943
+    ],
+    "b": 48.75
+   },
+   {
+    "atom": "Q/NME/9/C",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     -7.348,
+     14.867,
+     0.984
+    ],
+    "b": 48.75
+   }
+  ],
+  "added_links": [
+   {
+    "type": "covale",
+    "atom1": "Q/ACE/2/C",
+    "atom2": "Q/SER/3/N"
+   },
+   {
+    "type": "covale",
+    "atom1": "Q/ASP/8/C",
+    "atom2": "Q/NME/9/N"
+   }
+  ],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 3.83,
+    "min_receptor_contact_A": 3.32,
+    "junction_bonds_A": [
+     1.33,
+     1.34
+    ]
+   }
+  }
+ },
+ "receptor_links__pose_01": [],
+ "receptor_links__pose_02": []
 }

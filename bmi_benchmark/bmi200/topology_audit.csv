@@ -15,7 +15,7 @@ pdb_id,cell,label_says_cyclic,measured_cyclic,agrees,cyclomatic_measured,cycloma
 4K8Y,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS3.SG-CYS11.SG 2.04A,13,13,1,95,13.0
 4KEL,cyclic_standard,1,1,1,2,2,head_to_tail_backbone_amide,macrocycle,disulfide;head_to_tail_backbone_amide,disulfide CYS3.SG-CYS11.SG 2.04A | head_to_tail_backbone_amide GLY1.N-ASN14.C 1.43A,14,14,1,109,14.0
 4M1D,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS305.SG-CYS320.SG 2.05A,14,14,1,111,14.0
-4MNV,cyclic_standard,1,1,1,1,1,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge CYS2.SG-ZBR101.C7 1.84A,11,11,1,85,10.0
+4MNV,cyclic_modified,1,1,1,1,1,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge CYS2.SG-ZBR101.C7 1.84A,15,14,1,106,14.0
 4TUJ,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS2.SG-CYS11.SG 2.06A,14,14,1,99,14.0
 4X1N,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS1.SG-CYS10.SG 2.04A,11,11,1,84,10.0
 4X1S,cyclic_standard,1,1,1,1,1,disulfide,macrocycle,disulfide,disulfide CYS1.SG-CYS10.SG 1.98A,11,11,1,81,10.0
@@ -50,7 +50,7 @@ pdb_id,cell,label_says_cyclic,measured_cyclic,agrees,cyclomatic_measured,cycloma
 9HGD,cyclic_standard,1,1,1,1,1,head_to_tail_backbone_amide,macrocycle,head_to_tail_backbone_amide,head_to_tail_backbone_amide LEU1.N-GLU13.C 1.33A,13,13,1,104,13.0
 9S3N,cyclic_standard,1,1,1,2,2,thioether_or_S_C_bridge,macrocycle,thioether_or_S_C_bridge,thioether_or_S_C_bridge CYS7.SG-KZ0101.C5 1.77A | thioether_or_S_C_bridge CYS2.SG-KZ0101.C 1.77A,18,18,1,143,17.0
 1W9V,cyclic_modified,1,1,1,1,1,amide_or_C_N_bridge,macrocycle,head_to_tail_backbone_amide,head_to_tail_backbone_amide VR01434.N-DAL1438.C 1.33A,5,5,1,48,5.0
-2CV3,cyclic_modified,1,1,1,3,3,amide_or_C_N_bridge,macrocycle,ester_or_C_O_bridge;isopeptide_or_lactam_amide,ester_or_C_O_bridge SER262.OG-ASP265.CG 1.32A | ester_or_C_O_bridge THR257.OG1-ASP263.CG 1.34A | isopeptide_or_lactam_amide LYS259.NZ-ASP266.CG 1.33A,11,11,1,91,11.0
+2CV3,cyclic_standard,1,1,1,3,3,amide_or_C_N_bridge,macrocycle,ester_or_C_O_bridge;isopeptide_or_lactam_amide,ester_or_C_O_bridge SER262.OG-ASP265.CG 1.32A | ester_or_C_O_bridge THR257.OG1-ASP263.CG 1.34A | isopeptide_or_lactam_amide LYS259.NZ-ASP266.CG 1.33A,11,11,1,91,11.0
 2YQ7,cyclic_modified,1,1,1,1,1,amide_or_C_N_bridge,macrocycle,isopeptide_or_lactam_amide,isopeptide_or_lactam_amide GLU154.CD-LYS158.NZ 1.34A,20,18,1,158,20.0
 3IIQ,cyclic_modified,1,1,1,1,1,amide_or_C_N_bridge,macrocycle,carbon_carbon_bridge,carbon_carbon_bridge 5PG4.CD2-TYR6.CE2 1.42A,7,7,1,59,6.0
 3MT6,cyclic_modified,1,1,1,1,1,amide_or_C_N_bridge,macrocycle,ester_or_C_O_bridge,ester_or_C_O_bridge SER702.OG-MP8706.C 1.30A,7,7,1,52,7.0

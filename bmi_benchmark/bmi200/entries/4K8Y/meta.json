@@ -128,21 +128,11 @@
    "status": "cached"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 120353,
-    "file": "complex.cif",
-    "n_chains": 2,
-    "n_struct_conn": 8,
-    "subchains_kept": [
-     "B",
-     "A"
-    ]
-   },
    "peptide.cif": {
     "bytes": 11992,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 2,
+    "n_struct_conn": 13,
     "subchains_kept": [
      "B"
     ]
@@ -957,12 +947,6 @@
    "trailing_newline": true
   },
   "files": {
-   "complex.cif": {
-    "bytes": 120353,
-    "n_chains": 2,
-    "n_struct_conn": 8,
-    "role": "strict primary"
-   },
    "peptide.cif": {
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
@@ -1000,33 +984,165 @@
    "kind": "sidechain_truncated"
   }
  ],
- "fixed_geometry": {
+ "derived": {
   "files": [
    "peptide_fixed.cif",
-   "peptide_fixed.sdf"
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
   ],
-  "n_rebuilt": 3,
-  "rebuilt_atoms": [
+  "terminal_completion": "-",
+  "added_residues": [
    {
-    "comp": "ASP",
-    "seqid": 14,
-    "atom": "CG",
-    "element": "C"
-   },
-   {
-    "comp": "ASP",
-    "seqid": 14,
-    "atom": "OD1",
-    "element": "O"
-   },
-   {
-    "comp": "ASP",
-    "seqid": 14,
-    "atom": "OD2",
-    "element": "O"
+    "residue": "B/PRO/13",
+    "label_asym": "B",
+    "entity": "B",
+    "entity_type": "polymer",
+    "label_seq": "13",
+    "group": "ATOM",
+    "anchor": "before B/ASP/14"
    }
   ],
-  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
-  "forcefield": "GAFF2 (antechamber gasteiger charges)"
- }
+  "added_atoms": [
+   {
+    "atom": "B/PRO/13/N",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     25.948,
+     -29.607,
+     2.664
+    ],
+    "b": 20.98
+   },
+   {
+    "atom": "B/PRO/13/CA",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     26.074,
+     -30.53,
+     1.51
+    ],
+    "b": 20.98
+   },
+   {
+    "atom": "B/PRO/13/C",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     24.701,
+     -30.804,
+     0.846
+    ],
+    "b": 20.98
+   },
+   {
+    "atom": "B/PRO/13/O",
+    "element": "O",
+    "origin": "rebuilt",
+    "xyz": [
+     23.652,
+     -30.951,
+     1.453
+    ],
+    "b": 20.98
+   },
+   {
+    "atom": "B/PRO/13/CB",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     26.624,
+     -31.798,
+     2.207
+    ],
+    "b": 20.98
+   },
+   {
+    "atom": "B/PRO/13/CG",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     27.654,
+     -31.153,
+     3.173
+    ],
+    "b": 20.98
+   },
+   {
+    "atom": "B/PRO/13/CD",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     26.827,
+     -29.991,
+     3.791
+    ],
+    "b": 20.98
+   },
+   {
+    "atom": "B/ASP/14/CG",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     24.29,
+     -33.62,
+     -0.647
+    ],
+    "b": 26.74
+   },
+   {
+    "atom": "B/ASP/14/OD1",
+    "element": "O",
+    "origin": "rebuilt",
+    "xyz": [
+     25.037,
+     -34.077,
+     -1.494
+    ],
+    "b": 26.74
+   },
+   {
+    "atom": "B/ASP/14/OD2",
+    "element": "O",
+    "origin": "rebuilt",
+    "xyz": [
+     24.275,
+     -34.104,
+     0.616
+    ],
+    "b": 26.74
+   }
+  ],
+  "added_links": [
+   {
+    "type": "covale",
+    "atom1": "B/PHE/12/C",
+    "atom2": "B/PRO/13/N"
+   },
+   {
+    "type": "covale",
+    "atom1": "B/PRO/13/C",
+    "atom2": "B/ASP/14/N"
+   }
+  ],
+  "rebuild": {
+   "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+   "forcefield": "GAFF2 (antechamber gasteiger charges)",
+   "receptor_wall": "receptor heavy atoms within 8 A of the peptide, frozen, Lennard-Jones only",
+   "gaff2_energy_kJ_mol": {
+    "before": 1058.9,
+    "after": 706.9
+   },
+   "qc": {
+    "min_intra_peptide_contact_A": 2.76,
+    "min_receptor_contact_A": 4.78,
+    "ccd_stereocentres_checked": 1,
+    "ccd_chirality_mismatches": 0,
+    "deposited_atoms_max_shift_A": 0.0
+   },
+   "frozen": "every deposited atom and every terminal atom"
+  }
+ },
+ "receptor_links": []
 }

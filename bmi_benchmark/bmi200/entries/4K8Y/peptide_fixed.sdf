@@ -1,7 +1,7 @@
-
+entries/4K8Y/peptide_fixed
      RDKit          3D
 
- 98101  0  0  0  0  0  0  0  0999 V2000
+105110  0  0  0  0  0  0  0  0999 V2000
    23.0940  -28.9030   -1.3330 N   0  0  0  0  0  0  0  0  0  0  0  0
    22.0130  -28.0460   -1.7860 C   0  0  0  0  0  0  0  0  0  0  0  0
    21.0260  -27.6630   -0.6970 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -92,21 +92,31 @@
    23.9390  -24.7320    7.0060 C   0  0  0  0  0  0  0  0  0  0  0  0
    25.6000  -26.1170    8.0390 C   0  0  0  0  0  0  0  0  0  0  0  0
    24.8020  -24.9890    8.0610 C   0  0  0  0  0  0  0  0  0  0  0  0
+   25.9480  -29.6070    2.6640 N   0  0  0  0  0  0  0  0  0  0  0  0
+   26.0740  -30.5300    1.5100 C   0  0  2  0  0  0  0  0  0  0  0  0
+   24.7010  -30.8040    0.8460 C   0  0  0  0  0  0  0  0  0  0  0  0
+   23.6520  -30.9510    1.4530 O   0  0  0  0  0  0  0  0  0  0  0  0
+   26.6240  -31.7980    2.2070 C   0  0  0  0  0  0  0  0  0  0  0  0
+   27.6540  -31.1530    3.1730 C   0  0  0  0  0  0  0  0  0  0  0  0
+   26.8270  -29.9910    3.7910 C   0  0  0  0  0  0  0  0  0  0  0  0
    24.8160  -30.7870   -0.5520 N   0  0  0  0  0  0  0  0  0  0  0  0
    23.7660  -31.2560   -1.4480 C   0  0  2  0  0  0  0  0  0  0  0  0
    22.6520  -30.2220   -1.5800 C   0  0  0  0  0  0  0  0  0  0  0  0
    21.4850  -30.5710   -1.7600 O   0  0  0  0  0  0  0  0  0  0  0  0
    23.1940  -32.5860   -0.9510 C   0  0  0  0  0  0  0  0  0  0  0  0
-   24.3060  -33.6033   -0.6594 C   0  0  0  0  0  0  0  0  0  0  0  0
-   24.9629  -34.1492   -1.5250 O   0  0  0  0  0  0  0  0  0  0  0  0
-   24.4344  -33.9276    0.6478 O   0  0  0  0  0  0  0  0  0  0  0  0
+   24.2900  -33.6200   -0.6470 C   0  0  0  0  0  0  0  0  0  0  0  0
+   25.0370  -34.0770   -1.4940 O   0  0  0  0  0  0  0  0  0  0  0  0
+   24.2750  -34.1040    0.6160 O   0  0  0  0  0  0  0  0  0  0  0  0
   1  2  1  0
+  1100  1  0
   2  3  1  0
   3  4  2  0
+  3  5  1  0
   5  6  1  0
   6  7  1  0
   6  9  1  1
   7  8  2  0
+  7 16  1  0
   9 10  1  0
  10 11  1  0
  11 12  1  0
@@ -117,17 +127,21 @@
  17 18  1  0
  17 20  1  0
  18 19  2  0
+ 18 22  1  0
  20 21  1  0
+ 21 79  1  0
  23 22  1  6
  23 24  1  0
  23 26  1  0
  24 25  2  0
+ 24 29  1  0
  26 27  1  0
  26 28  1  6
  29 30  1  0
  30 31  1  0
  30 33  1  1
  31 32  2  0
+ 31 38  1  0
  33 34  1  0
  34 35  1  0
  35 36  1  0
@@ -136,11 +150,13 @@
  39 40  1  0
  39 42  1  1
  40 41  2  0
+ 40 44  1  0
  42 43  1  0
  45 44  1  1
  45 46  1  0
  45 48  1  0
  46 47  2  0
+ 46 52  1  0
  48 49  1  0
  48 50  1  6
  49 51  1  0
@@ -149,6 +165,7 @@
  53 54  1  0
  53 56  1  1
  54 55  2  0
+ 54 59  1  0
  56 57  1  0
  57 58  1  0
  59 60  1  0
@@ -156,24 +173,28 @@
  60 61  1  0
  60 63  1  6
  61 62  2  0
+ 61 66  1  0
  63 64  1  0
  64 65  1  0
  67 66  1  1
  67 68  1  0
  67 70  1  0
  68 69  2  0
+ 68 74  1  0
  70 71  1  0
  70 72  1  6
  71 73  1  0
- 74 75  1  0
- 75 76  1  1
+ 75 74  1  1
+ 75 76  1  0
  75 78  1  0
  76 77  2  0
+ 76 80  1  0
  78 79  1  0
  80 81  1  0
  81 82  1  0
  81 84  1  1
  82 83  2  0
+ 82 91  1  0
  84 85  1  0
  85 86  2  0
  85 87  1  0
@@ -181,26 +202,37 @@
  87 89  2  0
  88 90  2  0
  89 90  1  0
- 92 91  1  1
+ 91 92  1  0
+ 91 97  1  0
  92 93  1  0
- 92 95  1  0
+ 92 95  1  1
  93 94  2  0
+ 93 98  1  0
  95 96  1  0
- 96 97  2  0
- 96 98  1  0
- 18 22  1  0
- 68 74  1  0
- 61 66  1  0
- 24 29  1  0
-  7 16  1  0
- 76 80  1  0
- 40 44  1  0
-  3  5  1  0
- 31 38  1  0
- 54 59  1  0
- 46 52  1  0
-  1 93  1  0
- 21 79  1  0
-M  CHG  2  15   1  37   1
+ 96 97  1  0
+ 98 99  1  0
+ 99100  1  0
+ 99102  1  1
+100101  2  0
+102103  1  0
+103104  2  0
+103105  1  0
 M  END
+>  <atom.prop.label>  (1) 
+B/GLY/1/N B/GLY/1/CA B/GLY/1/C B/GLY/1/O B/ARG/2/N B/ARG/2/CA B/ARG/2/C B/ARG/2/O B/ARG/2/CB B/ARG/2/CG B/ARG/2/CD B/ARG/2/NE B/ARG/2/CZ B/ARG/2/NH1 B/ARG/2/NH2 B/CYS/3/N B/CYS/3/CA
+B/CYS/3/C B/CYS/3/O B/CYS/3/CB B/CYS/3/SG B/THR/4/N B/THR/4/CA B/THR/4/C B/THR/4/O B/THR/4/CB B/THR/4/OG1 B/THR/4/CG2 B/LYS/5/N B/LYS/5/CA B/LYS/5/C B/LYS/5/O B/LYS/5/CB B/LYS/5/CG
+B/LYS/5/CD B/LYS/5/CE B/LYS/5/NZ B/SER/6/N B/SER/6/CA B/SER/6/C B/SER/6/O B/SER/6/CB B/SER/6/OG B/ILE/7/N B/ILE/7/CA B/ILE/7/C B/ILE/7/O B/ILE/7/CB B/ILE/7/CG1 B/ILE/7/CG2 B/ILE/7/CD1
+B/PRO/8/N B/PRO/8/CA B/PRO/8/C B/PRO/8/O B/PRO/8/CB B/PRO/8/CG B/PRO/8/CD B/PRO/9/N B/PRO/9/CA B/PRO/9/C B/PRO/9/O B/PRO/9/CB B/PRO/9/CG B/PRO/9/CD B/ILE/10/N B/ILE/10/CA B/ILE/10/C
+B/ILE/10/O B/ILE/10/CB B/ILE/10/CG1 B/ILE/10/CG2 B/ILE/10/CD1 B/CYS/11/N B/CYS/11/CA B/CYS/11/C B/CYS/11/O B/CYS/11/CB B/CYS/11/SG B/PHE/12/N B/PHE/12/CA B/PHE/12/C B/PHE/12/O B/PHE/12/CB
+B/PHE/12/CG B/PHE/12/CD1 B/PHE/12/CD2 B/PHE/12/CE1 B/PHE/12/CE2 B/PHE/12/CZ B/PRO/13/N B/PRO/13/CA B/PRO/13/C B/PRO/13/O B/PRO/13/CB B/PRO/13/CG B/PRO/13/CD B/ASP/14/N B/ASP/14/CA
+B/ASP/14/C B/ASP/14/O B/ASP/14/CB B/ASP/14/CG B/ASP/14/OD1 B/ASP/14/OD2
+
+>  <atom.prop.origin>  (1) 
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited rebuilt
+rebuilt rebuilt rebuilt rebuilt rebuilt rebuilt deposited deposited deposited deposited deposited rebuilt rebuilt rebuilt
+
 $$$$

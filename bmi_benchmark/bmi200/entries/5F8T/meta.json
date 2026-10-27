@@ -231,21 +231,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 140821,
-    "file": "complex.cif",
-    "n_chains": 2,
-    "n_struct_conn": 6,
-    "subchains_kept": [
-     "B",
-     "A"
-    ]
-   },
    "peptide.cif": {
     "bytes": 11249,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 1,
+    "n_struct_conn": 11,
     "subchains_kept": [
      "B"
     ]
@@ -1065,7 +1055,6 @@
     "MANIFEST.csv: ring_closure_max_A",
     "qc.geometry.peptide_receptor_covalent_links[] -- the partner is a symmetry copy, not the retained receptor chain in the asymmetric unit"
    ],
-   "date": "2026-08-03",
    "gap": "SPEC 6g defines the ring-closure distance as the measured distance of a _struct_conn link and SPEC 11 item 5 makes peptide_receptor_covalent_links the authority for a peptide-receptor bond, but neither mentions ptnr1_symmetry / ptnr2_symmetry. _connection_index() drops the operator, so a link recorded to a symmetry copy is measured between the two asymmetric-unit atoms and yields a distance that is not a bond length.",
    "id": "symmetry_recorded_struct_conn_measured_in_asu",
    "peptide_receptor_links_affected": [
@@ -1120,26 +1109,11 @@
   },
   "built_utc": "2026-08-03T17:05:25Z",
   "files": {
-   "complex.cif": "strict: protein + peptide + metals/monatomic ions",
    "peptide.cif": "unchanged - every component covalently part of the peptide is retained by the policy",
    "receptor.cif": "unchanged - nothing was removed from it"
   },
   "needs_human_review": [],
   "notes": [],
-  "outputs": {
-   "complex.cif": {
-    "bytes": 140822,
-    "n_struct_conn": 6
-   },
-   "peptide.cif": {
-    "bytes": 7787,
-    "n_struct_conn": 1
-   },
-   "receptor.cif": {
-    "bytes": 134562,
-    "n_struct_conn": 4
-   }
-  },
   "policy": {
    "ambiguous_set_ruling": "CL/NA/K are monatomic ions and stay. SO4/PO4 are polyatomic additives and go. NH4 goes: only one heavy atom is modelled but the CCD lists 5 atoms, so the species is polyatomic, and the test is on the species not on what happens to be modelled. UNX goes: one atom, but element X is neither metal nor halide.",
    "keep_K1_peptide_integral": "any component sharing a label_asym_id with a residue of decisions.hetero.peptide_covalent_moieties (whole branched entity), EXCEPT a cryoprotectant or buffer additive whose only link to the peptide is distance-inferred rather than in _struct_conn",
@@ -1165,12 +1139,54 @@
    }
   ],
   "verification": {
-   "complex_cif_rereads": true,
    "ends_with_newline": true,
    "every_surviving_struct_conn_present": true,
    "peptide_plus_receptor_partition_complex_exactly": true,
    "problems": [],
    "ring_closures_and_staples_survive": true
   }
- }
+ },
+ "derived": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "C:OXT",
+  "added_residues": [],
+  "added_atoms": [
+   {
+    "atom": "P/CYS/10/OXT",
+    "element": "O",
+    "origin": "oxt",
+    "xyz": [
+     -37.218,
+     -14.025,
+     -1.903
+    ],
+    "b": 40.35
+   }
+  ],
+  "added_links": [],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 2.7,
+    "min_receptor_contact_A": 6.75,
+    "junction_bonds_A": []
+   }
+  }
+ },
+ "receptor_links": [
+  {
+   "type": "covale",
+   "peptide_atom": "P/PHE/9/O",
+   "receptor_atom": "A/MET/208B/CE",
+   "symmetry": [
+    "6_554",
+    "1_555"
+   ],
+   "distance_A": 1.313
+  }
+ ]
 }

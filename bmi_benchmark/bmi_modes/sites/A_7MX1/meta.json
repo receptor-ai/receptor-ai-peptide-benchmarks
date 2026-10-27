@@ -1,22 +1,4 @@
 {
- "corrections": [
-  {
-   "date": "2026-09-16",
-   "issue": "ZOY (N-[(4S)-4,5-diamino-5-oxopentyl]-10-phenyldecanamide) is a covalent staple+lipid on the peptide, bonded at two points (ZOY.N--TPO5.C amide and ZOY.C16--ALA3.CB) forming a macrocycle, but it was filed in receptor_NN.cif and recorded only as a pose_env_adduct, so pose_NN.sdf/cif represented the peptide without it (and TPO5 as a malformed free C-terminus).",
-   "fix": "Moved ZOY into pose_NN.cif and pose_NN.sdf with both inter-residue bonds; removed it from receptor_NN.cif. Mirrors the 4PJZ/T55 correction (2026-09-15).",
-   "note": "pose_env_adducts and the peptide seq/token fields still describe the pre-correction peptide and were not recomputed; the pose structure files are authoritative.",
-   "derived_fields": "seq/peptide_tokens list the amino-acid sequence only (the covalent NAG/ZOY is a modification, not a residue token) and are unchanged; provenance.poses[].atoms documents the source-subchain atom count and is unchanged; pose_env_adducts still names the moiety by its original role. The shipped pose_NN.cif/sdf now additionally contain the covalent moiety and are authoritative."
-  },
-  {
-   "date": "2026-09-21",
-   "component": "provenance.poses[].atoms / .residues",
-   "issue": "After the peptide-integral moiety (NAG/ZOY) was moved from the receptor into the pose files, the per-pose atom and residue counts in provenance.poses were not updated and still reflected the peptide-only pose (the same counts were also stale in bmi_modes/poses.csv).",
-   "fix": "Updated provenance.poses[].atoms and .residues to the current pose-file contents (pose1: atoms 40->66, residues 6->7; pose2: atoms 40->66, residues 6->7). peptide_tokens/seq are peptide-only and unchanged.",
-   "files_changed": [
-    "meta.json"
-   ]
-  }
- ],
  "cell": "linear_modified",
  "core_separation_widest_pair_A": "3.66",
  "difference_type": "clear",
@@ -96,5 +78,29 @@
  "seq": "(ACE)PLAS(TPO)",
  "site_id": "A_7MX1",
  "site_type": "one_deposition",
- "uniprot": "P53350"
+ "uniprot": "P53350",
+ "derived__pose_01": {
+  "files": [
+   "pose_01_fixed.cif",
+   "pose_01_fixed.sdf",
+   "pose_01_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "-",
+  "added_residues": [],
+  "added_atoms": [],
+  "added_links": []
+ },
+ "derived__pose_02": {
+  "files": [
+   "pose_02_fixed.cif",
+   "pose_02_fixed.sdf",
+   "pose_02_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "-",
+  "added_residues": [],
+  "added_atoms": [],
+  "added_links": []
+ },
+ "receptor_links__pose_01": [],
+ "receptor_links__pose_02": []
 }

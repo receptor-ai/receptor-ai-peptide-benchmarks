@@ -290,16 +290,6 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 217006,
-    "file": "complex.cif",
-    "n_chains": 2,
-    "n_struct_conn": 5,
-    "subchains_kept": [
-     "C",
-     "A"
-    ]
-   },
    "peptide.cif": {
     "bytes": 6952,
     "file": "peptide.cif",
@@ -960,12 +950,6 @@
    "trailing_newline": true
   },
   "files": {
-   "complex.cif": {
-    "bytes": 217006,
-    "n_chains": 2,
-    "n_struct_conn": 5,
-    "role": "strict primary"
-   },
    "peptide.cif": {
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
@@ -1006,15 +990,16 @@
    "distance_A": 0.12
   }
  ],
- "corrections": [
-  {
-   "date": "2026-09-21",
-   "component": "IAS 1436 / IAS 1437 (isoaspartate) side-chain carboxyl",
-   "issue": "Two isoaspartate (IAS) residues form isopeptide bonds through their side-chain carboxyl (IAS1436.CG-IAS1437.N and IAS1437.CG-DAL1438.N, both 1.33 A, in _struct_conn). Each therefore lacks side-chain OD2 - the vacated carboxyl-oxygen position is the amide bond - yet neither was recorded in incomplete_residues or covalent_junctions. The residues are fully modelled (an isopeptide lactam junction), so this was a missing annotation, not a structure defect.",
-   "fix": "Added covalent_junctions entries for both IAS residues (atom OD2, bonded_to the isopeptide partner N; distance_A 0.13/0.12 A, the reconstructed OD2-to-partner distance per the field convention).",
-   "files_changed": [
-    "meta.json"
-   ]
-  }
- ]
+ "derived": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "-",
+  "added_residues": [],
+  "added_atoms": [],
+  "added_links": []
+ },
+ "receptor_links": []
 }

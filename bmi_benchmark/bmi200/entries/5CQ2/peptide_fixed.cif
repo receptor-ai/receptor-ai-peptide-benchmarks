@@ -41,9 +41,6 @@ THR .
 TYR .
 VAL .
 
-_struct.entry_id 5CQ2
-_struct.title '5CQ2: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
-
 loop_
 _struct_asym.id
 _struct_asym.entity_id
@@ -52,13 +49,13 @@ B B
 loop_
 _struct_conn.id
 _struct_conn.conn_type_id
-_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_auth_asym_id
 _struct_conn.ptnr1_label_comp_id
-_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_auth_seq_id
 _struct_conn.ptnr1_label_atom_id
-_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_auth_asym_id
 _struct_conn.ptnr2_label_comp_id
-_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_auth_seq_id
 _struct_conn.ptnr2_label_atom_id
 _struct_conn.pdbx_dist_value
 covale1 covale B TYR 334 C B MET 335 N 1.313
@@ -74,7 +71,6 @@ covale10 covale B PRO 332 C B CYS 333 N 1.346
 covale11 covale B VAL 337 C B ILE 338 N 1.347
 covale12 covale B ALA 330 C B PRO 331 N 1.349
 covale13 covale B ACE 326 C B THR 327 N 1.377
-covale14 covale B VAL 337 CG2 B ILE 338 CD1 1.672
 
 loop_
 _struct_conn_type.id
@@ -191,8 +187,8 @@ ATOM 81 C CA . VAL B B 12 ? 1.866 6.524 6.793 1 47.08 ? 337 B 1
 ATOM 82 C C . VAL B B 12 ? 2.232 6.829 5.313 1 48.87 ? 337 B 1
 ATOM 83 O O . VAL B B 12 ? 1.663 6.228 4.404 1 54.1 ? 337 B 1
 ATOM 84 C CB . VAL B B 12 ? 0.915 7.653 7.371 1 41.46 ? 337 B 1
-ATOM 85 C CG1 . VAL B B 12 ? 0.795274797 7.53333397 8.89457812 1 50.01 ? 337 B 1
-ATOM 86 C CG2 . VAL B B 12 ? 1.06215604 9.1641296 6.73449003 1 50.01 ? 337 B 1
+ATOM 85 C CG1 . VAL B B 12 ? 0.504 6.790 8.624 1 50.01 ? 337 B 1
+ATOM 86 C CG2 . VAL B B 12 ? 1.077 9.043 7.981 1 50.01 ? 337 B 1
 ATOM 87 N N . ILE B B 13 ? 3.178 7.758 5.078 1 45.24 ? 338 B 1
 ATOM 88 C CA . ILE B B 13 ? 3.327 8.396 3.748 1 43.81 ? 338 B 1
 ATOM 89 C C . ILE B B 13 ? 4.693 8.089 3.123 1 46.59 ? 338 B 1
@@ -202,6 +198,8 @@ ATOM 92 C CG1 . ILE B B 13 ? 1.436 10.164 3.908 1 42.54 ? 338 B 1
 ATOM 93 C CG2 . ILE B B 13 ? 3.453 10.663 2.561 1 40.7 ? 338 B 1
 ATOM 94 C CD1 . ILE B B 13 ? 0.797 9.868 5.241 1 39.95 ? 338 B 1
 HETATM 95 N N . NH2 B B 14 ? 5.807 8.434 3.762 1 62.26 ? 339 B 1
+
+_struct.title '5CQ2: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id
@@ -391,3 +389,103 @@ VAL CG2 HG21 SING N 178
 VAL CG2 HG22 SING N 179
 VAL CG2 HG23 SING N 180
 VAL OXT HXT SING N 181
+
+loop_
+_bmi_atom_origin.atom_site_id
+_bmi_atom_origin.origin
+_bmi_atom_origin.deposited_atom_site_id
+1 deposited 1
+2 deposited 2
+3 deposited 3
+4 deposited 4
+5 deposited 5
+6 deposited 6
+7 deposited 7
+8 deposited 8
+9 deposited 9
+10 deposited 10
+11 deposited 11
+12 deposited 12
+13 deposited 13
+14 deposited 14
+15 deposited 15
+16 deposited 16
+17 deposited 17
+18 deposited 18
+19 deposited 19
+20 deposited 20
+21 deposited 21
+22 deposited 22
+23 deposited 23
+24 deposited 24
+25 deposited 25
+26 deposited 26
+27 deposited 27
+28 deposited 28
+29 deposited 29
+30 deposited 30
+31 deposited 31
+32 deposited 32
+33 deposited 33
+34 deposited 34
+35 deposited 35
+36 deposited 36
+37 deposited 37
+38 deposited 38
+39 deposited 39
+40 deposited 40
+41 deposited 41
+42 deposited 42
+43 deposited 43
+44 deposited 44
+45 deposited 45
+46 deposited 46
+47 deposited 47
+48 deposited 48
+49 deposited 49
+50 deposited 50
+51 deposited 51
+52 deposited 52
+53 deposited 53
+54 deposited 54
+55 deposited 55
+56 deposited 56
+57 deposited 57
+58 deposited 58
+59 deposited 59
+60 deposited 60
+61 deposited 61
+62 deposited 62
+63 deposited 63
+64 deposited 64
+65 deposited 65
+66 deposited 66
+67 deposited 67
+68 deposited 68
+69 deposited 69
+70 deposited 70
+71 deposited 71
+72 deposited 72
+73 deposited 73
+74 deposited 74
+75 deposited 75
+76 deposited 76
+77 deposited 77
+78 deposited 78
+79 deposited 79
+80 deposited 80
+81 deposited 81
+82 deposited 82
+83 deposited 83
+84 deposited 84
+85 rebuilt .
+86 rebuilt .
+87 deposited 85
+88 deposited 86
+89 deposited 87
+90 deposited 88
+91 deposited 89
+92 deposited 90
+93 deposited 91
+94 deposited 92
+95 deposited 93

@@ -105,38 +105,124 @@
    "kind": "sidechain_truncated"
   }
  ],
- "fixed_geometry__pose_01": {
+ "derived__pose_01": {
   "files": [
    "pose_01_fixed.cif",
-   "pose_01_fixed.sdf"
+   "pose_01_fixed.sdf",
+   "pose_01_fixed_protonated.sdf"
   ],
-  "n_rebuilt": 1,
-  "rebuilt_atoms": [
+  "terminal_completion": "C:OXT",
+  "added_residues": [],
+  "added_atoms": [
    {
-    "comp": "SER",
-    "seqid": 633,
-    "atom": "OG",
-    "element": "O"
+    "atom": "P/SER/633/OG",
+    "element": "O",
+    "origin": "rebuilt",
+    "xyz": [
+     8.367,
+     -6.85,
+     7.789
+    ],
+    "b": 41.91
+   },
+   {
+    "atom": "P/ASP/642/OXT",
+    "element": "O",
+    "origin": "oxt",
+    "xyz": [
+     -5.712,
+     -4.017,
+     -4.146
+    ],
+    "b": 25.93
    }
   ],
-  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
-  "forcefield": "GAFF2 (antechamber gasteiger charges)"
+  "added_links": [],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 4.0,
+    "min_receptor_contact_A": 3.52,
+    "junction_bonds_A": []
+   }
+  },
+  "rebuild": {
+   "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+   "forcefield": "GAFF2 (antechamber gasteiger charges)",
+   "receptor_wall": "receptor heavy atoms within 8 A of the peptide, frozen, Lennard-Jones only",
+   "gaff2_energy_kJ_mol": {
+    "before": 744.7,
+    "after": 570.1
+   },
+   "qc": {
+    "min_intra_peptide_contact_A": 4.22,
+    "min_receptor_contact_A": 4.12,
+    "ccd_stereocentres_checked": 0,
+    "ccd_chirality_mismatches": 0,
+    "deposited_atoms_max_shift_A": 0.0
+   },
+   "frozen": "every deposited atom and every terminal atom"
+  }
  },
- "fixed_geometry__pose_02": {
+ "derived__pose_02": {
   "files": [
    "pose_02_fixed.cif",
-   "pose_02_fixed.sdf"
+   "pose_02_fixed.sdf",
+   "pose_02_fixed_protonated.sdf"
   ],
-  "n_rebuilt": 1,
-  "rebuilt_atoms": [
+  "terminal_completion": "C:OXT",
+  "added_residues": [],
+  "added_atoms": [
    {
-    "comp": "SER",
-    "seqid": 633,
-    "atom": "OG",
-    "element": "O"
+    "atom": "Q/SER/633/OG",
+    "element": "O",
+    "origin": "rebuilt",
+    "xyz": [
+     -0.15,
+     -13.311,
+     -7.72
+    ],
+    "b": 47.19
+   },
+   {
+    "atom": "Q/ASP/642/OXT",
+    "element": "O",
+    "origin": "oxt",
+    "xyz": [
+     -7.471,
+     -2.304,
+     -3.543
+    ],
+    "b": 25.62
    }
   ],
-  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
-  "forcefield": "GAFF2 (antechamber gasteiger charges)"
- }
+  "added_links": [],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 3.27,
+    "min_receptor_contact_A": 2.45,
+    "junction_bonds_A": []
+   }
+  },
+  "rebuild": {
+   "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+   "forcefield": "GAFF2 (antechamber gasteiger charges)",
+   "receptor_wall": "receptor heavy atoms within 8 A of the peptide, frozen, Lennard-Jones only",
+   "gaff2_energy_kJ_mol": {
+    "before": 892.5,
+    "after": 700.3
+   },
+   "qc": {
+    "min_intra_peptide_contact_A": 4.21,
+    "min_receptor_contact_A": 8.4,
+    "ccd_stereocentres_checked": 0,
+    "ccd_chirality_mismatches": 0,
+    "deposited_atoms_max_shift_A": 0.0
+   },
+   "frozen": "every deposited atom and every terminal atom"
+  }
+ },
+ "receptor_links__pose_01": [],
+ "receptor_links__pose_02": []
 }

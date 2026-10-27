@@ -78,5 +78,175 @@
  "seq": "(ACE)APPIPPPRRKR",
  "site_id": "A_3UA7",
  "site_type": "one_deposition",
- "uniprot": "P06241"
+ "uniprot": "P06241",
+ "derived__pose_01": {
+  "files": [
+   "pose_01_fixed.cif",
+   "pose_01_fixed.sdf",
+   "pose_01_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "C:NME(stand-in)",
+  "added_residues": [
+   {
+    "residue": "P/NME/9",
+    "label_asym": "Px1",
+    "entity": "NME!",
+    "entity_type": "non-polymer",
+    "label_seq": ".",
+    "group": "HETATM",
+    "anchor": "after P/ARG/8"
+   }
+  ],
+  "added_atoms": [
+   {
+    "atom": "P/NME/9/N",
+    "element": "N",
+    "origin": "stand_in_cap",
+    "xyz": [
+     -26.848,
+     -17.156,
+     1.672
+    ],
+    "b": 43.31
+   },
+   {
+    "atom": "P/NME/9/C",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     -27.337,
+     -18.308,
+     0.921
+    ],
+    "b": 43.31
+   }
+  ],
+  "added_links": [
+   {
+    "type": "covale",
+    "atom1": "P/ARG/8/C",
+    "atom2": "P/NME/9/N"
+   }
+  ],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 2.32,
+    "min_receptor_contact_A": 7.18,
+    "junction_bonds_A": [
+     1.33
+    ]
+   }
+  }
+ },
+ "derived__pose_02": {
+  "files": [
+   "pose_02_fixed.cif",
+   "pose_02_fixed.sdf",
+   "pose_02_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "N:ACE;C:NME(stand-in)",
+  "added_residues": [
+   {
+    "residue": "Q/ACE/0",
+    "label_asym": "Qxp",
+    "entity": "Q",
+    "entity_type": "polymer",
+    "label_seq": "1",
+    "group": "HETATM",
+    "anchor": "before Q/ALA/1"
+   },
+   {
+    "residue": "Q/NME/9",
+    "label_asym": "Qx1",
+    "entity": "NME!",
+    "entity_type": "non-polymer",
+    "label_seq": ".",
+    "group": "HETATM",
+    "anchor": "after Q/ARG/8"
+   }
+  ],
+  "added_atoms": [
+   {
+    "atom": "Q/ACE/0/C",
+    "element": "C",
+    "origin": "declared_cap",
+    "xyz": [
+     -25.214,
+     -16.99,
+     -0.6
+    ],
+    "b": 30.11
+   },
+   {
+    "atom": "Q/ACE/0/O",
+    "element": "O",
+    "origin": "declared_cap",
+    "xyz": [
+     -24.443,
+     -17.533,
+     -1.39
+    ],
+    "b": 30.11
+   },
+   {
+    "atom": "Q/ACE/0/CH3",
+    "element": "C",
+    "origin": "declared_cap",
+    "xyz": [
+     -26.144,
+     -17.809,
+     0.263
+    ],
+    "b": 30.11
+   },
+   {
+    "atom": "Q/NME/9/N",
+    "element": "N",
+    "origin": "stand_in_cap",
+    "xyz": [
+     -9.973,
+     2.679,
+     -1.604
+    ],
+    "b": 39.86
+   },
+   {
+    "atom": "Q/NME/9/C",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     -9.283,
+     3.757,
+     -0.901
+    ],
+    "b": 39.86
+   }
+  ],
+  "added_links": [
+   {
+    "type": "covale",
+    "atom1": "Q/ACE/0/C",
+    "atom2": "Q/ALA/1/N"
+   },
+   {
+    "type": "covale",
+    "atom1": "Q/ARG/8/C",
+    "atom2": "Q/NME/9/N"
+   }
+  ],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 3.33,
+    "min_receptor_contact_A": 3.27,
+    "junction_bonds_A": [
+     1.33,
+     1.34
+    ]
+   }
+  }
+ },
+ "receptor_links__pose_01": [],
+ "receptor_links__pose_02": []
 }

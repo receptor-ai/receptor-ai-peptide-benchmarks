@@ -73,7 +73,7 @@ ATOM 2 C CA . SER Qxp Q 1 ? -1.64377078 -14.4268705 -6.15602789 1 48.64 ? 633 Q 
 ATOM 3 C C . SER Qxp Q 1 ? -1.72922055 -15.517831 -5.10583903 1 48.02 ? 633 Q 1
 ATOM 4 O O . SER Qxp Q 1 ? -2.62531928 -16.366763 -5.13183021 1 50.09 ? 633 Q 1
 ATOM 5 C CB . SER Qxp Q 1 ? -0.193729717 -14.2139469 -6.61301525 1 46.46 ? 633 Q 1
-ATOM 6 O OG . SER Qxp Q 1 ? 0.173758912 -12.8313305 -6.72178958 1 47.19 ? 633 Q 1
+ATOM 6 O OG . SER Qxp Q 1 ? -0.150 -13.311 -7.720 1 47.19 ? 633 Q 1
 ATOM 7 N N . SER Qxp Q 2 ? -0.791171058 -15.4683736 -4.16694014 1 46.76 ? 634 Q 1
 ATOM 8 C CA . SER Qxp Q 2 ? -0.78780308 -16.3694669 -3.02567521 1 45.26 ? 634 Q 1
 ATOM 9 C C . SER Qxp Q 2 ? -0.507064002 -15.6810439 -1.69492567 1 40.88 ? 634 Q 1
@@ -136,6 +136,7 @@ ATOM 65 C CB . ASP Qxp Q 10 ? -8.21093752 -5.58634128 -2.7595438 1 26.35 ? 642 Q
 ATOM 66 C CG . ASP Qxp Q 10 ? -8.19708602 -6.64199667 -1.69370853 1 25.27 ? 642 Q 1
 ATOM 67 O OD1 . ASP Qxp Q 10 ? -7.13305785 -7.24723372 -1.47164058 1 24.89 ? 642 Q 1
 ATOM 68 O OD2 . ASP Qxp Q 10 ? -9.24023938 -6.81795067 -1.03793322 1 26.34 ? 642 Q 1
+ATOM 69 O OXT . ASP Qxp Q 10 ? -7.471 -2.304 -3.543 1 25.62 ? 642 Q 1
 
 loop_
 _chem_comp_bond.comp_id
@@ -277,3 +278,77 @@ covale6 covale Q VAL 641 C Q ASP 642 N 1.330
 covale7 covale Q SER 634 C Q THR 635 N 1.337
 covale8 covale Q SER 637 C Q ILE 638 N 1.339
 covale9 covale Q MET 640 C Q VAL 641 N 1.345
+
+loop_
+_bmi_atom_origin.atom_site_id
+_bmi_atom_origin.origin
+_bmi_atom_origin.deposited_atom_site_id
+1 deposited 1
+2 deposited 2
+3 deposited 3
+4 deposited 4
+5 deposited 5
+6 rebuilt .
+7 deposited 6
+8 deposited 7
+9 deposited 8
+10 deposited 9
+11 deposited 10
+12 deposited 11
+13 deposited 12
+14 deposited 13
+15 deposited 14
+16 deposited 15
+17 deposited 16
+18 deposited 17
+19 deposited 18
+20 deposited 19
+21 deposited 20
+22 deposited 21
+23 deposited 22
+24 deposited 23
+25 deposited 24
+26 deposited 25
+27 deposited 26
+28 deposited 27
+29 deposited 28
+30 deposited 29
+31 deposited 30
+32 deposited 31
+33 deposited 32
+34 deposited 33
+35 deposited 34
+36 deposited 35
+37 deposited 36
+38 deposited 37
+39 deposited 38
+40 deposited 39
+41 deposited 40
+42 deposited 41
+43 deposited 42
+44 deposited 43
+45 deposited 44
+46 deposited 45
+47 deposited 46
+48 deposited 47
+49 deposited 48
+50 deposited 49
+51 deposited 50
+52 deposited 51
+53 deposited 52
+54 deposited 53
+55 deposited 54
+56 deposited 55
+57 deposited 56
+58 deposited 57
+59 deposited 58
+60 deposited 59
+61 deposited 60
+62 deposited 61
+63 deposited 62
+64 deposited 63
+65 deposited 64
+66 deposited 65
+67 deposited 66
+68 deposited 67
+69 oxt .

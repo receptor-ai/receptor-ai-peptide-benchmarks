@@ -252,24 +252,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 466975,
-    "file": "complex.cif",
-    "n_chains": 5,
-    "n_struct_conn": 11,
-    "subchains_kept": [
-     "A",
-     "B",
-     "C",
-     "D",
-     "E"
-    ]
-   },
    "peptide.cif": {
     "bytes": 8789,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 1,
+    "n_struct_conn": 9,
     "subchains_kept": [
      "C"
     ]
@@ -1027,9 +1014,8 @@
    "total_heavy_before": 6757
   },
   "files": {
-   "complex.cif": "strict",
    "peptide.cif": "unchanged",
-   "receptor.cif": "strict (rewritten so that peptide.cif + receptor.cif still partition complex.cif)"
+   "receptor.cif": "rewritten strictly"
   },
   "ion_rule": "monatomic stays, polyatomic goes: CL/NA/K/ZN/CA/MG/... kept, SO4/PO4/NO3/NH4 removed. A monatomic ion is also never a covalent bridge, so it cannot make a component it coordinates peptide-integral - SPEC sec.7 rule 4, coordination is not a covalent bond",
   "n_struct_conn_after": 11,
@@ -1045,5 +1031,77 @@
    "checks_failed": [],
    "ok": true
   }
- }
+ },
+ "derived": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "N:ACE(stand-in)",
+  "added_residues": [
+   {
+    "residue": "P/ACE/2",
+    "label_asym": "Px1",
+    "entity": "ACE!",
+    "entity_type": "non-polymer",
+    "label_seq": ".",
+    "group": "HETATM",
+    "anchor": "before P/VAL/3"
+   }
+  ],
+  "added_atoms": [
+   {
+    "atom": "P/ACE/2/C",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     69.74,
+     23.874,
+     155.564
+    ],
+    "b": 24.81
+   },
+   {
+    "atom": "P/ACE/2/O",
+    "element": "O",
+    "origin": "stand_in_cap",
+    "xyz": [
+     68.842,
+     24.699,
+     155.405
+    ],
+    "b": 24.81
+   },
+   {
+    "atom": "P/ACE/2/CH3",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     70.867,
+     24.132,
+     156.535
+    ],
+    "b": 24.81
+   }
+  ],
+  "added_links": [
+   {
+    "type": "covale",
+    "atom1": "P/ACE/2/C",
+    "atom2": "P/VAL/3/N"
+   }
+  ],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 3.55,
+    "min_receptor_contact_A": 4.59,
+    "junction_bonds_A": [
+     1.34
+    ]
+   }
+  }
+ },
+ "receptor_links": []
 }

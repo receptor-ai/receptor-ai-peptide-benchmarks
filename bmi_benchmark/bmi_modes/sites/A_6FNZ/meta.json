@@ -98,5 +98,53 @@
  "seq": "PESSEG",
  "site_id": "A_6FNZ",
  "site_type": "one_deposition",
- "uniprot": "O43602"
+ "uniprot": "O43602",
+ "derived__pose_01": {
+  "files": [
+   "pose_01_fixed.cif",
+   "pose_01_fixed.sdf",
+   "pose_01_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "-",
+  "added_residues": [],
+  "added_atoms": [],
+  "added_links": []
+ },
+ "derived__pose_02": {
+  "files": [
+   "pose_02_fixed.cif",
+   "pose_02_fixed.sdf",
+   "pose_02_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "-",
+  "added_residues": [],
+  "added_atoms": [],
+  "added_links": []
+ },
+ "derived__pose_03": {
+  "files": [
+   "pose_03_fixed.cif",
+   "pose_03_fixed.sdf",
+   "pose_03_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "-",
+  "added_residues": [],
+  "added_atoms": [],
+  "added_links": []
+ },
+ "derived__pose_04": {
+  "files": [
+   "pose_04_fixed.cif",
+   "pose_04_fixed.sdf",
+   "pose_04_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "-",
+  "added_residues": [],
+  "added_atoms": [],
+  "added_links": []
+ },
+ "receptor_links__pose_01": [],
+ "receptor_links__pose_02": [],
+ "receptor_links__pose_03": [],
+ "receptor_links__pose_04": []
 }

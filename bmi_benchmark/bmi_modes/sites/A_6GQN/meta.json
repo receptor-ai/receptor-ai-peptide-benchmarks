@@ -112,80 +112,252 @@
    "kind": "sidechain_truncated"
   }
  ],
- "fixed_geometry__pose_01": {
+ "derived__pose_01": {
   "files": [
    "pose_01_fixed.cif",
-   "pose_01_fixed.sdf"
+   "pose_01_fixed.sdf",
+   "pose_01_fixed_protonated.sdf"
   ],
-  "n_rebuilt": 3,
-  "rebuilt_atoms": [
+  "terminal_completion": "C:OXT",
+  "added_residues": [],
+  "added_atoms": [
    {
-    "comp": "THR",
-    "seqid": 27,
-    "atom": "CB",
-    "element": "C"
+    "atom": "P/THR/27/CB",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     2.05,
+     0.334,
+     7.128
+    ],
+    "b": 41.63
    },
    {
-    "comp": "THR",
-    "seqid": 27,
-    "atom": "CG2",
-    "element": "C"
+    "atom": "P/THR/27/OG1",
+    "element": "O",
+    "origin": "rebuilt",
+    "xyz": [
+     3.198,
+     0.416,
+     6.279
+    ],
+    "b": 41.63
    },
    {
-    "comp": "THR",
-    "seqid": 27,
-    "atom": "OG1",
-    "element": "O"
+    "atom": "P/THR/27/CG2",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     1.932,
+     -1.105,
+     7.696
+    ],
+    "b": 41.63
+   },
+   {
+    "atom": "P/ALA/40/OXT",
+    "element": "O",
+    "origin": "oxt",
+    "xyz": [
+     -8.1,
+     -11.574,
+     -0.993
+    ],
+    "b": 30.19
    }
   ],
-  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
-  "forcefield": "GAFF2 (antechamber gasteiger charges)"
+  "added_links": [],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 4.12,
+    "min_receptor_contact_A": 3.88,
+    "junction_bonds_A": []
+   }
+  },
+  "rebuild": {
+   "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+   "forcefield": "GAFF2 (antechamber gasteiger charges)",
+   "receptor_wall": "receptor heavy atoms within 8 A of the peptide, frozen, Lennard-Jones only",
+   "gaff2_energy_kJ_mol": {
+    "before": 895.7,
+    "after": 568.9
+   },
+   "qc": {
+    "min_intra_peptide_contact_A": 2.89,
+    "min_receptor_contact_A": 3.58,
+    "ccd_stereocentres_checked": 2,
+    "ccd_chirality_mismatches": 0,
+    "deposited_atoms_max_shift_A": 0.0
+   },
+   "frozen": "every deposited atom and every terminal atom"
+  }
  },
- "fixed_geometry__pose_02": {
+ "derived__pose_02": {
   "files": [
    "pose_02_fixed.cif",
-   "pose_02_fixed.sdf"
+   "pose_02_fixed.sdf",
+   "pose_02_fixed_protonated.sdf"
   ],
-  "n_rebuilt": 6,
-  "rebuilt_atoms": [
+  "terminal_completion": "N:ACE(stand-in);C:OXT",
+  "added_residues": [
    {
-    "comp": "ARG",
-    "seqid": 30,
-    "atom": "CD",
-    "element": "C"
-   },
-   {
-    "comp": "ARG",
-    "seqid": 30,
-    "atom": "CG",
-    "element": "C"
-   },
-   {
-    "comp": "ARG",
-    "seqid": 30,
-    "atom": "CZ",
-    "element": "C"
-   },
-   {
-    "comp": "ARG",
-    "seqid": 30,
-    "atom": "NE",
-    "element": "N"
-   },
-   {
-    "comp": "ARG",
-    "seqid": 30,
-    "atom": "NH1",
-    "element": "N"
-   },
-   {
-    "comp": "ARG",
-    "seqid": 30,
-    "atom": "NH2",
-    "element": "N"
+    "residue": "Q/ACE/27",
+    "label_asym": "Qx1",
+    "entity": "ACE!",
+    "entity_type": "non-polymer",
+    "label_seq": ".",
+    "group": "HETATM",
+    "anchor": "before Q/ILE/28"
    }
   ],
-  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
-  "forcefield": "GAFF2 (antechamber gasteiger charges)"
- }
+  "added_atoms": [
+   {
+    "atom": "Q/ACE/27/C",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     0.538,
+     0.649,
+     0.204
+    ],
+    "b": 41.06
+   },
+   {
+    "atom": "Q/ACE/27/O",
+    "element": "O",
+    "origin": "stand_in_cap",
+    "xyz": [
+     0.176,
+     -0.281,
+     -0.514
+    ],
+    "b": 41.06
+   },
+   {
+    "atom": "Q/ACE/27/CH3",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     -0.407,
+     1.774,
+     0.552
+    ],
+    "b": 41.06
+   },
+   {
+    "atom": "Q/ARG/30/CG",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     0.791,
+     2.787,
+     5.588
+    ],
+    "b": 49.74
+   },
+   {
+    "atom": "Q/ARG/30/CD",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     0.558,
+     4.133,
+     6.304
+    ],
+    "b": 49.74
+   },
+   {
+    "atom": "Q/ARG/30/NE",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     1.78,
+     4.594,
+     6.974
+    ],
+    "b": 49.74
+   },
+   {
+    "atom": "Q/ARG/30/CZ",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     1.897,
+     5.779,
+     7.687
+    ],
+    "b": 49.74
+   },
+   {
+    "atom": "Q/ARG/30/NH1",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     3.168,
+     5.907,
+     8.214
+    ],
+    "b": 49.74
+   },
+   {
+    "atom": "Q/ARG/30/NH2",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     0.932,
+     6.607,
+     7.812
+    ],
+    "b": 49.74
+   },
+   {
+    "atom": "Q/ALA/40/OXT",
+    "element": "O",
+    "origin": "oxt",
+    "xyz": [
+     -13.152,
+     -2.006,
+     -12.628
+    ],
+    "b": 28.96
+   }
+  ],
+  "added_links": [
+   {
+    "type": "covale",
+    "atom1": "Q/ACE/27/C",
+    "atom2": "Q/ILE/28/N"
+   }
+  ],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 3.35,
+    "min_receptor_contact_A": 6.87,
+    "junction_bonds_A": [
+     1.34
+    ]
+   }
+  },
+  "rebuild": {
+   "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+   "forcefield": "GAFF2 (antechamber gasteiger charges)",
+   "receptor_wall": "receptor heavy atoms within 8 A of the peptide, frozen, Lennard-Jones only",
+   "gaff2_energy_kJ_mol": {
+    "before": 939.6,
+    "after": 630.3
+   },
+   "qc": {
+    "min_intra_peptide_contact_A": 3.13,
+    "min_receptor_contact_A": 6.93,
+    "ccd_stereocentres_checked": 0,
+    "ccd_chirality_mismatches": 0,
+    "deposited_atoms_max_shift_A": 0.0
+   },
+   "frozen": "every deposited atom and every terminal atom"
+  }
+ },
+ "receptor_links__pose_01": [],
+ "receptor_links__pose_02": []
 }

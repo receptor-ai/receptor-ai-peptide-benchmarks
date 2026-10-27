@@ -902,23 +902,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 262742,
-    "file": "complex.cif",
-    "n_chains": 4,
-    "n_struct_conn": 1,
-    "subchains_kept": [
-     "E",
-     "A",
-     "B",
-     "D"
-    ]
-   },
    "peptide.cif": {
     "bytes": 13420,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 1,
+    "n_struct_conn": 13,
     "subchains_kept": [
      "E"
     ]
@@ -1943,12 +1931,6 @@
    "trailing_newline": true
   },
   "files": {
-   "complex.cif": {
-    "bytes": 262742,
-    "n_chains": 4,
-    "n_struct_conn": 1,
-    "role": "strict primary"
-   },
    "peptide.cif": {
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
@@ -2137,5 +2119,77 @@
    }
   ],
   "utc": "2026-08-03T16:47:02Z"
- }
+ },
+ "derived": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "N:ACE(stand-in)",
+  "added_residues": [
+   {
+    "residue": "E/ACE/2",
+    "label_asym": "Ex1",
+    "entity": "ACE!",
+    "entity_type": "non-polymer",
+    "label_seq": ".",
+    "group": "HETATM",
+    "anchor": "before E/HIS/3"
+   }
+  ],
+  "added_atoms": [
+   {
+    "atom": "E/ACE/2/C",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     -26.34,
+     -24.87,
+     38.652
+    ],
+    "b": 53.63
+   },
+   {
+    "atom": "E/ACE/2/O",
+    "element": "O",
+    "origin": "stand_in_cap",
+    "xyz": [
+     -26.41,
+     -24.093,
+     39.603
+    ],
+    "b": 53.63
+   },
+   {
+    "atom": "E/ACE/2/CH3",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     -26.636,
+     -26.34,
+     38.828
+    ],
+    "b": 53.63
+   }
+  ],
+  "added_links": [
+   {
+    "type": "covale",
+    "atom1": "E/ACE/2/C",
+    "atom2": "E/HIS/3/N"
+   }
+  ],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 3.65,
+    "min_receptor_contact_A": 6.36,
+    "junction_bonds_A": [
+     1.34
+    ]
+   }
+  }
+ },
+ "receptor_links": []
 }

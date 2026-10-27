@@ -1,4 +1,4 @@
-
+entries/6EM7/peptide_fixed
      RDKit          3D
 
 146148  0  0  0  0  0  0  0  0999 V2000
@@ -147,39 +147,44 @@
    -6.7940  -29.2060   28.2940 O   0  0  0  0  0  0  0  0  0  0  0  0
    -7.5950  -28.6530   30.6970 O   0  0  0  0  0  0  0  0  0  0  0  0
    -6.0900  -26.5890   29.2820 O   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.5413  -30.5916   30.4022 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5260  -30.5860   30.4260 O   0  0  0  0  0  0  0  0  0  0  0  0
   2  1  1  1
   2  3  1  0
   2  5  1  0
   3  4  2  0
+  3  8  1  0
   5  6  1  0
   5  7  1  1
   9  8  1  6
   9 10  1  0
   9 12  1  0
  10 11  2  0
+ 10 15  1  0
  12 13  1  0
  12 14  1  1
  15 16  1  0
  16 17  1  0
  16 19  1  6
  17 18  2  0
+ 17 27  1  0
  19 20  1  0
- 20 21  1  0
- 20 22  2  0
- 21 23  2  0
- 22 24  1  0
- 23 25  1  0
- 24 25  2  0
+ 20 21  2  0
+ 20 22  1  0
+ 21 23  1  0
+ 22 24  2  0
+ 23 25  2  0
+ 24 25  1  0
  25 26  1  0
  27 28  1  0
  28 29  1  0
  28 31  1  6
  29 30  2  0
+ 29 32  1  0
  32 33  1  0
  33 34  1  0
  33 36  1  6
  34 35  2  0
+ 34 40  1  0
  36 37  1  0
  37 38  2  0
  37 39  1  0
@@ -187,6 +192,7 @@
  41 42  1  0
  41 44  1  6
  42 43  2  0
+ 42 51  1  0
  44 45  1  0
  45 46  2  0
  45 47  1  0
@@ -198,6 +204,7 @@
  52 53  1  0
  52 55  1  0
  53 54  2  0
+ 53 59  1  0
  55 56  1  0
  55 57  1  1
  56 58  1  0
@@ -205,18 +212,22 @@
  60 61  1  0
  60 63  1  6
  61 62  2  0
+ 61 64  1  0
  64 65  1  0
  65 66  1  0
  65 68  1  6
  66 67  2  0
+ 66 70  1  0
  68 69  1  0
  70 71  1  0
  71 72  1  0
  72 73  2  0
+ 72 74  1  0
  74 75  1  0
  75 76  1  0
  75 78  1  6
  76 77  2  0
+ 76 85  1  0
  78 79  1  0
  79 80  1  0
  80 81  1  0
@@ -227,15 +238,18 @@
  86 87  1  0
  86 89  1  0
  87 88  2  0
+ 87 92  1  0
  89 90  1  0
  89 91  1  1
  92 93  1  0
  93 94  1  0
  94 95  2  0
+ 94 96  1  0
  96 97  1  0
  97 98  1  0
  97100  1  1
  98 99  2  0
+ 98107  1  0
 100101  1  0
 101102  1  0
 102103  1  0
@@ -246,6 +260,7 @@
 108109  1  0
 108111  1  6
 109110  2  0
+109118  1  0
 111112  1  0
 112113  1  0
 113114  1  0
@@ -256,11 +271,14 @@
 119120  1  0
 119122  1  1
 120121  2  0
+120124  1  0
 122123  1  0
+138123  1  1
 124125  1  0
 125126  1  0
 125128  1  1
 126127  2  0
+126129  1  0
 130129  1  6
 130131  1  0
 130133  1  0
@@ -278,24 +296,28 @@
 141142  1  0
 141144  1  6
 142145  1  0
- 66 70  1  0
- 72 74  1  0
- 53 59  1  0
- 94 96  1  0
-126129  1  0
-120124  1  0
-109118  1  0
- 98107  1  0
- 61 64  1  0
- 17 27  1  0
-  3  8  1  0
- 10 15  1  0
- 29 32  1  0
- 34 40  1  0
- 42 51  1  0
- 76 85  1  0
- 87 92  1  0
-138123  1  1
-M  CHG  3  84   1 106   1 117   1
 M  END
+>  <atom.prop.label>  (1) 
+D/THR/6/N D/THR/6/CA D/THR/6/C D/THR/6/O D/THR/6/CB D/THR/6/OG1 D/THR/6/CG2 D/THR/7/N D/THR/7/CA D/THR/7/C D/THR/7/O D/THR/7/CB D/THR/7/OG1 D/THR/7/CG2 D/TYR/8/N D/TYR/8/CA D/TYR/8/C
+D/TYR/8/O D/TYR/8/CB D/TYR/8/CG D/TYR/8/CD1 D/TYR/8/CD2 D/TYR/8/CE1 D/TYR/8/CE2 D/TYR/8/CZ D/TYR/8/OH D/ALA/9/N D/ALA/9/CA D/ALA/9/C D/ALA/9/O D/ALA/9/CB D/ASP/10/N D/ASP/10/CA D/ASP/10/C
+D/ASP/10/O D/ASP/10/CB D/ASP/10/CG D/ASP/10/OD1 D/ASP/10/OD2 D/PHE/11/N D/PHE/11/CA D/PHE/11/C D/PHE/11/O D/PHE/11/CB D/PHE/11/CG D/PHE/11/CD1 D/PHE/11/CD2 D/PHE/11/CE1 D/PHE/11/CE2
+D/PHE/11/CZ D/ILE/12/N D/ILE/12/CA D/ILE/12/C D/ILE/12/O D/ILE/12/CB D/ILE/12/CG1 D/ILE/12/CG2 D/ILE/12/CD1 D/ALA/13/N D/ALA/13/CA D/ALA/13/C D/ALA/13/O D/ALA/13/CB D/SER/14/N D/SER/14/CA
+D/SER/14/C D/SER/14/O D/SER/14/CB D/SER/14/OG D/GLY/15/N D/GLY/15/CA D/GLY/15/C D/GLY/15/O D/ARG/16/N D/ARG/16/CA D/ARG/16/C D/ARG/16/O D/ARG/16/CB D/ARG/16/CG D/ARG/16/CD D/ARG/16/NE
+D/ARG/16/CZ D/ARG/16/NH1 D/ARG/16/NH2 D/THR/17/N D/THR/17/CA D/THR/17/C D/THR/17/O D/THR/17/CB D/THR/17/OG1 D/THR/17/CG2 D/GLY/18/N D/GLY/18/CA D/GLY/18/C D/GLY/18/O D/ARG/19/N D/ARG/19/CA
+D/ARG/19/C D/ARG/19/O D/ARG/19/CB D/ARG/19/CG D/ARG/19/CD D/ARG/19/NE D/ARG/19/CZ D/ARG/19/NH1 D/ARG/19/NH2 D/ARG/20/N D/ARG/20/CA D/ARG/20/C D/ARG/20/O D/ARG/20/CB D/ARG/20/CG D/ARG/20/CD
+D/ARG/20/NE D/ARG/20/CZ D/ARG/20/NH1 D/ARG/20/NH2 D/SER/21/N D/SER/21/CA D/SER/21/C D/SER/21/O D/SER/21/CB D/SER/21/OG D/ALA/22/N D/ALA/22/CA D/ALA/22/C D/ALA/22/O D/ALA/22/CB D/ILE/23/N
+D/ILE/23/CA D/ILE/23/C D/ILE/23/O D/ILE/23/CB D/ILE/23/CG1 D/ILE/23/CG2 D/ILE/23/CD1 D/ILE/23/OXT D/RIP/101/C1 D/RIP/101/C2 D/RIP/101/C3 D/RIP/101/C4 D/RIP/101/C5 D/RIP/101/O2 D/RIP/101/O4
+D/RIP/101/O5 D/RIP/101/O3
+
+>  <atom.prop.origin>  (1) 
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited rebuilt
+
 $$$$

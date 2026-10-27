@@ -1,7 +1,10 @@
-
+entries/3PLU/peptide_fixed
      RDKit          3D
 
-146146  0  0  0  0  0  0  0  0999 V2000
+149149  0  0  0  0  0  0  0  0999 V2000
+  -26.7730   22.6500   16.6150 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -27.2110   23.7130   17.0540 O   0  0  0  0  0  0  0  0  0  0  0  0
+  -27.0760   21.3420   17.3060 C   0  0  0  0  0  0  0  0  0  0  0  0
   -26.0100   22.5760   15.5160 N   0  0  0  0  0  0  0  0  0  0  0  0
   -25.6350   23.7920   14.7390 C   0  0  2  0  0  0  0  0  0  0  0  0
   -26.1490   23.6810   13.3200 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -99,10 +102,10 @@
   -10.6440   27.9510   11.0270 C   0  0  0  0  0  0  0  0  0  0  0  0
    -9.5060   28.3580   11.2700 O   0  0  0  0  0  0  0  0  0  0  0  0
   -12.5330   29.1230   12.1910 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -14.1086   30.8774   13.4079 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -15.5166   31.5036   13.4421 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -13.9300   29.7990   12.2880 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -15.6255   32.6173   14.4377 N   0  0  0  0  0  0  0  0  0  0  0  0
+  -13.4110   30.3950   12.2330 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -14.3480   30.4410   13.4580 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -15.1950   31.7270   13.5110 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -16.1170   31.7160   14.6530 N   0  0  0  0  0  0  0  0  0  0  0  0
   -10.9390   26.6610   10.8860 N   0  0  0  0  0  0  0  0  0  0  0  0
    -9.9400   25.6080   11.0220 C   0  0  2  0  0  0  0  0  0  0  0  0
    -9.1530   25.3420    9.7430 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -128,10 +131,10 @@
   -14.2670   22.5760    3.5730 C   0  0  0  0  0  0  0  0  0  0  0  0
   -14.6390   21.9530    4.5700 O   0  0  0  0  0  0  0  0  0  0  0  0
   -12.7250   21.1900    2.2000 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -11.2411   20.0068    0.4036 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -9.8821   20.0475   -0.3368 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -11.3504   21.1171    1.4766 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -9.7658   19.0299   -1.4308 N   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.3190   20.9380    1.6060 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.2680   19.6730    0.7210 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.8670   19.4060    0.1370 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.8530   18.1940   -0.6910 N   0  0  0  0  0  0  0  0  0  0  0  0
   -15.0770   23.4030    2.8940 N   0  0  0  0  0  0  0  0  0  0  0  0
   -16.4750   23.5530    3.2940 C   0  0  2  0  0  0  0  0  0  0  0  0
   -17.2960   22.3180    2.9570 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -148,152 +151,177 @@
   -21.6620   20.2550    4.0810 C   0  0  0  0  0  0  0  0  0  0  0  0
   -20.5260   20.4950    7.0890 C   0  0  0  0  0  0  0  0  0  0  0  0
   -20.4200   20.8020    1.2670 O   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  1
-  2  3  1  0
-  2  5  1  0
-  3  4  2  0
+  1  2  2  0
+  1  3  1  0
+  1  4  1  0
+  4  5  1  0
   5  6  1  0
-  6  7  1  0
-  6  8  1  0
+  5  8  1  6
+  6  7  2  0
+  6 12  1  0
+  8  9  1  0
   9 10  1  0
- 10 11  1  0
- 10 13  1  6
- 11 12  2  0
+  9 11  1  0
+ 12 13  1  0
  13 14  1  0
- 16 15  1  1
+ 13 16  1  6
+ 14 15  2  0
+ 14 18  1  0
  16 17  1  0
- 16 19  1  0
- 17 18  2  0
+ 19 18  1  1
  19 20  1  0
- 19 21  1  6
- 20 22  1  0
- 23 24  1  0
- 24 25  1  0
- 24 27  1  1
- 25 26  2  0
+ 19 22  1  0
+ 20 21  2  0
+ 20 26  1  0
+ 22 23  1  0
+ 22 24  1  6
+ 23 25  1  0
+ 26 27  1  0
  27 28  1  0
- 28 29  1  0
- 29 30  2  0
- 29 31  1  0
- 32 33  1  0
- 33 34  1  0
- 33 36  1  1
- 34 35  2  0
+ 27 30  1  1
+ 28 29  2  0
+ 28 35  1  0
+ 30 31  1  0
+ 31 32  1  0
+ 32 33  2  0
+ 32 34  1  0
+ 35 36  1  0
  36 37  1  0
- 37 38  1  0
- 38 39  2  0
- 38 40  1  0
- 42 41  1  6
- 42 43  1  0
- 42 45  1  0
- 43 44  2  0
+ 36 39  1  1
+ 37 38  2  0
+ 37 44  1  0
+ 39 40  1  0
+ 40 41  1  0
+ 41 42  2  0
+ 41 43  1  0
+ 45 44  1  6
  45 46  1  0
- 45 47  1  1
+ 45 48  1  0
+ 46 47  2  0
+ 46 51  1  0
  48 49  1  0
- 49 50  1  0
- 49 52  1  6
- 50 51  2  0
+ 48 50  1  1
+ 51 52  1  0
  52 53  1  0
+ 52 55  1  6
  53 54  2  0
- 53 55  1  0
- 56 57  1  0
- 57 58  1  0
- 57 60  1  1
- 58 59  2  0
+ 53 59  1  0
+ 55 56  1  0
+ 56 57  2  0
+ 56 58  1  0
+ 59 60  1  0
  60 61  1  0
- 61 62  1  0
- 62 63  2  0
- 62 64  1  0
- 66 65  1  6
- 66 67  1  0
- 66 69  1  0
- 67 68  2  0
+ 60 63  1  1
+ 61 62  2  0
+ 61 68  1  0
+ 63 64  1  0
+ 64 65  1  0
+ 65 66  2  0
+ 65 67  1  0
+ 69 68  1  6
  69 70  1  0
- 69 71  1  1
- 70 72  1  0
- 73 74  1  0
- 74 75  1  0
- 74 77  1  6
- 75 76  2  0
+ 69 72  1  0
+ 70 71  2  0
+ 70 76  1  0
+ 72 73  1  0
+ 72 74  1  1
+ 73 75  1  0
+ 76 77  1  0
  77 78  1  0
- 78 79  1  0
- 79 80  1  0
+ 77 80  1  6
+ 78 79  2  0
+ 78 87  1  0
  80 81  1  0
  81 82  1  0
- 81 83  2  0
+ 82 83  1  0
+ 83 84  1  0
  84 85  1  0
- 85 86  1  0
- 85 88  1  1
- 86 87  2  0
+ 84 86  2  0
+ 87 88  1  0
  88 89  1  0
- 89 90  1  0
- 90 91  2  0
- 90 92  1  0
- 93 94  1  0
- 94 95  1  0
- 94 97  1  1
- 95 96  2  0
- 97100  1  0
- 98100  1  0
- 98 99  1  0
- 99101  1  0
+ 88 91  1  1
+ 89 90  2  0
+ 89 96  1  0
+ 91 92  1  0
+ 92 93  1  0
+ 93 94  2  0
+ 93 95  1  0
+ 96 97  1  0
+ 97 98  1  0
+ 97100  1  1
+ 98 99  2  0
+ 98105  1  0
+100101  1  0
+101102  1  0
 102103  1  0
 103104  1  0
-103106  1  6
-104105  2  0
+105106  1  0
 106107  1  0
-107108  1  0
-107109  1  0
+106109  1  6
+107108  2  0
+107113  1  0
+109110  1  0
 110111  1  0
-111112  1  0
-112113  2  0
+110112  1  0
+113114  1  0
 114115  1  0
-115116  1  0
-115118  1  1
-116117  2  0
+115116  2  0
+115117  1  0
+117118  1  0
 118119  1  0
-119120  1  0
-120121  1  0
+118121  1  1
+119120  2  0
+119125  1  0
+121122  1  0
 122123  1  0
 123124  1  0
-123126  1  6
-124125  2  0
-126129  1  0
-127129  1  0
-127128  1  0
-128130  1  0
+125126  1  0
+126127  1  0
+126129  1  6
+127128  2  0
+127134  1  0
+129130  1  0
+130131  1  0
 131132  1  0
-131137  1  0
-132133  1  6
-132135  1  0
-133134  2  0
-135136  1  0
-136137  1  0
-139138  1  1
+132133  1  0
+134135  1  0
+134140  1  0
+135136  1  6
+135138  1  0
+136137  2  0
+136141  1  0
+138139  1  0
 139140  1  0
-139142  1  0
-140141  2  0
-140146  1  0
+142141  1  1
 142143  1  0
-142144  1  6
-143145  1  0
- 11 15  1  0
-  3  9  1  0
- 50 56  1  0
- 17 23  1  0
- 67 73  1  0
- 95102  1  0
-116122  1  0
-104110  1  0
- 86 93  1  0
- 34 41  1  0
-133138  1  0
- 43 48  1  0
- 25 32  1  0
- 75 84  1  0
-112114  1  0
- 58 65  1  0
-124131  1  0
-M  CHG  3  83   1 101   1 130   1
+142145  1  0
+143144  2  0
+143149  1  0
+145146  1  0
+145147  1  6
+146148  1  0
 M  END
+>  <atom.prop.label>  (1) 
+D/ACE/6/C D/ACE/6/O D/ACE/6/CH3 D/LEU/7/N D/LEU/7/CA D/LEU/7/C D/LEU/7/O D/LEU/7/CB D/LEU/7/CG D/LEU/7/CD1 D/LEU/7/CD2 D/SER/8/N D/SER/8/CA D/SER/8/C D/SER/8/O D/SER/8/CB D/SER/8/OG
+D/ILE/9/N D/ILE/9/CA D/ILE/9/C D/ILE/9/O D/ILE/9/CB D/ILE/9/CG1 D/ILE/9/CG2 D/ILE/9/CD1 D/GLU/10/N D/GLU/10/CA D/GLU/10/C D/GLU/10/O D/GLU/10/CB D/GLU/10/CG D/GLU/10/CD D/GLU/10/OE1
+D/GLU/10/OE2 D/GLU/11/N D/GLU/11/CA D/GLU/11/C D/GLU/11/O D/GLU/11/CB D/GLU/11/CG D/GLU/11/CD D/GLU/11/OE1 D/GLU/11/OE2 D/THR/12/N D/THR/12/CA D/THR/12/C D/THR/12/O D/THR/12/CB
+D/THR/12/OG1 D/THR/12/CG2 D/ASN/13/N D/ASN/13/CA D/ASN/13/C D/ASN/13/O D/ASN/13/CB D/ASN/13/CG D/ASN/13/OD1 D/ASN/13/ND2 D/GLU/14/N D/GLU/14/CA D/GLU/14/C D/GLU/14/O D/GLU/14/CB
+D/GLU/14/CG D/GLU/14/CD D/GLU/14/OE1 D/GLU/14/OE2 D/ILE/15/N D/ILE/15/CA D/ILE/15/C D/ILE/15/O D/ILE/15/CB D/ILE/15/CG1 D/ILE/15/CG2 D/ILE/15/CD1 D/ARG/16/N D/ARG/16/CA D/ARG/16/C
+D/ARG/16/O D/ARG/16/CB D/ARG/16/CG D/ARG/16/CD D/ARG/16/NE D/ARG/16/CZ D/ARG/16/NH1 D/ARG/16/NH2 D/GLU/17/N D/GLU/17/CA D/GLU/17/C D/GLU/17/O D/GLU/17/CB D/GLU/17/CG D/GLU/17/CD
+D/GLU/17/OE1 D/GLU/17/OE2 D/LYS/18/N D/LYS/18/CA D/LYS/18/C D/LYS/18/O D/LYS/18/CB D/LYS/18/CG D/LYS/18/CD D/LYS/18/CE D/LYS/18/NZ D/LEU/19/N D/LEU/19/CA D/LEU/19/C D/LEU/19/O D/LEU/19/CB
+D/LEU/19/CG D/LEU/19/CD1 D/LEU/19/CD2 D/GLY/20/N D/GLY/20/CA D/GLY/20/C D/GLY/20/O D/MET/21/N D/MET/21/CA D/MET/21/C D/MET/21/O D/MET/21/CB D/MET/21/CG D/MET/21/SD D/MET/21/CE D/LYS/22/N
+D/LYS/22/CA D/LYS/22/C D/LYS/22/O D/LYS/22/CB D/LYS/22/CG D/LYS/22/CD D/LYS/22/CE D/LYS/22/NZ D/PRO/23/N D/PRO/23/CA D/PRO/23/C D/PRO/23/O D/PRO/23/CB D/PRO/23/CG D/PRO/23/CD D/ILE/24/N
+D/ILE/24/CA D/ILE/24/C D/ILE/24/O D/ILE/24/CB D/ILE/24/CG1 D/ILE/24/CG2 D/ILE/24/CD1 D/ILE/24/OXT
+
+>  <atom.prop.origin>  (1) 
+stand_in_cap stand_in_cap stand_in_cap deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited rebuilt rebuilt rebuilt rebuilt deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited rebuilt rebuilt rebuilt rebuilt deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited
+
 $$$$

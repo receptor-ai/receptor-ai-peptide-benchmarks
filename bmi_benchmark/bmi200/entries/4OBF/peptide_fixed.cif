@@ -36,9 +36,6 @@ LEU .
 PHE .
 PRO .
 
-_struct.entry_id 4OBF
-_struct.title '4OBF: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
-
 loop_
 _struct_asym.id
 _struct_asym.entity_id
@@ -75,12 +72,12 @@ ATOM 2 C CA . ARG E E 1 ? -4.522 -19.579 -3.09 1 31.72 ? 1 E 1
 ATOM 3 C C . ARG E E 1 ? -5.27 -18.407 -2.472 1 31.03 ? 1 E 1
 ATOM 4 O O . ARG E E 1 ? -6.415 -18.16 -2.836 1 28.6 ? 1 E 1
 ATOM 5 C CB . ARG E E 1 ? -3.813 -19.125 -4.38 1 33.65 ? 1 E 1
-ATOM 6 C CD . ARG E E 1 ? -3.99465267 -18.2027222 -6.79499535 1 31.74 ? 1 E 1
-ATOM 7 C CG . ARG E E 1 ? -4.74895795 -18.7342399 -5.5584816 1 31.74 ? 1 E 1
-ATOM 8 C CZ . ARG E E 1 ? -2.47640614 -19.1855943 -8.56522546 1 31.74 ? 1 E 1
-ATOM 9 N NE . ARG E E 1 ? -3.24263141 -19.2767058 -7.46585073 1 31.74 ? 1 E 1
-ATOM 10 N NH1 . ARG E E 1 ? -1.88751273 -20.2815136 -9.05784217 1 31.74 ? 1 E 1
-ATOM 11 N NH2 . ARG E E 1 ? -2.28838111 -18.0125213 -9.18438318 1 31.74 ? 1 E 1
+ATOM 6 C CG . ARG E E 1 ? -4.692 -18.430 -5.458 1 31.74 ? 1 E 1
+ATOM 7 C CD . ARG E E 1 ? -3.887 -17.921 -6.672 1 31.74 ? 1 E 1
+ATOM 8 N NE . ARG E E 1 ? -3.320 -19.030 -7.446 1 31.74 ? 1 E 1
+ATOM 9 C CZ . ARG E E 1 ? -2.490 -18.884 -8.549 1 31.74 ? 1 E 1
+ATOM 10 N NH1 . ARG E E 1 ? -2.139 -20.119 -9.061 1 31.74 ? 1 E 1
+ATOM 11 N NH2 . ARG E E 1 ? -2.126 -17.742 -8.993 1 31.74 ? 1 E 1
 ATOM 12 N N . PRO E E 2 ? -4.619 -17.66 -1.562 1 28.8 ? 2 E 1
 ATOM 13 C CA . PRO E E 2 ? -5.27 -16.473 -1.002 1 27.67 ? 2 E 1
 ATOM 14 C C . PRO E E 2 ? -5.428 -15.386 -2.062 1 26.92 ? 2 E 1
@@ -154,6 +151,9 @@ ATOM 81 O O . PRO E E 10 ? 0.332 1.645 12.612 1 34.51 ? 10 E 1
 ATOM 82 C CB . PRO E E 10 ? 2.513 -0.732 12.7 1 31.36 ? 10 E 1
 ATOM 83 C CG . PRO E E 10 ? 3.207 -0.948 11.39 1 32.62 ? 10 E 1
 ATOM 84 C CD . PRO E E 10 ? 2.362 -0.273 10.376 1 29.94 ? 10 E 1
+ATOM 85 O OXT . PRO E E 10 ? -0.016 0.372 14.327 1 31.97 ? 10 E 1
+
+_struct.title '4OBF: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id
@@ -315,3 +315,93 @@ covale6 covale E PRO 2 C E GLY 3 N 1.334
 covale7 covale E ASN 8 C E ARG 9 N 1.338
 covale8 covale E ARG 9 C E PRO 10 N 1.341
 covale9 covale E ARG 1 C E PRO 2 N 1.345
+
+loop_
+_bmi_atom_origin.atom_site_id
+_bmi_atom_origin.origin
+_bmi_atom_origin.deposited_atom_site_id
+1 deposited 1
+2 deposited 2
+3 deposited 3
+4 deposited 4
+5 deposited 5
+6 rebuilt .
+7 rebuilt .
+8 rebuilt .
+9 rebuilt .
+10 rebuilt .
+11 rebuilt .
+12 deposited 6
+13 deposited 7
+14 deposited 8
+15 deposited 9
+16 deposited 10
+17 deposited 11
+18 deposited 12
+19 deposited 13
+20 deposited 14
+21 deposited 15
+22 deposited 16
+23 deposited 17
+24 deposited 18
+25 deposited 19
+26 deposited 20
+27 deposited 21
+28 deposited 22
+29 deposited 23
+30 deposited 24
+31 deposited 25
+32 deposited 26
+33 deposited 27
+34 deposited 28
+35 deposited 29
+36 deposited 30
+37 deposited 31
+38 deposited 32
+39 deposited 33
+40 deposited 34
+41 deposited 35
+42 deposited 36
+43 deposited 37
+44 deposited 38
+45 deposited 39
+46 deposited 40
+47 deposited 41
+48 deposited 42
+49 deposited 43
+50 deposited 44
+51 deposited 45
+52 deposited 46
+53 deposited 47
+54 deposited 48
+55 deposited 49
+56 deposited 50
+57 deposited 51
+58 deposited 52
+59 deposited 53
+60 deposited 54
+61 deposited 55
+62 deposited 56
+63 deposited 57
+64 deposited 58
+65 deposited 59
+66 deposited 60
+67 deposited 61
+68 deposited 62
+69 deposited 63
+70 deposited 64
+71 deposited 65
+72 deposited 66
+73 deposited 67
+74 deposited 68
+75 deposited 69
+76 deposited 70
+77 deposited 71
+78 deposited 72
+79 deposited 73
+80 deposited 74
+81 deposited 75
+82 deposited 76
+83 deposited 77
+84 deposited 78
+85 oxt .

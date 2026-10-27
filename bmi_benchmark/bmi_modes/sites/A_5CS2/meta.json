@@ -78,5 +78,29 @@
  "seq": "(54C)(WLU)A(WPA)V(MLE)(WVL)",
  "site_id": "A_5CS2",
  "site_type": "one_deposition",
- "uniprot": "Q8IL97"
+ "uniprot": "Q8IL97",
+ "derived__pose_01": {
+  "files": [
+   "pose_01_fixed.cif",
+   "pose_01_fixed.sdf",
+   "pose_01_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "-",
+  "added_residues": [],
+  "added_atoms": [],
+  "added_links": []
+ },
+ "derived__pose_02": {
+  "files": [
+   "pose_02_fixed.cif",
+   "pose_02_fixed.sdf",
+   "pose_02_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "-",
+  "added_residues": [],
+  "added_atoms": [],
+  "added_links": []
+ },
+ "receptor_links__pose_01": [],
+ "receptor_links__pose_02": []
 }

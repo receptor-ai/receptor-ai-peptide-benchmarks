@@ -1,6 +1,6 @@
 # BMI-MODES: a mode-discrimination dataset
 
-BMI-MODES holds 30 sites, 71 poses, and 27 receptors. A **site** is one receptor pocket that holds two or
+BMI-MODES holds 29 sites, 66 poses, and 26 receptors. A **site** is one receptor pocket that holds two or
 more experimentally supported poses of one peptide. Each pose is the same molecule, in the same chemical
 environment, placed a different way. This dataset does not test whether a method finds the correct pose.
 This dataset tests whether a method produces **all** the poses and keeps them **apart** as distinct modes.
@@ -12,28 +12,29 @@ entries (`5OJR`, `7MX1`, `8IJ0`).
 bmi_modes/
   README.md              this file
   DATA_DICTIONARY.md     definition of every column in the four tables
-  MANIFEST.csv           one row per site (30)
-  poses.csv              one row per pose (71)
-  ss_per_pose.csv        per-pose secondary structure (71)
-  pose_attribution.csv   one row per pose pair (58)
-  sites/<site_id>/       pose_NN.cif (+ pose_NN.sdf), receptor_NN.cif (one per pose), receptor.cif, meta.json
-                         (+ pose_NN_fixed.cif/.sdf where a side chain was disordered)
+  MANIFEST.csv           one row per site (29)
+  poses.csv              one row per pose (66)
+  ss_per_pose.csv        per-pose secondary structure (66)
+  pose_attribution.csv   one row per pose pair (48)
+  sites/<site_id>/       pose_NN.cif, receptor_NN.cif (one per pose), receptor.cif: deposited atoms
+                         pose_NN_fixed.cif, pose_NN_fixed.sdf, pose_NN_fixed_protonated.sdf: derived
+                         meta.json
 ```
 
-`pose_NN.cif`/`.sdf` carry connectivity (`_chem_comp_bond` + `_struct_conn`). Where a side chain was
-disordered, a rebuilt full-geometry `pose_NN_fixed.cif`/`.sdf` sits beside it (see the top-level README,
-Completeness).
+`pose_NN.cif` carries connectivity (`_chem_comp_bond` + `_struct_conn`). The derived files add the
+heavy atoms that the deposited model lacks. `pose_NN_fixed.sdf` gives the pose with bond orders, every
+formal charge 0 and hydrogens implicit; `pose_NN_fixed_protonated.sdf` gives it at pH 7.4 with explicit
+hydrogens (see the top-level README, Files, Derived files and Protonation).
 
 ## 1. What the dataset holds
 
-A site holds 2 to 5 poses. All 30 sites resolve to exactly two binding modes.
+A site holds 2 to 4 poses. All 29 sites resolve to exactly two binding modes.
 
 | Poses in the site | Sites |
 |--:|--:|
 | 2 | 24 |
 | 3 | 2 |
 | 4 | 3 |
-| 5 | 1 |
 
 Each pose comes from one of three kinds of evidence. This project never pools the three kinds.
 
@@ -41,11 +42,11 @@ Each pose comes from one of three kinds of evidence. This project never pools th
 |---|--:|---|
 | separate ASU copies only | 18 | two fully occupied molecules in equivalent pockets of one crystal |
 | altloc branches only | 7 | one molecule refined as two partially occupied placements |
-| both separate copies and altloc branches | 4 | a site that contains poses of both kinds |
+| both separate copies and altloc branches | 3 | a site that contains poses of both kinds |
 | repeat deposition | 1 | the same peptide and receptor in two independent crystals |
-| **total** | **30** | |
+| **total** | **29** | |
 
-In 29 of the 30 sites both poses come from a single deposition. Crystal packing may therefore
+In 28 of the 29 sites all poses come from a single deposition. Crystal packing may therefore
 contribute to the difference; `possible_lattice_contact` flags the two clearest cases.
 
 ## 2. Modes
@@ -56,8 +57,8 @@ terminus because whole-pose RMSD cannot separate two binding modes from one mode
 terminus. Single linkage means two poses are distinct modes only when every cross-mode pair is 3.0 Å apart
 or more.
 
-All 30 sites hold exactly two modes. Separations run from 3.1 Å to 21.1 Å. 12 sites are 10 Å apart or
-more. 22 of 30 sites still read as two modes at a 5 Å threshold. `MANIFEST.csv` also carries mode counts
+All 29 sites hold exactly two modes. Separations run from 3.1 Å to 21.1 Å. 11 sites are 10 Å apart or
+more. 21 of 29 sites still read as two modes at a 5 Å threshold. `MANIFEST.csv` also carries mode counts
 at 2.0 Å and 5.0 Å, so the sensitivity is visible.
 
 ### The attribution label: placement or conformation
@@ -69,13 +70,13 @@ needs two conformations.
 
 | Pose pairs by source | Pairs | One conformation, two places (superposed < 1.0 Å) |
 |---|--:|--:|
-| altloc branches | 12 | 10 |
-| separate copies | 46 | 15 |
-| **all pairs** | **58** | **25** |
+| altloc branches | 10 | 8 |
+| separate copies | 38 | 7 |
+| **all pairs** | **48** | **15** |
 
-Altloc pairs are usually one conformation placed twice (10 of 12). Separate-copy pairs more often differ
-in conformation as well (15 of 46 are placement-only). Each pose has its own receptor conformation, so
-the pocket Cα RMSD between a mode and the reference pose is also available (median 0.40 Å; 4 poses of
+Altloc pairs are usually one conformation placed twice (8 of 10). Separate-copy pairs more often differ
+in conformation as well (7 of 38 are placement-only). Each pose has its own receptor conformation, so
+the pocket Cα RMSD between a mode and the reference pose is also available (median 0.37 Å; 4 poses of
 1.0 Å or more are induced-fit).
 
 ## 3. Site selection
@@ -106,20 +107,20 @@ different secondary structure.
 | Category | bound | isolated |
 |---|--:|--:|
 | turn only | 21 | 26 |
-| β (sheet) | 19 | 0 |
-| extended, unpaired | 14 | 26 |
+| β (sheet) | 14 | 0 |
+| extended, unpaired | 14 | 21 |
 | helix | 9 | 9 |
 | PPII | 7 | 10 |
 | none / coil | 1 | 0 |
-| **total poses** | **71** | **71** |
+| **total poses** | **66** | **66** |
 
-- 20 of 71 poses change category when this project removes the receptor. Not one of the 19 β poses keeps
+- 15 of 66 poses change category when this project removes the receptor. Not one of the 14 β poses keeps
   β in isolation. Hydrogen bonds to the receptor hold the peptide β-structure.
-- 11 of the 30 sites hold poses that differ in bound secondary structure (for example `A_5OJR`: β and
+- 11 of the 29 sites hold poses that differ in bound secondary structure (for example `A_5OJR`: β and
   helix; `A_4X34`: helix and turn). Group `ss_per_pose.csv` by `site_id` to find these sites.
 
 > **Use `ss_per_pose.csv` for secondary structure.** A per-entry assignment is not reliable for this
-> dataset. For five entries, the per-residue alternate-location choice mixes two opposite-running branches
+> dataset. For some entries, the per-residue alternate-location choice mixes two opposite-running branches
 > into one chain. The delivered pose coordinates are correct, because each pose takes one explicit branch.
 
 ## 5. Files delivered per pose, and the peptide-content convention
@@ -132,12 +133,11 @@ Per site, `sites/<site_id>/` contains, for each pose _NN_:
 - `receptor.cif` — the cleaned receptor for the frame entry.
 - `meta.json` — the measurements plus the placement of each pose.
 
-> **Peptide-content convention.** A pose file is the peptide polymer subchain only. Some depositions
-> attach a covalent non-polymer moiety to the peptide, such as a synthetic staple or linker (`ZOY` in
-> `7MX1`) or a glycan (`NAG` on `7VFL` and `7EC3`). This project ships that moiety in the pose's
-> `receptor_NN.cif`, not inside the pose. BMI-200 treats a covalently bonded linker as part of the
-> peptide, so the two datasets use different conventions for the 3 shared entries. Account for this when
-> you compare a shared entry across the two datasets.
+> **Peptide-content convention.** A pose file holds the peptide together with every non-polymer moiety
+> covalently bonded to it: the staple `ZOY` in `A_7MX1` and the O-linked glycan `NAG` in `A_5UN8`,
+> `A_7EC3` and `A_7VFL`. `env_adducts` in `poses.csv` names these moieties, and `n_atoms` and
+> `n_residues` count them. `seq` and the per-pose secondary structure cover the polymer residues only.
+> BMI-200 uses the same convention, so a shared entry holds the same molecule in both datasets.
 
 ## 6. Files, columns, and usage
 
@@ -161,7 +161,7 @@ import pandas as pd
 man   = pd.read_csv('MANIFEST.csv',    low_memory=False, keep_default_na=False, na_values=[''])
 poses = pd.read_csv('poses.csv',       low_memory=False, keep_default_na=False, na_values=[''])
 ss    = pd.read_csv('ss_per_pose.csv', low_memory=False, keep_default_na=False, na_values=[''])
-big_sep = man[man.difference_type == 'large']   # 12 sites, modes 10 Å apart or more
+big_sep = man[man.difference_type == 'large']   # 11 sites, modes 10 Å apart or more
 ```
 
 ## 7. What the dataset does not tell you
@@ -169,9 +169,9 @@ big_sep = man[man.difference_type == 'large']   # 12 sites, modes 10 Å apart or
 - **Which pose is more populated.** Nothing here ranks poses by solution population. Score recovery of all
   modes, not their order.
 - **A cyclic-arm statement.** The dataset holds one cyclic site.
-- **Fine-grained rates.** 30 sites support statements such as "mode 2 was missed in _k_ of 30", not a
+- **Fine-grained rates.** 29 sites support statements such as "mode 2 was missed in _k_ of 29", not a
   percentage quoted to a fine precision.
-- **Generalisation to structured peptides.** Half the poses hold no backbone hydrogen bond of their own.
+- **Generalisation to structured peptides.** 28 of the 66 poses hold no backbone hydrogen bond of their own.
   The dataset over-represents receptor-templated peptides.
 - **Whether the modes found are all the modes.** These are the poses that were modelled.
 - **Whether a pocket is a crystal-lattice contact.** Two sites (`A_4X34`, `A_8ZVY`) carry
