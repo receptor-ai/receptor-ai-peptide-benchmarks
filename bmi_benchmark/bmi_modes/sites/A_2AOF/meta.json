@@ -97,51 +97,112 @@
    "kind": "sidechain_truncated"
   }
  ],
- "fixed_geometry__pose_02": {
+ "derived__pose_01": {
+  "files": [
+   "pose_01_fixed.cif",
+   "pose_01_fixed.sdf",
+   "pose_01_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "-",
+  "added_residues": [],
+  "added_atoms": [],
+  "added_links": []
+ },
+ "derived__pose_02": {
   "files": [
    "pose_02_fixed.cif",
-   "pose_02_fixed.sdf"
+   "pose_02_fixed.sdf",
+   "pose_02_fixed_protonated.sdf"
   ],
-  "n_rebuilt": 6,
-  "rebuilt_atoms": [
+  "terminal_completion": "-",
+  "added_residues": [],
+  "added_atoms": [
    {
-    "comp": "ARG",
-    "seqid": 309,
-    "atom": "CD",
-    "element": "C"
+    "atom": "Q/ARG/309/CG",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     24.644,
+     23.227,
+     21.603
+    ],
+    "b": 34.95
    },
    {
-    "comp": "ARG",
-    "seqid": 309,
-    "atom": "CG",
-    "element": "C"
+    "atom": "Q/ARG/309/CD",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     24.411,
+     22.519,
+     20.231
+    ],
+    "b": 34.95
    },
    {
-    "comp": "ARG",
-    "seqid": 309,
-    "atom": "CZ",
-    "element": "C"
+    "atom": "Q/ARG/309/NE",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     24.774,
+     23.313,
+     19.051
+    ],
+    "b": 34.95
    },
    {
-    "comp": "ARG",
-    "seqid": 309,
-    "atom": "NE",
-    "element": "N"
+    "atom": "Q/ARG/309/CZ",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     26.065,
+     23.64,
+     18.654
+    ],
+    "b": 34.95
    },
    {
-    "comp": "ARG",
-    "seqid": 309,
-    "atom": "NH1",
-    "element": "N"
+    "atom": "Q/ARG/309/NH1",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     26.04,
+     24.443,
+     17.529
+    ],
+    "b": 34.95
    },
    {
-    "comp": "ARG",
-    "seqid": 309,
-    "atom": "NH2",
-    "element": "N"
+    "atom": "Q/ARG/309/NH2",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     27.108,
+     23.235,
+     19.272
+    ],
+    "b": 34.95
    }
   ],
-  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
-  "forcefield": "GAFF2 (antechamber gasteiger charges)"
- }
+  "added_links": [],
+  "rebuild": {
+   "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+   "forcefield": "GAFF2 (antechamber gasteiger charges)",
+   "receptor_wall": "receptor heavy atoms within 8 A of the peptide, frozen, Lennard-Jones only",
+   "gaff2_energy_kJ_mol": {
+    "before": 156130.9,
+    "after": 1211.0
+   },
+   "qc": {
+    "min_intra_peptide_contact_A": 2.88,
+    "min_receptor_contact_A": 3.03,
+    "ccd_stereocentres_checked": 0,
+    "ccd_chirality_mismatches": 0,
+    "deposited_atoms_max_shift_A": 0.0
+   },
+   "frozen": "every deposited atom and every terminal atom"
+  }
+ },
+ "receptor_links__pose_01": [],
+ "receptor_links__pose_02": []
 }

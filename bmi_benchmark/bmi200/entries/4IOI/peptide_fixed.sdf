@@ -1,4 +1,4 @@
-
+entries/4IOI/peptide_fixed
      RDKit          3D
 
 101102  0  0  0  0  0  0  0  0999 V2000
@@ -92,10 +92,10 @@
   -28.3290  -28.1340   21.0630 C   0  0  0  0  0  0  0  0  0  0  0  0
   -29.0880  -27.8560   20.1490 O   0  0  0  0  0  0  0  0  0  0  0  0
   -28.1150  -26.1710   22.5950 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -28.1836  -24.5150   24.5122 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -27.4797  -23.7754   25.6629 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -27.2547  -25.3064   23.5462 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -28.4642  -22.9766   26.4651 N   0  0  0  0  0  0  0  0  0  0  0  0
+  -27.1670  -25.4830   23.6100 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -27.9050  -24.6810   24.7030 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -26.9400  -24.0820   25.7460 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -27.6590  -23.3070   26.7640 N   0  0  0  0  0  0  0  0  0  0  0  0
   -28.2260  -29.3440   21.5600 N   0  0  0  0  0  0  0  0  0  0  0  0
   -29.0180  -30.4210   20.9740 C   0  0  2  0  0  0  0  0  0  0  0  0
   -30.1990  -30.7880   21.8600 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -107,11 +107,14 @@
   2  3  1  0
   2  5  1  0
   3  4  2  0
+  3  7  1  0
   5  6  1  0
+  6100  1  0
   7  8  1  0
   8  9  1  0
   8 11  1  1
   9 10  2  0
+  9 16  1  0
  11 12  1  0
  12 13  1  0
  13 14  2  0
@@ -120,6 +123,7 @@
  17 18  1  0
  17 20  1  6
  18 19  2  0
+ 18 27  1  0
  20 21  1  0
  21 22  2  0
  21 23  1  0
@@ -131,6 +135,7 @@
  28 29  1  0
  28 31  1  1
  29 30  2  0
+ 29 35  1  0
  31 32  1  0
  32 33  2  0
  32 34  1  0
@@ -138,6 +143,7 @@
  36 37  1  0
  36 39  1  1
  37 38  2  0
+ 37 43  1  0
  39 40  1  0
  40 41  1  0
  40 42  1  0
@@ -145,17 +151,20 @@
  44 45  1  0
  44 47  1  1
  45 46  2  0
+ 45 49  1  0
  47 48  1  0
  50 49  1  6
  50 51  1  0
  50 53  1  0
  51 52  2  0
+ 51 56  1  0
  53 54  1  0
  53 55  1  1
  56 57  1  0
  57 58  1  0
  57 60  1  1
  58 59  2  0
+ 58 67  1  0
  60 61  1  0
  61 62  1  0
  62 63  1  0
@@ -166,6 +175,7 @@
  68 69  1  0
  68 71  1  1
  69 70  2  0
+ 69 78  1  0
  71 72  1  0
  72 73  1  0
  73 74  1  0
@@ -176,6 +186,7 @@
  79 80  1  0
  79 82  1  6
  80 81  2  0
+ 80 86  1  0
  82 83  1  0
  83 84  1  0
  83 85  1  0
@@ -183,28 +194,33 @@
  87 88  1  0
  87 90  1  6
  88 89  2  0
- 90 93  1  0
- 91 93  1  0
+ 88 95  1  0
+ 90 91  1  0
  91 92  1  0
- 92 94  1  0
+ 92 93  1  0
+ 93 94  1  0
  95 96  1  0
  96 97  1  1
  96 99  1  0
  97 98  2  0
  97101  1  0
  99100  1  0
- 88 95  1  0
- 80 86  1  0
- 58 67  1  0
-  3  7  1  0
-  9 16  1  0
- 37 43  1  0
- 69 78  1  0
- 29 35  1  0
- 51 56  1  0
- 45 49  1  0
- 18 27  1  0
-  6100  1  0
-M  CHG  3  66   1  77   1  94   1
 M  END
+>  <atom.prop.label>  (1) 
+C/CYS/1/N C/CYS/1/CA C/CYS/1/C C/CYS/1/O C/CYS/1/CB C/CYS/1/SG C/GLN/2/N C/GLN/2/CA C/GLN/2/C C/GLN/2/O C/GLN/2/CB C/GLN/2/CG C/GLN/2/CD C/GLN/2/OE1 C/GLN/2/NE2 C/PHE/3/N C/PHE/3/CA
+C/PHE/3/C C/PHE/3/O C/PHE/3/CB C/PHE/3/CG C/PHE/3/CD1 C/PHE/3/CD2 C/PHE/3/CE1 C/PHE/3/CE2 C/PHE/3/CZ C/ASP/4/N C/ASP/4/CA C/ASP/4/C C/ASP/4/O C/ASP/4/CB C/ASP/4/CG C/ASP/4/OD1 C/ASP/4/OD2
+C/LEU/5/N C/LEU/5/CA C/LEU/5/C C/LEU/5/O C/LEU/5/CB C/LEU/5/CG C/LEU/5/CD1 C/LEU/5/CD2 C/SER/6/N C/SER/6/CA C/SER/6/C C/SER/6/O C/SER/6/CB C/SER/6/OG C/THR/7/N C/THR/7/CA C/THR/7/C
+C/THR/7/O C/THR/7/CB C/THR/7/OG1 C/THR/7/CG2 C/ARG/8/N C/ARG/8/CA C/ARG/8/C C/ARG/8/O C/ARG/8/CB C/ARG/8/CG C/ARG/8/CD C/ARG/8/NE C/ARG/8/CZ C/ARG/8/NH1 C/ARG/8/NH2 C/ARG/9/N C/ARG/9/CA
+C/ARG/9/C C/ARG/9/O C/ARG/9/CB C/ARG/9/CG C/ARG/9/CD C/ARG/9/NE C/ARG/9/CZ C/ARG/9/NH1 C/ARG/9/NH2 C/LEU/10/N C/LEU/10/CA C/LEU/10/C C/LEU/10/O C/LEU/10/CB C/LEU/10/CG C/LEU/10/CD1
+C/LEU/10/CD2 C/LYS/11/N C/LYS/11/CA C/LYS/11/C C/LYS/11/O C/LYS/11/CB C/LYS/11/CG C/LYS/11/CD C/LYS/11/CE C/LYS/11/NZ C/CYS/12/N C/CYS/12/CA C/CYS/12/C C/CYS/12/O C/CYS/12/CB C/CYS/12/SG
+C/CYS/12/OXT
+
+>  <atom.prop.origin>  (1) 
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited rebuilt
+rebuilt rebuilt rebuilt deposited deposited deposited deposited deposited deposited deposited
+
 $$$$

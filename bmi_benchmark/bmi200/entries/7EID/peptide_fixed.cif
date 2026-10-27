@@ -33,9 +33,6 @@ GLY .
 LEU .
 LYS .
 
-_struct.entry_id 7EID
-_struct.title '7EID: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
-
 loop_
 _struct_asym.id
 _struct_asym.entity_id
@@ -44,13 +41,13 @@ C C
 loop_
 _struct_conn.id
 _struct_conn.conn_type_id
-_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_auth_asym_id
 _struct_conn.ptnr1_label_comp_id
-_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_auth_seq_id
 _struct_conn.ptnr1_label_atom_id
-_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_auth_asym_id
 _struct_conn.ptnr2_label_comp_id
-_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_auth_seq_id
 _struct_conn.ptnr2_label_atom_id
 _struct_conn.pdbx_dist_value
 covale1 covale C GLY 11 C C ALY 12 N 1.337
@@ -98,10 +95,10 @@ ATOM 2 C CA . LYS C C 1 ? -13.735 18.012 6.224 1 32.94 ? 5 C 1
 ATOM 3 C C . LYS C C 1 ? -14.585 16.983 6.969 1 32.66 ? 5 C 1
 ATOM 4 O O . LYS C C 1 ? -15.62 16.538 6.469 1 30.11 ? 5 C 1
 ATOM 5 C CB . LYS C C 1 ? -14.094 19.445 6.63 1 32.93 ? 5 C 1
-ATOM 6 C CD . LYS C C 1 ? -13.5474545 21.9581588 6.41084265 1 32.4 ? 5 C 1
-ATOM 7 C CE . LYS C C 1 ? -12.634752 23.0167633 5.75854508 1 32.4 ? 5 C 1
-ATOM 8 C CG . LYS C C 1 ? -13.158013 20.5172812 6.01450319 1 32.4 ? 5 C 1
-ATOM 9 N NZ . LYS C C 1 ? -13.0320839 24.4130127 6.11638915 1 32.4 ? 5 C 1
+ATOM 6 C CG . LYS C C 1 ? -13.148 20.522 6.045 1 32.4 ? 5 C 1
+ATOM 7 C CD . LYS C C 1 ? -13.495 21.951 6.515 1 32.4 ? 5 C 1
+ATOM 8 C CE . LYS C C 1 ? -12.552 23.018 5.924 1 32.4 ? 5 C 1
+ATOM 9 N NZ . LYS C C 1 ? -12.905 24.365 6.390 1 32.4 ? 5 C 1
 ATOM 10 N N . GLY C C 2 ? -14.124 16.614 8.171 1 32.39 ? 6 C 1
 ATOM 11 C CA . GLY C C 2 ? -14.782 15.609 8.992 1 32.24 ? 6 C 1
 ATOM 12 C C . GLY C C 2 ? -14.741 14.231 8.333 1 32.71 ? 6 C 1
@@ -158,6 +155,9 @@ ATOM 62 N N . GLY C C 10 ? -21.227 1.764 6.086 1 44.7 ? 14 C 1
 ATOM 63 C CA . GLY C C 10 ? -21.345 1.515 4.656 1 45.89 ? 14 C 1
 ATOM 64 C C . GLY C C 10 ? -22.325 0.397 4.333 1 46.78 ? 14 C 1
 ATOM 65 O O . GLY C C 10 ? -23.249 0.186 5.145 1 48.46 ? 14 C 1
+ATOM 66 O OXT . GLY C C 10 ? -22.209 -0.285 3.292 1 46.46 ? 14 C 1
+
+_struct.title '7EID: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id
@@ -248,3 +248,74 @@ LYS NZ HZ1 SING N 79
 LYS NZ HZ2 SING N 80
 LYS NZ HZ3 SING N 81
 LYS OXT HXT SING N 82
+
+loop_
+_bmi_atom_origin.atom_site_id
+_bmi_atom_origin.origin
+_bmi_atom_origin.deposited_atom_site_id
+1 deposited 1
+2 deposited 2
+3 deposited 3
+4 deposited 4
+5 deposited 5
+6 rebuilt .
+7 rebuilt .
+8 rebuilt .
+9 rebuilt .
+10 deposited 6
+11 deposited 7
+12 deposited 8
+13 deposited 9
+14 deposited 10
+15 deposited 11
+16 deposited 12
+17 deposited 13
+18 deposited 14
+19 deposited 15
+20 deposited 16
+21 deposited 17
+22 deposited 18
+23 deposited 19
+24 deposited 20
+25 deposited 21
+26 deposited 22
+27 deposited 23
+28 deposited 24
+29 deposited 25
+30 deposited 26
+31 deposited 27
+32 deposited 28
+33 deposited 29
+34 deposited 30
+35 deposited 31
+36 deposited 32
+37 deposited 33
+38 deposited 34
+39 deposited 35
+40 deposited 36
+41 deposited 37
+42 deposited 38
+43 deposited 39
+44 deposited 40
+45 deposited 41
+46 deposited 42
+47 deposited 43
+48 deposited 44
+49 deposited 45
+50 deposited 46
+51 deposited 47
+52 deposited 48
+53 deposited 49
+54 deposited 50
+55 deposited 51
+56 deposited 52
+57 deposited 53
+58 deposited 54
+59 deposited 55
+60 deposited 56
+61 deposited 57
+62 deposited 58
+63 deposited 59
+64 deposited 60
+65 deposited 61
+66 oxt .

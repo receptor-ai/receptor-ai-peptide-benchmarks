@@ -40,9 +40,6 @@ PHE .
 SER .
 THR .
 
-_struct.entry_id 7V1A
-_struct.title '7V1A: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
-
 loop_
 _struct_asym.id
 _struct_asym.entity_id
@@ -51,13 +48,13 @@ B B
 loop_
 _struct_conn.id
 _struct_conn.conn_type_id
-_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_auth_asym_id
 _struct_conn.ptnr1_label_comp_id
-_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_auth_seq_id
 _struct_conn.ptnr1_label_atom_id
-_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_auth_asym_id
 _struct_conn.ptnr2_label_comp_id
-_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_auth_seq_id
 _struct_conn.ptnr2_label_atom_id
 _struct_conn.pdbx_dist_value
 covale1 covale B GLY 17 C B GLU 18 N 1.329
@@ -116,9 +113,9 @@ ATOM 2 C CA . ASP B B 1 ? -0.863 28.91 8.962 1 79.81 ? 7 B 1
 ATOM 3 C C . ASP B B 1 ? -1.203 28.994 7.468 1 65.44 ? 7 B 1
 ATOM 4 O O . ASP B B 1 ? -0.709 28.183 6.67 1 69.31 ? 7 B 1
 ATOM 5 C CB . ASP B B 1 ? 0.391 29.728 9.271 1 78.29 ? 7 B 1
-ATOM 6 C CG . ASP B B 1 ? 0.613535169 29.842926 10.7841614 1 76.62 ? 7 B 1
-ATOM 7 O OD1 . ASP B B 1 ? -0.0483384905 30.5644725 11.5075781 1 76.62 ? 7 B 1
-ATOM 8 O OD2 . ASP B B 1 ? 1.68589958 29.1603991 11.2463668 1 76.62 ? 7 B 1
+ATOM 6 C CG . ASP B B 1 ? 0.404 30.163 10.741 1 76.62 ? 7 B 1
+ATOM 7 O OD1 . ASP B B 1 ? -0.242 31.100 11.171 1 76.62 ? 7 B 1
+ATOM 8 O OD2 . ASP B B 1 ? 1.221 29.434 11.535 1 76.62 ? 7 B 1
 ATOM 9 N N . ILE B B 2 ? -2.041 29.974 7.107 1 123.62 ? 8 B 1
 ATOM 10 C CA . ILE B B 2 ? -2.555 30.073 5.743 1 108.23 ? 8 B 1
 ATOM 11 C C . ILE B B 2 ? -1.434 30.381 4.747 1 100.84 ? 8 B 1
@@ -262,6 +259,9 @@ ATOM 148 C C . SER B B 19 ? 13.14 34.212 -14.553 1 102.38 ? 25 B 1
 ATOM 149 O O . SER B B 19 ? 13.599 34.967 -15.413 1 98.08 ? 25 B 1
 ATOM 150 C CB . SER B B 19 ? 14.207 32.095 -13.772 1 100.21 ? 25 B 1
 ATOM 151 O OG . SER B B 19 ? 14.425 31.866 -15.154 1 106.35 ? 25 B 1
+ATOM 152 O OXT . SER B B 19 ? 11.917 33.953 -14.547 1 98.9 ? 25 B 1
+
+_struct.title '7V1A: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id
@@ -468,3 +468,160 @@ THR CG2 HG21 SING N 195
 THR CG2 HG22 SING N 196
 THR CG2 HG23 SING N 197
 THR OXT HXT SING N 198
+
+loop_
+_bmi_atom_origin.atom_site_id
+_bmi_atom_origin.origin
+_bmi_atom_origin.deposited_atom_site_id
+1 deposited 1
+2 deposited 2
+3 deposited 3
+4 deposited 4
+5 deposited 5
+6 rebuilt .
+7 rebuilt .
+8 rebuilt .
+9 deposited 6
+10 deposited 7
+11 deposited 8
+12 deposited 9
+13 deposited 10
+14 deposited 11
+15 deposited 12
+16 deposited 13
+17 deposited 14
+18 deposited 15
+19 deposited 16
+20 deposited 17
+21 deposited 18
+22 deposited 19
+23 deposited 20
+24 deposited 21
+25 deposited 22
+26 deposited 23
+27 deposited 24
+28 deposited 25
+29 deposited 26
+30 deposited 27
+31 deposited 28
+32 deposited 29
+33 deposited 30
+34 deposited 31
+35 deposited 32
+36 deposited 33
+37 deposited 34
+38 deposited 35
+39 deposited 36
+40 deposited 37
+41 deposited 38
+42 deposited 39
+43 deposited 40
+44 deposited 41
+45 deposited 42
+46 deposited 43
+47 deposited 44
+48 deposited 45
+49 deposited 46
+50 deposited 47
+51 deposited 48
+52 deposited 49
+53 deposited 50
+54 deposited 51
+55 deposited 52
+56 deposited 53
+57 deposited 54
+58 deposited 55
+59 deposited 56
+60 deposited 57
+61 deposited 58
+62 deposited 59
+63 deposited 60
+64 deposited 61
+65 deposited 62
+66 deposited 63
+67 deposited 64
+68 deposited 65
+69 deposited 66
+70 deposited 67
+71 deposited 68
+72 deposited 69
+73 deposited 70
+74 deposited 71
+75 deposited 72
+76 deposited 73
+77 deposited 74
+78 deposited 75
+79 deposited 76
+80 deposited 77
+81 deposited 78
+82 deposited 79
+83 deposited 80
+84 deposited 81
+85 deposited 82
+86 deposited 83
+87 deposited 84
+88 deposited 85
+89 deposited 86
+90 deposited 87
+91 deposited 88
+92 deposited 89
+93 deposited 90
+94 deposited 91
+95 deposited 92
+96 deposited 93
+97 deposited 94
+98 deposited 95
+99 deposited 96
+100 deposited 97
+101 deposited 98
+102 deposited 99
+103 deposited 100
+104 deposited 101
+105 deposited 102
+106 deposited 103
+107 deposited 104
+108 deposited 105
+109 deposited 106
+110 deposited 107
+111 deposited 108
+112 deposited 109
+113 deposited 110
+114 deposited 111
+115 deposited 112
+116 deposited 113
+117 deposited 114
+118 deposited 115
+119 deposited 116
+120 deposited 117
+121 deposited 118
+122 deposited 119
+123 deposited 120
+124 deposited 121
+125 deposited 122
+126 deposited 123
+127 deposited 124
+128 deposited 125
+129 deposited 126
+130 deposited 127
+131 deposited 128
+132 deposited 129
+133 deposited 130
+134 deposited 131
+135 deposited 132
+136 deposited 133
+137 deposited 134
+138 deposited 135
+139 deposited 136
+140 deposited 137
+141 deposited 138
+142 deposited 139
+143 deposited 140
+144 deposited 141
+145 deposited 142
+146 deposited 143
+147 deposited 144
+148 deposited 145
+149 deposited 146
+150 deposited 147
+151 deposited 148
+152 oxt .

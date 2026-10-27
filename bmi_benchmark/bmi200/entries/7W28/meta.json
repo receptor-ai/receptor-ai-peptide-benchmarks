@@ -185,21 +185,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 281315,
-    "file": "complex.cif",
-    "n_chains": 2,
-    "n_struct_conn": 2,
-    "subchains_kept": [
-     "B",
-     "A"
-    ]
-   },
    "peptide.cif": {
     "bytes": 16763,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 2,
+    "n_struct_conn": 15,
     "subchains_kept": [
      "B"
     ]
@@ -1111,12 +1101,6 @@
    "trailing_newline": true
   },
   "files": {
-   "complex.cif": {
-    "bytes": 281315,
-    "n_chains": 2,
-    "n_struct_conn": 2,
-    "role": "strict primary"
-   },
    "peptide.cif": {
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
@@ -1170,5 +1154,17 @@
    }
   ],
   "utc": "2026-08-03T16:47:21Z"
- }
+ },
+ "derived": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "-",
+  "added_residues": [],
+  "added_atoms": [],
+  "added_links": []
+ },
+ "receptor_links": []
 }

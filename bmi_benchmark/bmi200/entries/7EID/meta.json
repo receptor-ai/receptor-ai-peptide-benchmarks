@@ -214,21 +214,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 82736,
-    "file": "complex.cif",
-    "n_chains": 2,
-    "n_struct_conn": 4,
-    "subchains_kept": [
-     "C",
-     "A"
-    ]
-   },
    "peptide.cif": {
     "bytes": 7644,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 4,
+    "n_struct_conn": 9,
     "subchains_kept": [
      "C"
     ]
@@ -882,26 +872,11 @@
   },
   "built_utc": "2026-08-03T17:05:34Z",
   "files": {
-   "complex.cif": "strict: protein + peptide + metals/monatomic ions",
    "peptide.cif": "unchanged - every component covalently part of the peptide is retained by the policy",
    "receptor.cif": "unchanged - nothing was removed from it"
   },
   "needs_human_review": [],
   "notes": [],
-  "outputs": {
-   "complex.cif": {
-    "bytes": 82737,
-    "n_struct_conn": 4
-   },
-   "peptide.cif": {
-    "bytes": 6078,
-    "n_struct_conn": 4
-   },
-   "receptor.cif": {
-    "bytes": 77580,
-    "n_struct_conn": 0
-   }
-  },
   "policy": {
    "ambiguous_set_ruling": "CL/NA/K are monatomic ions and stay. SO4/PO4 are polyatomic additives and go. NH4 goes: only one heavy atom is modelled but the CCD lists 5 atoms, so the species is polyatomic, and the test is on the species not on what happens to be modelled. UNX goes: one atom, but element X is neither metal nor halide.",
    "keep_K1_peptide_integral": "any component sharing a label_asym_id with a residue of decisions.hetero.peptide_covalent_moieties (whole branched entity), EXCEPT a cryoprotectant or buffer additive whose only link to the peptide is distance-inferred rather than in _struct_conn",
@@ -914,7 +889,6 @@
   "removed_within_4.0A_of_peptide": [],
   "retained_components": [],
   "verification": {
-   "complex_cif_rereads": true,
    "ends_with_newline": true,
    "every_surviving_struct_conn_present": true,
    "peptide_plus_receptor_partition_complex_exactly": true,
@@ -938,39 +912,97 @@
    "kind": "sidechain_truncated"
   }
  ],
- "fixed_geometry": {
+ "derived": {
   "files": [
    "peptide_fixed.cif",
-   "peptide_fixed.sdf"
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
   ],
-  "n_rebuilt": 4,
-  "rebuilt_atoms": [
+  "terminal_completion": "C:OXT",
+  "added_residues": [],
+  "added_atoms": [
    {
-    "comp": "LYS",
-    "seqid": 5,
-    "atom": "CD",
-    "element": "C"
+    "atom": "C/LYS/5/CG",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     -13.148,
+     20.522,
+     6.045
+    ],
+    "b": 32.4
    },
    {
-    "comp": "LYS",
-    "seqid": 5,
-    "atom": "CE",
-    "element": "C"
+    "atom": "C/LYS/5/CD",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     -13.495,
+     21.951,
+     6.515
+    ],
+    "b": 32.4
    },
    {
-    "comp": "LYS",
-    "seqid": 5,
-    "atom": "CG",
-    "element": "C"
+    "atom": "C/LYS/5/CE",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     -12.552,
+     23.018,
+     5.924
+    ],
+    "b": 32.4
    },
    {
-    "comp": "LYS",
-    "seqid": 5,
-    "atom": "NZ",
-    "element": "N"
+    "atom": "C/LYS/5/NZ",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     -12.905,
+     24.365,
+     6.39
+    ],
+    "b": 32.4
+   },
+   {
+    "atom": "C/GLY/14/OXT",
+    "element": "O",
+    "origin": "oxt",
+    "xyz": [
+     -22.209,
+     -0.285,
+     3.292
+    ],
+    "b": 46.46
    }
   ],
-  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
-  "forcefield": "GAFF2 (antechamber gasteiger charges)"
- }
+  "added_links": [],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 3.97,
+    "min_receptor_contact_A": 8.39,
+    "junction_bonds_A": []
+   }
+  },
+  "rebuild": {
+   "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+   "forcefield": "GAFF2 (antechamber gasteiger charges)",
+   "receptor_wall": "receptor heavy atoms within 8 A of the peptide, frozen, Lennard-Jones only",
+   "gaff2_energy_kJ_mol": {
+    "before": 580.9,
+    "after": 452.0
+   },
+   "qc": {
+    "min_intra_peptide_contact_A": 4.51,
+    "min_receptor_contact_A": 5.82,
+    "ccd_stereocentres_checked": 0,
+    "ccd_chirality_mismatches": 0,
+    "deposited_atoms_max_shift_A": 0.0
+   },
+   "frozen": "every deposited atom and every terminal atom"
+  }
+ },
+ "receptor_links": []
 }

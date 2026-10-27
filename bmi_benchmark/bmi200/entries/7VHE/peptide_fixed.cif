@@ -32,9 +32,6 @@ ALA .
 ARG .
 NH2 .
 
-_struct.entry_id 7VHE
-_struct.title '7VHE: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
-
 loop_
 _struct_asym.id
 _struct_asym.entity_id
@@ -43,13 +40,13 @@ G G
 loop_
 _struct_conn.id
 _struct_conn.conn_type_id
-_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_auth_asym_id
 _struct_conn.ptnr1_label_comp_id
-_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_auth_seq_id
 _struct_conn.ptnr1_label_atom_id
-_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_auth_asym_id
 _struct_conn.ptnr2_label_comp_id
-_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_auth_seq_id
 _struct_conn.ptnr2_label_atom_id
 _struct_conn.pdbx_dist_value
 covale1 covale G ALA 10 C G NH2 11 N 1.327
@@ -92,12 +89,12 @@ ATOM 2 C CA . ARG G G 1 ? 10.729 64.027 8.135 1 24.65 ? 7 G 1
 ATOM 3 C C . ARG G G 1 ? 9.209 64.237 8.058 1 20.54 ? 7 G 1
 ATOM 4 O O . ARG G G 1 ? 8.743 65.337 7.737 1 20.55 ? 7 G 1
 ATOM 5 C CB . ARG G G 1 ? 11.07 62.883 9.084 1 31.77 ? 7 G 1
-ATOM 6 C CD . ARG G G 1 ? 9.88694493 61.6532512 11.0545472 1 26 ? 7 G 1
-ATOM 7 C CG . ARG G G 1 ? 10.4365705 63.0029372 10.4883521 1 26 ? 7 G 1
-ATOM 8 C CZ . ARG G G 1 ? 11.2255449 59.9670822 12.4073245 1 26 ? 7 G 1
-ATOM 9 N NE . ARG G G 1 ? 10.9499046 60.6476377 11.2754337 1 26 ? 7 G 1
-ATOM 10 N NH1 . ARG G G 1 ? 12.4849513 59.5890788 12.6690072 1 26 ? 7 G 1
-ATOM 11 N NH2 . ARG G G 1 ? 10.2672133 59.6757653 13.2976903 1 26 ? 7 G 1
+ATOM 6 C CG . ARG G G 1 ? 10.494 63.145 10.488 1 26.0 ? 7 G 1
+ATOM 7 C CD . ARG G G 1 ? 9.557 62.047 11.069 1 26.0 ? 7 G 1
+ATOM 8 N NE . ARG G G 1 ? 10.239 60.812 11.452 1 26.0 ? 7 G 1
+ATOM 9 C CZ . ARG G G 1 ? 9.656 59.918 12.337 1 26.0 ? 7 G 1
+ATOM 10 N NH1 . ARG G G 1 ? 10.560 59.518 13.303 1 26.0 ? 7 G 1
+ATOM 11 N NH2 . ARG G G 1 ? 8.432 59.563 12.239 1 26.0 ? 7 G 1
 ATOM 12 N N . ARG G G 2 ? 8.437 63.198 8.358 1 18.97 ? 8 G 1
 ATOM 13 C CA . ARG G G 2 ? 6.988 63.309 8.237 1 21.05 ? 8 G 1
 ATOM 14 C C . ARG G G 2 ? 6.437 64.309 9.262 1 15.34 ? 8 G 1
@@ -126,6 +123,8 @@ ATOM 36 C C . ALA G G 4 ? 0.99 66.874 11.835 1 17.71 ? 10 G 1
 ATOM 37 O O . ALA G G 4 ? -0.215 66.624 11.797 1 12.28 ? 10 G 1
 ATOM 38 C CB . ALA G G 4 ? 2.126 65.38 13.509 1 14.28 ? 10 G 1
 HETATM 39 N N . NH2 G G 5 ? 1.492 68.099 11.742 1 15.84 ? 11 G 1
+
+_struct.title '7VHE: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id
@@ -174,3 +173,47 @@ ARG NH2 HH22 SING N 37
 ARG OXT HXT SING N 38
 NH2 N HN1 SING N 39
 NH2 N HN2 SING N 40
+
+loop_
+_bmi_atom_origin.atom_site_id
+_bmi_atom_origin.origin
+_bmi_atom_origin.deposited_atom_site_id
+1 deposited 1
+2 deposited 2
+3 deposited 3
+4 deposited 4
+5 deposited 5
+6 rebuilt .
+7 rebuilt .
+8 rebuilt .
+9 rebuilt .
+10 rebuilt .
+11 rebuilt .
+12 deposited 6
+13 deposited 7
+14 deposited 8
+15 deposited 9
+16 deposited 10
+17 deposited 11
+18 deposited 12
+19 deposited 13
+20 deposited 14
+21 deposited 15
+22 deposited 16
+23 deposited 17
+24 deposited 18
+25 deposited 19
+26 deposited 20
+27 deposited 21
+28 deposited 22
+29 deposited 23
+30 deposited 24
+31 deposited 25
+32 deposited 26
+33 deposited 27
+34 deposited 28
+35 deposited 29
+36 deposited 30
+37 deposited 31
+38 deposited 32
+39 deposited 33

@@ -17,6 +17,8 @@ loop_
 _entity.id
 _entity.type
 P polymer
+ACE! non-polymer
+NME! non-polymer
 
 loop_
 _entity_poly.entity_id
@@ -34,11 +36,15 @@ PHE .
 THR .
 TYR .
 VAL .
+ACE .
+NME .
 
 loop_
 _struct_asym.id
 _struct_asym.entity_id
 Pxp P
+Px2 ACE!
+Px1 NME!
 
 loop_
 _atom_type.symbol
@@ -66,60 +72,65 @@ _atom_site.pdbx_formal_charge
 _atom_site.auth_seq_id
 _atom_site.auth_asym_id
 _atom_site.pdbx_PDB_model_num
-ATOM 1 N N . GLU Pxp P 2 ? 2.497 4.627 8.124 0.5 52.33 ? 3 P 1
-ATOM 2 C CA . GLU Pxp P 2 ? 3.655 4.068 8.893 0.5 47.98 ? 3 P 1
-ATOM 3 C C . GLU Pxp P 2 ? 3.187 3.55 10.236 0.5 49.7 ? 3 P 1
-ATOM 4 O O . GLU Pxp P 2 ? 3.06 4.303 11.19 0.5 37.19 ? 3 P 1
-ATOM 5 C CB . GLU Pxp P 2 ? 4.736 5.118 9.134 0.5 50.98 ? 3 P 1
-ATOM 6 C CD . GLU Pxp P 2 ? 6.79038355 5.89078574 7.44745771 1 47.64 ? 3 P 1
-ATOM 7 C CG . GLU Pxp P 2 ? 5.35966495 5.34474784 7.68392684 1 47.64 ? 3 P 1
-ATOM 8 O OE1 . GLU Pxp P 2 ? 7.6115897 6.15971784 8.30264999 1 47.64 ? 3 P 1
-ATOM 9 O OE2 . GLU Pxp P 2 ? 7.07123014 6.07764315 6.13810984 1 47.64 ? 3 P 1
-ATOM 10 N N . THR Pxp P 3 ? 2.987 2.245 10.308 0.5 49.92 ? 4 P 1
-ATOM 11 C CA . THR Pxp P 3 ? 2.641 1.593 11.559 0.5 49.92 ? 4 P 1
-ATOM 12 C C . THR Pxp P 3 ? 3.749 0.668 12.075 0.5 55.3 ? 4 P 1
-ATOM 13 O O . THR Pxp P 3 ? 3.719 -0.546 11.826 0.5 54.1 ? 4 P 1
-ATOM 14 C CB . THR Pxp P 3 ? 1.395 0.735 11.382 0.5 54.35 ? 4 P 1
-ATOM 15 O OG1 . THR Pxp P 3 ? 0.344 1.534 10.817 0.5 61.35 ? 4 P 1
-ATOM 16 C CG2 . THR Pxp P 3 ? 0.99 0.158 12.716 0.5 50.18 ? 4 P 1
-ATOM 17 N N . PHE Pxp P 4 ? 4.706 1.223 12.813 0.5 52.02 ? 5 P 1
-ATOM 18 C CA . PHE Pxp P 4 ? 5.879 0.434 13.208 0.5 61.5 ? 5 P 1
-ATOM 19 C C . PHE Pxp P 4 ? 5.708 -0.202 14.572 0.5 64.66 ? 5 P 1
-ATOM 20 O O . PHE Pxp P 4 ? 5.067 0.333 15.478 0.5 63.22 ? 5 P 1
-ATOM 21 C CB . PHE Pxp P 4 ? 7.165 1.243 13.142 0.5 58 ? 5 P 1
-ATOM 22 C CG . PHE Pxp P 4 ? 7.38 1.895 11.816 0.5 59.35 ? 5 P 1
-ATOM 23 C CD1 . PHE Pxp P 4 ? 7.656 1.131 10.683 0.5 70.04 ? 5 P 1
-ATOM 24 C CD2 . PHE Pxp P 4 ? 7.229 3.262 11.675 0.5 64.29 ? 5 P 1
-ATOM 25 C CE1 . PHE Pxp P 4 ? 7.82 1.734 9.443 0.5 66.46 ? 5 P 1
-ATOM 26 C CE2 . PHE Pxp P 4 ? 7.395 3.87 10.44 0.5 68.33 ? 5 P 1
-ATOM 27 C CZ . PHE Pxp P 4 ? 7.688 3.105 9.324 0.5 66.02 ? 5 P 1
-ATOM 28 N N . TYR Pxp P 5 ? 6.288 -1.372 14.69 0.5 62.45 ? 6 P 1
-ATOM 29 C CA . TYR Pxp P 5 ? 5.809 -2.343 15.635 0.5 72.51 ? 6 P 1
-ATOM 30 C C . TYR Pxp P 5 ? 6.547 -3.627 15.303 0.5 65.96 ? 6 P 1
-ATOM 31 O O . TYR Pxp P 5 ? 6.606 -4.067 14.146 0.5 48.84 ? 6 P 1
-ATOM 32 C CB . TYR Pxp P 5 ? 4.287 -2.534 15.519 0.5 80.09 ? 6 P 1
-ATOM 33 C CG . TYR Pxp P 5 ? 3.841 -3.919 15.921 0.5 85.09 ? 6 P 1
-ATOM 34 C CD1 . TYR Pxp P 5 ? 3.739 -4.274 17.259 0.5 88.71 ? 6 P 1
-ATOM 35 C CD2 . TYR Pxp P 5 ? 3.6 -4.894 14.965 0.5 84.08 ? 6 P 1
-ATOM 36 C CE1 . TYR Pxp P 5 ? 3.391 -5.555 17.633 0.5 89.88 ? 6 P 1
-ATOM 37 C CE2 . TYR Pxp P 5 ? 3.245 -6.176 15.327 0.5 87.14 ? 6 P 1
-ATOM 38 C CZ . TYR Pxp P 5 ? 3.143 -6.503 16.661 0.5 91.9 ? 6 P 1
-ATOM 39 O OH . TYR Pxp P 5 ? 2.795 -7.784 17.02 0.5 97 ? 6 P 1
-ATOM 40 N N . VAL Pxp P 6 ? 7.136 -4.194 16.341 0.5 62.19 ? 7 P 1
-ATOM 41 C CA . VAL Pxp P 6 ? 8.085 -5.26 16.213 0.5 57.57 ? 7 P 1
-ATOM 42 C C . VAL Pxp P 6 ? 7.905 -6.184 17.41 0.5 56.11 ? 7 P 1
-ATOM 43 O O . VAL Pxp P 6 ? 8.417 -5.903 18.493 0.5 56.82 ? 7 P 1
-ATOM 44 C CB . VAL Pxp P 6 ? 9.517 -4.711 16.265 0.5 65.06 ? 7 P 1
-ATOM 45 C CG1 . VAL Pxp P 6 ? 10.489 -5.836 16.584 0.5 65.33 ? 7 P 1
-ATOM 46 C CG2 . VAL Pxp P 6 ? 9.874 -3.991 14.968 0.5 69.65 ? 7 P 1
-ATOM 47 N N . ASP Pxp P 7 ? 7.171 -7.272 17.208 0.5 56.8 ? 8 P 1
-ATOM 48 C CA . ASP Pxp P 7 ? 6.95 -8.281 18.244 0.5 54.9 ? 8 P 1
-ATOM 49 C C . ASP Pxp P 7 ? 8.001 -9.392 18.187 0.5 48.39 ? 8 P 1
-ATOM 50 O O . ASP Pxp P 7 ? 8.4 -9.818 17.106 0.5 35.63 ? 8 P 1
-ATOM 51 C CB . ASP Pxp P 7 ? 5.548 -8.888 18.088 0.5 59.17 ? 8 P 1
-ATOM 52 C CG . ASP Pxp P 7 ? 5.4694 -10.3326 18.5608 1 50.98 ? 8 P 1
-ATOM 53 O OD1 . ASP Pxp P 7 ? 4.5497 -10.6431 19.3484 1 50.98 ? 8 P 1
-ATOM 54 O OD2 . ASP Pxp P 7 ? 6.3285 -11.1360 18.1378 1 50.98 ? 8 P 1
+HETATM 1 C C . ACE Px2 ACE! . ? 2.463 4.602 6.785 1 47.64 ? 2 P 1
+HETATM 2 O O . ACE Px2 ACE! . ? 3.369 4.125 6.102 1 47.64 ? 2 P 1
+HETATM 3 C CH3 . ACE Px2 ACE! . ? 1.237 5.199 6.137 1 47.64 ? 2 P 1
+ATOM 4 N N . GLU Pxp P 2 ? 2.497 4.627 8.124 0.5 52.33 ? 3 P 1
+ATOM 5 C CA . GLU Pxp P 2 ? 3.655 4.068 8.893 0.5 47.98 ? 3 P 1
+ATOM 6 C C . GLU Pxp P 2 ? 3.187 3.55 10.236 0.5 49.7 ? 3 P 1
+ATOM 7 O O . GLU Pxp P 2 ? 3.06 4.303 11.19 0.5 37.19 ? 3 P 1
+ATOM 8 C CB . GLU Pxp P 2 ? 4.736 5.118 9.134 0.5 50.98 ? 3 P 1
+ATOM 9 C CG . GLU Pxp P 2 ? 5.563 5.259 7.780 1 47.64 ? 3 P 1
+ATOM 10 C CD . GLU Pxp P 2 ? 6.977 5.886 7.638 1 47.64 ? 3 P 1
+ATOM 11 O OE1 . GLU Pxp P 2 ? 7.706 6.264 8.533 1 47.64 ? 3 P 1
+ATOM 12 O OE2 . GLU Pxp P 2 ? 7.379 5.975 6.349 1 47.64 ? 3 P 1
+ATOM 13 N N . THR Pxp P 3 ? 2.987 2.245 10.308 0.5 49.92 ? 4 P 1
+ATOM 14 C CA . THR Pxp P 3 ? 2.641 1.593 11.559 0.5 49.92 ? 4 P 1
+ATOM 15 C C . THR Pxp P 3 ? 3.749 0.668 12.075 0.5 55.3 ? 4 P 1
+ATOM 16 O O . THR Pxp P 3 ? 3.719 -0.546 11.826 0.5 54.1 ? 4 P 1
+ATOM 17 C CB . THR Pxp P 3 ? 1.395 0.735 11.382 0.5 54.35 ? 4 P 1
+ATOM 18 O OG1 . THR Pxp P 3 ? 0.344 1.534 10.817 0.5 61.35 ? 4 P 1
+ATOM 19 C CG2 . THR Pxp P 3 ? 0.99 0.158 12.716 0.5 50.18 ? 4 P 1
+ATOM 20 N N . PHE Pxp P 4 ? 4.706 1.223 12.813 0.5 52.02 ? 5 P 1
+ATOM 21 C CA . PHE Pxp P 4 ? 5.879 0.434 13.208 0.5 61.5 ? 5 P 1
+ATOM 22 C C . PHE Pxp P 4 ? 5.708 -0.202 14.572 0.5 64.66 ? 5 P 1
+ATOM 23 O O . PHE Pxp P 4 ? 5.067 0.333 15.478 0.5 63.22 ? 5 P 1
+ATOM 24 C CB . PHE Pxp P 4 ? 7.165 1.243 13.142 0.5 58 ? 5 P 1
+ATOM 25 C CG . PHE Pxp P 4 ? 7.38 1.895 11.816 0.5 59.35 ? 5 P 1
+ATOM 26 C CD1 . PHE Pxp P 4 ? 7.656 1.131 10.683 0.5 70.04 ? 5 P 1
+ATOM 27 C CD2 . PHE Pxp P 4 ? 7.229 3.262 11.675 0.5 64.29 ? 5 P 1
+ATOM 28 C CE1 . PHE Pxp P 4 ? 7.82 1.734 9.443 0.5 66.46 ? 5 P 1
+ATOM 29 C CE2 . PHE Pxp P 4 ? 7.395 3.87 10.44 0.5 68.33 ? 5 P 1
+ATOM 30 C CZ . PHE Pxp P 4 ? 7.688 3.105 9.324 0.5 66.02 ? 5 P 1
+ATOM 31 N N . TYR Pxp P 5 ? 6.288 -1.372 14.69 0.5 62.45 ? 6 P 1
+ATOM 32 C CA . TYR Pxp P 5 ? 5.809 -2.343 15.635 0.5 72.51 ? 6 P 1
+ATOM 33 C C . TYR Pxp P 5 ? 6.547 -3.627 15.303 0.5 65.96 ? 6 P 1
+ATOM 34 O O . TYR Pxp P 5 ? 6.606 -4.067 14.146 0.5 48.84 ? 6 P 1
+ATOM 35 C CB . TYR Pxp P 5 ? 4.287 -2.534 15.519 0.5 80.09 ? 6 P 1
+ATOM 36 C CG . TYR Pxp P 5 ? 3.841 -3.919 15.921 0.5 85.09 ? 6 P 1
+ATOM 37 C CD1 . TYR Pxp P 5 ? 3.739 -4.274 17.259 0.5 88.71 ? 6 P 1
+ATOM 38 C CD2 . TYR Pxp P 5 ? 3.6 -4.894 14.965 0.5 84.08 ? 6 P 1
+ATOM 39 C CE1 . TYR Pxp P 5 ? 3.391 -5.555 17.633 0.5 89.88 ? 6 P 1
+ATOM 40 C CE2 . TYR Pxp P 5 ? 3.245 -6.176 15.327 0.5 87.14 ? 6 P 1
+ATOM 41 C CZ . TYR Pxp P 5 ? 3.143 -6.503 16.661 0.5 91.9 ? 6 P 1
+ATOM 42 O OH . TYR Pxp P 5 ? 2.795 -7.784 17.02 0.5 97 ? 6 P 1
+ATOM 43 N N . VAL Pxp P 6 ? 7.136 -4.194 16.341 0.5 62.19 ? 7 P 1
+ATOM 44 C CA . VAL Pxp P 6 ? 8.085 -5.26 16.213 0.5 57.57 ? 7 P 1
+ATOM 45 C C . VAL Pxp P 6 ? 7.905 -6.184 17.41 0.5 56.11 ? 7 P 1
+ATOM 46 O O . VAL Pxp P 6 ? 8.417 -5.903 18.493 0.5 56.82 ? 7 P 1
+ATOM 47 C CB . VAL Pxp P 6 ? 9.517 -4.711 16.265 0.5 65.06 ? 7 P 1
+ATOM 48 C CG1 . VAL Pxp P 6 ? 10.489 -5.836 16.584 0.5 65.33 ? 7 P 1
+ATOM 49 C CG2 . VAL Pxp P 6 ? 9.874 -3.991 14.968 0.5 69.65 ? 7 P 1
+ATOM 50 N N . ASP Pxp P 7 ? 7.171 -7.272 17.208 0.5 56.8 ? 8 P 1
+ATOM 51 C CA . ASP Pxp P 7 ? 6.95 -8.281 18.244 0.5 54.9 ? 8 P 1
+ATOM 52 C C . ASP Pxp P 7 ? 8.001 -9.392 18.187 0.5 48.39 ? 8 P 1
+ATOM 53 O O . ASP Pxp P 7 ? 8.4 -9.818 17.106 0.5 35.63 ? 8 P 1
+ATOM 54 C CB . ASP Pxp P 7 ? 5.548 -8.888 18.088 0.5 59.17 ? 8 P 1
+ATOM 55 C CG . ASP Pxp P 7 ? 5.458 -10.420 18.237 1 50.98 ? 8 P 1
+ATOM 56 O OD1 . ASP Pxp P 7 ? 5.416 -11.003 19.304 1 50.98 ? 8 P 1
+ATOM 57 O OD2 . ASP Pxp P 7 ? 5.329 -11.085 17.065 1 50.98 ? 8 P 1
+HETATM 58 N N . NME Px1 NME! . ? 8.486 -9.900 19.316 1 50.98 ? 9 P 1
+HETATM 59 C C . NME Px1 NME! . ? 9.490 -10.961 19.312 1 50.98 ? 9 P 1
 
 loop_
 _chem_comp_bond.comp_id
@@ -242,6 +253,18 @@ VAL CG2 HG21 SING N 111
 VAL CG2 HG22 SING N 112
 VAL CG2 HG23 SING N 113
 VAL OXT HXT SING N 114
+ACE C O DOUB N 115
+ACE C CH3 SING N 116
+ACE C H SING N 117
+ACE CH3 H1 SING N 118
+ACE CH3 H2 SING N 119
+ACE CH3 H3 SING N 120
+NME N C SING N 121
+NME N HN1 SING N 122
+NME N HN2 SING N 123
+NME C H1 SING N 124
+NME C H2 SING N 125
+NME C H3 SING N 126
 
 loop_
 _struct_conn.id
@@ -260,3 +283,69 @@ covale2 covale P TYR 6 C P VAL 7 N 1.321
 covale3 covale P GLU 3 C P THR 4 N 1.322
 covale4 covale P VAL 7 C P ASP 8 N 1.328
 covale5 covale P THR 4 C P PHE 5 N 1.330
+covale6 covale P ACE 2 C P GLU 3 N 1.340
+covale7 covale P ASP 8 C P NME 9 N 1.330
+
+loop_
+_bmi_atom_origin.atom_site_id
+_bmi_atom_origin.origin
+_bmi_atom_origin.deposited_atom_site_id
+1 stand_in_cap .
+2 stand_in_cap .
+3 stand_in_cap .
+4 deposited 1
+5 deposited 2
+6 deposited 3
+7 deposited 4
+8 deposited 5
+9 rebuilt .
+10 rebuilt .
+11 rebuilt .
+12 rebuilt .
+13 deposited 6
+14 deposited 7
+15 deposited 8
+16 deposited 9
+17 deposited 10
+18 deposited 11
+19 deposited 12
+20 deposited 13
+21 deposited 14
+22 deposited 15
+23 deposited 16
+24 deposited 17
+25 deposited 18
+26 deposited 19
+27 deposited 20
+28 deposited 21
+29 deposited 22
+30 deposited 23
+31 deposited 24
+32 deposited 25
+33 deposited 26
+34 deposited 27
+35 deposited 28
+36 deposited 29
+37 deposited 30
+38 deposited 31
+39 deposited 32
+40 deposited 33
+41 deposited 34
+42 deposited 35
+43 deposited 36
+44 deposited 37
+45 deposited 38
+46 deposited 39
+47 deposited 40
+48 deposited 41
+49 deposited 42
+50 deposited 43
+51 deposited 44
+52 deposited 45
+53 deposited 46
+54 deposited 47
+55 rebuilt .
+56 rebuilt .
+57 rebuilt .
+58 stand_in_cap .
+59 stand_in_cap .

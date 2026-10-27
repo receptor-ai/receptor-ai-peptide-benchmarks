@@ -178,22 +178,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 317841,
-    "file": "complex.cif",
-    "n_chains": 3,
-    "n_struct_conn": 1,
-    "subchains_kept": [
-     "A",
-     "B",
-     "D"
-    ]
-   },
    "peptide.cif": {
     "bytes": 5698,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 1,
+    "n_struct_conn": 4,
     "subchains_kept": [
      "D"
     ]
@@ -758,9 +747,8 @@
    "total_heavy_before": 4633
   },
   "files": {
-   "complex.cif": "strict",
    "peptide.cif": "unchanged",
-   "receptor.cif": "strict (rewritten so that peptide.cif + receptor.cif still partition complex.cif)"
+   "receptor.cif": "rewritten strictly"
   },
   "ion_rule": "monatomic stays, polyatomic goes: CL/NA/K/ZN/CA/MG/... kept, SO4/PO4/NO3/NH4 removed. A monatomic ion is also never a covalent bridge, so it cannot make a component it coordinates peptide-integral - SPEC sec.7 rule 4, coordination is not a covalent bond",
   "n_struct_conn_after": 1,
@@ -776,5 +764,66 @@
    "checks_failed": [],
    "ok": true
   }
- }
+ },
+ "derived": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "C:NME(stand-in)",
+  "added_residues": [
+   {
+    "residue": "D/NME/5",
+    "label_asym": "Dx1",
+    "entity": "NME!",
+    "entity_type": "non-polymer",
+    "label_seq": ".",
+    "group": "HETATM",
+    "anchor": "after D/LYS/4"
+   }
+  ],
+  "added_atoms": [
+   {
+    "atom": "D/NME/5/N",
+    "element": "N",
+    "origin": "stand_in_cap",
+    "xyz": [
+     2.36,
+     3.683,
+     28.035
+    ],
+    "b": 20.51
+   },
+   {
+    "atom": "D/NME/5/C",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     3.222,
+     2.703,
+     27.381
+    ],
+    "b": 20.51
+   }
+  ],
+  "added_links": [
+   {
+    "type": "covale",
+    "atom1": "D/LYS/4/C",
+    "atom2": "D/NME/5/N"
+   }
+  ],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 4.44,
+    "min_receptor_contact_A": 3.67,
+    "junction_bonds_A": [
+     1.33
+    ]
+   }
+  }
+ },
+ "receptor_links": []
 }

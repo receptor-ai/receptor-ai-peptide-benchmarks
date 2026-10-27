@@ -365,23 +365,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 116206,
-    "file": "complex.cif",
-    "n_chains": 4,
-    "n_struct_conn": 2,
-    "subchains_kept": [
-     "B",
-     "A",
-     "C",
-     "E"
-    ]
-   },
    "peptide.cif": {
     "bytes": 12052,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 1,
+    "n_struct_conn": 15,
     "subchains_kept": [
      "B"
     ]
@@ -389,7 +377,7 @@
    "receptor.cif": {
     "bytes": 108138,
     "file": "receptor.cif",
-    "n_chains": 4,
+    "n_chains": 3,
     "n_struct_conn": 0,
     "subchains_kept": [
      "A",
@@ -1436,26 +1424,11 @@
   },
   "built_utc": "2026-08-03T17:05:17Z",
   "files": {
-   "complex.cif": "strict: protein + peptide + metals/monatomic ions",
    "peptide.cif": "unchanged - every component covalently part of the peptide is retained by the policy",
    "receptor.cif": "rewritten strictly"
   },
   "needs_human_review": [],
   "notes": [],
-  "outputs": {
-   "complex.cif": {
-    "bytes": 116207,
-    "n_struct_conn": 2
-   },
-   "peptide.cif": {
-    "bytes": 8857,
-    "n_struct_conn": 1
-   },
-   "receptor.cif": {
-    "bytes": 108139,
-    "n_struct_conn": 0
-   }
-  },
   "policy": {
    "ambiguous_set_ruling": "CL/NA/K are monatomic ions and stay. SO4/PO4 are polyatomic additives and go. NH4 goes: only one heavy atom is modelled but the CCD lists 5 atoms, so the species is polyatomic, and the test is on the species not on what happens to be modelled. UNX goes: one atom, but element X is neither metal nor halide.",
    "keep_K1_peptide_integral": "any component sharing a label_asym_id with a residue of decisions.hetero.peptide_covalent_moieties (whole branched entity), EXCEPT a cryoprotectant or buffer additive whose only link to the peptide is distance-inferred rather than in _struct_conn",
@@ -1498,12 +1471,34 @@
   ],
   "retained_components": [],
   "verification": {
-   "complex_cif_rereads": true,
    "ends_with_newline": true,
    "every_surviving_struct_conn_present": true,
    "peptide_plus_receptor_partition_complex_exactly": true,
    "problems": [],
    "ring_closures_and_staples_survive": true
   }
- }
+ },
+ "derived": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "-",
+  "added_residues": [],
+  "added_atoms": [],
+  "added_links": []
+ },
+ "receptor_links": [
+  {
+   "type": "disulf",
+   "peptide_atom": "B/CYS/26/SG",
+   "receptor_atom": "A/CYS/100/SG",
+   "symmetry": [
+    "1_555",
+    "1_555"
+   ],
+   "distance_A": 2.015
+  }
+ ]
 }

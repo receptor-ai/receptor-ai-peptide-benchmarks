@@ -387,21 +387,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 157395,
-    "file": "complex.cif",
-    "n_chains": 2,
-    "n_struct_conn": 0,
-    "subchains_kept": [
-     "C",
-     "A"
-    ]
-   },
    "peptide.cif": {
     "bytes": 9702,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 0,
+    "n_struct_conn": 9,
     "subchains_kept": [
      "C"
     ]
@@ -409,7 +399,7 @@
    "receptor.cif": {
     "bytes": 151572,
     "file": "receptor.cif",
-    "n_chains": 2,
+    "n_chains": 1,
     "n_struct_conn": 0,
     "subchains_kept": [
      "A"
@@ -1064,26 +1054,11 @@
   },
   "built_utc": "2026-08-03T17:05:21Z",
   "files": {
-   "complex.cif": "strict: protein + peptide + metals/monatomic ions",
    "peptide.cif": "unchanged - every component covalently part of the peptide is retained by the policy",
    "receptor.cif": "rewritten strictly"
   },
   "needs_human_review": [],
   "notes": [],
-  "outputs": {
-   "complex.cif": {
-    "bytes": 157396,
-    "n_struct_conn": 0
-   },
-   "peptide.cif": {
-    "bytes": 6735,
-    "n_struct_conn": 0
-   },
-   "receptor.cif": {
-    "bytes": 151573,
-    "n_struct_conn": 0
-   }
-  },
   "policy": {
    "ambiguous_set_ruling": "CL/NA/K are monatomic ions and stay. SO4/PO4 are polyatomic additives and go. NH4 goes: only one heavy atom is modelled but the CCD lists 5 atoms, so the species is polyatomic, and the test is on the species not on what happens to be modelled. UNX goes: one atom, but element X is neither metal nor halide.",
    "keep_K1_peptide_integral": "any component sharing a label_asym_id with a residue of decisions.hetero.peptide_covalent_moieties (whole branched entity), EXCEPT a cryoprotectant or buffer additive whose only link to the peptide is distance-inferred rather than in _struct_conn",
@@ -1126,12 +1101,72 @@
   ],
   "retained_components": [],
   "verification": {
-   "complex_cif_rereads": true,
    "ends_with_newline": true,
    "every_surviving_struct_conn_present": true,
    "peptide_plus_receptor_partition_complex_exactly": true,
    "problems": [],
    "ring_closures_and_staples_survive": true
   }
- }
+ },
+ "derived": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "C:NME(stand-in)",
+  "added_residues": [
+   {
+    "residue": "C/NME/567",
+    "label_asym": "Cx1",
+    "entity": "NME!",
+    "entity_type": "non-polymer",
+    "label_seq": ".",
+    "group": "HETATM",
+    "anchor": "after C/HIS/566"
+   }
+  ],
+  "added_atoms": [
+   {
+    "atom": "C/NME/567/N",
+    "element": "N",
+    "origin": "stand_in_cap",
+    "xyz": [
+     -29.112,
+     -49.785,
+     -19.116
+    ],
+    "b": 32.05
+   },
+   {
+    "atom": "C/NME/567/C",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     -30.246,
+     -50.375,
+     -18.409
+    ],
+    "b": 32.05
+   }
+  ],
+  "added_links": [
+   {
+    "type": "covale",
+    "atom1": "C/HIS/566/C",
+    "atom2": "C/NME/567/N"
+   }
+  ],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 4.18,
+    "min_receptor_contact_A": 8.64,
+    "junction_bonds_A": [
+     1.33
+    ]
+   }
+  }
+ },
+ "receptor_links": []
 }

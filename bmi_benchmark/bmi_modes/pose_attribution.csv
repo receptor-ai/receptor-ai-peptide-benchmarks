@@ -2,16 +2,6 @@ site_id,site_type,pose_source,pose_a,pose_b,same_mode,n_paired_bb_atoms,inplace_
 A_8ZVY,one_deposition,copies,D/-,C/-,0,40,20.47,4.76,19.67,8,0,0.58,P02281;P06897,DNEAYEMPSEEGYQDYEPEA
 A_2AOJ,one_deposition,altloc,C/A,C/B,0,44,19.17,1.82,17.92,10,0,0.05,P04587,VSFN(FRD)PQITAA(NH2)
 B_P06873_3PTL,repeat_deposition,copies,3PTL,3OSZ,0,40,18.52,3.76,16.8,8,0,0.19,P06873,KGEADALSLD
-A_3LIY,one_deposition,copies,C/-,F/A,1,32,0.79,0.67,0.34,6,1,0.53,Q82134,(ACE)APQV(STA)VMHP
-A_3LIY,one_deposition,copies,C/-,F/B,0,32,16.58,0.56,13.35,6,1,0.54,Q82134,(ACE)APQV(STA)VMHP
-A_3LIY,one_deposition,copies,C/-,I/A,1,32,0.87,0.71,0.3,6,1,0.42,Q82134,(ACE)APQV(STA)VMHP
-A_3LIY,one_deposition,copies,C/-,I/B,0,32,16.34,0.6,13.19,6,1,0.45,Q82134,(ACE)APQV(STA)VMHP
-A_3LIY,one_deposition,altloc,F/A,F/B,0,32,16.59,0.28,13.49,6,1,0.54,Q82134,(ACE)APQV(STA)VMHP
-A_3LIY,one_deposition,copies,F/A,I/A,1,32,0.4,0.29,0.32,6,1,0.42,Q82134,(ACE)APQV(STA)VMHP
-A_3LIY,one_deposition,copies,F/A,I/B,0,32,16.35,0.25,13.32,6,1,0.45,Q82134,(ACE)APQV(STA)VMHP
-A_3LIY,one_deposition,copies,F/B,I/A,0,32,16.54,0.43,13.43,6,1,0.42,Q82134,(ACE)APQV(STA)VMHP
-A_3LIY,one_deposition,copies,F/B,I/B,1,32,0.7,0.36,0.6,6,1,0.45,Q82134,(ACE)APQV(STA)VMHP
-A_3LIY,one_deposition,altloc,I/A,I/B,0,32,16.29,0.19,13.25,6,1,0.45,Q82134,(ACE)APQV(STA)VMHP
 A_2AOF,one_deposition,altloc,C/A,C/C,0,40,16.91,1.86,15.2,9,0,0.0,P04587,RPGN(FRD)LQSRP(NH2)
 A_6BRA,one_deposition,altloc,C/A,C/B,0,32,14.48,0.39,10.7,6,1,0.31,Q5RZ08,SGIFLETS
 A_2ZNE,one_deposition,copies,C/-,D/-,0,44,13.4,2.86,13.21,9,0,0.55,O75340,QGPPYPTYPGYPGYSQ

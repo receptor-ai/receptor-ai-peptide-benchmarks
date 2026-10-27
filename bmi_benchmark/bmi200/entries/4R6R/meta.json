@@ -588,23 +588,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 217809,
-    "file": "complex.cif",
-    "n_chains": 4,
-    "n_struct_conn": 0,
-    "subchains_kept": [
-     "B",
-     "A",
-     "C",
-     "E"
-    ]
-   },
    "peptide.cif": {
     "bytes": 14247,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 0,
+    "n_struct_conn": 16,
     "subchains_kept": [
      "B"
     ]
@@ -1580,7 +1568,6 @@
     "decisions.hetero.components[].min_dist_to_receptor_A",
     "any drop reason of the form non_site_ligand_min_dist_to_peptide_<d> that embeds one"
    ],
-   "date": "2026-08-03",
    "gap": "gemmi's NeighborSearch returns lattice-translated copies of an atom with image_idx == 0, so _decide_hetero's `if m.image_idx != 0: continue` guard does not exclude them. The distance is then measured to the UNtranslated atom. The values listed below exceed the 6.0 A search radius and are therefore provably artefacts rather than measurements.",
    "id": "neighbour_search_lattice_image_distance",
    "instances": [
@@ -1621,26 +1608,11 @@
   },
   "built_utc": "2026-08-03T17:05:23Z",
   "files": {
-   "complex.cif": "strict: protein + peptide + metals/monatomic ions",
    "peptide.cif": "unchanged - every component covalently part of the peptide is retained by the policy",
    "receptor.cif": "unchanged - nothing was removed from it"
   },
   "needs_human_review": [],
   "notes": [],
-  "outputs": {
-   "complex.cif": {
-    "bytes": 217810,
-    "n_struct_conn": 0
-   },
-   "peptide.cif": {
-    "bytes": 8993,
-    "n_struct_conn": 0
-   },
-   "receptor.cif": {
-    "bytes": 209683,
-    "n_struct_conn": 0
-   }
-  },
   "policy": {
    "ambiguous_set_ruling": "CL/NA/K are monatomic ions and stay. SO4/PO4 are polyatomic additives and go. NH4 goes: only one heavy atom is modelled but the CCD lists 5 atoms, so the species is polyatomic, and the test is on the species not on what happens to be modelled. UNX goes: one atom, but element X is neither metal nor halide.",
    "keep_K1_peptide_integral": "any component sharing a label_asym_id with a residue of decisions.hetero.peptide_covalent_moieties (whole branched entity), EXCEPT a cryoprotectant or buffer additive whose only link to the peptide is distance-inferred rather than in _struct_conn",
@@ -1653,12 +1625,72 @@
   "removed_within_4.0A_of_peptide": [],
   "retained_components": [],
   "verification": {
-   "complex_cif_rereads": true,
    "ends_with_newline": true,
    "every_surviving_struct_conn_present": true,
    "peptide_plus_receptor_partition_complex_exactly": true,
    "problems": [],
    "ring_closures_and_staples_survive": true
   }
- }
+ },
+ "derived": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "C:NME(stand-in)",
+  "added_residues": [
+   {
+    "residue": "B/NME/19",
+    "label_asym": "Bx1",
+    "entity": "NME!",
+    "entity_type": "non-polymer",
+    "label_seq": ".",
+    "group": "HETATM",
+    "anchor": "after B/LYS/18"
+   }
+  ],
+  "added_atoms": [
+   {
+    "atom": "B/NME/19/N",
+    "element": "N",
+    "origin": "stand_in_cap",
+    "xyz": [
+     -3.616,
+     25.03,
+     30.264
+    ],
+    "b": 51.72
+   },
+   {
+    "atom": "B/NME/19/C",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     -2.802,
+     26.117,
+     29.728
+    ],
+    "b": 51.72
+   }
+  ],
+  "added_links": [
+   {
+    "type": "covale",
+    "atom1": "B/LYS/18/C",
+    "atom2": "B/NME/19/N"
+   }
+  ],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 4.18,
+    "min_receptor_contact_A": 6.77,
+    "junction_bonds_A": [
+     1.33
+    ]
+   }
+  }
+ },
+ "receptor_links": []
 }

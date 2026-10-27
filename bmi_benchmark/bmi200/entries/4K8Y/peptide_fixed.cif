@@ -39,9 +39,6 @@ PRO .
 SER .
 THR .
 
-_struct.entry_id 4K8Y
-_struct.title '4K8Y: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
-
 loop_
 _struct_asym.id
 _struct_asym.entity_id
@@ -72,6 +69,8 @@ covale10 covale B PRO 8 C B PRO 9 N 1.339
 covale11 covale B ILE 7 C B PRO 8 N 1.347
 covale12 covale B GLY 1 N B ASP 14 C 1.413
 covale13 covale B CYS 3 SG B CYS 11 SG 2.037
+covale14 covale B PHE 12 C B PRO 13 N 1.415
+covale15 covale B PRO 13 C B ASP 14 N 1.403
 
 loop_
 _struct_conn_type.id
@@ -195,14 +194,23 @@ ATOM 87 C CD2 . PHE B B 12 ? 25.535 -26.988 6.962 1 18.66 ? 12 B 1
 ATOM 88 C CE1 . PHE B B 12 ? 23.939 -24.732 7.006 1 15.96 ? 12 B 1
 ATOM 89 C CE2 . PHE B B 12 ? 25.6 -26.117 8.039 1 17.65 ? 12 B 1
 ATOM 90 C CZ . PHE B B 12 ? 24.802 -24.989 8.061 1 17.13 ? 12 B 1
-ATOM 91 N N . ASP B B 14 ? 24.816 -30.787 -0.552 1 27.52 ? 14 B 1
-ATOM 92 C CA . ASP B B 14 ? 23.766 -31.256 -1.448 1 27.37 ? 14 B 1
-ATOM 93 C C . ASP B B 14 ? 22.652 -30.222 -1.58 1 24.85 ? 14 B 1
-ATOM 94 O O . ASP B B 14 ? 21.485 -30.571 -1.76 1 25.17 ? 14 B 1
-ATOM 95 C CB . ASP B B 14 ? 23.194 -32.586 -0.951 1 28.81 ? 14 B 1
-ATOM 96 C CG . ASP B B 14 ? 24.3059727 -33.6033178 -0.659439436 1 26.74 ? 14 B 1
-ATOM 97 O OD1 . ASP B B 14 ? 24.9629344 -34.1491542 -1.5250294 1 26.74 ? 14 B 1
-ATOM 98 O OD2 . ASP B B 14 ? 24.4344153 -33.9275581 0.6478386 1 26.74 ? 14 B 1
+ATOM 91 N N . PRO B B 13 ? 25.948 -29.607 2.664 1 20.98 ? 13 B 1
+ATOM 92 C CA . PRO B B 13 ? 26.074 -30.530 1.510 1 20.98 ? 13 B 1
+ATOM 93 C C . PRO B B 13 ? 24.701 -30.804 0.846 1 20.98 ? 13 B 1
+ATOM 94 O O . PRO B B 13 ? 23.652 -30.951 1.453 1 20.98 ? 13 B 1
+ATOM 95 C CB . PRO B B 13 ? 26.624 -31.798 2.207 1 20.98 ? 13 B 1
+ATOM 96 C CG . PRO B B 13 ? 27.654 -31.153 3.173 1 20.98 ? 13 B 1
+ATOM 97 C CD . PRO B B 13 ? 26.827 -29.991 3.791 1 20.98 ? 13 B 1
+ATOM 98 N N . ASP B B 14 ? 24.816 -30.787 -0.552 1 27.52 ? 14 B 1
+ATOM 99 C CA . ASP B B 14 ? 23.766 -31.256 -1.448 1 27.37 ? 14 B 1
+ATOM 100 C C . ASP B B 14 ? 22.652 -30.222 -1.58 1 24.85 ? 14 B 1
+ATOM 101 O O . ASP B B 14 ? 21.485 -30.571 -1.76 1 25.17 ? 14 B 1
+ATOM 102 C CB . ASP B B 14 ? 23.194 -32.586 -0.951 1 28.81 ? 14 B 1
+ATOM 103 C CG . ASP B B 14 ? 24.290 -33.620 -0.647 1 26.74 ? 14 B 1
+ATOM 104 O OD1 . ASP B B 14 ? 25.037 -34.077 -1.494 1 26.74 ? 14 B 1
+ATOM 105 O OD2 . ASP B B 14 ? 24.275 -34.104 0.616 1 26.74 ? 14 B 1
+
+_struct.title '4K8Y: retained peptide copy + covalent moieties (BMI-200 benchmark, cleaned)'
 
 loop_
 _chem_comp_bond.comp_id
@@ -388,3 +396,113 @@ THR CG2 HG21 SING N 174
 THR CG2 HG22 SING N 175
 THR CG2 HG23 SING N 176
 THR OXT HXT SING N 177
+
+loop_
+_bmi_atom_origin.atom_site_id
+_bmi_atom_origin.origin
+_bmi_atom_origin.deposited_atom_site_id
+1 deposited 1
+2 deposited 2
+3 deposited 3
+4 deposited 4
+5 deposited 5
+6 deposited 6
+7 deposited 7
+8 deposited 8
+9 deposited 9
+10 deposited 10
+11 deposited 11
+12 deposited 12
+13 deposited 13
+14 deposited 14
+15 deposited 15
+16 deposited 16
+17 deposited 17
+18 deposited 18
+19 deposited 19
+20 deposited 20
+21 deposited 21
+22 deposited 22
+23 deposited 23
+24 deposited 24
+25 deposited 25
+26 deposited 26
+27 deposited 27
+28 deposited 28
+29 deposited 29
+30 deposited 30
+31 deposited 31
+32 deposited 32
+33 deposited 33
+34 deposited 34
+35 deposited 35
+36 deposited 36
+37 deposited 37
+38 deposited 38
+39 deposited 39
+40 deposited 40
+41 deposited 41
+42 deposited 42
+43 deposited 43
+44 deposited 44
+45 deposited 45
+46 deposited 46
+47 deposited 47
+48 deposited 48
+49 deposited 49
+50 deposited 50
+51 deposited 51
+52 deposited 52
+53 deposited 53
+54 deposited 54
+55 deposited 55
+56 deposited 56
+57 deposited 57
+58 deposited 58
+59 deposited 59
+60 deposited 60
+61 deposited 61
+62 deposited 62
+63 deposited 63
+64 deposited 64
+65 deposited 65
+66 deposited 66
+67 deposited 67
+68 deposited 68
+69 deposited 69
+70 deposited 70
+71 deposited 71
+72 deposited 72
+73 deposited 73
+74 deposited 74
+75 deposited 75
+76 deposited 76
+77 deposited 77
+78 deposited 78
+79 deposited 79
+80 deposited 80
+81 deposited 81
+82 deposited 82
+83 deposited 83
+84 deposited 84
+85 deposited 85
+86 deposited 86
+87 deposited 87
+88 deposited 88
+89 deposited 89
+90 deposited 90
+91 rebuilt .
+92 rebuilt .
+93 rebuilt .
+94 rebuilt .
+95 rebuilt .
+96 rebuilt .
+97 rebuilt .
+98 deposited 91
+99 deposited 92
+100 deposited 93
+101 deposited 94
+102 deposited 95
+103 rebuilt .
+104 rebuilt .
+105 rebuilt .

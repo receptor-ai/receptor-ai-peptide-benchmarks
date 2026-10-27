@@ -657,19 +657,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 462719,
-    "file": "complex.cif",
-    "n_chains": 5,
-    "n_struct_conn": 10,
-    "role": "strict primary",
-    "written_by": "strict-hetero-clean bmi-strict-hetero-1.0"
-   },
    "peptide.cif": {
     "bytes": 11397,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 0,
+    "n_struct_conn": 17,
     "subchains_kept": [
      "E"
     ]
@@ -1653,12 +1645,6 @@
    "trailing_newline": true
   },
   "files": {
-   "complex.cif": {
-    "bytes": 462719,
-    "n_chains": 5,
-    "n_struct_conn": 10,
-    "role": "strict primary"
-   },
    "peptide.cif": {
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
@@ -1832,5 +1818,88 @@
    }
   ],
   "utc": "2026-08-03T16:51:20Z"
- }
+ },
+ "derived": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "N:ACE(stand-in);C:OXT",
+  "added_residues": [
+   {
+    "residue": "E/ACE/2",
+    "label_asym": "Ex1",
+    "entity": "ACE!",
+    "entity_type": "non-polymer",
+    "label_seq": ".",
+    "group": "HETATM",
+    "anchor": "before E/ASN/3"
+   }
+  ],
+  "added_atoms": [
+   {
+    "atom": "E/ACE/2/C",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     5.904,
+     5.7,
+     9.592
+    ],
+    "b": 38.72
+   },
+   {
+    "atom": "E/ACE/2/O",
+    "element": "O",
+    "origin": "stand_in_cap",
+    "xyz": [
+     7.106,
+     5.959,
+     9.57
+    ],
+    "b": 38.72
+   },
+   {
+    "atom": "E/ACE/2/CH3",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     4.979,
+     6.223,
+     8.52
+    ],
+    "b": 38.72
+   },
+   {
+    "atom": "E/PRO/20/OXT",
+    "element": "O",
+    "origin": "oxt",
+    "xyz": [
+     -6.961,
+     12.618,
+     22.923
+    ],
+    "b": 39.54
+   }
+  ],
+  "added_links": [
+   {
+    "type": "covale",
+    "atom1": "E/ACE/2/C",
+    "atom2": "E/ASN/3/N"
+   }
+  ],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 3.64,
+    "min_receptor_contact_A": 3.22,
+    "junction_bonds_A": [
+     1.34
+    ]
+   }
+  }
+ },
+ "receptor_links": []
 }

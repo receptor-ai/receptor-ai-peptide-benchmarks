@@ -137,12 +137,12 @@ ATOM 65 C CA . ARG Qxp Q 9 ? 24.149 25.751 21.739 0.42 35.38 ? 309 Q 1
 ATOM 66 C C . ARG Qxp Q 9 ? 25.387 25.963 22.574 0.42 37.89 ? 309 Q 1
 ATOM 67 O O . ARG Qxp Q 9 ? 25.322 25.351 23.662 0.42 34.01 ? 309 Q 1
 ATOM 68 C CB . ARG Qxp Q 9 ? 23.612 24.329 22.011 0.42 39.32 ? 309 Q 1
-ATOM 69 C CD . ARG Qxp Q 9 ? 22.8835556 24.3022474 20.035186 1 34.95 ? 309 Q 1
-ATOM 70 C CG . ARG Qxp Q 9 ? 23.5693297 23.3280952 21.0497303 1 34.95 ? 309 Q 1
-ATOM 71 C CZ . ARG Qxp Q 9 ? 24.8699759 23.3671269 18.5912984 1 34.95 ? 309 Q 1
-ATOM 72 N NE . ARG Qxp Q 9 ? 23.561036 23.56843 18.9232695 1 34.95 ? 309 Q 1
-ATOM 73 N NH1 . ARG Qxp Q 9 ? 25.6593201 24.3460151 18.1343038 1 34.95 ? 309 Q 1
-ATOM 74 N NH2 . ARG Qxp Q 9 ? 25.3742522 22.1255799 18.635177 1 34.95 ? 309 Q 1
+ATOM 69 C CG . ARG Qxp Q 9 ? 24.644 23.227 21.603 1 34.95 ? 309 Q 1
+ATOM 70 C CD . ARG Qxp Q 9 ? 24.411 22.519 20.231 1 34.95 ? 309 Q 1
+ATOM 71 N NE . ARG Qxp Q 9 ? 24.774 23.313 19.051 1 34.95 ? 309 Q 1
+ATOM 72 C CZ . ARG Qxp Q 9 ? 26.065 23.640 18.654 1 34.95 ? 309 Q 1
+ATOM 73 N NH1 . ARG Qxp Q 9 ? 26.040 24.443 17.529 1 34.95 ? 309 Q 1
+ATOM 74 N NH2 . ARG Qxp Q 9 ? 27.108 23.235 19.272 1 34.95 ? 309 Q 1
 ATOM 75 N N . PRO Qxp Q 10 ? 26.441 26.682 22.248 0.42 45.72 ? 310 Q 1
 ATOM 76 C CA . PRO Qxp Q 10 ? 27.458 27.167 23.193 0.42 47.15 ? 310 Q 1
 ATOM 77 C C . PRO Qxp Q 10 ? 27.044 27.392 24.64 0.42 48.69 ? 310 Q 1
@@ -328,3 +328,90 @@ covale7 covale Q PRO 302 C Q GLY 303 N 1.330
 covale8 covale Q FRD 305 C Q LEU 306 N 1.343
 covale9 covale Q LEU 306 C Q GLN 307 N 1.344
 covale10 covale Q GLN 307 C Q SER 308 N 1.345
+
+loop_
+_bmi_atom_origin.atom_site_id
+_bmi_atom_origin.origin
+_bmi_atom_origin.deposited_atom_site_id
+1 deposited 1
+2 deposited 2
+3 deposited 3
+4 deposited 4
+5 deposited 5
+6 deposited 6
+7 deposited 7
+8 deposited 8
+9 deposited 9
+10 deposited 10
+11 deposited 11
+12 deposited 12
+13 deposited 13
+14 deposited 14
+15 deposited 15
+16 deposited 16
+17 deposited 17
+18 deposited 18
+19 deposited 19
+20 deposited 20
+21 deposited 21
+22 deposited 22
+23 deposited 23
+24 deposited 24
+25 deposited 25
+26 deposited 26
+27 deposited 27
+28 deposited 28
+29 deposited 29
+30 deposited 30
+31 deposited 31
+32 deposited 32
+33 deposited 33
+34 deposited 34
+35 deposited 35
+36 deposited 36
+37 deposited 37
+38 deposited 38
+39 deposited 39
+40 deposited 40
+41 deposited 41
+42 deposited 42
+43 deposited 43
+44 deposited 44
+45 deposited 45
+46 deposited 46
+47 deposited 47
+48 deposited 48
+49 deposited 49
+50 deposited 50
+51 deposited 51
+52 deposited 52
+53 deposited 53
+54 deposited 54
+55 deposited 55
+56 deposited 56
+57 deposited 57
+58 deposited 58
+59 deposited 59
+60 deposited 60
+61 deposited 61
+62 deposited 62
+63 deposited 63
+64 deposited 64
+65 deposited 65
+66 deposited 66
+67 deposited 67
+68 deposited 68
+69 rebuilt .
+70 rebuilt .
+71 rebuilt .
+72 rebuilt .
+73 rebuilt .
+74 rebuilt .
+75 deposited 69
+76 deposited 70
+77 deposited 71
+78 deposited 72
+79 deposited 73
+80 deposited 74
+81 deposited 75
+82 deposited 76

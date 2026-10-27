@@ -317,22 +317,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 126586,
-    "file": "complex.cif",
-    "n_chains": 3,
-    "n_struct_conn": 2,
-    "subchains_kept": [
-     "B",
-     "A",
-     "G"
-    ]
-   },
    "peptide.cif": {
     "bytes": 11444,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 2,
+    "n_struct_conn": 14,
     "subchains_kept": [
      "B"
     ]
@@ -1306,12 +1295,6 @@
    "trailing_newline": true
   },
   "files": {
-   "complex.cif": {
-    "bytes": 126586,
-    "n_chains": 3,
-    "n_struct_conn": 2,
-    "role": "strict primary"
-   },
    "peptide.cif": {
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
@@ -1333,5 +1316,66 @@
   "risky_removal_cut_A": 4.0,
   "risky_removals": [],
   "utc": "2026-08-03T16:46:54Z"
- }
+ },
+ "derived": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "C:NME(stand-in)",
+  "added_residues": [
+   {
+    "residue": "E/NME/14",
+    "label_asym": "Ex1",
+    "entity": "NME!",
+    "entity_type": "non-polymer",
+    "label_seq": ".",
+    "group": "HETATM",
+    "anchor": "after E/CYS/13"
+   }
+  ],
+  "added_atoms": [
+   {
+    "atom": "E/NME/14/N",
+    "element": "N",
+    "origin": "stand_in_cap",
+    "xyz": [
+     14.355,
+     -0.638,
+     28.513
+    ],
+    "b": 34.4
+   },
+   {
+    "atom": "E/NME/14/C",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     15.136,
+     -1.635,
+     27.787
+    ],
+    "b": 34.4
+   }
+  ],
+  "added_links": [
+   {
+    "type": "covale",
+    "atom1": "E/CYS/13/C",
+    "atom2": "E/NME/14/N"
+   }
+  ],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 3.9,
+    "min_receptor_contact_A": 9.13,
+    "junction_bonds_A": [
+     1.33
+    ]
+   }
+  }
+ },
+ "receptor_links": []
 }

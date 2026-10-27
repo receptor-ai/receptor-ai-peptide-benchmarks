@@ -9,30 +9,35 @@ bmi200/
   DATA_DICTIONARY.md   definition of every column in the tables below
   MANIFEST.csv         one row per entry, all metadata
   topology_audit.csv   ring topology measured from coordinates, one row per entry
-  entries/<PDB_ID>/    complex.cif, peptide.cif, peptide.sdf, receptor.cif, meta.json
-                       (+ peptide_fixed.cif/.sdf where a side chain was disordered)
+  entries/<PDB_ID>/    peptide.cif, receptor.cif           deposited atoms, never edited
+                       peptide_fixed.cif, peptide_fixed.sdf, peptide_fixed_protonated.sdf
+                                                           derived: missing heavy atoms added
+                       meta.json
 ```
 
-Every entry directory is self-contained: `peptide.cif` plus `receptor.cif` equals `complex.cif`, atom
-for atom. Load coordinates with **gemmi**; `complex.cif` is the primary file. `peptide.cif` carries
-explicit bonds (`_chem_comp_bond` from the RCSB CCD + `_struct_conn`), and `peptide.sdf` is the same
-peptide in an explicit-bond format for RDKit/OpenBabel. Where a side chain was disordered, a rebuilt
-full-geometry `peptide_fixed.cif`/`.sdf` sits beside it. See the top-level README (Connectivity,
-Completeness).
+Every entry directory is self-contained. Load coordinates with **gemmi**. `peptide.cif` and
+`receptor.cif` hold the deposited atoms. `peptide.cif` carries explicit bonds (`_chem_comp_bond` from
+the RCSB CCD + `_struct_conn`). The derived files add the heavy atoms that the deposited model lacks.
+`peptide_fixed.sdf` gives the peptide with bond orders, every formal charge 0 and hydrogens implicit;
+`peptide_fixed_protonated.sdf` gives it at pH 7.4 with explicit hydrogens. See the top-level README
+(Files, Derived files, Protonation).
 
 ## 1. Composition
 
 | Cell | n | Receptor clusters | Length (observed) | Resolution (Å) |
 |---|---|---|---|---|
-| cyclic + unmodified | 50 | 23 | 7–20 | 1.00–2.00 |
-| cyclic + modified | 52 | 46 | 5–20 | 0.96–3.10 |
+| cyclic + unmodified | 50 | 24 | 7–20 | 1.00–2.00 |
+| cyclic + modified | 52 | 45 | 5–20 | 0.96–3.10 |
 | linear + unmodified | 50 | 42 | 5–20 | 1.00–2.00 |
 | linear + modified | 50 | 43 | 5–20 | 0.85–2.00 |
 | **total** | **202** | 130 | 5–20 (median 12) | 0.85–3.10 (median 1.78) |
 
 - The dataset holds 102 cyclic and 100 linear peptides. This project split them by the ring topology
   measured from the coordinates.
-- `modified` means the peptide contains 1 or more non-canonical amino acids.
+- `modified` means the deposited sequence (`peptide_seq_raw`, from SEQRES) contains 1 or more
+  non-standard residues: a non-canonical amino acid or a cap. A linker or cap deposited as a separate
+  component, outside that sequence, does not make a peptide `modified`; `has_noncanonical_component`
+  covers those.
 - The dataset covers 21 receptor functional classes and 7 ring-closure chemistries. The dataset holds 131
   distinct receptors (UniProt accessions) across 130 clusters at 30% sequence identity.
 
@@ -50,12 +55,14 @@ receptor class, and reach the extreme values rather than the average.
 |---|---|---|
 | 1 or more D-amino acids | 25 | `n_d_residues > 0` |
 | 1 or more cis amides | 33 | `n_cis_amides_corrected > 0` |
-| a terminal cap | 51 | `peptide_caps` |
-| 1 or more non-canonical residues (sequence token) | 101 | a parenthesised token in `peptide_seq_raw` |
+| a terminal cap | 52 | `peptide_caps` |
+| 1 or more parenthesised sequence tokens (non-canonical residue or cap) | 102 | a parenthesised token in `peptide_seq_raw` |
+| 1 or more non-canonical amino acids | 75 | `peptide_ncaa` |
 | 1 or more non-canonical components (includes caps and linkers) | 117 | `has_noncanonical_component` |
 
-The last two rows differ by definition. 101 peptides carry a non-standard amino-acid token. 117 peptides
-carry any non-standard component, where a cap or a linker also counts. Filter on
+The last three rows differ by definition. 102 peptides carry a parenthesised token in
+`peptide_seq_raw`: 75 a non-canonical amino acid, 27 a cap only. 117 peptides carry any non-standard
+component, including a linker or cap that the sequence does not show. Filter on
 `has_noncanonical_component` for chemistry rather than amino-acid vocabulary. The most D-substituted
 peptide contains 15 D-residues. Helices are right-handed in 72 entries and left-handed in 2 entries. The
 left-handed helix is the D-residue signature.
@@ -143,5 +150,5 @@ from becoming null. Selected columns:
 import pandas as pd
 s = pd.read_csv('MANIFEST.csv', low_memory=False, keep_default_na=False, na_values=[''])
 helical = s[s.ss_category_bound == 'helix']
-paths   = 'entries/' + s.pdb_id + '/complex.cif'
+paths   = 'entries/' + s.pdb_id + '/peptide.cif'
 ```

@@ -73,7 +73,7 @@ ATOM 2 C CA . SER Pxp P 1 ? 7.411 -8.715 6.546 1 44.34 ? 633 P 1
 ATOM 3 C C . SER Pxp P 1 ? 7.226 -9.269 5.134 1 37.16 ? 633 P 1
 ATOM 4 O O . SER Pxp P 1 ? 6.85 -8.531 4.228 1 43.41 ? 633 P 1
 ATOM 5 C CB . SER Pxp P 1 ? 8.278 -7.452 6.493 1 41.78 ? 633 P 1
-ATOM 6 O OG . SER Pxp P 1 ? 8.85166689 -7.15475249 7.77377166 1 41.91 ? 633 P 1
+ATOM 6 O OG . SER Pxp P 1 ? 8.367 -6.850 7.789 1 41.91 ? 633 P 1
 ATOM 7 N N . SER Pxp P 2 ? 7.489 -10.568 4.937 1 38.7 ? 634 P 1
 ATOM 8 C CA . SER Pxp P 2 ? 7.362 -11.138 3.598 1 34.73 ? 634 P 1
 ATOM 9 C C . SER Pxp P 2 ? 5.909 -11.316 3.164 1 35.22 ? 634 P 1
@@ -136,6 +136,7 @@ ATOM 65 C CB . ASP Pxp P 10 ? -8.057 -5.749 -2.585 1 25.81 ? 642 P 1
 ATOM 66 C CG . ASP Pxp P 10 ? -8.067 -6.913 -1.626 1 27.91 ? 642 P 1
 ATOM 67 O OD1 . ASP Pxp P 10 ? -6.973 -7.377 -1.228 1 27.06 ? 642 P 1
 ATOM 68 O OD2 . ASP Pxp P 10 ? -9.177 -7.34 -1.234 1 30.28 ? 642 P 1
+ATOM 69 O OXT . ASP Pxp P 10 ? -5.712 -4.017 -4.146 1 25.93 ? 642 P 1
 
 loop_
 _chem_comp_bond.comp_id
@@ -277,3 +278,77 @@ covale6 covale P SER 637 C P ILE 638 N 1.336
 covale7 covale P VAL 641 C P ASP 642 N 1.336
 covale8 covale P SER 633 C P SER 634 N 1.340
 covale9 covale P MET 640 C P VAL 641 N 1.341
+
+loop_
+_bmi_atom_origin.atom_site_id
+_bmi_atom_origin.origin
+_bmi_atom_origin.deposited_atom_site_id
+1 deposited 1
+2 deposited 2
+3 deposited 3
+4 deposited 4
+5 deposited 5
+6 rebuilt .
+7 deposited 6
+8 deposited 7
+9 deposited 8
+10 deposited 9
+11 deposited 10
+12 deposited 11
+13 deposited 12
+14 deposited 13
+15 deposited 14
+16 deposited 15
+17 deposited 16
+18 deposited 17
+19 deposited 18
+20 deposited 19
+21 deposited 20
+22 deposited 21
+23 deposited 22
+24 deposited 23
+25 deposited 24
+26 deposited 25
+27 deposited 26
+28 deposited 27
+29 deposited 28
+30 deposited 29
+31 deposited 30
+32 deposited 31
+33 deposited 32
+34 deposited 33
+35 deposited 34
+36 deposited 35
+37 deposited 36
+38 deposited 37
+39 deposited 38
+40 deposited 39
+41 deposited 40
+42 deposited 41
+43 deposited 42
+44 deposited 43
+45 deposited 44
+46 deposited 45
+47 deposited 46
+48 deposited 47
+49 deposited 48
+50 deposited 49
+51 deposited 50
+52 deposited 51
+53 deposited 52
+54 deposited 53
+55 deposited 54
+56 deposited 55
+57 deposited 56
+58 deposited 57
+59 deposited 58
+60 deposited 59
+61 deposited 60
+62 deposited 61
+63 deposited 62
+64 deposited 63
+65 deposited 64
+66 deposited 65
+67 deposited 66
+68 deposited 67
+69 oxt .

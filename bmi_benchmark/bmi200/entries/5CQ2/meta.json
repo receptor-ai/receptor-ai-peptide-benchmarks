@@ -499,21 +499,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 48707,
-    "file": "complex.cif",
-    "n_chains": 2,
-    "n_struct_conn": 2,
-    "subchains_kept": [
-     "B",
-     "A"
-    ]
-   },
    "peptide.cif": {
     "bytes": 12042,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 2,
+    "n_struct_conn": 13,
     "subchains_kept": [
      "B"
     ]
@@ -521,7 +511,7 @@
    "receptor.cif": {
     "bytes": 41669,
     "file": "receptor.cif",
-    "n_chains": 2,
+    "n_chains": 1,
     "n_struct_conn": 0,
     "subchains_kept": [
      "A"
@@ -1386,7 +1376,6 @@
     "MANIFEST.csv: ring_closure_max_A",
     "qc.geometry.peptide_receptor_covalent_links[] -- the partner is a symmetry copy, not the retained receptor chain in the asymmetric unit"
    ],
-   "date": "2026-08-03",
    "gap": "SPEC 6g defines the ring-closure distance as the measured distance of a _struct_conn link and SPEC 11 item 5 makes peptide_receptor_covalent_links the authority for a peptide-receptor bond, but neither mentions ptnr1_symmetry / ptnr2_symmetry. _connection_index() drops the operator, so a link recorded to a symmetry copy is measured between the two asymmetric-unit atoms and yields a distance that is not a bond length.",
    "id": "symmetry_recorded_struct_conn_measured_in_asu",
    "peptide_receptor_links_affected": [
@@ -1471,12 +1460,6 @@
    "trailing_newline": true
   },
   "files": {
-   "complex.cif": {
-    "bytes": 48707,
-    "n_chains": 2,
-    "n_struct_conn": 2,
-    "role": "strict primary"
-   },
    "peptide.cif": {
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
@@ -1545,27 +1528,56 @@
    "kind": "sidechain_truncated"
   }
  ],
- "fixed_geometry": {
+ "derived": {
   "files": [
    "peptide_fixed.cif",
-   "peptide_fixed.sdf"
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
   ],
-  "n_rebuilt": 2,
-  "rebuilt_atoms": [
+  "terminal_completion": "-",
+  "added_residues": [],
+  "added_atoms": [
    {
-    "comp": "VAL",
-    "seqid": 337,
-    "atom": "CG1",
-    "element": "C"
+    "atom": "B/VAL/337/CG1",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     0.504,
+     6.79,
+     8.624
+    ],
+    "b": 50.01
    },
    {
-    "comp": "VAL",
-    "seqid": 337,
-    "atom": "CG2",
-    "element": "C"
+    "atom": "B/VAL/337/CG2",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     1.077,
+     9.043,
+     7.981
+    ],
+    "b": 50.01
    }
   ],
-  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
-  "forcefield": "GAFF2 (antechamber gasteiger charges)"
- }
+  "added_links": [],
+  "rebuild": {
+   "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+   "forcefield": "GAFF2 (antechamber gasteiger charges)",
+   "receptor_wall": "receptor heavy atoms within 8 A of the peptide, frozen, Lennard-Jones only",
+   "gaff2_energy_kJ_mol": {
+    "before": 8525.0,
+    "after": 1325.6
+   },
+   "qc": {
+    "min_intra_peptide_contact_A": 2.71,
+    "min_receptor_contact_A": 2.7,
+    "ccd_stereocentres_checked": 0,
+    "ccd_chirality_mismatches": 0,
+    "deposited_atoms_max_shift_A": 0.0
+   },
+   "frozen": "every deposited atom and every terminal atom"
+  }
+ },
+ "receptor_links": []
 }

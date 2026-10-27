@@ -78,5 +78,78 @@
  "seq": "(PCA)FRHDSGYEVHHQKLV",
  "site_id": "A_5MYX",
  "site_type": "one_deposition",
- "uniprot": "-"
+ "uniprot": "-",
+ "derived__pose_01": {
+  "files": [
+   "pose_01_fixed.cif",
+   "pose_01_fixed.sdf",
+   "pose_01_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "-",
+  "added_residues": [],
+  "added_atoms": [],
+  "added_links": []
+ },
+ "derived__pose_02": {
+  "files": [
+   "pose_02_fixed.cif",
+   "pose_02_fixed.sdf",
+   "pose_02_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "C:NME(stand-in)",
+  "added_residues": [
+   {
+    "residue": "Q/NME/13",
+    "label_asym": "Qx1",
+    "entity": "NME!",
+    "entity_type": "non-polymer",
+    "label_seq": ".",
+    "group": "HETATM",
+    "anchor": "after Q/HIS/12"
+   }
+  ],
+  "added_atoms": [
+   {
+    "atom": "Q/NME/13/N",
+    "element": "N",
+    "origin": "stand_in_cap",
+    "xyz": [
+     11.911,
+     98.623,
+     12.201
+    ],
+    "b": 35.32
+   },
+   {
+    "atom": "Q/NME/13/C",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     12.786,
+     99.645,
+     11.634
+    ],
+    "b": 35.32
+   }
+  ],
+  "added_links": [
+   {
+    "type": "covale",
+    "atom1": "Q/HIS/12/C",
+    "atom2": "Q/NME/13/N"
+   }
+  ],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 3.89,
+    "min_receptor_contact_A": 9.35,
+    "junction_bonds_A": [
+     1.33
+    ]
+   }
+  }
+ },
+ "receptor_links__pose_01": [],
+ "receptor_links__pose_02": []
 }

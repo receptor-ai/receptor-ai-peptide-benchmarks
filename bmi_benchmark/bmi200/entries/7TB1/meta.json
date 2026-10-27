@@ -247,22 +247,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 146517,
-    "file": "complex.cif",
-    "n_chains": 3,
-    "n_struct_conn": 2,
-    "subchains_kept": [
-     "D",
-     "A",
-     "B"
-    ]
-   },
    "peptide.cif": {
     "bytes": 9744,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 2,
+    "n_struct_conn": 11,
     "subchains_kept": [
      "D"
     ]
@@ -950,12 +939,6 @@
    "trailing_newline": true
   },
   "files": {
-   "complex.cif": {
-    "bytes": 146517,
-    "n_chains": 3,
-    "n_struct_conn": 2,
-    "role": "strict primary"
-   },
    "peptide.cif": {
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
@@ -1024,15 +1007,36 @@
    "distance_A": 0.16
   }
  ],
- "corrections": [
-  {
-   "date": "2026-09-21",
-   "component": "CYS2 / CYS7 (thioether staple) covalent_junctions.distance_A",
-   "issue": "Both cysteines are modelled only to CB (the Sgamma is absent), and the staple is recorded as CYS.CB-I1J.S (1.81/1.73 A, normal C-S). distance_A is therefore a reconstructed value for the absent Sgamma, and the original values (0.67/0.32) came from reconstructing Sgamma at an arbitrary chi1; a thiol's Sgamma hangs off CB by a freely-rotating bond, so an arbitrary chi1 can land it far from the partner (worst case ~3.3 A).",
-   "fix": "Recomputed distance_A as the closest a geometrically-valid Sgamma placement (scanning chi1, ideal CB-SG 1.808 A / CA-CB-SG 114.4 deg) comes to the bonded staple sulfur: 0.10 A (CYS2->I1J.S5) and 0.16 A (CYS7->I1J.S6). This is consistent with the rigid sp2-oxygen junctions (~0.1 A) and correctly reflects that the staple sulfur occupies a valid Sgamma site. The crystal coordinates and the CB-S bond are unchanged.",
-   "files_changed": [
-    "meta.json"
-   ]
+ "derived": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "C:OXT",
+  "added_residues": [],
+  "added_atoms": [
+   {
+    "atom": "D/GLY/10/OXT",
+    "element": "O",
+    "origin": "oxt",
+    "xyz": [
+     -0.334,
+     -0.699,
+     -6.962
+    ],
+    "b": 32.95
+   }
+  ],
+  "added_links": [],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 4.67,
+    "min_receptor_contact_A": 3.88,
+    "junction_bonds_A": []
+   }
   }
- ]
+ },
+ "receptor_links": []
 }

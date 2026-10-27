@@ -17,6 +17,7 @@ loop_
 _entity.id
 _entity.type
 R polymer
+NME! non-polymer
 
 loop_
 _entity_poly.entity_id
@@ -38,11 +39,13 @@ THR .
 TRP .
 TYR .
 VAL .
+NME .
 
 loop_
 _struct_asym.id
 _struct_asym.entity_id
 Rxp R
+Rx1 NME!
 
 loop_
 _atom_type.symbol
@@ -172,12 +175,14 @@ ATOM 99 C CA . ARG Rxp R 12 ? 14.8522243 137.135026 201.517074 0.5 45.89 ? 115 R
 ATOM 100 C C . ARG Rxp R 12 ? 13.6012018 137.875017 201.073326 0.5 47.1 ? 115 R 1
 ATOM 101 O O . ARG Rxp R 12 ? 12.582713 137.846818 201.76905 0.5 46.78 ? 115 R 1
 ATOM 102 C CB . ARG Rxp R 12 ? 16.0829369 137.851051 200.985726 0.5 46.02 ? 115 R 1
-ATOM 103 C CD . ARG Rxp R 12 ? 17.4344462 138.340991 198.804758 1 45.64 ? 115 R 1
-ATOM 104 C CG . ARG Rxp R 12 ? 16.0457819 138.16153 199.45836 1 45.64 ? 115 R 1
-ATOM 105 C CZ . ARG Rxp R 12 ? 17.1114779 139.516072 196.572961 1 45.64 ? 115 R 1
-ATOM 106 N NE . ARG Rxp R 12 ? 17.3026321 138.426657 197.337894 1 45.64 ? 115 R 1
-ATOM 107 N NH1 . ARG Rxp R 12 ? 16.931271 139.372952 195.254895 1 45.64 ? 115 R 1
-ATOM 108 N NH2 . ARG Rxp R 12 ? 17.0919711 140.74888 197.097862 1 45.64 ? 115 R 1
+ATOM 103 C CG . ARG Rxp R 12 ? 16.377 138.028 199.472 1 45.64 ? 115 R 1
+ATOM 104 C CD . ARG Rxp R 12 ? 17.876 137.882 199.122 1 45.64 ? 115 R 1
+ATOM 105 N NE . ARG Rxp R 12 ? 18.105 138.044 197.681 1 45.64 ? 115 R 1
+ATOM 106 C CZ . ARG Rxp R 12 ? 18.094 139.252 196.995 1 45.64 ? 115 R 1
+ATOM 107 N NH1 . ARG Rxp R 12 ? 18.126 139.034 195.630 1 45.64 ? 115 R 1
+ATOM 108 N NH2 . ARG Rxp R 12 ? 18.062 140.386 197.584 1 45.64 ? 115 R 1
+HETATM 109 N N . NME Rx1 NME! . ? 13.604 138.556 199.931 1 45.64 ? 116 R 1
+HETATM 110 C C . NME Rx1 NME! . ? 12.425 139.281 199.466 1 45.64 ? 116 R 1
 
 loop_
 _chem_comp_bond.comp_id
@@ -388,6 +393,12 @@ VAL CG2 HG21 SING N 199
 VAL CG2 HG22 SING N 200
 VAL CG2 HG23 SING N 201
 VAL OXT HXT SING N 202
+NME N C SING N 203
+NME N HN1 SING N 204
+NME N HN2 SING N 205
+NME C H1 SING N 206
+NME C H2 SING N 207
+NME C H3 SING N 208
 
 loop_
 _struct_conn.id
@@ -412,3 +423,119 @@ covale8 covale R GLU 104 C R VAL 105 N 1.327
 covale9 covale R PRO 106 C R THR 107 N 1.333
 covale10 covale R TYR 114 C R ARG 115 N 1.334
 covale11 covale R VAL 105 C R PRO 106 N 1.348
+covale12 covale R ARG 115 C R NME 116 N 1.330
+
+loop_
+_bmi_atom_origin.atom_site_id
+_bmi_atom_origin.origin
+_bmi_atom_origin.deposited_atom_site_id
+1 deposited 1
+2 deposited 2
+3 deposited 3
+4 deposited 4
+5 deposited 5
+6 deposited 6
+7 deposited 7
+8 deposited 8
+9 deposited 9
+10 deposited 10
+11 deposited 11
+12 deposited 12
+13 deposited 13
+14 deposited 14
+15 deposited 15
+16 deposited 16
+17 deposited 17
+18 deposited 18
+19 deposited 19
+20 deposited 20
+21 deposited 21
+22 deposited 22
+23 deposited 23
+24 deposited 24
+25 deposited 25
+26 deposited 26
+27 deposited 27
+28 deposited 28
+29 deposited 29
+30 deposited 30
+31 deposited 31
+32 deposited 32
+33 deposited 33
+34 deposited 34
+35 deposited 35
+36 deposited 36
+37 deposited 37
+38 deposited 38
+39 deposited 39
+40 deposited 40
+41 deposited 41
+42 deposited 42
+43 deposited 43
+44 deposited 44
+45 deposited 45
+46 deposited 46
+47 deposited 47
+48 deposited 48
+49 deposited 49
+50 deposited 50
+51 deposited 51
+52 deposited 52
+53 deposited 53
+54 deposited 54
+55 deposited 55
+56 deposited 56
+57 deposited 57
+58 deposited 58
+59 deposited 59
+60 deposited 60
+61 deposited 61
+62 deposited 62
+63 deposited 63
+64 deposited 64
+65 deposited 65
+66 deposited 66
+67 deposited 67
+68 deposited 68
+69 deposited 69
+70 deposited 70
+71 deposited 71
+72 deposited 72
+73 deposited 73
+74 deposited 74
+75 deposited 75
+76 deposited 76
+77 deposited 77
+78 deposited 78
+79 deposited 79
+80 deposited 80
+81 deposited 81
+82 deposited 82
+83 deposited 83
+84 deposited 84
+85 deposited 85
+86 deposited 86
+87 deposited 87
+88 deposited 88
+89 deposited 89
+90 deposited 90
+91 deposited 91
+92 deposited 92
+93 deposited 93
+94 deposited 94
+95 deposited 95
+96 deposited 96
+97 deposited 97
+98 deposited 98
+99 deposited 99
+100 deposited 100
+101 deposited 101
+102 deposited 102
+103 rebuilt .
+104 rebuilt .
+105 rebuilt .
+106 rebuilt .
+107 rebuilt .
+108 rebuilt .
+109 stand_in_cap .
+110 stand_in_cap .

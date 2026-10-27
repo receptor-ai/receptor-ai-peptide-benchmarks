@@ -176,21 +176,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 164462,
-    "file": "complex.cif",
-    "n_chains": 2,
-    "n_struct_conn": 1,
-    "subchains_kept": [
-     "D",
-     "B"
-    ]
-   },
    "peptide.cif": {
     "bytes": 9410,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 0,
+    "n_struct_conn": 12,
     "subchains_kept": [
      "D"
     ]
@@ -1170,26 +1160,11 @@
   },
   "built_utc": "2026-08-03T17:05:16Z",
   "files": {
-   "complex.cif": "strict: protein + peptide + metals/monatomic ions",
    "peptide.cif": "unchanged - every component covalently part of the peptide is retained by the policy",
    "receptor.cif": "unchanged - nothing was removed from it"
   },
   "needs_human_review": [],
   "notes": [],
-  "outputs": {
-   "complex.cif": {
-    "bytes": 164463,
-    "n_struct_conn": 1
-   },
-   "peptide.cif": {
-    "bytes": 5813,
-    "n_struct_conn": 0
-   },
-   "receptor.cif": {
-    "bytes": 159575,
-    "n_struct_conn": 1
-   }
-  },
   "policy": {
    "ambiguous_set_ruling": "CL/NA/K are monatomic ions and stay. SO4/PO4 are polyatomic additives and go. NH4 goes: only one heavy atom is modelled but the CCD lists 5 atoms, so the species is polyatomic, and the test is on the species not on what happens to be modelled. UNX goes: one atom, but element X is neither metal nor halide.",
    "keep_K1_peptide_integral": "any component sharing a label_asym_id with a residue of decisions.hetero.peptide_covalent_moieties (whole branched entity), EXCEPT a cryoprotectant or buffer additive whose only link to the peptide is distance-inferred rather than in _struct_conn",
@@ -1202,7 +1177,6 @@
   "removed_within_4.0A_of_peptide": [],
   "retained_components": [],
   "verification": {
-   "complex_cif_rereads": true,
    "ends_with_newline": true,
    "every_surviving_struct_conn_present": true,
    "peptide_plus_receptor_partition_complex_exactly": true,
@@ -1271,129 +1245,243 @@
    "kind": "sidechain_truncated"
   }
  ],
- "fixed_geometry": {
+ "derived": {
   "files": [
    "peptide_fixed.cif",
-   "peptide_fixed.sdf"
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
   ],
-  "n_rebuilt": 19,
-  "rebuilt_atoms": [
+  "terminal_completion": "-",
+  "added_residues": [],
+  "added_atoms": [
    {
-    "comp": "GLN",
-    "seqid": 399,
-    "atom": "CB",
-    "element": "C"
+    "atom": "D/GLN/399/CB",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     25.061,
+     56.413,
+     -25.347
+    ],
+    "b": 48.58
    },
    {
-    "comp": "GLN",
-    "seqid": 399,
-    "atom": "CD",
-    "element": "C"
+    "atom": "D/GLN/399/CG",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     24.103,
+     55.86,
+     -24.253
+    ],
+    "b": 48.58
    },
    {
-    "comp": "GLN",
-    "seqid": 399,
-    "atom": "CG",
-    "element": "C"
+    "atom": "D/GLN/399/CD",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     22.787,
+     56.641,
+     -24.107
+    ],
+    "b": 48.58
    },
    {
-    "comp": "GLN",
-    "seqid": 399,
-    "atom": "NE2",
-    "element": "N"
+    "atom": "D/GLN/399/OE1",
+    "element": "O",
+    "origin": "rebuilt",
+    "xyz": [
+     22.401,
+     57.456,
+     -24.926
+    ],
+    "b": 48.58
    },
    {
-    "comp": "GLN",
-    "seqid": 399,
-    "atom": "OE1",
-    "element": "O"
+    "atom": "D/GLN/399/NE2",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     22.055,
+     56.352,
+     -22.991
+    ],
+    "b": 48.58
    },
    {
-    "comp": "HIS",
-    "seqid": 400,
-    "atom": "CB",
-    "element": "C"
+    "atom": "D/HIS/400/CB",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     27.565,
+     58.22,
+     -21.899
+    ],
+    "b": 43.95
    },
    {
-    "comp": "HIS",
-    "seqid": 400,
-    "atom": "CD2",
-    "element": "C"
+    "atom": "D/HIS/400/CG",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     27.776,
+     58.754,
+     -20.505
+    ],
+    "b": 43.95
    },
    {
-    "comp": "HIS",
-    "seqid": 400,
-    "atom": "CE1",
-    "element": "C"
+    "atom": "D/HIS/400/ND1",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     26.77,
+     58.645,
+     -19.567
+    ],
+    "b": 43.95
    },
    {
-    "comp": "HIS",
-    "seqid": 400,
-    "atom": "CG",
-    "element": "C"
+    "atom": "D/HIS/400/CD2",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     28.858,
+     59.413,
+     -19.985
+    ],
+    "b": 43.95
    },
    {
-    "comp": "HIS",
-    "seqid": 400,
-    "atom": "ND1",
-    "element": "N"
+    "atom": "D/HIS/400/CE1",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     27.22,
+     59.243,
+     -18.486
+    ],
+    "b": 43.95
    },
    {
-    "comp": "HIS",
-    "seqid": 400,
-    "atom": "NE2",
-    "element": "N"
+    "atom": "D/HIS/400/NE2",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     28.481,
+     59.74,
+     -18.703
+    ],
+    "b": 43.95
    },
    {
-    "comp": "HIS",
-    "seqid": 401,
-    "atom": "CD2",
-    "element": "C"
+    "atom": "D/HIS/401/ND1",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     29.317,
+     52.547,
+     -16.523
+    ],
+    "b": 30.67
    },
    {
-    "comp": "HIS",
-    "seqid": 401,
-    "atom": "CE1",
-    "element": "C"
+    "atom": "D/HIS/401/CD2",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     27.395,
+     52.169,
+     -17.66
+    ],
+    "b": 30.67
    },
    {
-    "comp": "HIS",
-    "seqid": 401,
-    "atom": "ND1",
-    "element": "N"
+    "atom": "D/HIS/401/CE1",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     28.523,
+     51.805,
+     -15.779
+    ],
+    "b": 30.67
    },
    {
-    "comp": "HIS",
-    "seqid": 401,
-    "atom": "NE2",
-    "element": "N"
+    "atom": "D/HIS/401/NE2",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     27.339,
+     51.547,
+     -16.436
+    ],
+    "b": 30.67
    },
    {
-    "comp": "LYS",
-    "seqid": 406,
-    "atom": "CD",
-    "element": "C"
+    "atom": "D/LYS/406/CG",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     31.727,
+     59.694,
+     -3.274
+    ],
+    "b": 28.76
    },
    {
-    "comp": "LYS",
-    "seqid": 406,
-    "atom": "CE",
-    "element": "C"
+    "atom": "D/LYS/406/CD",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     30.402,
+     59.48,
+     -2.512
+    ],
+    "b": 28.76
    },
    {
-    "comp": "LYS",
-    "seqid": 406,
-    "atom": "CG",
-    "element": "C"
+    "atom": "D/LYS/406/CE",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     29.161,
+     59.789,
+     -3.372
+    ],
+    "b": 28.76
    },
    {
-    "comp": "LYS",
-    "seqid": 406,
-    "atom": "NZ",
-    "element": "N"
+    "atom": "D/LYS/406/NZ",
+    "element": "N",
+    "origin": "rebuilt",
+    "xyz": [
+     27.919,
+     59.536,
+     -2.633
+    ],
+    "b": 28.76
    }
   ],
-  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
-  "forcefield": "GAFF2 (antechamber gasteiger charges)"
- }
+  "added_links": [],
+  "rebuild": {
+   "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+   "forcefield": "GAFF2 (antechamber gasteiger charges)",
+   "receptor_wall": "receptor heavy atoms within 8 A of the peptide, frozen, Lennard-Jones only",
+   "gaff2_energy_kJ_mol": {
+    "before": 660.1,
+    "after": 382.4
+   },
+   "qc": {
+    "min_intra_peptide_contact_A": 3.11,
+    "min_receptor_contact_A": 3.04,
+    "ccd_stereocentres_checked": 2,
+    "ccd_chirality_mismatches": 0,
+    "deposited_atoms_max_shift_A": 0.0
+   },
+   "frozen": "every deposited atom and every terminal atom"
+  }
+ },
+ "receptor_links": []
 }

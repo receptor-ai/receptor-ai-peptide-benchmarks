@@ -15,8 +15,8 @@ published models is possible.
   metrics. The dataset holds no predicted poses. See its
   [README](docking_benchmark/README.md).
 - [`bmi_benchmark/`](bmi_benchmark/) — **BMI-200 and BMI-MODES**. 202 peptide–protein complexes
-  with per-entry ring-topology, secondary-structure and crystallographic-quality metadata, and 30
-  mode-discrimination sites that hold 71 experimentally supported poses. The receptor-class
+  with per-entry ring-topology, secondary-structure and crystallographic-quality metadata, and 29
+  mode-discrimination sites that hold 66 experimentally supported poses. The receptor-class
   annotations are in `bmi200/MANIFEST.csv`. See its
   [README](bmi_benchmark/README.md).
 - [`affinity_benchmark/`](affinity_benchmark/) — **peptide scoring-function affinity benchmark**.

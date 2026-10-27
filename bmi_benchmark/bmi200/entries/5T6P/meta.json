@@ -233,22 +233,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 227396,
-    "file": "complex.cif",
-    "n_chains": 3,
-    "n_struct_conn": 4,
-    "subchains_kept": [
-     "A",
-     "B",
-     "F"
-    ]
-   },
    "peptide.cif": {
     "bytes": 6445,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 0,
+    "n_struct_conn": 5,
     "subchains_kept": [
      "F"
     ]
@@ -858,9 +847,8 @@
    "total_heavy_before": 3298
   },
   "files": {
-   "complex.cif": "strict",
    "peptide.cif": "unchanged",
-   "receptor.cif": "strict (rewritten so that peptide.cif + receptor.cif still partition complex.cif)"
+   "receptor.cif": "rewritten strictly"
   },
   "ion_rule": "monatomic stays, polyatomic goes: CL/NA/K/ZN/CA/MG/... kept, SO4/PO4/NO3/NH4 removed. A monatomic ion is also never a covalent bridge, so it cannot make a component it coordinates peptide-integral - SPEC sec.7 rule 4, coordination is not a covalent bond",
   "n_struct_conn_after": 4,
@@ -876,5 +864,88 @@
    "checks_failed": [],
    "ok": true
   }
- }
+ },
+ "derived": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "N:ACE(stand-in);C:OXT",
+  "added_residues": [
+   {
+    "residue": "F/ACE/2",
+    "label_asym": "Fx1",
+    "entity": "ACE!",
+    "entity_type": "non-polymer",
+    "label_seq": ".",
+    "group": "HETATM",
+    "anchor": "before F/ASP/3"
+   }
+  ],
+  "added_atoms": [
+   {
+    "atom": "F/ACE/2/C",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     73.929,
+     57.433,
+     50.492
+    ],
+    "b": 47.01
+   },
+   {
+    "atom": "F/ACE/2/O",
+    "element": "O",
+    "origin": "stand_in_cap",
+    "xyz": [
+     73.3,
+     56.759,
+     51.306
+    ],
+    "b": 47.01
+   },
+   {
+    "atom": "F/ACE/2/CH3",
+    "element": "C",
+    "origin": "stand_in_cap",
+    "xyz": [
+     74.677,
+     56.778,
+     49.356
+    ],
+    "b": 47.01
+   },
+   {
+    "atom": "F/PRO/8/OXT",
+    "element": "O",
+    "origin": "oxt",
+    "xyz": [
+     58.441,
+     55.779,
+     56.402
+    ],
+    "b": 38.38
+   }
+  ],
+  "added_links": [
+   {
+    "type": "covale",
+    "atom1": "F/ACE/2/C",
+    "atom2": "F/ASP/3/N"
+   }
+  ],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 3.42,
+    "min_receptor_contact_A": 3.3,
+    "junction_bonds_A": [
+     1.34
+    ]
+   }
+  }
+ },
+ "receptor_links": []
 }

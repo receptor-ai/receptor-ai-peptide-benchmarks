@@ -1,7 +1,7 @@
-
+entries/5CQ2/peptide_fixed
      RDKit          3D
 
- 95 99  0  0  0  0  0  0  0  0999 V2000
+ 95 98  0  0  0  0  0  0  0  0999 V2000
    -8.8280    7.7590   27.1620 C   0  0  0  0  0  0  0  0  0  0  0  0
    -8.4700    8.9260   27.4300 O   0  0  0  0  0  0  0  0  0  0  0  0
   -10.3250    7.4180   27.1320 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -85,9 +85,9 @@
     1.8660    6.5240    6.7930 C   0  0  2  0  0  0  0  0  0  0  0  0
     2.2320    6.8290    5.3130 C   0  0  0  0  0  0  0  0  0  0  0  0
     1.6630    6.2280    4.4040 O   0  0  0  0  0  0  0  0  0  0  0  0
-    0.9150    7.6530    7.3710 C   0  0  1  0  0  0  0  0  0  0  0  0
-    0.7953    7.5333    8.8946 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.0622    9.1641    6.7345 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9150    7.6530    7.3710 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5040    6.7900    8.6240 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0770    9.0430    7.9810 C   0  0  0  0  0  0  0  0  0  0  0  0
     3.1780    7.7580    5.0780 N   0  0  0  0  0  0  0  0  0  0  0  0
     3.3270    8.3960    3.7480 C   0  0  2  0  0  0  0  0  0  0  0  0
     4.6930    8.0890    3.1230 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -99,10 +99,12 @@
     5.8070    8.4340    3.7620 N   0  0  0  0  0  0  0  0  0  0  0  0
   1  2  2  0
   1  3  1  0
+  1  4  1  0
   5  4  1  6
   5  6  1  0
   5  8  1  0
   6  7  2  0
+  6 11  1  0
   8  9  1  0
   8 10  1  6
  11 12  1  0
@@ -110,12 +112,14 @@
  12 13  1  1
  12 15  1  0
  13 14  2  0
+ 13 18  1  0
  15 16  1  0
  16 17  1  0
  18 19  1  0
  19 20  1  0
  19 22  1  6
  20 21  2  0
+ 20 27  1  0
  22 23  1  0
  23 24  1  0
  24 25  2  0
@@ -124,11 +128,13 @@
  28 29  1  0
  28 31  1  6
  29 30  2  0
+ 29 32  1  0
  32 33  1  0
  32 38  1  0
  33 34  1  6
  33 36  1  0
  34 35  2  0
+ 34 39  1  0
  36 37  1  0
  37 38  1  0
  39 40  1  0
@@ -136,29 +142,33 @@
  40 41  1  6
  40 43  1  0
  41 42  2  0
+ 41 46  1  0
  43 44  1  0
  44 45  1  0
  46 47  1  0
  47 48  1  0
  47 50  1  6
  48 49  2  0
+ 48 52  1  0
  50 51  1  0
  52 53  1  0
  53 54  1  0
  53 56  1  1
  54 55  2  0
+ 54 64  1  0
  56 57  1  0
- 57 58  1  0
- 57 59  2  0
- 58 60  2  0
- 59 61  1  0
- 60 62  1  0
- 61 62  2  0
+ 57 58  2  0
+ 57 59  1  0
+ 58 60  1  0
+ 59 61  2  0
+ 60 62  2  0
+ 61 62  1  0
  62 63  1  0
  64 65  1  0
  65 66  1  0
  65 68  1  1
  66 67  2  0
+ 66 72  1  0
  68 69  1  0
  69 70  1  0
  70 71  1  0
@@ -166,6 +176,7 @@
  73 74  1  0
  73 76  1  1
  74 75  2  0
+ 74 80  1  0
  76 77  1  0
  77 78  2  0
  77 79  1  0
@@ -173,28 +184,33 @@
  81 82  1  0
  81 84  1  0
  82 83  2  0
- 84 85  1  1
+ 82 87  1  0
+ 84 85  1  0
  84 86  1  0
- 87 88  1  0
- 88 89  1  1
+ 88 87  1  1
+ 88 89  1  0
  88 91  1  0
  89 90  2  0
+ 89 95  1  0
  91 92  1  0
  91 93  1  6
  92 94  1  0
- 54 64  1  0
- 48 52  1  0
- 66 72  1  0
- 74 80  1  0
- 20 27  1  0
- 89 95  1  0
- 34 39  1  0
-  6 11  1  0
- 13 18  1  0
- 41 46  1  0
- 82 87  1  0
- 29 32  1  0
-  1  4  1  0
- 86 94  1  0
 M  END
+>  <atom.prop.label>  (1) 
+B/ACE/326/C B/ACE/326/O B/ACE/326/CH3 B/THR/327/N B/THR/327/CA B/THR/327/C B/THR/327/O B/THR/327/CB B/THR/327/OG1 B/THR/327/CG2 B/PRO/328/N B/PRO/328/CA B/PRO/328/C B/PRO/328/O
+B/PRO/328/CB B/PRO/328/CG B/PRO/328/CD B/GLU/329/N B/GLU/329/CA B/GLU/329/C B/GLU/329/O B/GLU/329/CB B/GLU/329/CG B/GLU/329/CD B/GLU/329/OE1 B/GLU/329/OE2 B/ALA/330/N B/ALA/330/CA
+B/ALA/330/C B/ALA/330/O B/ALA/330/CB B/PRO/331/N B/PRO/331/CA B/PRO/331/C B/PRO/331/O B/PRO/331/CB B/PRO/331/CG B/PRO/331/CD B/PRO/332/N B/PRO/332/CA B/PRO/332/C B/PRO/332/O B/PRO/332/CB
+B/PRO/332/CG B/PRO/332/CD B/CYS/333/N B/CYS/333/CA B/CYS/333/C B/CYS/333/O B/CYS/333/CB B/CYS/333/SG B/TYR/334/N B/TYR/334/CA B/TYR/334/C B/TYR/334/O B/TYR/334/CB B/TYR/334/CG
+B/TYR/334/CD1 B/TYR/334/CD2 B/TYR/334/CE1 B/TYR/334/CE2 B/TYR/334/CZ B/TYR/334/OH B/MET/335/N B/MET/335/CA B/MET/335/C B/MET/335/O B/MET/335/CB B/MET/335/CG B/MET/335/SD B/MET/335/CE
+B/ASP/336/N B/ASP/336/CA B/ASP/336/C B/ASP/336/O B/ASP/336/CB B/ASP/336/CG B/ASP/336/OD1 B/ASP/336/OD2 B/VAL/337/N B/VAL/337/CA B/VAL/337/C B/VAL/337/O B/VAL/337/CB B/VAL/337/CG1
+B/VAL/337/CG2 B/ILE/338/N B/ILE/338/CA B/ILE/338/C B/ILE/338/O B/ILE/338/CB B/ILE/338/CG1 B/ILE/338/CG2 B/ILE/338/CD1 B/NH2/339/N
+
+>  <atom.prop.origin>  (1) 
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited
+deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited deposited rebuilt rebuilt deposited deposited deposited deposited deposited
+deposited deposited deposited deposited
+
 $$$$

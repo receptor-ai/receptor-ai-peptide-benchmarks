@@ -27,23 +27,24 @@ from any deposited secondary-structure or topology annotation.
 | `selected_for_ss_stratum` | Secondary-structure stratum this entry was picked to fill | `helix`, `sheet`, `turn_only`, `ppii`, `helix_310`, `none`, `helix_sheet` |
 | `cluster_rank` | Rank of the entry inside its receptor sequence cluster (see `receptor_seqid30_cluster`); 1 is the representative | 1–8. Use `== 1` or `<= 2` to reduce receptor redundancy |
 | `quality_relaxed` | 1 if the quality gate was relaxed for this entry | 0 for the core; blank for the two additions |
-| `peptide_entity` | PDB entry id plus the peptide entity number | e.g. `2YQ7_2` |
-| `peptide_subchain` | mmCIF `label_asym_id` of the kept peptide copy | chain id |
-| `peptide_auth_chain` | Author (deposited) chain id of the peptide | chain id |
-| `peptide_n_chains` | Number of chains that make up the peptide | usually 1 |
+| `peptide_entity` | PDB entry id plus the peptide entity number | e.g. `2YQ7_2`; `4MNV_2;4MNV_3` for 4MNV, whose peptide is two chains |
+| `peptide_subchain` | mmCIF `label_asym_id` of the kept peptide copy | chain id (`B;C` for 4MNV) |
+| `peptide_auth_chain` | Author (deposited) chain id of the peptide | chain id (`B;C` for 4MNV) |
+| `peptide_n_chains` | Copies of the peptide in the deposited asymmetric unit, always equal to `n_copies_asu`; not the number of chains in `peptide.cif` (the 4MNV peptide is two chains and reads 1) | integer |
 
 ### Peptide sequence and chemistry
 
 | Column | Meaning | Values |
 |---|---|---|
-| `peptide_seq_raw` | Designed peptide sequence. Standard residues are one-letter; every non-standard residue, cap, or linker is a 3-letter code in parentheses | e.g. `(ACE)WIAQELREIGDKFNAYYA(NH2)` |
+| `peptide_seq_raw` | Deposited (SEQRES) peptide sequence. Standard residues are one-letter; every non-standard residue or cap in the sequence is its CCD code in parentheses. A component outside the sequence (most linkers, and caps deposited as separate components) appears only in `noncanonical_components` | e.g. `(ACE)WIAQELREIGDKFNAYYA(NH2)` |
 | `components_in_peptide_file` | All component codes in `peptide.cif`, in backbone order (N→C), `;`-separated | e.g. `ACE;TRP;ILE;…` |
 | `n_components_in_peptide_file` | Number of components in `peptide.cif` (residues plus caps/linkers) | integer |
 | `n_res_observed` | Number of residues modelled in the coordinates. **Use this for any geometric measure.** | 5–20 |
 | `has_noncanonical_component` | 1 if the peptide contains any non-standard component (non-canonical residue, cap, or linker) | 0 / 1 |
 | `noncanonical_components` | `;`-list of all non-standard component codes, caps and linkers included | e.g. `ACE;MK8;NH2` |
 | `peptide_ncaa` | `;`-list of non-canonical **amino-acid** codes only (caps and linkers excluded) | e.g. `0EH;MK8` |
-| `caps_in_coordinates` | Terminal caps present in the coordinates | e.g. `ACE;NH2` |
+| `caps_in_coordinates` | Terminal caps present in the deposited coordinates | e.g. `ACE;NH2` |
+| `terminal_completion` | Terminal atoms the derived files add (top-level README, Derived files): `C:OXT`; a declared cap `N:ACE` / `C:NH2`; a stand-in cap `N:ACE(stand-in)` / `C:NME(stand-in)`; `N:`/`C:not added(<reason>)`; `-` if none | e.g. `N:ACE(stand-in);C:OXT` |
 | `peptide_caps` | Terminal caps declared for the peptide entity | e.g. `ACE;NH2` |
 | `n_d_residues` | Number of D-amino acids | 0–15 |
 | `n_l_residues` | Number of L-amino acids | integer |
@@ -53,8 +54,8 @@ from any deposited secondary-structure or topology annotation.
 
 | Column | Meaning | Values |
 |---|---|---|
-| `cell` | Chemistry cell: measured topology crossed with modification | `cyclic_standard`, `cyclic_modified`, `linear_standard`, `linear_modified` (`standard` = unmodified) |
-| `cell_label_frozen` | The cell label as first assigned, before the coordinate re-measurement | same four values |
+| `cell` | Chemistry cell: measured topology crossed with modification. `modified` = `peptide_seq_raw` contains a parenthesised token (a non-canonical amino acid or a cap); a component outside the sequence does not count | `cyclic_standard`, `cyclic_modified`, `linear_standard`, `linear_modified` (`standard` = unmodified) |
+| `cell_label_frozen` | The cell with the topology assigned at selection, before the coordinate re-measurement; the modification half is the same as in `cell` | same four values |
 | `topology_label_disagrees` | 1 if `cell` differs from `cell_label_frozen` | 0 / 1 |
 | `cyclic_measured` | 1 if the peptide is cyclic by measured ring topology | 0 / 1 |
 | `cyclomatic_number` | Number of independent rings in the peptide bond graph (0 = linear) | 0–4 |
@@ -85,12 +86,12 @@ from any deposited secondary-structure or topology annotation.
 
 | Column | Meaning | Values |
 |---|---|---|
-| `omega_pattern` | Per-bond omega string over the peptide | `t` trans, `c` cis, `?` undefined |
+| `omega_pattern` | Per-bond omega string over the peptide: one letter for each pair of neighbouring residues in file order, bonded or not | `t` trans, `c` cis, `x` twisted, `?` undefined (an atom of CA–C–N–CA is missing, as at a cap), `-` not an α-amino acid |
 | `omega_pattern_adjacent_bonded` | Same, restricted to covalently adjacent residue pairs | as above |
 | `n_cis_amides`, `n_twisted_amides` | Count of cis / twisted (non-planar) amides, raw | integers |
 | `n_cis_amides_corrected`, `n_twisted_amides_corrected` | Same, after correcting the ring-closure amide call. **Prefer the corrected columns.** | integers |
 | `n_cis_amides_adjacent_bonded`, `n_trans_amides_adjacent_bonded`, `n_twisted_amides_adjacent_bonded` | Omega counts restricted to bonded adjacent pairs | integers |
-| `n_omega_calls_dropped_not_bonded` | Omega calls skipped because the residue pair is not covalently bonded | integer |
+| `n_omega_calls_dropped_not_bonded` | Omega records left out of the `_adjacent_bonded` columns: pairs that are not covalently bonded, pairs whose call is undefined (`?`, `-`), and ring-closure records that are not bonded | integer |
 
 ### Chirality
 
@@ -226,6 +227,8 @@ keeps `e` (peptide-to-peptide bridge) and turns receptor-only bridges into `x`.
 | `n_waters_dropped` | Water molecules removed | integer |
 | `additive_in_peptide_site` | Crystallisation additives that sat in the peptide site (and were removed) | `;`-list (blank if none) |
 | `n_heavy_peptide`, `n_heavy_receptor`, `n_heavy_hetero` | Heavy-atom counts for peptide / receptor / kept heteroatoms | integers |
+| `n_heavy_peptide_fixed` | Heavy atoms in `peptide_fixed.cif`: every atom of `peptide.cif`, covalent moieties included, plus the added atoms | integer |
+| `net_charge_ph7.4` | Net formal charge of `peptide_fixed_protonated.sdf`, the peptide at pH 7.4 by the rules of the top-level README (Protonation); the same value as the SDF property `net_charge` | integer, −7 to +10 |
 | `metal_free` | 1 for every entry (the set is metal-free by construction) | 1 |
 | `has_monatomic_halide` | 1 if a monatomic halide ion is kept | 0 / 1 |
 | `n_spec_deviations`, `spec_deviation_ids` | Documented build-specification deviations for the entry (see `meta.json` → `spec_deviation`) | integer / id text |
@@ -238,7 +241,7 @@ keeps `e` (peptide-to-peptide bridge) and turns receptor-only bridges into `x`.
 | `bsa_total_A2` | Buried surface area at the peptide–receptor interface | Å² |
 | `peptide_buried_fraction` | Fraction of the peptide surface that is buried | 0–1 |
 | `n_contact_pairs` | Peptide–receptor atom contact pairs | integer |
-| `n_receptor_contact_residues` | Receptor residues contacting the peptide | integer |
+| `n_receptor_contact_residues` | Receptor residues contacting the peptide (heavy atoms within 4.5 Å). Residues are counted by chain and number, so residues that differ only by insertion code count once | integer |
 | `interface_annotation_agrees` | `True` if the measured interface agrees with the deposited annotation | `True` / `False` |
 | `possible_lattice_contact` | `True` if the interface may be a crystal-lattice contact | `False` for all shipped entries |
 
@@ -248,7 +251,7 @@ keeps `e` (peptide-to-peptide bridge) and turns receptor-only bridges into `x`.
 |---|---|---|
 | `built_utc` | UTC time the entry's files were generated | ISO-8601 timestamp |
 | `has_strict_clean_record` | 1 if the entry carries a strict-hetero-cleaning record in `meta.json` | 0 / 1 |
-| `complex_cif_bytes`, `peptide_cif_bytes`, `receptor_cif_bytes` | Byte sizes of the three coordinate files | integers |
+| `peptide_cif_bytes`, `receptor_cif_bytes` | Byte sizes of the two deposited coordinate files | integers |
 
 ---
 
@@ -272,7 +275,7 @@ are in `MANIFEST.csv` but not in this audit table.
 | `closure_types_measured` | Ring-closure chemistries found in the coordinates | `;`-list (blank if linear) |
 | `closure_detail` | Each ring closure: chemistry, the two atoms, and the distance | e.g. `disulfide CYS2.SG-CYS7.SG 2.03A` |
 | `n_residues_in_file` | Components in `peptide.cif` (residues plus caps/linkers) | integer |
-| `n_amino_acid_residues` | Amino-acid residues only | integer |
+| `n_amino_acid_residues` | Components other than terminal caps (`ACE`, `ACY`, `NH2`, `THC`): amino acids plus linkers such as `ZBR` | integer |
 | `n_components` | Number of molecular components in `peptide.cif` | 1 (a single connected molecule) |
 | `n_heavy` | Heavy atoms in the peptide | integer |
 | `n_res_observed_manifest` | `n_res_observed` copied from `MANIFEST.csv` for cross-checking | integer |

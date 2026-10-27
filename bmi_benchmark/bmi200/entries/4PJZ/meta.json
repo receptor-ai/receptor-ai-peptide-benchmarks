@@ -1,30 +1,4 @@
 {
- "corrections": [
-  {
-   "date": "2026-09-15",
-   "component": "T55",
-   "issue": "T55 (8-methylnonanoic acid), the N-acyl lipid tail amide-bonded to GCS N2, is covalently part of the peptide (peptide GHP4 -O4- GCS -N2(amide)- T55) but was written into receptor.cif and omitted from peptide.cif/peptide.sdf. The permissive hetero pass recorded T55 with an empty struct_conn_bonded_to: it only followed covalent bonds from polymer peptide atoms to hetero groups (catching GCS/NAG/MAN) and missed the second-shell GCS.N2-T55.C bond (1.316 A; covale14 in complex.cif), so T55 was kept only by distance and mis-assigned to the receptor.",
-   "fix": "Moved T55 (11 heavy atoms) into peptide.cif and peptide.sdf and added the GCS.N2-T55.C amide bond; removed T55 from receptor.cif. peptide is now 132 heavy atoms (was 121; formula C88H97Cl2N9O33); receptor is now 1312 heavy atoms (was 1323). complex.cif was already correct and is unchanged.",
-   "files_changed": [
-    "peptide.cif",
-    "peptide.sdf",
-    "receptor.cif",
-    "meta.json"
-   ],
-   "note": "Derived QC counters elsewhere in this meta.json (e.g. qc.atom_counts.hetero_heavy, provenance.outputs.*, strict_clean.atom_counts) were NOT recomputed and may still reflect the pre-correction split; the structure files are authoritative.",
-   "derived_fields": "qc.atom_counts.peptide_heavy (85) and strict_clean.peptide_polymer_after (85) are POLYMER-scoped and remain correct; T55 is a non-polymer atom, so complex-level composition counts (hetero_heavy, total_heavy) are unchanged. provenance.outputs and strict_clean.outputs byte sizes and n_struct_conn for peptide.cif/receptor.cif were updated to the corrected files."
-  },
-  {
-   "date": "2026-09-21",
-   "component": "T55 downstream counters",
-   "issue": "Follow-up to the 2026-09-15 T55 correction, whose note flagged that some derived counters were not recomputed. Two remained stale: provenance.outputs['complex.cif'].bytes (100609, actual 99783; complex.cif content was always correct and balances peptide+receptor) and bmi200/MANIFEST.csv 4PJZ (components_in_peptide_file omitted T55; n_components_in_peptide_file said 10).",
-   "fix": "Set provenance.outputs['complex.cif'].bytes to 99783. In bmi200/MANIFEST.csv, appended T55 to 4PJZ components_in_peptide_file and set n_components_in_peptide_file to 11.",
-   "files_changed": [
-    "meta.json",
-    "../../MANIFEST.csv"
-   ]
-  }
- ],
  "built_utc": "2026-08-03T15:09:34Z",
  "decisions": {
   "altloc": {
@@ -78,7 +52,7 @@
      "n_heavy_atoms": 11,
      "on_additive_list": false,
      "on_cofactor_list": false,
-     "reason": "covalently_bonded_to_retained_peptide_via_GCS_N2 [corrected 2026-09-15, see corrections]",
+     "reason": "covalently_bonded_to_retained_peptide_via_GCS_N2",
      "seqid": 102,
      "struct_conn_bonded_to": [
       {
@@ -256,7 +230,7 @@
     {
      "comp": "T55",
      "seqid": 102,
-     "source": "struct_conn_covale [added 2026-09-15, see corrections]",
+     "source": "struct_conn_covale",
      "subchain": "D"
     }
    ],
@@ -378,16 +352,6 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 99782,
-    "file": "complex.cif",
-    "n_chains": 2,
-    "n_struct_conn": 17,
-    "subchains_kept": [
-     "A",
-     "B"
-    ]
-   },
    "peptide.cif": {
     "bytes": 15600,
     "file": "peptide.cif",
@@ -400,7 +364,7 @@
    "receptor.cif": {
     "bytes": 89376,
     "file": "receptor.cif",
-    "n_chains": 2,
+    "n_chains": 1,
     "n_struct_conn": 3,
     "subchains_kept": [
      "B"
@@ -974,7 +938,6 @@
   },
   "built_utc": "2026-08-03T17:05:23Z",
   "files": {
-   "complex.cif": "strict: protein + peptide + metals/monatomic ions",
    "peptide.cif": "unchanged - every component covalently part of the peptide is retained by the policy",
    "receptor.cif": "rewritten strictly"
   },
@@ -982,20 +945,6 @@
   "notes": [
    "peptide_integral_by_closure_T55_struct_conn_covalent_bond"
   ],
-  "outputs": {
-   "complex.cif": {
-    "bytes": 99783,
-    "n_struct_conn": 17
-   },
-   "peptide.cif": {
-    "bytes": 15601,
-    "n_struct_conn": 14
-   },
-   "receptor.cif": {
-    "bytes": 89377,
-    "n_struct_conn": 3
-   }
-  },
   "policy": {
    "ambiguous_set_ruling": "CL/NA/K are monatomic ions and stay. SO4/PO4 are polyatomic additives and go. NH4 goes: only one heavy atom is modelled but the CCD lists 5 atoms, so the species is polyatomic, and the test is on the species not on what happens to be modelled. UNX goes: one atom, but element X is neither metal nor halide.",
    "keep_K1_peptide_integral": "any component sharing a label_asym_id with a residue of decisions.hetero.peptide_covalent_moieties (whole branched entity), EXCEPT a cryoprotectant or buffer additive whose only link to the peptide is distance-inferred rather than in _struct_conn",
@@ -1085,7 +1034,7 @@
     "min_dist_to_peptide_A": 3.264,
     "min_dist_to_receptor_A": 3.482,
     "n_heavy_atoms": 11,
-    "permissive_reason": "covalently_bonded_to_retained_peptide_via_GCS_N2 [corrected 2026-09-21, see corrections]",
+    "permissive_reason": "covalently_bonded_to_retained_peptide_via_GCS_N2",
     "seqid": 102,
     "subchain": "D"
    },
@@ -1115,7 +1064,6 @@
    }
   ],
   "verification": {
-   "complex_cif_rereads": true,
    "ends_with_newline": true,
    "every_surviving_struct_conn_present": true,
    "peptide_plus_receptor_partition_complex_exactly": true,
@@ -1132,5 +1080,17 @@
    "bonded_to": "GHP.N",
    "distance_A": 0.03
   }
- ]
+ ],
+ "derived": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "-",
+  "added_residues": [],
+  "added_atoms": [],
+  "added_links": []
+ },
+ "receptor_links": []
 }

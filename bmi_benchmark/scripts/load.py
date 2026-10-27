@@ -40,14 +40,16 @@ def load_bmi_modes():
     return sites, poses
 
 
-def bmi200_complex_path(pdb_id):
-    """Return the path to one BMI-200 complex.cif."""
-    return os.path.join(ROOT, "bmi200", "entries", pdb_id, "complex.cif")
+def bmi200_path(pdb_id, name="peptide.cif"):
+    """Return the path to one file of a BMI-200 entry: peptide.cif, receptor.cif,
+    peptide_fixed.cif, peptide_fixed.sdf, peptide_fixed_protonated.sdf or meta.json."""
+    return os.path.join(ROOT, "bmi200", "entries", pdb_id, name)
 
 
-def bmi_modes_pose_path(site_id, pose):
-    """Return the path to one BMI-MODES pose file (for example pose=1)."""
-    return os.path.join(ROOT, "bmi_modes", "sites", site_id, f"pose_{int(pose):02d}.cif")
+def bmi_modes_pose_path(site_id, pose, suffix=".cif"):
+    """Return the path to one BMI-MODES pose file (for example pose=1). The default is the
+    deposited pose; suffix "_fixed.cif", "_fixed.sdf" or "_fixed_protonated.sdf" gives a derived file."""
+    return os.path.join(ROOT, "bmi_modes", "sites", site_id, f"pose_{int(pose):02d}{suffix}")
 
 
 def _summary_bmi200():
@@ -63,7 +65,7 @@ def _summary_bmi200():
     acc = e.receptor_uniprot.str.split(";").explode().str.strip()
     acc = acc[(acc != "") & (acc != "-")]
     print(f"  distinct receptors (UniProt): {acc.nunique()}")
-    print(f"  example complex: {bmi200_complex_path(e.pdb_id.iloc[0])}")
+    print(f"  example peptide: {bmi200_path(e.pdb_id.iloc[0])}")
 
 
 def _summary_bmi_modes():

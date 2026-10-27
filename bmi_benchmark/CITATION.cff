@@ -3,8 +3,8 @@ message: "If you use this benchmark, please cite it as below."
 title: "BMI-200 and BMI-MODES: peptide–protein binding-mode identification benchmarks"
 abstract: >-
   Two curated datasets of peptide–protein X-ray complexes for binding-mode
-  identification: BMI-200, a 202-entry diversity set, and BMI-MODES, 30
-  mode-discrimination sites with two to five experimentally supported poses each.
+  identification: BMI-200, a 202-entry diversity set, and BMI-MODES, 29
+  mode-discrimination sites with two to four experimentally supported poses each.
 type: dataset
 authors:
   - name: "Receptor.AI, Inc."

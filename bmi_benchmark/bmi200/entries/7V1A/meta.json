@@ -149,19 +149,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 163598,
-    "file": "complex.cif",
-    "n_chains": 2,
-    "n_struct_conn": 5,
-    "role": "strict primary",
-    "written_by": "strict-hetero-clean bmi-strict-hetero-1.0"
-   },
    "peptide.cif": {
     "bytes": 16250,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 5,
+    "n_struct_conn": 19,
     "subchains_kept": [
      "B"
     ]
@@ -1354,12 +1346,6 @@
    "trailing_newline": true
   },
   "files": {
-   "complex.cif": {
-    "bytes": 163598,
-    "n_chains": 2,
-    "n_struct_conn": 5,
-    "role": "strict primary"
-   },
    "peptide.cif": {
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
@@ -1429,33 +1415,86 @@
    "kind": "sidechain_truncated"
   }
  ],
- "fixed_geometry": {
+ "derived": {
   "files": [
    "peptide_fixed.cif",
-   "peptide_fixed.sdf"
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
   ],
-  "n_rebuilt": 3,
-  "rebuilt_atoms": [
+  "terminal_completion": "C:OXT",
+  "added_residues": [],
+  "added_atoms": [
    {
-    "comp": "ASP",
-    "seqid": 7,
-    "atom": "CG",
-    "element": "C"
+    "atom": "B/ASP/7/CG",
+    "element": "C",
+    "origin": "rebuilt",
+    "xyz": [
+     0.404,
+     30.163,
+     10.741
+    ],
+    "b": 76.62
    },
    {
-    "comp": "ASP",
-    "seqid": 7,
-    "atom": "OD1",
-    "element": "O"
+    "atom": "B/ASP/7/OD1",
+    "element": "O",
+    "origin": "rebuilt",
+    "xyz": [
+     -0.242,
+     31.1,
+     11.171
+    ],
+    "b": 76.62
    },
    {
-    "comp": "ASP",
-    "seqid": 7,
-    "atom": "OD2",
-    "element": "O"
+    "atom": "B/ASP/7/OD2",
+    "element": "O",
+    "origin": "rebuilt",
+    "xyz": [
+     1.221,
+     29.434,
+     11.535
+    ],
+    "b": 76.62
+   },
+   {
+    "atom": "B/SER/25/OXT",
+    "element": "O",
+    "origin": "oxt",
+    "xyz": [
+     11.917,
+     33.953,
+     -14.547
+    ],
+    "b": 98.9
    }
   ],
-  "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
-  "forcefield": "GAFF2 (antechamber gasteiger charges)"
- }
+  "added_links": [],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 2.27,
+    "min_receptor_contact_A": 2.44,
+    "junction_bonds_A": []
+   }
+  },
+  "rebuild": {
+   "method": "CCD-superpose rebuild + GAFF2 restrained in-pocket minimisation (crystal atoms + receptor frozen)",
+   "forcefield": "GAFF2 (antechamber gasteiger charges)",
+   "receptor_wall": "receptor heavy atoms within 8 A of the peptide, frozen, Lennard-Jones only",
+   "gaff2_energy_kJ_mol": {
+    "before": 6886.7,
+    "after": 1862.1
+   },
+   "qc": {
+    "min_intra_peptide_contact_A": 3.46,
+    "min_receptor_contact_A": 11.25,
+    "ccd_stereocentres_checked": 0,
+    "ccd_chirality_mismatches": 0,
+    "deposited_atoms_max_shift_A": 0.0
+   },
+   "frozen": "every deposited atom and every terminal atom"
+  }
+ },
+ "receptor_links": []
 }

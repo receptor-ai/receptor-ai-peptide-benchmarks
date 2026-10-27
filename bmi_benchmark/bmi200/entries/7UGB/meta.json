@@ -146,19 +146,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 198034,
-    "file": "complex.cif",
-    "n_chains": 2,
-    "n_struct_conn": 1,
-    "role": "strict primary",
-    "written_by": "strict-hetero-clean bmi-strict-hetero-1.0"
-   },
    "peptide.cif": {
     "bytes": 13285,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 1,
+    "n_struct_conn": 14,
     "subchains_kept": [
      "B"
     ]
@@ -1012,12 +1004,6 @@
    "trailing_newline": true
   },
   "files": {
-   "complex.cif": {
-    "bytes": 198034,
-    "n_chains": 2,
-    "n_struct_conn": 1,
-    "role": "strict primary"
-   },
    "peptide.cif": {
     "role": "unchanged; every component in it is peptide-integral by construction"
    },
@@ -1055,5 +1041,37 @@
   "risky_removal_cut_A": 4.0,
   "risky_removals": [],
   "utc": "2026-08-03T16:51:26Z"
- }
+ },
+ "derived": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "C:OXT",
+  "added_residues": [],
+  "added_atoms": [
+   {
+    "atom": "I/ASP/181/OXT",
+    "element": "O",
+    "origin": "oxt",
+    "xyz": [
+     -29.254,
+     -22.16,
+     29.159
+    ],
+    "b": 88.21
+   }
+  ],
+  "added_links": [],
+  "termini": {
+   "method": "terminal atoms missing from the deposited model, placed at ideal geometry from the deposited atoms (no minimisation); every deposited atom unchanged",
+   "qc": {
+    "min_intra_peptide_contact_A": 3.24,
+    "min_receptor_contact_A": 2.66,
+    "junction_bonds_A": []
+   }
+  }
+ },
+ "receptor_links": []
 }

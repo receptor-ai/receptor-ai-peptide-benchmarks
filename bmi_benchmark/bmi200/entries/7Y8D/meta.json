@@ -182,22 +182,11 @@
    "status": "ok"
   },
   "outputs": {
-   "complex.cif": {
-    "bytes": 87175,
-    "file": "complex.cif",
-    "n_chains": 2,
-    "n_struct_conn": 4,
-    "subchains_kept": [
-     "A",
-     "B",
-     "C"
-    ]
-   },
    "peptide.cif": {
     "bytes": 14284,
     "file": "peptide.cif",
     "n_chains": 1,
-    "n_struct_conn": 4,
+    "n_struct_conn": 14,
     "subchains_kept": [
      "B"
     ]
@@ -1206,9 +1195,8 @@
    "total_heavy_before": 1250
   },
   "files": {
-   "complex.cif": "strict",
    "peptide.cif": "unchanged",
-   "receptor.cif": "strict (rewritten so that peptide.cif + receptor.cif still partition complex.cif)"
+   "receptor.cif": "rewritten strictly"
   },
   "ion_rule": "monatomic stays, polyatomic goes: CL/NA/K/ZN/CA/MG/... kept, SO4/PO4/NO3/NH4 removed. A monatomic ion is also never a covalent bridge, so it cannot make a component it coordinates peptide-integral - SPEC sec.7 rule 4, coordination is not a covalent bond",
   "n_struct_conn_after": 4,
@@ -1283,8 +1271,42 @@
     "S1"
    ],
    "kind": "sidechain_truncated",
-   "no_fixed_companion": true,
-   "note": "No peptide_fixed.cif/.sdf is shipped for this entry. JFF is a covalent staple crosslinker - a bis-thioether to Cys1.SG and Cys11.SG plus an N-terminal Cys1.N-JFF.C1 linkage (see _struct_conn) - not a rebuildable disordered side chain. Its 16 unmodelled atoms are a disordered pendant substituent (>50% of the moiety, a chloro-substituted aromatic/amide group) that cannot be reliably rebuilt, so the peptide is shipped exactly as deposited. [2026-09-21]"
+   "note": "JFF is a covalent staple crosslinker - a bis-thioether to Cys1.SG and Cys11.SG plus an N-terminal Cys1.N-JFF.C1 linkage (see _struct_conn) - not a rebuildable disordered side chain. Its 16 unmodelled atoms are a disordered pendant substituent (>50% of the moiety, a chloro-substituted aromatic/amide group) that cannot be reliably rebuilt, so the derived files keep JFF101 as deposited, without its 16 missing atoms (derived.not_rebuilt)."
   }
- ]
+ ],
+ "derived": {
+  "files": [
+   "peptide_fixed.cif",
+   "peptide_fixed.sdf",
+   "peptide_fixed_protonated.sdf"
+  ],
+  "terminal_completion": "-",
+  "added_residues": [],
+  "added_atoms": [],
+  "added_links": [],
+  "not_rebuilt": [
+   {
+    "residue": "B/JFF/101",
+    "missing_atoms": [
+     "C2",
+     "C3",
+     "C4",
+     "C5",
+     "C6",
+     "C7",
+     "C8",
+     "CL1",
+     "N1",
+     "N2",
+     "N3",
+     "O1",
+     "O2",
+     "O3",
+     "O4",
+     "S1"
+    ]
+   }
+  ]
+ },
+ "receptor_links": []
 }
